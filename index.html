@@ -150,7 +150,7 @@
             border-color: var(--accent);
         }
 
-        /* Cards Estilo Losango / Painel Oculto (Surpresa) */
+        /* Cards Principais (Losango) */
         .evento-card {
             background: var(--card-bg);
             border-radius: 10px;
@@ -184,7 +184,7 @@
             background-color: #fdfbf7;
         }
 
-        /* Elemento decorativo em formato de losango nos cards */
+        /* Ícone em Losango Principal */
         .diamond-icon {
             display: inline-flex;
             align-items: center;
@@ -198,7 +198,7 @@
             border-radius: 4px;
         }
 
-        .evento-card.open .diamond-icon {
+        .evento-card.open > .evento-header .diamond-icon {
             background-color: var(--accent);
             color: white;
         }
@@ -210,7 +210,7 @@
             color: var(--primary);
         }
 
-        .evento-card.open .diamond-content-icon {
+        .evento-card.open > .evento-header .diamond-content-icon {
             color: white;
         }
 
@@ -233,21 +233,80 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .evento-card.open .evento-body {
+        .evento-card.open > .evento-body {
             display: block;
         }
 
-        .evento-body p {
+        /* Sub-cards internos em formato de losango */
+        .sub-card {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 8px;
             margin: 0.8rem 0;
+            overflow: hidden;
+            transition: all 0.2s ease;
         }
 
-        .evento-body ul {
-            margin: 0.5rem 0 1.2rem 1.4rem;
+        .sub-header {
+            padding: 0.8rem 1rem;
+            background-color: #f1f5f9;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--secondary);
+            font-size: 0.95rem;
+            user-select: none;
+        }
+
+        .sub-header:hover {
+            background-color: #e2e8f0;
+        }
+
+        .sub-diamond {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            background-color: #cbd5e1;
+            transform: rotate(45deg);
+            margin-right: 10px;
+            border-radius: 3px;
+            transition: background 0.2s;
+        }
+
+        .sub-card.open .sub-diamond {
+            background-color: var(--accent);
+        }
+
+        .sub-diamond-text {
+            transform: rotate(-45deg);
+            font-size: 0.65rem;
+            color: white;
+            font-weight: bold;
+        }
+
+        .sub-body {
+            padding: 1rem 1.2rem;
+            background-color: #ffffff;
+            display: none;
+            border-top: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+
+        .sub-card.open .sub-body {
+            display: block;
+        }
+
+        .sub-body ul {
+            margin: 0.4rem 0 0.4rem 1.2rem;
             padding: 0;
         }
 
-        .evento-body li {
-            margin-bottom: 0.4rem;
+        .sub-body li {
+            margin-bottom: 0.3rem;
         }
 
         .info-tag {
@@ -406,14 +465,14 @@
 
             return `
                 <div class="evento-card" data-titulo="${(evento.titulo_bloco || '').toLowerCase()}">
-                    <div class="evento-header" onclick="alternarSanfona(this)">
+                    <div class="evento-header" onclick="alternarSanfonaPrincipal(this)">
                         <div class="evento-title-wrapper">
                             <div class="diamond-icon"><span class="diamond-content-icon">✦</span></div>
                             <span>${evento.titulo_bloco || 'Sem Título'}</span>
                         </div>
                         <div>
                             <span class="info-tag">${evento.ano_inicio || ''} a ${evento.ano_fim || ''}</span>
-                            <span style="margin-left: 10px; font-size: 0.8rem; color: var(--accent);">▼</span>
+                            <span style="margin-left: 10px; font-size: 0.8rem; color: var(--accent);" class="seta-principal">▼</span>
                         </div>
                     </div>
                     <div class="evento-body">
@@ -421,27 +480,89 @@
                         <p><strong>Local:</strong> ${evento.local || ''}</p>
                         <p><strong>Tema:</strong> ${evento.tema || ''}</p>
                         <hr style="border:0; border-top:1px solid var(--border); margin: 15px 0;">
-                        <p><strong>Contexto:</strong> ${evento.contexto || ''}</p>
                         
-                        ${antecedentesHTML ? `<p style="margin-top:1rem;"><strong>Antecedentes:</strong></p><ul>${antecedentesHTML}</ul>` : ''}
-                        
-                        <p style="margin-top:1rem;"><strong>Desenvolvimento:</strong> ${evento.desenvolvimento || ''}</p>
-                        
-                        ${personagensHTML ? `<p style="margin-top:1rem;"><strong>Personagens Destacados:</strong></p><ul>${personagensHTML}</ul>` : ''}
-                        
-                        ${linhaTempoHTML ? `<p style="margin-top:1rem;"><strong>Linha do Tempo:</strong></p><ul>${linhaTempoHTML}</ul>` : ''}
-                        
-                        ${evento.consequencias_longo_prazo ? `<p style="margin-top:1rem;"><strong>Consequências a Longo Prazo:</strong> ${evento.consequencias_longo_prazo}</p>` : ''}
+                        <!-- Sub-card: Contexto -->
+                        ${evento.contexto ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Contexto</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><p>${evento.contexto}</p></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Antecedentes -->
+                        ${antecedentesHTML ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Antecedentes</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><ul>${antecedentesHTML}</ul></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Desenvolvimento -->
+                        ${evento.desenvolvimento ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Desenvolvimento</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><p>${evento.desenvolvimento}</p></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Personagens Destacados -->
+                        ${personagensHTML ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Personagens Destacados</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><ul>${personagensHTML}</ul></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Linha do Tempo -->
+                        ${linhaTempoHTML ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Linha do Tempo</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><ul>${linhaTempoHTML}</ul></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Consequências -->
+                        ${evento.consequencias_longo_prazo ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Consequências a Longo Prazo</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><p>${evento.consequencias_longo_prazo}</p></div>
+                            </div>
+                        ` : ''}
                     </div>
                 </div>
             `;
         }
 
-        function alternarSanfona(header) {
+        function alternarSanfonaPrincipal(header) {
             const card = header.parentElement;
             card.classList.toggle('open');
-            const seta = header.querySelector('span[style*="color: var(--accent)"]');
+            const seta = header.querySelector('.seta-principal');
             seta.textContent = card.classList.contains('open') ? '▲' : '▼';
+        }
+
+        function alternarSubCard(subHeader) {
+            const subCard = subHeader.parentElement;
+            subCard.classList.toggle('open');
+            const seta = subHeader.querySelector('span[style*="font-size: 0.75rem"]');
+            seta.textContent = subCard.classList.contains('open') ? '▲' : '▼';
         }
 
         function filtrarCards(input, idContainer) {
