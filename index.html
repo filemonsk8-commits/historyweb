@@ -135,13 +135,13 @@
             margin-bottom: 0;
         }
 
-        /* Ícone de Bandeira do Brasil Limpo (SVG) */
+        /* Ícone de Bandeira do Brasil (CSS Puro) */
         .flag-icon {
             width: 22px;
             height: 16px;
             border-radius: 2px;
             display: inline-block;
-            background: linear-gradient(to bottom, #009c3b 0%, #009c3b 100%);
+            background: #009c3b;
             position: relative;
             vertical-align: middle;
             box-shadow: 0 1px 3px rgba(0,0,0,0.2);
@@ -218,7 +218,6 @@
             background-color: #fdfbf7;
         }
 
-        /* Ícone em Losango Principal */
         .diamond-icon {
             display: inline-flex;
             align-items: center;
@@ -495,7 +494,7 @@
         function criarCardHTML(evento) {
             const antecedentesHTML = evento.antecedentes ? evento.antecedentes.map(item => `<li>${item}</li>`).join('') : '';
             const personagensHTML = evento.personagens ? evento.personagens.map(item => `<li>${item}</li>`).join('') : '';
-            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano || ''}:</strong> ${item.titulo \vert{}\vert{} ''} —${item.descricao || ''}</li>`).join('') : '';
+            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano || ''}:</strong> ${item.titulo || ''} — ${item.descricao || ''}</li>`).join('') : '';
 
             return `
                 <div class="evento-card" data-titulo="${(evento.titulo_bloco || '').toLowerCase()}">
@@ -505,7 +504,7 @@
                             <span>${evento.titulo_bloco || 'Sem Título'}</span>
                         </div>
                         <div>
-                            <span class="info-tag">${evento.ano_inicio \vert{}\vert{} ''} a${evento.ano_fim || ''}</span>
+                            <span class="info-tag">${evento.ano_inicio || ''} a ${evento.ano_fim || ''}</span>
                             <span style="margin-left: 10px; font-size: 0.8rem; color: var(--accent);" class="seta-principal">▼</span>
                         </div>
                     </div>
@@ -547,3 +546,72 @@
                                 <div class="sub-body"><p>${evento.desenvolvimento}</p></div>
                             </div>
                         ` : ''}
+
+                        <!-- Sub-card: Personagens Destacados -->
+                        ${personagensHTML ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Personagens Destacados</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><ul>${personagensHTML}</ul></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Linha do Tempo -->
+                        ${linhaTempoHTML ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Linha do Tempo</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><ul>${linhaTempoHTML}</ul></div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Sub-card: Consequências -->
+                        ${evento.consequencias_longo_prazo ? `
+                            <div class="sub-card">
+                                <div class="sub-header" onclick="alternarSubCard(this)">
+                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Consequências a Longo Prazo</div>
+                                    <span style="font-size: 0.75rem;">▼</span>
+                                </div>
+                                <div class="sub-body"><p>${evento.consequencias_longo_prazo}</p></div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function alternarSanfonaPrincipal(header) {
+            const card = header.parentElement;
+            card.classList.toggle('open');
+            const seta = header.querySelector('.seta-principal');
+            seta.textContent = card.classList.contains('open') ? '▲' : '▼';
+        }
+
+        function alternarSubCard(subHeader) {
+            const subCard = subHeader.parentElement;
+            subCard.classList.toggle('open');
+            const seta = subHeader.querySelector('span[style*="font-size: 0.75rem"]');
+            seta.textContent = subCard.classList.contains('open') ? '▲' : '▼';
+        }
+
+        function filtrarCards(input, idContainer) {
+            const termo = input.value.toLowerCase();
+            const container = document.getElementById(idContainer);
+            const cards = container.getElementsByClassName('evento-card');
+
+            for (let card of cards) {
+                const titulo = card.getAttribute('data-titulo');
+                if (titulo.includes(termo)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
