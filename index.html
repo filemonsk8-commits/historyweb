@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historyweb - Biblioteca de Eventos Históricos</title>
+    <!-- Tailwind CSS para design responsivo e moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+    <!-- Cabeçalho Fixo -->
+    <header class="py-8 px-4 text-center border-b border-slate-800 bg-slate-900/80 sticky top-0 z-30 backdrop-blur">
+        <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-white">Historyweb</h1>
+        <p class="text-slate-400 mt-1 text-sm md:text-base">Biblioteca de Eventos e Cronologias Históricas</p>
+        
+        <!-- Barra de Busca por Século, Data, Tema ou Palavra-chave -->
+        <div class="max-w-xl mx-auto mt-6">
+            <input type="text" id="searchInput" placeholder="Busque por ano (ex: -12000, 1500), título, bloco ou tema..." 
+                class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition shadow-inner text-sm md:text-base">
+        </div>
+    </header>
+
+    <!-- Container Principal dos Cards -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div id="cards-container" class="space-y-8">
+            <!-- Os cards completos são injetados aqui via JavaScript -->
+        </div>
+        
+        <!-- Mensagem de Nenhum Resultado -->
+        <div id="no-results" class="hidden text-center py-16 text-slate-500">
+            Nenhum evento encontrado com os termos pesquisados.
+        </div>
+    </main>
+
+    <!-- Script de Leitura do JSON e Renderização Completa -->
+    <script>
+        let todosEventos = [];
+
+        async function carregarDados() {
+            try {
+                const resposta = await fetch('eventos.json');
+                if (!resposta.ok) throw new Error('Não foi possível carregar o arquivo eventos.json');
+                todosEventos = await resposta.json();
+                renderizarCards(todosEventos);
+            } catch (erro) {
+                console.error(erro);
+                document.getElementById('cards-container').innerHTML = `
+                    <div class="p-6 bg-red-950/40 border border-red-800 rounded-xl text-red-300 text-center text-sm">
+                        Erro ao carregar o arquivo <b>eventos.json</b>. Verifique se ele está na mesma pasta no GitHub Pages.
+                    </div>`;
+            }
+        }
+
+        function renderizarCards(eventos) {
+            const container = document.getElementById('cards-container');
+            const noResults = document.getElementById('no-results');
+            container.innerHTML = '';
+
+            if (eventos.length === 0) {
+                noResults.classList.remove('hidden');
+                return;
+            } else {
+                noResults.classList.add('hidden');
+            }
+
+            eventos.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-900/90 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl transition duration-300 hover:border-indigo-500/40';
+
+                // Montagem das seções detalhadas para preservar toda a estrutura analítica
+                let antecedentesHtml = item.antecedentes ? `
+                    <div class="mb-4">
+                        <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1.5">Antecedentes</h4>
+                        <ul class="list-disc list-inside text-sm text-slate-300 space-y-1">
+                            ${item.antecedentes.map(a => `<li>${a}</li>`).join('')}
+                        </ul>
+                    </div>` : '';
+
+                let causasHtml = item.causas ? `
+                    <div class="mb-4">
+                        <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1.5">Causas e Dimensões</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs text-slate-300 bg-slate-950/40 p-3 rounded-lg border border-slate-800/60">
+                            ${Object.entries(item.causas).map(([k, v]) => `<div><strong class="text-indigo-300 uppercase">${k}:</strong>${v}</div>`).join('')}
+                        </div>
+                    </div>` : '';
+
+                let personagensHtml = item.personagens ? `
+                    <div class="mb-4">
+                        <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1.5">Personagens Chave</h4>
+                        <ul class="list-disc list-inside text-sm text-slate-300 space-y-1">
+                            ${item.personagens.map(p => `<li>${p}</li>`).join('')}
+                        </ul>
+                    </div>` : '';
+
+                let linhaTempoHtml = item.linha_do_tempo ? `
+                    <div class="mb-4">
+                        <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">Linha do Tempo Específica</h4>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                            ${item.linha_do_tempo.map(m => `
+                                <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/80">
+                                    <span class="text-xs font-mono font-bold text-indigo-400">${m.ano}</span>
+                                    <h5 class="text-sm font-bold text-white mt-1">${m.titulo}</h5>
+                                    <p class="text-xs text-slate-400 mt-1">${m.descricao}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>` : '';
+
+                let impactosHtml = item.impactos ? `
+                    <div class="mb-4">
+                        <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1.5">Impactos</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs text-slate-300 bg-slate-950/40 p-3 rounded-lg border border-slate-800/60">
+                            ${Object.entries(item.impactos).map(([k, v]) => `<div><strong class="text-indigo-300 uppercase">${k}:</strong>${v}</div>`).join('')}
+                        </div>
+                    </div>` : '';
+
+                card.innerHTML = `
+                    <!-- Cabeçalho do Card -->
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-4 mb-4 border-b border-slate-800">
+                        <div>
+                            <span class="text-xs font-mono font-bold text-indigo-400 bg-indigo-950/80 px-2.5 py-1 rounded-md border border-indigo-900/50">${item.bloco}</span>
+                            <span class="text-xs font-medium text-slate-400 ml-2">${item.periodo} (${item.ano_inicio} até ${item.ano_fim})</span>
+                        </div>
+                        <div class="text-xs text-slate-400 bg-slate-950/50 px-3 py-1 rounded-full border border-slate-800">
+                            <strong>Local:</strong> ${item.local}
+                        </div>
+                    </div>
+
+                    <!-- Título Principal -->
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">${item.titulo_bloco}</h2>
+                    
+                    <!-- Tema e Contexto -->
+                    <div class="mb-4 text-sm space-y-2">
+                        <p class="text-indigo-200/90"><strong>Tema:</strong> ${item.tema || ''}</p>
+                        <p class="text-slate-300 leading-relaxed"><strong>Contexto:</strong> ${item.contexto || ''}</p>
+                    </div>
+
+                    <!-- Resumo e Desenvolvimento -->
+                    <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 mb-4 space-y-3 text-sm">
+                        <p class="text-slate-200 leading-relaxed"><strong>Resumo:</strong> ${item.resumo_card}</p>
+                        <p class="text-slate-300 leading-relaxed text-xs md:text-sm"><strong>Desenvolvimento:</strong> ${item.desenvolvimento}</p>
+                    </div>
+
+                    <!-- Blocos Detalhados -->
+                    ${antecedentesHtml}
+                    ${causasHtml}
+                    ${personagensHtml}
+                    ${linhaTempoHtml}
+                    ${impactosHtml}
+
+                    <!-- Consequências, Continuidade e Rupturas -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 border-t border-slate-800 text-xs text-slate-300">
+                        <div>
+                            <strong class="text-indigo-300 block mb-1 uppercase tracking-wider">Consequências Imediatas:</strong>
+                            <ul class="list-disc list-inside space-y-1">
+                                ${item.consequencias_imediatas ? item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('') : ''}
+                            </ul>
+                        </div>
+                        <div>
+                            <strong class="text-indigo-300 block mb-1 uppercase tracking-wider">Consequências a Longo Prazo:</strong>
+                            <ul class="list-disc list-inside space-y-1">
+                                ${item.consequencias_longo_prazo ? item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('') : ''}
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-3 border-t border-slate-800/60 grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+                        <div><strong class="text-slate-400">Continuidade:</strong> <span class="text-slate-300">${item.continuidade || ''}</span></div>
+                        <div><strong class="text-slate-400">Rupturas:</strong> <span class="text-slate-300">${item.rupturas || ''}</span></div>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        // Sistema de Busca em Tempo Real robusto
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const termo = e.target.value.toLowerCase().trim();
+            
+            const filtrados = todosEventos.filter(item => {
+                const txtTitulo = (item.titulo_bloco || '').toLowerCase();
+                const txtBloco = (item.bloco || '').toLowerCase();
+                const txtPeriodo = (item.periodo || '').toLowerCase();
+                const txtTema = (item.tema || '').toLowerCase();
+                const txtResumo = (item.resumo_card || '').toLowerCase();
+                const txtDesenvolvimento = (item.desenvolvimento || '').toLowerCase();
+                
+                const bateNoAno = item.linha_do_tempo && item.linha_do_tempo.some(m => 
+                    m.ano.toLowerCase().includes(termo) || m.titulo.toLowerCase().includes(termo)
+                );
+
+                return txtTitulo.includes(termo) || 
+                       txtBloco.includes(termo) || 
+                       txtPeriodo.includes(termo) || 
+                       txtTema.includes(termo) || 
+                       txtResumo.includes(termo) || 
+                       txtDesenvolvimento.includes(termo) || 
+                       bateNoAno ||
+                       String(item.ano_inicio).includes(termo) ||
+                       String(item.ano_fim).includes(termo);
+            });
+
+            renderizarCards(filtrados);
+        });
+
+        // Inicializa a aplicação
+        carregarDados();
+    </script>
+</body>
+</html>
