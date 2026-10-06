@@ -1,0 +1,67 @@
+[
+  {
+    "id": "brasil-pre-colonial-01",
+    "bloco": "BLOCO 01",
+    "titulo_bloco": "BRASIL PRÉ-COLONIAL: OS PRIMEIROS POVOAMENTOS E A ARTE RUPESTRE",
+    "ano_inicio": -12000,
+    "ano_fim": 1500,
+    "periodo": "Pré-História Brasileira / Arqueologia Americana",
+    "local": "Território brasileiro (Sítios arqueológicos de São Raimundo Nonato/PI, Lagoa Santa/MG, Vale do Peruaçu e Amazônia)",
+    "sociedades_envolvidas": "Caçadores-coletores originários, povos dos sambaquis, horticultores ceramistas e populações amazônicas ancestrais",
+    "tema": "Povoamento da América, Arqueologia Brasileira, Tradições Culturais Nativas, Sambaquis e Arte Rupestre",
+    "contexto": "Período que abrange a chegada e a fixação dos primeiros grupos humanos no território que hoje corresponde ao Brasil, muito antes da chegada dos colonizadores europeus, caracterizado por grande diversidade cultural e adaptação aos diferentes biomas.",
+    "antecedentes": [
+      "Processo migratório global de Homo sapiens saindo do continente africano e cruzando o Estreito de Bering ou rotas costeiras.",
+      "Adaptação humana aos variados ecossistemas das Américas durante o final da última Era do Gelo."
+    ],
+    "causas": {
+      "politicas": "Organização social baseada em lideranças tradicionais, conselhos de anciãos e autonomia das aldeias e clãs.",
+      "economicas": "Subsistência fundamentada na caça, pesca, coleta de frutos silvestres, manejo florestal e agricultura itinerante.",
+      "sociais": "Sociedades igualitárias com divisão de trabalho por gênero e idade, sem estratificação de classes sociais rígidas.",
+      "religiosas": "Cosmologias integradas à natureza, xamanismo, rituais funerários complexos e sacralização do território.",
+      "culturais": "Produção de arte rupestre de alto valor simbólico e fabricação de cerâmicas ornamentadas.",
+      "territoriais": "Ocupação gradual de abrigos sob rocha, vales fluviais, regiões planálticas e construção de montes em conchas no litoral.",
+      "tecnologias": "Domínio da pedra polida e lascada, técnicas de cerâmica, fogueiras, arcos, flechas e manejo de plantas nativas."
+    },
+    "resumo_card": "O Brasil Pré-Cabralino revela uma ocupação humana milenar extremamente rica e complexa, marcada por sociedades de caçadores-coletores, construtores de sambaquis e ceramistas cujas raízes antecedem em milhares de anos a colonização europeia.",
+    "desenvolvimento": "A presença humana no território brasileiro remonta a pelo menos 12 mil anos atrás. A região do Piauí abriga algumas das mais antigas concentrações de arte rupestre das Américas. No litoral, os povos dos sambaquis ergueram imensos montes cerimoniais e de descarte. Na Amazônia, pesquisas comprovam o desenvolvimento de complexas redes de aldeias interconectadas, geoglifos e terras pretas, demonstrando um profundo manejo e alteração ambiental planejada antes de 1500.",
+    "personagens": [
+      "Luzia: Fóssil humano mais antigo encontrado nas Américas (Lagoa Santa, Minas Gerais).",
+      "Niède Guidon: Arqueóloga fundamental para a escavação, estudo e preservação do Parque Nacional Serra da Capivara.",
+      "Pesquisadores e arqueólogos brasileiros: Responsáveis por reescrever a cronologia do povoamento americano."
+    ],
+    "grupos_envolvidos": [
+      "Grupos de caçadores-coletores do interior e planaltos.",
+      "Populações litorâneas construtoras de sambaquis.",
+      "Povos horticultores ceramistas de tronco Tupi e Jê."
+    ],
+    "interesses_em_disputa": [
+      "Controle de áreas com recursos naturais abundantes, rios piscosos e fontes de matéria-prima para ferramentas.",
+      "Preservação de territórios sagrados e rotas de migração ancestral."
+    ],
+    "linha_do_tempo": [
+      {"ano": "-10000", "titulo": "Primeiros registros na Serra da Capivara", "descricao": "Fogueiras e vestígios de ocupação humana inicial no interior do Piauí."},
+      {"ano": "-5000", "titulo": "Apogeu dos Sambaquis", "descricao": "Construção intensiva de montes de conchas e cemitérios ao longo da costa."},
+      {"ano": "1000", "titulo": "Expansão Tupiguarani", "descricao": "Migração e consolidação de povos ceramistas pelo litoral e grandes bacias."},
+      {"ano": "1500", "titulo": "Contato Euro-Indígena", "descricao": "O encontro entre as culturas pré-coloniais brasileiras e a expedição de Cabral."}
+    ],
+    "consequencias_imediatas": [
+      "Choque cultural, demográfico e epidemiológico com a chegada dos colonizadores europeus no século XVI.",
+      "Início do processo de desestruturação e escravização dos povos originários."
+    ],
+    "consequencias_longo_prazo": [
+      "Preservação do patrimônio arqueológico nacional que desafia teorias eurocêntricas sobre o continente.",
+      "Reconhecimento constitucional dos direitos originários e da ancestralidade indígena na formação brasileira."
+    ],
+    "impactos": {
+      "politicos": "Desestruturação das confederações tribais originais pelo avanço colonial.",
+      "economicos": "Substituição ou exploração das redes de comércio e saberes nativos de extrativismo.",
+      "sociais": "Redução drástica da população indígena nas Américas nos primeiros séculos de colonização.",
+      "culturais": "Herança linguística, culinária, medicinal e tecnológica incorporada à cultura do país.",
+      "territoriais": "Perda gradual dos territórios tradicionais para frentes de expansão agrícola e urbana.",
+      "ambientais": "Manejo sustentável milenar substituído por modelos extrativistas coloniais."
+    },
+    "continuidade": "Permanência de técnicas agrícolas ancestrais, vocabulário e práticas de interação com a biodiversidade.",
+    "rupturas": "Interrupção violenta dos ciclos autônomos de desenvolvimento cultural e demográfico das sociedades nativas em 1500."
+  }
+]
