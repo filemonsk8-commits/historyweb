@@ -3,36 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de História - Completo</title>
+    <title>Painel Educativo de História</title>
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --accent-color: #e67e22;
-            --bg-color: #f4f6f7;
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #e67e22;
+            --bg: #f8f9fa;
             --card-bg: #ffffff;
-            --text-color: #333333;
+            --text: #2c3e50;
+            --border: #e2e8f0;
         }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
+            background-color: var(--bg);
+            color: var(--text);
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
 
         header {
-            background-color: var(--primary-color);
+            background-color: var(--primary);
             color: white;
-            padding: 1.5rem;
+            padding: 2rem 1rem;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.8rem;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.85;
         }
 
         /* Barra de Navegação / Abas */
         .nav-tabs {
             display: flex;
             justify-content: center;
-            background-color: #34495e;
+            background-color: var(--secondary);
             flex-wrap: wrap;
             list-style: none;
             padding: 0;
@@ -44,17 +58,22 @@
             padding: 1rem 1.5rem;
             color: white;
             cursor: pointer;
-            transition: background 0.3s;
+            transition: background 0.2s, color 0.2s;
             font-weight: 600;
+            font-size: 0.95rem;
         }
 
-        .nav-tabs li:hover, .nav-tabs li.active {
-            background-color: var(--accent-color);
+        .nav-tabs li:hover {
+            background-color: rgba(255,255,255,0.1);
         }
 
-        /* Seções e Conteúdo */
+        .nav-tabs li.active {
+            background-color: var(--accent);
+        }
+
+        /* Container Principal */
         .container {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 2rem auto;
             padding: 0 1rem;
         }
@@ -67,79 +86,115 @@
             display: block;
         }
 
-        /* Estilo da Capa Inicial */
+        /* Capa Inicial */
         .capa-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1.5rem;
-            margin-top: 2rem;
+            margin-top: 1.5rem;
         }
 
         .capa-card {
             background: white;
-            padding: 2rem;
+            padding: 1.8rem 1.2rem;
             border-radius: 8px;
             text-align: center;
             cursor: pointer;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             transition: transform 0.2s, box-shadow 0.2s;
-            border-top: 5px solid var(--accent-color);
+            border-top: 4px solid var(--accent);
         }
 
         .capa-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .capa-card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .capa-card p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 0;
         }
 
         /* Caixa de Pesquisa */
         .search-box {
             width: 100%;
-            padding: 0.8rem;
+            padding: 0.8rem 1rem;
             font-size: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
             margin-bottom: 1.5rem;
             box-sizing: border-box;
+            background: white;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.02);
         }
 
-        /* Cards Estilo Sanfona (Retráteis) */
+        /* Cards Estilo Sanfona */
         .evento-card {
             background: var(--card-bg);
-            border-radius: 6px;
+            border-radius: 8px;
             margin-bottom: 1rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             overflow: hidden;
-            border-left: 4px solid var(--primary-color);
+            border: 1px solid var(--border);
+            border-left: 5px solid var(--primary);
         }
 
         .evento-header {
-            padding: 1rem;
+            padding: 1.2rem;
             background-color: #fff;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
             font-weight: bold;
+            color: var(--primary);
+            transition: background 0.2s;
         }
 
         .evento-header:hover {
-            background-color: #f9f9f9;
+            background-color: #f8fafc;
         }
 
         .evento-body {
             padding: 1.5rem;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--border);
             display: none;
-            background-color: #fafafa;
-            line-height: 1.6;
+            background-color: #ffffff;
+            color: #4a5568;
         }
 
         .evento-card.open .evento-body {
             display: block;
         }
 
+        .evento-body p {
+            margin: 0.6rem 0;
+        }
+
         .evento-body ul {
-            margin: 0.5rem 0 1rem 1.2rem;
+            margin: 0.4rem 0 1rem 1.2rem;
+            padding: 0;
+        }
+
+        .evento-body li {
+            margin-bottom: 0.3rem;
+        }
+
+        .info-tag {
+            display: inline-block;
+            background: #edf2f7;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-right: 0.5rem;
+            font-weight: 600;
+            color: #4a5568;
         }
     </style>
 </head>
@@ -147,7 +202,7 @@
 
     <header>
         <h1>Painel Educativo de História</h1>
-        <p>Explore os períodos históricos de forma integrada</p>
+        <p>Explore os períodos históricos e conteúdos interativos</p>
     </header>
 
     <!-- Abas de Navegação -->
@@ -164,16 +219,16 @@
         <!-- ABA 1: CAPA INICIAL -->
         <div id="tab-capa" class="tab-content active">
             <h2>Bem-vindo ao Sistema de Estudos</h2>
-            <p>Selecione abaixo o período que deseja explorar ou utilize os menus superiores:</p>
+            <p>Selecione abaixo o período que deseja explorar ou utilize o menu superior:</p>
             
             <div class="capa-grid">
                 <div class="capa-card" onclick="mudarAba('brasil')">
-                    <h3>🇧🇷 Pré-História do Brasil</h3>
+                    <h3>🇧🇷 Brasil</h3>
                     <p>Povos originários, sambaquis e sítios arqueológicos.</p>
                 </div>
                 <div class="capa-card" onclick="mudarAba('antiguidade')">
                     <h3>🏛️ Antiguidade</h3>
-                    <p>Mesopotâmia, Egito, Grécia e Império Romano.</p>
+                    <p>Mesopotâmia, Egito, Grécia e Roma Antiga.</p>
                 </div>
                 <div class="capa-card" onclick="mudarAba('media')">
                     <h3>🛡️ Idade Média</h3>
@@ -181,7 +236,7 @@
                 </div>
                 <div class="capa-card" onclick="mudarAba('contemporanea')">
                     <h3>⚙️ Contemporânea</h3>
-                    <p>Guerras Mundiais, revoluções e eras modernas.</p>
+                    <p>Guerras Mundiais, revoluções e geopolítica.</p>
                 </div>
             </div>
         </div>
@@ -190,28 +245,28 @@
         <div id="tab-brasil" class="tab-content">
             <h2>Pré-História do Brasil</h2>
             <input type="text" class="search-box" placeholder="Pesquisar nos registros do Brasil..." onkeyup="filtrarCards(this, 'lista-brasil')">
-            <div id="lista-brasil">Carregando dados...</div>
+            <div id="lista-brasil">A carregar dados...</div>
         </div>
 
         <!-- ABA 3: ANTIGUIDADE -->
         <div id="tab-antiguidade" class="tab-content">
             <h2>Antiguidade Oriental e Clássica</h2>
             <input type="text" class="search-box" placeholder="Pesquisar na Antiguidade..." onkeyup="filtrarCards(this, 'lista-antiguidade')">
-            <div id="lista-antiguidade">Carregando dados...</div>
+            <div id="lista-antiguidade">A carregar dados...</div>
         </div>
 
         <!-- ABA 4: MÉDIA -->
         <div id="tab-media" class="tab-content">
             <h2>Idade Média</h2>
             <input type="text" class="search-box" placeholder="Pesquisar na Idade Média..." onkeyup="filtrarCards(this, 'lista-media')">
-            <div id="lista-media">Nenhum evento cadastrado nesta aba ainda.</div>
+            <div id="lista-media"><p>Nenhum evento cadastrado nesta aba ainda.</p></div>
         </div>
 
         <!-- ABA 5: CONTEMPORÂNEA -->
         <div id="tab-contemporanea" class="tab-content">
             <h2>Idade Contemporânea</h2>
             <input type="text" class="search-box" placeholder="Pesquisar na Contemporânea..." onkeyup="filtrarCards(this, 'lista-contemporanea')">
-            <div id="lista-contemporanea">Nenhum evento cadastrado nesta aba ainda.</div>
+            <div id="lista-contemporanea"><p>Nenhum evento cadastrado nesta aba ainda.</p></div>
         </div>
 
     </div>
@@ -228,7 +283,7 @@
             window.scrollTo(0, 0);
         }
 
-        // Carregar o arquivo eventos.json unificado
+        // Carregar o arquivo JSON unificado
         fetch('eventos.json')
             .then(response => response.json())
             .then(data => {
@@ -251,43 +306,41 @@
             todosEventos.forEach(evento => {
                 const htmlCard = criarCardHTML(evento);
 
-                if (evento.id.includes('pre-historia-brasil')) {
+                if (evento.id && evento.id.includes('pre-historia-brasil')) {
                     containerBrasil.innerHTML += htmlCard;
-                } else if (evento.id.includes('geral-ant')) {
+                } else if (evento.id && evento.id.includes('geral-ant')) {
                     containerAntiguidade.innerHTML += htmlCard;
                 }
             });
         }
 
-        // Função de montagem completa do card exibindo todas as propriedades do JSON
         function criarCardHTML(evento) {
-            // Formatar listas internas com segurança caso existam
             const antecedentesHTML = evento.antecedentes ? evento.antecedentes.map(item => `<li>${item}</li>`).join('') : '';
             const personagensHTML = evento.personagens ? evento.personagens.map(item => `<li>${item}</li>`).join('') : '';
-            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano}:</strong> ${item.titulo} - ${item.descricao}</li>`).join('') : '';
+            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano}:</strong> ${item.titulo} — ${item.descricao}</li>`).join('') : '';
 
             return `
                 <div class="evento-card" data-titulo="${evento.titulo_bloco.toLowerCase()}">
                     <div class="evento-header" onclick="alternarSanfona(this)">
-                        <span>${evento.titulo_bloco} (${evento.ano_inicio} a ${evento.ano_fim})</span>
+                        <span>${evento.titulo_bloco} <span class="info-tag">${evento.ano_inicio} a ${evento.ano_fim}</span></span>
                         <span>▼</span>
                     </div>
                     <div class="evento-body">
-                        <p><strong>Período:</strong> ${evento.periodo}</p>
-                        <p><strong>Local:</strong> ${evento.local}</p>
-                        <p><strong>Tema:</strong> ${evento.tema}</p>
-                        <hr style="border:0; border-top:1px solid #ddd; margin: 10px 0;">
-                        <p><strong>Contexto:</strong> ${evento.contexto}</p>
+                        <p><strong>Período:</strong> ${evento.periodo || ''}</p>
+                        <p><strong>Local:</strong> ${evento.local || ''}</p>
+                        <p><strong>Tema:</strong> ${evento.tema || ''}</p>
+                        <hr style="border:0; border-top:1px solid var(--border); margin: 15px 0;">
+                        <p><strong>Contexto:</strong> ${evento.contexto || ''}</p>
                         
-                        ${antecedentesHTML ? `<p><strong>Antecedentes:</strong></p><ul>${antecedentesHTML}</ul>` : ''}
+                        ${antecedentesHTML ? `<p style="margin-top:1rem;"><strong>Antecedentes:</strong></p><ul>${antecedentesHTML}</ul>` : ''}
                         
-                        <p><strong>Desenvolvimento:</strong> ${evento.desenvolvimento}</p>
+                        <p style="margin-top:1rem;"><strong>Desenvolvimento:</strong> ${evento.desenvolvimento || ''}</p>
                         
-                        ${personagensHTML ? `<p><strong>Personagens Destacados:</strong></p><ul>${personagensHTML}</ul>` : ''}
+                        ${personagensHTML ? `<p style="margin-top:1rem;"><strong>Personagens Destacados:</strong></p><ul>${personagensHTML}</ul>` : ''}
                         
-                        ${linhaTempoHTML ? `<p><strong>Linha do Tempo:</strong></p><ul>${linhaTempoHTML}</ul>` : ''}
+                        ${linhaTempoHTML ? `<p style="margin-top:1rem;"><strong>Linha do Tempo:</strong></p><ul>${linhaTempoHTML}</ul>` : ''}
                         
-                        <p><strong>Consequências a Longo Prazo:</strong> ${evento.consequencias_longo_prazo || ''}</p>
+                        ${evento.consequencias_longo_prazo ? `<p style="margin-top:1rem;"><strong>Consequências a Longo Prazo:</strong> ${evento.consequencias_longo_prazo}</p>` : ''}
                     </div>
                 </div>
             `;
