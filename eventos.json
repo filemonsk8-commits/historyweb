@@ -1,66 +1,316 @@
 [
   {
-    "id": "brasil-pre-colonial",
-    "titulo_bloco": "BRASIL PRÉ-COLONIAL: OS PRIMEIROS POVOAMENTOS E A ARTE RUPESTRE",
+    "id": "pre-historia-brasil-01",
+    "titulo_bloco": "A PRÉ-HISTÓRIA BRASILEIRA E OS PRIMEIROS POVOS",
     "ano_inicio": -12000,
     "ano_fim": 1500,
-    "periodo": "Pré-História Brasileira / Arqueologia Americana",
-    "local": "Território brasileiro (Sítios arqueológicos de São Raimundo Nonato/PI, Lagoa Santa/MG, Vale do Peruaçu e Amazônia)",
-    "sociedades_envolvidas": "Caçadores-coletores originários, povos dos sambaquis, horticultores ceramistas e populações amazônicas ancestrais",
-    "tema": "Povoamento da América, Arqueologia Brasileira, Tradições Culturais Nativas, Sambaquis e Arte Rupestre",
-    "contexto": "Período que abrange a chegada e a fixação dos primeiros grupos humanos no território que hoje corresponde ao Brasil, muito antes da chegada dos colonizadores europeus, caracterizado por grande diversidade cultural e adaptação aos diferentes biomas.",
+    "periodo": "Pré-História do Brasil",
+    "local": "Território brasileiro (Sítios arqueológicos de Serra da Capivara, Lagoa Santa, Marajó, etc.)",
+    "sociedades_envolvidas": "Povos originários, caçadores-coletores, horticultores ceramistas (Tradição Tupiguarani, Macro-Jê)",
+    "tema": "Ocupação Humana originária, Arte Rupestre, Sambaquis e Tradições Ceramistas",
+    "contexto": "Período que abrange a chegada e fixação dos primeiros grupos humanos no território que hoje forma o Brasil, muito antes da chegada dos europeus, marcado por alta diversidade cultural, linguística e tecnológica.",
     "antecedentes": [
-      "Processo migratório global de Homo sapiens saindo do continente africano e cruzando o Estreito de Bering ou rotas costeiras.",
-      "Adaptação humana aos variados ecossistemas das Américas durante o final da última Era do Gelo."
+      "Migração de populações caçadoras-coletoras pela América através do Estreito de Bering e rotas costeiras."
     ],
     "causas": {
-      "politicas": "Organização social baseada em lideranças tradicionais, conselhos de anciãos e autonomia das aldeias e clãs.",
-      "economicas": "Subsistência fundamentada na caça, pesca, coleta de frutos silvestres, manejo florestal e agricultura itinerante.",
-      "sociais": "Sociedades igualitárias com divisão de trabalho por gênero e idade, sem estratificação de classes sociais rígidas.",
-      "religiosas": "Cosmologias integradas à natureza, xamanismo, rituais funerários complexos e sacralização do território.",
-      "culturais": "Produção de arte rupestre de alto valor simbólico e fabricação de cerâmicas ornamentadas.",
-      "territoriais": "Ocupação gradual de abrigos sob rocha, vales fluviais, regiões planálticas e construção de montes em conchas no litoral.",
-      "tecnologias": "Domínio da pedra polida e lascada, técnicas de cerâmica, fogueiras, arcos, flechas e manejo de plantas nativas."
+      "politicas": "Organização social baseada em aldeias autônomas, lideradas por chefes (caciques) e conselhos de anciãos.",
+      "economicas": "Subsistência baseada na caça, pesca, coleta de frutos nativos, manejo da floresta e agricultura incipiente (mandioca, milho).",
+      "sociais": "Sociedades igualitárias com divisão social do trabalho baseada no gênero e na idade, sem divisão de classes.",
+      "religiosas": "Xamanismo, culto aos ancestrais, forte ligação espiritual com a natureza e mitos de origem ligados aos animais e astros.",
+      "culturais": "Produção de arte rupestre monumental (pinturas e gravuras), cerâmicas sofisticadas (como a marajoara e santarém) e construção de sambaquis.",
+      "territoriais": "Ocupação de biomas diversos como a Amazônia, o Cerrado, a Mata Atlântica e a costa litorânea.",
+      "tecnologias": "Domínio do fogo, lapidação de pedra polida, técnicas de cerâmica utilitária e cerimonial, e arcos e flechas."
     },
-    "resumo_card": "O Brasil Pré-Cabralino revela uma ocupação humana milenar extremamente rica e complexa, marcada por sociedades de caçadores-coletores, construtores de sambaquis e ceramistas cujas raízes antecedem em milhares de anos a colonização europeia.",
-    "desenvolvimento": "A presença humana no território brasileiro remonta a pelo menos 12 mil anos atrás. A região do Piauí abriga algumas das mais antigas concentrações de arte rupestre das Américas. No litoral, os povos dos sambaquis ergueram imensos montes cerimoniais e de descarte. Na Amazônia, pesquisas comprovam o desenvolvimento de complexas redes de aldeias interconectadas, geoglifos e terras pretas, demonstrando um profundo manejo e alteração ambiental planejada antes de 1500.",
+    "resumo_card": "Milhares de anos de história antes de 1500: a rica trajetória dos povos originários brasileiros, expressa em sítios arqueológicos monumentais, pinturas rupestres milenares, sambaquis costeiros e cerâmicas avançadas.",
+    "desenvolvimento": "A presença humana no Brasil é milenar, atestada por sítios arqueológicos icônicos como o Parque Nacional da Serra da Capivara (Piauí) e Lagoa Santa (Minas Gerais). Ao longo dos séculos, esses grupos adaptaram-se aos diferentes ecossistemas. No litoral, formaram os sambaquis (enormes montes de conchas e restos alimentares). Na Amazônia e no interior, desenvolveram complexas redes de aldeias interligadas, agricultura itinerante e cerâmicas altamente desenvolvidas, como a cultura Marajoara. Estima-se que milhões de indígenas habitavam o território na época do contato colonial.",
     "personagens": [
-      "Luzia: Fóssil humano mais antigo encontrado nas Américas (Lagoa Santa, Minas Gerais).",
-      "Niède Guidon: Arqueóloga fundamental para a escavação, estudo e preservação do Parque Nacional Serra da Capivara.",
-      "Pesquisadores e arqueólogos brasileiros: Responsáveis por reescrever a cronologia do povoamento americano."
+      "Luzia: Fóssil humano mais antigo das Américas, encontrado em Lagoa Santa (MG).",
+      "Pesquisadores pioneiros como Niède Guidon: fundamentais para a preservação e datação da arqueologia brasileira na Serra da Capivara."
     ],
     "grupos_envolvidos": [
-      "Grupos de caçadores-coletores do interior e planaltos.",
-      "Populações litorâneas construtoras de sambaquis.",
-      "Povos horticultores ceramistas de tronco Tupi e Jê."
+      "Povos caçadores-coletores das terras altas e florestas.",
+      "Povos ceramistas do tronco linguístico Tupi-Guarani e Macro-Jê."
     ],
     "interesses_em_disputa": [
-      "Controle de áreas com recursos naturais abundantes, rios piscosos e fontes de matéria-prima para ferramentas.",
-      "Preservação de territórios sagrados e rotas de migração ancestral."
+      "Controle de áreas de caça, rios piscosos e terras férteis para o cultivo de raízes."
     ],
     "linha_do_tempo": [
-      {"ano": "-10000", "titulo": "Primeiros registros na Serra da Capivara", "descricao": "Fogueiras e vestígios de ocupação humana inicial no interior do Piauí."},
-      {"ano": "-5000", "titulo": "Apogeu dos Sambaquis", "descricao": "Construção intensiva de montes de conchas e cemitérios ao longo da costa."},
-      {"ano": "1000", "titulo": "Expansão Tupiguarani", "descricao": "Migração e consolidação de povos ceramistas pelo litoral e grandes bacias."},
-      {"ano": "1500", "titulo": "Contato Euro-Indígena", "descricao": "O encontro entre as culturas pré-coloniais brasileiras e a expedição de Cabral."}
+      {"ano": "-10000", "titulo": "Ocupação da Serra da Capivara", "descricao": "Primeiros registros de fogueiras e arte rupestre datados por arqueólogos no Piauí."},
+      {"ano": "-4000", "titulo": "Surgimento dos Sambaquis", "descricao": "Construção de grandes montes artificiais de conchas ao longo da costa atlântica brasileira."},
+      {"ano": "1000", "titulo": "Expansão Tupi-Guarani", "descricao": "Migração e consolidação de povos agricultores por grande parte do litoral e bacias hidrográficas do interior."}
     ],
     "consequencias_imediatas": [
-      "Choque cultural, demográfico e epidemiológico com a chegada dos colonizadores europeus no século XVI.",
-      "Início do processo de desestruturação e escravização dos povos originários."
+      "Intenso processo de colonização europeia, dizimação demográfica por doenças e guerras a partir de 1500.",
+      "Resistência cultural e territorial dos povos originários remanescentes."
     ],
     "consequencias_longo_prazo": [
-      "Preservação do patrimônio arqueológico nacional que desafia teorias eurocêntricas sobre o continente.",
-      "Reconhecimento constitucional dos direitos originários e da ancestralidade indígena na formação brasileira."
+      "Formação da matriz cultural e alimentar brasileira (contribuição indígena profunda na língua, culinária e hábitos).",
+      "Luta contemporânea pela demarcação de terras indígenas e preservação ambiental."
     ],
     "impactos": {
-      "politicos": "Desestruturação das confederações tribais originais pelo avanço colonial.",
-      "economicos": "Substituição ou exploração das redes de comércio e saberes nativos de extrativismo.",
-      "sociais": "Redução drástica da população indígena nas Américas nos primeiros séculos de colonização.",
-      "culturais": "Herança linguística, culinária, medicinal e tecnológica incorporada à cultura do país.",
-      "territoriais": "Perda gradual dos territórios tradicionais para frentes de expansão agrícola e urbana.",
-      "ambientais": "Manejo sustentável milenar substituído por modelos extrativistas coloniais."
+      "politicos": "Formação de confederações tribais de resistência e alianças geopolíticas contra o colonizador.",
+      "economicos": "Desenvolvimento de técnicas de manejo sustentável de solos (como a Terra Preta de Índio na Amazônia).",
+      "sociais": "Tradição de solidariedade comunitária, partilha e ausência de acúmulo de riqueza individual.",
+      "culturais": "Herança de centenas de palavras no vocabulário português, nomes de cidades, rios e hábitos como o banho diário e o uso da rede.",
+      "territoriais": "Mapeamento ancestral de trilhas, rios e rotas que mais tarde deram origem a estradas coloniais.",
+      "ambientais": "Manejo florestal que enriqueceu a biodiversidade de ecossistemas como a Amazônia e o Cerrado."
     },
-    "continuidade": "Permanência de técnicas agrícolas ancestrais, vocabulário e práticas de interação com a biodiversidade.",
-    "rupturas": "Interrupção violenta dos ciclos autônomos de desenvolvimento cultural e demográfico das sociedades nativas em 1500."
+    "continuidade": "Preservação de cosmologias, rituais e saberes tradicionais pelos povos indígenas atuais.",
+    "rupturas": "Colapso demográfico e destruição de grande parte do patrimônio material dos povos nativos após a invasão europeia."
+  },
+  {
+    "id": "geral-ant-01",
+    "titulo_bloco": "A ANTIGUIDADE ORIENTAL: MESOPOTÂMIA, EGITO, FENÍCIA, HEBREUS E PÉRSIA",
+    "ano_inicio": -3500,
+    "ano_fim": -330,
+    "periodo": "Antiguidade Oriental (Crescente Fértil)",
+    "local": "Oriente Próximo, Mesopotâmia, Vale do Nilo, Líbano e Planície Iraniana",
+    "sociedades_envolvidas": "Sumérios, Acádios, Babilónios, Assírios, Egípcios, Fenícios, Hebreus e Persas",
+    "tema": "Modo de Produção Asiático, Teocracias Hidráulicas, Talassocracia Comercial e Monoteísmo Ético",
+    "contexto": "Período fundacional da civilização letrada, onde grandes impérios centralizados e povos mercadores estruturaram as primeiras leis escritas, religiões de Estado e redes de comércio de longa distância.",
+    "antecedentes": [
+      "Revolução Neolítica e sedentarização humana nas margens dos grandes rios (Tigre, Eufrates e Nilo)[cite: 3].",
+      "Transição das aldeias autossuficientes para as primeiras cidades-estado fortificadas[cite: 3]."
+    ],
+    "causas": {
+      "politicas": "Necessidade de controle centralizado para a construção e manutenção de grandes obras de irrigação e diques[cite: 3].",
+      "economicas": "Exploração da agricultura de regadio e controle das rotas comerciais terrestres e marítimas do Oriente Médio[cite: 3].",
+      "sociais": "Sociedades estamentais rígidas, onde monarcas divinizados e sacerdotes controlavam a terra e a produção dos camponeses[cite: 3].",
+      "religiosas": "Religiões politeístas ligadas às forças da natureza (exceto o monoteísmo hebraico) e legitimação divina do poder real[cite: 3].",
+      "culturais": "Invenção da escrita (cuneiforme e hieroglífica), do alfabeto fonético comercial e sistematização de códigos jurídicos[cite: 3].",
+      "territoriais": "Expansionismo militar imperial (ex: Império Assírio e Império Persa) em busca de tributos e metais[cite: 3].",
+      "tecnologias": "Domínio da metalurgia do bronze e ferro, arquitetura monumental de tijolos e pedra, e técnicas avançadas de navegação[cite: 3]."
+    },
+    "resumo_card": "O berço da civilização urbana e escrita: da engenharia hidráulica na Mesopotâmia e Egito à expansão comercial dos fenícios, a ética monoteísta dos hebreus e a grandiosa administração tolerante do Império Persa[cite: 3].",
+    "desenvolvimento": "Na Mesopotâmia, sumérios, babilónios e assírios alternaram o poder em cidades fortificadas, criando o Código de Hamurábi[cite: 3]. No Egito, a estabilidade do Nilo permitiu o florescimento de uma civilização milenar governada por faraós divinizados[cite: 3]. Paralelamente, os fenícios tornaram-se os grandes navegadores do Mediterrâneo, criando o alfabeto fonético para facilitar o comércio[cite: 3]. Os hebreus desenvolveram uma identidade baseada num Deus único e em preceitos éticos (Monoteísmo)[cite: 3]. Por fim, os persas unificaram todo esse mosaico cultural sob um vasto império caracterizado pela tolerância administrativa, divisão em províncias (satrapias) e a construção de estradas reais[cite: 3].",
+    "personagens": [
+      "Hamurábi: Rei da Babilônia, célebre pela codificação rigorosa das leis[cite: 3].",
+      "Faraó Hatshepsut e Ramsés II: Líderes de destaque na projeção política e monumental do Egito Antigo[cite: 3].",
+      "Ciro, o Grande: Fundador do Império Persa, conhecido pela política de tolerância aos povos conquistados[cite: 3].",
+      "Moisés: Figura central na tradição hebraica, associada à libertação do Egito e à aliança da Lei[cite: 3]."
+    ],
+    "grupos_envolvidos": [
+      "Sacerdotes e Monarcas vs. Camponeses e Servos Coletivos[cite: 3].",
+      "Cidades-estado fenícias vs. Impérios expansionistas do Crescente Fértil[cite: 3]."
+    ],
+    "interesses_em_disputa": [
+      "Controle das águas fluviais para a agricultura e das rotas comerciais de especiarias e metais[cite: 3].",
+      "Independência política dos povos conquistados frente aos grandes impérios militares[cite: 3]."
+    ],
+    "linha_do_tempo": [
+      {"ano": "-3200", "titulo": "Invenção da Escrita", "descricao": "Surgimento da escrita cuneiforme na Suméria e hieroglífica no Egito[cite: 3]."},
+      {"ano": "-1200", "titulo": "Expansão Fenícia", "descricao": "Consolidação das colônias de comércio e criação do alfabeto fonético no Mediterrâneo[cite: 3]."},
+      {"ano": "-1000", "titulo": "Apogeu do Reino Hebreu", "descricao": "Unificação das tribos sob os reis Davi e Salomão em Jerusalém[cite: 3]."},
+      {"ano": "-539", "titulo": "Conquista da Babilônia pelos Persas", "descricao": "Ciro, o Grande, integra a Mesopotâmia ao maior império oriental da época[cite: 3]."}
+    ],
+    "consequencias_imediatas": [
+      "Circulação de mercadorias, moedas e tecnologias por todo o Oriente Próximo e Mediterrâneo[cite: 3].",
+      "Fixação de leis escritas que limitavam o arbítrio pessoal dos governantes[cite: 3]."
+    ],
+    "consequencias_longo_prazo": [
+      "Disseminação do alfabeto fenício, base de quase todos os alfabetos ocidentais modernos[cite: 3].",
+      "Herança ética e religiosa do monoteísmo hebraico nas culturas ocidentais e islâmicas[cite: 3]."
+    ],
+    "impactos": {
+      "politicos": "Surgimento dos primeiros Estados centralizados e burocracias fiscais da história[cite: 3].",
+      "economicos": "Padronização de pesos, medidas e trocas comerciais à base de prata e grãos[cite: 3].",
+      "sociais": "Consolidação das classes sociais e do trabalho compulsório coletivo[cite: 3].",
+      "culturais": "Criação de mitologias cosmogônicas e registros escritos da história humana[cite: 3].",
+      "territoriais": "Integração de vastos territórios através de redes de estradas e postos de correio imperial[cite: 3].",
+      "ambientais": "Modificação de bacias hidrográficas com canais de irrigação e esgotamento de solos cultivados[cite: 3]."
+    },
+    "continuidade": "Permanência de estruturas agrícolas tradicionais baseadas no ciclo dos rios e subordinação camponesa[cite: 3].",
+    "rupturas": "Substituição gradual das pequenas autonomias locais pelo domínio de grandes máquinas militares imperiais[cite: 3]."
+  },
+  {
+    "id": "geral-ant-02",
+    "titulo_bloco": "A GRÉCIA ANTIGA E O MUNDO HELENÍSTICO",
+    "ano_inicio": -1200,
+    "ano_fim": -146,
+    "periodo": "Antiguidade Clássica",
+    "local": "Península Balcânica, Ilhas do Egeu e Ásia Menor",
+    "sociedades_envolvidas": "Atenienses, Espartanos, Macedónios e Povos Helenizados",
+    "tema": "A Polis, Democracia, Filosofia, Guerras Médicas e Expansão Helenística",
+    "contexto": "Fragmentação geográfica em cidades-estado independentes que desenvolveram formas originais de política, arte e pensamento, culminando na síntese cultural helenística promovida por Alexandre, o Grande[cite: 3].",
+    "antecedentes": [
+      "Declínio das civilizações cretense e micénica (Período Homérico e formação dos gentes)[cite: 3].",
+      "Isolamento geográfico montanhoso que estimuliu a criação de cidades autônomas (Polis)[cite: 3]."
+    ],
+    "causas": {
+      "politicas": "Busca por modelos de governo alternativos à tirania, gerando a oligarquia em Esparta e a democracia em Atenas[cite: 3].",
+      "economicas": "Escassez de terras aráveis na Grécia continental, impulsionando a colonização do Mediterrâneo e o comércio marítimo[cite: 3].",
+      "sociais": "Conflitos entre a aristocracia proprietária de terras e os pequenos agricultores/comerciantes[cite: 3].",
+      "religiosas": "Politeísmo antropomórfico (deuses com feições e sentimentos humanos) e festivais unificadores como os Jogos Olímpicos[cite: 3].",
+      "culturais": "Ruptura com explicações estritamente mitológicas e nascimento da Filosofia, do Teatro e da Ciência racional[cite: 3].",
+      "territoriais": "Choque geopolítico contra o Império Persa (Guerras Médicas) e rivalidades internas (Guerra do Peloponeso)[cite: 3].",
+      "tecnologias": "Aperfeiçoamento da construção naval (trirremes) e arquitetura monumental baseada em ordens clássicas[cite: 3]."
+    },
+    "resumo_card": "O laboratório político e cultural do ocidente: a invenção da cidadania democrática em Atenas, o rigor militar em Esparta e a fusão da cultura grega com o oriente através das conquistas de Alexandre, o Grande[cite: 3].",
+    "desenvolvimento": "A Grécia Antiga não formava um país unificado, mas uma rede de cidades-estado unidas pela língua e religião[cite: 3]. Atenas destacou-se pela economia marítima e pela invenção da Democracia Direta[cite: 3]. Esparta focou-se num Estado militarizado e oligárquico[cite: 3]. Após vencerem os persas coletivamente, atenienses e espartanos destruíram-se mutuamente na Guerra do Peloponeso[cite: 3]. Esse enfraquecimento facilitou a conquista da Grécia pelo Reino da Macedônia, cujo ápice se deu com as campanhas de Alexandre, o Grande, inaugurando o Período Helenístico[cite: 3].",
+    "personagens": [
+      "Clístenes e Péricles: Arquitetos da expansão e consolidação da democracia em Atenas[cite: 3].",
+      "Leônidas: Rei espartano símbolo da resistência heroica na Batalha das Termópilas[cite: 3].",
+      "Alexandre, o Grande: Rei da Macedônia responsável pela expansão helenística global[cite: 3].",
+      "Sócrates, Platão e Aristóteles: Pilares da filosofia clássica ocidental[cite: 3]."
+    ],
+    "grupos_envolvidos": [
+      "Cidadãos vs. Metecos (Estrangeiros) e Escravos em Atenas[cite: 3].",
+      "Esparciatas (Cidadãos-soldados) vs. Hilotas (Servos do Estado em Esparta)[cite: 3]."
+    ],
+    "interesses_em_disputa": [
+      "Hemonia política e comercial sobre o mar Egeu e as rotas da Magna Grécia[cite: 3].",
+      "Disputa entre modelos políticos democráticos e oligárquicos[cite: 3]."
+    ],
+    "linha_do_tempo": [
+      {"ano": "-508", "titulo": "Instituição da Democracia", "descricao": "Reformas de Clístenes criam a base da participação cidadã em Atenas[cite: 3]."},
+      {"ano": "-431", "titulo": "Início da Guerra do Peloponeso", "descricao": "Conflito prolongado entre a Liga de Delos (Atenas) e a Liga do Peloponeso (Esparta)[cite: 3]."},
+      {"ano": "-334", "titulo": "Início das Conquistas de Alexandre", "descricao": "Exército macedónio cruza para a Ásia Menor, inaugurando o Período Helenístico[cite: 3]."},
+      {"ano": "-146", "titulo": "Conquista Romana da Grécia", "descricao": "A Grécia é incorporada definitivamente à esfera de dominação da República Romana[cite: 3]."}
+    ],
+    "consequencias_imediatas": [
+      "Disseminação da língua grega (Koiné) por todo o Oriente Próximo e Egito[cite: 3].",
+      "Subjugação das poleis gregas ao poder unificado de potências estrangeiras (Macedônia e depois Roma)[cite: 3]."
+    ],
+    "consequencias_longo_prazo": [
+      "Herança duradoura na ciência, matemática, teatro, retórica e nas formas de governo ocidentais[cite: 3].",
+      "Fusão da filosofia grega com o pensamento cristão nos séculos seguintes[cite: 3]."
+    ],
+    "impactos": {
+      "politicos": "Criação do vocabulário político ocidental (democracia, política, tirania, aristocracia)[cite: 3].",
+      "economicos": "Intensificação do uso de moeda cunhada e expansão de rotas comerciais pelo Mediterrâneo[cite: 3].",
+      "sociais": "Formalização do modo de produção escravista como base de sustentação do tempo livre do cidadão[cite: 3].",
+      "culturais": "Instituição dos Jogos Olímpicos e fundação de grandes bibliotecas, como a de Alexandria[cite: 3].",
+      "territoriais": "Integração cultural entre o mundo grego e as tradições persas e egípcias[cite: 3].",
+      "ambientais": "Erosão de encostas e sobreutilização de terras agrícolas devido ao crescimento demográfico das póleis[cite: 3]."
+    },
+    "continuidade": "Permanência dos cânones estéticos, teatrais e filosóficos clássicos ao longo da história ocidental[cite: 3].",
+    "rupturas": "Fim da autonomia política das pequenas cidades-estado em favor de grandes impérios burocráticos[cite: 3]."
+  },
+  {
+    "id": "geral-ant-03",
+    "titulo_bloco": "A MONARQUIA ROMANA E O MITO DE RÔMULO E REMO",
+    "ano_inicio": -753,
+    "ano_fim": -509,
+    "periodo": "Antiguidade Clássica (Origens de Roma)",
+    "local": "Lácio, Península Itálica (Sete Colinas de Roma)",
+    "sociedades_envolvidas": "Latinos, Sabinos e Etruscos",
+    "tema": "Mito Fundacional, Monarquia Patriarcal, Sociedade Gentílica e Influência Etrusca",
+    "contexto": "Período lendário e histórico inicial de Roma, caracterizado pela transição das comunidades pastoris e clãs familiares (gentes) para uma monarquia urbana influenciada fortemente pela civilização etrusca.",
+    "antecedentes": [
+      "Migração de povos indo-europeus (latinos e sabinos) para a península itálica durante a Idade do Ferro.",
+      "Fixação de aldeias nas margens do rio Tibre, ponto estratégico de comércio e travessia."
+    ],
+    "causas": {
+      "politicas": "Necessidade de unificação das comunidades das sete colinas sob uma liderança central e militar (o Rex).",
+      "economicas": "Controle das rotas de sal e do comércio fluvial ao longo do Tibre.",
+      "sociais": "Organização inicial baseada em gens (famílias patriarcais alargadas) chefiadas por patrícios.",
+      "religiosas": "Legitimação do poder monárquico através dos auspícios divinos e cultos domésticos ancestrais.",
+      "culturais": "Fusão entre a mitologia latina local e os elementos religiosos e artísticos trazidos pelos etruscos.",
+      "territoriais": "Disputa por pastagens e terras férteis na região do Lácio contra povos vizinhos.",
+      "tecnologias": "Construção de obras de drenagem (Cloaca Máxima) e fortificações urbanas introduzidas pelos reis etruscos."
+    },
+    "resumo_card": "Do mito à história: a fundação lendária de Roma pelos gêmeos criados por uma loba e o estabelecimento da Monarquia sob forte influência política e cultural dos etruscos.",
+    "desenvolvimento": "Segundo a lenda, Roma foi fundada em 753 a.C. pelos irmãos gêmeos Rômulo e Remo, netos do rei Numitor, que foram abandonados às margens do rio Tibre, amamentados por uma loba e criados pelo pastor Fértulo. Após crescerem, decidiram fundar uma cidade nas sete colinas; após uma disputa sobre o local e presságios divinos, Rômulo matou Remo e tornou-se o primeiro rei de Roma. Historicamente, o período monárquico foi governado por sete reis sucessivos (quatro latinos/sabinos e três etruscos). O rei exercia funções militares, religiosas e judiciárias, auxiliado pelo Senado (conselho de anciãos patrícios). Os últimos reis (etruscos) impuseram um governo centralizado e tirânico, o que provocou revolta da aristocracia patrícia em 509 a.C., culminando na expulsão do último rei (Tarquínio, o Soberbo) e na instauração da República.",
+    "personagens": [
+      "Rômulo e Remo: Gêmeos míticos filhos de Marte e Reia Sílvia, protagonistas da fundação de Roma.",
+      "Tarquínio, o Soberbo: Último rei de Roma, cuja tirania motivou o fim da monarquia.",
+      "Sérvio Túlio: Rei etrusco associado a reformas censitárias que reorganizaram a sociedade romana com base na riqueza."
+    ],
+    "grupos_envolvidos": [
+      "Patrícios (chefes das famílias fundadoras) vs. Clientes e Plebeus.",
+      "Latinos e Sabinos vs. Etruscos."
+    ],
+    "interesses_em_disputa": [
+      "Controle político do governo central e hegemonia sobre a planície do Lácio.",
+      "Acesso à terra e participação nas decisões públicas da cidade nascente."
+    ],
+    "linha_do_tempo": [
+      {"ano": "-753", "titulo": "Fundação Mítica de Roma", "descricao": "Rômulo estabelece os primeiros limites sagrados (pomerium) nas colinas de Roma."},
+      {"ano": "-616", "titulo": "Domínio Etrusco", "descricao": "Início da dinastia de reis etruscos, modernizando a infraestrutura e o urbanismo romano."},
+      {"ano": "-509", "titulo": "Queda da Monarquia", "descricao": "Revolta aristocrática expulsa os reis e instaura a República Romana."}
+    ],
+    "consequencias_imediatas": [
+      "Abolição do cargo real e distribuição do poder executivo entre dois magistrados (consules) eleitos anualmente.",
+      "Exclusão definitiva da influência política externa dos etruscos na direção da cidade."
+    ],
+    "consequencias_longo_prazo": [
+      "Consolidação da identidade cívica romana baseada na oposição à tirania e ao poder pessoal.",
+      "Perpetuação do mito de Rômulo e Remo como a narrativa fundacional central da cultura ocidental."
+    ],
+    "impactos": {
+      "politicos": "Criação do Senado como órgão consultivo permanente e perpétuo da aristocracia.",
+      "economicos": "Transição de uma economia puramente pastoril para uma economia agropecuária e comercial urbana.",
+      "sociais": "Fixação de laços de dependência pessoal (clientelismo) e rigidez da ordem patrícia.",
+      "culturais": "Criação de um rico ciclo mitológico identitário que explicava a vocação imperial romana.",
+      "territoriais": "Expansão inicial do controle romano sobre os arredores imediatos da colina do Palatino e margens do Tibre.",
+      "ambientais": "Drenagem de pântanos e desmatamento das colinas para expansão da área urbana inicial."
+    },
+    "continuidade": "Permanência do poder patriarcal e do peso político do Senado ao longo de toda a história romana.",
+    "rupturas": "Substituição do poder vitalício e monárquico por mandatos temporários e eletivos da República."
+  },
+  {
+    "id": "geral-ant-04",
+    "titulo_bloco": "A REPÚBLICA ROMANA, O IMPÉRIO E SUA QUEDA",
+    "ano_inicio": -509,
+    "ano_fim": 476,
+    "periodo": "Antiguidade Clássica (República e Império Romano)",
+    "local": "Península Itálica e Bacia do Mediterrâneo",
+    "sociedades_envolvidas": "Patrícios, Plebeus, Escravizados, Provinciais e Povos Germânicos",
+    "tema": "República Oligárquica, Expansão Mediterrânea, Crise Social, Pax Romana e Cristianismo",
+    "contexto": "Evolução de uma cidade-estado livre até se tornar o maior império da Antiguidade, unificando o Mediterrâneo, moldando o direito ocidental e colapsando sob crises estruturais no século V.",
+    "antecedentes": [
+      "Derrubada da monarquia etrusca e fundação do regime republicano baseado em magistraturas e no Senado[cite: 3]."
+    ],
+    "causas": {
+      "politicas": "Conflitos internos entre patrícios e plebeus por direitos e leis escritas (Lei das Doze Tábuas)[cite: 3].",
+      "economicas": "Necessidade de terras e mão de obra escrava gerada pelas conquistas militares na bacia do Mediterrâneo[cite: 3].",
+      "sociais": "Enriquecimento rápido da elite e proletarização dos camponeses romanos deslocados para as cidades[cite: 3].",
+      "religiosas": "Culto cívico tradicional romano, posterior perseguição e posterior conversão oficial ao Cristianismo[cite: 3].",
+      "culturais": "Apropriação da filosofia, literatura e estética grega pela classe dirigente romana[cite: 3].",
+      "territoriais": "Imperialismo militar agressivo que transformou o Mediterrâneo num lago interno romano (*Mare Nostrum*)[cite: 3].",
+      "tecnologias": "Engenharia civil monumental: estradas pavimentadas, aquedutos, arcos de triunfo e cúpulas[cite: 3]."
+    },
+    "resumo_card": "Da República oligárquica à superpotência do Mediterrâneo: conquistas militares, crises sociais, o nascimento do Império sob Augusto, a expansão do Cristianismo e a fragmentação no século V[cite: 3].",
+    "desenvolvimento": "Na República, as lutas entre patrícios e plebeus garantiram direitos sociais, enquanto Roma derrotava Cartago nas Guerras Púnicas, conquistando o Mediterrâneo[cite: 3]. O crescimento gerou crises sociais e guerras civis, abrindo caminho para a transição ao Império liderado por Otávio Augusto (-27)[cite: 3]. O Império viveu o esplendor da *Pax Romana*, mas entrou em crise a partir do século III d.C. devido a pressões germânicas, inflação, crise do escravismo e ruralização, culminando na queda de Roma no Ocidente em 476 d.C.[cite: 3].",
+    "personagens": [
+      "Aníbal Barca: General cartaginês que desafiou Roma na Segunda Guerra Púnica[cite: 3].",
+      "Júlio César: General vitorioso que concentrou poderes ditatoriais e pavimentou o caminho imperial[cite: 3].",
+      "Otávio Augusto: Primeiro imperador romano, inaugurador da *Pax Romana*[cite: 3].",
+      "Constantino e Teodósio: Imperadores cruciais na oficialização e expansão do Cristianismo no Estado[cite: 3]."
+    ],
+    "grupos_envolvidos": [
+      "Patrícios vs. Plebeus na fase republicana[cite: 3].",
+      "Cidadãos romanos vs. Provinciais e Escravizados[cite: 3].",
+      "Tropas romanas nas fronteiras vs. Tribos Germânicas[cite: 3]."
+    ],
+    "interesses_em_disputa": [
+      "Monopólio das rotas comerciais marítimas e controle de terras agricultáveis e minas[cite: 3].",
+      "Participação política nas magistraturas e acesso à distribuição de terras públicas[cite: 3]."
+    ],
+    "linha_do_tempo": [
+      {"ano": "-509", "titulo": "Proclamação da República", "descricao": "Fim da monarquia e criação das instituições republicanas romanas[cite: 3]."},
+      {"ano": "-146", "titulo": "Destruição de Cartago", "descricao": "Fim das Guerras Púnicas e hegemonia de Roma sobre o Mediterrâneo ocidental[cite: 3]."},
+      {"ano": "-27", "titulo": "Início do Império", "descricao": "Otávio recebe o título de Augusto, concentrando o poder executivo e militar[cite: 3]."},
+      {"ano": "392", "titulo": "Cristianismo Religião Oficial", "descricao": "Imperador Teodósio decreta o Edito de Tessalônica, proibindo o paganismo[cite: 3]."},
+      {"ano": "476", "titulo": "Queda do Império Romano do Ocidente", "descricao": "O general germânico Odoacro depõe o último imperador, Rômulo Augusto[cite: 3]."}
+    ],
+    "consequencias_imediatas": [
+      "Desintegração política do ocidente europeu em dezenas de pequenos reinos germânicos[cite: 3].",
+      "Ascensão da Igreja Católica Apostólica Romana como herdeira moral e administrativa das cidades[cite: 3]."
+    ],
+    "consequencias_longo_prazo": [
+      "Surgimento das línguas neolatinas (português, espanhol, francês, italiano, romeno)[cite: 3].",
+      "Perpetuação do Direito Romano como base de códigos civis contemporâneos[cite: 3]."
+    ],
+    "impactos": {
+      "politicos": "Estruturação de conceitos modernos de administração pública, direito civil e cidadania territorial[cite: 3].",
+      "economicos": "Monetização massiva da economia e dependência estrutural do trabalho escravo[cite: 3].",
+      "sociais": "Complexa estratificação social e expansão da urbanização com o modelo de cidades romanas[cite: 3].",
+      "culturais": "Sincretismo cultural entre a herança greco-romana e as bases éticas do Cristianismo[cite: 3].",
+      "territoriais": "Unificação política de toda a Europa Ocidental, Norte da África e Oriente Próximo sob um mesmo comando[cite: 3].",
+      "ambientais": "Intensa exploração de minas, alteração de ecossistemas costeiros e desmatamento generalizado[cite: 3]."
+    },
+    "continuidade": "Permanência do latim culto e eclesiástico e das estruturas jurídico-institucionais romanas[cite: 3].",
+    "rupturas": "Colapso do comércio de longa distância, ruralização generalizada e esvaziamento das cidades[cite: 3]."
   }
 ]
