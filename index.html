@@ -192,7 +192,7 @@
             padding: 0.2rem 0.6rem;
             border-radius: 4px;
             font-size: 0.85rem;
-            margin-right: 0.5rem;
+            margin-left: 0.5rem;
             font-weight: 600;
             color: #4a5568;
         }
@@ -244,7 +244,7 @@
         <!-- ABA 2: BRASIL -->
         <div id="tab-brasil" class="tab-content">
             <h2>Pré-História do Brasil</h2>
-            <input type="text" class="search-box" placeholder="Pesquisar nos registros do Brasil..." onkeyup="filtrarCards(this, 'lista-brasil')">
+            <input type="text" class="search-box" placeholder="Pesquisar nos registos do Brasil..." onkeyup="filtrarCards(this, 'lista-brasil')">
             <div id="lista-brasil">A carregar dados...</div>
         </div>
 
@@ -259,14 +259,14 @@
         <div id="tab-media" class="tab-content">
             <h2>Idade Média</h2>
             <input type="text" class="search-box" placeholder="Pesquisar na Idade Média..." onkeyup="filtrarCards(this, 'lista-media')">
-            <div id="lista-media"><p>Nenhum evento cadastrado nesta aba ainda.</p></div>
+            <div id="lista-media">A carregar dados...</div>
         </div>
 
         <!-- ABA 5: CONTEMPORÂNEA -->
         <div id="tab-contemporanea" class="tab-content">
             <h2>Idade Contemporânea</h2>
             <input type="text" class="search-box" placeholder="Pesquisar na Contemporânea..." onkeyup="filtrarCards(this, 'lista-contemporanea')">
-            <div id="lista-contemporanea"><p>Nenhum evento cadastrado nesta aba ainda.</p></div>
+            <div id="lista-contemporanea">A carregar dados...</div>
         </div>
 
     </div>
@@ -292,37 +292,62 @@
             })
             .catch(error => {
                 console.error('Erro ao carregar o JSON:', error);
-                document.getElementById('lista-brasil').innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
-                document.getElementById('lista-antiguidade').innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
+                document.querySelectorAll('.tab-content div[id^="lista-"]').forEach(el => {
+                    el.innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
+                });
             });
 
         function renderizarAbas() {
-            const containerBrasil = document.getElementById('lista-brasil');
-            const containerAntiguidade = document.getElementById('lista-antiguidade');
-            
-            containerBrasil.innerHTML = '';
-            containerAntiguidade.innerHTML = '';
+            const containers = {
+                'brasil': document.getElementById('lista-brasil'),
+                'antiguidade': document.getElementById('lista-antiguidade'),
+                'media': document.getElementById('lista-media'),
+                'contemporanea': document.getElementById('lista-contemporanea')
+            };
+
+            // Limpar conteúdos anteriores
+            Object.values(containers).forEach(c => c.innerHTML = '');
+
+            // Contadores para verificar se há registos em cada aba
+            const contadores = { brasil: 0, antiguidade: 0, media: 0, contemporanea: 0 };
 
             todosEventos.forEach(evento => {
                 const htmlCard = criarCardHTML(evento);
+                const id = evento.id ? evento.id.toLowerCase() : '';
 
-                if (evento.id && evento.id.includes('pre-historia-brasil')) {
-                    containerBrasil.innerHTML += htmlCard;
-                } else if (evento.id && evento.id.includes('geral-ant')) {
-                    containerAntiguidade.innerHTML += htmlCard;
+                if (id.includes('pre-historia-brasil') || id.includes('brasil')) {
+                    containers.brasil.innerHTML += htmlCard;
+                    contadores.brasil++;
+                } else if (id.includes('antiguidade') || id.includes('geral-ant') || id.includes('egito') || id.includes('mesopotamia') || id.includes('grecia') || id.includes('roma')) {
+                    containers.antiguidade.innerHTML += htmlCard;
+                    contadores.antiguidade++;
+                } else if (id.includes('media') || id.includes('feudalismo') || id.includes('bizantino') || id.includes('cruzadas')) {
+                    containers.media.innerHTML += htmlCard;
+                    contadores.media++;
+                } else {
+                    // Por defeito ou se contiver termos contemporâneos / guerras mundiais
+                    containers.contemporanea.innerHTML += htmlCard;
+                    contadores.contemporanea++;
                 }
             });
+
+            // Mensagem caso alguma aba fique vazia
+            for (let chave in contadores) {
+                if (contadores[chave] === 0) {
+                    containers[chave].innerHTML = '<p style="color:#666; font-style:italic;">Nenhum evento registado nesta aba.</p>';
+                }
+            }
         }
 
         function criarCardHTML(evento) {
             const antecedentesHTML = evento.antecedentes ? evento.antecedentes.map(item => `<li>${item}</li>`).join('') : '';
             const personagensHTML = evento.personagens ? evento.personagens.map(item => `<li>${item}</li>`).join('') : '';
-            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano}:</strong> ${item.titulo} — ${item.descricao}</li>`).join('') : '';
+            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano || ''}:</strong> ${item.titulo || ''} — ${item.descricao || ''}</li>`).join('') : '';
 
             return `
-                <div class="evento-card" data-titulo="${evento.titulo_bloco.toLowerCase()}">
+                <div class="evento-card" data-titulo="${(evento.titulo_bloco || '').toLowerCase()}">
                     <div class="evento-header" onclick="alternarSanfona(this)">
-                        <span>${evento.titulo_bloco} <span class="info-tag">${evento.ano_inicio} a ${evento.ano_fim}</span></span>
+                        <span>${evento.titulo_bloco || 'Sem Título'} <span class="info-tag">${evento.ano_inicio || ''} a ${evento.ano_fim || ''}</span></span>
                         <span>▼</span>
                     </div>
                     <div class="evento-body">
