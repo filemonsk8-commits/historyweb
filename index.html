@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> History Web - Biblioteca de Eventos Históricos</title>
+    <title>History Web - Biblioteca de Eventos Históricos</title>
     <!-- Tailwind CSS para design moderno e responsivo -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -13,12 +13,12 @@
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen">
 
-    <!-- Cabeçalho Didático -->
+    <!-- Cabeçalho Didático com History Web separado -->
     <header class="py-10 px-4 text-center border-b border-slate-800 bg-gradient-to-b from-slate-900 to-slate-950 sticky top-0 z-30 shadow-2xl backdrop-blur">
         <div class="max-w-4xl mx-auto">
             <span class="text-xs font-black tracking-widest text-indigo-400 uppercase bg-indigo-950/80 px-3 py-1.5 rounded-full border border-indigo-800/60">Plataforma Educacional Interativa</span>
-            <h1 class="text-3xl md:text-5xl font-black tracking-tight text-white mt-3">Historyweb</h1>
-            <p class="text-slate-400 mt-2 text-sm md:text-base">Explore cronologias, blocos e análises históricas detalhadas</p>
+            <h1 class="text-3xl md:text-5xl font-black tracking-tight text-white mt-3">History <span class="text-indigo-500">Web</span></h1>
+            <p class="text-slate-400 mt-2 text-sm md:text-base">Explore cronologias e análises históricas detalhadas</p>
             
             <!-- Barra de Busca Destacada -->
             <div class="max-w-2xl mx-auto mt-6">
@@ -36,7 +36,7 @@
     <!-- Container Principal dos Cards -->
     <main class="max-w-5xl mx-auto px-4 py-10">
         <div id="cards-container" class="space-y-10">
-            <!-- Os cards ricos e chamativos entram aqui via JS -->
+            <!-- Os cards ricos entram aqui via JS -->
         </div>
         
         <!-- Mensagem de Nenhum Resultado -->
@@ -80,7 +80,6 @@
                 const card = document.createElement('article');
                 card.className = 'bg-slate-900/95 border-2 border-slate-800 rounded-3xl p-6 md:p-8 shadow-2xl transition-all duration-300 hover:border-indigo-500/60 overflow-hidden relative';
 
-                // Antecedentes formatados
                 let antecedentesHtml = item.antecedentes ? `
                     <div class="mb-6 bg-slate-950/50 p-4 rounded-2xl border border-slate-800">
                         <h4 class="text-xs font-black text-indigo-400 uppercase tracking-widest mb-2 flex items-center gap-2">
@@ -91,7 +90,6 @@
                         </ul>
                     </div>` : '';
 
-                // Causas formatadas em grid limpo
                 let causasHtml = '';
                 if (item.causas) {
                     causasHtml = `
@@ -110,7 +108,6 @@
                         </div>`;
                 }
 
-                // Personagens
                 let personagensHtml = item.personagens ? `
                     <div class="mb-6 bg-indigo-950/20 p-4 rounded-2xl border border-indigo-900/40">
                         <h4 class="text-xs font-black text-indigo-400 uppercase tracking-widest mb-2 flex items-center gap-2">
@@ -121,7 +118,6 @@
                         </ul>
                     </div>` : '';
 
-                // Linha do Tempo Específica em destaque visual
                 let linhaTempoHtml = '';
                 if (item.linha_do_tempo && item.linha_do_tempo.length > 0) {
                     linhaTempoHtml = `
@@ -143,7 +139,6 @@
                         </div>`;
                 }
 
-                // Impactos
                 let impactosHtml = '';
                 if (item.impactos) {
                     impactosHtml = `
@@ -163,19 +158,18 @@
                 }
 
                 card.innerHTML = `
-                    <!-- Topo do Card (Bloco e Período bem visíveis) -->
+                    <!-- Topo do Card (Sem Bloco 01) -->
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 mb-6 border-b border-slate-800">
-                        <div class="flex items-center gap-3">
-                            <span class="text-sm font-black font-mono text-white bg-indigo-600 px-3.5 py-1.5 rounded-xl shadow-lg">${item.bloco}</span>
-                            <span class="text-xs md:text-sm font-bold text-indigo-300 uppercase tracking-wider">${item.periodo}</span>
+                        <div>
+                            <span class="text-xs md:text-sm font-bold text-indigo-300 uppercase tracking-wider">${item.periodo || ''}</span>
                         </div>
                         <div class="text-xs font-semibold text-slate-400 bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
-                            📍 <strong>Local:</strong> ${item.local} (${item.ano_inicio} até ${item.ano_fim})
+                            📍 <strong>Local:</strong> ${item.local || ''} (${item.ano_inicio} até ${item.ano_fim})
                         </div>
                     </div>
 
-                    <!-- Título Principal Impactante -->
-                    <h2 class="text-2xl md:text-3xl font-black text-white mb-4 leading-tight">${item.titulo_bloco}</h2>
+                    <!-- Título Principal -->
+                    <h2 class="text-2xl md:text-3xl font-black text-white mb-4 leading-tight">${item.titulo_bloco || ''}</h2>
                     
                     <!-- Tema e Contexto -->
                     <div class="mb-6 space-y-3 bg-indigo-950/10 p-5 rounded-2xl border border-indigo-500/20">
@@ -183,26 +177,25 @@
                         <p class="text-slate-300 text-sm md:text-base leading-relaxed"><strong>Contexto Histórico:</strong> ${item.contexto || ''}</p>
                     </div>
 
-                    <!-- Resumo e Desenvolvimento em destaque -->
+                    <!-- Resumo e Desenvolvimento -->
                     <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800 mb-6 space-y-4 shadow-inner">
                         <div>
                             <span class="text-xs font-black uppercase text-indigo-400 tracking-wider block mb-1">Síntese do Bloco</span>
-                            <p class="text-white text-base md:text-lg font-medium leading-relaxed">${item.resumo_card}</p>
+                            <p class="text-white text-base md:text-lg font-medium leading-relaxed">${item.resumo_card || ''}</p>
                         </div>
                         <div class="pt-4 border-t border-slate-800/80">
                             <span class="text-xs font-black uppercase text-slate-400 tracking-wider block mb-1">Desenvolvimento Detalhado</span>
-                            <p class="text-slate-300 text-sm md:text-base leading-relaxed">${item.desenvolvimento}</p>
+                            <p class="text-slate-300 text-sm md:text-base leading-relaxed">${item.desenvolvimento || ''}</p>
                         </div>
                     </div>
 
-                    <!-- Seções Analíticas -->
                     ${antecedentesHtml}
                     ${causasHtml}
                     ${personagensHtml}
                     ${linhaTempoHtml}
                     ${impactosHtml}
 
-                    <!-- Consequências Imediatas e Longo Prazo -->
+                    <!-- Consequências -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6 border-t border-slate-800 text-sm">
                         <div class="bg-slate-950/40 p-4 rounded-2xl border border-slate-800">
                             <strong class="text-indigo-400 block mb-2 uppercase tracking-wider text-xs font-black">Consequências Imediatas</strong>
@@ -218,7 +211,7 @@
                         </div>
                     </div>
 
-                    <!-- Rodapé do Card: Continuidade e Rupturas -->
+                    <!-- Rodapé do Card -->
                     <div class="mt-6 pt-4 border-t border-slate-800/80 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm bg-slate-950/60 p-4 rounded-xl">
                         <div><strong class="text-slate-400 uppercase tracking-wider text-xs block mb-0.5">Continuidade:</strong> <span class="text-slate-200">${item.continuidade || ''}</span></div>
                         <div><strong class="text-slate-400 uppercase tracking-wider text-xs block mb-0.5">Rupturas:</strong> <span class="text-slate-200">${item.rupturas || ''}</span></div>
@@ -229,13 +222,12 @@
             });
         }
 
-        // Filtro em tempo real inteligente
+        // Filtro em tempo real
         document.getElementById('searchInput').addEventListener('input', (e) => {
             const termo = e.target.value.toLowerCase().trim();
             
             const filtrados = todosEventos.filter(item => {
                 const txtTitulo = (item.titulo_bloco || '').toLowerCase();
-                const txtBloco = (item.bloco || '').toLowerCase();
                 const txtPeriodo = (item.periodo || '').toLowerCase();
                 const txtTema = (item.tema || '').toLowerCase();
                 const txtResumo = (item.resumo_card || '').toLowerCase();
@@ -246,7 +238,6 @@
                 );
 
                 return txtTitulo.includes(termo) || 
-                       txtBloco.includes(termo) || 
                        txtPeriodo.includes(termo) || 
                        txtTema.includes(termo) || 
                        txtResumo.includes(termo) || 
