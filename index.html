@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de História</title>
+    <title>Painel de História - Completo</title>
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -99,6 +99,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             margin-bottom: 1.5rem;
+            box-sizing: border-box;
         }
 
         /* Cards Estilo Sanfona (Retráteis) */
@@ -126,14 +127,19 @@
         }
 
         .evento-body {
-            padding: 1rem;
+            padding: 1.5rem;
             border-top: 1px solid #eee;
             display: none;
             background-color: #fafafa;
+            line-height: 1.6;
         }
 
         .evento-card.open .evento-body {
             display: block;
+        }
+
+        .evento-body ul {
+            margin: 0.5rem 0 1rem 1.2rem;
         }
     </style>
 </head>
@@ -213,7 +219,6 @@
     <script>
         let todosEventos = [];
 
-        // Função para trocar de aba visualmente
         function mudarAba(nomeAba) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.nav-tabs li').forEach(el => el.classList.remove('active'));
@@ -233,9 +238,9 @@
             .catch(error => {
                 console.error('Erro ao carregar o JSON:', error);
                 document.getElementById('lista-brasil').innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
+                document.getElementById('lista-antiguidade').innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
             });
 
-        // Distribuir os cards do JSON para suas respectivas abas com base no ID ou tema
         function renderizarAbas() {
             const containerBrasil = document.getElementById('lista-brasil');
             const containerAntiguidade = document.getElementById('lista-antiguidade');
@@ -246,7 +251,6 @@
             todosEventos.forEach(evento => {
                 const htmlCard = criarCardHTML(evento);
 
-                // Separando com base no ID que definimos no JSON unificado
                 if (evento.id.includes('pre-historia-brasil')) {
                     containerBrasil.innerHTML += htmlCard;
                 } else if (evento.id.includes('geral-ant')) {
@@ -255,8 +259,13 @@
             });
         }
 
-        // Criar o HTML estruturado do card com efeito Sanfona
+        // Função de montagem completa do card exibindo todas as propriedades do JSON
         function criarCardHTML(evento) {
+            // Formatar listas internas com segurança caso existam
+            const antecedentesHTML = evento.antecedentes ? evento.antecedentes.map(item => `<li>${item}</li>`).join('') : '';
+            const personagensHTML = evento.personagens ? evento.personagens.map(item => `<li>${item}</li>`).join('') : '';
+            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano}:</strong> ${item.titulo} - ${item.descricao}</li>`).join('') : '';
+
             return `
                 <div class="evento-card" data-titulo="${evento.titulo_bloco.toLowerCase()}">
                     <div class="evento-header" onclick="alternarSanfona(this)">
@@ -266,15 +275,24 @@
                     <div class="evento-body">
                         <p><strong>Período:</strong> ${evento.periodo}</p>
                         <p><strong>Local:</strong> ${evento.local}</p>
-                        <p><strong>Resumo:</strong> ${evento.resumo_card}</p>
+                        <p><strong>Tema:</strong> ${evento.tema}</p>
+                        <hr style="border:0; border-top:1px solid #ddd; margin: 10px 0;">
                         <p><strong>Contexto:</strong> ${evento.contexto}</p>
+                        
+                        ${antecedentesHTML ? `<p><strong>Antecedentes:</strong></p><ul>${antecedentesHTML}</ul>` : ''}
+                        
                         <p><strong>Desenvolvimento:</strong> ${evento.desenvolvimento}</p>
+                        
+                        ${personagensHTML ? `<p><strong>Personagens Destacados:</strong></p><ul>${personagensHTML}</ul>` : ''}
+                        
+                        ${linhaTempoHTML ? `<p><strong>Linha do Tempo:</strong></p><ul>${linhaTempoHTML}</ul>` : ''}
+                        
+                        <p><strong>Consequências a Longo Prazo:</strong> ${evento.consequencias_longo_prazo || ''}</p>
                     </div>
                 </div>
             `;
         }
 
-        // Comportamento do efeito sanfona (Abrir/Fechar)
         function alternarSanfona(header) {
             const card = header.parentElement;
             card.classList.toggle('open');
@@ -282,7 +300,6 @@
             seta.textContent = card.classList.contains('open') ? '▲' : '▼';
         }
 
-        // Sistema de busca em tempo real por aba
         function filtrarCards(input, idContainer) {
             const termo = input.value.toLowerCase();
             const container = document.getElementById(idContainer);
