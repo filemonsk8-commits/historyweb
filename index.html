@@ -3,294 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History Web - Biblioteca de Eventos Históricos</title>
-    <!-- Tailwind CSS para design moderno e responsivo -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Painel de História</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        /* Transforma o cursor em mãozinha em todos os elementos interativos */
-        summary, button, label, input[type="text"] { cursor: pointer; }
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e67e22;
+            --bg-color: #f4f6f7;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        /* Barra de Navegação / Abas */
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .nav-tabs li {
+            padding: 1rem 1.5rem;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: 600;
+        }
+
+        .nav-tabs li:hover, .nav-tabs li.active {
+            background-color: var(--accent-color);
+        }
+
+        /* Seções e Conteúdo */
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Estilo da Capa Inicial */
+        .capa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .capa-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-top: 5px solid var(--accent-color);
+        }
+
+        .capa-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Caixa de Pesquisa */
+        .search-box {
+            width: 100%;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Cards Estilo Sanfona (Retráteis) */
+        .evento-card {
+            background: var(--card-bg);
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            overflow: hidden;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .evento-header {
+            padding: 1rem;
+            background-color: #fff;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .evento-header:hover {
+            background-color: #f9f9f9;
+        }
+
+        .evento-body {
+            padding: 1rem;
+            border-top: 1px solid #eee;
+            display: none;
+            background-color: #fafafa;
+        }
+
+        .evento-card.open .evento-body {
+            display: block;
+        }
     </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen">
+<body>
 
-    <!-- Cabeçalho Didático (Rola junto com a página) -->
-    <header class="py-10 px-4 text-center border-b border-slate-800 bg-gradient-to-b from-slate-900 to-slate-950 shadow-2xl">
-        <div class="max-w-4xl mx-auto">
-            <span class="text-xs font-black tracking-widest text-indigo-400 uppercase bg-indigo-950/80 px-3 py-1.5 rounded-full border border-indigo-800/60">Plataforma Educacional Interativa</span>
-            <h1 class="text-3xl md:text-5xl font-black tracking-tight text-white mt-3">History <span class="text-indigo-500">Web</span></h1>
-            <p class="text-slate-400 mt-2 text-sm md:text-base">Explore cronologias e análises históricas detalhadas</p>
+    <header>
+        <h1>Painel Educativo de História</h1>
+        <p>Explore os períodos históricos de forma integrada</p>
+    </header>
+
+    <!-- Abas de Navegação -->
+    <ul class="nav-tabs">
+        <li onclick="mudarAba('capa')" id="btn-capa" class="active">Capa Inicial</li>
+        <li onclick="mudarAba('brasil')" id="btn-brasil">Pré-História do Brasil</li>
+        <li onclick="mudarAba('antiguidade')" id="btn-antiguidade">Antiguidade</li>
+        <li onclick="mudarAba('media')" id="btn-media">Idade Média</li>
+        <li onclick="mudarAba('contemporanea')" id="btn-contemporanea">Contemporânea</li>
+    </ul>
+
+    <div class="container">
+
+        <!-- ABA 1: CAPA INICIAL -->
+        <div id="tab-capa" class="tab-content active">
+            <h2>Bem-vindo ao Sistema de Estudos</h2>
+            <p>Selecione abaixo o período que deseja explorar ou utilize os menus superiores:</p>
             
-            <!-- Barra de Busca Destacada -->
-            <div class="max-w-2xl mx-auto mt-6">
-                <div class="relative">
-                    <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-slate-400">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                    </span>
-                    <input type="text" id="searchInput" placeholder="Pesquise por ano (ex: -12000, 1500), tema, título ou palavra-chave..." 
-                        class="w-full pl-12 pr-4 py-4 bg-slate-900/90 border-2 border-slate-700/80 rounded-2xl text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500 transition shadow-lg text-sm md:text-base font-medium">
+            <div class="capa-grid">
+                <div class="capa-card" onclick="mudarAba('brasil')">
+                    <h3>🇧🇷 Pré-História do Brasil</h3>
+                    <p>Povos originários, sambaquis e sítios arqueológicos.</p>
+                </div>
+                <div class="capa-card" onclick="mudarAba('antiguidade')">
+                    <h3>🏛️ Antiguidade</h3>
+                    <p>Mesopotâmia, Egito, Grécia e Império Romano.</p>
+                </div>
+                <div class="capa-card" onclick="mudarAba('media')">
+                    <h3>🛡️ Idade Média</h3>
+                    <p>Feudalismo, Cruzadas e Império Bizantino.</p>
+                </div>
+                <div class="capa-card" onclick="mudarAba('contemporanea')">
+                    <h3>⚙️ Contemporânea</h3>
+                    <p>Guerras Mundiais, revoluções e eras modernas.</p>
                 </div>
             </div>
         </div>
-    </header>
 
-    <!-- Container Principal dos Cards -->
-    <main class="max-w-5xl mx-auto px-4 py-10">
-        <div id="cards-container" class="space-y-10">
-            <!-- Os cards ricos entram aqui via JS -->
+        <!-- ABA 2: BRASIL -->
+        <div id="tab-brasil" class="tab-content">
+            <h2>Pré-História do Brasil</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar nos registros do Brasil..." onkeyup="filtrarCards(this, 'lista-brasil')">
+            <div id="lista-brasil">Carregando dados...</div>
         </div>
-        
-        <!-- Mensagem de Nenhum Resultado -->
-        <div id="no-results" class="hidden text-center py-20 bg-slate-900/50 rounded-2xl border border-slate-800 mt-6">
-            <p class="text-slate-400 text-lg font-medium">Nenhum evento encontrado para a sua busca.</p>
-        </div>
-    </main>
 
-    <!-- Script de Renderização Inteligente -->
+        <!-- ABA 3: ANTIGUIDADE -->
+        <div id="tab-antiguidade" class="tab-content">
+            <h2>Antiguidade Oriental e Clássica</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Antiguidade..." onkeyup="filtrarCards(this, 'lista-antiguidade')">
+            <div id="lista-antiguidade">Carregando dados...</div>
+        </div>
+
+        <!-- ABA 4: MÉDIA -->
+        <div id="tab-media" class="tab-content">
+            <h2>Idade Média</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Idade Média..." onkeyup="filtrarCards(this, 'lista-media')">
+            <div id="lista-media">Nenhum evento cadastrado nesta aba ainda.</div>
+        </div>
+
+        <!-- ABA 5: CONTEMPORÂNEA -->
+        <div id="tab-contemporanea" class="tab-content">
+            <h2>Idade Contemporânea</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Contemporânea..." onkeyup="filtrarCards(this, 'lista-contemporanea')">
+            <div id="lista-contemporanea">Nenhum evento cadastrado nesta aba ainda.</div>
+        </div>
+
+    </div>
+
     <script>
         let todosEventos = [];
 
-        async function carregarDados() {
-            try {
-                const resposta = await fetch('eventos.json');
-                if (!resposta.ok) throw new Error('Erro ao carregar os dados.');
-                todosEventos = await resposta.json();
-                renderizarCards(todosEventos);
-            } catch (erro) {
-                console.error(erro);
-                document.getElementById('cards-container').innerHTML = `
-                    <div class="p-8 bg-red-950/40 border border-red-800/80 rounded-2xl text-red-300 text-center text-base font-semibold">
-                        Atenção: Não foi possível carregar o arquivo <b>eventos.json</b>. Verifique se ele está na raiz do seu repositório no GitHub.
-                    </div>`;
-            }
+        // Função para trocar de aba visualmente
+        function mudarAba(nomeAba) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.nav-tabs li').forEach(el => el.classList.remove('active'));
+
+            document.getElementById('tab-' + nomeAba).classList.add('active');
+            document.getElementById('btn-' + nomeAba).classList.add('active');
+            window.scrollTo(0, 0);
         }
 
-        function renderizarCards(eventos) {
-            const container = document.getElementById('cards-container');
-            const noResults = document.getElementById('no-results');
-            container.innerHTML = '';
-
-            if (eventos.length === 0) {
-                noResults.classList.remove('hidden');
-                return;
-            } else {
-                noResults.classList.add('hidden');
-            }
-
-            eventos.forEach(item => {
-                const card = document.createElement('article');
-                card.className = 'bg-slate-900/95 border-2 border-slate-800 rounded-3xl p-6 md:p-8 shadow-2xl transition-all duration-300 hover:border-indigo-500/60 overflow-hidden relative';
-
-                // Antecedentes Históricos (Sanfona Retrátil)
-                let antecedentesHtml = item.antecedentes ? `
-                    <details class="mb-6 bg-slate-950/70 rounded-2xl border-2 border-indigo-500/40 shadow-inner group">
-                        <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                            <span class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-indigo-500"></span> Antecedentes Históricos</span>
-                            <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                        </summary>
-                        <div class="px-6 pb-6 pt-0">
-                            <ul class="list-disc list-inside text-base md:text-lg text-slate-100 space-y-2.5 font-medium leading-relaxed">
-                                ${item.antecedentes.map(a => `<li>${a}</li>`).join('')}
-                            </ul>
-                        </div>
-                    </details>` : '';
-
-                // Causas e Dimensões Estruturais (Sanfona Retrátil)
-                let causasHtml = '';
-                if (item.causas) {
-                    causasHtml = `
-                        <details class="mb-6 bg-slate-950/70 rounded-2xl border-2 border-indigo-500/40 shadow-inner group">
-                            <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                                <span class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-indigo-500"></span> Causas e Dimensões Estruturais</span>
-                                <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                            </summary>
-                            <div class="px-6 pb-6 pt-0">
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    ${Object.entries(item.causas).map(([k, v]) => `
-                                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
-                                            <strong class="text-indigo-300 uppercase block mb-1 tracking-wider text-xs md:text-sm font-black">${k}</strong> 
-                                            <span class="text-slate-100 text-base md:text-lg leading-relaxed font-medium">${v}</span>
-                                        </div>
-                                    `).join('')}
-                                </div>
-                            </div>
-                        </details>`;
-                }
-
-                // Personagens Chave (Sanfona Retrátil)
-                let personagensHtml = item.personagens ? `
-                    <details class="mb-6 bg-indigo-950/30 rounded-2xl border-2 border-indigo-900/50 shadow-inner group">
-                        <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                            <span class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-indigo-400"></span> Personagens Chave</span>
-                            <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                        </summary>
-                        <div class="px-6 pb-6 pt-0">
-                            <ul class="list-disc list-inside text-base md:text-lg text-indigo-100 space-y-2.5 font-medium leading-relaxed">
-                                ${item.personagens.map(p => `<li>${p}</li>`).join('')}
-                            </ul>
-                        </div>
-                    </details>` : '';
-
-                // Marcos da Linha do Tempo (Sanfona Retrátil)
-                let linhaTempoHtml = '';
-                if (item.linha_do_tempo && item.linha_do_tempo.length > 0) {
-                    linhaTempoHtml = `
-                        <details class="mb-6 bg-slate-950/70 rounded-2xl border-2 border-indigo-500/40 shadow-inner group">
-                            <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                                <span class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-indigo-500"></span> Marcos da Linha do Tempo</span>
-                                <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                            </summary>
-                            <div class="px-6 pb-6 pt-0">
-                                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                                    ${item.linha_do_tempo.map(m => `
-                                        <div class="bg-slate-900 p-5 rounded-2xl border border-indigo-500/30 flex flex-col justify-between shadow-inner">
-                                            <div>
-                                                <span class="inline-block px-3 py-1 text-xs md:text-sm font-mono font-bold text-white bg-indigo-600 rounded-lg mb-2">${m.ano}</span>
-                                                <h5 class="text-base font-bold text-white mb-2">${m.titulo}</h5>
-                                            </div>
-                                            <p class="text-sm md:text-base text-slate-300 mt-2 leading-relaxed">${m.descricao}</p>
-                                        </div>
-                                    `).join('')}
-                                </div>
-                            </div>
-                        </details>`;
-                }
-
-                // Impactos Históricos (Sanfona Retrátil)
-                let impactosHtml = '';
-                if (item.impactos) {
-                    impactosHtml = `
-                        <details class="mb-6 bg-slate-950/70 rounded-2xl border-2 border-indigo-500/40 shadow-inner group">
-                            <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                                <span class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-indigo-500"></span> Impactos Históricos</span>
-                                <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                            </summary>
-                            <div class="px-6 pb-6 pt-0">
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    ${Object.entries(item.impactos).map(([k, v]) => `
-                                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
-                                            <strong class="text-indigo-300 uppercase block mb-1 tracking-wider text-xs md:text-sm font-black">${k}</strong> 
-                                            <span class="text-slate-100 text-base md:text-lg leading-relaxed font-medium">${v}</span>
-                                        </div>
-                                    `).join('')}
-                                </div>
-                            </div>
-                        </details>`;
-                }
-
-                card.innerHTML = `
-                    <!-- Topo do Card -->
-                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 mb-6 border-b border-slate-800">
-                        <div>
-                            <span class="text-sm md:text-base font-bold text-indigo-300 uppercase tracking-wider">${item.periodo || ''}</span>
-                        </div>
-                        <div class="text-xs md:text-sm font-semibold text-slate-300 bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
-                            📍 <strong>Local:</strong> ${item.local || ''} (${item.ano_inicio} até ${item.ano_fim})
-                        </div>
-                    </div>
-
-                    <!-- Título Principal -->
-                    <h2 class="text-2xl md:text-4xl font-black text-white mb-4 leading-tight">${item.titulo_bloco || ''}</h2>
-                    
-                    <!-- Tema e Contexto -->
-                    <div class="mb-6 space-y-3 bg-indigo-950/20 p-6 rounded-2xl border-2 border-indigo-500/30">
-                        <p class="text-indigo-200 text-base md:text-lg font-bold"><strong>Tema Central:</strong> ${item.tema || ''}</p>
-                        <p class="text-slate-200 text-base md:text-lg leading-relaxed font-medium"><strong>Contexto Histórico:</strong> ${item.contexto || ''}</p>
-                    </div>
-
-                    <!-- Resumo e Desenvolvimento -->
-                    <div class="bg-slate-950 p-6 rounded-2xl border-2 border-slate-800 mb-6 space-y-5 shadow-inner">
-                        <div>
-                            <span class="text-xs md:text-sm font-black uppercase text-indigo-400 tracking-wider block mb-2">Síntese do Bloco</span>
-                            <p class="text-white text-lg md:text-xl font-medium leading-relaxed">${item.resumo_card || ''}</p>
-                        </div>
-                        <div class="pt-5 border-t border-slate-800">
-                            <span class="text-xs md:text-sm font-black uppercase text-slate-400 tracking-wider block mb-2">Desenvolvimento Detalhado</span>
-                            <p class="text-slate-200 text-base md:text-lg leading-relaxed font-medium">${item.desenvolvimento || ''}</p>
-                        </div>
-                    </div>
-
-                    ${antecedentesHtml}
-                    ${causasHtml}
-                    ${personagensHtml}
-                    ${linhaTempoHtml}
-                    ${impactosHtml}
-
-                    <!-- Consequências Imediatas e Longo Prazo -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                        <details class="bg-slate-950/70 rounded-2xl border-2 border-slate-800 shadow-inner group">
-                            <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                                <span>Consequências Imediatas</span>
-                                <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                            </summary>
-                            <div class="px-6 pb-6 pt-0">
-                                <ul class="list-disc list-inside space-y-2.5 text-base md:text-lg text-slate-100 font-medium">
-                                    ${item.consequencias_imediatas ? item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('') : ''}
-                                </ul>
-                            </div>
-                        </details>
-                        
-                        <details class="bg-slate-950/70 rounded-2xl border-2 border-slate-800 shadow-inner group">
-                            <summary class="p-6 text-sm md:text-base font-black text-indigo-400 uppercase tracking-widest flex items-center justify-between select-none hover:text-indigo-300 transition">
-                                <span>Consequências a Longo Prazo</span>
-                                <span class="text-xs text-indigo-400 group-open:rotate-180 transition-transform duration-300">▼ Expandir</span>
-                            </summary>
-                            <div class="px-6 pb-6 pt-0">
-                                <ul class="list-disc list-inside space-y-2.5 text-base md:text-lg text-slate-100 font-medium">
-                                    ${item.consequencias_longo_prazo ? item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('') : ''}
-                                </ul>
-                            </div>
-                        </details>
-                    </div>
-
-                    <!-- Rodapé do Card: Continuidade e Rupturas -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950/80 p-6 rounded-2xl border-2 border-slate-800 shadow-inner">
-                        <div>
-                            <strong class="text-indigo-400 uppercase tracking-wider text-sm md:text-base block mb-2 font-black">Continuidade:</strong> 
-                            <span class="text-slate-100 text-base md:text-lg leading-relaxed font-medium">${item.continuidade || ''}</span>
-                        </div>
-                        <div>
-                            <strong class="text-indigo-400 uppercase tracking-wider text-sm md:text-base block mb-2 font-black">Rupturas:</strong> 
-                            <span class="text-slate-100 text-base md:text-lg leading-relaxed font-medium">${item.rupturas || ''}</span>
-                        </div>
-                    </div>
-                `;
-
-                container.appendChild(card);
+        // Carregar o arquivo eventos.json unificado
+        fetch('eventos.json')
+            .then(response => response.json())
+            .then(data => {
+                todosEventos = data;
+                renderizarAbas();
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o JSON:', error);
+                document.getElementById('lista-brasil').innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
             });
-        }
 
-        // Filtro em tempo real
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            const termo = e.target.value.toLowerCase().trim();
+        // Distribuir os cards do JSON para suas respectivas abas com base no ID ou tema
+        function renderizarAbas() {
+            const containerBrasil = document.getElementById('lista-brasil');
+            const containerAntiguidade = document.getElementById('lista-antiguidade');
             
-            const filtrados = todosEventos.filter(item => {
-                const txtTitulo = (item.titulo_bloco || '').toLowerCase();
-                const txtPeriodo = (item.periodo || '').toLowerCase();
-                const txtTema = (item.tema || '').toLowerCase();
-                const txtResumo = (item.resumo_card || '').toLowerCase();
-                const txtDesenvolvimento = (item.desenvolvimento || '').toLowerCase();
-                
-                const bateNoAno = item.linha_do_tempo && item.linha_do_tempo.some(m => 
-                    m.ano.toLowerCase().includes(termo) || m.titulo.toLowerCase().includes(termo)
-                );
+            containerBrasil.innerHTML = '';
+            containerAntiguidade.innerHTML = '';
 
-                return txtTitulo.includes(termo) || 
-                       txtPeriodo.includes(termo) || 
-                       txtTema.includes(termo) || 
-                       txtResumo.includes(termo) || 
-                       txtDesenvolvimento.includes(termo) || 
-                       bateNoAno ||
-                       String(item.ano_inicio).includes(termo) ||
-                       String(item.ano_fim).includes(termo);
+            todosEventos.forEach(evento => {
+                const htmlCard = criarCardHTML(evento);
+
+                // Separando com base no ID que definimos no JSON unificado
+                if (evento.id.includes('pre-historia-brasil')) {
+                    containerBrasil.innerHTML += htmlCard;
+                } else if (evento.id.includes('geral-ant')) {
+                    containerAntiguidade.innerHTML += htmlCard;
+                }
             });
+        }
 
-            renderizarCards(filtrados);
-        });
+        // Criar o HTML estruturado do card com efeito Sanfona
+        function criarCardHTML(evento) {
+            return `
+                <div class="evento-card" data-titulo="${evento.titulo_bloco.toLowerCase()}">
+                    <div class="evento-header" onclick="alternarSanfona(this)">
+                        <span>${evento.titulo_bloco} (${evento.ano_inicio} a ${evento.ano_fim})</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="evento-body">
+                        <p><strong>Período:</strong> ${evento.periodo}</p>
+                        <p><strong>Local:</strong> ${evento.local}</p>
+                        <p><strong>Resumo:</strong> ${evento.resumo_card}</p>
+                        <p><strong>Contexto:</strong> ${evento.contexto}</p>
+                        <p><strong>Desenvolvimento:</strong> ${evento.desenvolvimento}</p>
+                    </div>
+                </div>
+            `;
+        }
 
-        // Inicializa
-        carregarDados();
+        // Comportamento do efeito sanfona (Abrir/Fechar)
+        function alternarSanfona(header) {
+            const card = header.parentElement;
+            card.classList.toggle('open');
+            const seta = header.querySelector('span:last-child');
+            seta.textContent = card.classList.contains('open') ? '▲' : '▼';
+        }
+
+        // Sistema de busca em tempo real por aba
+        function filtrarCards(input, idContainer) {
+            const termo = input.value.toLowerCase();
+            const container = document.getElementById(idContainer);
+            const cards = container.getElementsByClassName('evento-card');
+
+            for (let card of cards) {
+                const titulo = card.getAttribute('data-titulo');
+                if (titulo.includes(termo)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+        }
     </script>
 </body>
 </html>
