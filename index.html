@@ -6,13 +6,13 @@
     <title>Painel Educativo de História</title>
     <style>
         :root {
-            --primary: #2c3e50;
-            --secondary: #34495e;
-            --accent: #e67e22;
-            --bg: #f8f9fa;
+            --primary: #1e293b;
+            --secondary: #334155;
+            --accent: #d97706;
+            --bg: #f8fafc;
             --card-bg: #ffffff;
-            --text: #2c3e50;
-            --border: #e2e8f0;
+            --text: #1e293b;
+            --border: #cbd5e1;
         }
 
         body {
@@ -25,21 +25,23 @@
         }
 
         header {
-            background-color: var(--primary);
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
-            padding: 2rem 1rem;
+            padding: 2.5rem 1rem;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         header h1 {
             margin: 0 0 0.5rem 0;
-            font-size: 1.8rem;
+            font-size: 2rem;
+            letter-spacing: 0.5px;
         }
 
         header p {
             margin: 0;
-            opacity: 0.85;
+            opacity: 0.9;
+            font-size: 1.1rem;
         }
 
         /* Barra de Navegação / Abas */
@@ -58,24 +60,25 @@
             padding: 1rem 1.5rem;
             color: white;
             cursor: pointer;
-            transition: background 0.2s, color 0.2s;
+            transition: all 0.3s ease;
             font-weight: 600;
             font-size: 0.95rem;
         }
 
         .nav-tabs li:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255,255,255,0.15);
         }
 
         .nav-tabs li.active {
             background-color: var(--accent);
+            border-bottom: 4px solid #b45309;
         }
 
         /* Container Principal */
         .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 1rem;
+            max-width: 950px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
         }
 
         .tab-content {
@@ -84,89 +87,150 @@
 
         .tab-content.active {
             display: block;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         /* Capa Inicial */
         .capa-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
         }
 
         .capa-card {
             background: white;
-            padding: 1.8rem 1.2rem;
-            border-radius: 8px;
+            padding: 2.5rem 1.5rem;
+            border-radius: 12px;
             text-align: center;
             cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            transition: transform 0.2s, box-shadow 0.2s;
-            border-top: 4px solid var(--accent);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border-top: 5px solid var(--accent);
         }
 
         .capa-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            transform: translateY(-6px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
 
         .capa-card h3 {
             margin-top: 0;
             color: var(--primary);
+            font-size: 1.3rem;
         }
 
         .capa-card p {
             font-size: 0.9rem;
-            color: #666;
+            color: #64748b;
             margin-bottom: 0;
         }
 
         /* Caixa de Pesquisa */
         .search-box {
             width: 100%;
-            padding: 0.8rem 1rem;
+            padding: 0.9rem 1.2rem;
             font-size: 1rem;
             border: 1px solid var(--border);
-            border-radius: 6px;
-            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
             box-sizing: border-box;
             background: white;
-            box-shadow: inset 0 1px 2px rgba(0,0,0,0.02);
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+            transition: border-color 0.2s;
         }
 
-        /* Cards Estilo Sanfona */
+        .search-box:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        /* Cards Estilo Losango / Painel Oculto (Surpresa) */
         .evento-card {
             background: var(--card-bg);
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 10px;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.04);
             overflow: hidden;
             border: 1px solid var(--border);
-            border-left: 5px solid var(--primary);
+            transition: all 0.3s ease;
+        }
+
+        .evento-card:hover {
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+            border-color: var(--accent);
         }
 
         .evento-header {
-            padding: 1.2rem;
+            padding: 1.2rem 1.5rem;
             background-color: #fff;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-weight: bold;
+            font-weight: 600;
             color: var(--primary);
-            transition: background 0.2s;
+            font-size: 1.1rem;
+            user-select: none;
+            transition: background-color 0.2s;
         }
 
         .evento-header:hover {
-            background-color: #f8fafc;
+            background-color: #fdfbf7;
+        }
+
+        /* Elemento decorativo em formato de losango nos cards */
+        .diamond-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background-color: #f1f5f9;
+            transform: rotate(45deg);
+            margin-right: 12px;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+
+        .evento-card.open .diamond-icon {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        .diamond-content-icon {
+            transform: rotate(-45deg);
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .evento-card.open .diamond-content-icon {
+            color: white;
+        }
+
+        .evento-title-wrapper {
+            display: flex;
+            align-items: center;
         }
 
         .evento-body {
-            padding: 1.5rem;
+            padding: 1.8rem;
             border-top: 1px solid var(--border);
             display: none;
             background-color: #ffffff;
-            color: #4a5568;
+            color: #334155;
+            animation: slideDown 0.3s ease-in-out;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .evento-card.open .evento-body {
@@ -174,27 +238,28 @@
         }
 
         .evento-body p {
-            margin: 0.6rem 0;
+            margin: 0.8rem 0;
         }
 
         .evento-body ul {
-            margin: 0.4rem 0 1rem 1.2rem;
+            margin: 0.5rem 0 1.2rem 1.4rem;
             padding: 0;
         }
 
         .evento-body li {
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.4rem;
         }
 
         .info-tag {
             display: inline-block;
-            background: #edf2f7;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
+            background: #f1f5f9;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
             font-size: 0.85rem;
-            margin-left: 0.5rem;
+            margin-left: 0.8rem;
             font-weight: 600;
-            color: #4a5568;
+            color: #475569;
+            border: 1px solid #e2e8f0;
         }
     </style>
 </head>
@@ -202,7 +267,7 @@
 
     <header>
         <h1>Painel Educativo de História</h1>
-        <p>Explore os períodos históricos e conteúdos interativos</p>
+        <p>Explore os períodos históricos de forma imersiva e interativa</p>
     </header>
 
     <!-- Abas de Navegação -->
@@ -219,7 +284,7 @@
         <!-- ABA 1: CAPA INICIAL -->
         <div id="tab-capa" class="tab-content active">
             <h2>Bem-vindo ao Sistema de Estudos</h2>
-            <p>Selecione abaixo o período que deseja explorar ou utilize o menu superior:</p>
+            <p>Selecione abaixo o período que deseja explorar:</p>
             
             <div class="capa-grid">
                 <div class="capa-card" onclick="mudarAba('brasil')">
@@ -305,10 +370,7 @@
                 'contemporanea': document.getElementById('lista-contemporanea')
             };
 
-            // Limpar conteúdos anteriores
             Object.values(containers).forEach(c => c.innerHTML = '');
-
-            // Contadores para verificar se há registos em cada aba
             const contadores = { brasil: 0, antiguidade: 0, media: 0, contemporanea: 0 };
 
             todosEventos.forEach(evento => {
@@ -325,16 +387,14 @@
                     containers.media.innerHTML += htmlCard;
                     contadores.media++;
                 } else {
-                    // Por defeito ou se contiver termos contemporâneos / guerras mundiais
                     containers.contemporanea.innerHTML += htmlCard;
                     contadores.contemporanea++;
                 }
             });
 
-            // Mensagem caso alguma aba fique vazia
             for (let chave in contadores) {
                 if (contadores[chave] === 0) {
-                    containers[chave].innerHTML = '<p style="color:#666; font-style:italic;">Nenhum evento registado nesta aba.</p>';
+                    containers[chave].innerHTML = '<p style="color:#64748b; font-style:italic;">Nenhum evento registado nesta aba.</p>';
                 }
             }
         }
@@ -347,8 +407,14 @@
             return `
                 <div class="evento-card" data-titulo="${(evento.titulo_bloco || '').toLowerCase()}">
                     <div class="evento-header" onclick="alternarSanfona(this)">
-                        <span>${evento.titulo_bloco || 'Sem Título'} <span class="info-tag">${evento.ano_inicio || ''} a ${evento.ano_fim || ''}</span></span>
-                        <span>▼</span>
+                        <div class="evento-title-wrapper">
+                            <div class="diamond-icon"><span class="diamond-content-icon">✦</span></div>
+                            <span>${evento.titulo_bloco || 'Sem Título'}</span>
+                        </div>
+                        <div>
+                            <span class="info-tag">${evento.ano_inicio || ''} a ${evento.ano_fim || ''}</span>
+                            <span style="margin-left: 10px; font-size: 0.8rem; color: var(--accent);">▼</span>
+                        </div>
                     </div>
                     <div class="evento-body">
                         <p><strong>Período:</strong> ${evento.periodo || ''}</p>
@@ -374,7 +440,7 @@
         function alternarSanfona(header) {
             const card = header.parentElement;
             card.classList.toggle('open');
-            const seta = header.querySelector('span:last-child');
+            const seta = header.querySelector('span[style*="color: var(--accent)"]');
             seta.textContent = card.classList.contains('open') ? '▲' : '▼';
         }
 
