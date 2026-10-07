@@ -8,11 +8,11 @@
     <style>
         :root {
             --primary-color: #2563eb;
-            --bg-color: #f1f5f9;
+            --bg-color: #f8fafc;
             --card-bg: #ffffff;
             --text-main: #0f172a;
-            --text-muted: #1e293b;
-            --border-color: #cbd5e1;
+            --text-muted: #475569;
+            --border-color: #e2e8f0;
         }
 
         * {
@@ -25,7 +25,7 @@
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
-            padding: 20px;
+            padding: 30px 20px;
             font-size: 1.15rem;
         }
 
@@ -35,10 +35,11 @@
         }
 
         header h1 {
-            font-size: 2.4rem;
+            font-size: 2.6rem;
             color: var(--primary-color);
             margin-bottom: 8px;
             cursor: pointer;
+            font-weight: 700;
         }
 
         header p {
@@ -56,7 +57,7 @@
             padding: 15px;
             border-radius: 12px;
             border: 1px solid var(--border-color);
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03);
         }
 
         .busca-container input {
@@ -66,6 +67,7 @@
             border: 1px solid var(--border-color);
             border-radius: 8px;
             outline: none;
+            color: var(--text-main);
         }
 
         .busca-container input:focus {
@@ -120,54 +122,74 @@
             margin: 0 auto;
         }
 
-        /* Tela de Capa em Losangos */
+        /* Tela de Capa Moderna (Cards em Grid Limpo) */
+        .capa-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .capa-titulo-secao {
+            font-size: 1.8rem;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .capa-sub-secao {
+            color: var(--text-muted);
+            margin-bottom: 35px;
+            font-size: 1.15rem;
+        }
+
         .capa-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 35px;
-            justify-items: center;
-            padding: 20px 0;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            padding: 10px 0;
         }
 
-        .losango-card {
-            width: 190px;
-            height: 190px;
-            background: linear-gradient(135deg, #2563eb, #1d4ed8);
-            color: white;
+        .capa-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 30px 24px;
+            text-align: left;
+            cursor: pointer;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+            transition: all 0.25s ease;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            transform: rotate(45deg);
-            cursor: pointer;
-            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
-            transition: all 0.3s ease;
-            border: 4px solid #ffffff;
-            padding: 15px;
+            justify-content: space-between;
         }
 
-        .losango-card:hover {
-            transform: rotate(45deg) scale(1.08);
-            box-shadow: 0 15px 30px rgba(37, 99, 235, 0.35);
-            background: linear-gradient(135deg, #1d4ed8, #1e40af);
+        .capa-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 20px -3px rgba(37, 99, 235, 0.12);
+            border-color: var(--primary-color);
         }
 
-        .losango-conteudo {
-            transform: rotate(-45deg);
-            width: 130px;
-        }
-
-        .losango-conteudo h3 {
-            font-size: 1rem;
+        .capa-card h3 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
             font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 4px;
         }
 
-        .losango-conteudo span {
-            font-size: 0.75rem;
-            opacity: 0.9;
+        .capa-card p {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .capa-card-footer {
+            margin-top: 20px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         /* Cards Históricos */
@@ -371,18 +393,18 @@
 
     <header>
         <h1 onclick="mostrarCapa()">Linha do Tempo Histórica</h1>
-        <p>Explore por períodos ou utilize a busca avançada por século, data ou palavra-chave</p>
+        <p>Explore os períodos históricos ou utilize a busca avançada</p>
     </header>
 
-    <!-- Barra de Busca Avançada -->
+    <!-- Barra de Pesquisa Avançada -->
     <div class="busca-container">
         <input type="text" id="input-busca" placeholder="Pesquisar por palavra, ano (ex: 1500) ou século (ex: séc. XIX)..." onkeypress="verificarEnter(event)">
         <button onclick="executarBusca()">Pesquisar</button>
     </div>
 
-    <!-- Menu de Navegação -->
+    <!-- Menu de Navegação (Brasil posicionado logo após Contemporânea) -->
     <nav class="menu-navegacao">
-        <button class="btn-periodo" onclick="mostrarCapa()">Capa Principal</button>
+        <button class="btn-periodo" onclick="mostrarCapa()">Início / Capa</button>
         <button class="btn-periodo" onclick="carregarPeriodo('pre-historia.json', this)">Pré-História</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-antiga.json', this)">Idade Antiga</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-medieval.json', this)">Idade Média</button>
@@ -400,13 +422,13 @@
     <script>
         const periodosDisponiveis = [
             { arquivo: 'pre-historia.json', titulo: 'Pré-História', subtitulo: 'Origens e Povos Originários' },
-            { arquivo: 'idade-antiga.json', titulo: 'Idade Antiga', subtitulo: 'Civilizações Clássicas' },
+            { arquivo: 'idade-antiga.json', titulo: 'Idade Antiga', subtitulo: 'Civilizações Clássicas e Antiguidade' },
             { arquivo: 'idade-medieval.json', titulo: 'Idade Média', subtitulo: 'Feudalismo e Cristandade' },
-            { arquivo: 'idade-moderna.json', titulo: 'Idade Moderna', subtitulo: 'Expansão e Absolutismo' },
-            { arquivo: 'idade-contemporanea.json', titulo: 'Idade Contemporânea', subtitulo: 'Guerras e Revoluções' },
-            { arquivo: 'brasil.json', titulo: 'Brasil', subtitulo: 'Da Colônia à Atualidade' },
-            { arquivo: 'atualidades.json', titulo: 'Atualidades', subtitulo: 'Cenário Mundial Recente' },
-            { arquivo: 'direitos-humanos.json', titulo: 'Direitos Humanos', subtitulo: 'Conquistas da Cidadania' }
+            { arquivo: 'idade-moderna.json', titulo: 'Idade Moderna', subtitulo: 'Expansão, Absolutismo e Renascimento' },
+            { arquivo: 'idade-contemporanea.json', titulo: 'Idade Contemporânea', subtitulo: 'Guerras, Revoluções e Globalização' },
+            { arquivo: 'brasil.json', titulo: 'Brasil', subtitulo: 'Da Colônia à República Atual' },
+            { arquivo: 'atualidades.json', titulo: 'Atualidades', subtitulo: 'Cenário Mundial Recente (2019-2026)' },
+            { arquivo: 'direitos-humanos.json', titulo: 'Direitos Humanos', subtitulo: 'Conquistas da Cidadania e Democracia' }
         ];
 
         function formatarAno(ano) {
@@ -442,19 +464,27 @@
             document.querySelector('.menu-navegacao button').classList.add('ativo');
 
             const container = document.getElementById('app-container');
-            let htmlCapa = '<div class="capa-grid">';
+            let htmlCapa = `
+                <div class="capa-container">
+                    <h2 class="capa-titulo-secao">Explore os Módulos Históricos</h2>
+                    <p class="capa-sub-secao">Selecione abaixo um dos eixos temáticos para iniciar a leitura e navegação:</p>
+                    <div class="capa-grid">
+            `;
             
             periodosDisponiveis.forEach(p => {
                 htmlCapa += `
-                    <div class="losango-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
-                        <div class="losango-conteudo">
+                    <div class="capa-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
+                        <div>
                             <h3>${p.titulo}</h3>
-                            <span>${p.subtitulo}</span>
+                            <p>${p.subtitulo}</p>
+                        </div>
+                        <div class="capa-card-footer">
+                            Acessar Módulo &rarr;
                         </div>
                     </div>
                 `;
             });
-            htmlCapa += '</div>';
+            htmlCapa += `</div></div>`;
             container.innerHTML = htmlCapa;
         }
 
@@ -472,7 +502,7 @@
             if (botaoElemento) botaoElemento.classList.add('ativo');
 
             const container = document.getElementById('app-container');
-            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem;">A carregar dados...</p>';
+            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem; padding: 40px;">A carregar dados...</p>';
             
             try {
                 const resposta = await fetch(arquivoJson);
@@ -567,7 +597,6 @@
             }
         }
 
-        // Conversor romano para número decimal para busca por século (ex: XIX -> 19)
         function romanoParaDecimal(romano) {
             const r = romano.toUpperCase();
             const lookup = {M:1000, D:500, C:100, L:50, X:10, V:5, I:1};
@@ -591,11 +620,10 @@
 
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
             const container = document.getElementById('app-container');
-            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem;">Pesquisando em todos os períodos...</p>';
+            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem; padding: 40px;">Pesquisando em todos os períodos...</p>';
 
             let resultadosGlobais = [];
 
-            // Identificar se a busca é por século (ex: século 19, séc xix, sec 19)
             let buscaSeculoAnoInicio = null;
             let buscaSeculoAnoFim = null;
             const regexSeculo = /(?:século|sec\.?)\s*([ivxlcdm]+|\d+)/i;
@@ -609,13 +637,11 @@
                     numSeculo = romanoParaDecimal(matchSec[1]);
                 }
                 if (numSeculo) {
-                    // Século XIX = anos de 1801 a 1900
                     buscaSeculoAnoInicio = (numSeculo - 1) * 100 + 1;
                     buscaSeculoAnoFim = numSeculo * 100;
                 }
             }
 
-            // Pesquisar em todos os ficheiros JSON do projeto
             for (let p of periodosDisponiveis) {
                 try {
                     const res = await fetch(p.arquivo);
@@ -624,14 +650,12 @@
                         dados.forEach(item => {
                             let atendeCriterio = false;
 
-                            // 1. Verificação por século
                             if (buscaSeculoAnoInicio !== null) {
                                 if (item.ano_inicio <= buscaSeculoAnoFim && item.ano_fim >= buscaSeculoAnoInicio) {
                                     atendeCriterio = true;
                                 }
                             }
 
-                            // 2. Verificação por data numérica exata (ano)
                             const anoNum = parseInt(termo, 10);
                             if (!isNaN(anoNum) && !matchSec) {
                                 if (item.ano_inicio <= anoNum && item.ano_fim >= anoNum) {
@@ -642,7 +666,6 @@
                                 }
                             }
 
-                            // 3. Verificação por palavra-chave genérica em textos e títulos
                             const stringItem = JSON.stringify(item).toLowerCase();
                             if (stringItem.includes(termo)) {
                                 atendeCriterio = true;
@@ -661,7 +684,7 @@
             renderizarCards(resultadosGlobais, container);
         }
 
-        // Inicializa exibindo a Capa Principal em losangos
+        // Inicializa exibindo a Capa Principal moderna
         window.onload = mostrarCapa;
     </script>
 </body>
