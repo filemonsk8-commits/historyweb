@@ -1,0 +1,469 @@
+[
+  {
+    "id": "atualidades-2019",
+    "titulo_principal": "ATUALIDADES (2019): TENSÕES CLIMÁTICAS, GEOPOLÍTICA E TECNOLOGIA",
+    "ano_inicio": 2019,
+    "ano_fim": 2019,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global",
+    "sociedades_envolvidas": "Comunidade Internacional, Estados Unidos, China, Movimentos Globais",
+    "tema": "Protestos Sociais, Mudanças Climáticas, Redes Sociais, Inteligência Artificial e Guerra Comercial EUA-China",
+    "contexto": "O ano de 2019 foi marcado por amplas mobilizações populares globais, pressões ambientais intensas e a escalada da disputa comercial e tecnológica entre as duas maiores potências do planeta.",
+    "antecedentes": [
+      "Crescimento das desigualdades globais e acirramento da rivalidade hegemônica entre Washington e Pequim."
+    ],
+    "causas": {
+      "politicas": "Descontentamento popular com governos em várias regiões do mundo e disputas tarifárias bilaterais.",
+      "economicas": "Guerra comercial travada entre Estados Unidos e China com imposição mútua de tarifas.",
+      "sociais": "Insatisfação econômica e exigências por justiça social e ação climática imediata.",
+      "religiosas": "Tensões geopolíticas transversais a diferentes matrizes culturais.",
+      "culturais": "Expansão massiva das redes sociais como principal arena de debate e polarização política.",
+      "territoriais": "Disputas por rotas comerciais globais e hegemonia tecnológica.",
+      "tecnologias": "Avanço contínuo da automação, da inteligência artificial e da vigilância digital."
+    },
+    "resumo_card": "Abrange as mobilizações sociais globais de 2019, o debate climático, o papel político das redes sociais, os avanços da inteligência artificial e a guerra comercial entre Estados Unidos e China.",
+    "desenvolvimento": "Em 2019, o mundo assistiu a uma onda de protestos em diversos países contra governos e desigualdades. O debate sobre mudanças climáticas ganhou enorme repercussão pública. No campo tecnológico e econômico, a rivalidade entre EUA e China materializou-se numa dura guerra comercial, enquanto a inteligência artificial e a automação davam saltos expressivos.",
+    "personagens": [
+      "Lideranças políticas dos Estados Unidos e da China.",
+      "Ativistas globais de mudanças climáticas."
+    ],
+    "grupos_envolvidos": [
+      "Governos Nacionais",
+      "Empresas de Tecnologia",
+      "Movimentos Sociais Globais"
+    ],
+    "interesses_em_disputa": [
+      "Liderança econômica global, controle tecnológico e salvaguarda ambiental."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2019, "titulo": "Guerra Comercial EUA-China", "descricao": "Escalada de tarifas alfandegárias entre as duas potências."},
+      {"ano": 2019, "titulo": "Mobilizações Globais e Clima", "descricao": "Protestos sociais em massa e foco internacional nas mudanças climáticas."}
+    ],
+    "consequencias_imediatas": [
+      "Desaceleração temporária do comércio internacional e reconfiguração de cadeias de suprimentos."
+    ],
+    "consequencias_longo_prazo": [
+      "Aprofundamento da cisão tecnológica entre o bloco ocidental e a China."
+    ],
+    "impactos": {
+      "politicos": "Polarização informacional impulsionada pelos algoritmos das redes sociais.",
+      "economicos": "Custos adicionais para o comércio global devido a barreiras tarifárias.",
+      "sociais": "Efervescência de protestos urbanos reivindicando reformas estruturais.",
+      "culturais": "Centralidade digital na formação da opinião pública mundial.",
+      "territoriais": "Foco estratégico em mercados asiáticos e norte-americanos.",
+      "ambientais": "Pressão pública sem precedentes por compromissos ecológicos estatais."
+    },
+    "continuidade": "Disputas comerciais e tecnológicas entre superpotências.",
+    "rupturas": "Fim da era de livre comércio global sem fricções protecionistas."
+  },
+
+  {
+    "id": "atualidades-2020",
+    "titulo_principal": "ATUALIDADES (2020): A PANDEMIA DE COVID-19 E A PARALISIA GLOBAL",
+    "ano_inicio": 2020,
+    "ano_fim": 2020,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global",
+    "sociedades_envolvidas": "População Mundial, Sistemas de Saúde, Governos e Comunidade Científica",
+    "tema": "Pandemia de COVID-19, Fechamento de Fronteiras, Crise Econômica, Trabalho Remoto, Ensino a Distância e Vacinação",
+    "contexto": "O surgimento e a propagação global do coronavírus paralisaram a economia internacional, fecharam fronteiras e impuseram o isolamento social em massa, acelerando a digitalização da sociedade.",
+    "antecedentes": [
+      "Globalização intensa com alta mobilidade de voos internacionais facilitando a propagação viral."
+    ],
+    "causas": {
+      "politicas": "Necessidade urgente de governos adotarem medidas de emergência sanitária e controle de circulação.",
+      "economicas": "Paralisação abrupta da atividade econômica global e quebra de cadeias produtivas.",
+      "sociais": "Colapso de sistemas de saúde públicos e privados e imposição global do isolamento social.",
+      "religiosas": "Adaptação de rituais religiosos aos formatos virtuais.",
+      "culturais": "Normalização do trabalho remoto (home office) e do ensino à distância em larga escala.",
+      "territoriais": "Fechamento rigoroso de fronteiras nacionais e restrições de viagens internacionais.",
+      "tecnologias": "Corrida científica histórica para o desenvolvimento e aprovação de vacinas em tempo recorde."
+    },
+    "resumo_card": "Abrange a pandemia de COVID-19, o fechamento de fronteiras, o isolamento social, a crise econômica mundial, a expansão do trabalho e ensino remotos, a digitalização e o início da vacinação.",
+    "desenvolvimento": "O ano de 2020 foi dominado pela crise sanitária da COVID-19. Com o fechamento de fronteiras e lockdowns, o mundo adaptou-se ao trabalho e ensino remotos, acelerando a transição digital. A economia global sofreu retração histórica, enquanto cientistas mobilizavam-se para produzir as primeiras vacinas aplicadas no final do ano.",
+    "personagens": [
+      "Profissionais de saúde da linha de frente.",
+      "Pesquisadores e cientistas farmacêuticos."
+    ],
+    "grupos_envolvidos": [
+      "Organização Mundial da Saúde (OMS)",
+      "Governos Nacionais",
+      "População Civil Global"
+    ],
+    "interesses_em_disputa": [
+      "Equilíbrio entre restrições sanitárias de proteção à vida e a reabertura econômica."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2020, "titulo": "Surto e Pandemia Global", "descricao": "Declaração de pandemia pela OMS e lockdowns em massa."},
+      {"ano": 2020, "titulo": "Início da Vacinação", "descricao": "Aprovação emergencial e aplicação das primeiras doses de vacinas contra a COVID-19."}
+    ],
+    "consequencias_imediatas": [
+      "Milhões de mortes globais e sobrecarga extrema dos sistemas hospitalares.",
+      "Salto tecnológico de uma década na digitalização de empresas, escolas e serviços públicos."
+    ],
+    "consequencias_longo_prazo": [
+      "Transformação definitiva dos modelos de trabalho híbrido e reavaliação de cadeias de suprimento globais."
+    ],
+    "impactos": {
+      "politicos": "Centralização de poderes de emergência sanitária em governos federais e estaduais.",
+      "economicos": "Recessão econômica global profunda seguida por pacotes de estímulo bilionários.",
+      "sociais": "Aprofundamento de desigualdades sociais e educacionais devido à exclusão digital.",
+      "culturais": "Alteração profunda nos hábitos de socialização e consumo humano.",
+      "territoriais": "Isolamento temporário e controle alfandegário sanitário estrito.",
+      "ambientais": "Redução temporária de emissões de carbono durante os meses de confinamento estrito."
+    },
+    "continuidade": "Desafios persistentes de saúde pública global e resiliência sanitária.",
+    "rupturas": "Interrupção drástica da circulação física humana global em tempo de paz."
+  },
+
+  {
+    "id": "atualidades-2021",
+    "titulo_principal": "ATUALIDADES (2021): RETOMADA, VACINAÇÃO E CRISE LOGÍSTICA",
+    "ano_inicio": 2021,
+    "ano_fim": 2021,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global",
+    "sociedades_envolvidas": "Nações Desenvolvidas e em Desenvolvimento, Cadeias Logísticas Globais",
+    "tema": "Campanhas de Vacinação, Retomada Econômica, Crise de Suprimentos, Desigualdade Social, Clima e Criptomoedas",
+    "contexto": "Com a imunização em massa avançando, a economia global tentou recuperar-se, esbarrando em graves gargalos logísticos nas cadeias de transporte e no acirramento das desigualdades pós-pandemia.",
+    "antecedentes": [
+      "Paralisação industrial e restrições sanitárias do ano anterior."
+    ],
+    "causas": {
+      "politicas": "Disparidade geopolítica na distribuição de vacinas ('apartheid vacinal') entre países ricos e pobres.",
+      "economicas": "Retomada súbita da demanda de consumo global encontrando portos e indústrias despreparados.",
+      "sociais": "Aumento alarmante da pobreza extrema e da fome decorrentes da crise de 2020.",
+      "religiosas": "Debates éticos sobre vacinação e campanhas de desinformação sanitária.",
+      "culturais": "Consolidação de ecossistemas financeiros digitais e criptoativos na economia popular.",
+      "territoriais": "Gargalos logísticos marítimos internacionais e escassez de contentores (containers).",
+      "tecnologias": "Boom especulativo e tecnológico das criptomoedas e ativos baseados em blockchain."
+    },
+    "resumo_card": "Abrange as campanhas mundiais de vacinação em 2021, a retomada econômica gradual, a crise global de cadeias de produção e transportes, o debate sobre desigualdade social, a COP e o boom das criptomoedas.",
+    "desenvolvimento": "Em 2021, o foco mundial centrou-se na imunização populacional. Enquanto os países desenvolvidos vacinavam rapidamente, o Sul Global enfrentou escassez. A reabertura econômica gerou um gargalo sem precedentes nas cadeias logísticas marítimas globais, elevando custos de frete e inflação. Simultaneamente, as discussões sobre desigualdade, criptoativos e metas climáticas ganharam força na agenda internacional.",
+    "personagens": [
+      "Líderes farmacêuticos e autoridades de saúde global."
+    ],
+    "grupos_envolvidos": [
+      "Indústria Farmacêutica",
+      "Empresas de Transporte Marítimo",
+      "Investidores Globais"
+    ],
+    "interesses_em_disputa": [
+      "Patentes de vacinas e acesso igualitário à saúde versus lucros industriais privados."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2021, "titulo": "Campanhas de Imunização em Massa", "descricao": "Distribuição global de bilhões de doses de vacinas anticovid."},
+      {"ano": 2021, "titulo": "Gargalo Logístico Internacional", "descricao": "Crise nos portos e escassez de insumos industriais básicos."}
+    ],
+    "consequencias_imediatas": [
+      "Inflação de custos em escala global e estrangulamento de linhas de montagem industrial."
+    ],
+    "consequencias_longo_prazo": [
+      "Necessidade de reestruturação de cadeias logísticas regionais (nearshoring)."
+    ],
+    "impactos": {
+      "politicos": "Tensão diplomática por doações e acesso a imunizantes (diplomacia das vacinas).",
+      "economicos": "Pressão inflacionária duradoura e disparada nos preços de insumos e fretes.",
+      "sociais": "Aprofundamento da fratura socioeconômica entre nações ricas e pobres.",
+      "culturais": "Popularização financeira de criptomoedas e investimentos descentralizados.",
+      "territoriais": "Dependência crítica de rotas marítimas asiáticas de exportação.",
+      "ambientais": "Reativação de debates climáticos na COP com foco na transição energética pós-crise."
+    },
+    "continuidade": "Flutuações econômicas e inflacionárias decorrentes de choques de oferta.",
+    "rupturas": "Fim do modelo logístico global Just-in-Time sem estoques de segurança."
+  },
+
+  {
+    "id": "atualidades-2022",
+    "titulo_principal": "ATUALIDADES (2022): A INVASÃO DA UCRÂNIA E O CHOQUE ENERGÉTICO",
+    "ano_inicio": 2022,
+    "ano_fim": 2022,
+    "periodo": "Atualidades Mundiais",
+    "local": "Europa Oriental / Global",
+    "sociedades_envolvidas": "Rússia, Ucrânia, Países da OTAN, União Europeia",
+    "tema": "Invasão da Ucrânia pela Rússia, Crise Energética, Preços de Alimentos, Tensões Geopolíticas, Segurança Alimentar, IA Generativa",
+    "contexto": "A ordem de segurança europeia ruiu com a invasão militar russa à Ucrânia em fevereiro de 2022, provocando choques brutais nos mercados de energia e grãos, e impulsionando a ascensão pública da IA generativa.",
+    "antecedentes": [
+      "Expansão da OTAN para o leste europeu, anexação da Crimeia em 2014 e acúmulo de tropas russas nas fronteiras."
+    ],
+    "causas": {
+      "politicas": "Objetivo geopolítico russo de impedir a ocidentalização da Ucrânia e expandir esferas de influência.",
+      "economicas": "Sanções econômicas ocidentais severas contra a Rússia e corte no fornecimento de gás natural russo para a Europa.",
+      "sociais": "Crise humanitária com milhões de refugiados ucranianos buscando abrigo na Europa.",
+      "religiosas": "Conflitos de jurisdição e lealdade entre igrejas ortodoxas na região.",
+      "culturais": "Ruptura cultural drástica entre populações russa e ucraniana.",
+      "territoriais": "Anexação militar de províncias ucranianas pelas forças russas.",
+      "tecnologias": "Salto espetacular na inteligência artificial generativa (lançamento público de modelos de linguagem como o ChatGPT)."
+    },
+    "resumo_card": "Abrange a invasão da Ucrânia pela Rússia em 2022, crise energética, alta de preços de alimentos, tensões entre Rússia, EUA e Europa, segurança alimentar, crise humanitária e a popularização da IA generativa.",
+    "desenvolvimento": "Em 24 de fevereiro de 2022, a Rússia invadiu a Ucrânia. O conflito provocou sanções sem precedentes do Ocidente, disparando os preços do petróleo, gás e fertilizantes, gerando uma crise de segurança alimentar mundial (especialmente na África e Oriente Médio). Paralelamente, o ano marcou uma reviravolta tecnológica com a chegada ao grande público das ferramentas de inteligência artificial generativa.",
+    "personagens": [
+      "Vladimir Putin: Presidente da Rússia.",
+      "Volodymyr Zelenskyy: Presidente da Ucrânia."
+    ],
+    "grupos_envolvidos": [
+      "Forças Armadas da Federação Russa",
+      "Forças de Defesa da Ucrânia",
+      "Países Aliados da OTAN"
+    ],
+    "interesses_em_disputa": [
+      "Soberania territorial ucraniana versus reconfiguração imperial russa de fronteiras."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2022, "titulo": "Invasão da Ucrânia", "descricao": "Ofensiva militar russa em larga escala a partir de 24 de fevereiro."},
+      {"ano": 2022, "titulo": "Explosão da IA Generativa", "descricao": "Lançamento público de tecnologias de inteligência artificial de conversação avançada."}
+    ],
+    "consequencias_imediatas": [
+      "Maior crise de refugiados na Europa desde a Segunda Guerra Mundial e choque inflacionário energético.",
+      "Realinhamento militar europeu com o rearmamento da Alemanha e ampliação da OTAN (entrada da Finlândia)."
+    ],
+    "consequencias_longo_prazo": [
+      "Fim definitivo da era de gás natural russo barato para a indústria europeia e transição apressada para energias limpas."
+    ],
+    "impactos": {
+      "politicos": "Isolamento diplomático russo no Ocidente e consolidação da unidade da OTAN.",
+      "economicos": "Inflação de commodities, alimentos e energia em nível planetário.",
+      "sociais": "Trauma humanitário e migratório em larga escala na Europa Oriental.",
+      "culturais": "Início da revolução tecnológica baseada em inteligência artificial generativa.",
+      "territoriais": "Guerra de trincheiras prolongada em território ucraniano.",
+      "ambientais": "Impactos destrutivos severos em ecossistemas, barragens e infraestruturas industriais ucranianas."
+    },
+    "continuidade": "Conflito militar prolongado e polarização diplomática Leste-Oeste.",
+    "rupturas": "Rompimento total das relações econômico-energéticas centrais entre Rússia e União Europeia."
+  },
+
+  {
+    "id": "atualidades-2023",
+    "titulo_principal": "ATUALIDADES (2023): INTELIGÊNCIA ARTIFICIAL E A GUERRA EM GAZA",
+    "ano_inicio": 2023,
+    "ano_fim": 2023,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global / Oriente Médio",
+    "sociedades_envolvidas": "Israel, Hamas, População de Gaza, Comunidade Internacional",
+    "tema": "IA Generativa, Regulamentação da IA, Guerra Israel-Hamas, Crise Humanitária em Gaza, Clima Extremo, Disputa Tecnológica EUA-China",
+    "contexto": "O ano de 2023 foi marcado pela explosão comercial da inteligência artificial generativa e pela eclosão de uma devastadora guerra no Oriente Médio entre Israel e o Hamas, além de recordes absolutos de eventos climáticos extremos.",
+    "antecedentes": [
+      "Acirramento secular do conflito israelo-palestino e avanço exponencial da computação em nuvem."
+    ],
+    "causas": {
+      "politicas": "Ataque surpresa do Hamas a Israel em 7 de outubro de 2023 e retaliação militar maciça em Gaza.",
+      "economicas": "Corrida bilionária entre empresas de tecnologia (EUA e China) para dominar o mercado de chips e inteligência artificial.",
+      "sociais": "Colapso humanitário na Faixa de Gaza e debates éticos profundos sobre o impacto da IA no futuro dos empregos.",
+      "religiosas": "Fator religioso e territorial profundamente enraizado no conflito de Jerusalém e Gaza.",
+      "culturais": "Preocupação global com desinformação, 'deepfakes' e ética algorítmica.",
+      "territoriais": "Disputa territorial e soberana no Oriente Médio e cerco militar à Faixa de Gaza.",
+      "tecnologias": "Consolidação de modelos de linguagem de grande escala (LLMs) no cotidiano produtivo global."
+    },
+    "resumo_card": "Abrange a expansão acelerada da IA generativa, debates de regulamentação da IA, a guerra entre Israel e Hamas, crise humanitária em Gaza, eventos climáticos extremos, impactos no trabalho/educação e a disputa EUA-China.",
+    "desenvolvimento": "Em 2023, a inteligência artificial generativa transformou-se em pauta central de governos, exigindo debates sobre regulação, segurança e o futuro do trabalho. No Oriente Médio, o ataque do Hamas em 7 de outubro e a subsequente invasão israelense a Gaza desencadearam uma gravíssima crise humanitária. O ano também bateu recordes de temperatura e eventos climáticos extremos globais.",
+    "personagens": [
+      "Lideranças políticas de Israel e autoridades palestinas do Hamas.",
+      "Executivos das principais empresas desenvolvedoras de IA."
+    ],
+    "grupos_envolvidos": [
+      "Forças de Defesa de Israel",
+      "Milícias do Hamas",
+      "Agências Humanitárias da ONU"
+    ],
+    "interesses_em_disputa": [
+      "Segurança nacional israelense e aspirações de autodeterminação palestina; controle da vanguarda tecnológica global."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2023, "titulo": "Boom da IA Generativa", "descricao": "Adoção em massa de ferramentas de inteligência artificial em empresas e escolas."},
+      {"ano": 2023, "titulo": "Eclosão da Guerra Israel-Hamas", "descricao": "Ataques de 7 de outubro e início da ofensiva militar israelense em Gaza."}
+    ],
+    "consequencias_imediatas": [
+      "Dezenas de milhares de vítimas civis em Gaza e desestabilização geopolítica do Oriente Médio.",
+      "Início da corrida regulatória mundial sobre os limites éticos e de segurança da inteligência artificial."
+    ],
+    "consequencias_longo_prazo": [
+      "Reestruturação profunda do mercado de trabalho e dos processos educacionais devido à automação cognitiva."
+    ],
+    "impactos": {
+      "politicos": "Polarização diplomática global em torno do conflito em Gaza e divisão Norte-Sul.",
+      "economicos": "Altos investimentos em semicondutores e infraestrutura de computação para IA.",
+      "sociais": "Protestos mundiais massivos pró-palestinos e pró-israelenses; ansiedade com desemprego tecnológico.",
+      "culturais": "Mudança estrutural na produção de conteúdos, textos, imagens e códigos informáticos.",
+      "territoriais": "Destruição urbana extensiva na Faixa de Gaza.",
+      "ambientais": "Evidências científicas irrefutáveis de aceleração de ondas de calor e eventos climáticos extremos."
+    },
+    "continuidade": "Avanço tecnológico vertiginoso em conflito com a lentidão regulatória ética estatal.",
+    "rupturas": "Entrada oficial da inteligência artificial na economia cognitiva cotidiana de massa."
+  },
+
+  {
+    "id": "atualidades-2024",
+    "titulo_principal": "ATUALIDADES (2024): ELEIÇÕES GLOBAIS, TRUMP E A QUEDA DE ASSAD",
+    "ano_inicio": 2024,
+    "ano_fim": 2024,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global / Estados Unidos / Oriente Médio",
+    "sociedades_envolvidas": "Eleitores Globais, Estados Unidos, Ucrânia, Rússia, Síria",
+    "tema": "Superano Eleitoral, Retorno de Donald Trump, Guerra na Ucrânia, Crise no Oriente Médio, Jogos Olímpicos de Paris, Queda de Bashar al-Assad, Investimentos em IA, Desinformação",
+    "contexto": "Um ano de eleições históricas em dezenas de países que representavam metade da população mundial, culminando no retorno de Donald Trump à presidência dos EUA, na continuação das guerras na Ucrânia e em Gaza, e na queda surpresa do regime sírio.",
+    "antecedentes": [
+      "Polarização política global, erosão de democracias liberais e desgaste de governos incumbentes pós-pandemia."
+    ],
+    "causas": {
+      "politicas": "Insatisfação de eleitores com a inflação e imigração, resultando em vitórias da oposição em eleições globais (destaque para os EUA).",
+      "economicas": "Custo de vida elevado e pressões inflacionárias persistentes em várias economias.",
+      "sociais": "Disseminação em larga escala de desinformação baseada em deepfakes e IA durante os ciclos eleitorais.",
+      "religiosas": "Tensões sectárias e religiosas alimentando conflitos prolongados no Oriente Médio.",
+      "culturais": "Aumento do ceticismo em relação à mídia tradicional e ascensão de lideranças populistas.",
+      "territoriais": "Colapso do regime de Bashar al-Assad na Síria e redistribuição de poder entre milícias e rebeldes.",
+      "tecnologias": "Intensificação de investimentos corporativos massivos em infraestrutura de IA e datacenters."
+    },
+    "resumo_card": "Abrange as eleições globais de 2024, o retorno de Donald Trump à presidência dos EUA, a continuidade da guerra Rússia-Ucrânia e no Oriente Médio, os Jogos Olímpicos de Paris, a queda de Bashar al-Assad na Síria e o debate sobre desinformação em eleições com IA.",
+    "desenvolvimento": "O ano de 2024 foi o maior ciclo eleitoral da história, com votações na Índia, União Europeia, Brasil (municipais) e nos Estados Unidos, onde Donald Trump venceu e assegurou o retorno à Casa Blanca. Geopoliticamente, as guerras na Ucrânia e em Gaza mantiveram-se em patamares críticos, enquanto no final do ano a Síria surpreendeu o mundo com a queda relâmpago do ditador Bashar al-Assad. Na tecnologia, a IA consolidou-se no centro dos investimentos, gerando forte debate sobre desinformação nas urnas.",
+    "personagens": [
+      "Donald Trump: Presidente eleito dos Estados Unidos.",
+      "Bashar al-Assad: Ex-ditador deposto da Síria."
+    ],
+    "grupos_envolvidos": [
+      "Governos Eleitos em 2024",
+      "Rebeldes Sírios",
+      "Comitê Olímpico Internacional (Jogos de Paris)"
+    ],
+    "interesses_em_disputa": [
+      "Rumo da política externa dos EUA, integridade da informação democrática e controle territorial na Síria."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2024, "titulo": "Superano Eleitoral Global", "descricao": "Ciclo histórico de eleições em dezenas de países."},
+      {"ano": 2024, "titulo": "Queda de Bashar al-Assad", "descricao": "Colapso do regime sírio após ofensiva relâmpago de oposicionistas em dezembro."},
+      {"ano": 2024, "titulo": "Retorno de Donald Trump", "descricao": "Vitória eleitoral republicana nos Estados Unidos em novembro."}
+    ],
+    "consequencias_imediatas": [
+      "Mudança iminente na postura dos EUA em acordos climáticos, comerciais e no apoio à Ucrânia.",
+      "Reorganização completa do mapa de poder no Oriente Médio após a queda de Assad."
+    ],
+    "consequencias_longo_prazo": [
+      "Erosão continuada da confiança nas instituições democráticas tradicionais devido à enxurrada de desinformação digital."
+    ],
+    "impactos": {
+      "politicos": "Virada à direita em vários espectros políticos globais e reavaliação de alianças tradicionais.",
+      "economicos": "Expectativa de protecionismo tarifário agressivo por parte da nova administração norte-americana.",
+      "sociais": "Polarização cívica acentuada durante os pleitos eleitorais.",
+      "culturais": "Banimento de barreiras tradicionais na circulação de notícias falsas geradas por IA.",
+      "territoriais": "Fim de meio século de dinastia familiar no poder da Síria.",
+      "ambientais": "Manutenção de debates climáticos sob o ceticismo político de novos governos eleitos."
+    },
+    "continuidade": "Instabilidade bélica internacional e corrida tecnológica corporativa.",
+    "rupturas": "Queda abrupta de um dos regimes autoritários mais antigos do Oriente Médio (Síria)."
+  },
+
+  {
+    "id": "atualidades-2025",
+    "titulo_principal": "ATUALIDADES (2025): GOVERNO TRUMP 2.0, TARIFAS E AVANÇO DA IA",
+    "ano_inicio": 2025,
+    "ano_fim": 2025,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global / Estados Unidos",
+    "sociedades_envolvidas": "Governo dos Estados Unidos, China, União Europeia, Economia Global",
+    "tema": "Segundo Mandato de Donald Trump, Disputas Tarifárias, Guerra Rússia-Ucrânia, Conflitos no Oriente Médio, Economia de IA, Empregos e Automação, Cibersegurança, Transição Energética",
+    "contexto": "O ano de 2025 foi marcado pela posse do segundo mandato de Donald Trump, pela imposição de uma nova agenda tarifária protecionista global, e pela penetração profunda da inteligência artificial na economia produtiva, gerando temores de desemprego tecnológico.",
+    "antecedentes": [
+      "Vitória eleitoral de novembro de 2024 e escalada contínua de capacidades em inteligência artificial."
+    ],
+    "causas": {
+      "politicas": "Implementação da agenda 'America First' por Donald Trump, com renegociação de tratados e imposição de tarifas alfandegárias.",
+      "economicas": "Guerra comercial reacesa entre os EUA e parceiros comerciais (Europa, China, México, Canadá) através de barreiras protecionistas.",
+      "sociais": "Apreensão generalizada da classe trabalhadora com a substituição de empregos cognitivos e operacionais pela automação.",
+      "religiosas": "Permanência de divisões geopolítico-religiosas em zonas de atrito.",
+      "culturais": "Adaptação cultural forçada de corporações e escolas à nova realidade da IA onipresente.",
+      "territoriais": "Tentativas diplomáticas de cessar-fogo na Ucrânia e impasses territoriais crônicos em Gaza.",
+      "tecnologias": "Consolidação de agentes autônomos de IA e proliferação de ataques a infraestruturas de segurança cibernética."
+    },
+    "resumo_card": "Abrange o início do segundo mandato de Donald Trump em 2025, o aumento de disputas tarifárias internacionais, tentativas de paz na Ucrânia e no Oriente Médio, a IA na economia/educação, ameaças de empregos por automação, cibersegurança e transição energética.",
+    "desenvolvimento": "Com a posse de Donald Trump em janeiro de 2025, a economia global enfrentou turbulências comerciais devido a tarifas agressivas. Em paralelo, intensificaram-se os esforços diplomáticos para negociar termos de paz na Ucrânia e estabilizar o Oriente Médio. No setor corporativo, a inteligência artificial deixou de ser uma novidade para se tornar infraestrutura crítica, provocando debates urgentes sobre segurança cibernética, regulamentação e o impacto no desemprego estrutural.",
+    "personagens": [
+      "Donald Trump: Presidente dos Estados Unidos em seu segundo mandato.",
+      "Lideranças diplomáticas mediadoras de conflitos."
+    ],
+    "grupos_envolvidos": [
+      "Blocos Econômicos Internacionais",
+      "Empresas Globais de Tecnologia",
+      "Sindicatos e Associações Profissionais"
+    ],
+    "interesses_em_disputa": [
+      "Protecionismo industrial norte-americano versus livre mercado global; soberania de dados e cibersegurança."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2025, "titulo": "Posse de Donald Trump (2º Mandato)", "descricao": "Início da nova administração focada em tarifas protecionistas e reviravoltas na política externa."},
+      {"ano": 2025, "titulo": "IA na Economia Real", "descricao": "Inteligência artificial integrada profundamente na produção corporativa e nas instituições de ensino."}
+    ],
+    "consequencias_imediatas": [
+      "Volatilidade nos mercados financeiros internacionais e reações tarifárias de retaliação comercial pela China e Europa.",
+      "Aumento acentuado de alertas e incidentes globais de segurança cibernética."
+    ],
+    "consequencias_longo_prazo": [
+      "Reestruturação completa das cadeias globais de suprimento em blocos econômicos protegidos."
+    ],
+    "impactos": {
+      "politicos": "Tensão nas relações multilaterais tradicionais (OMC, tratados climáticos e alianças de defesa).",
+      "economicos": "Pressões inflacionárias induzidas por tarifas alfandegárias protecionistas.",
+      "sociais": "Debates intensos sobre requalificação profissional (reskilling) diante da automação.",
+      "culturais": "Normalização de ferramentas de IA autônomas no cotidiano profissional e acadêmico.",
+      "territoriais": "Esforços diplomáticos voláteis em zonas de guerra na Europa Oriental e Oriente Médio.",
+      "ambientais": "Disputas regulatórias sobre metas de transição energética em meio a interesses industriais."
+    },
+    "continuidade": "Incerteza geopolítica e avanço tecnológico exponencial ininterrupto.",
+    "rupturas": "Fim do arranjo comercial globalizado de baixas tarifas que vigorou nas últimas décadas."
+  },
+
+  {
+    "id": "atualidades-2026",
+    "titulo_principal": "ATUALIDADES (2026): O CENÁRIO GLOBAL ATUAL",
+    "ano_inicio": 2026,
+    "ano_fim": 2026,
+    "periodo": "Atualidades Mundiais",
+    "local": "Global",
+    "sociedades_envolvidas": "Comunidade Internacional, Organizações Multilaterais, Superpotências",
+    "tema": "Guerra Rússia-Ucrânia, Segurança Energética Europeia, Conflitos no Oriente Médio, Investimentos em IA, Regulamentação e Segurança da IA, Empregos e Automação, Dívida Pública Global, Inflação, Mudanças Climáticas e Eventos Extremos, Corrida Armamentista",
+    "contexto": "No cenário atual de 2026, o mundo enfrenta uma combinação complexa de pressões macroeconômicas (alta dívida pública e inflação energética), consolidação estratégica da inteligência artificial na economia, persistência de conflitos na Ucrânia e no Oriente Médio, e o agravamento das crises climáticas e geopolíticas.",
+    "antecedentes": [
+      "Acúmulo de crises sanitárias, climáticas e comerciais da primeira metade da década de 2020."
+    ],
+    "causas": {
+      "politicas": "Aumento das tensões geopolíticas globais, gerando preocupações reais com uma nova corrida armamentista entre potências.",
+      "economicas": "Dívida pública soberana elevada em várias nações, custos de energia persistentes e inflação estrutural.",
+      "sociais": "Insegurança trabalhista generalizada diante da automação cognitiva em massa e desafios para o futuro do trabalho.",
+      "religiosas": "Permanência de fraturas sectárias em zonas de atrito internacional.",
+      "culturais": "Adaptação social definitiva à dependência de ecossistemas digitais hiperconectados.",
+      "territoriais": "Disputas ferozes por energia, tecnologia de ponta e recursos minerais estratégicos (metais raros, semicondutores).",
+      "tecnologias": "Posicionamento da inteligência artificial como ativo de segurança nacional e pilar estratégico da economia mundial."
+    },
+    "resumo_card": "O cenário de 2026 abrange a continuidade da guerra Rússia-Ucrânia com ataques à infraestrutura, segurança energética na Europa, reflexos econômicos dos conflitos no Oriente Médio, investimentos recordes em IA, debates de regulamentação e segurança da IA, impacto em empregos, alta da dívida pública e inflação, mudanças climáticas extremas, disputas comerciais e tecnológicas, segurança cibernética, reorganização de alianças internacionais e o papel das organizações multilaterais.",
+    "desenvolvimento": "Atualmente, em 2026, a comunidade internacional navega por um momento de profundas incertezas estruturais. A guerra na Ucrânia prossegue com impactos severos na infraestrutura e na segurança energética europeia, enquanto os desdobramentos no Oriente Médio continuam balançando os mercados de petróleo e energia. No plano econômico, governos lidam com dívidas públicas elevadas e inflação persistente. Paralelamente, a inteligência artificial assumiu uma posição absolutamente estratégica na economia mundial, exigindo marcos regulatórios urgentes para mitigar riscos de segurança cibernética e o desemprego tecnológico. Em meio a eventos climáticos extremos frequentes e disputas por recursos estratégicos, as organizações multilaterais enfrentam o desafio supremo de manter a cooperação global.",
+    "personagens": [
+      "Lideranças políticas e econômicas globais do momento atual."
+    ],
+    "grupos_envolvidos": [
+      "Organizações Internacionais (ONU, FMI, OMC)",
+      "Blocos Geopolíticos em Reorganização",
+      "Empresas Globais de Alta Tecnologia e Energia"
+    ],
+    "interesses_em_disputa": [
+      "Estabilidade macroeconômica global, soberania tecnológica, segurança energética e controle de recursos estratégicos."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2026, "titulo": "Cenário Global Contemporâneo", "descricao": "Momento atual marcado por transição energética, hegemonia da IA na economia, riscos de corrida armamentista e desafios climáticos extremos."}
+    ],
+    "consequencias_imediatas": [
+      "Necessidade imperativa de reformas fiscais em governos nacionais e investimento pesado em defesa cibernética e física.",
+      "Intensificação da transição para fontes energéticas alternativas devido à volatilidade crônica dos combustíveis fósseis."
+    ],
+    "consequencias_longo_prazo": [
+      "Redefinição completa dos equilíbrios de poder e do modelo de civilização digital e automatizada do século XXI."
+    ],
+    "impactos": {
+      "politicos": "Enfraquecimento ou forçada reinvenção das organizações internacionais diante das crises sistêmicas.",
+      "economicos": "Pressão inflacionária, custos de energia elevados e controle rigoroso de gastos públicos.",
+      "sociais": "Debates urgentes sobre redes de proteção social e requalificação massiva para o futuro do trabalho.",
+      "culturais": "Imersão total da sociedade em fluxos de inteligência artificial e conectividade digital.",
+      "territoriais": "Disputas acirradas por zonas de influência energética e tecnológica global.",
+      "ambientais": "Gestão de emergências decorrentes de eventos climáticos extremos recorrentes em várias regiões."
+    },
+    "continuidade": "Incerteza geopolítica sistêmica e aceleração contínua da inovação técnica global.",
+    "rupturas": "Consolidação definitiva da inteligência artificial como eixo estruturante central da economia e da geopolítica mundial."
+  }
+]
