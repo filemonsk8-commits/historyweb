@@ -1,357 +1,291 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Educativo de História</title>
+    <!-- Google Fonts & FontAwesome para ícones -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
         :root {
-            --primary: #1e293b;
-            --secondary: #334155;
-            --accent: #d97706;
-            --bg: #f8fafc;
+            --bg-dark: #1e293b;
+            --bg-darker: #0f172a;
+            --primary-orange: #d97706;
+            --primary-orange-hover: #b45309;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
             --card-bg: #ffffff;
-            --text: #1e293b;
-            --border: #cbd5e1;
+            --badge-bg: #f1f5f9;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            min-height: 100vh;
         }
 
+        /* Cabeçalho Superior */
         header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 2.5rem 1rem;
+            background-color: var(--bg-dark);
+            color: #ffffff;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 2.5rem 1rem 1.5rem 1rem;
         }
 
         header h1 {
-            margin: 0 0 0.5rem 0;
-            font-size: 2rem;
-            letter-spacing: 0.5px;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
         }
 
         header p {
-            margin: 0;
-            opacity: 0.9;
-            font-size: 1.1rem;
+            color: #94a3b8;
+            font-size: 1rem;
+            font-weight: 300;
         }
 
         /* Barra de Navegação / Abas */
-        .nav-tabs {
+        nav {
+            background-color: var(--bg-darker);
             display: flex;
             justify-content: center;
-            background-color: var(--secondary);
-            flex-wrap: wrap;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            gap: 1rem;
+            padding: 0 1rem;
+            box-shadow: inset 0 -2px 0 rgba(255, 255, 255, 0.05);
+            overflow-x: auto;
         }
 
-        .nav-tabs li {
+        .nav-tab {
+            background: transparent;
+            border: none;
+            color: #94a3b8;
             padding: 1rem 1.5rem;
-            color: white;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 600;
             font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+            border-bottom: 3px solid transparent;
         }
 
-        .nav-tabs li:hover {
-            background-color: rgba(255,255,255,0.15);
+        .nav-tab:hover {
+            color: #ffffff;
         }
 
-        .nav-tabs li.active {
-            background-color: var(--accent);
-            border-bottom: 4px solid #b45309;
+        .nav-tab.active {
+            color: #ffffff;
+            background-color: rgba(217, 119, 6, 0.1);
+            border-bottom: 3px solid var(--primary-orange);
         }
 
         /* Container Principal */
-        .container {
-            max-width: 950px;
+        main {
+            max-width: 1000px;
             margin: 2.5rem auto;
             padding: 0 1.5rem;
         }
 
-        .tab-content {
+        .view-section {
             display: none;
         }
 
-        .tab-content.active {
+        .view-section.active {
             display: block;
-            animation: fadeIn 0.4s ease-in-out;
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(6px); }
-            to { opacity: 1; transform: translateY(0); }
+        /* Capa Inicial - Cards de Períodos */
+        .welcome-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
         }
 
-        /* Capa Inicial */
-        .capa-grid {
+        .welcome-subtitle {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .cards-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
         }
 
-        .capa-card {
-            background: white;
-            padding: 2.5rem 1.5rem;
+        .category-card {
+            background: var(--card-bg);
             border-radius: 12px;
-            text-align: center;
+            padding: 1.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border-top: 4px solid var(--primary-orange);
             cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
-            border-top: 5px solid var(--accent);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .capa-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        .category-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
         }
 
-        .capa-card h3 {
-            margin-top: 0;
-            color: var(--primary);
-            font-size: 1.3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
+        .category-card .card-icon {
+            font-size: 1.5rem;
+            color: var(--primary-orange);
+            margin-bottom: 1rem;
         }
 
-        .capa-card p {
+        .category-card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        .category-card p {
+            color: var(--text-muted);
             font-size: 0.9rem;
-            color: #64748b;
-            margin-bottom: 0;
+            line-height: 1.4;
         }
 
-        /* Ícone de Bandeira do Brasil (CSS Puro) */
-        .flag-icon {
-            width: 22px;
-            height: 16px;
-            border-radius: 2px;
-            display: inline-block;
-            background: #009c3b;
-            position: relative;
-            vertical-align: middle;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-            overflow: hidden;
-        }
-        .flag-icon::before {
-            content: "";
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%) rotate(45deg);
-            width: 14px; height: 10px;
-            background-color: #ffdf00;
-        }
-        .flag-icon::after {
-            content: "";
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            width: 6px; height: 6px;
-            background-color: #002776;
-            border-radius: 50%;
+        /* Seção Interna de Tópicos (Estilo Antiguidade / Brasil) */
+        .section-header-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: var(--text-main);
         }
 
-        /* Caixa de Pesquisa */
         .search-box {
             width: 100%;
-            padding: 0.9rem 1.2rem;
-            font-size: 1rem;
-            border: 1px solid var(--border);
+            padding: 0.85rem 1rem;
+            border: 1px solid var(--border-color);
             border-radius: 8px;
-            margin-bottom: 2rem;
-            box-sizing: border-box;
-            background: white;
-            box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            outline: none;
             transition: border-color 0.2s;
+            background: var(--card-bg);
         }
 
         .search-box:focus {
-            outline: none;
-            border-color: var(--accent);
+            border-color: var(--primary-orange);
+            box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
         }
 
-        /* Cards Principais (Losango) */
-        .evento-card {
+        /* Acordeões / Itens Expansíveis */
+        .accordion-item {
             background: var(--card-bg);
-            border-radius: 10px;
-            margin-bottom: 1.2rem;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.04);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 1rem;
             overflow: hidden;
-            border: 1px solid var(--border);
-            transition: all 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+            transition: border-color 0.2s;
         }
 
-        .evento-card:hover {
-            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
-            border-color: var(--accent);
+        .accordion-item:hover {
+            border-color: #cbd5e1;
         }
 
-        .evento-header {
-            padding: 1.2rem 1.5rem;
-            background-color: #fff;
-            cursor: pointer;
+        .accordion-header {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 1.15rem 1.25rem;
             display: flex;
+            align-items: center;
             justify-content: space-between;
-            align-items: center;
-            font-weight: 600;
-            color: var(--primary);
-            font-size: 1.1rem;
-            user-select: none;
-            transition: background-color 0.2s;
+            cursor: pointer;
+            text-align: left;
         }
 
-        .evento-header:hover {
-            background-color: #fdfbf7;
+        .accordion-title-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex: 1;
         }
 
-        .diamond-icon {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
+        .status-icon {
             width: 28px;
             height: 28px;
-            background-color: #f1f5f9;
-            transform: rotate(45deg);
-            margin-right: 12px;
-            transition: all 0.3s ease;
-            border-radius: 4px;
-        }
-
-        .evento-card.open > .evento-header .diamond-icon {
-            background-color: var(--accent);
-            color: white;
-        }
-
-        .diamond-content-icon {
-            transform: rotate(-45deg);
-            font-size: 0.8rem;
-            font-weight: bold;
-            color: var(--primary);
-        }
-
-        .evento-card.open > .evento-header .diamond-content-icon {
-            color: white;
-        }
-
-        .evento-title-wrapper {
+            background: var(--badge-bg);
+            border-radius: 50%;
             display: flex;
-            align-items: center;
-        }
-
-        .evento-body {
-            padding: 1.8rem;
-            border-top: 1px solid var(--border);
-            display: none;
-            background-color: #ffffff;
-            color: #334155;
-            animation: slideDown 0.3s ease-in-out;
-        }
-
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-8px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .evento-card.open > .evento-body {
-            display: block;
-        }
-
-        /* Sub-cards internos em formato de losango */
-        .sub-card {
-            background: #f8fafc;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            margin: 0.8rem 0;
-            overflow: hidden;
-            transition: all 0.2s ease;
-        }
-
-        .sub-header {
-            padding: 0.8rem 1rem;
-            background-color: #f1f5f9;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: 600;
-            color: var(--secondary);
-            font-size: 0.95rem;
-            user-select: none;
-        }
-
-        .sub-header:hover {
-            background-color: #e2e8f0;
-        }
-
-        .sub-diamond {
-            display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 20px;
-            height: 20px;
-            background-color: #cbd5e1;
-            transform: rotate(45deg);
-            margin-right: 10px;
-            border-radius: 3px;
-            transition: background 0.2s;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            flex-shrink: 0;
         }
 
-        .sub-card.open .sub-diamond {
-            background-color: var(--accent);
+        .accordion-item.open .status-icon {
+            background: var(--primary-orange);
+            color: #ffffff;
         }
 
-        .sub-diamond-text {
-            transform: rotate(-45deg);
-            font-size: 0.65rem;
-            color: white;
-            font-weight: bold;
-        }
-
-        .sub-body {
-            padding: 1rem 1.2rem;
-            background-color: #ffffff;
-            display: none;
-            border-top: 1px solid var(--border);
+        .accordion-title {
             font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-main);
+            text-transform: uppercase;
         }
 
-        .sub-card.open .sub-body {
+        .badge-date {
+            background: var(--badge-bg);
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .accordion-item.open .badge-date {
+            background: #fff7ed;
+            color: #c2410c;
+        }
+
+        .accordion-content {
+            padding: 0 1.25rem 1.25rem 1.25rem;
+            border-top: 1px solid var(--border-color);
+            display: none;
+            background-color: #fafaf9;
+        }
+
+        .accordion-item.open .accordion-content {
             display: block;
         }
 
-        .sub-body ul {
-            margin: 0.4rem 0 0.4rem 1.2rem;
-            padding: 0;
+        .info-grid {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            font-size: 0.9rem;
+            color: #334155;
         }
 
-        .sub-body li {
-            margin-bottom: 0.3rem;
+        .info-grid p strong {
+            color: var(--text-main);
         }
 
-        .info-tag {
-            display: inline-block;
-            background: #f1f5f9;
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            margin-left: 0.8rem;
-            font-weight: 600;
-            color: #475569;
-            border: 1px solid #e2e8f0;
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.75rem; }
+            .accordion-header { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+            .badge-date { align-self: flex-end; }
         }
     </style>
 </head>
@@ -362,255 +296,275 @@
         <p>Explore os períodos históricos de forma imersiva e interativa</p>
     </header>
 
-    <!-- Abas de Navegação -->
-    <ul class="nav-tabs">
-        <li onclick="mudarAba('capa')" id="btn-capa" class="active">Capa Inicial</li>
-        <li onclick="mudarAba('brasil')" id="btn-brasil">Pré-História do Brasil</li>
-        <li onclick="mudarAba('antiguidade')" id="btn-antiguidade">Antiguidade</li>
-        <li onclick="mudarAba('media')" id="btn-media">Idade Média</li>
-        <li onclick="mudarAba('contemporanea')" id="btn-contemporanea">Contemporânea</li>
-    </ul>
+    <nav>
+        <button class="nav-tab active" onclick="switchTab('capa')">Capa Inicial</button>
+        <button class="nav-tab" onclick="switchTab('brasil')">Pré-História do Brasil</button>
+        <button class="nav-tab" onclick="switchTab('antiguidade')">Antiguidade</button>
+        <button class="nav-tab" onclick="switchTab('medieval')">Idade Média</button>
+        <button class="nav-tab" onclick="switchTab('contemporanea')">Contemporânea</button>
+    </nav>
 
-    <div class="container">
-
-        <!-- ABA 1: CAPA INICIAL -->
-        <div id="tab-capa" class="tab-content active">
-            <h2>Bem-vindo ao Sistema de Estudos</h2>
-            <p>Selecione abaixo o período que deseja explorar:</p>
+    <main>
+        <!-- ABA: CAPA INICIAL -->
+        <section id="capa" class="view-section active">
+            <h2 class="welcome-title">Bem-vindo ao Sistema de Estudos</h2>
+            <p class="welcome-subtitle">Selecione abaixo o período que deseja explorar:</p>
             
-            <div class="capa-grid">
-                <div class="capa-card" onclick="mudarAba('brasil')">
-                    <h3><span class="flag-icon"></span> Brasil</h3>
+            <div class="cards-grid">
+                <div class="category-card" onclick="switchTab('brasil')">
+                    <div class="card-icon"><i class="fa-solid fa-flag"></i></div>
+                    <h3>Brasil</h3>
                     <p>Povos originários, sambaquis e sítios arqueológicos.</p>
                 </div>
-                <div class="capa-card" onclick="mudarAba('antiguidade')">
-                    <h3>🏛️ Antiguidade</h3>
+                <div class="category-card" onclick="switchTab('antiguidade')">
+                    <div class="card-icon"><i class="fa-solid fa-landmark"></i></div>
+                    <h3>Antiguidade</h3>
                     <p>Mesopotâmia, Egito, Grécia e Roma Antiga.</p>
                 </div>
-                <div class="capa-card" onclick="mudarAba('media')">
-                    <h3>🛡️ Idade Média</h3>
+                <div class="category-card" onclick="switchTab('medieval')">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Idade Média</h3>
                     <p>Feudalismo, Cruzadas e Império Bizantino.</p>
                 </div>
-                <div class="capa-card" onclick="mudarAba('contemporanea')">
-                    <h3>⚙️ Contemporânea</h3>
+                <div class="category-card" onclick="switchTab('contemporanea')">
+                    <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3>Contemporânea</h3>
                     <p>Guerras Mundiais, revoluções e geopolítica.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- ABA 2: BRASIL -->
-        <div id="tab-brasil" class="tab-content">
-            <h2>Pré-História do Brasil</h2>
-            <input type="text" class="search-box" placeholder="Pesquisar nos registos do Brasil..." onkeyup="filtrarCards(this, 'lista-brasil')">
-            <div id="lista-brasil">A carregar dados...</div>
-        </div>
+        <!-- ABA: PRÉ-HISTÓRIA DO BRASIL -->
+        <section id="brasil" class="view-section">
+            <h2 class="section-header-title">Pré-História do Brasil</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Pré-História do Brasil..." onkeyup="filterItems(this)">
 
-        <!-- ABA 3: ANTIGUIDADE -->
-        <div id="tab-antiguidade" class="tab-content">
-            <h2>Antiguidade Oriental e Clássica</h2>
-            <input type="text" class="search-box" placeholder="Pesquisar na Antiguidade..." onkeyup="filtrarCards(this, 'lista-antiguidade')">
-            <div id="lista-antiguidade">A carregar dados...</div>
-        </div>
-
-        <!-- ABA 4: MÉDIA -->
-        <div id="tab-media" class="tab-content">
-            <h2>Idade Média</h2>
-            <input type="text" class="search-box" placeholder="Pesquisar na Idade Média..." onkeyup="filtrarCards(this, 'lista-media')">
-            <div id="lista-media">A carregar dados...</div>
-        </div>
-
-        <!-- ABA 5: CONTEMPORÂNEA -->
-        <div id="tab-contemporanea" class="tab-content">
-            <h2>Idade Contemporânea</h2>
-            <input type="text" class="search-box" placeholder="Pesquisar na Contemporânea..." onkeyup="filtrarCards(this, 'lista-contemporanea')">
-            <div id="lista-contemporanea">A carregar dados...</div>
-        </div>
-
-    </div>
-
-    <script>
-        let todosEventos = [];
-
-        function mudarAba(nomeAba) {
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-            document.querySelectorAll('.nav-tabs li').forEach(el => el.classList.remove('active'));
-
-            document.getElementById('tab-' + nomeAba).classList.add('active');
-            document.getElementById('btn-' + nomeAba).classList.add('active');
-            window.scrollTo(0, 0);
-        }
-
-        // Carregar o arquivo JSON unificado
-        fetch('eventos.json')
-            .then(response => response.json())
-            .then(data => {
-                todosEventos = data;
-                renderizarAbas();
-            })
-            .catch(error => {
-                console.error('Erro ao carregar o JSON:', error);
-                document.querySelectorAll('.tab-content div[id^="lista-"]').forEach(el => {
-                    el.innerHTML = '<p style="color:red;">Erro ao carregar o arquivo eventos.json.</p>';
-                });
-            });
-
-        function renderizarAbas() {
-            const containers = {
-                'brasil': document.getElementById('lista-brasil'),
-                'antiguidade': document.getElementById('lista-antiguidade'),
-                'media': document.getElementById('lista-media'),
-                'contemporanea': document.getElementById('lista-contemporanea')
-            };
-
-            Object.values(containers).forEach(c => c.innerHTML = '');
-            const contadores = { brasil: 0, antiguidade: 0, media: 0, contemporanea: 0 };
-
-            todosEventos.forEach(evento => {
-                const htmlCard = criarCardHTML(evento);
-                const id = evento.id ? evento.id.toLowerCase() : '';
-
-                if (id.includes('pre-historia-brasil') || id.includes('brasil')) {
-                    containers.brasil.innerHTML += htmlCard;
-                    contadores.brasil++;
-                } else if (id.includes('antiguidade') || id.includes('geral-ant') || id.includes('egito') || id.includes('mesopotamia') || id.includes('grecia') || id.includes('roma')) {
-                    containers.antiguidade.innerHTML += htmlCard;
-                    contadores.antiguidade++;
-                } else if (id.includes('media') || id.includes('feudalismo') || id.includes('bizantino') || id.includes('cruzadas')) {
-                    containers.media.innerHTML += htmlCard;
-                    contadores.media++;
-                } else {
-                    containers.contemporanea.innerHTML += htmlCard;
-                    contadores.contemporanea++;
-                }
-            });
-
-            for (let chave in contadores) {
-                if (contadores[chave] === 0) {
-                    containers[chave].innerHTML = '<p style="color:#64748b; font-style:italic;">Nenhum evento registado nesta aba.</p>';
-                }
-            }
-        }
-
-        function criarCardHTML(evento) {
-            const antecedentesHTML = evento.antecedentes ? evento.antecedentes.map(item => `<li>${item}</li>`).join('') : '';
-            const personagensHTML = evento.personagens ? evento.personagens.map(item => `<li>${item}</li>`).join('') : '';
-            const linhaTempoHTML = evento.linha_do_tempo ? evento.linha_do_tempo.map(item => `<li><strong>${item.ano || ''}:</strong> ${item.titulo || ''} — ${item.descricao || ''}</li>`).join('') : '';
-
-            return `
-                <div class="evento-card" data-titulo="${(evento.titulo_bloco || '').toLowerCase()}">
-                    <div class="evento-header" onclick="alternarSanfonaPrincipal(this)">
-                        <div class="evento-title-wrapper">
-                            <div class="diamond-icon"><span class="diamond-content-icon">✦</span></div>
-                            <span>${evento.titulo_bloco || 'Sem Título'}</span>
-                        </div>
-                        <div>
-                            <span class="info-tag">${evento.ano_inicio || ''} a ${evento.ano_fim || ''}</span>
-                            <span style="margin-left: 10px; font-size: 0.8rem; color: var(--accent);" class="seta-principal">▼</span>
-                        </div>
+            <div class="accordion-item open">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">A Pré-História Brasileira e os Primeiros Povos</span>
                     </div>
-                    <div class="evento-body">
-                        <p><strong>Período:</strong> ${evento.periodo || ''}</p>
-                        <p><strong>Local:</strong> ${evento.local || ''}</p>
-                        <p><strong>Tema:</strong> ${evento.tema || ''}</p>
-                        <hr style="border:0; border-top:1px solid var(--border); margin: 15px 0;">
-                        
-                        <!-- Sub-card: Contexto -->
-                        ${evento.contexto ? `
-                            <div class="sub-card">
-                                <div class="sub-header" onclick="alternarSubCard(this)">
-                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Contexto</div>
-                                    <span style="font-size: 0.75rem;">▼</span>
-                                </div>
-                                <div class="sub-body"><p>${evento.contexto}</p></div>
-                            </div>
-                        ` : ''}
-
-                        <!-- Sub-card: Antecedentes -->
-                        ${antecedentesHTML ? `
-                            <div class="sub-card">
-                                <div class="sub-header" onclick="alternarSubCard(this)">
-                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Antecedentes</div>
-                                    <span style="font-size: 0.75rem;">▼</span>
-                                </div>
-                                <div class="sub-body"><ul>${antecedentesHTML}</ul></div>
-                            </div>
-                        ` : ''}
-
-                        <!-- Sub-card: Desenvolvimento -->
-                        ${evento.desenvolvimento ? `
-                            <div class="sub-card">
-                                <div class="sub-header" onclick="alternarSubCard(this)">
-                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Desenvolvimento</div>
-                                    <span style="font-size: 0.75rem;">▼</span>
-                                </div>
-                                <div class="sub-body"><p>${evento.desenvolvimento}</p></div>
-                            </div>
-                        ` : ''}
-
-                        <!-- Sub-card: Personagens Destacados -->
-                        ${personagensHTML ? `
-                            <div class="sub-card">
-                                <div class="sub-header" onclick="alternarSubCard(this)">
-                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Personagens Destacados</div>
-                                    <span style="font-size: 0.75rem;">▼</span>
-                                </div>
-                                <div class="sub-body"><ul>${personagensHTML}</ul></div>
-                            </div>
-                        ` : ''}
-
-                        <!-- Sub-card: Linha do Tempo -->
-                        ${linhaTempoHTML ? `
-                            <div class="sub-card">
-                                <div class="sub-header" onclick="alternarSubCard(this)">
-                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Linha do Tempo</div>
-                                    <span style="font-size: 0.75rem;">▼</span>
-                                </div>
-                                <div class="sub-body"><ul>${linhaTempoHTML}</ul></div>
-                            </div>
-                        ` : ''}
-
-                        <!-- Sub-card: Consequências -->
-                        ${evento.consequencias_longo_prazo ? `
-                            <div class="sub-card">
-                                <div class="sub-header" onclick="alternarSubCard(this)">
-                                    <div><span class="sub-diamond"><span class="sub-diamond-text">✦</span></span> Consequências a Longo Prazo</div>
-                                    <span style="font-size: 0.75rem;">▼</span>
-                                </div>
-                                <div class="sub-body"><p>${evento.consequencias_longo_prazo}</p></div>
-                            </div>
-                        ` : ''}
+                    <div class="badge-date">
+                        <span>-12000 a 1500</span>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </button>
+                <div class="accordion-content" style="display: block;">
+                    <div class="info-grid">
+                        <p><strong>Período:</strong> Pré-História do Brasil</p>
+                        <p><strong>Local:</strong> Território brasileiro (Sítios arqueológicos de Serra da Capivara, Lagoa Santa, Marajó, etc.)</p>
+                        <p><strong>Tema:</strong> Ocupação Humana originária, Arte Rupestre, Sambaquis e Tradições Ceramistas</p>
                     </div>
                 </div>
-            `;
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">Contexto</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>Geral</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>Ocupação milenar do continente americano e a diversidade dos povos originários antes da chegada dos colonizadores europeus.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">Linha do Tempo</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>Evolução</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>Principais marcos temporais da presença humana nas Américas e no solo brasileiro.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABA: ANTIGUIDADE -->
+        <section id="antiguidade" class="view-section">
+            <h2 class="section-header-title">Antiguidade Oriental e Clássica</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Antiguidade..." onkeyup="filterItems(this)">
+
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">A Antiguidade Oriental: Mesopotâmia, Egito, Fenícia, Hebreus e Pérsia</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>-3500 a -330</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>Estudo das primeiras civilizações hidráulicas, sociedades teocráticas e o surgimento da escrita na bacia dos rios Tigre, Eufrates e Nilo.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">A Grécia Antiga e o Mundo Helenístico</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>-1200 a -146</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>Formação das Cidades-Estado (Atenas e Esparta), democracia, filosofia, mitologia e a expansão helenística com Alexandre o Grande.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">A Monarquia Romana e o Mito de Rômulo e Remo</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>-753 a -509</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>As origens lendárias de Roma, a dominação etrusca e a transição para o modelo republicano.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item open">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">A República Romana, o Império e sua Queda</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>-509 a 476</span>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </button>
+                <div class="accordion-content" style="display: block;">
+                    <p>Expansão militar pelo Mediterrâneo, crises institucionais, ascensão imperial com Júlio César e Augusto, e a derrocada do Império Romano do Ocidente.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABA: IDADE MÉDIA -->
+        <section id="medieval" class="view-section">
+            <h2 class="section-header-title">Idade Média</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Idade Média..." onkeyup="filterItems(this)">
+            
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">Alta Idade Média e o Feudalismo</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>476 a 1000</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>Ruralização da sociedade, relações de suserania e vassalagem, e a forte influência da Igreja Católica na Europa Ocidental.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABA: CONTEMPORÂNEA -->
+        <section id="contemporanea" class="view-section">
+            <h2 class="section-header-title">Idade Contemporânea</h2>
+            <input type="text" class="search-box" placeholder="Pesquisar na Contemporânea..." onkeyup="filterItems(this)">
+            
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title-wrapper">
+                        <div class="status-icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="accordion-title">As Guerras Mundiais e a Ordem Geopolítica</span>
+                    </div>
+                    <div class="badge-date">
+                        <span>1914 a 1945</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <div class="accordion-content">
+                    <p>Conflitos globais de grande escala, transformações tecnológicas e o redesenhar das fronteiras mundiais.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Função para alternar entre as abas do menu superior
+        function switchTab(tabId) {
+            document.querySelectorAll('.view-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            document.getElementById(tabId).classList.add('active');
+            
+            // Encontra e ativa o botão correspondente
+            eventosNavegacao(tabId);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        function alternarSanfonaPrincipal(header) {
-            const card = header.parentElement;
-            card.classList.toggle('open');
-            const seta = header.querySelector('.seta-principal');
-            seta.textContent = card.classList.contains('open') ? '▲' : '▼';
-        }
-
-        function alternarSubCard(subHeader) {
-            const subCard = subHeader.parentElement;
-            subCard.classList.toggle('open');
-            const seta = subHeader.querySelector('span[style*="font-size: 0.75rem"]');
-            seta.textContent = subCard.classList.contains('open') ? '▲' : '▼';
-        }
-
-        function filtrarCards(input, idContainer) {
-            const termo = input.value.toLowerCase();
-            const container = document.getElementById(idContainer);
-            const cards = container.getElementsByClassName('evento-card');
-
-            for (let card of cards) {
-                const titulo = card.getAttribute('data-titulo');
-                if (titulo.includes(termo)) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
+        function eventosNavegacao(tabId) {
+            const tabs = document.querySelectorAll('.nav-tab');
+            tabs.forEach(tab => {
+                if (tab.getAttribute('onclick').includes(tabId)) {
+                    tab.classList.add('active');
                 }
+            });
+        }
+
+        // Função para abrir e fechar os acordeões (sanfonas)
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const isOpen = item.classList.contains('open');
+            const icon = header.querySelector('.badge-date i');
+
+            if (isOpen) {
+                item.classList.remove('open');
+                $(item.querySelector('.accordion-content')).slideUp(200); // Se preferir puro JS:
+                item.querySelector('.accordion-content').style.display = 'none';
+                if(icon) icon.className = "fa-solid fa-chevron-down";
+            } else {
+                item.classList.add('open');
+                item.querySelector('.accordion-content').style.display = 'block';
+                if(icon) icon.className = "fa-solid fa-chevron-up";
             }
+        }
+
+        // Função de filtro por caixa de pesquisa em tempo real
+        function filterItems(input) {
+            const query = input.value.toLowerCase();
+            const section = input.closest('.view-section');
+            const items = section.querySelectorAll('.accordion-item');
+
+            items.forEach(item => {
+                const title = item.querySelector('.accordion-title').textContent.toLowerCase();
+                if (title.includes(query)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
         }
     </script>
 </body>
