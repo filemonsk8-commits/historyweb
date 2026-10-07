@@ -1,0 +1,69 @@
+[
+  {
+    "id": "geral-med-01",
+    "titulo_principal": "A IDADE MÉDIA: FEUDALISMO, IMPÉRIO BIZANTINO, ISLÃO E RENASCIMENTO COMERCIAL",
+    "ano_inicio": 476,
+    "ano_fim": 1453,
+    "periodo": "Idade Média (Alta e Baixa Idade Média)",
+    "local": "Europa Ocidental, Império Bizantino e Oriente Médio/Norte da África",
+    "sociedades_envolvidas": "Reinos Romano-Germânicos, Império Carolíngio, Império Bizantino, Califados Islâmicos e Estados Feudais",
+    "tema": "Feudalismo, Servidão, Hegemonia da Igreja Católica, Expansão Islâmica, Cruzadas, Renascimento Urbano/Comercial e Peste Negra",
+    "contexto": "Período iniciado após a queda do Império Romano do Ocidente, caracterizado pela descentralização política e ruralização na Europa Ocidental, enquanto o Oriente prosperava com o Império Bizantino e a expansão da civilização islâmica.",
+    "antecedentes": [
+      "476: Queda de Roma e fragmentação do território europeu ocidental.",
+      "Fixação e conversão dos povos germânicos ao Cristianismo."
+    ],
+    "causas": {
+      "politicas": "Descentralização do poder na Europa (senhorios feudais) em contraste com a centralização política bizantina e dos califados.",
+      "economicas": "Economia de subsistência agrária e servil na Alta Idade Média; reabertura de rotas comerciais no Mediterrâneo na Baixa Idade Média.",
+      "sociais": "Sociedade estamental tripartida no Ocidente (Oratores, Bellatores, Laboratores) baseada em laços de suserania e vassalagem.",
+      "religiosas": "Centralidade da Igreja Católica no Ocidente (Monopólio Cultural/Espiritual), Cisma do Oriente (1054) e expansão do Alcorão.",
+      "culturais": "Preservação da filosofia clássica pelos sábios muçulmanos e bizantinos; surgimento da arquitetura Românica e Gótica e das primeiras Universidades.",
+      "territoriais": "Expansão territorial do Islão, Movimento das Cruzadas em direção à Terra Santa e o processo da Reconquista Ibérica.",
+      "tecnologias": "Inovações agrícolas neolíticas/medievais (charrua de ferro, rotação trienal de culturas, moinhos de água e vento)."
+    },
+    "resumo_card": "Da estrutura feudal agrária dominante na Europa ao apogeu cultural do Islão e de Constantinopla, a Idade Média culminou na reabertura das rotas comerciais, no surgimento das cidades modernas e na crise do século XIV.",
+    "desenvolvimento": "A Alta Idade Média foi marcada pela formação do Feudalismo e pelo fortalecimento do Reino dos Francos (Carlos Magno). Em paralelo, Maomé unificou as tribos árabes dando origem à civilização islâmica, que se expandiu pelo Norte da África e Península Ibérica. Constantinopla permaneceu como o centro do Império Bizantino. A partir do século XI (Baixa Idade Média), as Cruzadas reabriram o comércio entre Ocidente e Oriente. Isso impulsionou o Renascimento Urbano e Comercial, o crescimento das feiras medievais e o surgimento da burguesia. O período encerrou-se com a profunda Crise do Século XIV, desencadeada pela Peste Negra, guerras e revoltas camponesas, culminando na Tomada de Constantinopla pelos Turcos Otomanos em 1453.",
+    "personagens": [
+      "Carlos Magno: Imperador do Sacro Império Romano Germânico/Carolíngio.",
+      "Maomé: Profeta fundador do Islão e unificador da Península Arábica.",
+      "Justiniano: Imperador bizantino famoso pela compilação do Corpus Juris Civilis e construção da Hagia Sophia.",
+      "Papa Urbano II: Convocou a Primeira Cruzada em 1095 no Concílio de Clermont.",
+      "Joana d'Arc: Heroína francesa decisiva na Guerra dos Cem Anos."
+    ],
+    "grupos_envolvidos": [
+      "Clero, Nobreza Feudal e Servos da Gleba.",
+      "Cruzados Cristãos vs. Forças Islâmicas no Levante.",
+      "Emergente Classe Burguesa nas cidades/burgos autónomos."
+    ],
+    "interesses_em_disputa": [
+      "Poder Temporal (Reis/Imperadores) vs. Poder Espiritual (Papado/Igreja).",
+      "Controle das rotas comerciais do Mar Mediterrâneo, do Norte (Liga Hanseática) e da Terra Santa."
+    ],
+    "linha_do_tempo": [
+      {"ano": 622, "titulo": "Hégira", "descricao": "Fuga de Maomé de Meca para Medina, marco inicial do calendário islâmico."},
+      {"ano": 800, "titulo": "Coroação de Carlos Magno", "descricao": "Tentativa de restauração do Império Romano sob a tutela da Igreja Católica."},
+      {"ano": 1054, "titulo": "Grande Cisma do Oriente", "descricao": "Divisão formal entre a Igreja Católica Romana e a Igreja Ortodoxa."},
+      {"ano": 1347, "titulo": "Auge da Peste Negra", "descricao": "Pandemia de peste bubónica que dizimou um terço da população europeia."},
+      {"ano": 1453, "titulo": "Queda de Constantinopla", "descricao": "Tomada da capital bizantina pelos Turcos Otomanos, encerrando a Idade Média."}
+    ],
+    "consequencias_imediatas": [
+      "Desagregação gradual das relações feudais e fortalecimento do poder dos Reis (Absolutismo).",
+      "Busca por novas rotas comerciais para as Índias contornando o monopólio otomano no Mediterrâneo."
+    ],
+    "consequencias_longo_prazo": [
+      "Formação dos Estados Nacionais Modernos (ex: Portugal, Espanha, França, Inglaterra).",
+      "Bases do sistema capitalista moderno através da transição mercantil."
+    ],
+    "impactos": {
+      "politicos": "Evolução da descentralização feudal para a centralização monárquica nacional.",
+      "economicos": "Transição de uma economia natural agrária para uma economia monetária e mercantil.",
+      "sociais": "Ascensão da burguesia e enfraquecimento gradual da servidão tradicional.",
+      "culturais": "Fundação das primeiras Universidades europeias e eclosão do Humanismo no final do período.",
+      "territoriais": "Definição das fronteiras dos reinos europeus modernos e redesenho do mapa do Oriente Médio.",
+      "ambientais": "Grande desmatamento na Europa ocidental para expansão da área cultivável e construção."
+    },
+    "continuidade": "Influência duradoura das religiões monoteístas na cultura política europeia e oriental.",
+    "rupturas": "Colapso do isolamento autárquico feudal e renascimento da vida urbana internacional."
+  }
+]
