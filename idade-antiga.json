@@ -1,0 +1,69 @@
+[
+  {
+    "id": "geral-ant-01",
+    "titulo_principal": "A ANTIGUIDADE ORIENTAL E CLÁSSICA: MESOPOTÂMIA, EGITO, GRÉCIA E ROMA",
+    "ano_inicio": -3000,
+    "ano_fim": 476,
+    "periodo": "Antiguidade Ocidental e Oriental",
+    "local": "Crescente Fértil, Bacia do Mediterrâneo e Europa do Sul",
+    "sociedades_envolvidas": "Sumérios, Babilónios, Egípcios, Fenícios, Hebreus, Persas, Gregos e Romanos",
+    "tema": "Modo de Produção Asiático, Democracia Ateniense, Filosofia, República e Império Romano, Escravismo e Surgimento do Cristianismo",
+    "contexto": "Período marcado pela consolidação dos primeiros Estados teocráticos e impérios do Oriente Próximo, seguido pela eflorescência da cultura clássica greco-romana que fundamentou a política, a lei e a filosofia ocidentais.",
+    "antecedentes": [
+      "Invenção da escrita e formação das primeiras cidades-estado na Mesopotâmia.",
+      "Unificação do Alto e Baixo Egito sob o comando dos Faraós."
+    ],
+    "causas": {
+      "politicas": "Evolução das teocracias orientais até a invenção da Democracia em Atenas e da República/Império em Roma.",
+      "economicas": "Sistemas hidráulicos de irrigação agrícola no Oriente e economia de base escravista no mundo Clássico.",
+      "sociais": "Estratificação rígida (sacerdotes, nobres, camponeses e escravos) e lutas entre patrícios e plebeus em Roma.",
+      "religiosas": "Transição dos politeismos teocráticos para o monoteísmo judaico e a expansão do Cristianismo pelo Império Romano.",
+      "culturais": "Nascimento da Filosofia grega, do Teatro, da Historiografia, da Retórica e do Direito Romano.",
+      "territoriais": "Expansão territorial e formação de grandes impérios centralizados (Persa, Macedónio e Romano).",
+      "tecnologias": "Arquitetura monumental (Pirâmides, Aquedutos, Coliseu), navegação marítima fenícia e metalurgia do ferro."
+    },
+    "resumo_card": "Das primeiras civilizações hidráulicas dos rios Tigre, Eufrates e Nilo à fundação dos pilares do Ocidente em Atenas e Roma, o período antigo definiu a política, o direito, a filosofia e a religião do mundo moderno.",
+    "desenvolvimento": "A Antiguidade Oriental desenvolveu-se ao redor dos grandes rios (Modo de Produção Asiático), produzindo o Código de Hamurábi e as grandes obras arquitetónicas egípcias. Na Grécia Antiga, o modelo de Cidades-Estado (Polis) gerou diferentes sistemas sociais: Atenas criou a Democracia Direta e o pensamento filosófico, enquanto Esparta focou-se no militarismo. As Guerras Médicas e a Guerra do Peloponeso enfraqueceram as poleis, permitindo o domínio Macedónio (Alexandre, o Grande) e a difusão da cultura Helenística. Em Roma, a transição da Monarquia para a República trouxe lutas sociais e expansão militar no Mediterrâneo. O Império Romano centralizou o poder, viveu a Pax Romana, viu o nascimento e oficialização do Cristianismo, e acabou por colapsar no Ocidente em 476 d.C. devido a crises internas e migrações/invasões de povos germânicos.",
+    "personagens": [
+      "Hamurábi: Rei babilónico criador do primeiro código de leis escritas (Lei do Talião).",
+      "Péricles: Líder político ateniense durante o auge da democracia e da cultura clássica.",
+      "Sócrates, Platão e Aristóteles: Filósofos gregos fundamentais para o pensamento ocidental.",
+      "Júlio César e Augusto: Lideranças na transição da República Romana para o Império Romano.",
+      "Constantino: Imperador romano que legalizou o Cristianismo (Édito de Milão) e refundou Constantinopla."
+    ],
+    "grupos_envolvidos": [
+      "Cidadãos Atenienses vs. Metecos e Escravos.",
+      "Patrícios vs. Plebeus na República Romana.",
+      "Povos Germânicos ('Bárbaros') nas fronteiras do Império Romano."
+    ],
+    "interesses_em_disputa": [
+      "Participação política e direitos civis nas cidades-estado e repúblicas.",
+      "Controle das rotas comerciais do Mediterrâneo e posse de terras/escravos."
+    ],
+    "linha_do_tempo": [
+      {"ano": -1750, "titulo": "Código de Hamurábi", "descricao": "Compilação de leis escritas baseada no princípio de 'olho por olho, dente por dente'."},
+      {"ano": -508, "titulo": "Reformas de Clístenes", "descricao": "Consolidação das bases da Democracia Direta na cidade de Atenas."},
+      {"ano": -27, "titulo": "Início do Império Romano", "descricao": "Caio Otávio recebe o título de Augusto, encerrando o período republicano."},
+      {"ano": 313, "titulo": "Édito de Milão", "descricao": "Imperador Constantino concede liberdade de culto aos cristãos no Império Romano."},
+      {"ano": 476, "titulo": "Queda de Roma", "descricao": "Deposição do último imperador romano do Ocidente, marcando o fim da Antiguidade."}
+    ],
+    "consequencias_imediatas": [
+      "Fragmentação política da Europa Ocidental e surgimento dos reinos romano-germânicos.",
+      "Ascensão da Igreja Católica como principal instituição unificadora da Europa ocidental."
+    ],
+    "consequencias_longo_prazo": [
+      "Base do Direito moderno fundamentada no Direito Romano.",
+      "Preservação do pensamento filosófico e científico clássico no Império Bizantino e no Mundo Islâmico."
+    ],
+    "impactos": {
+      "politicos": "Criação dos conceitos de Cidadania, República, Democracia e Senados.",
+      "economicos": "Redes de comércio transcontinental e estabilização de moedas cunhadas.",
+      "sociais": "Institucionalização da escravidão como motor produtivo principal do mundo clássico.",
+      "culturais": "Criação do alfabeto fenício/grego/latino, literatura épica, teatro e estética arquitetónica clássica.",
+      "territoriais": "Unificação política de toda a bacia do Mediterrâneo sob o domínio de Roma (Mare Nostrum).",
+      "ambientais": "Desmatamento ostensivo do Mediterrâneo para construção naval e agricultura de monocultura."
+    },
+    "continuidade": "Permanência de estruturas linguísticas latinas (línguas românicas) e princípios do direito clássico.",
+    "rupturas": "Colapso do Estado centralizado romano no Ocidente e ruralização da economia."
+  }
+]
