@@ -281,12 +281,13 @@
 
     <nav class="menu-navegacao">
         <button class="btn-periodo" onclick="carregarPeriodo('pre-historia.json', this)">Pré-História</button>
-        <button class="btn-periodo ativo" onclick="carregarPeriodo('idade-antiga.json', this)">Idade Antiga</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('idade-antiga.json', this)">Idade Antiga</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-medieval.json', this)">Idade Média</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-moderna.json', this)">Idade Moderna</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-contemporanea.json', this)">Idade Contemporânea</button>
         <button class="btn-periodo" onclick="carregarPeriodo('atualidades.json', this)">Atualidades</button>
         <button class="btn-periodo" onclick="carregarPeriodo('brasil.json', this)">Brasil</button>
+        <button class="btn-periodo ativo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
     </nav>
 
     <main class="container" id="app-container">
@@ -407,8 +408,8 @@
             }
         }
 
-        // Carrega a Idade Antiga por padrão ao abrir
-        carregarPeriodo('idade-antiga.json', document.querySelectorAll('.btn-periodo')[1]);
+        // Carrega Direitos Humanos por padrão ao abrir (ou ajuste para o período que desejar)
+        carregarPeriodo('direitos-humanos.json', document.querySelectorAll('.btn-periodo')[7]);
     </script>
 </body>
 </html>
