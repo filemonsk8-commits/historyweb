@@ -1,0 +1,359 @@
+[
+  {
+    "id": "antiguidade-democracia-leis",
+    "titulo_principal": "ANTIGUIDADE: DEMOCRACIA ATENIENSE, LEIS E REPÚBLICA ROMANA",
+    "ano_inicio": -508,
+    "ano_fim": -27,
+    "periodo": "Direitos Humanos e Democracia",
+    "local": "Grécia Antiga e Roma Antiga",
+    "sociedades_envolvidas": "Cidadãos Atenienses, Patrícios, Plebeus e Instituições da República Romana",
+    "tema": "Democracia Ateniense, Lei das Doze Tábuas e República Romana",
+    "contexto": "A Antiguidade Clássica estabeleceu as primeiras bases institucionais de participação política direta dos cidadãos e a codificação escrita das leis como limite ao arbítrio dos governantes.",
+    "antecedentes": [
+      "Formação das cidades-estado (Polis) na Grécia e transição da realeza para a república em Roma."
+    ],
+    "causas": {
+      "politicas": "Necessidade de apaziguar lutas sociais internas entre classes (patrícios e plebeus) e organizar o poder público.",
+      "economicas": "Dinâmicas de escravismo e expansão territorial mediterrânea.",
+      "sociais": "Conquista de direitos de representação pelos plebeus e restrição da cidadania ateniense a um grupo seleto de homens livres.",
+      "religiosas": "Justificação cívica e religiosa das instituições políticas antigas.",
+      "culturais": "Nascimento da retórica, da filosofia política e da codificação jurídica escrita.",
+      "territoriais": "Expansão da influência helênica e do Direito Romano pela bacia do Mediterrâneo.",
+      "tecnologias": "Inscrição de leis em suportes físicos duráveis (tábuas de madeira/bronze)."
+    },
+    "resumo_card": "Abrange a democracia ateniense (508 a.C.), a Lei das Doze Tábuas (451 a.C.) e a evolução da República Romana na formulação inicial de leis escritas e participação política.",
+    "desenvolvimento": "Em 508 a.C., Atenas inaugurou a democracia direta, permitindo a participação dos cidadãos nas decisões da cidade. Em Roma, a revolta dos plebeus por garantias gerou a Lei das Doze Tábuas (451 a.C.), registrando o direito por escrito e garantindo que as leis fossem conhecidas por todos. Durante o período republicano, desenvolveram-se complexas instituições políticas, magistraturas, senado e o embrião do Direito moderno.",
+    "personagens": [
+      "Clístenes: Reformador político ateniense considerado pai da democracia.",
+      "Magistrados e legisladores da Roma Antiga."
+    ],
+    "grupos_envolvidos": [
+      "Cidadãos Atenienses",
+      "Patrícios e Plebeus Romanos"
+    ],
+    "interesses_em_disputa": [
+      "Igualdade de acesso aos cargos públicos e proteção jurídica contra abusos de magistrados."
+    ],
+    "linha_do_tempo": [
+      {"ano": -508, "titulo": "Democracia Ateniense", "descricao": "Instituição das reformas de Clístenes permitindo a cidadania participativa."},
+      {"ano": -451, "titulo": "Lei das Doze Tábuas", "descricao": "Primeiro grande código jurídico escrito da Roma Antiga."}
+    ],
+    "consequencias_imediatas": [
+      "Transparência inicial das leis romanas e consolidação do modelo de debate público em Atenas.",
+      "Exclusão generalizada de mulheres, estrangeiros e escravizados do estatuto de cidadania."
+    ],
+    "consequencias_longo_prazo": [
+      "Formação dos alicerces do Direito Ocidental e inspiração eterna para os conceitos republicanos modernos."
+    ],
+    "impactos": {
+      "politicos": "Criação das noções de cidadania ativa, magistratura e representação pública.",
+      "economicos": "Estabilidade contratual e comercial garantida por leis escritas.",
+      "sociais": "Lutas por direitos civis básicos entre classes sociais estratificadas.",
+      "culturais": "Valorização da oratória, da lei e da filosofia cívica.",
+      "territoriais": "Unificação jurídica sob a égide do direito romano expandido.",
+      "ambientais": "Sem impactos diretos nas legislações ecológicas."
+    },
+    "continuidade": "Valorização da lei escrita como instrumento de pacificação social.",
+    "rupturas": "Superação do direito consuetudinário secreto controlado exclusivamente por elites sacerdotais ou aristocráticas."
+  },
+
+  {
+    "id": "idade-media-magna-carta",
+    "titulo_principal": "IDADE MÉDIA: A MAGNA CARTA E OS LIMITES AO PODER REAL",
+    "ano_inicio": 1215,
+    "ano_fim": 1215,
+    "periodo": "Direitos Humanos e Democracia",
+    "local": "Inglaterra",
+    "sociedades_envolvidas": "Rei João Sem-Terra, Barões Ingleses e Igreja",
+    "tema": "Magna Carta de 1215 e Princípio da Legalidade",
+    "contexto": "A insatisfação da nobreza inglesa contra os abusos fiscais e arbitrários do Rei João Sem-Terra forçou a assinatura da Magna Carta, estabelecendo o princípio revolucionário de que o governante também está submetido à lei.",
+    "antecedentes": [
+      "Crise financeira da coroa inglesa, guerras perdidas e cobrança abusiva de impostos feudais."
+    ],
+    "causas": {
+      "politicas": "Exigência dos barões feudais por garantias formais contra prisões arbitrárias e taxações sem consentimento.",
+      "economicas": "Proteção da propriedade privada feudal e comercial contra confiscos reais.",
+      "sociais": "Revolta unificada da nobreza e do clero contra o absolutismo tirânico do monarca.",
+      "religiosas": "Defesa da liberdade e autonomia da Igreja Católica na Inglaterra.",
+      "culturais": "Ruptura com a ideia de poder régio absolutamente ilimitado.",
+      "territoriais": "Limitação do poder do rei dentro do território do reino inglês.",
+      "tecnologias": "Redação e formalização de pergaminhos jurídicos selados."
+    },
+    "resumo_card": "Aborda a assinatura da Magna Carta em 1215, limitando o poder do rei e consagrando o princípio de que o governante está submetido às leis.",
+    "desenvolvimento": "Em 1215, encurralado pelos barões em Runnymede, o Rei João Sem-Terra assinou a Magna Carta. O documento garantiu que nenhum homem livre poderia ser preso, despojado de seus bens ou exilado senão pelo julgamento legal de seus pares (embora 'homens livres' na época abrangesse uma elite restrita). Esse pacto fundou o embrião do devido processo legal e do constitucionalismo ocidental moderno.",
+    "personagens": [
+      "Rei João Sem-Terra: Monarca inglês forçado a assinar o pacto.",
+      "Barões da nobreza inglesa."
+    ],
+    "grupos_envolvidos": [
+      "Nobreza Feudal",
+      "Igreja",
+      "Coroa Inglesa"
+    ],
+    "interesses_em_disputa": [
+      "Poder de taxação arbitrária e imunidade contra prisões sem julgamento prévio."
+    ],
+    "linha_do_tempo": [
+      {"ano": 1215, "titulo": "Assinatura da Magna Carta", "descricao": "Consagração do princípio de que a lei está acima da vontade do rei."}
+    ],
+    "consequencias_imediatas": [
+      "Contenção temporária dos abusos financeiros e judiciais da Coroa na Inglaterra medieval."
+    ],
+    "consequencias_longo_prazo": [
+      "Evolução histórica rumo ao parlamentarismo e inspiração direta para o surgimento do Habeas Corpus e das constituições modernas."
+    ],
+    "impactos": {
+      "politicos": "Inauguração do constitucionalismo e limitação contratual da soberania do Estado.",
+      "economicos": "Segurança jurídica para transações comerciais e propriedades feudais.",
+      "sociais": "Primeiro passo formal rumo à proteção contra prisões sem devido processo legal.",
+      "culturais": "Difusão da ideia contratualista de governança.",
+      "territoriais": "Consolidação legal do espaço territorial e institucional do reino inglês.",
+      "ambientais": "Sem impactos ecológicos diretos."
+    },
+    "continuidade": "Lutas históricas seculares contra o arbítrio de governantes autoritários.",
+    "rupturas": "Fim do conceito de que o rei responde apenas perante Deus, subordinando-o às leis civis."
+  },
+
+  {
+    "id": "idade-moderna-revolucoes-declaracoes",
+    "titulo_principal": "IDADE MODERNA: AS REVOLUÇÕES INGLESAS, AMERICANA E FRANCESA",
+    "ano_inicio": 1628,
+    "ano_fim": 1791,
+    "periodo": "Direitos Humanos e Democracia",
+    "local": "Inglaterra, Estados Unidos e França",
+    "sociedades_envolvidas": "Parlamento Britânico, Colônias Americanas, Revolucionários Franceses e Monarquias",
+    "tema": "Petition of Right (1628), Habeas Corpus Act (1679), Bill of Rights (1689), Declaração de Independência dos EUA (1776), Constituição dos EUA (1787), Revolução Francesa (1789), Declaração dos Direitos do Homem e do Cidadão, Constituição Francesa (1791) e Declaração dos Direitos da Mulher e da Cidadã (Olympe de Gouges)",
+    "contexto": "Ciclo revolucionário moderno em que o absolutismo monárquico foi combatido e derrotado, consagrando os direitos civis, políticos, a soberania popular, as constituições escritas e as primeiras reivindicações de igualdade feminina.",
+    "antecedentes": [
+      "Crise do absolutismo, expansão do Iluminismo e conflitos entre reis e parlamentos."
+    ],
+    "causas": {
+      "politicas": "Combate ao direito divino dos reis, exigência de governos representativos e divisão de poderes estatais.",
+      "economicas": "Rejeição a tributos arbitrários e defesa intransigente da propriedade privada capitalista.",
+      "sociais": "Ascensão revolucionária da burguesia e revolta de colônias ultramarinas contra o jugo metropolitano.",
+      "religiosas": "Busca por tolerância confessional e laicidade estatal.",
+      "culturais": "Triunfo absoluto da filosofia iluminista e do jusnaturalismo (direitos naturais inalienáveis).",
+      "territoriais": "Criação de novos Estados constitucionais soberanos (EUA e França republicana).",
+      "tecnologias": "Proliferação de panfletos, constituições impressas e debates públicos abertos."
+    },
+    "resumo_card": "Abrange a Petition of Right (1628), Habeas Corpus (1679), Bill of Rights (1689), a Independência e Constituição dos EUA (1776/1787), a Revolução Francesa de 1789, a Declaração de Direitos do Homem, a Constituição de 1791 e a pioneira Declaração dos Direitos da Mulher de Olympe de Gouges.",
+    "desenvolvimento": "A modernidade política foi forjada a fogo na Inglaterra através da Petition of Right (1628), do Habeas Corpus Act (1679) e do Bill of Rights (1689), que consolidaram a monarquia parlamentar. Em 1776, as colônias americanas declararam independência baseadas nos direitos naturais, culminando na Constituição de 1787. Na Europa, a Revolução Francesa de 1789 explodiu com a Queda da Bastilha, gerando a monumental Declaração dos Direitos do Homem e do Cidadão e a Constituição de 1791. Em resposta à omissão machista dos revolucionários, Olympe de Gouges publicou em 1791 a Declaração dos Direitos da Mulher e da Cidadã.",
+    "personagens": [
+      "Thomas Jefferson: Autor da Declaração de Independência dos EUA.",
+      "Olympe de Gouges: Pioneira feminista executada na Revolução Francesa por exigir direitos iguais às mulheres."
+    ],
+    "grupos_envolvidos": [
+      "Parlamentares Britânicos",
+      "Pais Fundadores dos EUA",
+      "Revolucionários Jacobinos e Girondinos"
+    ],
+    "interesses_em_disputa": [
+      "Soberania popular versus direito divino absolutista; igualdade jurídica universal versus exclusão das mulheres."
+    ],
+    "linha_do_tempo": [
+      {"ano": 1689, "titulo": "Bill of Rights Inglês", "descricao": "Supremacia definitiva do Parlamento sobre a Coroa na Inglaterra."},
+      {"ano": 1776, "titulo": "Independência dos EUA", "descricao": "Proclamação dos direitos naturais inalienáveis à vida, liberdade e busca da felicidade."},
+      {"ano": 1789, "titulo": "Declaração dos Direitos do Homem e do Cidadão", "descricao": "Consagração máxima da liberdade, igualdade e fraternidade na França."},
+      {"ano": 1791, "titulo": "Declaração de Olympe de Gouges", "descricao": "Reivindicação histórica pioneira de direitos políticos e jurídicos femininos."}
+    ],
+    "consequencias_imediatas": [
+      "Derrubada de monarquias absolutistas tradicionais e criação das primeiras repúblicas liberais modernas.",
+      "Exclusão dramática inicial das mulheres e negros dos plenos direitos civis políticos."
+    ],
+    "consequencias_longo_prazo": [
+      "Fundação do modelo constitucional democrático que inspirou as democracias ocidentais contemporâneas."
+    ],
+    "impactos": {
+      "politicos": "Instauração da soberania popular, constitucionalismo escrito e separação de poderes.",
+      "economicos": "Garantia jurídica de livre mercado, contratos e inviolabilidade da propriedade privada.",
+      "sociais": "Afirmação da igualdade civil formal e sementes do feminismo político moderno.",
+      "culturais": "Difusão planetária dos valores liberais iluministas.",
+      "territoriais": "Redesenho geopolítico ocidental com novas nações livres.",
+      "ambientais": "Foco restrito às liberdades humanas, sem pautas ecológicas na época."
+    },
+    "continuidade": "Batalhas contínuas pela expansão real dos direitos formais proclamados para todas as camadas excluídas.",
+    "rupturas": "Fim definitivo do Antigo Regime absolutista europeu."
+  },
+
+  {
+    "id": "seculo-xix-direitos-brasil-mundo",
+    "titulo_principal": "SÉCULO XIX: CONSTITUIÇÕES, ABOLIÇÃO, SUFRÁGIO E DIREITOS SOCIAIS",
+    "ano_inicio": 1824,
+    "ano_fim": 1891,
+    "periodo": "Direitos Humanos e Democracia",
+    "local": "Brasil e Europa",
+    "sociedades_envolvidas": "Império do Brasil, Movimentos Operários Europeus, Cruz Vermelha e República Brasileira",
+    "tema": "Constituição de 1824, Revoluções de 1848, Primeira Convenção de Genebra (1864), Abolição no Brasil (1888), Proclamação da República (1889) e Constituição Republicana de 1891",
+    "contexto": "O século XIX foi marcado pela transição institucional brasileira (Império e República), pelas revoluções sociais europeias de 1848 exigindo direitos trabalhistas, e pela codificação humanitária internacional de proteção a vítimas de guerra.",
+    "antecedentes": [
+      "Independências americanas, revoluções liberais e persistência da escravidão estrutural."
+    ],
+    "causas": {
+      "politicas": "Necessidade de organizar juridicamente os novos Estados independentes (Constituição de 1824 e 1891) e pressões por reformas sociais.",
+      "economicas": "Crise do escravismo colonial e reivindicações operárias diante das péssimas condições da Revolução Industrial.",
+      "sociais": "Revoltas de 1848 ('Primavera dos Povos') clamando por direitos sociais e sufrágio popular amplo.",
+      "religiosas": "Ação humanitária inspirada em princípios cristãos e laicos de salvamento de feridos em combate.",
+      "culturais": "Surgimento do socialismo, do liberalismo avançado e do abolicionismo humanitário.",
+      "territoriais": "Consolidação dos Estados nacionais soberanos na América do Sul.",
+      "tecnologias": "Expansão da imprensa e codificação formal de tratados internacionais."
+    },
+    "resumo_card": "Abrange a Constituição brasileira de 1824, as Revoluções de 1848 na Europa, a Primeira Convenção de Genebra (1864) para proteção humanitária em guerras, a Abolição da Escravidão no Brasil (1888), a Proclamação da República (1889) e a Constituição Republicana de 1891.",
+    "desenvolvimento": "No Brasil, a outorgada Constituição de 1824 criou o Poder Moderador sob D. Pedro I. Décadas mais tarde, o país aboliu a escravidão com a Lei Áurea em 1888, culminando na Proclamação da República (1889) e na Constituição de 1891, que instituiu o presidencialismo e o Estado laico. Na Europa, as Revoluções de 1848 trouxeram pautas de direitos sociais, enquanto a Convenção de Genebra (1864) criou o Direito Internacional Humanitário para blindar feridos e equipes médicas em conflitos armados.",
+    "personagens": [
+      "Henry Dunant: Fundador da Cruz Vermelha e idealizador da Convenção de Genebra.",
+      "Princesa Isabel: Sanção da Lei Áurea em 1888."
+    ],
+    "grupos_envolvidos": [
+      "Movimento Operário Europeu",
+      "Comitê Internacional da Cruz Vermelha",
+      "Abolicionistas e Republicanos Brasileiros"
+    ],
+    "interesses_em_disputa": [
+      "Direitos sociais básicos e leis de proteção ao trabalho versus exploração capitalista selvagem; fim da escravidão."
+    ],
+    "linha_do_tempo": [
+      {"ano": 1848, "titulo": "Revoluções de 1848", "descricao": "Ondas revolucionárias na Europa exigindo direitos sociais e sufrágio."},
+      {"ano": 1864, "titulo": "Primeira Convenção de Genebra", "descricao": "Nascimento oficial do Direito Internacional Humanitário."},
+      {"ano": 1888, "titulo": "Abolição da Escravidão no Brasil", "descricao": "Fim legal do cativeiro negro no país."},
+      {"ano": 1891, "titulo": "Constituição Republicana", "descricao": "Separação entre Estado e Igreja e federalismo no Brasil."}
+    ],
+    "consequencias_imediatas": [
+      "Proteção jurídica internacional a feridos de guerra e extinção jurídica da escravidão no Brasil.",
+      "Transição do Império elitista para a República oligárquica no Brasil."
+    ],
+    "consequencias_longo_prazo": [
+      "Bases formadas para o surgimento do Direito do Trabalho e consolidação das convenções de direitos humanos em conflitos."
+    ],
+    "impactos": {
+      "politicos": "Inauguração do constitucionalismo republicano no Brasil e debates sobre sufrágio na Europa.",
+      "economicos": "Substituição do trabalho escravo pelo trabalho livre e assalariado.",
+      "sociais": "Marginalização dos recém-libertos no Brasil pós-1888 e exploração de operários europeus.",
+      "culturais": "Humanização progressiva das leis de guerra e difusão de ideais republicanos.",
+      "territoriais": "Manutenção da unidade territorial brasileira sob o regime republicano.",
+      "ambientais": "Sem foco ecológico relevante nas pautas jurídicas da época."
+    },
+    "continuidade": "Exclusão de analfabetos, mulheres e pobres dos processos políticos formais em grande parte do período.",
+    "rupturas": "Fim do cativeiro humano legalizado nas Américas e surgimento das leis humanitárias de guerra."
+  },
+
+  {
+    "id": "seculo-xx-democracia-onu-direitos",
+    "titulo_principal": "SÉCULO XX: WEIMAR, OIT, ONU, DUDH DE 1948 E DIREITOS CIVIS",
+    "ano_inicio": 1919,
+    "ano_fim": 1989,
+    "periodo": "Direitos Humanos e Democracia",
+    "local": "Global / Alemanha / Genebra / Estados Unidos / Brasil",
+    "sociedades_envolvidas": "Organização Internacional do Trabalho, Organização das Nações Unidas, Ativistas de Direitos Civis, Estado Brasileiro",
+    "tema": "Constituição de Weimar (1919), OIT, Criação da ONU (1945), Constituição Brasileira de 1946, Declaração Universal dos Direitos Humanos (1948), Movimento pelos Direitos Civis nos EUA (1955-1968), Pactos Internacionais de 1966, Maio de 1968, CEDAW (1979), Constituição de 1988 e Convenção sobre os Direitos da Criança (1989)",
+    "contexto": "O século XX testemunhou a institucionalização global dos direitos humanos (ONU e DUDH), a conquista de direitos trabalhistas (Weimar e OIT), o fim da segregação racial nos EUA, e a redemocratização do Brasil com a Constituição Cidadã de 1988.",
+    "antecedentes": [
+      "Horrores das guerras mundiais, exploração operária extrema e regimes totalitários."
+    ],
+    "causas": {
+      "politicas": "Necessidade multilateral de blindar a dignidade humana contra o totalitarismo e a discriminação racial ou de gênero.",
+      "economicas": "Reivindicação de direitos econômicos e sociais (trabalho digno, seguridade social, salário justo).",
+      "sociais": "Pressão insuportável de minorias segregadas (negros nos EUA) e de movimentos feministas globais.",
+      "religiosas": "Universalismo ético compartilhado por diversas matrizes culturais e religiosas globais.",
+      "culturais": "Revoltas geracionais de 1968 e consagração da infância e da mulher como sujeitos plenos de direitos.",
+      "territoriais": "Redesenho do direito internacional após a Segunda Guerra Mundial e Guerra Fria.",
+      "tecnologias": "Expansão global dos meios de comunicação em massa e fortalecimento do multilateralismo diplomático."
+    },
+    "resumo_card": "Abrange a Constituição de Weimar e a OIT (1919), a criação da ONU (1945), a Constituição de 1946, a Declaração Universal de 1948, o Movimento pelos Direitos Civis nos EUA (1955–1968), os Pactos de 1966, o Maio de 1968, a Convenção da Mulher (CEDAW, 1979), a Constituição de 1988 e a Convenção dos Direitos da Criança (1989).",
+    "desenvolvimento": "O século XX transformou os direitos humanos. Em 1919, nasceram a OIT e a Constituição de Weimar, alçando os direitos sociais ao texto constitucional. Em 1945, criou-se a ONU e, em 10 de dezembro de 1948, proclamou-se a Declaração Universal dos Direitos Humanos. Nos EUA, o Movimento pelos Direitos Civis (1955–1968) liderado por Martin Luther King derrubou a segregação. O ano de 1968 trouxe revoltas globais por liberdade, seguido por tratados históricos de proteção à mulher (CEDAW, 1979) e à criança (1989). No Brasil, após a ditadura, promulgou-se a Constituição Cidadã de 1988, consagrando a redemocratização.",
+    "personagens": [
+      "Martin Luther King Jr.: Líder pacifista dos direitos civis nos EUA.",
+      "Ulysses Guimarães: Presidente da Assembleia Constituinte de 1988 no Brasil."
+    ],
+    "grupos_envolvidos": [
+      "Assembleia Geral da ONU",
+      "Ativistas de Direitos Civis Americanos",
+      "Movimentos Sociais e Constituintes Brasileiros"
+    ],
+    "interesses_em_disputa": [
+      "Igualdade civil, racial e de gênero versus supremacismo e autoritarismo estatal."
+    ],
+    "linha_do_tempo": [
+      {"ano": 1948, "titulo": "Declaração Universal dos Direitos Humanos", "descricao": "Marco internacional máximo da proteção à dignidade humana."},
+      {"ano": 1964, "titulo": "Fim da Segregação Legal nos EUA", "descricao": "Aprovação do Civil Rights Act banindo o apartheid americano."},
+      {"ano": 1988, "titulo": "Constituição Federal do Brasil", "descricao": "Promulgação da 'Constituição Cidadã', restaurando a democracia plena."},
+      {"ano": 1989, "titulo": "Convenção sobre os Direitos da Criança", "descricao": "Reconhecimento global de crianças e adolescentes como sujeitos de direitos especiais."}
+    ],
+    "consequencias_imediatas": [
+      "Universalização do arcabouço jurídico internacional de proteção aos direitos fundamentais.",
+      "Redemocratização institucional de nações saídas de ditaduras (como o Brasil em 1988)."
+    ],
+    "consequencias_longo_prazo": [
+      "Inclusão de pautas de minorias, infância, gênero e meio ambiente no centro das democracias modernas."
+    ],
+    "impactos": {
+      "politicos": "Fortalecimento de democracias constitucionais e sistemas internacionais de proteção (ONU).",
+      "economicos": "Consolidação de direitos trabalhistas, previdenciários e de bem-estar social.",
+      "sociais": "Queda de barreiras legais de discriminação racial e de gênero em várias nações.",
+      "culturais": "Triunfo dos valores de tolerância universal e direitos das minorias.",
+      "territoriais": "Fronteiras democráticas garantidas por cartas magnas populares.",
+      "ambientais": "Início das proteções constitucionais explícitas ao meio ambiente ecologicamente equilibrado."
+    },
+    "continuidade": "Preconceitos estruturais e desigualdades sociais persistentes apesar das leis avançadas.",
+    "rupturas": "Fim do princípio de que os direitos humanos dependem exclusivamente da soberania arbitrária interna de cada Estado."
+  },
+
+  {
+    "id": "seculo-xxi-desafios-tecnologia-democracia",
+    "titulo_principal": "SÉCULO XXI: TPI, DIREITOS DAS PESSOAS COM DEFICIÊNCIA, CRISE CLIMÁTICA E INTELIGÊNCIA ARTIFICIAL",
+    "ano_inicio": 2000,
+    "ano_fim": 2026,
+    "periodo": "Direitos Humanos e Democracia",
+    "local": "Global",
+    "sociedades_envolvidas": "Tribunal Penal Internacional, Nações Unidas, Sociedade Civil, Comunidade Tecnológica",
+    "tema": "Tribunal Penal Internacional (2002), Convenção sobre os Direitos das Pessoas com Deficiência (2006), Primavera Árabe (2011), Agenda 2030 da ONU (2015), Acordo de Paris (2015), Pandemia de COVID-19 (2020), Guerras Atuais (Ucrânia e Israel-Hamas), Desafios Eleitorais, Privacidade e Regulamentação da Inteligência Artificial (2025-2026)",
+    "contexto": "O século XXI desafia os direitos humanos e a democracia com a expansão do TPI, inclusão de pessoas com deficiência, revoltas populares por liberdade, catástrofes climáticas, conflitos armados brutais e os dilemas urgentes da era da inteligência artificial.",
+    "antecedentes": [
+      "Globalização avançada, transição digital informacional e crises geopolíticas do pós-Guerra Fria."
+    ],
+    "causas": {
+      "politicas": "Ascensão de extremismos políticos, desinformação em massa em ciclos eleitorais e conflitos armados transnacionais.",
+      "economicas": "Desigualdade socioeconômica global agravada por crises sanitárias e inflação energética.",
+      "sociais": "Exigências urgentes de inclusão e acessibilidade para pessoas com deficiência e minorias vulneráveis.",
+      "religiosas": "Tensionamentos sectários geopolíticos em zonas de atrito.",
+      "culturais": "Polarização informacional impulsionada por algoritmos de redes sociais e polarização ideológica.",
+      "territoriais": "Guerras na Ucrânia e no Oriente Médio gerando milhões de refugiados e violações humanitárias.",
+      "tecnologias": "Proliferação de inteligência artificial generativa, vigilância algorítmica, riscos ao trabalho e discriminação digital."
+    },
+    "resumo_card": "Abrange o Tribunal Penal Internacional (2002), Convenção dos Direitos das Pessoas com Deficiência (2006), Primavera Árabe (2011), Agenda 2030 e Acordo de Paris (2015), COVID-19 (2020), as guerras recentes na Ucrânia e Oriente Médio, as eleições sob desinformação, e os debates atuais de 2025–2026 sobre privacidade, trabalho, discriminação algorítmica e regulamentação da IA.",
+    "desenvolvimento": "O século XXI trouxe frentes inéditas para os direitos humanos. Em 2002, o Tribunal Penal Internacional começou a julgar crimes de guerra e genocídio. Em 2006, firmou-se o tratado de direitos das pessoas com deficiência. A Primavera Árabe (2011) clamou por democracia, enquanto em 2015 a ONU lançou a Agenda 2030 e o Acordo de Paris contra as mudanças climáticas. Após a pandemia de 2020 e o recrudescimento de guerras na Ucrânia e em Gaza, o mundo contemporâneo (2025–2026) enfrenta o maior teste democrático: regular a inteligência artificial, defender a privacidade, combater a desinformação nas eleições e proteger o trabalho humano diante da automação.",
+    "personagens": [
+      "Ativistas globais de direitos humanos, juristas internacionais e pesquisadores de ética digital."
+    ],
+    "grupos_envolvidos": [
+      "Tribunal Penal Internacional (TPI)",
+      "Agências da ONU",
+      "Sociedade Civil e Coletivos de Defesa Digital"
+    ],
+    "interesses_em_disputa": [
+      "Soberania corporativa tecnológica e governança algorítmica versus direitos fundamentais de privacidade, trabalho e democracia."
+    ],
+    "linha_do_tempo": [
+      {"ano": 2002, "titulo": "Início do Tribunal Penal Internacional", "descricao": "Responsabilização global contra impunidade em crimes internacionais graves."},
+      {"ano": 2015, "titulo": "Agenda 2030 e Acordo de Paris", "descricao": "Compromissos multilaterais globais de sustentabilidade e direitos humanos."},
+      {"ano": 2020, "titulo": "Pandemia de COVID-19", "descricao": "Teste severo sobre o direito universal à saúde e limites estatais de liberdade."},
+      {"ano": 2026, "titulo": "Democracia, IA e Direitos Humanos", "descricao": "Debates regulatórios cruciais sobre privacidade, desinformação, trabalho e automação algorítmica."}
+    ],
+    "consequencias_imediatas": [
+      "Necessidade urgente de marcos legais internacionais para regulação ética da inteligência artificial.",
+      "Crises humanitárias e migratórias prolongadas devido a guerras e colapsos climáticos."
+    ],
+    "consequencias_longo_prazo": [
+      "Redefinição dos contornos da cidadania, do trabalho e da dignidade humana na era cibernética e automatizada."
+    ],
+    "impactos": {
+      "politicos": "Tensão crônica entre governos democráticos e o avanço de discursos autoritários e desinformação digital.",
+      "economicos": "Precarização de postos de trabalho tradicionais devido à substituição por automação cognitiva.",
+      "sociais": "Riscos de exclusão algorítmica, discriminação digital e ampliação de vulnerabilidades climáticas.",
+      "culturais": "Globalização instantânea da comunicação em choque com bolhas ideológicas polarizadas.",
+      "territoriais": "Fronteiras sob forte pressão migratória de refugiados climáticos e de guerra.",
+      "ambientais": "Reconhecimento de que a integridade ecológica e o clima estável são pré-requisitos essenciais de direitos humanos."
+    },
+    "continuidade": "Luta contínua e secular pela expansão e proteção da dignidade humana frente a novas formas de opressão.",
+    "rupturas": "Invasão da tecnologia algorítmica e da inteligência artificial na tomada de decisões vitais sobre a vida humana e a democracia."
+  }
+]
