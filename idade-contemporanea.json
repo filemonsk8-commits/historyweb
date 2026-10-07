@@ -7,26 +7,26 @@
     "periodo": "Idade Contemporânea",
     "local": "França e Europa",
     "sociedades_envolvidas": "Sociedade Francesa, Tropas Napoleônicas e Monarquias Absolutistas Europeias",
-    "tema": "Queda do Antigo Regime, Declaração de Direitos, Período do Terror, Código Napoleônico e Congresso de Viena",
+    "tema": "Queda do Antigo Regime, Declaração de Direitos, Proclamação da República, Período do Terror, Código Napoleônico, Bloqueio Continental e Congresso de Viena",
     "contexto": "O colapso do Antigo Regime na França desencadeou profundas transformações políticas seguidas pela expansão militar napoleônica pela Europa, alterando definitivamente a geopolítica ocidental.",
     "antecedentes": [
       "Crise fiscal extrema na França e revolta do Terceiro Estado contra os privilégios nobiliárquicos."
     ],
     "causas": {
-      "politicas": "Fim do absolutismo monárquico, proclamação da República e ascensão militar de Napoleão Bonaparte.",
-      "economicas": "Crise de subsistência, fome, inflação e tentativa de enfraquecer a economia britânica (Bloqueio Continental).",
+      "politicas": "Fim do absolutismo monárquico, proclamação da República (1792), execução de Luís XVI (1793) e ascensão militar de Napoleão (1799).",
+      "economicas": "Crise de subsistência, inflação e tentativa de asfixiar o comércio britânico através do Bloqueio Continental (1806).",
       "sociais": "Busca por igualdade civil, fim dos privilégios estamentais e consolidação jurídica burguesa.",
       "religiosas": "Laicização do Estado e conflitos com a Igreja Católica.",
-      "culturais": "Disseminação dos ideais liberais de liberdade, igualdade e fraternidade.",
-      "territoriais": "Expansão territorial do Império Francês pela Europa e posterior reação conservadora no Congresso de Viena.",
-      "tecnologias": "Modernização administrativa e centralização jurídica por meio do Código Napoleônico."
+      "culturais": "Disseminação dos ideais liberais da Declaração dos Direitos do Homem e do Cidadão.",
+      "territoriais": "Expansão territorial do Império Francês, fracasso da Campanha na Rússia (1812) e derrota final na Batalha de Waterloo (1815).",
+      "tecnologias": "Modernização administrativa e centralização jurídica por meio do Código Napoleônico (1804)."
     },
-    "resumo_card": "Da queda da Bastilha e do Período do Terror ao estabelecimento do Império de Napoleão, do Código Civil e do Congresso de Viena, este bloco marcou o nascimento político da Idade Contemporânea.",
-    "desenvolvimento": "A Revolução iniciada em 1789 proclamou os direitos fundamentais do homem e instituiu a República em 1792, passando pela execução de Luís XVI e pela fase radical do Terror (1793–1794). A instabilidade política abriu espaço para o Golpe do 18 de Brumário (1799), que levou Napoleão ao poder. Coroado imperador em 1804, ele consolidou leis burguesas no Código Napoleônico e tentou isolar a Grã-Bretanha pelo Bloqueio Continental. Após desastrosa campanha na Rússia (1812) e a derrota definitiva na Batalha de Waterloo (1815), as potências vitoriosas reorganizaram a Europa no Congresso de Viena.",
+    "resumo_card": "Abrangendo desde a queda da Bastilha, a Declaração de Direitos, a República, o Terror, o governo de Napoleão, o Código Civil, o Bloqueio Continental e a Batalha de Waterloo até o Congresso de Viena.",
+    "desenvolvimento": "A Revolução iniciada em 1789 instituiu a Declaração dos Direitos do Homem e do Cidadão e a República em 1792. A execução de Luís XVI em 1793 abriu caminho para o violento Período do Terror (1793–1794). A instabilidade levou ao Golpe do 18 de Brumário (1799), colocando Napoleão no poder. Tornando-se imperador em 1804, ele promulgou o Código Napoleônico. Após decretar o Bloqueio Continental (1806) e sofrer revés na Rússia (1812), enfrentou a primeira queda em 1814 e a derrota definitiva na Batalha de Waterloo em 1815, ano em que o Congresso de Viena tentou restaurar o Antigo Regime.",
     "personagens": [
       "Luís XVI e Maria Antonieta: Monarcas executados durante a radicalização revolucionária.",
-      "Maximilien Robespierre: Líder jacobino durante o Período do Terror.",
-      "Napoleão Bonaparte: General e imperador francês que reformou a administração e conquistou grande parte da Europa."
+      "Maximilien Robespierre: Líder jacobino do Período do Terror.",
+      "Napoleão Bonaparte: General, imperador e líder das campanhas europeias e da Batalha de Waterloo."
     ],
     "grupos_envolvidos": [
       "Revolucionários Franceses e Jacobinos",
@@ -37,10 +37,11 @@
       "Manutenção de privilégios aristocráticos versus consolidação dos direitos liberais burgueses e soberania nacional."
     ],
     "linha_do_tempo": [
-      {"ano": 1789, "titulo": "Início da Revolução e Declaração de Direitos", "descricao": "Queda da Bastilha e aprovação dos Direitos do Homem e do Cidadão."},
-      {"ano": 1793, "titulo": "Execução de Luís XVI e Período do Terror", "descricao": "Radicalização política sob o comando de Robespierre."},
-      {"ano": 1804, "titulo": "Império e Código Napoleônico", "descricao": "Napoleão torna-se imperador e promulga o novo código civil."},
-      {"ano": 1815, "titulo": "Waterloo e Congresso de Viena", "descricao": "Queda final de Napoleão e restauração conservadora na Europa."}
+      {"ano": 1789, "titulo": "Revolução Francesa e Declaração de Direitos", "descricao": "Queda da Bastilha e proclamação dos direitos civis."},
+      {"ano": 1792, "titulo": "Proclamação da República", "descricao": "Fim da monarquia constitucional francesa."},
+      {"ano": 1793, "titulo": "Execução de Luís XVI e Período do Terror", "descricao": "Radicalização extrema e governo de exceção."},
+      {"ano": 1804, "titulo": "Império e Código Napoleônico", "descricao": "Napoleão torna-se imperador e consolida o código civil."},
+      {"ano": 1815, "titulo": "Waterloo e Congresso de Viena", "descricao": "Queda definitiva de Napoleão e restauração conservadora."}
     ],
     "consequencias_imediatas": [
       "Tentativa de restauração do Antigo Regime absolutista na Europa pelas potências vencedoras.",
@@ -69,7 +70,7 @@
     "periodo": "Idade Contemporânea",
     "local": "Europa Ocidental",
     "sociedades_envolvidas": "Classe Operária, Burguesia Industrial e Estados Nacionais (Itália e Alemanha)",
-    "tema": "Revolução Industrial, Urbanização, Ludismo, Cartismo, Socialismo, Manifesto Comunista e Unificações Tardia",
+    "tema": "Revolução Industrial, Urbanização, Ludismo, Cartismo, Socialismo, Manifesto Comunista, Revoluções de 1848 e Unificações da Itália e Alemanha",
     "contexto": "A industrialização acelerada transformou a paisagem urbana, gerou a classe operária e estimulou ideologias de contestação social, culminando nas revoluções de 1848 e na formação dos Estados modernos italiano e alemão.",
     "antecedentes": [
       "Acumulação de capitais decorrente do mercantilismo colonial e pioneirismo britânico na tecnologia a vapor."
@@ -79,12 +80,12 @@
       "economicas": "Expansão do capitalismo industrial, mecanização das fábricas e exploração intensa da força de trabalho.",
       "sociais": "Miséria nas cidades, jornadas exaustivas nas fábricas, nascimento do proletariado e lutas sindicais.",
       "religiosas": "Secularização crescente do pensamento e críticas sociais às condições de vida operária.",
-      "culturais": "Surgimento de correntes teóricas como o socialismo utópico, científico e o Manifesto Comunista de 1848.",
+      "culturais": "Surgimento de correntes teóricas como o socialismo, o Manifesto Comunista (1848) e o nacionalismo.",
       "territoriais": "Anseio nacionalista por unificar regiões fragmentadas na Europa Central e do Sul.",
       "tecnologias": "Mecanização fabril, ferrovias a vapor e expansão urbana desordenada."
     },
-    "resumo_card": "O século XIX foi marcado pela Revolução Industrial, pelo nascimento do movimento operário, pelas revoluções de 1848, pelo surgimento do socialismo e pelas unificações da Itália e da Alemanha.",
-    "desenvolvimento": "Com as fábricas e ferrovias, a urbanização cresceu e formou o proletariado submetido a duras condições. Isso gerou reações como o Ludismo (quebra de máquinas) e o Cartismo (exigências políticas), além da publicação do Manifesto Comunista por Marx e Engels em 1848 — ano de ondas revolucionárias liberais por toda a Europa. Paralelamente, o nacionalismo impulsionou as unificações da Itália (concluída em 1870) e da Alemanha (consolidada com o Império Alemão em 1871).",
+    "resumo_card": "Aborda a Revolução Industrial, o crescimento das fábricas e da urbanização, a formação da classe operária, os movimentos Ludista e Cartismo, o surgimento do socialismo, o Manifesto Comunista de 1848, as revoluções liberais de 1848 e as unificações da Itália e Alemanha até a formação do Império Alemão em 1871.",
+    "desenvolvimento": "Com as fábricas e ferrovias, a urbanização cresceu e formou o proletariado submetido a duras condições. Isso gerou reações como o Ludismo (quebra de máquinas) e o Cartismo (exigências políticas), além do surgimento do socialismo e da publicação do Manifesto Comunista em 1848 — ano de ondas revolucionárias liberais por toda a Europa. Paralelamente, o nacionalismo impulsionou as unificações da Itália e da Alemanha, culminando na formação do Império Alemão em 1871.",
     "personagens": [
       "Karl Marx e Friedrich Engels: Criadores do socialismo científico e autores do Manifesto Comunista.",
       "Giuseppe Garibaldi e Conde de Cavour: Artífices da unificação italiana.",
@@ -93,13 +94,13 @@
     "grupos_envolvidos": [
       "Proletariado Industrial",
       "Burguesia Industrial e Financeira",
-      "Movimentos Operários e Sindicais"
+      "Movimentos Operários, Ludistas e Cartistas"
     ],
     "interesses_em_disputa": [
-      "Direitos trabalhistas e sociais versus exploração capitalista da mais-valia; soberania nacional unificada."
+      "Direitos trabalhistas e sociais versus exploração capitalista; soberania nacional unificada."
     ],
     "linha_do_tempo": [
-      {"ano": 1848, "titulo": "Manifesto Comunista e Revoluções", "descricao": "Publicação da obra marxista e irrupção da 'Primavera dos Povos'."},
+      {"ano": 1848, "titulo": "Manifesto Comunista e Revoluções Liberais", "descricao": "Publicação marxista e sublevações da 'Primavera dos Povos'."},
       {"ano": 1871, "titulo": "Formação do Império Alemão", "descricao": "Consolidação da unificação germânica sob liderança prusiana."}
     ],
     "consequencias_imediatas": [
@@ -112,7 +113,7 @@
     "impactos": {
       "politicos": "Surgimento do Estado de Bem-Estar social embrião e consolidação de democracias representativas liberais.",
       "economicos": "Industrialização generalizada e expansão do mercado financeiro e fabril.",
-      "sociais": "Divisão social marcante entre burguesia detentora dos meios de produção e classe operária.",
+      "sociais": "Divisão social marcante entre burguesia detentora dos meios de produção e classe operária urbana.",
       "culturais": "Fortalecimento de doutrinas políticas de massa e ideologias nacionalistas exacerbadas.",
       "territoriais": "Criação de dois novos gigantes estatais centrais: Itália e Alemanha.",
       "ambientais": "Poluição atmosférica massiva gerada pela queima de carvão mineral e expansão urbana insustentável."
@@ -129,22 +130,22 @@
     "periodo": "Idade Contemporânea",
     "local": "América Latina e Estados Unidos",
     "sociedades_envolvidas": "Elites Criollas, Populações Escravizadas, Nativos Americanos e Governo dos EUA",
-    "tema": "Independência do Haiti, Emancipação da América Espanhola, México, Doutrina Monroe e Guerra Civil Americana",
+    "tema": "Independência do Haiti, Emancipação da América Espanhola, Independência do México, Doutrina Monroe, Guerra Civil dos Estados Unidos e Abolição da Escravidão",
     "contexto": "Inspirados pelo Iluminismo e aproveitando a crise das metrópoles ibéricas, os territórios americanos lutaram por suas independências, enquanto os Estados Unidos expandiram-se e resolveram suas fraturas internas em sangrenta guerra civil.",
     "antecedentes": [
       "Insurreições coloniais reprimidas e o enfraquecimento da Espanha e de Portugal após as guerras napoleônicas."
     ],
     "causas": {
-      "politicas": "Desejo das elites locais de autonomia administrativa e fim dos pactos coloniais mercantilistas.",
+      "politicas": "Desejo das elites locais de autonomia administrativa, independência do México (1821) e Lançamento da Doutrina Monroe (1823).",
       "economicas": "Rejeição ao monopólio comercial metropolitano e defesa do livre comércio internacional.",
-      "sociais": "Insatisfação de criollos, mestiços e revoltas de escravizados (como no Haiti) contra o jugo colonial.",
+      "sociais": "Insatisfação de criollos, mestiços e revoltas de escravizados (como a Independência do Haiti em 1804).",
       "religiosas": "Participação de líderes clericais em algumas independências latino-americanas.",
       "culturais": "Difusão dos ideais liberais republicanos e de soberania popular.",
-      "territoriais": "Formação de novas repúblicas soberanas e expansão territorial norte-americana rumo ao sul e oeste.",
-      "tecnologias": "Uso de ferrovias e armamentos modernos na Guerra Civil dos EUA."
+      "territoriais": "Formação de novas repúblicas soberanas e expansão territorial norte-americana.",
+      "tecnologias": "Uso de ferrovias e armamentos modernos na Guerra Civil dos EUA (1861–1865)."
     },
-    "resumo_card": "O século XIX americano foi marcado pelas independências do Haiti, da América Espanhola e do México, pela Doutrina Monroe e pela Guerra Civil Americana, que aboliu a escravidão nos EUA.",
-    "desenvolvimento": "O Haiti tornou-se independente em 1804 após bem-sucedida revolta de escravizados. Na América Espanhola, líderes como Bolívar e San Martín conduziram as repúblicas à emancipação na década de 1820. O México proclamou sua independência em 1821. Em 1823, os EUA lançaram a Doutrina Monroe ('A América para os americanos'). Mais tarde, entre 1861 e 1865, os Estados Unidos travaram sua Guerra Civil entre o Norte industrial e o Sul escravagista, resultando na preservação da União e na abolição oficial da escravidão em 1865.",
+    "resumo_card": "Abrange a Independência do Haiti (1804), as independências da América Espanhola, o México (1821), a Doutrina Monroe (1823), a Guerra Civil dos EUA (1861–1865) e a abolição da escravidão norte-americana em 1865.",
+    "desenvolvimento": "O Haiti tornou-se independente em 1804 após revolta de escravizados. Na América Espanhola, líderes conduziram as repúblicas à emancipação. O México tornou-se independente em 1821. Em 1823, os EUA lançaram a Doutrina Monroe. Mais tarde, entre 1861 e 1865, os Estados Unidos travaram sua Guerra Civil entre o Norte industrial e o Sul escravagista, resultando na preservação da União e na abolição oficial da escravidão em 1865.",
     "personagens": [
       "Toussaint Louverture: Líder da Revolução Haitiana.",
       "Simón Bolívar e José de San Martín: Libertadores da América Espanhola.",
@@ -161,15 +162,15 @@
     "linha_do_tempo": [
       {"ano": 1804, "titulo": "Independência do Haiti", "descricao": "Primeira nação livre de escravizados nas Américas."},
       {"ano": 1821, "titulo": "Independência do México", "descricao": "Emancipação mexicana definitiva."},
-      {"ano": 1865, "titulo": "Fim da Guerra Civil dos EUA e Abolição", "descricao": "Preservação da União norte-americana e fim da escravidão legal."}
+      {"ano": 1823, "titulo": "Doutrina Monroe", "descricao": "Diretriz externa dos EUA no continente americano."},
+      {"ano": 1865, "titulo": "Fim da Guerra Civil e Abolição nos EUA", "descricao": "Preservação da União e fim legal da escravidão norte-americana."}
     ],
     "consequencias_imediatas": [
       "Fragmentação do império espanhol em diversas repúblicas independentes.",
-      "Fim do regime escravista formal nos Estados Unidos."
+      "Fim do regime escravista formal nos Estados Unidos em 1865."
     ],
     "consequencias_longo_prazo": [
-      "Subordinação econômica da América Latina ao imperialismo britânico e posteriormente norte-americano.",
-      "Consolidação dos EUA como grande potência hegemônica continental."
+      "Subordinação econômica da América Latina ao imperialismo britânico e posteriormente norte-americano."
     ],
     "impactos": {
       "politicos": "Republicanismo generalizado nas Américas e fortalecimento institucional norte-americano.",
@@ -191,22 +192,22 @@
     "periodo": "Idade Contemporânea",
     "local": "Europa, África e Ásia",
     "sociedades_envolvidas": "Potências Industriais Europeias, EUA, Japão e Povos Colonizados Africanos/Asiáticos",
-    "tema": "Aço, Eletricidade, Petróleo, Indústria Química, Conferência de Berlim, Partilha da África e da Ásia",
+    "tema": "Segunda Revolução Industrial, Eletricidade, Petróleo, Indústria Química, Aço, Telefone, Automóvel, Cinema, Imperialismo, Partilha da África e da Ásia, Conferência de Berlim (1884-1885), Corrida Colonial e Alianças Militares (Tríplice Aliança e Tríplice Entente)",
     "contexto": "A Segunda Revolução Industrial gerou enorme excedente produtivo e necessidade de matérias-primas, impulsionando o imperialismo europeu sobre a África e a Ásia sob o pretexto da 'missão civilizatória'.",
     "antecedentes": [
       "Crescimento capitalista monopolista e concentração de capitais industriais e bancários na Europa."
     ],
     "causas": {
-      "politicas": "Disputa por prestígio internacional, nacionalismo agressivo e poder geopolítico entre as potências.",
-      "economicas": "Busca voraz por mercados consumidores, matérias-primas industriais (borracha, petróleo, ferro) e áreas de investimento.",
+      "politicas": "Disputa por prestígio internacional, nacionalismo agressivo e formação da Tríplice Aliança e Tríplice Entente.",
+      "economicas": "Busca voraz por mercados consumidores, matérias-primas e áreas de investimento monopolista.",
       "sociais": "Alívio de pressões demográficas internas europeias através da emigração colonial.",
       "religiosas": "Ideologia paternalista da 'Missão Civilizatória' e expansão de missões cristãs.",
       "culturais": "Racismo científico e teorias de darwinismo social aplicadas à dominação de povos não europeus.",
-      "territoriais": "Conquista militar de territórios ultramarinos na África e na Ásia.",
-      "tecnologias": "Inovações como eletricidade, motor a combustão (petróleo), aço, automóveis, telefone e cinema."
+      "territoriais": "Conquista militar de territórios ultramarinos na África e na Ásia regulamentada pela Conferência de Berlim (1884–1885).",
+      "tecnologias": "Inovações como eletricidade, petróleo, indústria química, aço, telefone, automóvel e cinema."
     },
-    "resumo_card": "A Segunda Revolução Industrial introduziu o aço, a eletricidade, o petróleo e o automóvel, alimentando o Imperialismo com a partilha violenta da África e da Ásia (Conferência de Berlim, 1884–1885).",
-    "desenvolvimento": "Com novas tecnologias como a eletricidade, os motores a explosão e a indústria química, o capitalismo entrou na fase monopolista. Para sustentar o crescimento, as potências europeias, os EUA e o Japão voltaram-se para o neocolonialismo. Na Conferência de Berlim (1884–1885), a África foi retalhada entre os europeus sem respeito às etnias locais. A corrida colonial gerou rivalidades extremas, a formação de blocos militares (Tríplice Aliança e Tríplice Entente) e o clima de 'Paz Armada' anterior a 1914.",
+    "resumo_card": "Aborda a Segunda Revolução Industrial, eletricidade, petróleo, química, aço, telefone, automóvel, cinema, o imperialismo, a partilha da África e da Ásia, a Conferência de Berlim (1884–1885), a corrida colonial, os nacionalismos e a formação da Tríplice Aliança e Tríplice Entente.",
+    "desenvolvimento": "Com novas tecnologias como eletricidade, motores a explosão (petróleo), aço e a indústria química — além de inovações culturais como o telefone, o automóvel e o cinema —, o capitalismo entrou na fase monopolista. Na Conferência de Berlim (1884–1885), a África foi retalhada entre os europeus. A corrida colonial alimentou rivalidades e o nacionalismo, resultando na divisão da Europa em blocos militares rivais: a Tríplice Aliança e a Tríplice Entente.",
     "personagens": [
       "Leopoldo II da Bélgica: Principal responsável pela exploração brutal do Congo.",
       "Cecil Rhodes: Imperialista britânico símbolo da expansão na África Austral."
@@ -217,7 +218,7 @@
       "Povos Nativos da África e da Ásia submetidos"
     ],
     "interesses_em_disputa": [
-      "Domínio de jazidas minerais, ferrovias transcontinentais e mercados globais cativos."
+      "Domínio de jazidas minerais, ferrovias transcontinentais, cinema, tecnologia industrial e mercados globais cativos."
     ],
     "linha_do_tempo": [
       {"ano": 1884, "titulo": "Conferência de Berlim", "descricao": "Regulamentação europeia da partilha arbitrária do continente africano."},
@@ -233,7 +234,7 @@
     "impactos": {
       "politicos": "Subordinação de continentes inteiros aos interesses de capitais metropolitanos estrangeiros.",
       "economicos": "Globalização capitalista predatória e extração intensiva de riquezas coloniais.",
-      "sociais": "Trabalho forçado, segregationismo racial institutionalizado e imposição cultural eurocêntrica.",
+      "sociais": "Trabalho forçado, segregationismo racial institucionalizado e imposição cultural eurocêntrica.",
       "culturais": "Aculturação forçada e disseminação de preconceitos eurocêntricos globais.",
       "territoriais": "Mapa da África e da Ásia redesenhado conforme interesses de gabinetes europeus.",
       "ambientais": "Extração exaustiva de recursos naturais e degradação ambiental colonial em larga escala."
@@ -250,22 +251,22 @@
     "periodo": "Idade Contemporânea",
     "local": "Mundial (Europa, Ásia, Pacífico e Américas)",
     "sociedades_envolvidas": "Potências Aliadas e do Eixo, Impérios Centrais, URSS e Populações Civis",
-    "tema": "Primeira Guerra Mundial, Revolução Russa, Tratado de Versalhes, Grande Depressão de 1929, Fascismo, Nazismo e Segunda Guerra Mundial",
+    "tema": "Primeira Guerra Mundial, Revolução Russa (1917), Tratado de Versalhes (1919), Liga das Nações, Benito Mussolini no poder (1922), Grande Depressão (1929), Adolf Hitler no poder (1933), Nazismo, Fascismo, Guerra Civil Espanhola (1936-1939), Segunda Guerra Mundial, Holocausto, Ataque a Pearl Harbor (1941), Dia D (1944), Bombas Atômicas (1945) e Criação da ONU",
     "contexto": "Trinta anos de extrema violência estrutural marcaram o mundo com duas guerras mundiais devastadoras, a primeira revolução socialista vitoriosa (Rússia) e a ascensão dos totalitarismos de extrema-direita.",
     "antecedentes": [
       "Imperialismo agressivo, militarismo europeu e rivalidades territoriais não resolvidas."
     ],
     "causas": {
-      "politicas": "Crises institucionais pós-Primeira Guerra, colapso de impérios centrais e ascensão de ditaduras totalitárias (Hitler e Mussolini).",
-      "economicas": "Crachá de 1929 (Grande Depressão), desemprego em massa, protecionismo e destruição material pós-guerra.",
+      "politicas": "Crises institucionais pós-Primeira Guerra, colapso de impérios centrais e ascensão de ditaduras totalitárias (Hitler em 1933 e Mussolini em 1922).",
+      "economicas": "Quebra da Bolsa em 1929 (Grande Depressão), desemprego em massa, protecionismo e destruição material pós-guerra.",
       "sociais": "Desespero popular, radicalização ideológica de massas e ressentimentos nacionalistas (ex: revanchismo alemão em Versalhes).",
       "religiosas": "Conflitos ideológicos seculares e perseguições sistemáticas (ex: Holocausto antissemita).",
       "culturais": "Desilusão com o progresso otimista do século XIX, propaganda de massa e manipulação ideológica totalitária.",
-      "territoriais": "Expansão territorial agressiva do Eixo (Alemanha, Itália, Japão) e esfacelamento de fronteiras tradicionais.",
+      "territoriais": "Expansão territorial agressiva do Eixo e esfacelamento de fronteiras tradicionais.",
       "tecnologias": "Armas químicas, aviação militar, tanques, guerra submarina, radares e a bomba atômica."
     },
-    "resumo_card": "O período entre 1914 e 1945 incluiu a Primeira Guerra Mundial, a Revolução Russa, a crise de 1929, o nazifascismo, a Guerra Civil Espanhola e a Segunda Guerra Mundial com o trágico Holocausto e as bombas atômicas.",
-    "desenvolvimento": "O assassinato do arquiduque Francisco Ferdinando em 1914 desencadeou a Primeira Guerra. Em plena guerra, em 1917, a Rússia implodiu na Revolução Bolchevique, criando a URSS. O Tratado de Versalhes (1919) puniu severamente a Alemanha, gerando solo fértil para a Grande Depressão de 1929 e a ascensão do fascismo de Mussolini (1922) e do nazismo de Hitler (1933). A falência da Liga das Nações levou à Guerra Civil Espanhola e, em 1939, à Segunda Guerra Mundial. O conflito global envolveu o Holocausto, o ataque a Pearl Harbor, o Dia D e terminou em 1945 com o lançamento das bombas atômicas sobre Hiroshima e Nagasaki e a fundação da ONU.",
+    "resumo_card": "Abrange a Primeira Guerra Mundial (1914–1918), a Revolução Russa (1917), o Tratado de Versalhes e a Liga das Nações (1919), a chegada de Mussolini (1922) e Hitler (1933) ao poder, o nazifascismo, a Grande Depressão (1929), a Guerra Civil Espanhola (1936–1939), a Segunda Guerra Mundial, o Holocausto, Pearl Harbor (1941), o Dia D (1944), as bombas atômicas e a fundação da ONU em 1945.",
+    "desenvolvimento": "O assassinato do arquiduque Francisco Ferdinando em 1914 desencadeou a Primeira Guerra, que terminou em 1918. Em 1917, a Rússia implodiu na Revolução Bolchevique. O Tratado de Versalhes e a Liga das Nações surgiram em 1919. A crise de 1929 agravou o cenário, permitindo que Mussolini chegasse ao poder em 1922 e Hitler em 1933, impulsionando o fascismo e o nazismo. Após a Guerra Civil Espanhola (1936–1939), irrompeu a Segunda Guerra Mundial (1939–1945), marcada pelo Holocausto, o ataque a Pearl Harbor (1941), o Dia D (1944) e o lançamento das bombas atômicas sobre Hiroshima e Nagasaki em 1945, ano que também viu a criação da ONU.",
     "personagens": [
       "Vladimir Lênin e Josef Stalin: Líderes da consolidação da União Soviética.",
       "Benito Mussolini e Adolf Hitler: Ditadores fascista e nazista.",
@@ -282,6 +283,7 @@
     "linha_do_tempo": [
       {"ano": 1914, "titulo": "Início da Primeira Guerra Mundial", "descricao": "Conflito industrializado entre potências europeias."},
       {"ano": 1917, "titulo": "Revolução Russa", "descricao": "Queda do czarismo e triunfo bolchevique."},
+      {"ano": 1919, "titulo": "Tratado de Versalhes e Liga das Nações", "descricao": "Acordos punitivos e pacto internacional de paz."},
       {"ano": 1929, "titulo": "Grande Depressão", "descricao": "Quebra da Bolsa de Nova York e crise econômica global."},
       {"ano": 1939, "titulo": "Início da Segunda Guerra Mundial", "descricao": "Invasão da Polônia pela Alemanha nazista."},
       {"ano": 1945, "titulo": "Fim da Segunda Guerra e Criação da ONU", "descricao": "Rrendição do Eixo, bombas atômicas e fundação das Nações Unidas."}
@@ -313,22 +315,22 @@
     "periodo": "Idade Contemporânea",
     "local": "Global (EUA, URSS, Europa, Ásia, América Latina e África)",
     "sociedades_envolvidas": "Bloco Capitalista (OTAN), Bloco Socialista (Pacto de Varsóvia) e Nações do Terceiro Mundo",
-    "tema": "Bipolaridade, Doutrina Truman, Corrida Espacial, Muro de Berlim, Crise dos Mísseis, Guerra do Vietnã e Fim da URSS",
+    "tema": "Início da Guerra Fria, Doutrina Truman (1947), Plano Marshall (1947), Bloqueio de Berlim (1948-1949), OTAN (1949), Revolução Chinesa (1949), Guerra da Coreia (1950-1953), Pacto de Varsóvia (1955), Conferência de Bandung (1955), Crise de Suez (1956), Sputnik e Início da Corrida Espacial (1957), Revolução Cubana (1959), Ano da África (1960), Muro de Berlim (1961), Crise dos Mísseis em Cuba (1962), Guerra do Vietnã (1955-1975), Independência da Argélia (1962), Chegada do Homem à Lua (1969), Fim da Guerra Fria, Queda do Muro de Berlim (1989) e Fim da URSS (1991)",
     "contexto": "Conflito ideológico, tecnológico e geopolítico indireto entre os Estados Unidos e a União Soviética, acompanhado pela emancipação dos povos colonizados na África e na Ásia.",
     "antecedentes": [
       "Emergência de duas superpotências antagônicas após a Segunda Guerra Mundial e divisão de Berlim."
     ],
     "causas": {
       "politicas": "Disputa irreconciliável entre o modelo liberal-capitalista democrático e o socialismo de Estado soviético.",
-      "economicas": "Luta por mercados consumidores globais e modelos econômicos concorrentes (Plano Marshall vs. Comecon).",
+      "economicas": "Luta por mercados consumidores globais e modelos econômicos concorrentes (Plano Marshall vs. Pacto de Varsóvia/Comecon).",
       "sociais": "Medo generalizado de conflito nuclear aniquilador (Equilíbrio do Terror) e propaganda ideológica de massas.",
       "religiosas": "Confronto entre o ateísmo de Estado soviético e valores religiosos ocidentais.",
-      "culturais": "Disputa cultural e ideológica pela supremacia nos costumes, na ciência, nos esportes e na corrida espacial.",
-      "territoriais": "Esferas de influência global estendidas por golpes, guerras por procuração e revoluções.",
-      "tecnologias": "Armas nucleares intercontinentais, satélites (Sputnik), computação inicial e exploração espacial."
+      "culturais": "Disputa cultural e ideológica pela supremacia nos costumes, na ciência, nos esportes (corrida espacial e chegada à Lua em 1969).",
+      "territoriais": "Esferas de influência global estendidas por golpes, revoluções e guerras regionais (Coreia, Vietnã, Cuba).",
+      "tecnologias": "Armas nucleares intercontinentais, satélites (Sputnik em 1957), computação inicial e exploração espacial."
     },
-    "resumo_card": "A Guerra Fria opôs EUA e URSS em uma disputa bipolar com corridas armamentista e espacial, conflitos regionais e a descolonização da África e da Ásia, terminando com o colapso soviético em 1991.",
-    "desenvolvimento": "Iniciada formalmente com a Doutrina Truman em 1947, a Guerra Fria dividiu o mundo entre OTAN e Pacto de Varsóvia. Houve momentos de extrema tensão, como a Construção do Muro de Berlim (1961) e a Crise dos Mísseis de Cuba (1962), além de guerras sangrentas por procuração (Coreia e Vietnã). Paralelamente, os impérios coloniais ruíram: a Índia emancipou-se em 1947, a Argélia em 1962, e 1960 marcou o 'Ano da África', culminando na Conferência de Bandung e no Movimento dos Não Alinhados. A URSS, esmagada economicamente e por reformas internas (Glasnost e Perestroika), dissolveu-se formalmente em dezembro de 1991.",
+    "resumo_card": "Abrange a Doutrina Truman e o Plano Marshall (1947), o Bloqueio de Berlim (1948–1949), a OTAN (1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), o Pacto de Varsóvia (1955), a Conferência de Bandung e a descolonização asiática/africana (Independência da Índia em 1947, Estado de Israel e Guerra Árabe-Israelense em 1948, Crise de Suez em 1956, o 'Ano da África' em 1960, Independência da Argélia em 1962, Movimento dos Não Alinhados), além do Sputnik (1957), Revolução Cubana (1959), Muro de Berlim (1961), Crise dos Mísseis (1962), Guerra do Vietnã, chegada à Lua (1969), Queda do Muro de Berlim (1989) e o fim da URSS em 1991.",
+    "desenvolvimento": "Iniciada com a Doutrina Truman e o Plano Marshall em 1947, a Guerra Fria dividiu o mundo entre OTAN (1949) e Pacto de Varsóvia (1955). Teve marcos tensos como o Bloqueio de Berlim (1948–1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), a Revolução Cubana (1959), a construção do Muro de Berlim (1961) e a Crise dos Mísseis em Cuba (1962). Na tecnologia, o Sputnik (1957) iniciou a corrida espacial que levou o homem à Lua em 1969. No Terceiro Mundo, ocorreu a descolonização: independência da Índia (1947), criação de Israel e conflitos árabes (1948), Conferência de Bandung (1955), Crise de Suez (1956), o 'Ano da África' (1960), a Argélia (1962) e o Movimento dos Não Alinhados. O conflito encerrou-se com a Queda do Muro de Berlim em 1989 e o fim da URSS em 1991.",
     "personagens": [
       "John F. Kennedy e Nikita Khrushchev: Líderes durante a Crise dos Mísseis em Cuba.",
       "Mahatma Gandhi e Ho Chi Minh: Líderes anticoloniais asiáticos.",
@@ -344,7 +346,9 @@
     ],
     "linha_do_tempo": [
       {"ano": 1947, "titulo": "Doutrina Truman e Independência da Índia", "descricao": "Início da contenção soviética e fim do domínio britânico na Índia."},
+      {"ano": 1955, "titulo": "Conferência de Bandung", "descricao": "Articulação das nações afro-asiáticas recém-independentes."},
       {"ano": 1962, "titulo": "Crise dos Mísseis em Cuba", "descricao": "O momento mais próximo de uma guerra nuclear aberta."},
+      {"ano": 1969, "titulo": "Chegada do Homem à Lua", "descricao": "Marco supremo da corrida espacial americana."},
       {"ano": 1989, "titulo": "Queda do Muro de Berlim", "descricao": "Símbolo do fim da divisão da Europa."},
       {"ano": 1991, "titulo": "Fim da União Soviética", "descricao": "Dissolvimento oficial da URSS e encerramento da Guerra Fria."}
     ],
@@ -375,7 +379,7 @@
     "periodo": "Idade Contemporânea",
     "local": "Global (EUA, Europa e América Latina)",
     "sociedades_envolvidas": "Estudantes, Minorias Civis, Movimento Feminista, Movimento Negro e Contracultura",
-    "tema": "Direitos Civis nos EUA, Marcha sobre Washington, Feminismo, Movimento Hippie, Revolução Sexual e Protestos de 1968",
+    "tema": "Movimento pelos Direitos Civis nos EUA, Luta contra a Segregação Racial, Marcha sobre Washington (1963), Movimento Feminista, Movimento Negro, Movimento Hippie, Contracultura, Revolução Sexual e Protestos Estudantis de 1968",
     "contexto": "O pós-guerra testemunhou uma intensa onda de contestação social contra o racismo, o patriarcado, a guerra e os valores burgueses tradicionais, redefinindo os costumes e os direitos humanos.",
     "antecedentes": [
       "Exclusão social sistêmica de minorias e segregação legalizada (Jim Crow nos EUA)."
@@ -385,12 +389,12 @@
       "economicas": "Expansão do consumo de massa, da televisão e do acesso universitário da classe média.",
       "sociais": "Reivindicações urgentes por igualdade racial, direitos das mulheres e liberdade de expressão.",
       "religiosas": "Questionamento de dogmas morais tradicionais conservadores pelas gerações jovens.",
-      "culturais": "Surgimento da contracultura, da revolução sexual, do movimento hippie e da música rock de protesto.",
+      "culturais": "Surgimento da contracultura, da revolução sexual, do movimento hippie e da expansão da cultura de massa e da televisão.",
       "territoriais": "Protestos transnacionais sincronizados globalmente em 1968 (Paris, EUA, México, Praga).",
       "tecnologias": "Expansão massiva da televisão e dos meios de comunicação de massa."
     },
-    "resumo_card": "A segunda metade do século XX foi marcada pelo Movimento pelos Direitos Civis nos EUA, pelas lutas feministas e negras, pela contracultura hippie e pelos protestos estudantis globais de 1968.",
-    "desenvolvimento": "Liderado por figuras como Martin Luther King Jr., o Movimento pelos Direitos Civis culminou na Marcha sobre Washington em 1963 contra a segregação racial. Paralelamente, emergiu a segunda onda do feminismo, a revolução sexual impulsionada pelos anticoncepcionais, e o movimento contracultural hippie de rejeição à Guerra do Vietnã. Em 1968, uma onda de revoltas estudantis e operárias sacudiu o mundo de Paris ao México, transformando irreversivelmente a moralidade pública ocidental.",
+    "resumo_card": "Abrange o Movimento pelos Direitos Civis, a luta contra a segregação, a Marcha sobre Washington de 1963, o movimento feminista, o movimento negro, o movimento hippie, a contracultura, a revolução sexual, os protestos estudantis de 1968 e a expansão da cultura de massa e da televisão.",
+    "desenvolvimento": "Liderado por figuras como Martin Luther King Jr., o Movimento pelos Direitos Civis culminou na Marcha sobre Washington em 1963 contra a segregação racial. Paralelamente, emergiu a segunda onda do feminismo, a revolução sexual impulsionada pelos anticoncepcionais, o movimento negro e o movimento contracultural hippie de rejeição aos conflitos bélicos. Em 1968, uma onda de revoltas estudantis sacudiu o mundo, impulsionada pela expansão da cultura de massa e da televisão, transformando irreversivelmente a moralidade pública.",
     "personagens": [
       "Martin Luther King Jr. e Malcolm X: Ícones da luta pelos direitos civis e antirracistas nos EUA.",
       "Betty Friedan e Simone de Beauvoir: Filósofas impulsionadoras do movimento feminista contemporâneo."
@@ -434,7 +438,7 @@
     "periodo": "Idade Contemporânea",
     "local": "Global",
     "sociedades_envolvidas": "Sociedade Globalizada, Empresas Multinacionais, Estados Nacionais e Movimentos Tecnológicos",
-    "tema": "Crises do Petróleo, Neoliberalismo, World Wide Web, Fim do Apartheid, Reunificação Alemã e Criação do Euro",
+    "tema": "Crise do Petróleo (1973), Revolução Iraniana (1979), Neoliberalismo, Globalização Econômica, Multinacionais, Revolução da Informática, Computadores, Acidente de Chernobyl (1986), World Wide Web (1989/1995), Reunificação da Alemanha (1990), Guerra do Golfo (1991), Fim da URSS (1991), Fim do Apartheid e Nelson Mandela (1994) e Criação do Euro (1999)",
     "contexto": "O final do século XX foi moldado pela aceleração da globalização econômica, pela expansão do neoliberalismo, pelo advento da informática e da internet, e pela reconfiguração pacífica ou violenta de fronteiras globais.",
     "antecedentes": [
       "Surgimento da microeletrônica e desregulamentação financeira internacional pós-crises do petróleo."
@@ -443,13 +447,13 @@
       "politicas": "Adoção de políticas neoliberais por governos ocidentais e redemocratização em várias nações.",
       "economicas": "Crises do petróleo de 1973 e 1979, reestruturação produtiva capitalista e internacionalização das cadeias de valor.",
       "sociais": "Crescimento da desigualdade global associada à desregulamentação financeira e precarização do trabalho.",
-      "religiosas": "Surgimento de fundamentalismos religiosos reativos à secularização globalizada.",
+      "religiosas": "Surgimento da Revolução Iraniana (1979) e tensionamentos fundamentalistas religiosos globais.",
       "culturais": "Encolhimento do tempo-espaço pelas redes de comunicação e pela cultura de massa integrada.",
-      "territoriais": "Queda de regimes segregacionistas (Apartheid) e unificação de nações divididas.",
-      "tecnologias": "Popularização dos computadores pessoais, criação da World Wide Web (1989/1995) e expansão da internet."
+      "territoriais": "Reunificação da Alemanha (1990), Guerra do Golfo (1991), Fim do Apartheid (1994) e expansão da União Europeia com a criação do euro em 1999.",
+      "tecnologias": "Popularização dos computadores, Acidente de Chernobyl (1986), criação da World Wide Web (1989/1995) e expansão da internet comercial."
     },
-    "resumo_card": "O período de 1970 a 2000 consolidou a globalização econômica e o neoliberalismo, testemunhou a revolução digital com a criação da internet, o fim do Apartheid na África do Sul e a introdução do euro.",
-    "desenvolvimento": "Choques do petróleo nos anos 70 abalaram o modelo de bem-estar social, abrindo espaço para o neoliberalismo de Thatcher e Reagan. Enquanto o mundo superava a Guerra Fria com a Reunificação da Alemanha (1990) e o fim da URSS (1991), a tecnologia avançava: a World Wide Web nasceu em 1989, conectando o planeta comercialmente até o final da década de 90. Na África do Sul, Nelson Mandela foi eleito em 1994 após o fim do Apartheid. Na Europa, o Tratado de Maastricht consolidou a integração econômica com a criação do euro em 1999.",
+    "resumo_card": "Abrange a Crise do Petróleo de 1973, a Revolução Iraniana de 1979, a expansão do neoliberalismo e da globalização econômica, as multinacionais, a revolução da informática e dos computadores, Chernobyl (1986), a World Wide Web (1989/1995), a Reunificação da Alemanha (1990), a Guerra do Golfo (1991), o fim do Apartheid e a eleição de Nelson Mandela (1994), e a criação do euro em 1999.",
+    "desenvolvimento": "Choques do petróleo nos anos 70 abalaram o modelo de bem-estar social, abrindo espaço para o neoliberalismo. A Revolução Iraniana de 1979 redesenhou o Oriente Médio. Enquanto o mundo superava a Guerra Fria com a Reunificação da Alemanha (1990) e a Guerra do Golfo (1991), a tecnologia avançava: a tragédia de Chernobyl ocorreu em 1986 e a World Wide Web nasceu em 1989, expandindo-se comercialmente na década de 90. Na África do Sul, o Apartheid acabou com a eleição histórica de Nelson Mandela em 1994. Na Europa, a integração culminou na criação do euro em 1999.",
     "personagens": [
       "Ronald Reagan e Margaret Thatcher: Líderes impulsores das políticas neoliberais globais.",
       "Tim Berners-Lee: Inventor da World Wide Web.",
@@ -464,8 +468,10 @@
       "Livre mercado financeiro global versus soberania estatal de proteção social e regulação trabalhista."
     ],
     "linha_do_tempo": [
+      {"ano": 1979, "titulo": "Revolução Iraniana", "descricao": "Instauração de república teocrática islâmica no Irã."},
       {"ano": 1989, "titulo": "Criação da World Wide Web", "descricao": "Invenção da rede mundial de computadores por Tim Berners-Lee."},
-      {"ano": 1994, "titulo": "Fim do Apartheid na África do Sul", "descricao": "Eleição histórica de Nelson Mandela."},
+      {"ano": 1990, "titulo": "Reunificação da Alemanha", "descricao": "Fim simbólico definitivo da divisão alemã da Guerra Fria."},
+      {"ano": 1994, "titulo": "Fim do Apartheid e Eleição de Mandela", "descricao": "Eleição histórica na África do Sul rumo à democracia multirracial."},
       {"ano": 1999, "titulo": "Criação do Euro", "descricao": "Unificação da moeda europeia no bloco econômico."}
     ],
     "consequencias_imediatas": [
@@ -481,7 +487,7 @@
       "sociais": "Exclusão digital, reestruturação precarizada do trabalho e fluxos migratórios acentuados.",
       "culturais": "Criação de uma aldeia global digital interconectada com tensionamentos locais de identidade.",
       "territoriais": "Fronteiras físicas permeáveis ao capital financeiro e de dados digitais.",
-      "ambientais": "Desgaste ecológico global intensificado pelo modelo de consumo industrial hiperacelerado."
+      "ambientais": "Desgaste ecológico global intensificado pelo modelo de consumo industrial hiperacelerado (marcado por marcos como Chernobyl)."
     },
     "continuidade": "Busca capitalista por novos mercados e expansão contínua da produtividade técnica.",
     "rupturas": "Passagem da era industrial mecânica para a era da informação digital em rede global."
