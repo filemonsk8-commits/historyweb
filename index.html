@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linha do Tempo Histórica - Períodos</title>
+    <title>Linha do Tempo Histórica - Completa</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -11,7 +11,7 @@
             --bg-color: #f1f5f9;
             --card-bg: #ffffff;
             --text-main: #0f172a;
-            --text-muted: #475569;
+            --text-muted: #334155;
             --border-color: #cbd5e1;
         }
 
@@ -26,6 +26,7 @@
             background-color: var(--bg-color);
             color: var(--text-main);
             padding: 20px;
+            font-size: 1.1rem;
         }
 
         header {
@@ -34,22 +35,21 @@
         }
 
         header h1 {
-            font-size: 2rem;
+            font-size: 2.2rem;
             color: var(--primary-color);
             margin-bottom: 8px;
         }
 
         header p {
             color: var(--text-muted);
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
 
-        /* Menu de Navegação entre os JSONs */
         .menu-navegacao {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 10px;
+            gap: 12px;
             margin-bottom: 40px;
         }
 
@@ -57,8 +57,8 @@
             background: #ffffff;
             border: 1px solid var(--border-color);
             color: var(--text-main);
-            padding: 10px 18px;
-            font-size: 0.9rem;
+            padding: 12px 20px;
+            font-size: 1rem;
             font-weight: 600;
             border-radius: 8px;
             cursor: pointer;
@@ -76,7 +76,6 @@
             margin: 0 auto;
         }
 
-        /* Cartão Histórico Principal */
         .historico-card {
             background: var(--card-bg);
             border-radius: 16px;
@@ -106,56 +105,93 @@
         .historico-tag {
             background: #dbeafe;
             color: var(--primary-color);
-            font-size: 0.8rem;
+            font-size: 0.95rem;
             font-weight: 700;
-            padding: 4px 12px;
+            padding: 6px 14px;
             border-radius: 20px;
             width: fit-content;
         }
 
         .historico-intervalo {
-            font-size: 0.85rem;
+            font-size: 1rem;
             color: var(--text-muted);
             font-weight: 600;
         }
 
         .historico-card h2 {
-            font-size: 1.35rem;
+            font-size: 1.6rem;
             color: var(--text-main);
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
 
-        .secao-bloco {
-            margin-top: 20px;
-            padding-top: 15px;
-            border-top: 1px dashed #e2e8f0;
+        .secao-texto {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 10px;
         }
 
-        .secao-titulo {
-            font-size: 0.95rem;
+        /* Acordeões */
+        .acordeao-container {
+            margin-top: 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .acordeao-botao {
+            width: 100%;
+            background: #f8fafc;
+            border: none;
+            padding: 16px 20px;
+            text-align: left;
+            font-size: 1.1rem;
             font-weight: 700;
             color: var(--primary-color);
-            margin-bottom: 6px;
-            text-transform: uppercase;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
         }
 
-        .secao-texto, .secao-lista li {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            line-height: 1.5;
+        .acordeao-botao:hover {
+            background: #f1f5f9;
         }
 
-        .secao-lista {
-            padding-left: 20px;
-            margin-top: 5px;
+        .acordeao-botao::after {
+            content: '▼';
+            font-size: 0.8rem;
+            transition: transform 0.3s;
         }
 
-        /* Grid de Causas */
+        .acordeao-botao.ativo::after {
+            transform: rotate(180deg);
+        }
+
+        .acordeao-conteudo {
+            display: none;
+            padding: 20px;
+            background: #ffffff;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .acordeao-conteudo.aberto {
+            display: block;
+        }
+
+        .imagem-ilustrativa {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
         .grid-causas {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 10px;
-            margin-top: 10px;
+            gap: 12px;
         }
 
         @media (min-width: 640px) {
@@ -167,27 +203,40 @@
         .causa-item {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
-            padding: 10px 14px;
+            padding: 14px;
             border-radius: 8px;
-            font-size: 0.85rem;
+            font-size: 1rem;
             color: var(--text-muted);
         }
 
         .causa-item strong {
             color: var(--text-main);
+            display: block;
+            margin-bottom: 4px;
         }
 
-        /* Sub-timeline Interna */
+        .lista-itens {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .lista-itens li {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
         .sub-timeline {
             position: relative;
             padding-left: 25px;
-            margin-top: 15px;
             border-left: 3px solid #e2e8f0;
+            margin-left: 10px;
         }
 
         .timeline-evento {
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .timeline-evento:last-child {
@@ -208,22 +257,24 @@
         }
 
         .evento-ano {
-            font-size: 0.8rem;
+            font-size: 0.95rem;
             font-weight: 700;
             color: var(--primary-color);
-            margin-bottom: 2px;
+            margin-bottom: 4px;
         }
 
         .evento-titulo {
-            font-size: 0.95rem;
+            font-size: 1.1rem;
             font-weight: 600;
             color: var(--text-main);
+            margin-bottom: 4px;
         }
 
         .erro-msg {
             text-align: center;
             color: #ef4444;
             padding: 20px;
+            font-size: 1.1rem;
         }
     </style>
 </head>
@@ -231,10 +282,9 @@
 
     <header>
         <h1>Linha do Tempo Histórica</h1>
-        <p>Selecione um período para carregar os dados</p>
+        <p>Toque em um período e expanda as seções para ver todos os detalhes</p>
     </header>
 
-    <!-- Menu de navegação correspondente aos arquivos JSON -->
     <nav class="menu-navegacao">
         <button class="btn-periodo ativo" onclick="carregarPeriodo('pre-historia.json', this)">Pré-História</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-antiga.json', this)">Idade Antiga</button>
@@ -246,17 +296,43 @@
     </nav>
 
     <main class="container" id="app-container">
-        <!-- O conteúdo será injetado dinamicamente aqui -->
     </main>
 
     <script>
+        function formatarAno(ano) {
+            const num = parseInt(ano, 10);
+            if (isNaN(num)) return ano;
+            if (num < 0) {
+                return Math.abs(num).toLocaleString('pt-BR') + ' a.C.';
+            } else {
+                return num.toLocaleString('pt-BR') + ' d.C.';
+            }
+        }
+
+        function alternarAcordeao(event) {
+            const botao = event.currentTarget;
+            botao.classList.toggle('ativo');
+            const conteudo = botao.nextElementSibling;
+            conteudo.classList.toggle('aberto');
+        }
+
+        function criarAcordeao(titulo, conteudoHtml) {
+            return `
+                <div class="acordeao-container">
+                    <button class="acordeao-botao" onclick="alternarAcordeao(event)">${titulo}</button>
+                    <div class="acordeao-conteudo">
+                        ${conteudoHtml}
+                    </div>
+                </div>
+            `;
+        }
+
         async function carregarPeriodo(arquivoJson, botaoElemento) {
-            // Atualiza o botão ativo no menu
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
             botaoElemento.classList.add('ativo');
 
             const container = document.getElementById('app-container');
-            container.innerHTML = '<p style="text-align: center; color: var(--text-muted);">Carregando dados...</p>';
+            container.innerHTML = '<p style="text-align: center; color: var(--text-muted);">A carregar dados...</p>';
             
             try {
                 const resposta = await fetch(arquivoJson);
@@ -266,51 +342,78 @@
                 container.innerHTML = '';
 
                 itensHistoricos.forEach(item => {
-                    // Renderiza marcos da linha do tempo interna
-                    let htmlMarcos = '';
-                    if (item.linha_do_tempo && item.linha_do_tempo.length > 0) {
-                        htmlMarcos = item.linha_do_tempo.map(ev => `
-                            <div class="timeline-evento">
-                                <div class="evento-ano">${ev.ano}</div>
-                                <div class="evento-titulo">${ev.titulo}</div>
-                                <div class="secao-texto">${ev.descricao}</div>
-                            </div>
-                        `).join('');
+                    const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
+
+                    // 1. Imagem
+                    let htmlImagem = item.imagem ? `<img src="${item.imagem}" alt="${item.titulo_principal}" class="imagem-ilustrativa">` : '';
+
+                    // 2. Antecedentes
+                    let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${a}</li>`).join('')}</ul>` : '';
+
+                    // 3. Causas
+                    let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+
+                    // 4. Desenvolvimento
+                    let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${item.desenvolvimento}</p>` : '';
+
+                    // 5. Personagens e Grupos
+                    let htmlAtores = '';
+                    if (item.personagens || item.grupos_envolvidos) {
+                        htmlAtores += item.personagens ? `<p class="secao-texto"><strong>Personagens Principais:</strong></p><ul class="lista-itens">${item.personagens.map(p => `<li>${p}</li>`).join('')}</ul>` : '';
+                        htmlAtores += item.grupos_envolvidos ? `<p class="secao-texto" style="margin-top: 10px;"><strong>Grupos Envolvidos:</strong></p><ul class="lista-itens">${item.grupos_envolvidos.map(g => `<li>${g}</li>`).join('')}</ul>` : '';
                     }
 
-                    // Renderiza causas multidimensionais se existirem
-                    let htmlCausas = '';
-                    if (item.causas) {
-                        htmlCausas = Object.entries(item.causas).map(([chave, valor]) => `
-                            <div class="causa-item"><strong>${chave.toUpperCase()}:</strong> ${valor}</div>
-                        `).join('');
+                    // 6. Interesses em Disputa
+                    let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+
+                    // 7. Linha do Tempo
+                    let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
+                        <div class="timeline-evento">
+                            <div class="evento-ano">${formatarAno(ev.ano)}</div>
+                            <div class="evento-titulo">${ev.titulo}</div>
+                            <div class="secao-texto">${ev.descricao}</div>
+                        </div>`).join('')}</div>` : '';
+
+                    // 8. Consequências
+                    let htmlConsequencias = '';
+                    if (item.consequencias_imediatas || item.consequencias_longo_prazo) {
+                        htmlConsequencias += item.consequencias_imediatas ? `<p class="secao-texto"><strong>Imediatas:</strong></p><ul class="lista-itens">${item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
+                        htmlConsequencias += item.consequencias_longo_prazo ? `<p class="secao-texto" style="margin-top: 10px;"><strong>Longo Prazo:</strong></p><ul class="lista-itens">${item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
                     }
 
-                    // Monta o cartão completo estruturado
+                    // 9. Impactos
+                    let htmlImpactos = item.impactos ? `<div class="grid-causas">${Object.entries(item.impactos).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+
+                    // 10. Rupturas e Continuidade
+                    let htmlRupturas = '';
+                    if (item.continuidade || item.rupturas) {
+                        htmlRupturas += item.continuidade ? `<p class="secao-texto"><strong>Continuidade:</strong> ${item.continuidade}</p>` : '';
+                        htmlRupturas += item.rupturas ? `<p class="secao-texto" style="margin-top: 10px;"><strong>Rupturas:</strong> ${item.rupturas}</p>` : '';
+                    }
+
+                    // Montagem final do Cartão com todos os acordeões
                     const card = document.createElement('div');
                     card.className = 'historico-card';
                     card.innerHTML = `
                         <div class="historico-header">
                             <span class="historico-tag">${item.periodo}</span>
-                            <span class="historico-intervalo">De ${item.ano_inicio} até ${item.ano_fim}</span>
+                            <span class="historico-intervalo">${periodoFormatado}</span>
                         </div>
                         <h2>${item.titulo_principal}</h2>
                         <p class="secao-texto"><strong>Tema:</strong> ${item.tema}</p>
-                        <p class="secao-texto" style="margin-top: 8px;">${item.contexto}</p>
+                        <p class="secao-texto" style="margin-top: 10px;"><strong>Local:</strong> ${item.local} | <strong>Sociedades:</strong> ${item.sociedades_envolvidas}</p>
+                        <p class="secao-texto" style="margin-top: 10px;">${item.contexto}</p>
 
-                        ${htmlCausas ? `
-                            <div class="secao-bloco">
-                                <div class="secao-titulo">Causas e Dimensões</div>
-                                <div class="grid-causas">${htmlCausas}</div>
-                            </div>
-                        ` : ''}
-
-                        ${htmlMarcos ? `
-                            <div class="secao-bloco">
-                                <div class="secao-titulo">Marcos da Linha do Tempo</div>
-                                <div class="sub-timeline">${htmlMarcos}</div>
-                            </div>
-                        ` : ''}
+                        ${htmlImagem ? criarAcordeao('Ver Imagem Ilustrativa', htmlImagem) : ''}
+                        ${htmlAntecedentes ? criarAcordeao('Ver Antecedentes', htmlAntecedentes) : ''}
+                        ${htmlCausas ? criarAcordeao('Ver Causas e Dimensões', htmlCausas) : ''}
+                        ${htmlDesenvolvimento ? criarAcordeao('Ver Desenvolvimento Histórico', htmlDesenvolvimento) : ''}
+                        ${htmlAtores ? criarAcordeao('Ver Personagens e Grupos Envolvidos', htmlAtores) : ''}
+                        ${htmlInteresses ? criarAcordeao('Ver Interesses em Disputa', htmlInteresses) : ''}
+                        ${htmlMarcos ? criarAcordeao('Ver Marcos da Linha do Tempo', htmlMarcos) : ''}
+                        ${htmlConsequencias ? criarAcordeao('Ver Consequências', htmlConsequencias) : ''}
+                        ${htmlImpactos ? criarAcordeao('Ver Impactos', htmlImpactos) : ''}
+                        ${htmlRupturas ? criarAcordeao('Ver Continuidade e Rupturas', htmlRupturas) : ''}
                     `;
 
                     container.appendChild(card);
@@ -320,14 +423,13 @@
                 console.error("Erro ao carregar dados:", error);
                 container.innerHTML = `
                     <div class="erro-msg">
-                        <p>O arquivo <code>${arquivoJson}</code> ainda não foi criado ou está inacessível.</p>
-                        <p style="font-size: 0.85rem; margin-top: 5px;">Crie este arquivo na mesma pasta do projeto para exibir os dados deste período.</p>
+                        <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou está inacessível.</p>
+                        <p style="font-size: 0.95rem; margin-top: 8px;">Crie este ficheiro na mesma pasta do projeto para exibir os dados deste período.</p>
                     </div>
                 `;
             }
         }
 
-        // Carrega a Pré-História por padrão ao abrir a página
         carregarPeriodo('pre-historia.json', document.querySelector('.btn-periodo'));
     </script>
 </body>
