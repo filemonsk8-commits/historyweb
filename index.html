@@ -31,13 +31,14 @@
 
         header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
         }
 
         header h1 {
             font-size: 2.4rem;
             color: var(--primary-color);
             margin-bottom: 8px;
+            cursor: pointer;
         }
 
         header p {
@@ -45,11 +46,54 @@
             font-size: 1.2rem;
         }
 
+        /* Barra de Pesquisa */
+        .busca-container {
+            max-width: 950px;
+            margin: 0 auto 30px auto;
+            display: flex;
+            gap: 12px;
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        .busca-container input {
+            flex: 1;
+            padding: 12px 18px;
+            font-size: 1.1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .busca-container input:focus {
+            border-color: var(--primary-color);
+        }
+
+        .busca-container button {
+            background: var(--primary-color);
+            color: #fff;
+            border: none;
+            padding: 0 24px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .busca-container button:hover {
+            background: #1d4ed8;
+        }
+
+        /* Menu de Navegação */
         .menu-navegacao {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 12px;
+            gap: 10px;
             margin-bottom: 40px;
         }
 
@@ -57,8 +101,8 @@
             background: #ffffff;
             border: 1px solid var(--border-color);
             color: var(--text-main);
-            padding: 14px 22px;
-            font-size: 1.1rem;
+            padding: 12px 18px;
+            font-size: 1rem;
             font-weight: 600;
             border-radius: 8px;
             cursor: pointer;
@@ -76,6 +120,57 @@
             margin: 0 auto;
         }
 
+        /* Tela de Capa em Losangos */
+        .capa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 35px;
+            justify-items: center;
+            padding: 20px 0;
+        }
+
+        .losango-card {
+            width: 190px;
+            height: 190px;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transform: rotate(45deg);
+            cursor: pointer;
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+            transition: all 0.3s ease;
+            border: 4px solid #ffffff;
+            padding: 15px;
+        }
+
+        .losango-card:hover {
+            transform: rotate(45deg) scale(1.08);
+            box-shadow: 0 15px 30px rgba(37, 99, 235, 0.35);
+            background: linear-gradient(135deg, #1d4ed8, #1e40af);
+        }
+
+        .losango-conteudo {
+            transform: rotate(-45deg);
+            width: 130px;
+        }
+
+        .losango-conteudo h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 4px;
+        }
+
+        .losango-conteudo span {
+            font-size: 0.75rem;
+            opacity: 0.9;
+        }
+
+        /* Cards Históricos */
         .historico-card {
             background: var(--card-bg);
             border-radius: 16px;
@@ -275,25 +370,45 @@
 <body>
 
     <header>
-        <h1>Linha do Tempo Histórica</h1>
-        <p>Toque nos botões para alternar o período e expandir os conteúdos</p>
+        <h1 onclick="mostrarCapa()">Linha do Tempo Histórica</h1>
+        <p>Explore por períodos ou utilize a busca avançada por século, data ou palavra-chave</p>
     </header>
 
+    <!-- Barra de Busca Avançada -->
+    <div class="busca-container">
+        <input type="text" id="input-busca" placeholder="Pesquisar por palavra, ano (ex: 1500) ou século (ex: séc. XIX)..." onkeypress="verificarEnter(event)">
+        <button onclick="executarBusca()">Pesquisar</button>
+    </div>
+
+    <!-- Menu de Navegação -->
     <nav class="menu-navegacao">
+        <button class="btn-periodo" onclick="mostrarCapa()">Capa Principal</button>
         <button class="btn-periodo" onclick="carregarPeriodo('pre-historia.json', this)">Pré-História</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-antiga.json', this)">Idade Antiga</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-medieval.json', this)">Idade Média</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-moderna.json', this)">Idade Moderna</button>
         <button class="btn-periodo" onclick="carregarPeriodo('idade-contemporanea.json', this)">Idade Contemporânea</button>
-        <button class="btn-periodo" onclick="carregarPeriodo('atualidades.json', this)">Atualidades</button>
         <button class="btn-periodo" onclick="carregarPeriodo('brasil.json', this)">Brasil</button>
-        <button class="btn-periodo ativo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('atualidades.json', this)">Atualidades</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
     </nav>
 
     <main class="container" id="app-container">
+        <!-- Conteúdo inicial injetado via JavaScript -->
     </main>
 
     <script>
+        const periodosDisponiveis = [
+            { arquivo: 'pre-historia.json', titulo: 'Pré-História', subtitulo: 'Origens e Povos Originários' },
+            { arquivo: 'idade-antiga.json', titulo: 'Idade Antiga', subtitulo: 'Civilizações Clássicas' },
+            { arquivo: 'idade-medieval.json', titulo: 'Idade Média', subtitulo: 'Feudalismo e Cristandade' },
+            { arquivo: 'idade-moderna.json', titulo: 'Idade Moderna', subtitulo: 'Expansão e Absolutismo' },
+            { arquivo: 'idade-contemporanea.json', titulo: 'Idade Contemporânea', subtitulo: 'Guerras e Revoluções' },
+            { arquivo: 'brasil.json', titulo: 'Brasil', subtitulo: 'Da Colônia à Atualidade' },
+            { arquivo: 'atualidades.json', titulo: 'Atualidades', subtitulo: 'Cenário Mundial Recente' },
+            { arquivo: 'direitos-humanos.json', titulo: 'Direitos Humanos', subtitulo: 'Conquistas da Cidadania' }
+        ];
+
         function formatarAno(ano) {
             const num = parseInt(ano, 10);
             if (isNaN(num)) return ano;
@@ -322,9 +437,39 @@
             `;
         }
 
+        function mostrarCapa() {
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            document.querySelector('.menu-navegacao button').classList.add('ativo');
+
+            const container = document.getElementById('app-container');
+            let htmlCapa = '<div class="capa-grid">';
+            
+            periodosDisponiveis.forEach(p => {
+                htmlCapa += `
+                    <div class="losango-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
+                        <div class="losango-conteudo">
+                            <h3>${p.titulo}</h3>
+                            <span>${p.subtitulo}</span>
+                        </div>
+                    </div>
+                `;
+            });
+            htmlCapa += '</div>';
+            container.innerHTML = htmlCapa;
+        }
+
+        function carregarPorNomeArquivo(arquivo) {
+            const botoes = document.querySelectorAll('.btn-periodo');
+            botoes.forEach(btn => {
+                if (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes(arquivo)) {
+                    carregarPeriodo(arquivo, btn);
+                }
+            });
+        }
+
         async function carregarPeriodo(arquivoJson, botaoElemento) {
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
-            botaoElemento.classList.add('ativo');
+            if (botaoElemento) botaoElemento.classList.add('ativo');
 
             const container = document.getElementById('app-container');
             container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem;">A carregar dados...</p>';
@@ -334,68 +479,7 @@
                 if (!resposta.ok) throw new Error('Ficheiro não encontrado');
                 
                 const itensHistoricos = await resposta.json();
-                container.innerHTML = '';
-
-                itensHistoricos.forEach(item => {
-                    const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
-
-                    let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${a}</li>`).join('')}</ul>` : '';
-                    let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
-                    let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${item.desenvolvimento}</p>` : '';
-
-                    let htmlAtores = '';
-                    if (item.personagens || item.grupos_envolvidos) {
-                        htmlAtores += item.personagens ? `<p class="secao-texto" style="font-weight: 700;">Personagens Principais:</p><ul class="lista-itens">${item.personagens.map(p => `<li>${p}</li>`).join('')}</ul>` : '';
-                        htmlAtores += item.grupos_envolvidos ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Grupos Envolvidos:</p><ul class="lista-itens">${item.grupos_envolvidos.map(g => `<li>${g}</li>`).join('')}</ul>` : '';
-                    }
-
-                    let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
-                    let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
-                        <div class="timeline-evento">
-                            <div class="evento-ano">${formatarAno(ev.ano)}</div>
-                            <div class="evento-titulo">${ev.titulo}</div>
-                            <div class="secao-texto">${ev.descricao}</div>
-                        </div>`).join('')}</div>` : '';
-
-                    let htmlConsequencias = '';
-                    if (item.consequencias_imediatas || item.consequencias_longo_prazo) {
-                        htmlConsequencias += item.consequencias_imediatas ? `<p class="secao-texto" style="font-weight: 700;">Imediatas:</p><ul class="lista-itens">${item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
-                        htmlConsequencias += item.consequencias_longo_prazo ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Longo Prazo:</p><ul class="lista-itens">${item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
-                    }
-
-                    let htmlImpactos = item.impactos ? `<div class="grid-causas">${Object.entries(item.impactos).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
-
-                    let htmlRupturas = '';
-                    if (item.continuidade || item.rupturas) {
-                        htmlRupturas += item.continuidade ? `<p class="secao-texto"><strong>Continuidade:</strong> ${item.continuidade}</p>` : '';
-                        htmlRupturas += item.rupturas ? `<p class="secao-texto" style="margin-top: 15px;"><strong>Rupturas:</strong> ${item.rupturas}</p>` : '';
-                    }
-
-                    const card = document.createElement('div');
-                    card.className = 'historico-card';
-                    card.innerHTML = `
-                        <div class="historico-header">
-                            <span class="historico-tag">${item.periodo}</span>
-                            <span class="historico-intervalo">${periodoFormatado}</span>
-                        </div>
-                        <h2>${item.titulo_principal}</h2>
-                        <p class="secao-texto"><strong>Tema:</strong> ${item.tema}</p>
-                        <p class="secao-texto" style="margin-top: 10px;"><strong>Local:</strong> ${item.local} | <strong>Sociedades:</strong> ${item.sociedades_envolvidas}</p>
-                        <p class="secao-texto" style="margin-top: 15px;">${item.contexto}</p>
-
-                        ${htmlAntecedentes ? criarAcordeao('Ver Antecedentes', htmlAntecedentes) : ''}
-                        ${htmlCausas ? criarAcordeao('Ver Causas e Dimensões', htmlCausas) : ''}
-                        ${htmlDesenvolvimento ? criarAcordeao('Ver Desenvolvimento Histórico', htmlDesenvolvimento) : ''}
-                        ${htmlAtores ? criarAcordeao('Ver Personagens e Grupos Envolvidos', htmlAtores) : ''}
-                        ${htmlInteresses ? criarAcordeao('Ver Interesses em Disputa', htmlInteresses) : ''}
-                        ${htmlMarcos ? criarAcordeao('Ver Marcos da Linha do Tempo', htmlMarcos) : ''}
-                        ${htmlConsequencias ? criarAcordeao('Ver Consequências', htmlConsequencias) : ''}
-                        ${htmlImpactos ? criarAcordeao('Ver Impactos', htmlImpactos) : ''}
-                        ${htmlRupturas ? criarAcordeao('Ver Continuidade e Rupturas', htmlRupturas) : ''}
-                    `;
-
-                    container.appendChild(card);
-                });
+                renderizarCards(itensHistoricos, container);
 
             } catch (error) {
                 console.error("Erro ao carregar dados:", error);
@@ -408,8 +492,177 @@
             }
         }
 
-        // Carrega Direitos Humanos por padrão ao abrir (ou ajuste para o período que desejar)
-        carregarPeriodo('direitos-humanos.json', document.querySelectorAll('.btn-periodo')[7]);
+        function renderizarCards(itensHistoricos, container) {
+            container.innerHTML = '';
+            if (itensHistoricos.length === 0) {
+                container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem; padding: 40px;">Nenhum registro encontrado para esta busca.</p>';
+                return;
+            }
+
+            itensHistoricos.forEach(item => {
+                const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
+
+                let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${a}</li>`).join('')}</ul>` : '';
+                let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+                let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${item.desenvolvimento}</p>` : '';
+
+                let htmlAtores = '';
+                if (item.personagens || item.grupos_envolvidos) {
+                    htmlAtores += item.personagens ? `<p class="secao-texto" style="font-weight: 700;">Personagens Principais:</p><ul class="lista-itens">${item.personagens.map(p => `<li>${p}</li>`).join('')}</ul>` : '';
+                    htmlAtores += item.grupos_envolvidos ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Grupos Envolvidos:</p><ul class="lista-itens">${item.grupos_envolvidos.map(g => `<li>${g}</li>`).join('')}</ul>` : '';
+                }
+
+                let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+                let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
+                    <div class="timeline-evento">
+                        <div class="evento-ano">${formatarAno(ev.ano)}</div>
+                        <div class="evento-titulo">${ev.titulo}</div>
+                        <div class="secao-texto">${ev.descricao}</div>
+                    </div>`).join('')}</div>` : '';
+
+                let htmlConsequencias = '';
+                if (item.consequencias_imediatas || item.consequencias_longo_prazo) {
+                    htmlConsequencias += item.consequencias_imediatas ? `<p class="secao-texto" style="font-weight: 700;">Imediatas:</p><ul class="lista-itens">${item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
+                    htmlConsequencias += item.consequencias_longo_prazo ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Longo Prazo:</p><ul class="lista-itens">${item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
+                }
+
+                let htmlImpactos = item.impactos ? `<div class="grid-causas">${Object.entries(item.impactos).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+
+                let htmlRupturas = '';
+                if (item.continuidade || item.rupturas) {
+                    htmlRupturas += item.continuidade ? `<p class="secao-texto"><strong>Continuidade:</strong> ${item.continuidade}</p>` : '';
+                    htmlRupturas += item.rupturas ? `<p class="secao-texto" style="margin-top: 15px;"><strong>Rupturas:</strong> ${item.rupturas}</p>` : '';
+                }
+
+                const card = document.createElement('div');
+                card.className = 'historico-card';
+                card.innerHTML = `
+                    <div class="historico-header">
+                        <span class="historico-tag">${item.periodo}</span>
+                        <span class="historico-intervalo">${periodoFormatado}</span>
+                    </div>
+                    <h2>${item.titulo_principal}</h2>
+                    <p class="secao-texto"><strong>Tema:</strong> ${item.tema}</p>
+                    <p class="secao-texto" style="margin-top: 10px;"><strong>Local:</strong> ${item.local} | <strong>Sociedades:</strong> ${item.sociedades_envolvidas}</p>
+                    <p class="secao-texto" style="margin-top: 15px;">${item.contexto}</p>
+
+                    ${htmlAntecedentes ? criarAcordeao('Ver Antecedentes', htmlAntecedentes) : ''}
+                    ${htmlCausas ? criarAcordeao('Ver Causas e Dimensões', htmlCausas) : ''}
+                    ${htmlDesenvolvimento ? criarAcordeao('Ver Desenvolvimento Histórico', htmlDesenvolvimento) : ''}
+                    ${htmlAtores ? criarAcordeao('Ver Personagens e Grupos Envolvidos', htmlAtores) : ''}
+                    ${htmlInteresses ? criarAcordeao('Ver Interesses em Disputa', htmlInteresses) : ''}
+                    ${htmlMarcos ? criarAcordeao('Ver Marcos da Linha do Tempo', htmlMarcos) : ''}
+                    ${htmlConsequencias ? criarAcordeao('Ver Consequências', htmlConsequencias) : ''}
+                    ${htmlImpactos ? criarAcordeao('Ver Impactos', htmlImpactos) : ''}
+                    ${htmlRupturas ? criarAcordeao('Ver Continuidade e Rupturas', htmlRupturas) : ''}
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        function verificarEnter(event) {
+            if (event.key === 'Enter') {
+                executarBusca();
+            }
+        }
+
+        // Conversor romano para número decimal para busca por século (ex: XIX -> 19)
+        function romanoParaDecimal(romano) {
+            const r = romano.toUpperCase();
+            const lookup = {M:1000, D:500, C:100, L:50, X:10, V:5, I:1};
+            let total = 0;
+            for(let i = 0; i < r.length; i++){
+                const atual = lookup[r[i]];
+                const proximo = lookup[r[i+1]];
+                if(proximo && atual < proximo){
+                    total += proximo - atual;
+                    i++;
+                } else {
+                    total += atual;
+                }
+            }
+            return total;
+        }
+
+        async function executarBusca() {
+            const termo = document.getElementById('input-busca').value.trim().toLowerCase();
+            if (!termo) return;
+
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            const container = document.getElementById('app-container');
+            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem;">Pesquisando em todos os períodos...</p>';
+
+            let resultadosGlobais = [];
+
+            // Identificar se a busca é por século (ex: século 19, séc xix, sec 19)
+            let buscaSeculoAnoInicio = null;
+            let buscaSeculoAnoFim = null;
+            const regexSeculo = /(?:século|sec\.?)\s*([ivxlcdm]+|\d+)/i;
+            const matchSec = termo.match(regexSeculo);
+
+            if (matchSec) {
+                let numSeculo;
+                if (!isNaN(matchSec[1])) {
+                    numSeculo = parseInt(matchSec[1], 10);
+                } else {
+                    numSeculo = romanoParaDecimal(matchSec[1]);
+                }
+                if (numSeculo) {
+                    // Século XIX = anos de 1801 a 1900
+                    buscaSeculoAnoInicio = (numSeculo - 1) * 100 + 1;
+                    buscaSeculoAnoFim = numSeculo * 100;
+                }
+            }
+
+            // Pesquisar em todos os ficheiros JSON do projeto
+            for (let p of periodosDisponiveis) {
+                try {
+                    const res = await fetch(p.arquivo);
+                    if (res.ok) {
+                        const dados = await res.json();
+                        dados.forEach(item => {
+                            let atendeCriterio = false;
+
+                            // 1. Verificação por século
+                            if (buscaSeculoAnoInicio !== null) {
+                                if (item.ano_inicio <= buscaSeculoAnoFim && item.ano_fim >= buscaSeculoAnoInicio) {
+                                    atendeCriterio = true;
+                                }
+                            }
+
+                            // 2. Verificação por data numérica exata (ano)
+                            const anoNum = parseInt(termo, 10);
+                            if (!isNaN(anoNum) && !matchSec) {
+                                if (item.ano_inicio <= anoNum && item.ano_fim >= anoNum) {
+                                    atendeCriterio = true;
+                                }
+                                if (item.linha_do_tempo && item.linha_do_tempo.some(ev => ev.ano === anoNum)) {
+                                    atendeCriterio = true;
+                                }
+                            }
+
+                            // 3. Verificação por palavra-chave genérica em textos e títulos
+                            const stringItem = JSON.stringify(item).toLowerCase();
+                            if (stringItem.includes(termo)) {
+                                atendeCriterio = true;
+                            }
+
+                            if (atendeCriterio) {
+                                resultadosGlobais.push(item);
+                            }
+                        });
+                    }
+                } catch (e) {
+                    console.error(`Erro ao buscar no ficheiro ${p.arquivo}:`, e);
+                }
+            }
+
+            renderizarCards(resultadosGlobais, container);
+        }
+
+        // Inicializa exibindo a Capa Principal em losangos
+        window.onload = mostrarCapa;
     </script>
 </body>
 </html>
