@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linha do Tempo Histórica - Expandida</title>
+    <title>Linha do Tempo Histórica - Modular</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -26,7 +26,7 @@
             background-color: var(--bg-color);
             color: var(--text-main);
             padding: 20px;
-            font-size: 1.15rem; /* Fonte base ainda maior e mais legível */
+            font-size: 1.15rem;
         }
 
         header {
@@ -132,7 +132,6 @@
             margin-bottom: 12px;
         }
 
-        /* Acordeões com fontes grandes */
         .acordeao-container {
             margin-top: 18px;
             border: 1px solid #cbd5e1;
@@ -277,7 +276,7 @@
 
     <header>
         <h1>Linha do Tempo Histórica</h1>
-        <p>Toque nos botões para expandir cada tópico e explorar os conteúdos</p>
+        <p>Toque nos botões para alternar o período e expandir os conteúdos</p>
     </header>
 
     <nav class="menu-navegacao">
@@ -331,7 +330,7 @@
             
             try {
                 const resposta = await fetch(arquivoJson);
-                if (!resposta.ok) throw new Error('Arquivo não encontrado');
+                if (!resposta.ok) throw new Error('Ficheiro não encontrado');
                 
                 const itensHistoricos = await resposta.json();
                 container.innerHTML = '';
@@ -340,9 +339,7 @@
                     const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
 
                     let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${a}</li>`).join('')}</ul>` : '';
-
                     let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
-
                     let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${item.desenvolvimento}</p>` : '';
 
                     let htmlAtores = '';
@@ -352,7 +349,6 @@
                     }
 
                     let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
-
                     let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
                         <div class="timeline-evento">
                             <div class="evento-ano">${formatarAno(ev.ano)}</div>
@@ -404,14 +400,14 @@
                 console.error("Erro ao carregar dados:", error);
                 container.innerHTML = `
                     <div class="erro-msg">
-                        <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou está inacessível.</p>
-                        <p style="font-size: 1.05rem; margin-top: 10px;">Crie este ficheiro na mesma pasta do projeto para exibir os dados deste período.</p>
+                        <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou precisa de um servidor local ativo.</p>
+                        <p style="font-size: 1.05rem; margin-top: 10px;">Dica: Utilize a extensão <b>Live Server</b> no VS Code para carregar os ficheiros JSON corretamente.</p>
                     </div>
                 `;
             }
         }
 
-        // Carrega a Idade Antiga por padrão ao abrir para testar imediatamente
+        // Carrega a Idade Antiga por padrão ao abrir
         carregarPeriodo('idade-antiga.json', document.querySelectorAll('.btn-periodo')[1]);
     </script>
 </body>
