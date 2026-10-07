@@ -8,6 +8,7 @@
     <style>
         :root {
             --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
             --bg-color: #f8fafc;
             --card-bg: #ffffff;
             --text-main: #0f172a;
@@ -81,7 +82,7 @@
         }
 
         .busca-container button:hover {
-            background: #1d4ed8;
+            background: var(--primary-hover);
         }
 
         /* Menu de Navegação */
@@ -105,10 +106,17 @@
             transition: all 0.2s ease;
         }
 
-        .btn-periodo:hover, .btn-periodo.ativo {
-            background: var(--primary-color);
-            color: #ffffff;
+        .btn-periodo:hover {
+            background: #f1f5f9;
             border-color: var(--primary-color);
+        }
+
+        /* Aba Ativa Destacada no Menu */
+        .btn-periodo.ativo {
+            background: #1e40af;
+            color: #ffffff;
+            border-color: #1e40af;
+            box-shadow: 0 4px 10px rgba(30, 64, 175, 0.3);
         }
 
         .container {
@@ -116,13 +124,14 @@
             margin: 0 auto;
         }
 
-        /* Tela de Capa com Fundo Personalizado (fundo.jpg) */
-        .capa-wrapper {
-            background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('fundo.jpg');
+        /* Envoltório com Fundo Personalizado (fundo.jpg) aplicado tanto na capa quanto nas abas */
+        .conteudo-wrapper {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.78)), url('fundo.jpg');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
             border-radius: 20px;
-            padding: 50px 30px;
+            padding: 40px 30px;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
         }
 
@@ -199,14 +208,15 @@
             gap: 6px;
         }
 
-        /* Cards Históricos */
+        /* Cards Históricos (Exibidos com fundo translúcido para destacar sobre a imagem) */
         .historico-card {
-            background: var(--card-bg);
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(6px);
             border-radius: 16px;
             padding: 35px;
             margin-bottom: 30px;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         .historico-header {
@@ -393,6 +403,8 @@
             color: #ef4444;
             padding: 30px;
             font-size: 1.2rem;
+            background: rgba(255,255,255,0.9);
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -471,7 +483,7 @@
 
             const container = document.getElementById('app-container');
             let htmlCapa = `
-                <div class="capa-wrapper">
+                <div class="conteudo-wrapper">
                     <div class="capa-container">
                         <h2 class="capa-titulo-secao">Explore os Módulos Históricos</h2>
                         <p class="capa-sub-secao">Selecione abaixo um dos eixos temáticos para iniciar a navegação:</p>
@@ -498,7 +510,7 @@
         function carregarPorNomeArquivo(arquivo) {
             const botoes = document.querySelectorAll('.btn-periodo');
             botoes.forEach(btn => {
-                if (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes(arquivo)) {
+                if (btn.getAttribute('onclick') && btn.getAttribute('onclick'].includes(arquivo)) {
                     carregarPeriodo(arquivo, btn);
                 }
             });
@@ -509,7 +521,7 @@
             if (botaoElemento) botaoElemento.classList.add('ativo');
 
             const container = document.getElementById('app-container');
-            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem; padding: 40px;">A carregar dados...</p>';
+            container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.2rem; padding: 40px;">A carregar dados...</p></div>';
             
             try {
                 const resposta = await fetch(arquivoJson);
@@ -521,9 +533,11 @@
             } catch (error) {
                 console.error("Erro ao carregar dados:", error);
                 container.innerHTML = `
-                    <div class="erro-msg">
-                        <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou precisa de um servidor local ativo.</p>
-                        <p style="font-size: 1.05rem; margin-top: 10px;">Dica: Utilize a extensão <b>Live Server</b> no VS Code para carregar os ficheiros JSON corretamente.</p>
+                    <div class="conteudo-wrapper">
+                        <div class="erro-msg">
+                            <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou precisa de um servidor local ativo.</p>
+                            <p style="font-size: 1.05rem; margin-top: 10px;">Dica: Utilize a extensão <b>Live Server</b> no VS Code para carregar os ficheiros JSON corretamente.</p>
+                        </div>
                     </div>
                 `;
             }
@@ -532,9 +546,12 @@
         function renderizarCards(itensHistoricos, container) {
             container.innerHTML = '';
             if (itensHistoricos.length === 0) {
-                container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem; padding: 40px;">Nenhum registro encontrado para esta busca.</p>';
+                container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.2rem; padding: 40px;">Nenhum registro encontrado para esta busca.</p></div>';
                 return;
             }
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'conteudo-wrapper';
 
             itensHistoricos.forEach(item => {
                 const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
@@ -594,8 +611,10 @@
                     ${htmlRupturas ? criarAcordeao('Ver Continuidade e Rupturas', htmlRupturas) : ''}
                 `;
 
-                container.appendChild(card);
+                wrapper.appendChild(card);
             });
+
+            container.appendChild(wrapper);
         }
 
         function verificarEnter(event) {
@@ -627,7 +646,7 @@
 
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
             const container = document.getElementById('app-container');
-            container.innerHTML = '<p style="text-align: center; color: var(--text-muted); font-size: 1.2rem; padding: 40px;">Pesquisando em todos os períodos...</p>';
+            container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.2rem; padding: 40px;">Pesquisando em todos os períodos...</p></div>';
 
             let resultadosGlobais = [];
 
@@ -691,7 +710,7 @@
             renderizarCards(resultadosGlobais, container);
         }
 
-        // Inicializa exibindo a Capa Principal com o fundo personalizado
+        // Inicializa exibindo a Capa Principal
         window.onload = mostrarCapa;
     </script>
 </body>
