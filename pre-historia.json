@@ -24,12 +24,45 @@
       "tecnologias": "Domínio do fogo, lascagem da pedra, cerâmica, tecelagem e fundição de metais (cobre, bronze e ferro)."
     },
     "resumo_card": "O período mais longo da trajetória humana, marcado pelo domínio do fogo, pela expansão global do Homo sapiens, pela Revolução Neolítica (agricultura) e pelo surgimento das primeiras vilas fundidoras de metais.",
+    "desenvolvimento": "No Paleolítico (Pedra Lascada), a humanidade dependia da caça, pesca e coleta. O domínio do fogo e o desenvolvimento da linguagem permitiram a expansão do Homo sapiens pelo planeta. No Neolítico (Pedra Polida), ocorreu a Revolução Agrícola: o domínio da domesticação de plantas e animais levou à sedentarização, ao surgimento da cerâmica para estocar alimentos e ao crescimento populacional. Na Idade dos Metais, o desenvolvimento da metalurgia (cobre, bronze e ferro) acelerou a divisão do trabalho, o surgimento do comércio, das guerras por recursos e a centralização política que resultou nas primeiras cidades e no Estado.",
+    "personagens": [
+      "Lucy: Fóssil de Australopithecus afarensis fundamental para a compreensão da bipedestação.",
+      "Grupos de Caçadores-Coletores do Paleolítico.",
+      "Primeiras Comunidades Agrícolas do Crescente Fértil."
+    ],
+    "grupos_envolvidos": [
+      "Sociedades Nômades de Caçadores-Coletores.",
+      "Comunidades Sedentárias Agrícolas e Pastorais.",
+      "Primeiras Castas de Artesãos, Metalúrgicos e Chefias Tribais."
+    ],
+    "interesses_em_disputa": [
+      "Controle de territórios férteis para caça e coleta vs. Disputa por terras agricultáveis e fontes de água.",
+      "Acesso a matérias-primas raras (pedras adequadas, minérios de cobre e estanho)."
+    ],
     "linha_do_tempo": [
       {"ano": -2500000, "titulo": "Início do Paleolítico", "descricao": "Surgimento dos primeiros instrumentos de pedra lascada pelo Homo habilis."},
       {"ano": -500000, "titulo": "Domínio do Fogo", "descricao": "Homo erectus passa a controlar o fogo para aquecimento, proteção e cozimento."},
       {"ano": -10000, "titulo": "Revolução Neolítica", "descricao": "Início do cultivo agrícola e da domesticação de animais no Crescente Fértil."},
       {"ano": -5000, "titulo": "Início da Idade dos Metais", "descricao": "Primeiras experiências de fundição de cobre e desenvolvimento da cerâmica complexa."},
       {"ano": -3000, "titulo": "Invenção da Escrita", "descricao": "Surgimento da escrita cuneiforme na Mesopotâmia, marcando o fim da Pré-História."}
-    ]
+    ],
+    "consequencias_imediatas": [
+      "Aumento drástico da densidade demográfica humana global.",
+      "Formação das primeiras aldeias e protocidades no Oriente Médio (ex: Jericó, Çatalhöyük)."
+    ],
+    "consequencias_longo_prazo": [
+      "Transformação irreversível do meio ambiente natural pela intervenção agrícola humana.",
+      "Surgimento da propriedade privada, da desigualdade social e das estruturas de Estado."
+    ],
+    "impactos": {
+      "politicos": "Transição de lideranças comunitárias informais para chefias centralizadas e monarquias teocráticas.",
+      "economicos": "Geração de excedente produtivo e nascimento do comércio de troca (escambo).",
+      "sociais": "Divisão social e sexual do trabalho e consolidação da vida comunitária urbana.",
+      "culturais": "Construção de monumentos megalíticos (ex: Stonehenge) e consolidação de mitos de criação.",
+      "territoriais": "Transformação da paisagem com irrigação, desmatamento pontual e delimitação de campos de cultivo.",
+      "ambientais": "Extinção da megafauna do Pleistoceno e início do impacto humano estrutural nos ecossistemas."
+    },
+    "continuidade": "Uso contínuo de materiais naturais (madeira, pedra, ossos) ao longo de milênios.",
+    "rupturas": "Passagem do estilo de vida nômade para o sedentário (Revolução Neolítica)."
   }
 ]
