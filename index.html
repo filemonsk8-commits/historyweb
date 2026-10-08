@@ -1,4 +1,12 @@
-<style>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo Histórica - Modular</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <style>
         :root {
             --primary-color: #2563eb;
             --primary-hover: #1d4ed8;
@@ -20,7 +28,7 @@
             background-color: var(--bg-color);
             color: var(--text-main);
             padding: 30px 20px;
-            font-size: 1.25rem; /* Aumentado de 1.15rem para 1.25rem */
+            font-size: 1.25rem; /* Fonte base aumentada */
         }
 
         header {
@@ -51,7 +59,7 @@
         .busca-container input {
             flex: 1;
             padding: 14px 18px;
-            font-size: 1.2rem; /* Texto da busca maior */
+            font-size: 1.2rem; /* Input de pesquisa maior */
             border: 1px solid var(--border-color);
             border-radius: 8px;
             outline: none;
@@ -67,7 +75,7 @@
             color: #fff;
             border: none;
             padding: 0 24px;
-            font-size: 1.2rem;
+            font-size: 1.2rem; /* Botão de pesquisa maior */
             font-weight: 600;
             border-radius: 8px;
             cursor: pointer;
@@ -92,7 +100,7 @@
             border: 1px solid var(--border-color);
             color: var(--text-main);
             padding: 14px 20px;
-            font-size: 1.1rem; /* Botões do menu maiores */
+            font-size: 1.15rem; /* Botões do menu maiores */
             font-weight: 600;
             border-radius: 8px;
             cursor: pointer;
@@ -104,6 +112,7 @@
             border-color: var(--primary-color);
         }
 
+        /* Aba Ativa Destacada no Menu */
         .btn-periodo.ativo {
             background: #1e40af;
             color: #ffffff;
@@ -134,7 +143,7 @@
         }
 
         .capa-titulo-secao {
-            font-size: 2.5rem;
+            font-size: 2.5rem; /* Título da capa maior */
             color: #ffffff;
             margin-bottom: 12px;
             font-weight: 700;
@@ -144,7 +153,7 @@
         .capa-sub-secao {
             color: #e2e8f0;
             margin-bottom: 40px;
-            font-size: 1.35rem; /* Subtítulo da capa maior */
+            font-size: 1.3rem; /* Subtítulo da capa maior */
             text-shadow: 0 1px 3px rgba(0,0,0,0.5);
         }
 
@@ -185,7 +194,7 @@
         }
 
         .capa-card p {
-            font-size: 1.15rem; /* Textos descritivos da capa maiores */
+            font-size: 1.15rem; /* Textos dos cards da capa maiores */
             color: var(--text-muted);
             line-height: 1.6;
         }
@@ -245,14 +254,14 @@
         }
 
         .historico-card h2 {
-            font-size: 2.1rem; /* Título principal do evento histórico maior */
+            font-size: 2.1rem; /* Título principal do card maior */
             color: var(--text-main);
             margin-bottom: 18px;
             line-height: 1.3;
         }
 
         .secao-texto {
-            font-size: 1.25rem; /* Textos de parágrafos gerais maiores */
+            font-size: 1.25rem; /* Parágrafos e textos gerais maiores */
             color: var(--text-muted);
             line-height: 1.8;
             margin-bottom: 14px;
@@ -271,7 +280,7 @@
             border: none;
             padding: 20px 24px;
             text-align: left;
-            font-size: 1.3rem; /* Botões dos acordeões maiores */
+            font-size: 1.3rem; /* Botões de acordeão maiores */
             font-weight: 700;
             color: var(--primary-color);
             cursor: pointer;
@@ -323,7 +332,7 @@
             border: 1px solid #e2e8f0;
             padding: 18px;
             border-radius: 8px;
-            font-size: 1.2rem; /* Texto interno de causas maior */
+            font-size: 1.2rem; /* Texto de causas maior */
             color: var(--text-muted);
             line-height: 1.6;
         }
@@ -399,3 +408,318 @@
             border-radius: 10px;
         }
     </style>
+</head>
+<body>
+
+    <header>
+        <h1 onclick="mostrarCapa()">Linha do Tempo Histórica</h1>
+    </header>
+
+    <!-- Barra de Pesquisa Avançada -->
+    <div class="busca-container">
+        <input type="text" id="input-busca" placeholder="Pesquisar por palavra, ano (ex: 1500) ou século (ex: séc. XIX)..." onkeypress="verificarEnter(event)">
+        <button onclick="executarBusca()">Pesquisar</button>
+    </div>
+
+    <!-- Menu de Navegação -->
+    <nav class="menu-navegacao">
+        <button class="btn-periodo" onclick="mostrarCapa()">Início / Capa</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('pre-historia.json', this)">Pré-História</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('idade-antiga.json', this)">Idade Antiga</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('idade-medieval.json', this)">Idade Média</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('idade-moderna.json', this)">Idade Moderna</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('idade-contemporanea.json', this)">Idade Contemporânea</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('brasil.json', this)">Brasil</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('atualidades.json', this)">Atualidades</button>
+        <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
+    </nav>
+
+    <main class="container" id="app-container">
+        <!-- Conteúdo inicial injetado via JavaScript -->
+    </main>
+
+    <script>
+        const periodosDisponiveis = [
+            { arquivo: 'pre-historia.json', titulo: 'Pré-História', subtitulo: 'Origens e Povos Originários' },
+            { arquivo: 'idade-antiga.json', titulo: 'Idade Antiga', subtitulo: 'Civilizações Clássicas e Antiguidade' },
+            { arquivo: 'idade-medieval.json', titulo: 'Idade Média', subtitulo: 'Feudalismo e Cristandade' },
+            { arquivo: 'idade-moderna.json', titulo: 'Idade Moderna', subtitulo: 'Expansão, Absolutismo e Renascimento' },
+            { arquivo: 'idade-contemporanea.json', titulo: 'Idade Contemporânea', subtitulo: 'Guerras, Revoluções e Globalização' },
+            { arquivo: 'brasil.json', titulo: 'Brasil', subtitulo: 'Da Colônia à República Atual' },
+            { arquivo: 'atualidades.json', titulo: 'Atualidades', subtitulo: 'Cenário Mundial Recente (2019-2026)' },
+            { arquivo: 'direitos-humanos.json', titulo: 'Direitos Humanos', subtitulo: 'Conquistas da Cidadania e Democracia' }
+        ];
+
+        function formatarAno(ano) {
+            const num = parseInt(ano, 10);
+            if (isNaN(num)) return ano;
+            if (num < 0) {
+                return Math.abs(num).toLocaleString('pt-BR') + ' a.C.';
+            } else {
+                return num.toLocaleString('pt-BR') + ' d.C.';
+            }
+        }
+
+        function alternarAcordeao(event) {
+            const botao = event.currentTarget;
+            botao.classList.toggle('ativo');
+            const conteudo = botao.nextElementSibling;
+            conteudo.classList.toggle('aberto');
+        }
+
+        function criarAcordeao(titulo, conteudoHtml) {
+            return `
+                <div class="acordeao-container">
+                    <button class="acordeao-botao" onclick="alternarAcordeao(event)">${titulo}</button>
+                    <div class="acordeao-conteudo">
+                        ${conteudoHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        function mostrarCapa() {
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            document.querySelector('.menu-navegacao button').classList.add('ativo');
+
+            const container = document.getElementById('app-container');
+            let htmlCapa = `
+                <div class="conteudo-wrapper">
+                    <div class="capa-container">
+                        <h2 class="capa-titulo-secao">Explore os Módulos Históricos</h2>
+                        <p class="capa-sub-secao">Selecione abaixo um dos eixos temáticos para iniciar a navegação:</p>
+                        <div class="capa-grid">
+            `;
+            
+            periodosDisponiveis.forEach(p => {
+                htmlCapa += `
+                    <div class="capa-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
+                        <div>
+                            <h3>${p.titulo}</h3>
+                            <p>${p.subtitulo}</p>
+                        </div>
+                        <div class="capa-card-footer">
+                            Acessar Módulo &rarr;
+                        </div>
+                    </div>
+                `;
+            });
+            htmlCapa += `</div></div></div>`;
+            container.innerHTML = htmlCapa;
+        }
+
+        function carregarPorNomeArquivo(arquivo) {
+            const botoes = document.querySelectorAll('.btn-periodo');
+            botoes.forEach(btn => {
+                if (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes(arquivo)) {
+                    carregarPeriodo(arquivo, btn);
+                }
+            });
+        }
+
+        async function carregarPeriodo(arquivoJson, botaoElemento) {
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            if (botaoElemento) botaoElemento.classList.add('ativo');
+
+            const container = document.getElementById('app-container');
+            container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">A carregar dados...</p></div>';
+            
+            try {
+                const resposta = await fetch(arquivoJson);
+                if (!resposta.ok) throw new Error('Ficheiro não encontrado');
+                
+                const itensHistoricos = await resposta.json();
+                renderizarCards(itensHistoricos, container);
+
+            } catch (error) {
+                console.error("Erro ao carregar dados:", error);
+                container.innerHTML = `
+                    <div class="conteudo-wrapper">
+                        <div class="erro-msg">
+                            <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou precisa de um servidor local ativo.</p>
+                            <p style="font-size: 1.1rem; margin-top: 10px;">Dica: Utilize a extensão <b>Live Server</b> no VS Code para carregar os ficheiros JSON corretamente.</p>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        function renderizarCards(itensHistoricos, container) {
+            container.innerHTML = '';
+            if (itensHistoricos.length === 0) {
+                container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">Nenhum registro encontrado para esta busca.</p></div>';
+                return;
+            }
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'conteudo-wrapper';
+
+            itensHistoricos.forEach(item => {
+                const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
+
+                let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${a}</li>`).join('')}</ul>` : '';
+                let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+                let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${item.desenvolvimento}</p>` : '';
+
+                let htmlAtores = '';
+                if (item.personagens || item.grupos_envolvidos) {
+                    htmlAtores += item.personagens ? `<p class="secao-texto" style="font-weight: 700;">Personagens Principais:</p><ul class="lista-itens">${item.personagens.map(p => `<li>${p}</li>`).join('')}</ul>` : '';
+                    htmlAtores += item.grupos_envolvidos ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Grupos Envolvidos:</p><ul class="lista-itens">${item.grupos_envolvidos.map(g => `<li>${g}</li>`).join('')}</ul>` : '';
+                }
+
+                let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+                let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
+                    <div class="timeline-evento">
+                        <div class="evento-ano">${formatarAno(ev.ano)}</div>
+                        <div class="evento-titulo">${ev.titulo}</div>
+                        <div class="secao-texto">${ev.descricao}</div>
+                    </div>`).join('')}</div>` : '';
+
+                let htmlConsequencias = '';
+                if (item.consequencias_imediatas || item.consequencias_longo_prazo) {
+                    htmlConsequencias += item.consequencias_imediatas ? `<p class="secao-texto" style="font-weight: 700;">Imediatas:</p><ul class="lista-itens">${item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
+                    htmlConsequencias += item.consequencias_longo_prazo ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Longo Prazo:</p><ul class="lista-itens">${item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
+                }
+
+                let htmlImpactos = item.impactos ? `<div class="grid-causas">${Object.entries(item.impactos).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+
+                let htmlRupturas = '';
+                if (item.continuidade || item.rupturas) {
+                    htmlRupturas += item.continuidade ? `<p class="secao-texto"><strong>Continuidade:</strong> ${item.continuidade}</p>` : '';
+                    htmlRupturas += item.rupturas ? `<p class="secao-texto" style="margin-top: 15px;"><strong>Rupturas:</strong> ${item.rupturas}</p>` : '';
+                }
+
+                const card = document.createElement('div');
+                card.className = 'historico-card';
+                card.innerHTML = `
+                    <div class="historico-header">
+                        <span class="historico-tag">${item.periodo}</span>
+                        <span class="historico-intervalo">${periodoFormatado}</span>
+                    </div>
+                    <h2>${item.titulo_principal}</h2>
+                    <p class="secao-texto"><strong>Tema:</strong> ${item.tema}</p>
+                    <p class="secao-texto" style="margin-top: 10px;"><strong>Local:</strong> ${item.local} | <strong>Sociedades:</strong> ${item.sociedades_envolvidas}</p>
+                    <p class="secao-texto" style="margin-top: 15px;">${item.contexto}</p>
+
+                    ${htmlAntecedentes ? criarAcordeao('Ver Antecedentes', htmlAntecedentes) : ''}
+                    ${htmlCausas ? criarAcordeao('Ver Causas e Dimensões', htmlCausas) : ''}
+                    ${htmlDesenvolvimento ? criarAcordeao('Ver Desenvolvimento Histórico', htmlDesenvolvimento) : ''}
+                    ${htmlAtores ? criarAcordeao('Ver Personagens e Grupos Envolvidos', htmlAtores) : ''}
+                    ${htmlInteresses ? criarAcordeao('Ver Interesses em Disputa', htmlInteresses) : ''}
+                    ${htmlMarcos ? criarAcordeao('Ver Marcos da Linha do Tempo', htmlMarcos) : ''}
+                    ${htmlConsequencias ? criarAcordeao('Ver Consequências', htmlConsequencias) : ''}
+                    ${htmlImpactos ? criarAcordeao('Ver Impactos', htmlImpactos) : ''}
+                    ${htmlRupturas ? criarAcordeao('Ver Continuidade e Rupturas', htmlRupturas) : ''}
+                `;
+
+                wrapper.appendChild(card);
+            });
+
+            container.appendChild(wrapper);
+        }
+
+        function verificarEnter(event) {
+            if (event.key === 'Enter') {
+                executarBusca();
+            }
+        }
+
+        function romanoParaDecimal(romano) {
+            const r = romano.toUpperCase();
+            const lookup = {M:1000, D:500, C:100, L:50, X:10, V:5, I:1};
+            let total = 0;
+            for(let i = 0; i < r.length; i++){
+                const atual = lookup[r[i]];
+                const proximo = lookup[r[i+1]];
+                if(proximo && atual < proximo){
+                    total += proximo - atual;
+                    i++;
+                } else {
+                    total += atual;
+                }
+            }
+            return total;
+        }
+
+        async function executarBusca() {
+            const termo = document.getElementById('input-busca').value.trim().toLowerCase();
+            if (!termo) return;
+
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            const container = document.getElementById('app-container');
+            container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">Pesquisando em todos os períodos...</p></div>';
+
+            let resultadosGlobais = [];
+
+            let buscaSeculoAnoInicio = null;
+            let buscaSeculoAnoFim = null;
+            const regexSeculo = /(?:século|sec\.?)\s*([ivxlcdm]+|\d+)/i;
+            const matchSec = termo.match(regexSeculo);
+
+            if (matchSec) {
+                let numSeculo;
+                if (!isNaN(matchSec[1])) {
+                    numSeculo = parseInt(matchSec[1], 10);
+                } else {
+                    numSeculo = romanoParaDecimal(matchSec[1]);
+                }
+                if (numSeculo) {
+                    buscaSeculoAnoInicio = (numSeculo - 1) * 100 + 1;
+                    buscaSeculoAnoFim = numSeculo * 100;
+                }
+            }
+
+            for (let p of periodosDisponiveis) {
+                try {
+                    const res = await fetch(p.arquivo);
+                    if (res.ok) {
+                        const dados = await res.json();
+                        dados.forEach(item => {
+                            let atendeCriterio = false;
+
+                            if (buscaSeculoAnoInicio !== null) {
+                                if (item.ano_inicio <= buscaSeculoAnoFim && item.ano_fim >= buscaSeculoAnoInicio) {
+                                    atendeCriterio = true;
+                                }
+                            }
+
+                            const anoNum = parseInt(termo, 10);
+                            if (!isNaN(anoNum) && !matchSec) {
+                                if (item.ano_inicio <= anoNum && item.ano_fim >= anoNum) {
+                                    atendeCriterio = true;
+                                }
+                                if (item.linha_do_tempo && item.linha_do_tempo.some(ev => ev.ano === anoNum)) {
+                                    atendeCriterio = true;
+                                }
+                            }
+
+                            const stringItem = JSON.stringify(item).toLowerCase();
+                            if (stringItem.includes(termo)) {
+                                atendeCriterio = true;
+                            }
+
+                            if (atendeCriterio) {
+                                resultadosGlobais.push(item);
+                            }
+                        });
+                    }
+                } catch (e) {
+                    console.error(`Erro ao buscar no ficheiro ${p.arquivo}:`, e);
+                }
+            }
+
+            renderizarCards(resultadosGlobais, container);
+        }
+
+        // Registo do Service Worker para a PWA (Funcionar offline e instalar em PCs e Dispositivos Móveis)
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log("Service Worker registado com sucesso!"))
+                .catch((err) => console.log("Falha ao registar Service Worker:", err));
+        }
+
+        // Inicializa exibindo a Capa Principal
+        window.onload = mostrarCapa;
+    </script>
+</body>
+</html>
