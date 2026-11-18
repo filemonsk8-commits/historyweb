@@ -1043,7 +1043,7 @@
 
             let buscaSeculoAnoInicio = null;
             let buscaSeculoAnoFim = null;
-            const regexSeculo = /(?:século|sec\.?)\s*([ivxlcdm]+|\d+)/i;
+            const regexSeculo = /(?:século|sec\.?)\s*([ivxlcdm]+|\d+)\s*(a\.?\s*c\.?)?/i;
             const matchSec = termo.match(regexSeculo);
 
             if (matchSec) {
@@ -1054,8 +1054,14 @@
                     numSeculo = romanoParaDecimal(matchSec[1]);
                 }
                 if (numSeculo) {
-                    buscaSeculoAnoInicio = (numSeculo - 1) * 100 + 1;
-                    buscaSeculoAnoFim = numSeculo * 100;
+                    const antesDeCristo = Boolean(matchSec[2]);
+                    if (antesDeCristo) {
+                        buscaSeculoAnoInicio = -(numSeculo * 100);
+                        buscaSeculoAnoFim = -((numSeculo - 1) * 100 + 1);
+                    } else {
+                        buscaSeculoAnoInicio = (numSeculo - 1) * 100 + 1;
+                        buscaSeculoAnoFim = numSeculo * 100;
+                    }
                 }
             }
 
