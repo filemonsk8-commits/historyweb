@@ -826,6 +826,16 @@
             { arquivo: 'direitos-humanos.json', titulo: 'Direitos Humanos', subtitulo: 'Conquistas da Cidadania e Democracia' }
         ];
 
+        function escaparHTML(valor) {
+            return String(valor ?? '').replace(/[&<>"']/g, caractere => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            })[caractere]);
+        }
+
         function formatarAno(ano) {
             const num = parseInt(ano, 10);
             if (isNaN(num)) return ano;
@@ -846,7 +856,7 @@
         function criarAcordeao(titulo, conteudoHtml) {
             return `
                 <div class="acordeao-container">
-                    <button class="acordeao-botao" onclick="alternarAcordeao(event)">${titulo}</button>
+                    <button class="acordeao-botao" onclick="alternarAcordeao(event)">${escaparHTML(titulo)}</button>
                     <div class="acordeao-conteudo">
                         ${conteudoHtml}
                     </div>
@@ -871,8 +881,8 @@
                 htmlCapa += `
                     <div class="capa-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
                         <div>
-                            <h3>${p.titulo}</h3>
-                            <p>${p.subtitulo}</p>
+                            <h3>${escaparHTML(p.titulo)}</h3>
+                            <p>${escaparHTML(p.subtitulo)}</p>
                         </div>
                         <div class="capa-card-footer">
                             Acessar Módulo &rarr;
@@ -933,49 +943,49 @@
             itensHistoricos.forEach(item => {
                 const periodoFormatado = `De ${formatarAno(item.ano_inicio)} até ${formatarAno(item.ano_fim)}`;
 
-                let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${a}</li>`).join('')}</ul>` : '';
-                let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
-                let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${item.desenvolvimento}</p>` : '';
+                let htmlAntecedentes = item.antecedentes ? `<ul class="lista-itens">${item.antecedentes.map(a => `<li>${escaparHTML(a)}</li>`).join('')}</ul>` : '';
+                let htmlCausas = item.causas ? `<div class="grid-causas">${Object.entries(item.causas).map(([k, v]) => `<div class="causa-item"><strong>${escaparHTML(k.toUpperCase())}:</strong>${escaparHTML(v)}</div>`).join('')}</div>` : '';
+                let htmlDesenvolvimento = item.desenvolvimento ? `<p class="secao-texto">${escaparHTML(item.desenvolvimento)}</p>` : '';
 
                 let htmlAtores = '';
                 if (item.personagens || item.grupos_envolvidos) {
-                    htmlAtores += item.personagens ? `<p class="secao-texto" style="font-weight: 700;">Personagens Principais:</p><ul class="lista-itens">${item.personagens.map(p => `<li>${p}</li>`).join('')}</ul>` : '';
-                    htmlAtores += item.grupos_envolvidos ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Grupos Envolvidos:</p><ul class="lista-itens">${item.grupos_envolvidos.map(g => `<li>${g}</li>`).join('')}</ul>` : '';
+                    htmlAtores += item.personagens ? `<p class="secao-texto" style="font-weight: 700;">Personagens Principais:</p><ul class="lista-itens">${item.personagens.map(p => `<li>${escaparHTML(p)}</li>`).join('')}</ul>` : '';
+                    htmlAtores += item.grupos_envolvidos ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Grupos Envolvidos:</p><ul class="lista-itens">${item.grupos_envolvidos.map(g => `<li>${escaparHTML(g)}</li>`).join('')}</ul>` : '';
                 }
 
-                let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+                let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${escaparHTML(i)}</li>`).join('')}</ul>` : '';
                 let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
                     <div class="timeline-evento">
                         <div class="evento-ano">${formatarAno(ev.ano)}</div>
-                        <div class="evento-titulo">${ev.titulo}</div>
-                        <div class="secao-texto">${ev.descricao}</div>
+                        <div class="evento-titulo">${escaparHTML(ev.titulo)}</div>
+                        <div class="secao-texto">${escaparHTML(ev.descricao)}</div>
                     </div>`).join('')}</div>` : '';
 
                 let htmlConsequencias = '';
                 if (item.consequencias_imediatas || item.consequencias_longo_prazo) {
-                    htmlConsequencias += item.consequencias_imediatas ? `<p class="secao-texto" style="font-weight: 700;">Imediatas:</p><ul class="lista-itens">${item.consequencias_imediatas.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
-                    htmlConsequencias += item.consequencias_longo_prazo ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Longo Prazo:</p><ul class="lista-itens">${item.consequencias_longo_prazo.map(c => `<li>${c}</li>`).join('')}</ul>` : '';
+                    htmlConsequencias += item.consequencias_imediatas ? `<p class="secao-texto" style="font-weight: 700;">Imediatas:</p><ul class="lista-itens">${item.consequencias_imediatas.map(c => `<li>${escaparHTML(c)}</li>`).join('')}</ul>` : '';
+                    htmlConsequencias += item.consequencias_longo_prazo ? `<p class="secao-texto" style="font-weight: 700; margin-top: 15px;">Longo Prazo:</p><ul class="lista-itens">${item.consequencias_longo_prazo.map(c => `<li>${escaparHTML(c)}</li>`).join('')}</ul>` : '';
                 }
 
-                let htmlImpactos = item.impactos ? `<div class="grid-causas">${Object.entries(item.impactos).map(([k, v]) => `<div class="causa-item"><strong>${k.toUpperCase()}:</strong>${v}</div>`).join('')}</div>` : '';
+                let htmlImpactos = item.impactos ? `<div class="grid-causas">${Object.entries(item.impactos).map(([k, v]) => `<div class="causa-item"><strong>${escaparHTML(k.toUpperCase())}:</strong>${escaparHTML(v)}</div>`).join('')}</div>` : '';
 
                 let htmlRupturas = '';
                 if (item.continuidade || item.rupturas) {
-                    htmlRupturas += item.continuidade ? `<p class="secao-texto"><strong>Continuidade:</strong> ${item.continuidade}</p>` : '';
-                    htmlRupturas += item.rupturas ? `<p class="secao-texto" style="margin-top: 15px;"><strong>Rupturas:</strong> ${item.rupturas}</p>` : '';
+                    htmlRupturas += item.continuidade ? `<p class="secao-texto"><strong>Continuidade:</strong> ${escaparHTML(item.continuidade)}</p>` : '';
+                    htmlRupturas += item.rupturas ? `<p class="secao-texto" style="margin-top: 15px;"><strong>Rupturas:</strong> ${escaparHTML(item.rupturas)}</p>` : '';
                 }
 
                 const card = document.createElement('div');
                 card.className = 'historico-card';
                 card.innerHTML = `
                     <div class="historico-header">
-                        <span class="historico-tag">${item.periodo}</span>
+                        <span class="historico-tag">${escaparHTML(item.periodo)}</span>
                         <span class="historico-intervalo">${periodoFormatado}</span>
                     </div>
-                    <h2>${item.titulo_principal}</h2>
-                    <p class="secao-texto"><strong>Tema:</strong> ${item.tema}</p>
-                    <p class="secao-texto" style="margin-top: 10px;"><strong>Local:</strong> ${item.local} | <strong>Sociedades:</strong> ${item.sociedades_envolvidas}</p>
-                    <p class="secao-texto" style="margin-top: 15px;">${item.contexto}</p>
+                    <h2>${escaparHTML(item.titulo_principal)}</h2>
+                    <p class="secao-texto"><strong>Tema:</strong> ${escaparHTML(item.tema)}</p>
+                    <p class="secao-texto" style="margin-top: 10px;"><strong>Local:</strong> ${escaparHTML(item.local)} | <strong>Sociedades:</strong> ${escaparHTML(item.sociedades_envolvidas)}</p>
+                    <p class="secao-texto" style="margin-top: 15px;">${escaparHTML(item.contexto)}</p>
 
                     ${htmlAntecedentes ? criarAcordeao('Ver Antecedentes', htmlAntecedentes) : ''}
                     ${htmlCausas ? criarAcordeao('Ver Causas e Dimensões', htmlCausas) : ''}
