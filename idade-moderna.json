@@ -8,7 +8,7 @@
     "local": "Império Bizantino / Constantinopla",
     "sociedades_envolvidas": "Turcos Otomanos e Império Bizantino",
     "tema": "Expansão Otomana, Fechamento de Rotas Comerciais e Transição Histórica",
-    "contexto": "A conquista de Constantinopla pelos turcos otomanos em 1453 bloqueou as rotas tradicionais de comércio terrestre entre a Europa e o Oriente, servindo como marco tradicional para o início da Idade Moderna.",
+    "contexto": "A conquista de Constantinopla pelos otomanos em 1453 consolidou mudanças no equilíbrio político e comercial do Mediterrâneo oriental. A cidade passou ao controle otomano, mas isso não significou o fechamento de todas as rotas entre a Europa e a Ásia. O acontecimento é tradicionalmente usado como um dos marcos da transição para a Idade Moderna.",
     "antecedentes": [
       "Enfraquecimento gradual do Império Bizantino ao longo da Baixa Idade Média.",
       "Avanço militar do Império Otomano sobre a Europa Oriental."
@@ -16,14 +16,14 @@
     "causas": {
       "politicas": "Expansão territorial e militar do Império Otomano sob o comando de Maomé II.",
       "economicas": "Necessidade de controle das rotas comerciais que ligavam o Mar Mediterrâneo ao Mar Negro e à Ásia.",
-      "sociais": "Busca de alternativas por mercadores europeus diante do encerramento de monopólios terrestres tradicionais.",
+      "sociais": "Interesse de mercadores e monarquias europeias em ampliar o acesso às mercadorias orientais e encontrar rotas marítimas, em um contexto de mudanças no controle político e comercial do Mediterrâneo.",
       "religiosas": "Conflito geopolítico e religioso entre o Islão expansionista e a Cristandade oriental.",
       "culturais": "Dispersão de sábios bizantinos para a Europa ocidental, levando consigo textos clássicos gregos.",
       "territoriais": "Domínio otomano sobre os estreitos de Bósforo e Dardanelos.",
       "tecnologias": "Uso intensivo de artilharia pesada e canhões pelos turcos no cerco às muralhas de Constantinopla."
     },
-    "resumo_card": "A conquista de Constantinopla pelos turcos otomanos em 1453 fechou as rotas terrestres para as Índias, estimulando as Grandes Navegações e marcando o início da Idade Moderna.",
-    "desenvolvimento": "O cerco e a tomada de Constantinopla alteraram profundamente a geopolítica da Eurásia. Ao monopolizarem o acesso comercial rumo ao Oriente, os otomanos forçaram os reinos da Europa ocidental — com destaque para Portugal e Espanha — a investirem em rotas marítimas alternativas, inaugurando a era das Grandes Navegações.",
+    "resumo_card": "A conquista de Constantinopla em 1453 fortaleceu o poder otomano no Mediterrâneo oriental e alterou as condições do comércio entre Europa e Ásia. As Grandes Navegações, porém, tiveram várias causas e já estavam em curso antes dessa conquista.",
+    "desenvolvimento": "O cerco e a tomada de Constantinopla alteraram a geopolítica do Mediterrâneo oriental e ampliaram o controle otomano sobre importantes áreas e passagens comerciais. O comércio entre europeus e asiáticos não foi simplesmente interrompido: continuou sob novas condições políticas e fiscais. A busca europeia por rotas marítimas também respondeu a outros interesses, como o acesso direto às especiarias, a competição entre monarquias e a expansão comercial; as navegações portuguesas pela costa africana já ocorriam antes de 1453.",
     "personagens": [
       "Maomé II (O Conquistador): Sultão otomano responsável pela tomada de Constantinopla.",
       "Constantino XI Paleólogo: Último imperador bizantino morto na defesa da cidade."
