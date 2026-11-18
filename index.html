@@ -555,6 +555,10 @@
         }
 
         .capa-card {
+            font: inherit;
+            color: inherit;
+            width: 100%;
+            text-align: left;
             min-height: 190px;
             padding: 25px 23px;
             background: #fff;
@@ -879,7 +883,7 @@
             
             periodosDisponiveis.forEach(p => {
                 htmlCapa += `
-                    <div class="capa-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
+                    <button type="button" class="capa-card" onclick="carregarPorNomeArquivo('${p.arquivo}')">
                         <div>
                             <h3>${escaparHTML(p.titulo)}</h3>
                             <p>${escaparHTML(p.subtitulo)}</p>
@@ -887,7 +891,7 @@
                         <div class="capa-card-footer">
                             Acessar Módulo &rarr;
                         </div>
-                    </div>
+                    </button>
                 `;
             });
             htmlCapa += `</div></div></div>`;
