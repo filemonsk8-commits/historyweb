@@ -47,3 +47,29 @@ A funcionalidade está incorporada ao `index.html`, que já integra o conjunto d
 - Testar os filtros de categoria e a abertura de links externos.
 - Testar a área com o aplicativo em modo offline após atualização da PWA.
 - Conferir acessibilidade com leitor de tela.
+
+## Complemento — documentos primários relacionados a temas históricos
+
+O catálogo foi ampliado com oito documentos ou registros oficiais:
+1. Constituição Política do Império do Brasil (1824), relacionada ao período imperial.
+2. Lei nº 3.353 (Lei Áurea, 1888), relacionada à abolição e ao Império.
+3. Constituição republicana de 1891, relacionada à Primeira República.
+4. Constituição de 1934, relacionada à Era Vargas.
+5. Constituição de 1937, relacionada ao Estado Novo.
+6. Decreto estadual nº 1.816 (1937), sobre a transferência da capital para Goiânia.
+7. Constituição de 1988, ADCT art. 13, sobre a criação do Tocantins.
+8. Constituição Federal de 1988, relacionada à redemocratização e à Nova República.
+
+Cada documento inclui instituição responsável, ano, tipo documental, explicação de contexto, tema histórico relacionado e link para a fonte oficial. A busca textual existente filtra também os documentos. Os registros são apresentados como fontes para análise, não como narrativas neutras ou suficientes por si só.
+
+## Referências institucionais verificadas
+- Câmara dos Deputados — textos originais das Constituições de 1824, 1891, 1934 e 1937 e da Lei nº 3.353/1888.
+- Casa Civil do Governo de Goiás — relação oficial de leis e decretos relativos à construção e transferência da capital.
+- Presidência da República — Constituição de 1988 e ADCT, incluindo o art. 13.
+
+## Validação complementar
+- Oito documentos adicionais no catálogo.
+- Links de documentos direcionados a portais oficiais.
+- Busca integrada aos acervos e documentos.
+- Campos textuais dos cartões escapados antes da renderização.
+- Os oito módulos JSON históricos permanecem sem alterações.
