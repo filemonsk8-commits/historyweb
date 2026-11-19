@@ -1,4 +1,4 @@
-const CACHE_NAME = 'historyweb-pwa-v3';
+const CACHE_NAME = 'historyweb-pwa-v4';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -18,7 +18,12 @@ const ASSETS_TO_CACHE = [
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
+    caches.open(CACHE_NAME).then((cache) => {
+      const requests = ASSETS_TO_CACHE.map((asset) =>
+        new Request(new URL(asset, self.registration.scope), { cache: 'reload' })
+      );
+      return cache.addAll(requests);
+    })
   );
   self.skipWaiting();
 });
@@ -41,6 +46,23 @@ self.addEventListener('fetch', (event) => {
 
   if (request.method !== 'GET' || url.origin !== self.location.origin) return;
 
+  // Navegação online prioriza a versão publicada; offline usa a última cópia válida.
+  if (request.mode === 'navigate') {
+    event.respondWith(
+      fetch(request).then((response) => {
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put('./index.html', copy));
+        }
+        return response;
+      }).catch(async () => {
+        const cache = await caches.open(CACHE_NAME);
+        return (await cache.match('./index.html')) || Response.error();
+      })
+    );
+    return;
+  }
+
   event.respondWith(
     caches.open(CACHE_NAME).then(async (cache) => {
       const cached = await cache.match(request);
@@ -53,9 +75,6 @@ self.addEventListener('fetch', (event) => {
         }
         return response;
       } catch (error) {
-        if (request.mode === 'navigate') {
-          return (await cache.match('./index.html')) || Response.error();
-        }
         return Response.error();
       }
     })
