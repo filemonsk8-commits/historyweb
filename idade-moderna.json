@@ -506,31 +506,31 @@
     "local": "França",
     "sociedades_envolvidas": "Terceiro Estado (Burguesia, Camponeses, Trabalhadores), Nobreza, Clero e Monarquia",
     "tema": "Queda da Bastilha, Fim do Antigo Regime, Declaração dos Direitos do Homem e do Cidadão",
-    "contexto": "Profunda crise financeira, fome e revolta contra os privilégios absurdos do clero e da nobreza na França levaram à queda do Antigo Regime, servindo como o marco tradicional de encerramento da Idade Moderna.",
+    "contexto": "A crise fiscal da monarquia, a desigualdade tributária, a alta do preço dos alimentos e a contestação dos privilégios do clero e da nobreza contribuíram para a Revolução Francesa. O processo transformou profundamente as instituições políticas e sociais da França e é tradicionalmente utilizado como marco do fim da Idade Moderna.",
     "antecedentes": [
       "Sociedade estamental rigidamente desigual (1º Estado: Clero, 2º Estado: Nobreza, 3º Estado: Povo).",
-      "Grave crise econômica e fiscal agravada pela participação francesa na Independência dos EUA e secas agrícolas."
+      "Dificuldades fiscais acumuladas pela monarquia, agravadas por guerras — entre elas o apoio francês à independência dos Estados Unidos —, desigualdade na cobrança de impostos e crises de abastecimento, especialmente em 1788 e 1789."
     ],
     "causas": {
       "politicas": "Incapacidade da monarquia absolutista de Luís XVI em reformar impostos sem afetar os privilégios aristocráticos.",
       "economicas": "Fome generalizada, alta inflação do pão, déficit público crônico e falência financeira do Estado.",
-      "sociais": "Revolta do Terceiro Estado contra a exploração tributária exclusiva recaída sobre os mais pobres.",
-      "religiosas": "Crítica à aliança tradicional entre trono e altar e confisco de bens eclesiásticos.",
+      "sociais": "Contestação dos privilégios jurídicos e fiscais dos estamentos privilegiados e dos efeitos da crise econômica sobre camponeses, trabalhadores urbanos e setores da burguesia.",
+      "religiosas": "Questionamento dos privilégios e da influência política da Igreja no Antigo Regime; durante a Revolução, medidas como a nacionalização dos bens eclesiásticos e a Constituição Civil do Clero provocaram conflitos e divisões.",
       "culturais": "Difusão massiva dos ideais iluministas de liberdade, igualdade e fraternidade.",
       "territoriais": "Defesa revolucionária da pátria francesa contra invasões de monarquias absolutistas vizinhas.",
       "tecnologias": "Mobilização popular urbana e convocação histórica dos Estados Gerais."
     },
-    "resumo_card": "A Revolução Francesa de 1789 demolição o Antigo Regime, proclamou os direitos universais do homem e encerrou tradicionalmente a Idade Moderna, abrindo caminho para a Idade Contemporânea.",
-    "desenvolvimento": "Com a recusa de reformas pelos Estados Gerais, o povo de Paris tomou a prisão da Bastilha em 14 de julho de 1789. A Assembleia Nacional aboliu os privilégios feudais e publicou a Declaração dos Direitos do Homem e do Cidadão. O processo radicalizou-se com a proclamação da República, a execução de Luís XVI, a fase do Terror liderada pelos jacobinos, até culminar no golpe de Napoleão Bonaparte em 1799.",
+    "resumo_card": "A Revolução Francesa derrubou a monarquia absoluta, aboliu privilégios jurídicos do Antigo Regime e difundiu novas concepções de cidadania e soberania nacional. Seus resultados foram disputados e não significaram a conquista imediata de direitos iguais para toda a população.",
+    "desenvolvimento": "A crise política levou à convocação dos Estados Gerais em 1789. Em junho, representantes do Terceiro Estado proclamaram-se Assembleia Nacional; em 14 de julho, uma mobilização popular tomou a Bastilha. Na sequência, foram abolidos privilégios feudais e aprovada a Declaração dos Direitos do Homem e do Cidadão. A monarquia constitucional foi derrubada em 1792 e a República proclamada. Luís XVI foi executado em 1793. A Convenção atravessou disputas entre diferentes grupos revolucionários e o período do Terror (1793–1794), associado ao predomínio jacobino. Após o Diretório, o golpe de 18 de Brumário, em 1799, levou Napoleão Bonaparte ao poder.",
     "personagens": [
       "Luís XVI: Rei francês executado na guilhotina durante a radicalização revolucionária.",
       "Maria Antonieta: Rainha consorte decapitada no contexto da revolução.",
       "Maximilien Robespierre: Líder jacobino radical durante a fase do Terror revolucionário."
     ],
     "grupos_envolvidos": [
-      "Burguesia Moderada (Girondinos)",
-      "Radicais Urbanos e Camponeses (Jacobinos / Sans-culottes)",
-      "Aristocracia e Monarquias Absolutistas Europeias coalhadas contra a França"
+      "Girondinos e outros setores republicanos moderados, com posições diversas ao longo do processo revolucionário.",
+      "Jacobinos, sans-culottes e outros setores populares urbanos, que não constituíam um grupo único e tiveram interesses e formas de atuação distintos.",
+      "Nobreza, setores do clero e monarquias europeias contrárias à Revolução; as posições desses grupos também variaram ao longo do processo."
     ],
     "interesses_em_disputa": [
       "Igualdade jurídica civil, fim dos privilégios estamentais e controle do poder político do Estado."
@@ -541,22 +541,22 @@
       {"ano": 1792, "titulo": "Proclamação da República", "descricao": "Fim da monarquia constitucional e estabelecimento do governo republicano francês."}
     ],
     "consequencias_imediatas": [
-      "Fim dos privilégios feudais, da servidão residual e destruição da estrutura do Antigo Regime na França.",
-      "Início das Guerras Napoleônicas, que espalharam ideias liberais e nacionalistas por toda a Europa."
+      "Abolição de privilégios feudais e estamentais em etapas, transformação das relações entre Estado e Igreja e reorganização das instituições políticas e jurídicas francesas.",
+      "A guerra contra potências europeias começou em 1792; a expansão militar francesa e as Guerras Napoleônicas ocorreram em fases posteriores, sobretudo a partir de 1803."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação definitiva do sistema capitalista burguês e dos Estados liberais contemporâneos no mundo.",
-      "Origem das divisões políticas modernas entre Esquerda e Direita."
+      "Difusão de princípios de igualdade jurídica, soberania nacional e cidadania, embora sua aplicação tenha sido desigual e contestada e não tenha eliminado as desigualdades sociais.",
+      "Consolidação de novas linguagens e divisões políticas, incluindo as noções modernas de esquerda e direita, cuja origem está associada às posições ocupadas na Assembleia durante a Revolução."
     ],
     "impactos": {
       "politicos": "Destruição do absolutismo monárquico e ascensão da soberania nacional representativa.",
       "economicos": "Eliminação de barreiras alfandegárias internas e consolidação das leis de livre mercado capitalista.",
-      "sociais": "Substituição da sociedade estamental de privilégios hereditários pela sociedade de classes baseada na riqueza e mérito.",
-      "culturais": "Universalização de conceitos modernos de cidadania, direitos humanos, laicismo e nação.",
+      "sociais": "Desmonte da sociedade de ordens e dos privilégios jurídicos, sem eliminar desigualdades econômicas; mulheres, pessoas escravizadas nas colônias e outros grupos permaneceram excluídos de muitos direitos.",
+      "culturais": "Difusão de ideias de cidadania, nação, direitos e laicidade, em meio a conflitos sobre religião, autoridade e os limites da participação política.",
       "territoriais": "Expansão e reconfiguração das fronteiras europeias pelas campanhas da era napoleônica.",
       "ambientais": "Sem impactos ecológicos diretos causados pelas rupturas institucionais da época."
     },
     "continuidade": "Permanência de desigualdades socioeconômicas e exclusão inicial das mulheres dos direitos políticos plenos.",
-    "rupturas": "Colapso total e irreversível das estruturas políticas, jurídicas e sociais do Antigo Regime europeu."
+    "rupturas": "Ruptura profunda com instituições e privilégios do Antigo Regime na França, embora muitas estruturas sociais e desigualdades tenham persistido e o processo tenha passado por diferentes regimes políticos."
   }
 ]
