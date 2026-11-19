@@ -362,140 +362,195 @@
   },
   {
     "id": "atualidades-2023",
-    "titulo_principal": "ATUALIDADES (2023): INTELIGÊNCIA ARTIFICIAL E A GUERRA EM GAZA",
+    "titulo_principal": "ATUALIDADES (2023): GUERRA EM GAZA, INTELIGÊNCIA ARTIFICIAL E CRISE CLIMÁTICA",
     "ano_inicio": 2023,
     "ano_fim": 2023,
     "periodo": "Atualidades Mundiais",
     "local": "Global / Oriente Médio",
-    "sociedades_envolvidas": "Israel, Hamas, População de Gaza, Comunidade Internacional",
-    "tema": "IA Generativa, Regulamentação da IA, Guerra Israel-Hamas, Crise Humanitária em Gaza, Clima Extremo, Disputa Tecnológica EUA-China",
-    "contexto": "O ano de 2023 foi marcado pela explosão comercial da inteligência artificial generativa e pela eclosão de uma devastadora guerra no Oriente Médio entre Israel e o Hamas, além de recordes absolutos de eventos climáticos extremos.",
+    "sociedades_envolvidas": "Populações de Israel e dos territórios palestinos, comunidades internacionais, governos, empresas de tecnologia e populações afetadas por eventos climáticos",
+    "tema": "Ataques de 7 de outubro e guerra em Gaza, crise humanitária, expansão da inteligência artificial generativa, regulação tecnológica, rivalidade entre potências e recordes climáticos",
+    "contexto": "Em 2023, a inteligência artificial generativa ganhou ampla visibilidade pública e entrou no centro de debates sobre trabalho, educação, direitos e regulação. No Oriente Médio, os ataques liderados pelo Hamas em 7 de outubro e a subsequente campanha militar israelense na Faixa de Gaza produziram uma grave crise humanitária. O ano também foi marcado por recordes de temperatura e eventos climáticos extremos.",
     "antecedentes": [
-      "Acirramento secular do conflito israelo-palestino e avanço exponencial da computação em nuvem."
+      "Os ataques de 7 de outubro ocorreram em um contexto de longa duração de conflito, ocupação, bloqueio da Faixa de Gaza, disputas territoriais e fracasso de sucessivas iniciativas de paz; esses antecedentes não justificam ataques deliberados contra civis.",
+      "A inteligência artificial generativa tinha antecedentes científicos e comerciais anteriores a 2023; a disponibilização do ChatGPT ao público no fim de 2022 acelerou sua adoção e a atenção pública.",
+      "A concentração de infraestrutura computacional, chips avançados e investimentos em poucas empresas e países ampliou disputas econômicas e geopolíticas em torno das tecnologias digitais."
     ],
     "causas": {
-      "politicas": "Ataque surpresa do Hamas a Israel em 7 de outubro de 2023 e retaliação militar maciça em Gaza.",
-      "economicas": "Corrida bilionária entre empresas de tecnologia (EUA e China) para dominar o mercado de chips e inteligência artificial.",
-      "sociais": "Colapso humanitário na Faixa de Gaza e debates éticos profundos sobre o impacto da IA no futuro dos empregos.",
-      "religiosas": "Fator religioso e territorial profundamente enraizado no conflito de Jerusalém e Gaza.",
-      "culturais": "Preocupação global com desinformação, 'deepfakes' e ética algorítmica.",
-      "territoriais": "Disputa territorial e soberana no Oriente Médio e cerco militar à Faixa de Gaza.",
-      "tecnologias": "Consolidação de modelos de linguagem de grande escala (LLMs) no cotidiano produtivo global."
+      "politicas": "Os ataques de 7 de outubro foram realizados pelo Hamas e por outros grupos armados palestinos contra localidades e instalações em Israel. Israel respondeu com operações militares de grande escala na Faixa de Gaza. A escalada deve ser compreendida no contexto histórico do conflito, sem confundir contextualização com justificativa para violações do direito internacional humanitário.",
+      "economicas": "A expansão de serviços de IA impulsionou investimentos em chips, centros de dados e computação em nuvem. Ao mesmo tempo, a guerra e as incertezas regionais afetaram rotas comerciais e expectativas econômicas.",
+      "sociais": "A população civil de Gaza enfrentou mortes, deslocamento, destruição de moradias e dificuldades de acesso a água, alimentos, energia e atendimento médico. Em diferentes países, a adoção da IA gerou debates sobre emprego, desigualdade digital e acesso à educação.",
+      "religiosas": "Jerusalém e outros lugares possuem significado para diferentes tradições religiosas, mas a guerra não pode ser reduzida a um confronto religioso: envolve história, território, soberania, segurança, nacionalismo e direitos.",
+      "culturais": "A circulação de imagens, vídeos, propaganda e desinformação nas redes digitais intensificou debates sobre representação do conflito, discurso de ódio e verificação de informações.",
+      "territoriais": "A guerra agravou a disputa sobre o futuro político dos territórios palestinos, a segurança de Israel, a ocupação e a possibilidade de uma solução política que reconheça direitos e segurança para ambas as populações.",
+      "tecnologias": "Modelos generativos de texto, imagem e áudio tornaram-se mais acessíveis, enquanto governos passaram a discutir riscos de discriminação algorítmica, privacidade, autoria, segurança e concentração econômica."
     },
-    "resumo_card": "Abrange a expansão acelerada da IA generativa, debates de regulamentação da IA, a guerra entre Israel e Hamas, crise humanitária em Gaza, eventos climáticos extremos, impactos no trabalho/educação e a disputa EUA-China.",
-    "desenvolvimento": "Em 2023, a inteligência artificial generativa transformou-se em pauta central de governos, exigindo debates sobre regulação, segurança e o futuro do trabalho. No Oriente Médio, o ataque do Hamas em 7 de outubro e a subsequente invasão israelense a Gaza desencadearam uma gravíssima crise humanitária. O ano também bateu recordes de temperatura e eventos climáticos extremos globais.",
+    "resumo_card": "Reúne a guerra em Gaza após os ataques de 7 de outubro, a crise humanitária, a popularização da IA generativa, os debates iniciais de regulação e os recordes climáticos de 2023.",
+    "desenvolvimento": "Em 7 de outubro de 2023, o Hamas e outros grupos armados realizaram ataques em Israel, matando civis e militares e fazendo reféns. Israel iniciou uma ampla operação militar na Faixa de Gaza, com bombardeios e operações terrestres, provocando uma grave crise humanitária, deslocamentos em massa e destruição de infraestrutura civil. A situação mobilizou organismos internacionais e ampliou divisões diplomáticas. A contextualização histórica do conflito não elimina a obrigação de todas as partes respeitarem o direito internacional humanitário e protegerem civis. Na tecnologia, ferramentas de inteligência artificial generativa passaram a ser usadas em atividades cotidianas, no trabalho e na educação. Governos, universidades e empresas discutiram confiabilidade, direitos autorais, privacidade, vieses e impactos no emprego. Em novembro, a Cúpula de Segurança da IA de Bletchley Park reuniu representantes de governos, empresas e pesquisadores para debater riscos e cooperação. A União Europeia avançou nas negociações do AI Act, cujo acordo político foi alcançado em dezembro de 2023; a lei só entrou em vigor em agosto de 2024. Na área ambiental, a Organização Meteorológica Mundial confirmou posteriormente que 2023 foi o ano mais quente já registrado até então, com eventos extremos que afetaram populações e economias em várias regiões.",
     "personagens": [
-      "Lideranças políticas de Israel e autoridades palestinas do Hamas.",
-      "Executivos das principais empresas desenvolvedoras de IA."
+      "Lideranças políticas israelenses e palestinas e representantes de organismos internacionais envolvidos nas respostas diplomáticas e humanitárias.",
+      "Pesquisadores, desenvolvedores, trabalhadores e educadores envolvidos na criação, adoção e avaliação de sistemas de inteligência artificial.",
+      "Comunidades afetadas por ondas de calor, incêndios, enchentes e outros eventos extremos."
     ],
     "grupos_envolvidos": [
-      "Forças de Defesa de Israel",
-      "Milícias do Hamas",
-      "Agências Humanitárias da ONU"
+      "População civil israelense e palestina, pessoas mantidas como reféns e pessoas deslocadas",
+      "Organizações humanitárias e agências das Nações Unidas",
+      "Empresas de tecnologia, pesquisadores, governos e instituições educacionais",
+      "Comunidades, trabalhadores e organizações que atuam na adaptação e mitigação climática"
     ],
     "interesses_em_disputa": [
-      "Segurança nacional israelense e aspirações de autodeterminação palestina; controle da vanguarda tecnológica global."
+      "Segurança de civis, libertação de reféns, proteção humanitária, autodeterminação palestina e segurança de Israel.",
+      "Desenvolvimento e acesso à inteligência artificial versus proteção de direitos, transparência, segurança e responsabilização.",
+      "Interesses econômicos de setores intensivos em energia versus redução de emissões e adaptação às mudanças climáticas."
     ],
     "linha_do_tempo": [
       {
         "ano": 2023,
-        "titulo": "Boom da IA Generativa",
-        "descricao": "Adoção em massa de ferramentas de inteligência artificial em empresas e escolas."
+        "titulo": "7 de outubro — ataques em Israel e escalada da guerra",
+        "descricao": "Hamas e outros grupos armados atacam localidades israelenses e fazem reféns; Israel inicia uma campanha militar de grande escala na Faixa de Gaza."
       },
       {
         "ano": 2023,
-        "titulo": "Eclosão da Guerra Israel-Hamas",
-        "descricao": "Ataques de 7 de outubro e início da ofensiva militar israelense em Gaza."
+        "titulo": "Outubro — ampliação da crise humanitária",
+        "descricao": "A escalada militar e as restrições de acesso agravam deslocamentos e necessidades de proteção e assistência à população civil de Gaza."
+      },
+      {
+        "ano": 2023,
+        "titulo": "1 e 2 de novembro — Cúpula de Segurança da IA",
+        "descricao": "Governos, empresas e especialistas se reúnem em Bletchley Park para discutir riscos e cooperação internacional em inteligência artificial."
+      },
+      {
+        "ano": 2023,
+        "titulo": "Novembro e dezembro — negociações europeias sobre IA",
+        "descricao": "Instituições da União Europeia alcançam acordo político sobre o AI Act em dezembro; a legislação ainda passaria por etapas formais antes de entrar em vigor."
+      },
+      {
+        "ano": 2023,
+        "titulo": "Dezembro — COP28",
+        "descricao": "A conferência climática em Dubai aprova um texto que inclui referência à transição para longe dos combustíveis fósseis nos sistemas energéticos."
       }
     ],
     "consequencias_imediatas": [
-      "Dezenas de milhares de vítimas civis em Gaza e desestabilização geopolítica do Oriente Médio.",
-      "Início da corrida regulatória mundial sobre os limites éticos e de segurança da inteligência artificial."
+      "Os ataques de 7 de outubro e a resposta militar israelense produziram uma grave crise humanitária, com mortes, reféns, deslocamentos e destruição em Gaza.",
+      "A IA generativa passou a integrar debates públicos sobre educação, trabalho, direitos autorais, privacidade, segurança e desinformação.",
+      "Os recordes de calor e eventos extremos ampliaram a atenção sobre adaptação climática, perdas econômicas e vulnerabilidade de populações."
     ],
     "consequencias_longo_prazo": [
-      "Reestruturação profunda do mercado de trabalho e dos processos educacionais devido à automação cognitiva."
+      "A guerra reacendeu debates sobre governança dos territórios palestinos, segurança regional, proteção de civis e caminhos diplomáticos para uma solução política.",
+      "A regulação da inteligência artificial avançou em diferentes jurisdições, com implementação gradual e disputas sobre responsabilidades e limites.",
+      "Os impactos climáticos reforçaram a necessidade de políticas de mitigação, adaptação e financiamento, sem que uma única conferência resolvesse os desafios."
     ],
     "impactos": {
-      "politicos": "Polarização diplomática global em torno do conflito em Gaza e divisão Norte-Sul.",
-      "economicos": "Altos investimentos em semicondutores e infraestrutura de computação para IA.",
-      "sociais": "Protestos mundiais massivos pró-palestinos e pró-israelenses; ansiedade com desemprego tecnológico.",
-      "culturais": "Mudança estrutural na produção de conteúdos, textos, imagens e códigos informáticos.",
-      "territoriais": "Destruição urbana extensiva na Faixa de Gaza.",
-      "ambientais": "Evidências científicas irrefutáveis de aceleração de ondas de calor e eventos climáticos extremos."
+      "politicos": "A guerra aprofundou divisões diplomáticas e mobilizou organismos internacionais; a inteligência artificial passou a ocupar espaço central em agendas regulatórias e de segurança.",
+      "economicos": "Investimentos em chips e centros de dados cresceram, enquanto conflitos e incertezas afetaram comércio, energia e expectativas de mercado.",
+      "sociais": "A população civil em Gaza enfrentou emergência humanitária; trabalhadores e estudantes passaram a lidar com oportunidades e riscos associados à IA generativa.",
+      "culturais": "A produção e circulação de textos, imagens e vídeos por IA alterou práticas culturais e ampliou discussões sobre autoria, autenticidade e desinformação.",
+      "territoriais": "A destruição e os deslocamentos em Gaza agravaram a crise territorial e humanitária, sem resolver as questões de soberania e autodeterminação.",
+      "ambientais": "2023 foi confirmado como o ano mais quente do registro instrumental até então, com extremos de calor, oceanos aquecidos e impactos socioeconômicos."
     },
-    "continuidade": "Avanço tecnológico vertiginoso em conflito com a lentidão regulatória ética estatal.",
-    "rupturas": "Entrada oficial da inteligência artificial na economia cognitiva cotidiana de massa."
+    "continuidade": "Persistência do conflito israelo-palestino, desigualdades no acesso à tecnologia, concentração econômica digital e agravamento dos riscos associados às mudanças climáticas.",
+    "rupturas": "A IA generativa passou a ser utilizada em escala ampla por públicos não especializados; a guerra iniciada em outubro de 2023 abriu nova fase de devastação e emergência humanitária em Gaza."
   },
   {
     "id": "atualidades-2024",
-    "titulo_principal": "ATUALIDADES (2024): ELEIÇÕES GLOBAIS, TRUMP E A QUEDA DE ASSAD",
+    "titulo_principal": "ATUALIDADES (2024): ELEIÇÕES GLOBAIS, CRISES GEOPOLÍTICAS E TRANSIÇÕES",
     "ano_inicio": 2024,
     "ano_fim": 2024,
     "periodo": "Atualidades Mundiais",
     "local": "Global / Estados Unidos / Oriente Médio",
-    "sociedades_envolvidas": "Eleitores Globais, Estados Unidos, Ucrânia, Rússia, Síria",
-    "tema": "Superciclo eleitoral, Retorno de Donald Trump, Guerra na Ucrânia, Crise no Oriente Médio, Jogos Olímpicos de Paris, Queda de Bashar al-Assad, Investimentos em IA, Desinformação",
-    "contexto": "Um ano de eleições históricas em dezenas de países que representavam metade da população mundial, culminando no retorno de Donald Trump à presidência dos EUA, na continuação das guerras na Ucrânia e em Gaza, e na queda surpresa do regime sírio.",
+    "sociedades_envolvidas": "Eleitores e populações de dezenas de países, sociedades em guerra, comunidades afetadas por eventos climáticos, atletas e trabalhadores de diferentes regiões",
+    "tema": "Superciclo eleitoral, eleições nos Estados Unidos, guerras na Ucrânia e em Gaza, queda do governo Assad na Síria, Jogos Olímpicos de Paris, regulação da IA e recordes climáticos",
+    "contexto": "Em 2024, dezenas de países realizaram eleições nacionais em um ano de grande mobilização eleitoral. Conflitos na Ucrânia e em Gaza continuaram, o governo de Bashar al-Assad caiu na Síria em dezembro, a União Europeia colocou em vigor sua lei abrangente sobre inteligência artificial e eventos climáticos extremos reforçaram a urgência da agenda ambiental.",
     "antecedentes": [
-      "Polarização política global, erosão de democracias liberais e desgaste de governos incumbentes pós-pandemia."
+      "A polarização política, a desinformação digital, a inflação acumulada e a insatisfação com governos incumbentes influenciaram diferentes campanhas eleitorais, mas os resultados variaram conforme a história e as condições de cada país.",
+      "A guerra em larga escala na Ucrânia desde fevereiro de 2022 e a guerra em Gaza desde outubro de 2023 continuaram a produzir consequências humanitárias e diplomáticas.",
+      "A guerra civil síria, iniciada em 2011, envolveu o governo Assad, grupos opositores, organizações armadas e intervenções de potências regionais e internacionais.",
+      "A expansão da IA generativa desde 2022 e as negociações europeias de 2023 prepararam a entrada em vigor do AI Act em 2024."
     ],
     "causas": {
-      "politicas": "Insatisfação de eleitores com a inflação e imigração, resultando em vitórias da oposição em eleições globais (destaque para os EUA).",
-      "economicas": "Custo de vida elevado e pressões inflacionárias persistentes em várias economias.",
-      "sociais": "Disseminação em larga escala de desinformação baseada em deepfakes e IA durante os ciclos eleitorais.",
-      "religiosas": "Tensões sectárias e religiosas alimentando conflitos prolongados no Oriente Médio.",
-      "culturais": "Aumento do ceticismo em relação à mídia tradicional e ascensão de lideranças populistas.",
-      "territoriais": "Colapso do regime de Bashar al-Assad na Síria e redistribuição de poder entre milícias e rebeldes.",
-      "tecnologias": "Intensificação de investimentos corporativos massivos em infraestrutura de IA e datacenters."
+      "politicas": "O calendário eleitoral de dezenas de países reuniu disputas distintas sobre representação, confiança institucional, economia, segurança, imigração e políticas públicas. Não houve uma única causa ou uma guinada política uniforme em escala mundial.",
+      "economicas": "Custo de vida, inflação, desigualdade e preocupações com emprego e crescimento influenciaram debates eleitorais, com intensidade variável em cada sociedade.",
+      "sociais": "A polarização, as desigualdades, os movimentos de protesto e a circulação de conteúdos digitais influenciaram a participação pública e a confiança nas instituições.",
+      "religiosas": "Identidades e instituições religiosas participaram de debates políticos em diferentes países, mas não explicam isoladamente eleições ou conflitos internacionais.",
+      "culturais": "A desinformação, a fragmentação do espaço público e as disputas sobre identidade e direitos apareceram em campanhas e mobilizações sociais.",
+      "territoriais": "A ofensiva de grupos opositores na Síria em novembro e dezembro de 2024 levou à queda do governo Assad; a reorganização do poder permaneceu incerta após a mudança de regime.",
+      "tecnologias": "O uso de IA em campanhas, a circulação de conteúdos sintéticos e a concentração de infraestrutura digital estimularam medidas de transparência e regulação, como a implementação inicial do AI Act europeu."
     },
-    "resumo_card": "Abrange as eleições globais de 2024, o retorno de Donald Trump à presidência dos EUA, a continuidade da guerra Rússia-Ucrânia e no Oriente Médio, os Jogos Olímpicos de Paris, a queda de Bashar al-Assad na Síria e o debate sobre desinformação em eleições com IA.",
-    "desenvolvimento": "O ano de 2024 foi o maior ciclo eleitoral da história, com votações na Índia, União Europeia, Brasil (municipais) e nos Estados Unidos, onde Donald Trump venceu e assegurou o retorno à Casa Blanca. Geopoliticamente, as guerras na Ucrânia e em Gaza mantiveram-se em patamares críticos, enquanto no final do ano a Síria surpreendeu o mundo com a queda relâmpago do ditador Bashar al-Assad. Na tecnologia, a IA consolidou-se no centro dos investimentos, gerando forte debate sobre desinformação nas urnas.",
+    "resumo_card": "Abrange as eleições em 74 países, a vitória eleitoral de Donald Trump nos EUA, as guerras na Ucrânia e em Gaza, a queda de Assad na Síria, os Jogos de Paris, a entrada em vigor do AI Act e o recorde climático de 2024.",
+    "desenvolvimento": "2024 foi descrito pela International IDEA como um superciclo eleitoral: ocorreram 74 eleições nacionais em 62 países, com cerca de 1,6 bilhão de votos depositados. Os resultados foram diversos e não podem ser resumidos como uma virada política uniforme. Nos Estados Unidos, Donald Trump venceu a eleição presidencial de 5 de novembro, mas só tomou posse em 20 de janeiro de 2025. Na Índia, Narendra Modi iniciou um terceiro mandato, desta vez à frente de uma coalizão; no México, Claudia Sheinbaum foi eleita a primeira mulher presidente do país. A guerra na Ucrânia e a guerra em Gaza continuaram, enquanto o Conselho de Segurança da ONU aprovou resoluções que trataram de propostas de cessar-fogo e proteção humanitária. Em dezembro, uma ofensiva de grupos opositores derrubou o governo de Bashar al-Assad na Síria, encerrando seu domínio, mas deixando um cenário de transição incerto e fragmentado. A União Europeia colocou o AI Act em vigor em 1º de agosto, com aplicação escalonada de suas regras. Os Jogos Olímpicos de Paris reuniram atletas de todo o mundo entre julho e agosto. Na área climática, 2024 foi confirmado posteriormente como o ano mais quente já registrado, com média global estimada em 1,60 °C acima do nível pré-industrial no conjunto de dados Copernicus. Esse dado anual não significa que a meta de longo prazo do Acordo de Paris tenha sido formalmente ultrapassada, pois ela é avaliada em médias de várias décadas.",
     "personagens": [
-      "Donald Trump: Presidente eleito dos Estados Unidos.",
-      "Bashar al-Assad: Ex-ditador deposto da Síria."
+      "Donald Trump, eleito presidente dos Estados Unidos em novembro de 2024, e Kamala Harris, candidata democrata.",
+      "Claudia Sheinbaum, eleita presidente do México, e Narendra Modi, que iniciou novo mandato na Índia.",
+      "Bashar al-Assad, cujo governo foi derrubado em dezembro, e representantes de diferentes grupos sírios envolvidos na transição.",
+      "Atletas, organizadores e participantes dos Jogos Olímpicos e Paralímpicos de Paris."
     ],
     "grupos_envolvidos": [
-      "Governos Eleitos em 2024",
-      "Rebeldes Sírios",
-      "Comitê Olímpico Internacional (Jogos de Paris)"
+      "Eleitores, partidos, candidatos, órgãos eleitorais e organizações de observação",
+      "Populações civis da Ucrânia, de Gaza e da Síria, além de organizações humanitárias",
+      "Instituições da União Europeia, empresas de tecnologia e organizações de defesa de direitos digitais",
+      "Atletas, comitês olímpicos, trabalhadores e comunidades anfitriãs",
+      "Comunidades afetadas por ondas de calor, enchentes, secas e outros eventos extremos"
     ],
     "interesses_em_disputa": [
-      "Rumo da política externa dos EUA, integridade da informação democrática e controle territorial na Síria."
+      "Representação política, integridade eleitoral, participação cidadã e confiança nas instituições.",
+      "Soberania e segurança na Ucrânia, proteção de civis em Gaza e futuro político da Síria.",
+      "Inovação tecnológica e competitividade econômica versus transparência, segurança e proteção de direitos fundamentais.",
+      "Organização de grandes eventos esportivos, direitos dos trabalhadores, inclusão e sustentabilidade.",
+      "Desenvolvimento econômico e energético versus redução de emissões e adaptação climática."
     ],
     "linha_do_tempo": [
       {
         "ano": 2024,
-        "titulo": "Superano Eleitoral Global",
-        "descricao": "Ciclo histórico de eleições em dezenas de países."
+        "titulo": "Março — eleição presidencial no Senegal",
+        "descricao": "Bassirou Diomaye Faye vence a eleição, em um processo que se tornou referência de alternância política na região."
       },
       {
         "ano": 2024,
-        "titulo": "Queda de Bashar al-Assad",
-        "descricao": "Colapso do regime sírio após ofensiva relâmpago de oposicionistas em dezembro."
+        "titulo": "Junho — resolução da ONU sobre proposta de cessar-fogo em Gaza",
+        "descricao": "O Conselho de Segurança aprova a Resolução 2735, que apoia uma proposta de cessar-fogo em fases e a libertação de reféns."
       },
       {
         "ano": 2024,
-        "titulo": "Retorno de Donald Trump",
-        "descricao": "Vitória eleitoral republicana nos Estados Unidos em novembro."
+        "titulo": "1º de agosto — entrada em vigor do AI Act",
+        "descricao": "A lei europeia de inteligência artificial entra em vigor, com obrigações aplicadas gradualmente."
+      },
+      {
+        "ano": 2024,
+        "titulo": "26 de julho a 11 de agosto — Jogos Olímpicos de Paris",
+        "descricao": "A capital francesa recebe os Jogos Olímpicos de Verão."
+      },
+      {
+        "ano": 2024,
+        "titulo": "5 de novembro — eleição presidencial dos EUA",
+        "descricao": "Donald Trump vence a eleição; a posse ocorre apenas em janeiro de 2025."
+      },
+      {
+        "ano": 2024,
+        "titulo": "8 de dezembro — queda do governo Assad na Síria",
+        "descricao": "Após ofensiva de grupos opositores, Bashar al-Assad deixa o poder e inicia-se uma transição política incerta."
       }
     ],
     "consequencias_imediatas": [
-      "Mudança iminente na postura dos EUA em acordos climáticos, comerciais e no apoio à Ucrânia.",
-      "Reorganização completa do mapa de poder no Oriente Médio após a queda de Assad."
+      "A vitória eleitoral de Trump iniciou o processo de transição presidencial nos Estados Unidos, sem que ele assumisse o cargo ainda em 2024.",
+      "A queda do governo Assad encerrou décadas de domínio da família Assad, mas não solucionou automaticamente os conflitos e as divisões internas da Síria.",
+      "O AI Act criou um marco regulatório comum na União Europeia, com aplicação escalonada e prazos distintos para diferentes obrigações.",
+      "Os conflitos na Ucrânia e em Gaza continuaram a produzir deslocamentos, perdas humanas e necessidades humanitárias."
     ],
     "consequencias_longo_prazo": [
-      "Erosão continuada da confiança nas instituições democráticas tradicionais devido à enxurrada de desinformação digital."
+      "As eleições de 2024 deixaram desafios sobre confiança pública, integridade eleitoral, representação, participação e qualidade democrática.",
+      "A transição síria passou a depender de negociações políticas, segurança, proteção de minorias, reconstrução e participação de diferentes setores da sociedade.",
+      "A aplicação do AI Act passou a influenciar debates internacionais sobre regulação e governança da inteligência artificial.",
+      "Os recordes de temperatura reforçaram a necessidade de políticas climáticas e de preparação para eventos extremos; um ano acima de 1,5 °C não equivale, isoladamente, ao limite de longo prazo do Acordo de Paris."
     ],
     "impactos": {
-      "politicos": "Virada à direita em vários espectros políticos globais e reavaliação de alianças tradicionais.",
-      "economicos": "Expectativa de protecionismo tarifário agressivo por parte da nova administração norte-americana.",
-      "sociais": "Polarização cívica acentuada durante os pleitos eleitorais.",
-      "culturais": "Banimento de barreiras tradicionais na circulação de notícias falsas geradas por IA.",
-      "territoriais": "Fim de meio século de dinastia familiar no poder da Síria.",
-      "ambientais": "Manutenção de debates climáticos sob o ceticismo político de novos governos eleitos."
+      "politicos": "O superciclo eleitoral revelou alternância de poder, continuidade de governos e disputas sobre integridade eleitoral em contextos diferentes; a queda de Assad abriu uma transição incerta na Síria.",
+      "economicos": "Conflitos, juros, inflação e disputas comerciais afetaram decisões econômicas; investimentos em IA e infraestrutura digital continuaram crescendo.",
+      "sociais": "Guerras e crises políticas mantiveram deslocamentos e necessidades humanitárias; eventos extremos afetaram moradia, saúde, trabalho e renda.",
+      "culturais": "Os Jogos de Paris tiveram projeção global; campanhas eleitorais e debates sobre IA intensificaram discussões sobre informação, identidade e participação pública.",
+      "territoriais": "A queda do governo Assad alterou o controle político na Síria, enquanto a guerra na Ucrânia e a situação em Gaza continuaram sem solução territorial duradoura.",
+      "ambientais": "2024 foi o ano mais quente do registro instrumental segundo Copernicus, com eventos extremos e impactos sobre populações e ecossistemas."
     },
-    "continuidade": "Instabilidade bélica internacional e corrida tecnológica corporativa.",
-    "rupturas": "Queda abrupta de um dos regimes autoritários mais antigos do Oriente Médio (Síria)."
+    "continuidade": "Persistência de conflitos armados, polarização política, desigualdades, disputas sobre governança digital e agravamento dos riscos climáticos.",
+    "rupturas": "A queda do governo Assad encerrou uma etapa da história política síria; a entrada em vigor do AI Act inaugurou uma fase regulatória relevante na União Europeia; o superciclo eleitoral evidenciou a dimensão global das disputas sobre representação e confiança democrática."
   },
   {
     "id": "atualidades-2025",
