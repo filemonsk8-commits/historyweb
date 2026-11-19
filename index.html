@@ -1218,7 +1218,7 @@
                 let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${escaparHTML(i)}</li>`).join('')}</ul>` : '';
                 let htmlMarcos = item.linha_do_tempo ? `<ol class="sub-timeline" aria-label="Linha do tempo dos principais acontecimentos">${item.linha_do_tempo.map(ev => `
                     <li class="timeline-evento">
-                        <time class="evento-ano">${formatarAno(ev.ano)}</time>
+                        <span class="evento-ano">${formatarAno(ev.ano)}</span>
                         <h3 class="evento-titulo">${escaparHTML(ev.titulo)}</h3>
                         <p class="secao-texto">${escaparHTML(ev.descricao)}</p>
                     </li>`).join('')}</ol>` : '';
