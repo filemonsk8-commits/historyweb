@@ -188,56 +188,56 @@
     "local": "Minas Gerais, Bahia, Maranhão e Pernambuco",
     "sociedades_envolvidas": "Coroa Portuguesa, Mineradores, Homens Bons, Escravizados e Inconfidentes",
     "tema": "Descoberta do Ouro, Ciclo do Ouro, Vilas e Cidades, Casas de Fundição, Revolta de Beckman, Guerra dos Emboabas, Guerra dos Mascates, Revolta de Vila Rica, Inconfidência Mineira e Conjuração Baiana",
-    "contexto": "Século XVIII marcado pela descoberta de ouro e diamantes na região das Minas, deslocando o eixo econômico para o Sudeste, gerando urbanização e estimulando revoltas nativistas e separatistas contra o pacto colonial.",
+    "contexto": "Entre o final do século XVII e o final do XVIII, a mineração de ouro e diamantes estimulou migrações, formação de vilas, circulação de mercadorias e mudanças na administração portuguesa da América. A mineração não substituiu por completo outras atividades econômicas nem deslocou de forma simples e definitiva o centro econômico colonial. A cobrança de tributos, disputas locais, escravização e desigualdades alimentaram conflitos e movimentos de contestação com objetivos diversos.",
     "antecedentes": [
-      "Exaustão gradual do ciclo do açúcar nordestino e exploração exaustiva dos sertões pelos bandeirantes."
+      "Expansão das entradas e bandeiras, redes comerciais internas e atividades agropecuárias que abasteciam os núcleos mineradores; a economia açucareira continuou ativa, apesar de crises e concorrência."
     ],
     "causas": {
-      "politicas": "Aumento draconiano da fiscalização metropolitana, criação das Casas de Fundição e cobrança abusiva de quintos.",
-      "economicas": "Descoberta de minas auríferas e diamantíferas, inflação de preços nas alterosas e monopólio comercial.",
-      "sociais": "Choque entre bandeirantes descobridores e forasteiros (Emboabas), além de revoltas populares contra impostos (Ex: Sedição de Vila Rica).",
-      "religiosas": "Participação de padres e intelectuais letrados nas conspirações iluministas do final do século XVIII.",
-      "culturais": "Surgimento de um ambiente urbano letrado em Minas Gerais com florescimento do Barroco (Aleijadinho, Ataíde).",
-      "territoriais": "Deslocamento populacional em massa do litoral para o interior mineiro e goiano.",
+      "politicas": "Tentativas da Coroa de controlar a extração e a circulação do ouro e dos diamantes, organizar a administração das áreas mineradoras e assegurar a cobrança de tributos, como o quinto.",
+      "economicas": "Descoberta de jazidas auríferas e diamantíferas, crescimento de mercados internos e aumento da demanda por alimentos, animais, ferramentas e trabalho escravizado; a tributação e as restrições comerciais provocaram tensões.",
+      "sociais": "Conflitos entre paulistas e grupos vindos de outras regiões na disputa por áreas de mineração, além de tensões entre autoridades, comerciantes, proprietários, trabalhadores livres e pessoas escravizadas.",
+      "religiosas": "Clérigos participaram de diferentes redes sociais e políticas; alguns se envolveram em movimentos de contestação, mas as revoltas não podem ser explicadas como fenômenos essencialmente religiosos.",
+      "culturais": "Crescimento de núcleos urbanos e circulação de livros, ideias políticas e práticas artísticas, incluindo o Barroco; o acesso à cultura letrada permaneceu restrito e desigual.",
+      "territoriais": "Expansão da ocupação colonial para áreas interiores, incluindo regiões que hoje correspondem a Minas Gerais, Goiás e Mato Grosso, por meio da mineração, de rotas comerciais e de conflitos com povos indígenas.",
       "tecnologias": "Técnicas de faiscação e mineração aluvial aurífera."
     },
-    "resumo_card": "Abrange o ciclo do ouro e dos diamantes em Minas Gerais, o crescimento de vilas, Casas de Fundição, e as revoltas coloniais: Revolta de Beckman (1684), Emboabas (1707), Mascates (1710), Vila Rica (1720), Inconfidência Mineira (1789) e Conjuração Baiana (1798).",
-    "desenvolvimento": "No final do século XVII, bandeirantes acharam ouro em Minas Gerais, inaugurando o Ciclo do Ouro. A região urbanizou-se rapidamente, gerando conflitos como a Guerra dos Emboabas (1707) e a Revolta de Vila Rica (1720). Para conter o extravio de ouro, Portugal impôs forte fiscalização e as Casas de Fundição. A opressão fiscal e o atraso colonial geraram revoltas nativistas (Beckman, Mascates) e, inspiradas pelo Iluminismo, conspirações separatistas: a Inconfidência Mineira (1789, elitista e inativada com o sacrifício de Tiradentes) e a Conjuração Baiana (1798, popular, abolicionista e republicana na Bahia).",
+    "resumo_card": "A mineração de ouro e diamantes transformou a economia e a sociedade colonial, estimulando vilas, comércio e maior fiscalização. Conflitos como Emboabas, Mascates e Vila Rica tiveram causas distintas; no final do século XVIII, a Inconfidência Mineira e a Conjuração Baiana formularam projetos de ruptura política diferentes.",
+    "desenvolvimento": "A descoberta de ouro na região que se tornou Minas Gerais, no final do século XVII, intensificou a migração e a formação de núcleos urbanos. A mineração dependia do trabalho de africanos escravizados e de redes de abastecimento, comércio e crédito. A Guerra dos Emboabas (1707–1709) envolveu disputas entre paulistas e outros grupos pelo controle das áreas auríferas. A Guerra dos Mascates (1710–1711), em Pernambuco, expressou conflitos entre a elite açucareira de Olinda e comerciantes do Recife, não sendo uma revolta diretamente ligada à mineração. A Revolta de Vila Rica (1720), associada a Filipe dos Santos, contestou medidas fiscais e as Casas de Fundição. No final do século XVIII, a Inconfidência Mineira (1789) reuniu participantes sobretudo de setores letrados e proprietários, com projetos variados; foi denunciada antes de se transformar em levante, e Tiradentes foi executado em 1792. A Conjuração Baiana (1798), também chamada Revolta dos Alfaiates, teve participação de soldados, artesãos e outros setores populares, além de pessoas de diferentes posições sociais. Defendeu mudanças políticas e sociais, incluindo propostas de república e igualdade; ideias de emancipação dos escravizados circularam no movimento, mas seus participantes não formavam um bloco homogêneo. A repressão foi severa e quatro condenados foram executados em 1799.",
     "personagens": [
-      "Tiradentes (Joaquim José da Silva Xavier): Mártir da Inconfidência Mineira.",
-      "Antônio Francisco Lisboa (Aleijadinho): Maior expoente do Barroco mineiro.",
-      "Lucas Dantas e João de Deus: Líderes populares da Conjuração Baiana."
+      "Joaquim José da Silva Xavier (Tiradentes): Participante da Inconfidência Mineira, executado em 21 de abril de 1792; sua transformação em símbolo nacional ocorreu sobretudo em períodos posteriores.",
+      "Antônio Francisco Lisboa (Aleijadinho): Escultor e arquiteto associado ao Barroco e ao Rococó em Minas Gerais, cuja obra se desenvolveu no contexto da sociedade escravista colonial.",
+      "Lucas Dantas e João de Deus: Soldados e participantes da Conjuração Baiana, executados em 1799 junto com outros dois condenados."
     ],
     "grupos_envolvidos": [
-      "Inconfidentes Mineiros (Intelectuais e Militares)",
-      "Alfaiates e Soldados da Conjuração Baiana",
+      "Participantes da Inconfidência Mineira, em grande parte ligados a setores proprietários, militares e letrados, com interesses e projetos políticos diversos.",
+      "Participantes da Conjuração Baiana, incluindo soldados, alfaiates, artesãos e outros setores populares, além de indivíduos de diferentes condições sociais.",
       "Autoridades Metropolitas e Fiscais da Coroa"
     ],
     "interesses_em_disputa": [
-      "Fim do monopólio metropolitano, autonomia política, proclamação da república e abolição da escravidão."
+      "Críticas à tributação e ao controle metropolitano, projetos de autonomia ou independência e propostas distintas sobre república, igualdade social e escravidão."
     ],
     "linha_do_tempo": [
-      {"ano": 1709, "titulo": "Fim da Guerra dos Emboabas", "descricao": "Vitória dos forasteiros e criação da capitania de São Paulo e Minas de Ouro."},
-      {"ano": 1789, "titulo": "Inconfidência Mineira", "descricao": "Desarticulação da conspiração separatista em Minas Gerais."},
-      {"ano": 1798, "titulo": "Conjuração Baiana", "descricao": "Revolta emancipacionista popular e abolicionista em Salvador."}
+      {"ano": 1709, "titulo": "Fim da Guerra dos Emboabas", "descricao": "Conflito entre paulistas e grupos de outras regiões pelo controle das áreas de mineração; a Coroa reorganizou a administração e criou a Capitania de São Paulo e Minas do Ouro em 1709."},
+      {"ano": 1789, "titulo": "Inconfidência Mineira", "descricao": "Conspiração articulada em Minas Gerais, descoberta antes de se converter em levante; seus participantes foram presos e julgados, e Tiradentes foi executado em 1792."},
+      {"ano": 1798, "titulo": "Conjuração Baiana", "descricao": "Movimento ocorrido em Salvador, com participação popular e propostas republicanas e de transformação social; a repressão levou à execução de quatro condenados em 1799."}
     ],
     "consequencias_imediatas": [
-      "Repressão implacável da Coroa sobre os conjurados, culminando na execução exemplar de Tiradentes em 1792.",
-      "Enfraquecimento das conspirações armadas imediatas contra o domínio luso."
+      "Repressão aos movimentos: Tiradentes foi executado em 1792, enquanto quatro participantes condenados da Conjuração Baiana foram executados em 1799.",
+      "Desarticulação dos movimentos e reforço da vigilância colonial, sem eliminar críticas ao domínio português nem tensões sociais e fiscais."
     ],
     "consequencias_longo_prazo": [
-      "Surgimento dos ideais republicanos e nacionalistas que frutificariam no século XIX."
+      "Memória e apropriação posterior desses movimentos por projetos políticos do século XIX e da República; não se deve tratá-los como etapas inevitáveis de um nacionalismo brasileiro já consolidado."
     ],
     "impactos": {
-      "politicos": "Queda de confiança no absolutismo metropolitano por parte das elites e camadas urbanas letradas.",
-      "economicos": "Deslocamento temporário da centralidade econômica colonial para o Sudeste mineiro.",
-      "sociais": "Aparecimento de uma camada média urbana e de estratos livres empobrecidos nas cidades mineradoras.",
+      "politicos": "Questionamento de aspectos do domínio metropolitano e circulação de projetos variados de autonomia, independência e reorganização política, com diferenças entre movimentos e participantes.",
+      "economicos": "Expansão da mineração e dos circuitos internos de abastecimento, acompanhada de tributação, contrabando e concentração desigual da riqueza.",
+      "sociais": "Crescimento de núcleos urbanos e diversificação de ocupações, em sociedade profundamente desigual e sustentada pelo trabalho escravizado; pessoas escravizadas também construíram redes de sociabilidade e resistência.",
       "culturais": "Apogeu cultural do Barroco mineiro e circulação clandestina de ideias iluministas europeias.",
-      "territoriais": "Surgimento de dezenas de vilas e caminhos interprovinciais no interior do Brasil.",
+      "territoriais": "Ampliação da ocupação colonial em áreas interiores, com abertura de caminhos e formação de vilas, acompanhada de expulsão e violência contra comunidades indígenas.",
       "ambientais": "Assoreamento de rios e degradação aurífera intensiva nas serras mineiras."
     },
     "continuidade": "Carga tributária pesada cobrada pelas autoridades centrais sobre a produção econômica.",
-    "rupturas": "Passagem de revoltas estritamente nativistas ou antifiscais para revoltas de caráter emancipacionista e separatista inspiradas pelo Iluminismo."
+    "rupturas": "Ampliação de formas de contestação política e social, que passaram de conflitos locais e fiscais a projetos emancipacionistas variados, sem trajetória linear ou consenso sobre república, igualdade e escravidão."
   },
 
   {
