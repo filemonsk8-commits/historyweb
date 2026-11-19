@@ -108,3 +108,31 @@ A proposta dialoga com a habilidade EM13CHS101 do Ensino Médio, que envolve ide
 - Conferir navegação por teclado e leitor de tela.
 - Avaliar clareza e adequação das perguntas com estudantes.
 - Testar atualização do aplicativo instalado e funcionamento offline.
+
+
+# Etapa 10 — Área de apoio ao professor
+
+## Objetivo
+Oferecer um roteiro prático para planejar, mediar e avaliar atividades de interpretação de fontes históricas, sem substituir a autonomia docente.
+
+## Recursos incluídos
+- Objetivos de aprendizagem para o trabalho com documentos.
+- Lista de preparação antes da aula.
+- Sugestão flexível de aula de 50 minutos, em cinco momentos.
+- Estratégias de mediação, acessibilidade e inclusão.
+- Quatro critérios de avaliação: identificação/contexto, leitura crítica, uso de evidências e argumentação.
+- Perguntas para síntese e fechamento.
+- Seções expansíveis com estrutura semântica, foco visível e apresentação responsiva.
+
+## Orientação pedagógica
+Os critérios avaliam o processo de investigação e a qualidade da justificativa, não a reprodução de uma resposta única. As sugestões de adaptação devem respeitar as necessidades da turma e os objetivos curriculares definidos pelo professor.
+
+## Validação estática
+- Área do professor presente na página de Fontes Históricas.
+- Seis blocos de orientação conferidos.
+- Rubrica com quatro dimensões presente.
+- Layout responsivo com coluna única em telas estreitas.
+- Módulos históricos JSON não alterados.
+
+## Testes pendentes
+A aplicação prática, navegação por teclado/leitor de tela e apresentação em Android e computador ainda precisam de teste real.
