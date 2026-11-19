@@ -442,7 +442,7 @@
     "periodo": "Idade Moderna",
     "local": "América do Norte (Treze Colônias)",
     "sociedades_envolvidas": "Colonos das Treze Colônias, Coroa Britânica e Tropas Nativas/Aliadas",
-    "tema": "Revolta contra o Pacto Colonial, Declaração de Independência e Primeira República Liberal",
+    "tema": "Independência das Treze Colônias, Declaração de 1776 e formação de uma república constitucional",
     "contexto": "As Treze Colônias inglesas na América do Norte, marcadas por grande autonomia e desenvolvimento econômico, revoltaram-se contra o aumento de impostos e restrições comerciais impostos pela metrópole britânica após a Guerra dos Sete Anos.",
     "antecedentes": [
       "Autonomia relativa administrativa das colônias do Norte (comércio triangular) e do Sul (plantation).",
@@ -455,9 +455,9 @@
       "religiosas": "Diferenças culturais e religiosas e desejo de liberdade de culto e organização.",
       "culturais": "Forte influência dos ideais iluministas de liberdade e direitos naturais de John Locke.",
       "territoriais": "Disputa pelo controle de terras a oeste dos Montes Apalaches.",
-      "tecnologias": "Uso de táticas de guerrilha e mobilização de milícias coloniais."
+      "tecnologias": "Uso de milícias, redes locais de abastecimento e diferentes táticas militares; forças regulares e apoio externo também foram importantes para o resultado da guerra."
     },
-    "resumo_card": "A Independência dos EUA em 1776 rompeu o pacto colonial britânico, fundou a primeira república liberal moderna e aplicou os ideais iluministas na prática política.",
+    "resumo_card": "A independência proclamada em 1776 deu origem aos Estados Unidos, cuja organização política foi construída ao longo de debates e experiências constitucionais. A Constituição federal de 1787 substituiu os Artigos da Confederação e estabeleceu um novo arranjo de governo.",
     "desenvolvimento": "Diante das Leis Intoleráveis e do massacre de Boston, os colonos reuniram-se nos Congressos Continentais. Em 4 de julho de 1776, aprovaram a Declaração de Independência redigida por Thomas Jefferson. Após uma guerra vitoriosa contra a Grã-Bretanha (com apoio da França), os britânicos reconheceram a independência em 1783, consolidada pela Constituição de 1787.",
     "personagens": [
       "Thomas Jefferson: Principal autor da Declaração de Independência dos Estados Unidos.",
@@ -467,7 +467,7 @@
     "grupos_envolvidos": [
       "Patriotas Americanos",
       "Exército Britânico (Casacas-Vermelhas)",
-      "Povos Indígenas (frequentemente aliados dos britânicos) e Escravizados negros"
+      "Povos indígenas, cujas nações e comunidades adotaram posições variadas — neutralidade, alianças com britânicos ou apoio aos revolucionários — conforme seus interesses de território e soberania; pessoas negras escravizadas e livres também participaram de diferentes maneiras."
     ],
     "interesses_em_disputa": [
       "Autonomia fiscal, liberdade comercial e soberania territorial sobre o território norte-americano."
@@ -475,18 +475,18 @@
     "linha_do_tempo": [
       {"ano": 1776, "titulo": "Declaração de Independência", "descricao": "Proclamação formal da separação das Treze Colônias da Grã-Bretanha em 4 de julho."},
       {"ano": 1783, "titulo": "Tratado de Paris", "descricao": "Reconhecimento oficial da independência norte-americana pela coroa britânica."},
-      {"ano": 1787, "titulo": "Constituição dos EUA", "descricao": "Aprovação da primeira constituição liberal-democrática escrita do mundo moderno."}
+      {"ano": 1787, "titulo": "Constituição dos EUA", "descricao": "A Convenção da Filadélfia aprovou um novo texto constitucional em 17 de setembro de 1787. Após a ratificação pelos estados, ele substituiu os Artigos da Confederação e entrou em vigor em 1789."}
     ],
     "consequencias_imediatas": [
       "Nascimento dos Estados Unidos da América como nação soberana baseada em princípios liberais.",
-      "Grave endividamento da França, o que acelerou a crise interna que provocaria a Revolução Francesa."
+      "O financiamento francês à guerra ampliou as pressões sobre as finanças da monarquia, mas a Revolução Francesa resultou de uma crise fiscal, política e social mais ampla, com causas acumuladas."
     ],
     "consequencias_longo_prazo": [
       "Inspiração direta para os movimentos de independência na América Latina e colônias ibéricas.",
       "Expansão territorial continental rumo ao Pacífico (Marcha para o Oeste)."
     ],
     "impactos": {
-      "politicos": "Primeira aplicação prática bem-sucedida de um Estado republicano com separação de poderes baseada no Iluminismo.",
+      "politicos": "Experiência duradoura de república constitucional federal, com separação de poderes e influência iluminista; não foi a primeira experiência republicana nem o primeiro texto constitucional da história.",
       "economicos": "Libertação do pacto colonial mercantilista britânico e estímulo ao livre mercado capitalista.",
       "sociais": "Manutenção vergonhosa da escravidão negra e exclusão jurídica de indígenas e mulheres na nova república.",
       "culturais": "Disseminação global do mito fundador da liberdade democrática americana.",
@@ -494,7 +494,7 @@
       "ambientais": "Início da expansão desmatadora e agrícola sobre territórios nativos tradicionais."
     },
     "continuidade": "Preservação da escravidão e subjugação violenta das populações indígenas originárias.",
-    "rupturas": "Rompimento colonial pioneiro de um território ultramarino em relação a uma grande potência europeia."
+    "rupturas": "Rompimento colonial de grande alcance, que contribuiu para difundir modelos republicanos e constitucionais, embora a construção de direitos políticos tenha permanecido limitada e excludente."
   },
 
   {
