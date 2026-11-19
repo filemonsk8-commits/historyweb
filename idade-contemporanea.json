@@ -559,65 +559,102 @@
     "ano_inicio": 1950,
     "ano_fim": 1980,
     "periodo": "Idade Contemporânea",
-    "local": "Global (EUA, Europa e América Latina)",
-    "sociedades_envolvidas": "Estudantes, Minorias Civis, Movimento Feminista, Movimento Negro e Contracultura",
-    "tema": "Movimento pelos Direitos Civis nos EUA, Luta contra a Segregação Racial, Marcha sobre Washington (1963), Movimento Feminista, Movimento Negro, Movimento Hippie, Contracultura, Revolução Sexual e Protestos Estudantis de 1968",
-    "contexto": "O pós-guerra testemunhou uma intensa onda de contestação social contra o racismo, o patriarcado, a guerra e os valores burgueses tradicionais, redefinindo os costumes e os direitos humanos.",
+    "local": "Global, com destaque para Estados Unidos, Europa, América Latina e movimentos anticoloniais na África e na Ásia",
+    "sociedades_envolvidas": "Movimentos negros e antirracistas, organizações feministas, estudantes, trabalhadores, juventudes, movimentos pacifistas, comunidades LGBTQ+ e grupos anticoloniais",
+    "tema": "Movimento pelos Direitos Civis nos EUA, dessegregação, Marcha sobre Washington (1963), legislação de direitos civis (1964–1965), feminismos, movimentos de libertação nacional, oposição à Guerra do Vietnã, contracultura, Maio de 1968 na França, Primavera de Praga, protestos no México e transformações culturais",
+    "contexto": "Nas décadas posteriores à Segunda Guerra Mundial, processos de urbanização, expansão da educação e dos meios de comunicação coexistiram com desigualdades, racismo, colonialismo, discriminação de gênero e conflitos da Guerra Fria. Diferentes movimentos questionaram estruturas de poder e reivindicaram direitos, autonomia, participação política e mudanças culturais. Essas mobilizações tiveram características próprias em cada sociedade e não formaram um movimento único.",
     "antecedentes": [
-      "Exclusão social sistêmica de minorias e segregação legalizada (Jim Crow nos EUA)."
+      "A longa história de resistência de populações negras à escravidão, à segregação e ao racismo, incluindo organizações comunitárias, sindicatos, igrejas e movimentos políticos.",
+      "A atuação de movimentos sufragistas e feministas anteriores, além da participação crescente das mulheres no trabalho, na educação e na vida pública.",
+      "A descolonização afro-asiática, as lutas anticoloniais e as disputas políticas da Guerra Fria.",
+      "A expansão do ensino superior, da televisão, do rádio, da indústria cultural e das redes internacionais de circulação de ideias."
     ],
     "causas": {
-      "politicas": "Insatisfação juvenil e popular com o autoritarismo estatal, guerras imperialistas (Vietnã) e repressão institucional.",
-      "economicas": "Expansão do consumo de massa, da televisão e do acesso universitário da classe média.",
-      "sociais": "Reivindicações urgentes por igualdade racial, direitos das mulheres e liberdade de expressão.",
-      "religiosas": "Questionamento de dogmas morais tradicionais conservadores pelas gerações jovens.",
-      "culturais": "Surgimento da contracultura, da revolução sexual, do movimento hippie e da expansão da cultura de massa e da televisão.",
-      "territoriais": "Protestos transnacionais sincronizados globalmente em 1968 (Paris, EUA, México, Praga).",
-      "tecnologias": "Expansão massiva da televisão e dos meios de comunicação de massa."
+      "politicas": "Reivindicações por igualdade perante a lei, participação democrática, liberdade de expressão e oposição a guerras, ditaduras, colonialismo e intervenções militares.",
+      "economicas": "Crescimento econômico desigual no pós-guerra, expansão do consumo e da escolarização em algumas regiões, ao lado de pobreza, discriminação no trabalho e desigualdade de oportunidades.",
+      "sociais": "Persistência do racismo, da segregação, do sexismo e de hierarquias sociais; mobilização de estudantes, trabalhadores, mulheres e grupos historicamente marginalizados.",
+      "religiosas": "Organizações e lideranças religiosas participaram de algumas lutas por direitos, enquanto setores conservadores contestaram mudanças nos costumes; não houve posição religiosa única.",
+      "culturais": "Questionamento de padrões tradicionais de autoridade, família e comportamento; circulação de novas expressões musicais, artísticas e políticas, sem que a contracultura representasse toda a juventude.",
+      "territoriais": "Mobilizações ocorreram em diferentes países e contextos, incluindo Estados Unidos, França, México, Tchecoslováquia e movimentos de independência e libertação nacional.",
+      "tecnologias": "Rádio, televisão, imprensa, discos e, posteriormente, transmissões internacionais ampliaram a circulação de imagens, discursos e notícias, embora o acesso aos meios fosse desigual."
     },
-    "resumo_card": "Abrange o Movimento pelos Direitos Civis, a luta contra a segregação, a Marcha sobre Washington de 1963, o movimento feminista, o movimento negro, o movimento hippie, a contracultura, a revolução sexual, os protestos estudantis de 1968 e a expansão da cultura de massa e da televisão.",
-    "desenvolvimento": "Liderado por figuras como Martin Luther King Jr., o Movimento pelos Direitos Civis culminou na Marcha sobre Washington em 1963 contra a segregação racial. Paralelamente, emergiu a segunda onda do feminismo, a revolução sexual impulsionada pelos anticoncepcionais, o movimento negro e o movimento contracultural hippie de rejeição aos conflitos bélicos. Em 1968, uma onda de revoltas estudantis sacudiu o mundo, impulsionada pela expansão da cultura de massa e da televisão, transformando irreversivelmente a moralidade pública.",
+    "resumo_card": "Analisa as lutas por direitos civis e contra o racismo nos Estados Unidos, os movimentos feministas, a oposição à Guerra do Vietnã, a contracultura e mobilizações de 1968 na França, no México e na Tchecoslováquia, relacionando mudanças culturais a conflitos políticos e sociais do pós-guerra.",
+    "desenvolvimento": "As transformações sociais e culturais do pós-guerra foram construídas por movimentos diversos, com trajetórias e objetivos próprios. Nos Estados Unidos, décadas de organização negra e de resistência à segregação ganharam visibilidade nacional. A decisão Brown v. Board of Education (1954) declarou inconstitucional a segregação racial nas escolas públicas; o boicote aos ônibus de Montgomery (1955–1956), as campanhas lideradas por organizações locais e a Marcha sobre Washington (1963) ampliaram a pressão por mudanças. O Civil Rights Act de 1964 proibiu formas importantes de discriminação, e o Voting Rights Act de 1965 combateu barreiras racistas ao voto. A luta, porém, não se limitou a essas leis nem foi conduzida por uma única liderança: Martin Luther King Jr., Malcolm X, organizações comunitárias, estudantes e ativistas adotaram estratégias diferentes. Os feminismos também se diversificaram, questionando desigualdades no trabalho, na educação, na política, na família e na vida cotidiana; suas pautas e experiências variaram conforme classe, raça e região. A oposição à Guerra do Vietnã aproximou estudantes, pacifistas, veteranos e outros setores, enquanto a contracultura contestou padrões de consumo e autoridade por meio da música, da arte e de novos estilos de vida. Em 1968, protestos estudantis e operários na França, mobilizações no México — reprimidas pelo Estado no massacre de Tlatelolco — e a Primavera de Praga, sufocada pela intervenção militar liderada pela União Soviética, revelaram conflitos distintos, não uma revolta mundial uniforme. Na América Latina, movimentos sociais e culturais enfrentaram também ditaduras, censura e desigualdade. As mudanças ampliaram debates sobre direitos e liberdade, mas não eliminaram discriminações nem produziram conquistas iguais para todos.",
     "personagens": [
-      "Martin Luther King Jr. e Malcolm X: Ícones da luta pelos direitos civis e antirracistas nos EUA.",
-      "Betty Friedan e Simone de Beauvoir: Filósofas impulsionadoras do movimento feminista contemporâneo."
+      "Martin Luther King Jr.: liderança do movimento pelos direitos civis, defensor da ação política não violenta.",
+      "Rosa Parks: ativista cuja prisão em 1955 se tornou marco do boicote aos ônibus de Montgomery.",
+      "Malcolm X: importante liderança negra que defendeu autonomia e diferentes formas de resistência ao racismo.",
+      "Betty Friedan: autora de A Mística Feminina (1963) e uma das referências do feminismo estadunidense de sua época.",
+      "Simone de Beauvoir: filósofa cuja obra O Segundo Sexo (1949) influenciou debates feministas em vários países."
     ],
     "grupos_envolvidos": [
-      "Ativistas de Direitos Civis",
-      "Estudantes e Universidades em revolta",
-      "Comunidades Contraculturais"
+      "Organizações negras, estudantes, lideranças comunitárias, igrejas e associações pelos direitos civis nos Estados Unidos.",
+      "Movimentos feministas diversos, organizações de mulheres trabalhadoras e grupos que reivindicavam igualdade jurídica e autonomia.",
+      "Estudantes, trabalhadores, intelectuais, artistas, pacifistas e opositores à Guerra do Vietnã.",
+      "Movimentos anticoloniais, organizações populares e grupos que enfrentavam ditaduras e regimes autoritários."
     ],
     "interesses_em_disputa": [
-      "Igualdade civil perante a lei, autonomia dos corpos, paz internacional e liberdade de costumes."
+      "Igualdade jurídica e política, combate à segregação e ao racismo, acesso à educação, ao trabalho e ao voto.",
+      "Autonomia das mulheres, igualdade de oportunidades, direitos reprodutivos e contestação de hierarquias de gênero.",
+      "Liberdade de expressão e organização, oposição à guerra e ao autoritarismo e disputa sobre modelos de sociedade e cultura."
     ],
     "linha_do_tempo": [
       {
+        "ano": 1954,
+        "titulo": "Decisão Brown v. Board of Education",
+        "descricao": "A Suprema Corte dos EUA declarou inconstitucional a segregação racial nas escolas públicas."
+      },
+      {
+        "ano": 1955,
+        "titulo": "Boicote aos ônibus de Montgomery",
+        "descricao": "Mobilização contra a segregação no transporte público, fortalecendo o movimento pelos direitos civis."
+      },
+      {
         "ano": 1963,
         "titulo": "Marcha sobre Washington",
-        "descricao": "Discurso histórico 'I Have a Dream' de Martin Luther King Jr."
+        "descricao": "Grande mobilização por trabalho e liberdade, na qual Martin Luther King Jr. fez seu conhecido discurso."
+      },
+      {
+        "ano": 1964,
+        "titulo": "Civil Rights Act nos Estados Unidos",
+        "descricao": "Lei federal proibiu formas importantes de discriminação racial, étnica, religiosa e de gênero."
+      },
+      {
+        "ano": 1965,
+        "titulo": "Voting Rights Act",
+        "descricao": "Lei federal fortaleceu a proteção do direito ao voto e combateu práticas discriminatórias."
       },
       {
         "ano": 1968,
-        "titulo": "Protestos Globais de 1968",
-        "descricao": "Auge das revoltas estudantis na Europa, Américas e Ásia."
+        "titulo": "Mobilizações e conflitos em diferentes países",
+        "descricao": "Protestos na França, massacre de Tlatelolco no México e repressão à Primavera de Praga na Tchecoslováquia."
+      },
+      {
+        "ano": 1975,
+        "titulo": "Fim da Guerra do Vietnã",
+        "descricao": "A queda de Saigon encerrou a guerra, que havia provocado mobilizações pacifistas internacionais."
       }
     ],
     "consequencias_imediatas": [
-      "Aprovação de leis federais contra a segregação racial nos EUA (Civil Rights Act de 1964).",
-      "Reformulação profunda das leis de família, divórcio e costumes em vários países."
+      "Nos Estados Unidos, leis federais importantes combateram a segregação e barreiras racistas ao voto, embora a desigualdade e a violência racial persistissem.",
+      "Ampliação da presença pública de movimentos feministas, estudantis, antirracistas e pacifistas e maior visibilidade de suas reivindicações.",
+      "Repressão estatal a mobilizações em diferentes países, demonstrando os limites e os riscos da contestação política em regimes democráticos e autoritários."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação da agenda contemporânea de direitos humanos, diversidade e reconhecimento de minorias sociais."
+      "Influência sobre legislações, políticas públicas e movimentos posteriores por igualdade racial, direitos das mulheres, direitos LGBTQ+ e liberdade política.",
+      "Transformações nas artes, na música, na moda, nos meios de comunicação e nos debates sobre juventude, família e comportamento.",
+      "Persistência de disputas sobre racismo estrutural, desigualdade de gênero, violência estatal e participação democrática."
     ],
     "impactos": {
-      "politicos": "Inclusão política de parcelas da população anteriormente marginalizadas.",
-      "economicos": "Adaptação do mercado capitalista de consumo aos novos estilos de vida juvenis e alternativos.",
-      "sociais": "Rompimento do padrão patriarcal tradicional rígido na família ocidental.",
-      "culturais": "Revolução moral nos costumes, na música, nas artes e na liberdade individual.",
-      "territoriais": "Mobilização global interconectada via mídia de massa.",
-      "ambientais": "Início da conscientização ecológica moderna ligada aos movimentos alternativos dos anos 70."
+      "politicos": "Ampliação de agendas de direitos civis e sociais e pressão por reformas; em vários contextos, movimentos também enfrentaram repressão, censura e violência.",
+      "economicos": "Debates sobre igualdade de acesso ao emprego, remuneração, educação e consumo, sem superação das desigualdades de classe e raça.",
+      "sociais": "Mudanças nas relações de gênero, na organização familiar e na participação pública, com efeitos diferentes conforme país, classe, raça e geração.",
+      "culturais": "Renovação de linguagens artísticas e musicais, expansão da cultura juvenil e questionamento de normas sociais, sem homogeneidade entre os movimentos.",
+      "territoriais": "Circulação internacional de repertórios de protesto e solidariedade, adaptados a contextos nacionais e locais específicos.",
+      "ambientais": "A contracultura e movimentos sociais contribuíram para ampliar debates sobre consumo, natureza e qualidade de vida; o ambientalismo também se desenvolveu por trajetórias próprias."
     },
-    "continuidade": "Preconceitos estruturais persistentes e lutas contínuas por equidade plena de gênero e raça.",
-    "rupturas": "Fim da hegemonia moral conservadora estrita sobre a vida privada e familiar no Ocidente."
+    "continuidade": "Racismo, desigualdade de gênero, discriminação, concentração de poder e conflitos sobre direitos permaneceram, exigindo mobilizações e mudanças posteriores.",
+    "rupturas": "Leis antidiscriminatórias, novas formas de organização coletiva e mudanças culturais alteraram relações sociais e ampliaram direitos em diversos países, sem representar o fim das hierarquias ou uma transformação uniforme do Ocidente."
   },
   {
     "id": "globalizacao-tecnologia-fim-seculo-xx",
