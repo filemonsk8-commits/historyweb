@@ -1877,7 +1877,7 @@
             botao.disabled = true;
             status.textContent = 'Solicitando recuperação de senha...';
             try {
-                const redirectTo = window.location.origin + window.location.pathname;
+                const redirectTo = 'https://filemonsk8-commits.github.io/historyweb/';
                 const { error } = await professorSupabase.auth.resetPasswordForEmail(email, { redirectTo });
                 if (error) throw error;
                 status.textContent = 'Se o endereço estiver cadastrado, enviaremos um link para redefinir a senha. Verifique também a caixa de spam.';
