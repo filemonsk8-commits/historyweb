@@ -1305,11 +1305,42 @@
             }
         }
 
-        // Registo do Service Worker para a PWA (Funcionar offline e instalar em PCs e Dispositivos Móveis)
+        // Registo e verificação automática de atualizações da PWA.
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
-                .then(() => console.log("Service Worker registado com sucesso!"))
+            navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+                .then((registration) => {
+                    console.log("Service Worker registado com sucesso!");
+
+                    // Verifica se há uma versão nova assim que o app abre.
+                    registration.update().catch((err) =>
+                        console.log("Não foi possível verificar atualização agora:", err)
+                    );
+
+                    // Tenta novamente ao voltar à internet ou ao aplicativo.
+                    window.addEventListener('online', () => {
+                        registration.update().catch(() => {});
+                    });
+
+                    document.addEventListener('visibilitychange', () => {
+                        if (document.visibilityState === 'visible') {
+                            registration.update().catch(() => {});
+                        }
+                    });
+
+                    window.addEventListener('focus', () => {
+                        registration.update().catch(() => {});
+                    });
+                })
                 .catch((err) => console.log("Falha ao registar Service Worker:", err));
+
+            // Quando a nova versão assumir o controle, recarrega a página uma única vez
+            // para apresentar o conteúdo atualizado sem apagar dados do navegador.
+            let recarregamentoPorAtualizacao = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (recarregamentoPorAtualizacao) return;
+                recarregamentoPorAtualizacao = true;
+                window.location.reload();
+            });
         }
 
         // Inicializa exibindo a Capa Principal
