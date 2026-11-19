@@ -1176,6 +1176,16 @@
         .professor-recurso-descricao { margin: 10px 0 6px; color: #465568; line-height: 1.5; overflow-wrap: anywhere; }
         .professor-recurso-conteudo { max-width: 100%; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; color: #26394b; font: .86rem/1.5 ui-monospace,monospace; }
         .professor-recurso-vazio { grid-column: 1/-1; padding: 16px; border: 1px dashed #cbd6e0; border-radius: 8px; color: #536174; }
+        .professor-admin-recursos { margin: 18px 0; padding: 18px; border: 2px solid #b18a4a; border-radius: 10px; background: #fffdf8; }
+        .professor-admin-recursos[hidden] { display: none !important; }
+        .professor-admin-grade { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px; }
+        .professor-admin-recursos textarea { width: 100%; min-height: 130px; padding: 10px; border: 1px solid #cbd6e0; border-radius: 6px; font: inherit; }
+        .professor-admin-acoes { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+        .professor-admin-lista { display:grid; gap:8px; margin-top:14px; }
+        .professor-admin-item { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:10px; border:1px solid #e1e7ed; border-radius:8px; background:#fff; }
+        .professor-admin-item button { padding:7px 10px; border:1px solid #b8c5d1; border-radius:6px; background:#f7fafc; cursor:pointer; }
+        @media(max-width:650px) { .professor-admin-item { align-items:flex-start; flex-direction:column; } }
+
         @media(max-width:650px) { .professor-biblioteca { padding: 13px; } .professor-biblioteca-controles { grid-template-columns: 1fr; } }
 
     
@@ -1936,6 +1946,7 @@
             const area = document.getElementById('professor-conteudo');
             if (!area || !status) return;
             status.textContent = 'Acesso confirmado. Carregando materiais reservados...';
+            const permissaoProfessor = await verificarPermissaoProfessor(usuario);
             const [recursos, gabaritos] = await Promise.all([
                 professorSupabase.from('teacher_resources').select('id,title,resource_type,content').order('created_at', { ascending: false }),
                 professorSupabase.from('answer_keys').select('id,module_slug,event_id,activity_title,expected_answers,correction_guidance,rubric').order('created_at', { ascending: false })
@@ -1964,6 +1975,32 @@
                         <p id="professor-recursos-info" class="professor-biblioteca-info" aria-live="polite"></p>
                         <div id="professor-recursos" class="professor-recursos-lista"></div>
                     </section>
+                    ${permissaoProfessor.role === 'admin' ? `
+                    <section id="professor-admin-recursos" class="professor-admin-recursos" aria-labelledby="titulo-admin-recursos">
+                        <h3 id="titulo-admin-recursos">Gerenciar biblioteca de materiais</h3>
+                        <p>Área administrativa: somente contas com perfil de administrador podem cadastrar, editar ou excluir materiais.</p>
+                        <form id="form-admin-recurso">
+                            <input id="admin-recurso-id" type="hidden">
+                            <div class="professor-admin-grade">
+                                <label class="professor-campo" for="admin-recurso-titulo">Título do material
+                                    <input id="admin-recurso-titulo" type="text" maxlength="140" required>
+                                </label>
+                                <label class="professor-campo" for="admin-recurso-categoria">Categoria
+                                    <input id="admin-recurso-categoria" type="text" maxlength="60" required placeholder="Ex.: planos-de-aula">
+                                </label>
+                            </div>
+                            <label class="professor-campo" for="admin-recurso-conteudo">Conteúdo do material
+                                <textarea id="admin-recurso-conteudo" maxlength="20000" required placeholder="Digite o texto, orientações ou conteúdo do material."></textarea>
+                            </label>
+                            <div class="professor-admin-acoes">
+                                <button type="submit" class="ficha-botao-principal" id="admin-recurso-salvar">Salvar material</button>
+                                <button type="button" class="ficha-botao-secundario" id="admin-recurso-limpar">Limpar formulário</button>
+                            </div>
+                            <p id="admin-recurso-status" role="status" aria-live="polite"></p>
+                        </form>
+                        <h4>Materiais cadastrados</h4>
+                        <div id="admin-recursos-lista" class="professor-admin-lista"></div>
+                    </section>` : ''}
                     <h3>Gabaritos e orientações de correção</h3>
                     <div id="professor-gabaritos"></div>
                     <section class="planejador-aula" aria-labelledby="titulo-planejador-aula">
@@ -2062,6 +2099,61 @@
             filtroCategoriaRecurso.innerHTML = '<option value="">Todas as categorias</option>' + categoriasRecursos.map(tipo =>
                 '<option value="' + escaparTextoProfessor(tipo) + '">' + escaparTextoProfessor(nomeCategoriaRecurso(tipo)) + '</option>'
             ).join('');
+            const adminAtivo = permissaoProfessor.role === 'admin';
+            const limparFormularioAdmin = () => {
+                const form = document.getElementById('form-admin-recurso');
+                if (form) form.reset();
+                const id = document.getElementById('admin-recurso-id');
+                if (id) id.value = '';
+                const statusAdmin = document.getElementById('admin-recurso-status');
+                if (statusAdmin) statusAdmin.textContent = 'Novo material.';
+            };
+            const renderizarListaAdmin = () => {
+                if (!adminAtivo) return;
+                const listaAdmin = document.getElementById('admin-recursos-lista');
+                if (!listaAdmin) return;
+                listaAdmin.innerHTML = recursos.data.length ? recursos.data.map(item => `
+                    <div class="professor-admin-item">
+                        <span><strong>${escaparTextoProfessor(item.title)}</strong> · ${escaparTextoProfessor(nomeCategoriaRecurso(tipoRecurso(item)))}</span>
+                        <span class="professor-admin-acoes">
+                            <button type="button" data-editar-recurso="${escaparTextoProfessor(item.id)}">Editar</button>
+                            <button type="button" data-excluir-recurso="${escaparTextoProfessor(item.id)}">Excluir</button>
+                        </span>
+                    </div>`).join('') : '<p>Nenhum material cadastrado.</p>';
+                listaAdmin.querySelectorAll('[data-editar-recurso]').forEach(botao => {
+                    botao.onclick = () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.editarRecurso);
+                        if (!item) return;
+                        document.getElementById('admin-recurso-id').value = item.id;
+                        document.getElementById('admin-recurso-titulo').value = item.title || '';
+                        document.getElementById('admin-recurso-categoria').value = item.resource_type || '';
+                        document.getElementById('admin-recurso-conteudo').value = typeof item.content === 'string' ? item.content : JSON.stringify(item.content || {}, null, 2);
+                        document.getElementById('admin-recurso-status').textContent = 'Editando material selecionado.';
+                        document.getElementById('admin-recurso-titulo').focus();
+                    };
+                });
+                listaAdmin.querySelectorAll('[data-excluir-recurso]').forEach(botao => {
+                    botao.onclick = async () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.excluirRecurso);
+                        if (!item || !window.confirm('Excluir o material “' + item.title + '”?')) return;
+                        const statusAdmin = document.getElementById('admin-recurso-status');
+                        statusAdmin.textContent = 'Excluindo material...';
+                        const { error } = await professorSupabase.from('teacher_resources').delete().eq('id', item.id);
+                        if (error) { statusAdmin.textContent = error.message; return; }
+                        await atualizarRecursosAdmin();
+                        limparFormularioAdmin();
+                        statusAdmin.textContent = 'Material excluído.';
+                    };
+                });
+            };
+            const atualizarRecursosAdmin = async () => {
+                const { data, error } = await professorSupabase.from('teacher_resources')
+                    .select('id,title,resource_type,content').order('created_at', { ascending: false });
+                if (error) throw error;
+                recursos.data = data || [];
+                renderizarRecursos();
+                renderizarListaAdmin();
+            };
             const renderizarRecursos = () => {
                 const termo = (buscaRecurso.value || '').trim().toLocaleLowerCase('pt-BR');
                 const categoria = filtroCategoriaRecurso.value;
@@ -2097,6 +2189,28 @@
             buscaRecurso.oninput = renderizarRecursos;
             filtroCategoriaRecurso.onchange = renderizarRecursos;
             renderizarRecursos();
+            if (adminAtivo) {
+                renderizarListaAdmin();
+                document.getElementById('form-admin-recurso').onsubmit = async evento => {
+                    evento.preventDefault();
+                    const statusAdmin = document.getElementById('admin-recurso-status');
+                    const id = document.getElementById('admin-recurso-id').value;
+                    const titulo = document.getElementById('admin-recurso-titulo').value.trim();
+                    const categoria = document.getElementById('admin-recurso-categoria').value.trim();
+                    const conteudo = document.getElementById('admin-recurso-conteudo').value.trim();
+                    if (!titulo || !categoria || !conteudo) return;
+                    statusAdmin.textContent = 'Salvando material...';
+                    const registro = { title: titulo, resource_type: categoria, content: conteudo };
+                    const resultado = id
+                        ? await professorSupabase.from('teacher_resources').update(registro).eq('id', id)
+                        : await professorSupabase.from('teacher_resources').insert(registro);
+                    if (resultado.error) { statusAdmin.textContent = resultado.error.message; return; }
+                    await atualizarRecursosAdmin();
+                    limparFormularioAdmin();
+                    statusAdmin.textContent = id ? 'Material atualizado.' : 'Material cadastrado.';
+                };
+                document.getElementById('admin-recurso-limpar').onclick = limparFormularioAdmin;
+            }
             gabaritosEl.innerHTML = gabaritos.data.length ? gabaritos.data.map(item => {
                 const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
                 const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
