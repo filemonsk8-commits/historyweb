@@ -923,6 +923,29 @@
             }
         }
 
+
+        /* Etapa pedagógica 1: leitura orientada e debate */
+        .perguntas-orientadoras {
+            margin: 8px 0 18px 24px;
+            padding-left: 12px;
+        }
+
+        .perguntas-orientadoras li {
+            margin: 0 0 14px;
+            padding-left: 5px;
+            line-height: 1.65;
+        }
+
+        .nota-pedagogica {
+            border-left: 3px solid #b08a45;
+            padding: 10px 14px;
+            margin-top: 14px;
+            color: #334155;
+            background: #f8fafc;
+            font-size: 0.95em;
+            line-height: 1.55;
+        }
+
     </style>
 </head>
 <body>
@@ -1080,6 +1103,22 @@
             }
         }
 
+        function criarPerguntasOrientadoras(item) {
+            const titulo = escaparHTML(item.titulo_principal || 'este processo histórico');
+            const tema = escaparHTML(item.tema || 'o tema estudado');
+            const sociedades = escaparHTML(item.sociedades_envolvidas || 'os grupos envolvidos');
+            const periodo = `${formatarAno(item.ano_inicio)} a ${formatarAno(item.ano_fim)}`;
+
+            const perguntas = [
+                `Quais condições históricas ajudam a compreender ${titulo.toLowerCase()}? Relacione sua resposta ao contexto e aos antecedentes apresentados.`,
+                `Como ${sociedades} participaram desse processo? Identifique interesses, relações de poder, conflitos ou formas de cooperação.`,
+                `Que mudanças e permanências podem ser percebidas em ${tema.toLowerCase()} no período de ${periodo}? Use acontecimentos da linha do tempo para sustentar sua análise.`
+            ];
+
+            return `<ol class="perguntas-orientadoras">${perguntas.map(pergunta => `<li>${escaparHTML(pergunta)}</li>`).join('')}</ol>
+                <p class="nota-pedagogica">As perguntas são pontos de partida para leitura, debate e produção de respostas fundamentadas. Consulte o desenvolvimento histórico e a linha do tempo antes de responder.</p>`;
+        }
+
         function renderizarCards(itensHistoricos, container) {
             container.setAttribute('aria-busy', 'false');
             container.innerHTML = '';
@@ -1141,6 +1180,7 @@
                     ${htmlAntecedentes ? criarAcordeao('Ver Antecedentes', htmlAntecedentes) : ''}
                     ${htmlCausas ? criarAcordeao('Ver Causas e Dimensões', htmlCausas) : ''}
                     ${htmlDesenvolvimento ? criarAcordeao('Ver Desenvolvimento Histórico', htmlDesenvolvimento) : ''}
+                    ${criarAcordeao('Perguntas para estudar e debater', criarPerguntasOrientadoras(item))}
                     ${htmlAtores ? criarAcordeao('Ver Personagens e Grupos Envolvidos', htmlAtores) : ''}
                     ${htmlInteresses ? criarAcordeao('Ver Interesses em Disputa', htmlInteresses) : ''}
                     ${htmlMarcos ? criarAcordeao('Ver Marcos da Linha do Tempo', htmlMarcos) : ''}
