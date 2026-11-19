@@ -8,112 +8,163 @@
     "local": "Global",
     "sociedades_envolvidas": "Comunidade Internacional, Estados Unidos, China, Movimentos Globais",
     "tema": "Protestos Sociais, Mudanças Climáticas, Redes Sociais, Inteligência Artificial e Guerra Comercial EUA-China",
-    "contexto": "O ano de 2019 foi marcado por amplas mobilizações populares globais, pressões ambientais intensas e a escalada da disputa comercial e tecnológica entre as duas maiores potências do planeta.",
+    "contexto": "Em 2019, mobilizações de naturezas distintas ocorreram em várias regiões, expressando reivindicações por democracia, justiça social, direitos, melhores condições de vida e mudanças políticas. A crise climática ganhou visibilidade com greves e manifestações, enquanto Estados Unidos e China mantiveram uma disputa comercial e tecnológica marcada por tarifas, negociações e incertezas.",
     "antecedentes": [
-      "Crescimento das desigualdades globais e acirramento da rivalidade hegemônica entre Washington e Pequim."
+      "Desigualdades sociais, insatisfação com governos e tensões políticas acumuladas em diferentes países.",
+      "Disputas comerciais e tecnológicas entre Estados Unidos e China, em meio à reorganização das cadeias globais de produção."
     ],
     "causas": {
-      "politicas": "Descontentamento popular com governos em várias regiões do mundo e disputas tarifárias bilaterais.",
-      "economicas": "Guerra comercial travada entre Estados Unidos e China com imposição mútua de tarifas.",
-      "sociais": "Insatisfação econômica e exigências por justiça social e ação climática imediata.",
-      "religiosas": "Tensões geopolíticas transversais a diferentes matrizes culturais.",
-      "culturais": "Expansão massiva das redes sociais como principal arena de debate e polarização política.",
-      "territoriais": "Disputas por rotas comerciais globais e hegemonia tecnológica.",
-      "tecnologias": "Avanço contínuo da automação, da inteligência artificial e da vigilância digital."
+      "politicas": "Crises de representação, contestação a decisões governamentais e reivindicações por reformas assumiram formas próprias em cada país.",
+      "economicas": "A disputa tarifária entre Estados Unidos e China elevou incertezas para empresas, agricultores, consumidores e mercados internacionais.",
+      "sociais": "Protestos expressaram demandas variadas, como direitos democráticos, redução de desigualdades, combate à corrupção e melhores serviços públicos.",
+      "religiosas": "Em alguns contextos, identidades religiosas e tensões comunitárias influenciaram a mobilização política, mas não explicam a onda de protestos como um todo.",
+      "culturais": "Redes sociais e plataformas digitais facilitaram a circulação de informações e a organização de atos, mas também ampliaram disputas narrativas e desinformação.",
+      "territoriais": "Conflitos e mobilizações tiveram contextos locais específicos, como Hong Kong, Chile, Líbano, Sudão e outros países; não constituíram um movimento único.",
+      "tecnologias": "O debate sobre inteligência artificial, automação, privacidade e poder das grandes plataformas ganhou espaço na agenda pública."
     },
-    "resumo_card": "Abrange as mobilizações sociais globais de 2019, o debate climático, o papel político das redes sociais, os avanços da inteligência artificial e a guerra comercial entre Estados Unidos e China.",
-    "desenvolvimento": "Em 2019, o mundo assistiu a uma onda de protestos em diversos países contra governos e desigualdades. O debate sobre mudanças climáticas ganhou enorme repercussão pública. No campo tecnológico e econômico, a rivalidade entre EUA e China materializou-se numa dura guerra comercial, enquanto a inteligência artificial e a automação davam saltos expressivos.",
+    "resumo_card": "Reúne acontecimentos marcantes de 2019: protestos com pautas distintas em diferentes países, mobilizações pelo clima, disputa comercial entre Estados Unidos e China e debates sobre redes digitais e inteligência artificial.",
+    "desenvolvimento": "2019 foi marcado por mobilizações sociais em diferentes partes do mundo, mas com causas e reivindicações próprias. Em Hong Kong, protestos contra um projeto de extradição se ampliaram e passaram a incluir demandas por direitos e reformas políticas. No Sudão, manifestações contribuíram para a queda de Omar al-Bashir; no Chile, protestos iniciados em outubro expuseram insatisfações com desigualdades e serviços públicos; no Líbano, mobilizações contestaram impostos e a classe política. Esses processos não formaram uma única onda organizada, embora revelassem tensões sociais e políticas em vários países. A crise climática também ganhou visibilidade com greves estudantis e manifestações internacionais, especialmente em torno das cobranças por ação dos governos. Na economia, Estados Unidos e China mantiveram uma disputa comercial com tarifas recíprocas e negociações, que afetaram expectativas e cadeias produtivas. Ao mesmo tempo, cresceram os debates sobre inteligência artificial, privacidade, vigilância digital e responsabilidade das plataformas. O ano evidencia como problemas globais se conectam, mas assumem formas específicas conforme a história e as condições de cada sociedade.",
     "personagens": [
-      "Lideranças políticas dos Estados Unidos e da China.",
-      "Ativistas globais de mudanças climáticas."
+      "Manifestantes, organizações civis e lideranças locais de Hong Kong, Sudão, Chile, Líbano e outros contextos nacionais.",
+      "Ativistas climáticos, entre eles Greta Thunberg, e organizações juvenis pelo clima.",
+      "Lideranças dos governos dos Estados Unidos e da China envolvidas nas negociações comerciais."
     ],
     "grupos_envolvidos": [
-      "Governos Nacionais",
-      "Empresas de Tecnologia",
-      "Movimentos Sociais Globais"
+      "Movimentos pró-democracia e organizações civis em Hong Kong.",
+      "Movimentos sociais e sindicatos em países como Chile, Sudão e Líbano.",
+      "Movimentos juvenis e organizações ambientais.",
+      "Governos, empresas e trabalhadores afetados pela disputa comercial entre Estados Unidos e China."
     ],
     "interesses_em_disputa": [
-      "Liderança econômica global, controle tecnológico e salvaguarda ambiental."
+      "Demandas locais por direitos, reformas políticas, justiça social e melhores condições de vida.",
+      "Interesses comerciais, tecnológicos e estratégicos dos Estados Unidos e da China.",
+      "Pressão por políticas climáticas e transição para modelos de desenvolvimento menos poluentes."
     ],
     "linha_do_tempo": [
-      {"ano": 2019, "titulo": "Guerra Comercial EUA-China", "descricao": "Escalada de tarifas alfandegárias entre as duas potências."},
-      {"ano": 2019, "titulo": "Mobilizações Globais e Clima", "descricao": "Protestos sociais em massa e foco internacional nas mudanças climáticas."}
+      {
+        "ano": 2019,
+        "titulo": "Protestos em Hong Kong",
+        "descricao": "Manifestações contra projeto de extradição evoluem para reivindicações políticas mais amplas."
+      },
+      {
+        "ano": 2019,
+        "titulo": "Mobilizações pelo clima",
+        "descricao": "Greves e manifestações internacionais cobram medidas de enfrentamento à crise climática."
+      },
+      {
+        "ano": 2019,
+        "titulo": "Protestos no Chile e no Líbano",
+        "descricao": "Mobilizações de outubro expressam insatisfação com desigualdades, custos de vida e governos, em contextos distintos."
+      },
+      {
+        "ano": 2019,
+        "titulo": "Disputa comercial EUA-China",
+        "descricao": "Tarifas e negociações mantêm a incerteza nas relações econômicas entre as duas potências."
+      }
     ],
     "consequencias_imediatas": [
-      "Desaceleração temporária do comércio internacional e reconfiguração de cadeias de suprimentos."
+      "A disputa tarifária elevou custos e incertezas em setores do comércio e da produção, embora seus efeitos variassem entre países e atividades.",
+      "Em vários países, protestos provocaram respostas governamentais, mudanças políticas e debates sobre direitos, representação e desigualdade."
     ],
     "consequencias_longo_prazo": [
-      "Aprofundamento da cisão tecnológica entre o bloco ocidental e a China."
+      "A rivalidade tecnológica e comercial entre Estados Unidos e China continuou nos anos seguintes, com efeitos sobre cadeias produtivas e políticas industriais.",
+      "As mobilizações de 2019 deixaram debates e reivindicações que tiveram desdobramentos diferentes em cada sociedade."
     ],
     "impactos": {
-      "politicos": "Polarização informacional impulsionada pelos algoritmos das redes sociais.",
-      "economicos": "Custos adicionais para o comércio global devido a barreiras tarifárias.",
-      "sociais": "Efervescência de protestos urbanos reivindicando reformas estruturais.",
-      "culturais": "Centralidade digital na formação da opinião pública mundial.",
-      "territoriais": "Foco estratégico em mercados asiáticos e norte-americanos.",
-      "ambientais": "Pressão pública sem precedentes por compromissos ecológicos estatais."
+      "politicos": "As mobilizações pressionaram governos e instituições, mas seus resultados variaram: houve mudanças de governo, concessões, repressão e impasses.",
+      "economicos": "As tarifas entre Estados Unidos e China alteraram fluxos comerciais e aumentaram a incerteza para setores expostos ao comércio internacional.",
+      "sociais": "As manifestações deram visibilidade a demandas por democracia, justiça social, serviços públicos e combate à corrupção.",
+      "culturais": "As redes digitais foram importantes para informar, mobilizar e disputar interpretações dos acontecimentos.",
+      "territoriais": "Os conflitos e protestos permaneceram ligados a realidades locais e nacionais, sem apagar suas diferenças.",
+      "ambientais": "Greves e manifestações ampliaram a pressão pública por compromissos climáticos e políticas de redução de emissões."
     },
-    "continuidade": "Disputas comerciais e tecnológicas entre superpotências.",
-    "rupturas": "Fim da era de livre comércio global sem fricções protecionistas."
+    "continuidade": "Persistência de disputas comerciais e tecnológicas entre grandes potências e de reivindicações sociais por direitos e participação política.",
+    "rupturas": "A intensidade das mobilizações em 2019 marcou diferentes cenários nacionais, mas não representou o fim do livre comércio nem uma ruptura mundial única."
   },
 
   {
     "id": "atualidades-2020",
-    "titulo_principal": "ATUALIDADES (2020): A PANDEMIA DE COVID-19 E A PARALISIA GLOBAL",
+    "titulo_principal": "ATUALIDADES (2020): PANDEMIA, DESIGUALDADES E TRANSFORMAÇÕES SOCIAIS",
     "ano_inicio": 2020,
     "ano_fim": 2020,
     "periodo": "Atualidades Mundiais",
     "local": "Global",
     "sociedades_envolvidas": "População Mundial, Sistemas de Saúde, Governos e Comunidade Científica",
-    "tema": "Pandemia de COVID-19, Fechamento de Fronteiras, Crise Econômica, Trabalho Remoto, Ensino a Distância e Vacinação",
-    "contexto": "O surgimento e a propagação global do coronavírus paralisaram a economia internacional, fecharam fronteiras e impuseram o isolamento social em massa, acelerando a digitalização da sociedade.",
+    "tema": "Pandemia de COVID-19, emergência sanitária, medidas de distanciamento, crise econômica, educação remota, trabalho, ciência e vacinação",
+    "contexto": "Após a identificação de um novo coronavírus no fim de 2019, a COVID-19 se espalhou internacionalmente. Em 30 de janeiro de 2020, a OMS declarou uma Emergência de Saúde Pública de Importância Internacional; em 11 de março, caracterizou a COVID-19 como pandemia. As respostas variaram entre países e regiões, envolvendo medidas sanitárias, restrições de circulação, reorganização dos serviços e impactos econômicos e sociais profundos.",
     "antecedentes": [
-      "Globalização intensa com alta mobilidade de voos internacionais facilitando a propagação viral."
+      "A identificação de um agrupamento de casos de pneumonia de causa então desconhecida em Wuhan, na China, foi comunicada à OMS em 31 de dezembro de 2019.",
+      "A circulação internacional de pessoas contribuiu para a disseminação, mas fatores como transmissão comunitária, condições de moradia, trabalho e capacidade dos sistemas de saúde também influenciaram os impactos."
     ],
     "causas": {
-      "politicas": "Necessidade urgente de governos adotarem medidas de emergência sanitária e controle de circulação.",
-      "economicas": "Paralisação abrupta da atividade econômica global e quebra de cadeias produtivas.",
-      "sociais": "Colapso de sistemas de saúde públicos e privados e imposição global do isolamento social.",
-      "religiosas": "Adaptação de rituais religiosos aos formatos virtuais.",
-      "culturais": "Normalização do trabalho remoto (home office) e do ensino à distância em larga escala.",
-      "territoriais": "Fechamento rigoroso de fronteiras nacionais e restrições de viagens internacionais.",
-      "tecnologias": "Corrida científica histórica para o desenvolvimento e aprovação de vacinas em tempo recorde."
+      "politicas": "Governos adotaram medidas distintas, em momentos e intensidades diferentes, para reduzir a transmissão, organizar os serviços de saúde e apoiar a população.",
+      "economicas": "Restrições a atividades presenciais, queda da demanda, interrupções produtivas e incerteza provocaram uma forte recessão mundial.",
+      "sociais": "A doença e as medidas de distanciamento afetaram a vida cotidiana, com consequências desiguais para trabalhadores, famílias, idosos e grupos vulneráveis.",
+      "religiosas": "Comunidades religiosas suspenderam, adaptaram ou transferiram atividades para meios digitais, conforme orientações e regras locais.",
+      "culturais": "Escolas, instituições culturais, famílias e organizações precisaram adaptar práticas de convivência, ensino e trabalho.",
+      "territoriais": "A intensidade da transmissão e as respostas públicas variaram entre países, cidades e regiões, sem um fechamento universal e simultâneo das fronteiras.",
+      "tecnologias": "Ferramentas digitais apoiaram trabalho, ensino, comunicação e pesquisa científica, mas o acesso desigual à internet e aos equipamentos limitou sua utilização."
     },
-    "resumo_card": "Abrange a pandemia de COVID-19, o fechamento de fronteiras, o isolamento social, a crise econômica mundial, a expansão do trabalho e ensino remotos, a digitalização e o início da vacinação.",
-    "desenvolvimento": "O ano de 2020 foi dominado pela crise sanitária da COVID-19. Com o fechamento de fronteiras e lockdowns, o mundo adaptou-se ao trabalho e ensino remotos, acelerando a transição digital. A economia global sofreu retração histórica, enquanto cientistas mobilizavam-se para produzir as primeiras vacinas aplicadas no final do ano.",
+    "resumo_card": "Aborda a pandemia de COVID-19 em 2020, as respostas sanitárias, os efeitos sobre saúde e economia, o fechamento temporário de escolas, a expansão desigual do ensino e trabalho remotos e o início da vacinação em alguns países.",
+    "desenvolvimento": "A COVID-19 transformou profundamente o ano de 2020. Depois dos primeiros relatos de casos de pneumonia em Wuhan, no fim de 2019, a doença se espalhou por diferentes países. A Organização Mundial da Saúde declarou Emergência de Saúde Pública de Importância Internacional em 30 de janeiro e caracterizou a situação como pandemia em 11 de março. Governos adotaram combinações variadas de medidas, como distanciamento físico, restrições a atividades presenciais, uso de máscaras, testagem e reorganização dos serviços de saúde. Hospitais enfrentaram sobrecarga em muitas localidades, enquanto profissionais de saúde trabalharam sob forte pressão. A atividade econômica sofreu uma recessão mundial, com efeitos distintos entre setores e países. O fechamento de escolas atingiu centenas de milhões de estudantes; no pico de abril, cerca de 1,6 bilhão estavam fora das salas de aula, e o ensino remoto revelou desigualdades de acesso à internet, equipamentos e condições de estudo. O trabalho remoto cresceu onde era possível, mas não alcançou igualmente todos os trabalhadores. A pesquisa científica avançou rapidamente, e as primeiras campanhas de vacinação começaram em dezembro em alguns países. Em 31 de dezembro, a OMS concedeu sua primeira validação de uso emergencial a uma vacina contra a COVID-19. A crise expôs desigualdades, limites dos sistemas de proteção social e a importância da cooperação científica e internacional.",
     "personagens": [
-      "Profissionais de saúde da linha de frente.",
-      "Pesquisadores e cientistas farmacêuticos."
+      "Profissionais de saúde, pesquisadores, equipes de vigilância epidemiológica e trabalhadores de serviços essenciais.",
+      "Cientistas e equipes envolvidas no desenvolvimento, avaliação e produção de vacinas.",
+      "Gestores públicos e organizações internacionais responsáveis por coordenar respostas sanitárias."
     ],
     "grupos_envolvidos": [
-      "Organização Mundial da Saúde (OMS)",
-      "Governos Nacionais",
-      "População Civil Global"
+      "Organização Mundial da Saúde e autoridades sanitárias nacionais e locais.",
+      "Profissionais de saúde e trabalhadores de serviços essenciais.",
+      "Estudantes, professores, famílias e instituições de ensino.",
+      "Trabalhadores formais e informais, empresas e setores econômicos afetados.",
+      "Comunidades com diferentes níveis de acesso a serviços de saúde e tecnologias digitais."
     ],
     "interesses_em_disputa": [
-      "Equilíbrio entre restrições sanitárias de proteção à vida e a reabertura econômica."
+      "Proteção da saúde coletiva, manutenção de renda e emprego e definição de medidas proporcionais às condições de cada localidade.",
+      "Acesso amplo e equitativo a testes, tratamentos, equipamentos de proteção e vacinas.",
+      "Garantia do direito à educação diante do fechamento temporário de escolas e das desigualdades digitais."
     ],
     "linha_do_tempo": [
-      {"ano": 2020, "titulo": "Surto e Pandemia Global", "descricao": "Declaração de pandemia pela OMS e lockdowns em massa."},
-      {"ano": 2020, "titulo": "Início da Vacinação", "descricao": "Aprovação emergencial e aplicação das primeiras doses de vacinas contra a COVID-19."}
+      {
+        "ano": 2020,
+        "titulo": "Emergência internacional",
+        "descricao": "Em 30 de janeiro, a OMS declara a COVID-19 uma Emergência de Saúde Pública de Importância Internacional."
+      },
+      {
+        "ano": 2020,
+        "titulo": "Caracterização como pandemia",
+        "descricao": "Em 11 de março, a OMS caracteriza a disseminação da COVID-19 como pandemia."
+      },
+      {
+        "ano": 2020,
+        "titulo": "Fechamento de escolas",
+        "descricao": "Em abril, o fechamento de instituições de ensino deixa cerca de 1,6 bilhão de estudantes fora das salas de aula, segundo estimativa do Banco Mundial."
+      },
+      {
+        "ano": 2020,
+        "titulo": "Início das campanhas de vacinação",
+        "descricao": "Em dezembro, alguns países iniciam a vacinação; a primeira validação de uso emergencial da OMS para uma vacina contra a COVID-19 ocorre em 31 de dezembro."
+      }
     ],
     "consequencias_imediatas": [
-      "Milhões de mortes globais e sobrecarga extrema dos sistemas hospitalares.",
-      "Salto tecnológico de uma década na digitalização de empresas, escolas e serviços públicos."
+      "Milhões de pessoas morreram em decorrência da COVID-19, e serviços de saúde de diversas regiões enfrentaram sobrecarga.",
+      "A recessão global e a interrupção de atividades presenciais afetaram renda, emprego, educação, cultura e circulação de pessoas.",
+      "O ensino remoto ampliou o uso de tecnologias, mas também evidenciou desigualdades de acesso e condições de aprendizagem."
     ],
     "consequencias_longo_prazo": [
-      "Transformação definitiva dos modelos de trabalho híbrido e reavaliação de cadeias de suprimento globais."
+      "A pandemia deixou efeitos prolongados sobre saúde física e mental, aprendizagem, renda, trabalho e organização dos serviços públicos.",
+      "A experiência estimulou debates sobre preparação para emergências sanitárias, cooperação científica, produção de insumos e acesso equitativo a vacinas."
     ],
     "impactos": {
-      "politicos": "Centralização de poderes de emergência sanitária em governos federais e estaduais.",
-      "economicos": "Recessão econômica global profunda seguida por pacotes de estímulo bilionários.",
-      "sociais": "Aprofundamento de desigualdades sociais e educacionais devido à exclusão digital.",
-      "culturais": "Alteração profunda nos hábitos de socialização e consumo humano.",
-      "territoriais": "Isolamento temporário e controle alfandegário sanitário estrito.",
-      "ambientais": "Redução temporária de emissões de carbono durante os meses de confinamento estrito."
+      "politicos": "A crise exigiu decisões de emergência e ampliou debates sobre coordenação entre governos, transparência, confiança pública e responsabilidades institucionais.",
+      "economicos": "A recessão mundial atingiu de modo desigual os setores econômicos e os trabalhadores; medidas de apoio variaram entre países.",
+      "sociais": "Desigualdades de renda, moradia, saúde e acesso digital influenciaram a exposição ao vírus e a capacidade de enfrentar a crise.",
+      "culturais": "Rituais, atividades culturais, convivência e formas de comunicação foram adaptados, com diferenças conforme as condições locais.",
+      "territoriais": "As consequências variaram segundo densidade urbana, infraestrutura, mobilidade, capacidade hospitalar e políticas adotadas.",
+      "ambientais": "A redução temporária de algumas atividades diminuiu certas emissões e a poluição em determinados locais, mas os efeitos foram desiguais e não significaram uma transformação ambiental duradoura."
     },
-    "continuidade": "Desafios persistentes de saúde pública global e resiliência sanitária.",
-    "rupturas": "Interrupção drástica da circulação física humana global em tempo de paz."
+    "continuidade": "Desafios de saúde pública, desigualdade no acesso a serviços e necessidade de preparação para emergências sanitárias permaneceram após 2020.",
+    "rupturas": "A pandemia interrompeu ou reorganizou temporariamente atividades presenciais em escala mundial e acelerou mudanças digitais, sem tornar permanentes ou universais todas essas transformações."
   },
 
   {
