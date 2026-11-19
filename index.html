@@ -2151,6 +2151,10 @@
                     .select('id,title,resource_type,content').order('created_at', { ascending: false });
                 if (error) throw error;
                 recursos.data = data || [];
+                const categoriasAtualizadas = [...new Set(recursos.data.map(tipoRecurso))].sort((a,b) => nomeCategoriaRecurso(a).localeCompare(nomeCategoriaRecurso(b), 'pt-BR'));
+                filtroCategoriaRecurso.innerHTML = '<option value="">Todas as categorias</option>' + categoriasAtualizadas.map(tipo =>
+                    '<option value="' + escaparTextoProfessor(tipo) + '">' + escaparTextoProfessor(nomeCategoriaRecurso(tipo)) + '</option>'
+                ).join('');
                 renderizarRecursos();
                 renderizarListaAdmin();
             };
