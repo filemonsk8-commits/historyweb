@@ -286,7 +286,7 @@
       {"ano": 1919, "titulo": "Tratado de Versalhes e Liga das Nações", "descricao": "Acordos punitivos e pacto internacional de paz."},
       {"ano": 1929, "titulo": "Grande Depressão", "descricao": "Quebra da Bolsa de Nova York e crise econômica global."},
       {"ano": 1939, "titulo": "Início da Segunda Guerra Mundial", "descricao": "Invasão da Polônia pela Alemanha nazista."},
-      {"ano": 1945, "titulo": "Fim da Segunda Guerra e Criação da ONU", "descricao": "Rrendição do Eixo, bombas atômicas e fundação das Nações Unidas."}
+      {"ano": 1945, "titulo": "Fim da Segunda Guerra e Criação da ONU", "descricao": "Rendição das potências do Eixo, bombas atômicas e fundação das Nações Unidas."}
     ],
     "consequencias_imediatas": [
       "Dezenas de milhões de mortos civis e militares, destruição urbana generalizada na Europa e Ásia.",
@@ -310,27 +310,27 @@
   {
     "id": "guerra-fria-descolonizacao",
     "titulo_principal": "A GUERRA FRIA E A DESCOLONIZAÇÃO DA ÁFRICA E DA ÁSIA",
-    "ano_inicio": 1947,
+    "ano_inicio": 1945,
     "ano_fim": 1991,
     "periodo": "Idade Contemporânea",
     "local": "Global (EUA, URSS, Europa, Ásia, América Latina e África)",
     "sociedades_envolvidas": "Bloco Capitalista (OTAN), Bloco Socialista (Pacto de Varsóvia) e Nações do Terceiro Mundo",
     "tema": "Início da Guerra Fria, Doutrina Truman (1947), Plano Marshall (1947), Bloqueio de Berlim (1948-1949), OTAN (1949), Revolução Chinesa (1949), Guerra da Coreia (1950-1953), Pacto de Varsóvia (1955), Conferência de Bandung (1955), Crise de Suez (1956), Sputnik e Início da Corrida Espacial (1957), Revolução Cubana (1959), Ano da África (1960), Muro de Berlim (1961), Crise dos Mísseis em Cuba (1962), Guerra do Vietnã (1955-1975), Independência da Argélia (1962), Chegada do Homem à Lua (1969), Fim da Guerra Fria, Queda do Muro de Berlim (1989) e Fim da URSS (1991)",
-    "contexto": "Conflito ideológico, tecnológico e geopolítico indireto entre os Estados Unidos e a União Soviética, acompanhado pela emancipação dos povos colonizados na África e na Ásia.",
+    "contexto": "Conflito ideológico, tecnológico e geopolítico entre Estados Unidos e União Soviética, acompanhado por processos de descolonização na África e na Ásia. Suas tensões se formaram no contexto do fim da Segunda Guerra Mundial, em 1945–1946, e a política de contenção foi formalizada em 1947.",
     "antecedentes": [
-      "Emergência de duas superpotências antagônicas após a Segunda Guerra Mundial e divisão de Berlim."
+      "Emergência dos Estados Unidos e da União Soviética como superpotências após a Segunda Guerra Mundial, ocupação da Alemanha e de Berlim e divergências sobre a reorganização da ordem internacional."
     ],
     "causas": {
       "politicas": "Disputa irreconciliável entre o modelo liberal-capitalista democrático e o socialismo de Estado soviético.",
-      "economicas": "Luta por mercados consumidores globais e modelos econômicos concorrentes (Plano Marshall vs. Pacto de Varsóvia/Comecon).",
+      "economicas": "Disputa entre modelos econômicos e projetos de reconstrução: o Plano Marshall apoiou a recuperação da Europa ocidental, enquanto o Comecon, criado em 1949, articulou a cooperação econômica entre países socialistas. O Pacto de Varsóvia, criado em 1955, foi uma aliança militar, não um organismo econômico.",
       "sociais": "Medo generalizado de conflito nuclear aniquilador (Equilíbrio do Terror) e propaganda ideológica de massas.",
-      "religiosas": "Confronto entre o ateísmo de Estado soviético e valores religiosos ocidentais.",
+      "religiosas": "A religião foi mobilizada de maneiras distintas nos discursos políticos dos blocos, mas a oposição entre capitalismo e socialismo não se reduziu a uma divisão religiosa; sociedades e governos de ambos os lados apresentavam diversidade de posições.",
       "culturais": "Disputa cultural e ideológica pela supremacia nos costumes, na ciência, nos esportes (corrida espacial e chegada à Lua em 1969).",
       "territoriais": "Esferas de influência global estendidas por golpes, revoluções e guerras regionais (Coreia, Vietnã, Cuba).",
       "tecnologias": "Armas nucleares intercontinentais, satélites (Sputnik em 1957), computação inicial e exploração espacial."
     },
     "resumo_card": "Abrange a Doutrina Truman e o Plano Marshall (1947), o Bloqueio de Berlim (1948–1949), a OTAN (1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), o Pacto de Varsóvia (1955), a Conferência de Bandung e a descolonização asiática/africana (Independência da Índia em 1947, Estado de Israel e Guerra Árabe-Israelense em 1948, Crise de Suez em 1956, o 'Ano da África' em 1960, Independência da Argélia em 1962, Movimento dos Não Alinhados), além do Sputnik (1957), Revolução Cubana (1959), Muro de Berlim (1961), Crise dos Mísseis (1962), Guerra do Vietnã, chegada à Lua (1969), Queda do Muro de Berlim (1989) e o fim da URSS em 1991.",
-    "desenvolvimento": "Iniciada com a Doutrina Truman e o Plano Marshall em 1947, a Guerra Fria dividiu o mundo entre OTAN (1949) e Pacto de Varsóvia (1955). Teve marcos tensos como o Bloqueio de Berlim (1948–1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), a Revolução Cubana (1959), a construção do Muro de Berlim (1961) e a Crise dos Mísseis em Cuba (1962). Na tecnologia, o Sputnik (1957) iniciou a corrida espacial que levou o homem à Lua em 1969. No Terceiro Mundo, ocorreu a descolonização: independência da Índia (1947), criação de Israel e conflitos árabes (1948), Conferência de Bandung (1955), Crise de Suez (1956), o 'Ano da África' (1960), a Argélia (1962) e o Movimento dos Não Alinhados. O conflito encerrou-se com a Queda do Muro de Berlim em 1989 e o fim da URSS em 1991.",
+    "desenvolvimento": "As tensões entre as antigas aliadas começaram a se intensificar no fim da Segunda Guerra Mundial e nos anos de 1945–1946. Em 1947, a Doutrina Truman e o Plano Marshall marcaram a formalização da política de contenção dos Estados Unidos. A Guerra Fria passou a organizar grande parte da política internacional, embora muitos países tenham buscado caminhos próprios e formas de não alinhamento. A OTAN foi criada em 1949 e o Pacto de Varsóvia em 1955. Teve marcos tensos como o Bloqueio de Berlim (1948–1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), a Revolução Cubana (1959), a construção do Muro de Berlim (1961) e a Crise dos Mísseis em Cuba (1962). Na tecnologia, o Sputnik (1957) iniciou a corrida espacial que levou o homem à Lua em 1969. No Terceiro Mundo, ocorreu a descolonização: independência da Índia (1947), criação de Israel e conflitos árabes (1948), Conferência de Bandung (1955), Crise de Suez (1956), o 'Ano da África' (1960), a Argélia (1962) e o Movimento dos Não Alinhados. O conflito encerrou-se com a Queda do Muro de Berlim em 1989 e o fim da URSS em 1991.",
     "personagens": [
       "John F. Kennedy e Nikita Khrushchev: Líderes durante a Crise dos Mísseis em Cuba.",
       "Mahatma Gandhi e Ho Chi Minh: Líderes anticoloniais asiáticos.",
@@ -342,7 +342,7 @@
       "Países Não Alinhados"
     ],
     "interesses_em_disputa": [
-      "Hemonia militar global, controle de zonas geoestratégicas e expansão ou contenção do socialismo."
+      "Hegemonia militar e influência geopolítica, controle de áreas estratégicas e expansão ou contenção de projetos políticos e econômicos concorrentes."
     ],
     "linha_do_tempo": [
       {"ano": 1947, "titulo": "Doutrina Truman e Independência da Índia", "descricao": "Início da contenção soviética e fim do domínio britânico na Índia."},
@@ -353,7 +353,7 @@
       {"ano": 1991, "titulo": "Fim da União Soviética", "descricao": "Dissolvimento oficial da URSS e encerramento da Guerra Fria."}
     ],
     "consequencias_imediatas": [
-      "Fim do mundo bipolar e triunfo temporário incontestável do capitalismo global liberal.",
+      "Fim da ordem bipolar e fortalecimento internacional do capitalismo liberal nos anos 1990, sem eliminar conflitos, desigualdades ou experiências políticas e econômicas alternativas.",
       "Independência política formal de dezenas de novos Estados na África e na Ásia."
     ],
     "consequencias_longo_prazo": [
