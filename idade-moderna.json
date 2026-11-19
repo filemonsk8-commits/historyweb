@@ -132,7 +132,7 @@
     "local": "Itália e Europa Ocidental",
     "sociedades_envolvidas": "Artistas, Cientistas, Intelectuais, Humanistas e Igreja Católica",
     "tema": "Antropocentrismo, Racionalismo, Imprensa de Gutenberg e Nova Visão de Mundo",
-    "contexto": "Período de efervescência cultural e intelectual que transformou a arte, a literatura, a filosofia e a ciência, rompendo com o monopólio escolástico medieval.",
+    "contexto": "Período de intensas transformações culturais e intelectuais na Europa, com valorização renovada dos textos clássicos e desenvolvimento das artes e dos estudos da natureza. O Humanismo conviveu com a tradição escolástica, que continuou influente nas universidades; não houve uma ruptura súbita entre o pensamento medieval e o moderno.",
     "antecedentes": [
       "Crescimento das cidades e fortalecimento da burguesia urbana.",
       "Recuperação de textos clássicos greco-romanos traduzidos e preservados."
@@ -142,14 +142,14 @@
       "economicas": "Prosperidade comercial de cidades italianas como Florença, Veneza e Gênova.",
       "sociais": "Valorização do indivíduo e ascensão social de artistas e letrados.",
       "religiosas": "Busca por conciliar o saber humanista com valores cristãos ou reformar a espiritualidade.",
-      "culturais": "Invenção da imprensa de tipos móveis por Gutenberg (c. 1450), facilitando a circulação de ideias.",
+      "culturais": "Desenvolvimento e difusão da imprensa europeia de tipos móveis por Johannes Gutenberg, em meados do século XV, ampliando a reprodução de textos. Técnicas de impressão e de tipos móveis já existiam anteriormente em sociedades do Leste Asiático.",
       "territoriais": "Difusão cultural da Itália para o restante da Europa.",
-      "tecnologias": "Aperfeiçoamento da imprensa, telescópio e métodos matemáticos de investigação."
+      "tecnologias": "Difusão da imprensa de tipos móveis na Europa e, sobretudo nos séculos XVI e XVII, aperfeiçoamento de instrumentos de observação, como o telescópio, e de métodos matemáticos e experimentais."
     },
-    "resumo_card": "O Renascimento, o Humanismo e a Revolução Científica colocaram o ser humano e a razão no centro das reflexões, transformando a arte, a ciência e a circulação de livros com a imprensa.",
-    "desenvolvimento": "Com base no antropocentrismo, artistas como Leonardo da Vinci e Michelangelo revolucionaram a estética visual. Paralelamente, pensadores humanistas como Erasmo de Roterdã criticaram dogmas tradicionais. Na ciência, a Revolução Científica — encabeçada por Copérnico, Galileu e Newton — derrubou o geocentrismo e inaugurou o método científico experimental baseado na matemática e na observação.",
+    "resumo_card": "O Renascimento e o Humanismo renovaram as artes e os estudos dos textos clássicos, enquanto a Revolução Científica dos séculos XVI e XVII transformou gradualmente a investigação da natureza. A imprensa ampliou a circulação de obras e debates.",
+    "desenvolvimento": "Artistas como Leonardo da Vinci e Michelangelo exploraram referências clássicas, proporção, perspectiva e observação da natureza, sem que isso significasse o desaparecimento imediato das tradições medievais. Humanistas como Erasmo de Roterdã estudaram textos antigos e propuseram reformas culturais e religiosas. Em processo relacionado, mas desenvolvido ao longo dos séculos XVI e XVII, a chamada Revolução Científica transformou a astronomia e o estudo da natureza: Copérnico propôs um modelo heliocêntrico em 1543; Galileu contribuiu com observações telescópicas e estudos do movimento; e Newton formulou a lei da gravitação universal em 1687. Essas mudanças resultaram de debates e contribuições acumuladas, não da ação isolada de poucos indivíduos.",
     "personagens": [
-      "Johannes Gutenberg: Inventor da imprensa de tipos móveis na Europa.",
+      "Johannes Gutenberg: Figura central no desenvolvimento e na difusão da imprensa europeia de tipos móveis, em meados do século XV.",
       "Leonardo da Vinci: Artista e polímata símbolo do Renascimento.",
       "Galileu Galilei: Cientista que defendeu o heliocentrismo e a observação experimental.",
       "Isaac Newton: Formulador da lei da gravitação universal e da mecânica clássica."
@@ -167,23 +167,23 @@
       {"ano": 1543, "titulo": "Modelo Heliocêntrico", "descricao": "Copérnico publica a obra sobre as revoluções das esferas celestes."}
     ],
     "consequencias_imediatas": [
-      "Barateamento e multiplicação rápida de livros, impulsionando a alfabetização.",
-      "Confrontos teológicos entre novas teorias científicas e doutrinas tradicionais (ex: caso Galileu)."
+      "Ampliação da reprodução de livros e de sua circulação em diferentes públicos; os efeitos sobre alfabetização e leitura variaram conforme a região e as condições sociais.",
+      "Debates e conflitos envolvendo novas explicações sobre a natureza, autoridades religiosas, instituições acadêmicas e concepções científicas estabelecidas, como no caso de Galileu."
     ],
     "consequencias_longo_prazo": [
-      "Fundação da ciência moderna e secularização progressiva do pensamento ocidental.",
-      "Desenvolvimento de tecnologias industriais e avanço técnico contínuo."
+      "Consolidação gradual de práticas de investigação baseadas em observação, experimentação, argumentação matemática e debate público, sem eliminar de imediato explicações religiosas ou tradições anteriores.",
+      "Contribuições para transformações posteriores na ciência, na técnica e na produção, que ocorreram em contextos históricos distintos."
     ],
     "impactos": {
       "politicos": "Questionamento do direito divino absoluto através da valorização racional da soberania.",
       "economicos": "Estímulo a inovações técnicas úteis à navegação, à mineração e ao comércio.",
       "sociais": "Ampliação do público leitor e valorização da educação intelectual formal.",
-      "culturais": "Rompimento estético com a arte medieval e consolidação do padrão humanista clássico.",
+      "culturais": "Difusão de linguagens artísticas inspiradas na Antiguidade clássica, que coexistiram com tradições medievais e assumiram formas diferentes conforme a região.",
       "territoriais": "Disseminação internacional de correntes científicas e artísticas na Europa.",
-      "ambientais": "Mudança na relação filosófica entre o homem e a natureza (visão de domínio técnico sobre o meio)."
+      "ambientais": "Novas práticas de observação e representação da natureza e debates sobre o conhecimento e o uso de seus recursos; não houve uma mudança única e uniforme na relação entre sociedades europeias e meio ambiente."
     },
     "continuidade": "Permanência da fé religiosa na vida cotidiana da maioria da população europeia.",
-    "rupturas": "Substituição do modelo geocêntrico aristotélico-ptolomaico pelo heliocentrismo científico."
+    "rupturas": "Transformação gradual dos modelos cosmológicos e dos métodos de investigação da natureza, com a consolidação do heliocentrismo ao longo de debates que atravessaram os séculos XVI e XVII."
   },
 
   {
