@@ -23,7 +23,7 @@
       "tecnologias": "Uso intensivo de artilharia pesada e canhões pelos turcos no cerco às muralhas de Constantinopla."
     },
     "resumo_card": "A conquista de Constantinopla em 1453 fortaleceu o poder otomano no Mediterrâneo oriental e alterou as condições do comércio entre Europa e Ásia. As Grandes Navegações, porém, tiveram várias causas e já estavam em curso antes dessa conquista.",
-    "desenvolvimento": "O cerco e a tomada de Constantinopla alteraram a geopolítica do Mediterrâneo oriental e ampliaram o controle otomano sobre importantes áreas e passagens comerciais. O comércio entre europeus e asiáticos não foi simplesmente interrompido: continuou sob novas condições políticas e fiscais. A busca europeia por rotas marítimas também respondeu a outros interesses, como o acesso direto às especiarias, a competição entre monarquias e a expansão comercial; as navegações portuguesas pela costa africana já ocorriam antes de 1453.",
+    "desenvolvimento": "Em 29 de maio de 1453, após um cerco de cerca de sete semanas, as forças otomanas comandadas pelo sultão Maomé II conquistaram Constantinopla, encerrando o Império Bizantino. A cidade tinha posição estratégica entre o Mediterrâneo e o Mar Negro e passou a integrar o centro do poder otomano, sendo posteriormente transformada em uma das principais capitais do império. A conquista alterou a administração, a tributação e as condições políticas de circulação na região, mas não interrompeu o comércio entre Europa e Ásia: mercadores continuaram utilizando rotas terrestres e marítimas sob novos arranjos. A expansão marítima portuguesa já estava em curso, e a procura por caminhos oceânicos resultou de vários fatores, como competição entre monarquias, interesses mercantis, busca por especiarias e metais, evangelização e conhecimentos náuticos. A chegada de estudiosos bizantinos à Itália contribuiu para intercâmbios intelectuais, mas o Renascimento tinha raízes anteriores e não foi consequência exclusiva da queda da cidade.",
     "personagens": [
       "Maomé II (O Conquistador): Sultão otomano responsável pela tomada de Constantinopla.",
       "Constantino XI Paleólogo: Último imperador bizantino morto na defesa da cidade."
@@ -45,18 +45,20 @@
       }
     ],
     "consequencias_imediatas": [
-      "Ampliação do domínio otomano sobre Constantinopla e passagens estratégicas, alterando condições políticas e fiscais da circulação comercial, sem interromper todas as rotas entre Europa e Ásia.",
-      "Reavaliação de estratégias comerciais e diplomáticas por potências europeias, em um processo de expansão marítima que já estava em curso antes de 1453."
+      "Fim do Império Bizantino e incorporação de Constantinopla ao domínio otomano, com mudanças na administração e no equilíbrio político do Mediterrâneo oriental.",
+      "Reorganização de condições comerciais e fiscais em algumas rotas, sem bloqueio geral do comércio entre Europa e Ásia.",
+      "A cidade manteve sua importância urbana, econômica e cultural e tornou-se uma capital central do Império Otomano."
     ],
     "consequencias_longo_prazo": [
-      "Deslocamento do eixo econômico europeu do Mar Mediterrâneo para o Oceano Atlântico.",
-      "Consolidação de impérios marítimos ultramarinos."
+      "A conquista tornou-se um marco simbólico da transição entre períodos históricos na periodização europeia, embora processos medievais e modernos tenham ocorrido em ritmos diferentes conforme a região.",
+      "O fortalecimento otomano no Mediterrâneo oriental influenciou a diplomacia e as disputas entre potências, enquanto as navegações atlânticas prosseguiram por causas múltiplas.",
+      "Intercâmbios entre estudiosos gregos e círculos humanistas ocidentais ampliaram a circulação de textos, sem explicar isoladamente o Renascimento."
     ],
     "impactos": {
       "politicos": "Redesenho das alianças geopolíticas na Europa Oriental e no Mediterrâneo.",
-      "economicos": "Encarecimento das especiarias orientais na Europa e busca por novas fontes de lucro.",
+      "economicos": "O domínio otomano alterou a tributação e as condições políticas de algumas rotas estratégicas, mas as redes comerciais entre Europa e Ásia continuaram funcionando e se adaptando.",
       "sociais": "Circulação de intelectuais bizantinos para diferentes regiões da Europa, contribuindo para intercâmbios culturais que já existiam; o Renascimento italiano tinha raízes anteriores e causas múltiplas.",
-      "culturais": "Preservação e reinterpretação da herança greco-romana no Ocidente.",
+      "culturais": "A presença e a circulação de estudiosos bizantinos contribuíram para intercâmbios intelectuais na Europa ocidental, em continuidade com contatos e traduções anteriores.",
       "territoriais": "Expansão do domínio islâmico otomano sobre os Bálcãs e o Oriente Médio.",
       "ambientais": "Sem impactos diretos imediatos no meio ambiente global."
     },
@@ -490,68 +492,92 @@
     "tema": "Independência das Treze Colônias, Declaração de 1776 e formação de uma república constitucional",
     "contexto": "As Treze Colônias inglesas na América do Norte, marcadas por grande autonomia e desenvolvimento econômico, revoltaram-se contra o aumento de impostos e restrições comerciais impostos pela metrópole britânica após a Guerra dos Sete Anos.",
     "antecedentes": [
-      "Autonomia relativa administrativa das colônias do Norte (comércio triangular) e do Sul (plantation).",
-      "Fim da Guerra dos Sete Anos (1756–1763) e endividamento do governo britânico."
+      "Autonomia relativa das colônias, com economias e estruturas sociais distintas entre Norte, Centro e Sul.",
+      "Guerra dos Sete Anos (1756–1763), cujo custo contribuiu para a política fiscal britânica após o conflito.",
+      "Circulação de ideias iluministas sobre representação, direitos e legitimidade do poder, interpretadas de maneiras diferentes pelos colonos."
     ],
     "causas": {
-      "politicas": "Imposição de leis restritivas pela metrópole sem representação colonial no Parlamento britânico (*No taxation without representation*).",
-      "economicas": "Criação de taxas sobre o açúcar, selos, chá e restrições à expansão territorial para o oeste.",
-      "sociais": "Crescimento de uma identidade colonial autônoma e rejeição ao autoritarismo britânico.",
+      "politicas": "Conflito sobre a autoridade do Parlamento britânico para legislar e cobrar impostos nas colônias sem representação colonial direta, expresso no lema 'No taxation without representation'.",
+      "economicas": "Medidas fiscais e comerciais, como a Lei do Selo, os impostos sobre o chá e restrições imperiais, somaram-se a interesses de comerciantes e proprietários coloniais por maior autonomia.",
+      "sociais": "A mobilização reuniu grupos com interesses diferentes. Mulheres participaram de boicotes e redes de apoio; pessoas negras escravizadas e livres buscaram caminhos distintos de liberdade; povos indígenas avaliaram alianças conforme a defesa de suas terras e soberania.",
       "religiosas": "Diferenças culturais e religiosas e desejo de liberdade de culto e organização.",
       "culturais": "Forte influência dos ideais iluministas de liberdade e direitos naturais de John Locke.",
       "territoriais": "Disputa pelo controle de terras a oeste dos Montes Apalaches.",
       "tecnologias": "Uso de milícias, redes locais de abastecimento e diferentes táticas militares; forças regulares e apoio externo também foram importantes para o resultado da guerra."
     },
     "resumo_card": "A independência proclamada em 1776 deu origem aos Estados Unidos, cuja organização política foi construída ao longo de debates e experiências constitucionais. A Constituição federal de 1787 substituiu os Artigos da Confederação e estabeleceu um novo arranjo de governo.",
-    "desenvolvimento": "Diante das Leis Intoleráveis e do massacre de Boston, os colonos reuniram-se nos Congressos Continentais. Em 4 de julho de 1776, aprovaram a Declaração de Independência redigida por Thomas Jefferson. Após uma guerra vitoriosa contra a Grã-Bretanha (com apoio da França), os britânicos reconheceram a independência em 1783, consolidada pela Constituição de 1787.",
+    "desenvolvimento": "As tensões entre as Treze Colônias e a Grã-Bretanha cresceram após a Guerra dos Sete Anos (1756–1763), quando o governo britânico buscou arrecadar receitas e reforçar o controle imperial. Medidas como a Lei do Selo (1765), os impostos sobre o chá e as Leis Intoleráveis (1774) alimentaram protestos, boicotes e debates sobre representação política. O Primeiro Congresso Continental reuniu representantes coloniais em 1774; em 1775 começaram os confrontos armados em Lexington e Concord. O Segundo Congresso Continental coordenou o esforço de guerra e, em 4 de julho de 1776, aprovou a Declaração de Independência, redigida principalmente por Thomas Jefferson. A guerra envolveu alianças e interesses diversos: a França apoiou os revolucionários, enquanto diferentes nações indígenas e pessoas negras, escravizadas e livres, tomaram posições variadas diante do conflito. A vitória norte-americana em Yorktown (1781) foi decisiva; o Tratado de Paris reconheceu a independência em 1783. O novo país foi inicialmente organizado pelos Artigos da Confederação; as limitações desse arranjo levaram à Convenção da Filadélfia e à Constituição federal de 1787, ratificada pelos estados e em vigor a partir de 1789. A independência proclamou princípios de liberdade e direitos, mas coexistiu com a escravidão, a expansão sobre territórios indígenas e a exclusão política de mulheres e de grande parte da população.",
     "personagens": [
       "Thomas Jefferson: Principal autor da Declaração de Independência dos Estados Unidos.",
       "George Washington: Líder militar das tropas norte-americanas e primeiro presidente do país.",
       "Benjamin Franklin: Diplomata e um dos principais pais fundadores da república."
     ],
     "grupos_envolvidos": [
-      "Patriotas Americanos",
-      "Exército Britânico (Casacas-Vermelhas)",
-      "Povos indígenas, cujas nações e comunidades adotaram posições variadas — neutralidade, alianças com britânicos ou apoio aos revolucionários — conforme seus interesses de território e soberania; pessoas negras escravizadas e livres também participaram de diferentes maneiras."
+      "Patriotas e legalistas das Treze Colônias, com posições políticas divergentes.",
+      "Exército britânico e forças aliadas, incluindo tropas alemãs contratadas pela Coroa.",
+      "Nações indígenas com decisões variadas, incluindo alianças com britânicos, apoio aos revolucionários ou neutralidade, conforme seus interesses territoriais.",
+      "Pessoas negras escravizadas e livres que atuaram em diferentes lados, buscando em alguns casos oportunidades de emancipação."
     ],
     "interesses_em_disputa": [
       "Autonomia fiscal, liberdade comercial e soberania territorial sobre o território norte-americano."
     ],
     "linha_do_tempo": [
       {
+        "ano": 1765,
+        "titulo": "Lei do Selo",
+        "descricao": "A imposição de taxas sobre documentos e impressos provocou protestos coloniais e ampliou o debate sobre representação."
+      },
+      {
+        "ano": 1774,
+        "titulo": "Primeiro Congresso Continental",
+        "descricao": "Representantes de doze colônias coordenaram reivindicações e medidas de resistência às políticas britânicas."
+      },
+      {
+        "ano": 1775,
+        "titulo": "Início da guerra",
+        "descricao": "Os confrontos de Lexington e Concord marcaram o início da guerra entre forças coloniais e britânicas."
+      },
+      {
         "ano": 1776,
         "titulo": "Declaração de Independência",
-        "descricao": "Proclamação formal da separação das Treze Colônias da Grã-Bretanha em 4 de julho."
+        "descricao": "Em 4 de julho, o Congresso Continental aprovou a declaração de separação política da Grã-Bretanha."
+      },
+      {
+        "ano": 1781,
+        "titulo": "Vitória em Yorktown",
+        "descricao": "A rendição das forças britânicas em Yorktown, com apoio francês, foi decisiva para o desfecho militar."
       },
       {
         "ano": 1783,
         "titulo": "Tratado de Paris",
-        "descricao": "Reconhecimento oficial da independência norte-americana pela coroa britânica."
+        "descricao": "A Grã-Bretanha reconheceu formalmente a independência dos Estados Unidos."
       },
       {
         "ano": 1787,
-        "titulo": "Constituição dos EUA",
-        "descricao": "A Convenção da Filadélfia aprovou um novo texto constitucional em 17 de setembro de 1787. Após a ratificação pelos estados, ele substituiu os Artigos da Confederação e entrou em vigor em 1789."
+        "titulo": "Constituição federal",
+        "descricao": "A Convenção da Filadélfia aprovou a Constituição, que substituiu os Artigos da Confederação após a ratificação."
       }
     ],
     "consequencias_imediatas": [
-      "Nascimento dos Estados Unidos da América como nação soberana baseada em princípios liberais.",
-      "O financiamento francês à guerra ampliou as pressões sobre as finanças da monarquia, mas a Revolução Francesa resultou de uma crise fiscal, política e social mais ampla, com causas acumuladas."
+      "Reconhecimento internacional da independência em 1783 e formação de uma república que adotou uma Constituição federal em 1787.",
+      "A vitória revolucionária não eliminou a escravidão nem garantiu direitos políticos iguais: mulheres, povos indígenas e pessoas negras permaneceram excluídos de muitas garantias e instituições.",
+      "A guerra agravou as finanças da monarquia francesa, mas a Revolução Francesa teve causas políticas, sociais e econômicas mais amplas."
     ],
     "consequencias_longo_prazo": [
-      "Inspiração direta para os movimentos de independência na América Latina e colônias ibéricas.",
-      "Expansão territorial continental rumo ao Pacífico (Marcha para o Oeste)."
+      "A experiência republicana e constitucional norte-americana influenciou debates políticos em outras regiões, embora tenha coexistido com contradições profundas entre liberdade proclamada, escravidão e expansão territorial.",
+      "A expansão dos Estados Unidos ocorreu por guerras, compras, tratados e deslocamentos forçados de povos indígenas, processo que continuou ao longo do século XIX.",
+      "A disputa sobre a escravidão permaneceu central e contribuiu para conflitos que culminaram na Guerra Civil (1861–1865)."
     ],
     "impactos": {
-      "politicos": "Experiência duradoura de república constitucional federal, com separação de poderes e influência iluminista; não foi a primeira experiência republicana nem o primeiro texto constitucional da história.",
-      "economicos": "Libertação do pacto colonial mercantilista britânico e estímulo ao livre mercado capitalista.",
-      "sociais": "Manutenção vergonhosa da escravidão negra e exclusão jurídica de indígenas e mulheres na nova república.",
+      "politicos": "A independência criou uma república federal com separação de poderes; a Constituição estabeleceu instituições nacionais, mas a participação política permaneceu restrita e variou conforme estado, gênero, condição jurídica e propriedade.",
+      "economicos": "O rompimento do vínculo colonial permitiu aos Estados Unidos definir suas próprias políticas comerciais, mas não significou adoção imediata de livre-comércio irrestrito nem eliminou dependências econômicas.",
+      "sociais": "A escravidão continuou legal em vários estados, povos indígenas enfrentaram perda de territórios e mulheres não obtiveram igualdade política; os princípios de liberdade foram aplicados de forma profundamente desigual.",
       "culturais": "Disseminação global do mito fundador da liberdade democrática americana.",
       "territoriais": "Criação de um novo Estado no continente norte-americano.",
       "ambientais": "Início da expansão desmatadora e agrícola sobre territórios nativos tradicionais."
     },
-    "continuidade": "Preservação da escravidão e subjugação violenta das populações indígenas originárias.",
-    "rupturas": "Rompimento colonial de grande alcance, que contribuiu para difundir modelos republicanos e constitucionais, embora a construção de direitos políticos tenha permanecido limitada e excludente."
+    "continuidade": "A escravidão, a desigualdade racial e a disputa pelo território indígena permaneceram estruturais após a independência, apesar da linguagem universalista da Declaração.",
+    "rupturas": "O rompimento com a soberania britânica e a criação de instituições republicanas federais alteraram a organização política das antigas colônias, sem produzir igualdade social ou política imediata."
   },
   {
     "id": "revolucao-francesa-1789",
