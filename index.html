@@ -1879,8 +1879,10 @@
 
         professorSupabase.auth.onAuthStateChange(evento => {
             if (evento === 'PASSWORD_RECOVERY') {
-                // Executa após o callback do Auth liberar o lock interno da sessão.
-                setTimeout(mostrarFormularioNovaSenha, 0);
+                // Aguarda o carregamento inicial e a liberação do lock interno do Auth.
+                const abrirFormulario = () => setTimeout(mostrarFormularioNovaSenha, 0);
+                if (document.readyState === 'complete') abrirFormulario();
+                else window.addEventListener('load', abrirFormulario, { once: true });
             }
         });
 
