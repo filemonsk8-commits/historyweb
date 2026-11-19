@@ -2342,10 +2342,10 @@ h1 { margin: 8px 0 4px; color: #17365d; font: bold 20pt/1.2 Georgia, serif; }
                 (Array.isArray(item.rubric) ? item.rubric : []).forEach(criterio => {
                     linhas.push('• ' + (criterio.criterio || 'Critério') + ': ' + (criterio.indicador || ''));
                 });
-                return linhas.join('\\n');
+                return linhas.join('\n');
             };
             const nomeArquivoGabarito = item => String(item.activity_title || item.module_slug || 'gabarito')
-                .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
                 .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'gabarito';
             gabaritosEl.querySelectorAll('[data-baixar-gabarito]').forEach(botao => {
                 botao.onclick = () => {
