@@ -946,6 +946,79 @@
             line-height: 1.55;
         }
 
+    
+
+        /* ETAPA PEDAGÓGICA 2 — linha do tempo mais legível e semântica */
+        .sub-timeline {
+            list-style: none;
+            margin: 8px 0 4px 8px;
+            padding: 4px 0 4px 28px;
+            border-left: 2px solid var(--accent-color, #b18a4a);
+        }
+
+        .timeline-evento {
+            margin: 0 0 26px;
+            padding: 0 0 2px 4px;
+            position: relative;
+            min-width: 0;
+        }
+
+        .timeline-evento::before {
+            left: -38px;
+            top: 3px;
+            width: 13px;
+            height: 13px;
+            background: var(--accent-color, #b18a4a);
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 1px var(--accent-color, #b18a4a);
+        }
+
+        .timeline-evento:last-child {
+            margin-bottom: 0;
+        }
+
+        .evento-ano {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-size: 0.98rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color: var(--primary-color);
+        }
+
+        .evento-titulo {
+            margin: 0 0 7px;
+            font-size: 1.08rem;
+            line-height: 1.4;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .timeline-evento .secao-texto {
+            margin: 0;
+            font-size: 0.98rem;
+            line-height: 1.65;
+        }
+
+        @media (max-width: 480px) {
+            .sub-timeline {
+                margin-left: 2px;
+                padding-left: 22px;
+            }
+
+            .timeline-evento::before {
+                left: -32px;
+            }
+
+            .evento-titulo {
+                font-size: 1rem;
+            }
+
+            .timeline-evento .secao-texto {
+                font-size: 0.94rem;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -1144,12 +1217,12 @@
                 }
 
                 let htmlInteresses = item.interesses_em_disputa ? `<ul class="lista-itens">${item.interesses_em_disputa.map(i => `<li>${escaparHTML(i)}</li>`).join('')}</ul>` : '';
-                let htmlMarcos = item.linha_do_tempo ? `<div class="sub-timeline">${item.linha_do_tempo.map(ev => `
-                    <div class="timeline-evento">
-                        <div class="evento-ano">${formatarAno(ev.ano)}</div>
-                        <div class="evento-titulo">${escaparHTML(ev.titulo)}</div>
-                        <div class="secao-texto">${escaparHTML(ev.descricao)}</div>
-                    </div>`).join('')}</div>` : '';
+                let htmlMarcos = item.linha_do_tempo ? `<ol class="sub-timeline" aria-label="Linha do tempo dos principais acontecimentos">${item.linha_do_tempo.map(ev => `
+                    <li class="timeline-evento">
+                        <span class="evento-ano">${formatarAno(ev.ano)}</span>
+                        <h3 class="evento-titulo">${escaparHTML(ev.titulo)}</h3>
+                        <p class="secao-texto">${escaparHTML(ev.descricao)}</p>
+                    </li>`).join('')}</ol>` : '';
 
                 let htmlConsequencias = '';
                 if (item.consequencias_imediatas || item.consequencias_longo_prazo) {
