@@ -89,7 +89,6 @@
     "continuidade": "A presença dos povos indígenas atravessa todo o período colonial e a história posterior. Comunidades mantêm, recriam e defendem línguas, conhecimentos, identidades, territórios e direitos.",
     "rupturas": "A colonização iniciada no século XVI provocou epidemias, escravização, violência, deslocamentos e perda de territórios, alterando profundamente muitas sociedades, sem significar seu desaparecimento."
   },
-
   {
     "id": "periodo-pre-colonial-1500-1530",
     "titulo_principal": "PERÍODO PRÉ-COLONIAL (1500–1530)",
@@ -128,8 +127,16 @@
       "Controle das rotas e dos pontos de comércio, acesso ao pau-brasil e reivindicações territoriais das Coroas europeias, em interação com os interesses e as decisões das comunidades indígenas."
     ],
     "linha_do_tempo": [
-      {"ano": 1500, "titulo": "Chegada de Pedro Álvares Cabral", "descricao": "A armada portuguesa comandada por Cabral chegou à costa da atual Bahia, onde encontrou povos indígenas que já habitavam a região."},
-      {"ano": 1516, "titulo": "Expedições Guarda-Costas", "descricao": "Cristóvão Jacques comandou expedições de vigilância do litoral em diferentes anos, incluindo 1516–1519 e 1526–1528, para combater o comércio estrangeiro considerado ilegal pela Coroa portuguesa."}
+      {
+        "ano": 1500,
+        "titulo": "Chegada de Pedro Álvares Cabral",
+        "descricao": "A armada portuguesa comandada por Cabral chegou à costa da atual Bahia, onde encontrou povos indígenas que já habitavam a região."
+      },
+      {
+        "ano": 1516,
+        "titulo": "Expedições Guarda-Costas",
+        "descricao": "Cristóvão Jacques comandou expedições de vigilância do litoral em diferentes anos, incluindo 1516–1519 e 1526–1528, para combater o comércio estrangeiro considerado ilegal pela Coroa portuguesa."
+      }
     ],
     "consequencias_imediatas": [
       "Extração de pau-brasil e alterações localizadas na vegetação costeira, ampliadas de modo desigual conforme a intensidade e a duração da exploração.",
@@ -149,7 +156,6 @@
     "continuidade": "Disputa geopolítica europeia pelo controle de rotas e territórios ultramarinos.",
     "rupturas": "Ampliação da presença portuguesa e de disputas europeias na costa, seguida pelo avanço da colonização permanente a partir de 1530; não houve ruptura na história indígena, que continuou marcada por agência e resistência."
   },
-
   {
     "id": "brasil-colonial-administracao-economia-sociedade",
     "titulo_principal": "BRASIL COLONIAL (1530–1808): ADMINISTRAÇÃO, AÇÚCAR, HOLANDESES E EXPANSÃO",
@@ -190,11 +196,31 @@
       "Controle de terras, rotas e mercados, exploração de recursos e domínio sobre o trabalho de populações indígenas e africanas escravizadas."
     ],
     "linha_do_tempo": [
-      {"ano": 1534, "titulo": "Capitanias Hereditárias", "descricao": "A Coroa portuguesa dividiu parte do território em capitanias doadas a donatários, que receberam atribuições e direitos; os resultados variaram e o sistema continuou após a criação do Governo-Geral."},
-      {"ano": 1549, "titulo": "Fundação de Salvador", "descricao": "Tomé de Sousa chegou à Bahia para instalar o Governo-Geral e fundar Salvador, que se tornou a primeira capital da América portuguesa."},
-      {"ano": 1630, "titulo": "Domínio Holandês em Pernambuco", "descricao": "Forças da Companhia Neerlandesa das Índias Ocidentais iniciaram a ocupação de Olinda e Recife, expandindo o domínio sobre áreas produtoras de açúcar."},
-      {"ano": 1654, "titulo": "Expulsão dos Holandeses", "descricao": "Após anos de conflitos, a Insurreição Pernambucana e negociações diplomáticas contribuíram para o fim do domínio neerlandês no Nordeste; a capitulação ocorreu em 1654."},
-      {"ano": 1750, "titulo": "Tratado de Madri", "descricao": "Tratado entre Portugal e Espanha que redefiniu limites coloniais na América, utilizando o princípio do uti possidetis e outros critérios; não considerou a soberania dos povos indígenas sobre seus territórios."}
+      {
+        "ano": 1534,
+        "titulo": "Capitanias Hereditárias",
+        "descricao": "A Coroa portuguesa dividiu parte do território em capitanias doadas a donatários, que receberam atribuições e direitos; os resultados variaram e o sistema continuou após a criação do Governo-Geral."
+      },
+      {
+        "ano": 1549,
+        "titulo": "Fundação de Salvador",
+        "descricao": "Tomé de Sousa chegou à Bahia para instalar o Governo-Geral e fundar Salvador, que se tornou a primeira capital da América portuguesa."
+      },
+      {
+        "ano": 1630,
+        "titulo": "Domínio Holandês em Pernambuco",
+        "descricao": "Forças da Companhia Neerlandesa das Índias Ocidentais iniciaram a ocupação de Olinda e Recife, expandindo o domínio sobre áreas produtoras de açúcar."
+      },
+      {
+        "ano": 1654,
+        "titulo": "Expulsão dos Holandeses",
+        "descricao": "Após anos de conflitos, a Insurreição Pernambucana e negociações diplomáticas contribuíram para o fim do domínio neerlandês no Nordeste; a capitulação ocorreu em 1654."
+      },
+      {
+        "ano": 1750,
+        "titulo": "Tratado de Madri",
+        "descricao": "Tratado entre Portugal e Espanha que redefiniu limites coloniais na América, utilizando o princípio do uti possidetis e outros critérios; não considerou a soberania dos povos indígenas sobre seus territórios."
+      }
     ],
     "consequencias_imediatas": [
       "A concorrência da produção açucareira antilhana, desenvolvida também com participação de agentes neerlandeses após sua saída do Nordeste, contribuiu para mudanças no mercado e dificuldades para produtores da América portuguesa; não foi a única causa de crises regionais.",
@@ -214,7 +240,6 @@
     "continuidade": "Estrutura fundiária baseada no latifúndio agroexportador.",
     "rupturas": "Passagem de uma presença portuguesa inicialmente concentrada em feitorias e atividades costeiras para uma colonização mais ampla, com núcleos urbanos, atividades econômicas diversificadas e ocupação territorial progressiva."
   },
-
   {
     "id": "brasil-colonial-mineracao-revoltas",
     "titulo_principal": "BRASIL COLONIAL: MINERAÇÃO E REVOLTAS COLONIAIS",
@@ -253,9 +278,21 @@
       "Críticas à tributação e ao controle metropolitano, projetos de autonomia ou independência e propostas distintas sobre república, igualdade social e escravidão."
     ],
     "linha_do_tempo": [
-      {"ano": 1709, "titulo": "Fim da Guerra dos Emboabas", "descricao": "Conflito entre paulistas e grupos de outras regiões pelo controle das áreas de mineração; a Coroa reorganizou a administração e criou a Capitania de São Paulo e Minas do Ouro em 1709."},
-      {"ano": 1789, "titulo": "Inconfidência Mineira", "descricao": "Conspiração articulada em Minas Gerais, descoberta antes de se converter em levante; seus participantes foram presos e julgados, e Tiradentes foi executado em 1792."},
-      {"ano": 1798, "titulo": "Conjuração Baiana", "descricao": "Movimento ocorrido em Salvador, com participação popular e propostas republicanas e de transformação social; a repressão levou à execução de quatro condenados em 1799."}
+      {
+        "ano": 1709,
+        "titulo": "Fim da Guerra dos Emboabas",
+        "descricao": "Conflito entre paulistas e grupos de outras regiões pelo controle das áreas de mineração; a Coroa reorganizou a administração e criou a Capitania de São Paulo e Minas do Ouro em 1709."
+      },
+      {
+        "ano": 1789,
+        "titulo": "Inconfidência Mineira",
+        "descricao": "Conspiração articulada em Minas Gerais, descoberta antes de se converter em levante; seus participantes foram presos e julgados, e Tiradentes foi executado em 1792."
+      },
+      {
+        "ano": 1798,
+        "titulo": "Conjuração Baiana",
+        "descricao": "Movimento ocorrido em Salvador, com participação popular e propostas republicanas e de transformação social; a repressão levou à execução de quatro condenados em 1799."
+      }
     ],
     "consequencias_imediatas": [
       "Repressão aos movimentos: Tiradentes foi executado em 1792, enquanto quatro participantes condenados da Conjuração Baiana foram executados em 1799.",
@@ -275,7 +312,6 @@
     "continuidade": "Carga tributária pesada cobrada pelas autoridades centrais sobre a produção econômica.",
     "rupturas": "Ampliação de formas de contestação política e social, que passaram de conflitos locais e fiscais a projetos emancipacionistas variados, sem trajetória linear ou consenso sobre república, igualdade e escravidão."
   },
-
   {
     "id": "periodo-joanino-1808-1821",
     "titulo_principal": "PERÍODO JOANINO (1808–1821)",
@@ -314,10 +350,26 @@
       "Disputas sobre autonomia política e administrativa, centralização nas Cortes de Lisboa, liberdade comercial, privilégios britânicos, tributação e manutenção da ordem escravista."
     ],
     "linha_do_tempo": [
-      {"ano": 1808, "titulo": "Chegada da Corte e Abertura dos Portos", "descricao": "A corte portuguesa chegou ao Rio de Janeiro e, naquele ano, foi decretada a abertura dos portos às nações amigas, encerrando o antigo exclusivismo comercial metropolitano."},
-      {"ano": 1815, "titulo": "Brasil Reino Unido", "descricao": "O Brasil foi elevado à condição de Reino Unido a Portugal e Algarves, deixando formalmente de ser colônia, embora persistissem desigualdades e disputas políticas."},
-      {"ano": 1817, "titulo": "Revolução Pernambucana", "descricao": "Movimento republicano e separatista que instalou um governo provisório em Pernambuco por cerca de 75 dias e foi derrotado pelas forças leais à monarquia."},
-      {"ano": 1821, "titulo": "Retorno de D. João VI", "descricao": "D. João VI retornou a Lisboa após a Revolução Liberal do Porto, deixando seu filho D. Pedro como príncipe regente no Brasil."}
+      {
+        "ano": 1808,
+        "titulo": "Chegada da Corte e Abertura dos Portos",
+        "descricao": "A corte portuguesa chegou ao Rio de Janeiro e, naquele ano, foi decretada a abertura dos portos às nações amigas, encerrando o antigo exclusivismo comercial metropolitano."
+      },
+      {
+        "ano": 1815,
+        "titulo": "Brasil Reino Unido",
+        "descricao": "O Brasil foi elevado à condição de Reino Unido a Portugal e Algarves, deixando formalmente de ser colônia, embora persistissem desigualdades e disputas políticas."
+      },
+      {
+        "ano": 1817,
+        "titulo": "Revolução Pernambucana",
+        "descricao": "Movimento republicano e separatista que instalou um governo provisório em Pernambuco por cerca de 75 dias e foi derrotado pelas forças leais à monarquia."
+      },
+      {
+        "ano": 1821,
+        "titulo": "Retorno de D. João VI",
+        "descricao": "D. João VI retornou a Lisboa após a Revolução Liberal do Porto, deixando seu filho D. Pedro como príncipe regente no Brasil."
+      }
     ],
     "consequencias_imediatas": [
       "Transferência da sede da monarquia para o Rio de Janeiro, que passou a concentrar órgãos centrais do governo português; a relação entre metrópole e América foi profundamente alterada, mas não houve uma simples inversão em que a antiga colônia passou a governar Portugal.",
@@ -337,7 +389,6 @@
     "continuidade": "Manutenção da escravidão, das hierarquias sociais e da concentração fundiária, apesar das mudanças institucionais e comerciais.",
     "rupturas": "Fim do antigo exclusivismo comercial metropolitano e transformação do Brasil em sede da monarquia portuguesa; a ruptura política definitiva com Portugal ocorreu somente em 1822."
   },
-
   {
     "id": "imperio-brasil-1822-1889",
     "titulo_principal": "IMPÉRIO DO BRASIL (1822–1889): PRIMEIRO REINADO, REGÊNCIA E SEGUNDO REINADO",
@@ -377,13 +428,41 @@
       "Disputas entre centralização e autonomia provincial, monarquia e república, manutenção e abolição da escravidão, além de conflitos sobre terra, cidadania e participação política."
     ],
     "linha_do_tempo": [
-      {"ano": 1822, "titulo": "Independência do Brasil", "descricao": "D. Pedro anunciou a separação política de Portugal em meio a um processo que envolveu conflitos provinciais e negociações; a Independência foi reconhecida por Portugal em 1825."},
-      {"ano": 1824, "titulo": "Constituição Imperial", "descricao": "A Constituição foi outorgada por D. Pedro I após a dissolução da Assembleia Constituinte em 1823; estabeleceu quatro poderes, incluindo o Poder Moderador."},
-      {"ano": 1831, "titulo": "Abdicação de D. Pedro I", "descricao": "D. Pedro I abdicou em favor de seu filho, então criança; iniciou-se o governo regencial, com disputas políticas e revoltas em diferentes províncias."},
-      {"ano": 1840, "titulo": "Golpe da Maioridade", "descricao": "A maioridade de D. Pedro II foi antecipada por decisão política do Parlamento em 1840, encerrando o período regencial."},
-      {"ano": 1864, "titulo": "Guerra do Paraguai", "descricao": "Conflito regional entre Paraguai e a aliança formada por Brasil, Argentina e Uruguai, ocorrido entre 1864 e 1870, com enormes perdas humanas e materiais."},
-      {"ano": 1888, "titulo": "Abolição da Escravidão", "descricao": "A Lei Áurea, assinada pela princesa Isabel em 13 de maio de 1888, aboliu juridicamente a escravidão no Brasil, sem políticas amplas de reparação ou inclusão para a população liberta."},
-      {"ano": 1889, "titulo": "Proclamação da República", "descricao": "Movimento militar derrubou a monarquia e instaurou a República; a mudança ocorreu sem plebiscito ou participação popular ampla."}
+      {
+        "ano": 1822,
+        "titulo": "Independência do Brasil",
+        "descricao": "D. Pedro anunciou a separação política de Portugal em meio a um processo que envolveu conflitos provinciais e negociações; a Independência foi reconhecida por Portugal em 1825."
+      },
+      {
+        "ano": 1824,
+        "titulo": "Constituição Imperial",
+        "descricao": "A Constituição foi outorgada por D. Pedro I após a dissolução da Assembleia Constituinte em 1823; estabeleceu quatro poderes, incluindo o Poder Moderador."
+      },
+      {
+        "ano": 1831,
+        "titulo": "Abdicação de D. Pedro I",
+        "descricao": "D. Pedro I abdicou em favor de seu filho, então criança; iniciou-se o governo regencial, com disputas políticas e revoltas em diferentes províncias."
+      },
+      {
+        "ano": 1840,
+        "titulo": "Golpe da Maioridade",
+        "descricao": "A maioridade de D. Pedro II foi antecipada por decisão política do Parlamento em 1840, encerrando o período regencial."
+      },
+      {
+        "ano": 1864,
+        "titulo": "Guerra do Paraguai",
+        "descricao": "Conflito regional entre Paraguai e a aliança formada por Brasil, Argentina e Uruguai, ocorrido entre 1864 e 1870, com enormes perdas humanas e materiais."
+      },
+      {
+        "ano": 1888,
+        "titulo": "Abolição da Escravidão",
+        "descricao": "A Lei Áurea, assinada pela princesa Isabel em 13 de maio de 1888, aboliu juridicamente a escravidão no Brasil, sem políticas amplas de reparação ou inclusão para a população liberta."
+      },
+      {
+        "ano": 1889,
+        "titulo": "Proclamação da República",
+        "descricao": "Movimento militar derrubou a monarquia e instaurou a República; a mudança ocorreu sem plebiscito ou participação popular ampla."
+      }
     ],
     "consequencias_imediatas": [
       "A família imperial foi afastada do poder e enviada ao exílio; o novo governo republicano iniciou a reorganização das instituições e adotou o regime federativo e presidencialista.",
@@ -403,7 +482,6 @@
     "continuidade": "Persistência da concentração fundiária, das hierarquias sociais e raciais e da exclusão de grande parte da população dos processos decisórios.",
     "rupturas": "Independência política em relação a Portugal, abolição jurídica da escravidão em 1888 e fim da monarquia em 1889; cada transformação ocorreu em processos distintos e não eliminou desigualdades estruturais."
   },
-
   {
     "id": "primeira-republica-1889-1930",
     "titulo_principal": "PRIMEIRA REPÚBLICA (1889–1930): REPÚBLICA DA ESPADA E OLIGÁRQUICA",
@@ -443,11 +521,31 @@
       "Disputas por representação política, autonomia estadual, controle eleitoral, direitos trabalhistas, acesso à terra e participação de grupos excluídos."
     ],
     "linha_do_tempo": [
-      {"ano": 1891, "titulo": "Constituição Republicana", "descricao": "A Constituição promulgada em 1891 estabeleceu a República federativa e presidencialista e a separação entre Igreja e Estado, mas manteve o voto restrito a homens alfabetizados, entre outras exclusões."},
-      {"ano": 1896, "titulo": "Guerra de Canudos", "descricao": "Campanha militar do governo federal destruiu o arraial de Canudos, na Bahia, após sucessivas expedições; o conflito envolveu disputas políticas, sociais, fundiárias e religiosas."},
-      {"ano": 1910, "titulo": "Revolta da Chibata", "descricao": "Marinheiros se revoltaram contra castigos corporais, baixos soldos e condições de serviço; apesar das promessas de anistia, muitos foram perseguidos posteriormente."},
-      {"ano": 1922, "titulo": "Semana de Arte Moderna", "descricao": "Evento realizado em São Paulo que reuniu artistas e intelectuais e se tornou marco simbólico do Modernismo, em diálogo com transformações culturais anteriores e posteriores."},
-      {"ano": 1930, "titulo": "Revolução de 1930", "descricao": "Movimento político-militar derrubou o presidente Washington Luís e impediu a posse de Júlio Prestes; Getúlio Vargas assumiu o governo provisório em novembro de 1930."}
+      {
+        "ano": 1891,
+        "titulo": "Constituição Republicana",
+        "descricao": "A Constituição promulgada em 1891 estabeleceu a República federativa e presidencialista e a separação entre Igreja e Estado, mas manteve o voto restrito a homens alfabetizados, entre outras exclusões."
+      },
+      {
+        "ano": 1896,
+        "titulo": "Guerra de Canudos",
+        "descricao": "Campanha militar do governo federal destruiu o arraial de Canudos, na Bahia, após sucessivas expedições; o conflito envolveu disputas políticas, sociais, fundiárias e religiosas."
+      },
+      {
+        "ano": 1910,
+        "titulo": "Revolta da Chibata",
+        "descricao": "Marinheiros se revoltaram contra castigos corporais, baixos soldos e condições de serviço; apesar das promessas de anistia, muitos foram perseguidos posteriormente."
+      },
+      {
+        "ano": 1922,
+        "titulo": "Semana de Arte Moderna",
+        "descricao": "Evento realizado em São Paulo que reuniu artistas e intelectuais e se tornou marco simbólico do Modernismo, em diálogo com transformações culturais anteriores e posteriores."
+      },
+      {
+        "ano": 1930,
+        "titulo": "Revolução de 1930",
+        "descricao": "Movimento político-militar derrubou o presidente Washington Luís e impediu a posse de Júlio Prestes; Getúlio Vargas assumiu o governo provisório em novembro de 1930."
+      }
     ],
     "consequencias_imediatas": [
       "Ruptura da ordem política vigente e deposição de Washington Luís, em meio a uma crise sucessória, disputas entre oligarquias e mobilização político-militar.",
@@ -467,7 +565,6 @@
     "continuidade": "Persistência de concentração fundiária, desigualdades raciais, exclusão eleitoral e violência estatal contra populações pobres e movimentos sociais.",
     "rupturas": "Fim da monarquia e implantação da República em 1889; em 1930, ruptura político-militar encerrou a Primeira República e abriu uma nova fase de centralização federal."
   },
-
   {
     "id": "era-vargas-1930-1945",
     "titulo_principal": "ERA VARGAS (1930–1945): GOVERNO PROVISÓRIO, CONSTITUCIONAL E ESTADO NOVO",
@@ -505,11 +602,31 @@
       "Disputas entre constitucionalismo e centralização autoritária, direitos trabalhistas e controle sindical, projetos econômicos e modelos de participação política; no Estado Novo, a oposição foi reprimida."
     ],
     "linha_do_tempo": [
-      {"ano": 1930, "titulo": "Revolução de 1930", "descricao": "Uma coalizão político-militar depôs Washington Luís e impediu a posse de Júlio Prestes; Vargas assumiu o Governo Provisório."},
-      {"ano": 1932, "titulo": "Revolução Constitucionalista", "descricao": "Levante armado paulista contra o governo federal, com reivindicações constitucionais e autonomistas e participação de grupos com interesses diversos; foi derrotado em outubro."},
-      {"ano": 1937, "titulo": "Golpe do Estado Novo", "descricao": "Vargas fechou o Congresso, cancelou eleições e instaurou uma ditadura; o Plano Cohen, documento forjado, foi apresentado como ameaça comunista para justificar o golpe."},
-      {"ano": 1943, "titulo": "Criação da CLT", "descricao": "A CLT reuniu e sistematizou legislação trabalhista produzida desde o início da década de 1930, sem abranger de modo igual todos os trabalhadores e mantendo o controle estatal sobre sindicatos."},
-      {"ano": 1945, "titulo": "Fim do Estado Novo", "descricao": "Vargas foi deposto por militares em outubro de 1945, em meio a pressões pela redemocratização; eleições presidenciais ocorreram no mesmo ano."}
+      {
+        "ano": 1930,
+        "titulo": "Revolução de 1930",
+        "descricao": "Uma coalizão político-militar depôs Washington Luís e impediu a posse de Júlio Prestes; Vargas assumiu o Governo Provisório."
+      },
+      {
+        "ano": 1932,
+        "titulo": "Revolução Constitucionalista",
+        "descricao": "Levante armado paulista contra o governo federal, com reivindicações constitucionais e autonomistas e participação de grupos com interesses diversos; foi derrotado em outubro."
+      },
+      {
+        "ano": 1937,
+        "titulo": "Golpe do Estado Novo",
+        "descricao": "Vargas fechou o Congresso, cancelou eleições e instaurou uma ditadura; o Plano Cohen, documento forjado, foi apresentado como ameaça comunista para justificar o golpe."
+      },
+      {
+        "ano": 1943,
+        "titulo": "Criação da CLT",
+        "descricao": "A CLT reuniu e sistematizou legislação trabalhista produzida desde o início da década de 1930, sem abranger de modo igual todos os trabalhadores e mantendo o controle estatal sobre sindicatos."
+      },
+      {
+        "ano": 1945,
+        "titulo": "Fim do Estado Novo",
+        "descricao": "Vargas foi deposto por militares em outubro de 1945, em meio a pressões pela redemocratização; eleições presidenciais ocorreram no mesmo ano."
+      }
     ],
     "consequencias_imediatas": [
       "Consolidação de uma legislação trabalhista nacional, ao mesmo tempo em que sindicatos foram submetidos a mecanismos de reconhecimento e controle estatal; direitos e cobertura variaram entre categorias.",
@@ -529,7 +646,93 @@
     "continuidade": "Persistência de desigualdades sociais e regionais, concentração de poder e limitações à autonomia sindical, mesmo com a ampliação de direitos trabalhistas.",
     "rupturas": "Ruptura com a estrutura política da Primeira República, ampliação da intervenção federal e criação de instituições trabalhistas e industriais; o Estado Novo representou uma ruptura autoritária com a ordem constitucional."
   },
-
+  {
+    "id": "goias-transferencia-capital-goiania-1932-1942",
+    "titulo_principal": "GOIÁS: A CONSTRUÇÃO DE GOIÂNIA E A TRANSFERÊNCIA DA CAPITAL (1932–1942)",
+    "ano_inicio": 1932,
+    "ano_fim": 1942,
+    "periodo": "Era Vargas e história regional de Goiás",
+    "local": "Goiás; antiga capital, Cidade de Goiás; nova capital, Goiânia",
+    "sociedades_envolvidas": "Governo estadual, trabalhadores da construção, comerciantes, antigos moradores da Cidade de Goiás, migrantes e populações dos municípios da região",
+    "tema": "Projeto de nova capital, centralização administrativa, urbanização, construção de Goiânia, Decreto Estadual nº 1.816 de 23 de março de 1937 e Batismo Cultural de 1942",
+    "contexto": "A construção de Goiânia ocorreu em um contexto de reorganização política e administrativa após a Revolução de 1930. O interventor Pedro Ludovico Teixeira defendeu a criação de uma nova capital, apresentada como instrumento de integração territorial, modernização administrativa e dinamização econômica. A mudança também envolveu disputas políticas, interesses econômicos, deslocamentos populacionais e transformações no território goiano.",
+    "antecedentes": [
+      "Debates anteriores sobre a localização e as condições da capital estadual.",
+      "Reorganização do poder político em Goiás após 1930 e ascensão de Pedro Ludovico Teixeira.",
+      "Limitações de infraestrutura e disputas políticas associadas à antiga capital, sem reduzir a decisão a uma única causa."
+    ],
+    "causas": {
+      "politicas": "O governo de Pedro Ludovico buscava reorganizar a administração estadual e fortalecer um novo centro político, em oposição às antigas redes de poder associadas à Cidade de Goiás.",
+      "economicas": "A construção da nova capital foi associada à ampliação de infraestrutura, atração de investimentos, circulação de mercadorias e integração de áreas do estado.",
+      "sociais": "A obra atraiu trabalhadores e migrantes, alterou relações urbanas e criou novas oportunidades e desigualdades na ocupação da cidade.",
+      "religiosas": "Instituições religiosas participaram da vida social e da formação dos novos bairros, sem constituírem a causa central da transferência.",
+      "culturais": "A construção de uma capital planejada e o Batismo Cultural de 1942 foram apresentados como símbolos de modernização e identidade regional.",
+      "territoriais": "A escolha de uma área próxima a Campinas e a implantação de uma nova cidade deslocaram o centro político-administrativo estadual para a região onde Goiânia foi construída.",
+      "tecnologias": "Planejamento urbano, obras de engenharia, abertura de vias e implantação de edifícios e serviços públicos."
+    },
+    "resumo_card": "Entre 1932 e 1942, o governo de Goiás planejou e construiu Goiânia. A capital foi oficialmente transferida da Cidade de Goiás para Goiânia pelo Decreto nº 1.816, de 23 de março de 1937. A inauguração oficial e o chamado Batismo Cultural ocorreram em julho de 1942; portanto, transferência administrativa e inauguração foram momentos diferentes.",
+    "desenvolvimento": "Em dezembro de 1932, o governo estadual criou uma comissão para estudar a localização da nova capital. Após análises de diferentes localidades, a região de Campinas foi escolhida. Em 1933 começaram os trabalhos de construção. O município de Goiânia foi criado em 2 de agosto de 1935, e repartições estaduais foram transferidas gradualmente. Em 23 de março de 1937, o Decreto Estadual nº 1.816 oficializou a transferência da capital da Cidade de Goiás para Goiânia. A cidade continuou em construção nos anos seguintes. Em 5 de julho de 1942 ocorreu sua inauguração oficial, durante o Batismo Cultural, com eventos políticos, educacionais e culturais. A mudança fortaleceu um novo centro administrativo e econômico, mas também provocou disputas, deslocamentos e mudanças nas relações de poder. A narrativa de modernização precisa ser analisada criticamente, considerando trabalhadores, migrantes, moradores e grupos que vivenciaram de maneiras diferentes a transformação urbana.",
+    "personagens": [
+      "Pedro Ludovico Teixeira: interventor e governador de Goiás, principal articulador político da construção e transferência da capital.",
+      "Membros da comissão técnica e profissionais responsáveis pelos estudos, projetos e obras de implantação da nova cidade.",
+      "Trabalhadores e migrantes que participaram da construção e da formação dos bairros de Goiânia."
+    ],
+    "grupos_envolvidos": [
+      "Governo estadual e grupos políticos ligados à antiga e à nova capital.",
+      "Trabalhadores da construção civil, comerciantes, profissionais liberais e migrantes.",
+      "Moradores da Cidade de Goiás, de Campinas e de localidades próximas, afetados de formas distintas pela mudança."
+    ],
+    "interesses_em_disputa": [
+      "Localização do centro administrativo, distribuição de investimentos públicos, influência política regional, valorização de terras e definição dos rumos da urbanização goiana."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": 1932,
+        "titulo": "Comissão para escolher a nova capital",
+        "descricao": "O governo estadual instituiu comissão para estudar a localização da futura capital de Goiás."
+      },
+      {
+        "ano": 1933,
+        "titulo": "Início da construção de Goiânia",
+        "descricao": "Após a escolha da região de Campinas, começaram os trabalhos de implantação da nova cidade."
+      },
+      {
+        "ano": 1935,
+        "titulo": "Criação do município de Goiânia",
+        "descricao": "O Decreto estadual nº 327, de 2 de agosto de 1935, criou o município da nova capital."
+      },
+      {
+        "ano": 1937,
+        "titulo": "Transferência oficial da capital",
+        "descricao": "O Decreto estadual nº 1.816, de 23 de março de 1937, transferiu oficialmente a capital da Cidade de Goiás para Goiânia."
+      },
+      {
+        "ano": 1942,
+        "titulo": "Batismo Cultural de Goiânia",
+        "descricao": "Em 5 de julho de 1942 ocorreu a inauguração oficial da nova capital, em cerimônia conhecida como Batismo Cultural."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Deslocamento do centro político-administrativo estadual para Goiânia.",
+      "Crescimento populacional e expansão de atividades comerciais e de serviços na nova capital.",
+      "Reorganização de funções administrativas e das relações políticas regionais."
+    ],
+    "consequencias_longo_prazo": [
+      "Consolidação de Goiânia como principal centro político, administrativo e econômico de Goiás.",
+      "Expansão da urbanização e da infraestrutura regional, acompanhada por desigualdades socioespaciais e desafios de planejamento urbano.",
+      "Reconfiguração das relações entre Goiânia, a Cidade de Goiás e outras regiões do estado."
+    ],
+    "impactos": {
+      "politicos": "Fortalecimento de um novo centro de poder estadual e alteração das redes de influência política.",
+      "economicos": "Atração de investimentos e ampliação de comércio, serviços e infraestrutura, com distribuição desigual dos benefícios.",
+      "sociais": "Migração e crescimento urbano, criação de novos bairros e persistência de desigualdades de moradia e trabalho.",
+      "culturais": "Construção de símbolos de identidade regional e valorização da nova capital, ao lado da permanência do patrimônio histórico da Cidade de Goiás.",
+      "territoriais": "Mudança do eixo administrativo estadual e expansão da ocupação urbana na região central de Goiás.",
+      "ambientais": "Transformação da paisagem do Cerrado, abertura de vias e ocupação do solo urbano."
+    },
+    "continuidade": "A Cidade de Goiás manteve relevância histórica, cultural e patrimonial, mesmo após deixar de ser a capital estadual.",
+    "rupturas": "A transferência deslocou o centro político-administrativo e impulsionou a formação de uma nova centralidade urbana em Goiás."
+  },
   {
     "id": "periodo-democratico-1946-1964",
     "titulo_principal": "PERÍODO DEMOCRÁTICO (1946–1964): DA CONSTITUIÇÃO DE 1946 AO GOLPE",
@@ -568,10 +771,26 @@
       "Debates sobre soberania econômica, participação do capital estrangeiro, reformas agrária e urbana, direitos trabalhistas, distribuição de renda e limites da democracia."
     ],
     "linha_do_tempo": [
-      {"ano": 1946, "titulo": "Constituição de 1946", "descricao": "A Constituição promulgada em 1946 restabeleceu direitos e instituições democráticas, mas manteve restrições ao voto e outras limitações de participação política."},
-      {"ano": 1954, "titulo": "Suicídio de Getúlio Vargas", "descricao": "Getúlio Vargas suicidou-se durante uma crise política e militar; sua carta-testamento e a reação popular influenciaram profundamente o cenário político."},
-      {"ano": 1960, "titulo": "Inauguração de Brasília", "descricao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo Juscelino Kubitschek, como nova capital federal."},
-      {"ano": 1964, "titulo": "Golpe Civil-Militar", "descricao": "Um movimento civil-militar depôs João Goulart em 31 de março e 1º de abril de 1964, encerrando a experiência democrática e iniciando uma ditadura."}
+      {
+        "ano": 1946,
+        "titulo": "Constituição de 1946",
+        "descricao": "A Constituição promulgada em 1946 restabeleceu direitos e instituições democráticas, mas manteve restrições ao voto e outras limitações de participação política."
+      },
+      {
+        "ano": 1954,
+        "titulo": "Suicídio de Getúlio Vargas",
+        "descricao": "Getúlio Vargas suicidou-se durante uma crise política e militar; sua carta-testamento e a reação popular influenciaram profundamente o cenário político."
+      },
+      {
+        "ano": 1960,
+        "titulo": "Inauguração de Brasília",
+        "descricao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo Juscelino Kubitschek, como nova capital federal."
+      },
+      {
+        "ano": 1964,
+        "titulo": "Golpe Civil-Militar",
+        "descricao": "Um movimento civil-militar depôs João Goulart em 31 de março e 1º de abril de 1964, encerrando a experiência democrática e iniciando uma ditadura."
+      }
     ],
     "consequencias_imediatas": [
       "Deposição de João Goulart, cassações de mandatos, prisões e perseguições políticas, além da imposição de medidas autoritárias que desmontaram garantias constitucionais.",
@@ -591,7 +810,6 @@
     "continuidade": "Persistência de desigualdades sociais, concentração de renda e terra e limitações de participação política, apesar da ampliação de mobilizações e direitos.",
     "rupturas": "Fim do Estado Novo e restabelecimento de uma ordem constitucional em 1946; em 1964, golpe civil-militar interrompeu essa experiência democrática e instaurou uma ditadura."
   },
-
   {
     "id": "ditadura-civil-militar-1964-1985",
     "titulo_principal": "DITADURA CIVIL-MILITAR (1964–1985): DOS ATOS INSTITUCIONAIS À ANISTIA",
@@ -630,11 +848,31 @@
       "Manutenção da tutela militar e da ordem autoritária versus restabelecimento das liberdades, eleições diretas, direitos humanos e participação democrática."
     ],
     "linha_do_tempo": [
-      {"ano": 1964, "titulo": "Golpe Civil-Militar", "descricao": "Golpe civil-militar depôs João Goulart e instaurou um regime autoritário, com apoio de setores políticos, empresariais e sociais e participação decisiva das Forças Armadas."},
-      {"ano": 1968, "titulo": "Decreto do AI-5", "descricao": "Ato Institucional nº 5 ampliou os poderes do Executivo, permitiu o fechamento do Congresso e suspendeu garantias constitucionais, aprofundando a repressão."},
-      {"ano": 1979, "titulo": "Lei da Anistia", "descricao": "A lei concedeu anistia a perseguidos políticos e permitiu o retorno de exilados, mas sua aplicação também protegeu agentes estatais acusados de violações, tornando-se objeto de controvérsia."},
-      {"ano": 1984, "titulo": "Diretas Já", "descricao": "Campanha nacional por eleições presidenciais diretas mobilizou multidões; a emenda foi rejeitada pela Câmara dos Deputados em abril de 1984."},
-      {"ano": 1985, "titulo": "Fim da Ditadura", "descricao": "Tancredo Neves foi eleito indiretamente em janeiro de 1985, morreu antes da posse e foi sucedido por José Sarney, marcando o início do governo civil."}
+      {
+        "ano": 1964,
+        "titulo": "Golpe Civil-Militar",
+        "descricao": "Golpe civil-militar depôs João Goulart e instaurou um regime autoritário, com apoio de setores políticos, empresariais e sociais e participação decisiva das Forças Armadas."
+      },
+      {
+        "ano": 1968,
+        "titulo": "Decreto do AI-5",
+        "descricao": "Ato Institucional nº 5 ampliou os poderes do Executivo, permitiu o fechamento do Congresso e suspendeu garantias constitucionais, aprofundando a repressão."
+      },
+      {
+        "ano": 1979,
+        "titulo": "Lei da Anistia",
+        "descricao": "A lei concedeu anistia a perseguidos políticos e permitiu o retorno de exilados, mas sua aplicação também protegeu agentes estatais acusados de violações, tornando-se objeto de controvérsia."
+      },
+      {
+        "ano": 1984,
+        "titulo": "Diretas Já",
+        "descricao": "Campanha nacional por eleições presidenciais diretas mobilizou multidões; a emenda foi rejeitada pela Câmara dos Deputados em abril de 1984."
+      },
+      {
+        "ano": 1985,
+        "titulo": "Fim da Ditadura",
+        "descricao": "Tancredo Neves foi eleito indiretamente em janeiro de 1985, morreu antes da posse e foi sucedido por José Sarney, marcando o início do governo civil."
+      }
     ],
     "consequencias_imediatas": [
       "Perseguição política, cassações, prisões, exílios, censura, tortura e assassinatos cometidos por agentes do Estado; vítimas e familiares organizaram denúncias e movimentos por memória e justiça.",
@@ -654,7 +892,6 @@
     "continuidade": "Persistência de práticas autoritárias, violência policial, desigualdades sociais e impunidade de agentes estatais, temas que permaneceram em debate após a redemocratização.",
     "rupturas": "Fim do regime militar em 1985 e retomada do governo civil, seguida pela Constituição de 1988; a transição não eliminou imediatamente estruturas e práticas herdadas da ditadura."
   },
-
   {
     "id": "nova-republica-1985-atualidade",
     "titulo_principal": "NOVA REPÚBLICA (1985–ATUALIDADE): REDEMOCRATIZAÇÃO E DIAS ATUAIS",
@@ -695,13 +932,41 @@
       "Debates sobre políticas fiscais e sociais, papel do Estado, distribuição de renda, direitos trabalhistas, desenvolvimento econômico, proteção ambiental, segurança pública e qualidade das instituições democráticas."
     ],
     "linha_do_tempo": [
-      {"ano": 1988, "titulo": "Constituição Cidadã", "descricao": "A Assembleia Nacional Constituinte promulgou a Constituição de 1988, que restabeleceu e ampliou direitos e garantias fundamentais e estruturou a ordem democrática atual."},
-      {"ano": 1992, "titulo": "Impeachment de Collor", "descricao": "Após denúncias e um processo de impeachment, Collor renunciou em dezembro de 1992; o Senado prosseguiu com o julgamento e decidiu pela perda de seus direitos políticos."},
-      {"ano": 1994, "titulo": "Lançamento do Plano Real", "descricao": "O Plano Real foi implementado durante o governo Itamar Franco, com Fernando Henrique Cardoso no Ministério da Fazenda, e iniciou a circulação da nova moeda em julho de 1994."},
-      {"ano": 2002, "titulo": "Eleição de Lula", "descricao": "Lula venceu a eleição presidencial de 2002 e assumiu o cargo em janeiro de 2003, após disputar eleições anteriores."},
-      {"ano": 2016, "titulo": "Impeachment de Dilma Rousseff", "descricao": "O Senado aprovou o impeachment de Dilma Rousseff em agosto de 2016, por acusações relativas a decretos orçamentários e operações fiscais; o processo foi objeto de controvérsia política e jurídica."},
-      {"ano": 2020, "titulo": "Pandemia de COVID-19", "descricao": "A pandemia de COVID-19 provocou grave crise sanitária, social e econômica no Brasil, com elevado número de mortes e impactos prolongados."},
-      {"ano": 2023, "titulo": "Início do 3º Governo Lula", "descricao": "Lula iniciou seu terceiro mandato em 1º de janeiro de 2023, após vencer a eleição presidencial de 2022."}
+      {
+        "ano": 1988,
+        "titulo": "Constituição Cidadã",
+        "descricao": "A Assembleia Nacional Constituinte promulgou a Constituição de 1988, que restabeleceu e ampliou direitos e garantias fundamentais e estruturou a ordem democrática atual."
+      },
+      {
+        "ano": 1992,
+        "titulo": "Impeachment de Collor",
+        "descricao": "Após denúncias e um processo de impeachment, Collor renunciou em dezembro de 1992; o Senado prosseguiu com o julgamento e decidiu pela perda de seus direitos políticos."
+      },
+      {
+        "ano": 1994,
+        "titulo": "Lançamento do Plano Real",
+        "descricao": "O Plano Real foi implementado durante o governo Itamar Franco, com Fernando Henrique Cardoso no Ministério da Fazenda, e iniciou a circulação da nova moeda em julho de 1994."
+      },
+      {
+        "ano": 2002,
+        "titulo": "Eleição de Lula",
+        "descricao": "Lula venceu a eleição presidencial de 2002 e assumiu o cargo em janeiro de 2003, após disputar eleições anteriores."
+      },
+      {
+        "ano": 2016,
+        "titulo": "Impeachment de Dilma Rousseff",
+        "descricao": "O Senado aprovou o impeachment de Dilma Rousseff em agosto de 2016, por acusações relativas a decretos orçamentários e operações fiscais; o processo foi objeto de controvérsia política e jurídica."
+      },
+      {
+        "ano": 2020,
+        "titulo": "Pandemia de COVID-19",
+        "descricao": "A pandemia de COVID-19 provocou grave crise sanitária, social e econômica no Brasil, com elevado número de mortes e impactos prolongados."
+      },
+      {
+        "ano": 2023,
+        "titulo": "Início do 3º Governo Lula",
+        "descricao": "Lula iniciou seu terceiro mandato em 1º de janeiro de 2023, após vencer a eleição presidencial de 2022."
+      }
     ],
     "consequencias_imediatas": [
       "Estabilização da moeda com o Plano Real a partir de 1994, seguida por mudanças no poder de compra e na economia; a estabilidade de preços não eliminou desigualdades nem crises posteriores.",
@@ -720,5 +985,82 @@
     },
     "continuidade": "Persistência de desigualdades socioeconômicas, raciais e regionais, violência e desafios estruturais nos sistemas de saúde, educação, segurança e justiça.",
     "rupturas": "Restabelecimento de eleições diretas e da ordem constitucional, ampliação de direitos pela Constituição de 1988 e consolidação de uma experiência democrática duradoura, ainda sujeita a crises e disputas."
+  },
+  {
+    "id": "criacao-estado-tocantins-1988-1989",
+    "titulo_principal": "A CRIAÇÃO DO ESTADO DO TOCANTINS (1988–1989)",
+    "ano_inicio": 1988,
+    "ano_fim": 1989,
+    "periodo": "Nova República e história regional do Brasil",
+    "local": "Norte do antigo Estado de Goiás; atual Estado do Tocantins",
+    "sociedades_envolvidas": "Movimentos autonomistas do norte goiano, lideranças políticas, população local, Assembleia Nacional Constituinte e instituições federais",
+    "tema": "Redivisão territorial, autonomia política, Constituição Federal de 1988, artigo 13 do ADCT, eleição estadual e instalação do Tocantins",
+    "contexto": "A criação do Tocantins resultou de reivindicações históricas por autonomia e de debates sobre a organização territorial do Brasil. A Constituição Federal de 5 de outubro de 1988 criou o novo estado pelo desmembramento da porção norte de Goiás. A instalação administrativa ocorreu em 1º de janeiro de 1989, com Miracema do Tocantins como capital provisória. É importante distinguir a criação jurídica em 1988 da instalação efetiva em 1989.",
+    "antecedentes": [
+      "Reivindicações de autonomia e propostas de redivisão territorial presentes no norte goiano em diferentes momentos históricos.",
+      "Desigualdades regionais, dificuldades de acesso a serviços públicos e debates sobre representação política e administração do território.",
+      "Discussões nacionais sobre a organização federativa durante a redemocratização e a Assembleia Nacional Constituinte."
+    ],
+    "causas": {
+      "politicas": "Movimentos e lideranças defenderam maior autonomia administrativa e representação política para o norte de Goiás; a decisão final foi incorporada ao processo constituinte nacional.",
+      "economicas": "Debates sobre gestão de recursos, infraestrutura, serviços públicos e desenvolvimento regional, com diferentes expectativas e interesses.",
+      "sociais": "Demandas por maior proximidade do poder público e acesso a serviços, educação, saúde e oportunidades em localidades do norte goiano.",
+      "religiosas": "Organizações religiosas integravam a sociedade regional, mas não explicam isoladamente o movimento de criação do estado.",
+      "culturais": "Construção de identidades regionais e valorização das experiências históricas do norte goiano, sem supor que a população tivesse opiniões uniformes.",
+      "territoriais": "Desmembramento da porção norte de Goiás e criação de uma nova unidade federativa na Região Norte do Brasil.",
+      "tecnologias": "A instalação do novo estado exigiu organização de órgãos administrativos, sistemas de comunicação, infraestrutura e serviços públicos."
+    },
+    "resumo_card": "O Estado do Tocantins foi criado pelo artigo 13 do Ato das Disposições Constitucionais Transitórias da Constituição de 1988, a partir do desmembramento do norte de Goiás. Sua instalação oficial ocorreu em 1º de janeiro de 1989, com capital provisória em Miracema do Tocantins.",
+    "desenvolvimento": "A ideia de autonomia para o norte goiano foi defendida em diferentes momentos e por grupos com motivações variadas. Durante a Assembleia Nacional Constituinte, a proposta ganhou espaço no debate sobre a organização territorial e federativa do país. O artigo 13 do Ato das Disposições Constitucionais Transitórias, promulgado em 5 de outubro de 1988, criou o Estado do Tocantins pelo desmembramento de parte de Goiás e estabeleceu as condições para sua instalação. Em 15 de novembro de 1988 ocorreram eleições para os cargos estaduais previstos no texto constitucional. Em 1º de janeiro de 1989, o novo estado foi instalado oficialmente em Miracema do Tocantins, escolhida como capital provisória. A criação alterou a organização territorial e administrativa do Brasil, mas não resolveu automaticamente as desigualdades regionais. A história do processo deve considerar tanto as articulações políticas quanto as demandas e experiências da população das diferentes localidades.",
+    "personagens": [
+      "Lideranças políticas e representantes dos movimentos autonomistas do norte goiano, que atuaram em diferentes fases da reivindicação.",
+      "Deputados constituintes e representantes políticos envolvidos na discussão e aprovação do texto constitucional.",
+      "Primeiros representantes eleitos do novo estado, responsáveis pela organização inicial das instituições estaduais."
+    ],
+    "grupos_envolvidos": [
+      "Movimentos e lideranças favoráveis à autonomia do norte goiano, com trajetórias e projetos diversos.",
+      "Populações urbanas e rurais da região desmembrada, cujas demandas não eram necessariamente uniformes.",
+      "Representantes de Goiás, do governo federal e da Assembleia Nacional Constituinte."
+    ],
+    "interesses_em_disputa": [
+      "Autonomia administrativa, representação política, distribuição de recursos públicos, definição de limites territoriais e escolha da capital provisória."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": 1988,
+        "titulo": "Criação constitucional do Tocantins",
+        "descricao": "Em 5 de outubro de 1988, o artigo 13 do ADCT da Constituição criou o Estado do Tocantins pelo desmembramento de parte de Goiás."
+      },
+      {
+        "ano": 1988,
+        "titulo": "Eleição dos primeiros representantes",
+        "descricao": "Em 15 de novembro de 1988 foram realizadas eleições para os cargos estaduais previstos no processo de instalação do novo estado."
+      },
+      {
+        "ano": 1989,
+        "titulo": "Instalação oficial do estado",
+        "descricao": "Em 1º de janeiro de 1989, o Tocantins foi instalado oficialmente em Miracema do Tocantins, capital provisória."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Criação de uma nova unidade federativa e reorganização dos limites entre Goiás e Tocantins.",
+      "Formação de instituições estaduais próprias e instalação inicial do governo em Miracema do Tocantins.",
+      "Redistribuição de competências administrativas e representação política na federação."
+    ],
+    "consequencias_longo_prazo": [
+      "Consolidação do Tocantins como estado da Região Norte e desenvolvimento de sua estrutura administrativa.",
+      "Reorganização de fluxos econômicos, serviços públicos e relações entre municípios do antigo norte goiano e o restante de Goiás.",
+      "Permanência de desafios relacionados a desigualdades territoriais, infraestrutura, proteção ambiental e acesso a direitos."
+    ],
+    "impactos": {
+      "politicos": "Ampliação da representação federativa com a criação de um novo estado e de instituições políticas próprias.",
+      "economicos": "Reorganização de orçamentos, investimentos e administração pública, sem garantia automática de desenvolvimento equilibrado.",
+      "sociais": "Novas estruturas de serviços e representação, com impactos variados entre áreas urbanas e rurais.",
+      "culturais": "Fortalecimento de identidades tocantinenses em diálogo com histórias e vínculos culturais compartilhados com Goiás.",
+      "territoriais": "Mudança dos limites estaduais e inserção do Tocantins na Região Norte do Brasil.",
+      "ambientais": "Novos desafios de gestão territorial e ambiental em áreas de Cerrado e Amazônia, com pressões de expansão agropecuária e infraestrutura."
+    },
+    "continuidade": "A criação do estado não eliminou vínculos históricos, culturais, familiares e econômicos entre Tocantins e Goiás.",
+    "rupturas": "O antigo norte goiano passou a constituir uma unidade federativa própria, com governo, representação política e administração estaduais."
   }
 ]
