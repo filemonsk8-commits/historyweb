@@ -1,16 +1,28 @@
 {
-  "id": "./",
+  "id": "/historyweb/",
   "name": "Linha do Tempo Histórica",
   "short_name": "História",
   "description": "Acervo digital de História com conteúdos organizados por períodos históricos.",
   "lang": "pt-BR",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/historyweb/index.html",
+  "scope": "/historyweb/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#10243b",
   "theme_color": "#10243b",
   "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "./icons/icon.svg",
       "sizes": "any",
@@ -23,5 +35,6 @@
       "type": "image/svg+xml",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "prefer_related_applications": false
 }

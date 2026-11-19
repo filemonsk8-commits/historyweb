@@ -1,5 +1,5 @@
-const CACHE_NAME = 'historyweb-pwa-v8';
-const MAP_CACHE_NAME = 'historyweb-maps-v1';
+const CACHE_NAME = 'historyweb-pwa-v10';
+const MAP_CACHE_NAME = 'historyweb-maps-v2';
 const MAX_CACHED_MAPS = 20;
 
 const ASSETS_TO_CACHE = [
@@ -9,6 +9,8 @@ const ASSETS_TO_CACHE = [
   './fundo.jpg',
   './icons/icon.svg',
   './icons/icon-maskable.svg',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
   './pre-historia.json',
   './idade-antiga.json',
   './idade-medieval.json',
@@ -39,6 +41,7 @@ self.addEventListener('activate', (event) => {
         keys
           .filter((key) =>
             key === 'historico-pwa-v1' ||
+            key === 'historyweb-maps-v1' ||
             (key.startsWith('historyweb-pwa-') && key !== CACHE_NAME)
           )
           .map((key) => caches.delete(key))
@@ -61,29 +64,33 @@ self.addEventListener('fetch', (event) => {
 
   if (request.method !== 'GET') return;
 
-  // Guarda imagens do Wikimedia já visualizadas, para consulta posterior offline.
-  // Respostas opacas são aceitas porque as imagens são carregadas como recursos externos.
+  // Entrega primeiro a cópia guardada e não deixa uma falha de cache bloquear a imagem online.
   if (
     url.hostname === 'commons.wikimedia.org' &&
     url.pathname.startsWith('/wiki/Special:FilePath/')
   ) {
-    event.respondWith(
-      caches.open(MAP_CACHE_NAME).then(async (cache) => {
-        const cached = await cache.match(request);
-        if (cached) return cached;
+    event.respondWith((async () => {
+      const cache = await caches.open(MAP_CACHE_NAME);
+      const cached = await cache.match(request, { ignoreVary: true });
+      if (cached) return cached;
 
+      let response;
+      try {
+        response = await fetch(request, { cache: 'no-store' });
+      } catch (error) {
+        return (await cache.match(request, { ignoreVary: true })) || Response.error();
+      }
+
+      if (response.ok || response.type === 'opaque') {
         try {
-          const response = await fetch(request);
-          if (response.ok || response.type === 'opaque') {
-            await cache.put(request, response.clone());
-            await trimMapCache(cache);
-          }
-          return response;
-        } catch (error) {
-          return (await cache.match(request)) || Response.error();
+          await cache.put(request, response.clone());
+          await trimMapCache(cache);
+        } catch (cacheError) {
+          console.warn('A imagem foi carregada, mas não pôde ser guardada para uso offline:', cacheError);
         }
-      })
-    );
+      }
+      return response;
+    })());
     return;
   }
 

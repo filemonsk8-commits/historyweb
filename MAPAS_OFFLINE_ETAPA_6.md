@@ -31,3 +31,29 @@ Permitir que mapas históricos já visualizados continuem disponíveis quando o 
 - Confirmar que mapas já vistos continuam aparecendo.
 - Confirmar que mapas ainda não vistos exibem falha offline sem comprometer o restante do aplicativo.
 - Testar atualização da PWA e preservação do cache de mapas no Android e no computador.
+
+
+## Correção complementar — preparação explícita dos mapas offline
+
+Após o teste prático indicar que os mapas não permaneceram disponíveis sem conexão, a estratégia passiva de cache foi reforçada:
+- A experiência anterior dependia de cada imagem ter sido realmente requisitada; como as imagens usam carregamento tardio (`loading="lazy"`), isso não garantia que todo o catálogo estivesse armazenado.
+- Foi incluído o botão **Baixar mapas para consultar offline**, que percorre os 13 registros do catálogo e solicita cada imagem enquanto há conexão.
+- A interface apresenta progresso, quantidade baixada e falhas, com opção de tentar novamente.
+- As imagens são armazenadas no cache dedicado `historyweb-maps-v2`; o cache antigo `historyweb-maps-v1` deixa de ser usado após a ativação da atualização.
+- O service worker prioriza a cópia armazenada e trata falhas ao gravar o cache sem bloquear o carregamento online da imagem.
+- O cache principal da PWA foi atualizado para `historyweb-pwa-v9`.
+
+## Validação da correção
+
+- Catálogo contém 13 imagens em URLs do domínio autorizado do Wikimedia Commons.
+- A função de preparação utiliza `fetch` em modo `no-cors` e `Cache.put` para armazenar respostas opacas quando o servidor não expõe os cabeçalhos CORS.
+- Sintaxe do JavaScript da página e do service worker conferida.
+- Teste de modo avião em Android e computador ainda necessário; a validação estática não substitui o teste no dispositivo.
+
+## Como testar
+
+1. Abra o HistoryWeb conectado à internet.
+2. Clique em **Baixar mapas para consultar offline** e aguarde a confirmação de que os 13 mapas foram preparados.
+3. Ative o modo avião.
+4. Abra os eventos que contêm mapas e confirme que as imagens aparecem.
+5. Repita o teste no aplicativo instalado e no navegador do computador.
