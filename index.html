@@ -1144,7 +1144,12 @@
         .gabarito-respostas, .gabarito-rubrica { padding-left: 22px; margin: 10px 0 18px; }
         .gabarito-respostas li, .gabarito-rubrica li { margin-bottom: 8px; }
         .guia-professor-bloco h4 { margin: 16px 0 8px; color: #173f63; }
-    </style>
+    
+        .professor-recuperacao { margin-top: 1rem; padding: 1rem; border: 1px solid var(--borda, #cbd5e1); border-radius: 12px; background: var(--fundo-card, #f8fafc); }
+        .professor-recuperacao[hidden] { display: none !important; }
+        .professor-link-recuperacao { border: 0; background: transparent; color: var(--cor-destaque, #1d4ed8); text-decoration: underline; cursor: pointer; padding: .65rem .2rem; font: inherit; }
+        .professor-recuperacao-acoes { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .8rem; }
+</style>
 </head>
 <body>
 
@@ -1773,14 +1778,109 @@
                         </label>
                         <div class="ficha-acoes">
                             <button class="ficha-botao-principal" type="submit">Entrar na Área do Professor</button>
+                            <button class="professor-link-recuperacao" id="professor-esqueci-senha" type="button">Esqueci minha senha</button>
                         </div>
                         <p id="professor-status" class="ficha-aviso" role="status" aria-live="polite"></p>
                     </form>
+                    <div id="professor-recuperacao" class="professor-recuperacao" hidden></div>
                     <div id="professor-conteudo" hidden></div>
                 </section>`;
             document.getElementById('form-login-professor').addEventListener('submit', entrarAreaProfessor);
+            document.getElementById('professor-esqueci-senha').addEventListener('click', solicitarRecuperacaoSenha);
             verificarSessaoProfessor();
         }
+
+
+        async function solicitarRecuperacaoSenha() {
+            const email = document.getElementById('professor-email')?.value.trim();
+            const status = document.getElementById('professor-status');
+            if (!email) {
+                status.textContent = 'Informe seu e-mail no campo acima para receber as instruções de recuperação.';
+                document.getElementById('professor-email')?.focus();
+                return;
+            }
+            const botao = document.getElementById('professor-esqueci-senha');
+            botao.disabled = true;
+            status.textContent = 'Solicitando recuperação de senha...';
+            try {
+                const redirectTo = window.location.origin + window.location.pathname;
+                const { error } = await professorSupabase.auth.resetPasswordForEmail(email, { redirectTo });
+                if (error) throw error;
+                status.textContent = 'Se o endereço estiver cadastrado, enviaremos um link para redefinir a senha. Verifique também a caixa de spam.';
+            } catch (erro) {
+                status.textContent = erro.message?.includes('rate limit')
+                    ? 'O serviço está temporariamente limitando o envio de e-mails. Aguarde antes de tentar novamente.'
+                    : (erro.message || 'Não foi possível solicitar a recuperação agora.');
+            } finally {
+                botao.disabled = false;
+            }
+        }
+
+        function mostrarFormularioNovaSenha() {
+            mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
+            const login = document.getElementById('form-login-professor');
+            const recovery = document.getElementById('professor-recuperacao');
+            if (!login || !recovery) return;
+            login.hidden = true;
+            recovery.hidden = false;
+            recovery.innerHTML = `
+                <h3>Definir nova senha</h3>
+                <p>Crie uma senha nova para acessar a Área do Professor.</p>
+                <form id="form-nova-senha" autocomplete="new-password">
+                    <label class="ficha-campo" for="professor-nova-senha">Nova senha
+                        <input id="professor-nova-senha" type="password" minlength="8" autocomplete="new-password" required>
+                    </label>
+                    <label class="ficha-campo" for="professor-confirma-senha">Confirme a nova senha
+                        <input id="professor-confirma-senha" type="password" minlength="8" autocomplete="new-password" required>
+                    </label>
+                    <div class="professor-recuperacao-acoes">
+                        <button class="ficha-botao-principal" type="submit">Salvar nova senha</button>
+                        <button class="ficha-botao-secundario" id="professor-cancelar-recuperacao" type="button">Voltar</button>
+                    </div>
+                    <p id="professor-recuperacao-status" class="ficha-aviso" role="status" aria-live="polite"></p>
+                </form>`;
+            document.getElementById('form-nova-senha').addEventListener('submit', async evento => {
+                evento.preventDefault();
+                const nova = document.getElementById('professor-nova-senha').value;
+                const confirmacao = document.getElementById('professor-confirma-senha').value;
+                const aviso = document.getElementById('professor-recuperacao-status');
+                const botao = evento.currentTarget.querySelector('button[type="submit"]');
+                if (nova.length < 8) {
+                    aviso.textContent = 'A senha precisa ter pelo menos 8 caracteres.';
+                    return;
+                }
+                if (nova !== confirmacao) {
+                    aviso.textContent = 'As senhas não conferem.';
+                    return;
+                }
+                botao.disabled = true;
+                aviso.textContent = 'Atualizando senha...';
+                try {
+                    const { error } = await professorSupabase.auth.updateUser({ password: nova });
+                    if (error) throw error;
+                    aviso.textContent = 'Senha atualizada. Entre novamente com sua nova senha.';
+                    await professorSupabase.auth.signOut();
+                    login.hidden = false;
+                    recovery.hidden = true;
+                    const status = document.getElementById('professor-status');
+                    if (status) status.textContent = 'Senha atualizada com sucesso. Faça login.';
+                } catch (erro) {
+                    aviso.textContent = erro.message || 'Não foi possível atualizar a senha.';
+                } finally {
+                    botao.disabled = false;
+                }
+            });
+            document.getElementById('professor-cancelar-recuperacao').addEventListener('click', () => {
+                recovery.hidden = true;
+                login.hidden = false;
+            });
+        }
+
+        professorSupabase.auth.onAuthStateChange(evento => {
+            if (evento === 'PASSWORD_RECOVERY') {
+                mostrarFormularioNovaSenha();
+            }
+        });
 
         async function verificarPermissaoProfessor(usuario) {
             const { data, error } = await professorSupabase
