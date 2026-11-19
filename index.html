@@ -1209,6 +1209,14 @@
         .professor-recuperacao[hidden] { display: none !important; }
         .professor-link-recuperacao { border: 0; background: transparent; color: var(--cor-destaque, #1d4ed8); text-decoration: underline; cursor: pointer; padding: .65rem .2rem; font: inherit; }
         .professor-recuperacao-acoes { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .8rem; }
+
+        .rodape-historyweb { max-width:1120px; margin:42px auto 0; padding:20px 24px 28px; border-top:1px solid #d7d0c2; }
+        .rodape-historyweb-conteudo { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:14px; }
+        .rodape-historyweb-conteudo > span { color:#6b7280; font-size:.9rem; }
+        .professor-acesso-final { border-color:#c8b58f; background:#fffdfa; color:#17365d; }
+        .professor-acesso-final:hover { background:#f3eee3; border-color:#b18a4a; }
+        @media(max-width:560px) { .rodape-historyweb { margin-top:28px; padding:18px 16px 24px; } .rodape-historyweb-conteudo { flex-direction:column; align-items:stretch; } .professor-acesso-final { width:100%; } }
+        @media print { .rodape-historyweb { display:none !important; } }
 </style>
 </head>
 <body>
@@ -1236,12 +1244,18 @@
         <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
         <button class="btn-periodo" onclick="mostrarFontesHistoricas(this)">Fontes Históricas</button>
         <button class="btn-periodo" onclick="mostrarBancoAtividades(this)">Banco de Atividades</button>
-        <button class="btn-periodo" onclick="mostrarAreaProfessor(this)">Área do Professor</button>
     </nav>
 
     <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
         <!-- Conteúdo inicial injetado via JavaScript -->
     </main>
+
+    <footer class="rodape-historyweb">
+        <div class="rodape-historyweb-conteudo">
+            <span>Área reservada aos professores</span>
+            <button class="btn-periodo professor-acesso-final" type="button" onclick="mostrarAreaProfessor(this)">Área do Professor</button>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/dist/umd/supabase.min.js"></script>
     <script>
