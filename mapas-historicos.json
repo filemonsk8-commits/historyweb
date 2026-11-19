@@ -5,7 +5,7 @@
     "titulo": "Migrações de Homo sapiens",
     "periodo": "Pré-História — dispersões ao longo de dezenas de milhares de anos",
     "contexto": "O mapa representa rotas propostas para a dispersão de grupos de Homo sapiens a partir da África. Datas e trajetórias são estimativas científicas e podem ser revistas conforme novas evidências arqueológicas e genéticas.",
-    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_migration_routes_following_Out-of-Africa.png",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_migration_routes_following_Out-of-Africa.png?width=1280",
     "alt": "Mapa-múndi com rotas propostas de migração de grupos humanos após a saída da África.",
     "fonte": "https://commons.wikimedia.org/wiki/File:Human_migration_routes_following_Out-of-Africa.png",
     "autoria": "ABCymta",
@@ -21,7 +21,7 @@
     "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_fertile_crescent-pt.svg",
     "alt": "Mapa em português da região do Crescente Fértil, incluindo Egito, Levante e Mesopotâmia.",
     "fonte": "https://commons.wikimedia.org/wiki/File:Map_of_fertile_crescent-pt.svg",
-    "autoria": "Nafsadh; adaptação em português por Parzeus",
+    "autoria": "Nafsadh (mapa original); adaptação em português por Parzeus",
     "licenca": "CC BY-SA 4.0",
     "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
@@ -31,7 +31,7 @@
     "titulo": "Divisão administrativa do Império Romano por volta de 395",
     "periodo": "Final do século IV",
     "contexto": "A representação mostra províncias e divisões administrativas do Império Romano em torno de 395. Não deve ser confundida com a extensão máxima do Império em outros momentos.",
-    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Roman_Empire.svg",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Roman_Empire.svg?width=1280",
     "alt": "Mapa das províncias e divisões administrativas do Império Romano por volta do ano 395.",
     "fonte": "https://commons.wikimedia.org/wiki/File:Roman_Empire.svg",
     "autoria": "Ollie Bye",
@@ -60,7 +60,7 @@
     "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Descobrimentos_e_explora%C3%A7%C3%B5es_portuguesesV2.png",
     "alt": "Mapa em português das viagens, contatos, conquistas e rotas marítimas portuguesas durante a expansão ultramarina.",
     "fonte": "https://commons.wikimedia.org/wiki/File:Descobrimentos_e_explora%C3%A7%C3%B5es_portuguesesV2.png",
-    "autoria": "Tokle; trabalho derivado e atualização por Uxbona",
+    "autoria": "Tokle (mapa original); trabalho derivado e atualização por Uxbona",
     "licenca": "CC BY-SA 3.0",
     "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/"
   }
