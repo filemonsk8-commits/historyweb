@@ -63,5 +63,70 @@
     "autoria": "Tokle (mapa original); trabalho derivado e atualização por Uxbona",
     "licenca": "CC BY-SA 3.0",
     "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "mapa-brasil-capitanias-1534",
+    "evento_id": "brasil-colonial-administracao-economia-sociedade",
+    "titulo": "Capitanias hereditárias e a divisão portuguesa de 1534",
+    "periodo": "América portuguesa — a partir de 1534",
+    "contexto": "A representação apresenta a divisão da costa em capitanias hereditárias e a linha associada ao Tratado de Tordesilhas. As concessões eram instrumentos de administração e colonização da Coroa portuguesa; não significavam ocupação efetiva ou controle uniforme de todo o território. O mapa é uma reconstrução histórica moderna, não um documento cartográfico produzido em 1534.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_in_1534.svg?width=1280",
+    "alt": "Mapa histórico reconstruído da América portuguesa em 1534, com a divisão das capitanias e referências à linha do Tratado de Tordesilhas.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Brazil_in_1534.svg",
+    "autoria": "Milenioscuro; versão cartográfica corrigida por DAR7",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-brasil-divisao-1709",
+    "evento_id": "brasil-colonial-mineracao-revoltas",
+    "titulo": "Divisão administrativa da América portuguesa em 1709",
+    "periodo": "Brasil colonial — início do século XVIII",
+    "contexto": "O mapa representa unidades administrativas portuguesas em 1709, período de expansão da mineração e de reorganização territorial. As divisões administrativas não devem ser confundidas com fronteiras nacionais atuais nem com ocupação homogênea do interior; povos indígenas e outras comunidades mantinham seus próprios territórios e redes de circulação.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_in_1709.svg?width=1280",
+    "alt": "Mapa da América portuguesa em 1709, com unidades administrativas coloniais identificadas.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Brazil_in_1709.svg",
+    "autoria": "Milenioscuro",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-brasil-tratado-madrid-1750",
+    "evento_id": "brasil-colonial-mineracao-revoltas",
+    "titulo": "América portuguesa e limites em disputa no contexto do Tratado de Madri (1750)",
+    "periodo": "Século XVIII — tratado de 1750",
+    "contexto": "O mapa representa a configuração territorial atribuída ao ano de 1750 e deve ser lido em relação às negociações entre as monarquias ibéricas. O Tratado de Madri procurou redefinir limites com base, entre outros princípios, na ocupação efetiva; sua aplicação encontrou resistências e conflitos, e os limites não se tornaram automaticamente fronteiras estáveis. A presença de povos indígenas e suas territorialidades não pode ser reduzida às linhas diplomáticas europeias.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_in_1750.svg?width=1280",
+    "alt": "Mapa histórico do Brasil em 1750, com divisões administrativas e configuração territorial da América portuguesa.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Brazil_in_1750.svg",
+    "autoria": "Milenioscuro",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-brasil-independencia-1822",
+    "evento_id": "imperio-brasil-1822-1889",
+    "titulo": "Divisão territorial do Brasil em 1822",
+    "periodo": "Independência e formação do Império — 1822",
+    "contexto": "O mapa mostra a divisão territorial e administrativa no momento da Independência. A proclamação de 1822 não encerrou imediatamente os conflitos: a consolidação do novo Estado envolveu guerras de independência, disputas provinciais e negociações diplomáticas. A configuração representada não deve ser tomada como equivalente às fronteiras e divisões estaduais atuais.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_in_1822.svg?width=1280",
+    "alt": "Mapa político do Brasil em 1822, com a divisão territorial no início do Império.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Brazil_in_1822.svg",
+    "autoria": "Milenioscuro",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-brasil-provincias-1889",
+    "evento_id": "primeira-republica-1889-1930",
+    "titulo": "Brasil em 1889: províncias e transição para a República",
+    "periodo": "Fim do Império — 1889",
+    "contexto": "A representação apresenta a divisão territorial no ano da Proclamação da República, quando as antigas províncias passaram a ser denominadas estados. A mudança de regime não transformou instantaneamente todas as estruturas administrativas, nem correspondeu à configuração atual do país. O mapa permite observar continuidades territoriais e mudanças institucionais na passagem do Império à República.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_in_1889.svg?width=1280",
+    "alt": "Mapa do Brasil em 1889, mostrando a divisão territorial na transição do Império para a República.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Brazil_in_1889.svg",
+    "autoria": "Milenioscuro",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
   }
 ]
