@@ -69,58 +69,58 @@
     "local": "Europa, Atlântico, África, Ásia e América",
     "sociedades_envolvidas": "Monarquias Ibéricas (Portugal e Espanha), Reinos Europeus e Povos Nativos Americanos e Africanos",
     "tema": "Expansão Marítima, Mercantilismo, Formação de Impérios Coloniais e Escravização Atlântica",
-    "contexto": "Movidos pela necessidade de encontrar novas rotas comerciais para o Oriente e fortalecidos pelos Estados Nacionais centralizados, os países europeus lançaram-se ao Atlântico.",
+    "contexto": "A expansão marítima europeia dos séculos XV e XVI resultou de interesses comerciais, fiscais, políticos e religiosos, além de conhecimentos náuticos acumulados em diferentes sociedades. Portugal avançou gradualmente pela costa africana e pelo Atlântico; Castela financiou a viagem de Colombo em 1492. Esses movimentos conectaram redes já existentes e deram início a novas formas de conquista, colonização e exploração, com impactos profundos sobre povos africanos, asiáticos e americanos.",
     "antecedentes": [
-      "Centralização das monarquias europeias (Estados Nacionais).",
-      "Aperfeiçoamento de instrumentos náuticos (bússola, astrolábio) e das embarcações (caravelas)."
+      "Fortalecimento de monarquias e de estruturas fiscais e administrativas em alguns reinos europeus, sem que todos os Estados estivessem igualmente centralizados.",
+      "Apropriação e combinação de conhecimentos náuticos, cartográficos e astronômicos de diferentes tradições, além de adaptações em embarcações como caravelas e naus; bússola e astrolábio tinham origens e trajetórias anteriores à expansão portuguesa."
     ],
     "causas": {
       "politicas": "Desejo dos reis de ampliar seus territórios, arrecadar mais impostos e fortalecer o poder real.",
-      "economicas": "Busca por especiarias orientais, metais preciosos e quebra do monopólio comercial italiano/otomano.",
-      "sociais": "Interesses da burguesia mercantil em novas fontes de lucro e expansão dos mercados.",
-      "religiosas": "Espalhamento da fé católica por meio da catequese e expansão missionária ultramarina.",
-      "culturais": "Curiosidade intelectual incentivada pelo Renascimento e superação de mitos sobre os oceanos.",
-      "territoriais": "Conquista e exploração de novas terras além-mar.",
-      "tecnologias": "Desenvolvimento da cartografia e de embarcações capazes de navegar em alto-mar."
+      "economicas": "Busca de acesso direto a mercados e produtos valorizados, como especiarias, metais e tecidos, além de oportunidades de comércio, tributação e investimento. Não havia um monopólio único e absoluto de italianos ou otomanos sobre todo o comércio euro-asiático.",
+      "sociais": "Interesses de comerciantes, armadores, investidores, trabalhadores marítimos e grupos ligados às cortes; seus objetivos e benefícios eram desiguais.",
+      "religiosas": "Projetos de expansão do cristianismo e alianças religiosas tiveram importância para algumas coroas e expedições, articulados a interesses políticos, comerciais e militares.",
+      "culturais": "Intercâmbios de conhecimentos geográficos e náuticos, experiências de navegação e interesses de exploração; não se tratou simplesmente de superar mitos sobre oceanos desconhecidos.",
+      "territoriais": "Busca por estabelecer feitorias, controlar pontos estratégicos, reivindicar territórios e ampliar zonas de influência, enfrentando sociedades que já habitavam e organizavam esses espaços.",
+      "tecnologias": "Aperfeiçoamento e combinação de técnicas de navegação, construção naval, cartografia e instrumentos de orientação, com contribuições de saberes mediterrâneos, africanos e asiáticos."
     },
-    "resumo_card": "A expansão marítima dos séculos XV e XVI integrou continentes, resultou na chegada dos europeus à América, na circulação de riquezas e na consolidação do mercantilismo.",
-    "desenvolvimento": "Portugal pioneirizou contornando a África rumo às Índias. A Espanha, com a viagem de Cristóvão Colombo em 1492, alcançou a América. Em 1500, a frota de Pedro Álvares Cabral chegou ao Brasil. Esse processo deu origem ao sistema colonial mercantilista, baseado no pacto colonial, na exploração de metais e na exploração do trabalho escravizado de africanos e indígenas.",
+    "resumo_card": "As navegações europeias dos séculos XV e XVI ampliaram conexões entre Atlântico, África, Ásia e América. Produziram novas rotas e redes comerciais, mas também conquista territorial, colonização, escravização e profundas transformações demográficas, sociais e ambientais.",
+    "desenvolvimento": "Portugal iniciou no século XV uma expansão gradual pelo Atlântico e pela costa africana, que incluiu a ocupação de Ceuta (1415), a exploração de arquipélagos atlânticos e a passagem do cabo da Boa Esperança por Bartolomeu Dias (1488). Vasco da Gama chegou a Calicute, na Índia, em 1498. Em 1492, uma expedição financiada pelos Reis Católicos de Castela, comandada por Cristóvão Colombo, alcançou o Caribe, onde já viviam diversos povos. O Tratado de Tordesilhas (1494) estabeleceu uma linha de demarcação entre as áreas de expansão reivindicadas por Portugal e Castela, sem representar uma divisão efetiva de todo o planeta nem contar com a participação dos povos atingidos. Em 1500, a armada de Pedro Álvares Cabral chegou à costa do atual Brasil, território habitado por numerosas sociedades indígenas. A expansão europeia não criou contatos entre continentes antes isolados: intensificou e reorganizou conexões preexistentes e impôs novas relações de poder. A conquista e a colonização envolveram guerras, epidemias, apropriação de terras, trabalho compulsório e tráfico transatlântico de africanos escravizados.",
     "personagens": [
-      "Cristóvão Colombo: Navegador genovês a serviço da Espanha que chegou à América em 1492.",
-      "Vasco da Gama: Navegador português que abriu a rota marítima para a Índia contornando a África.",
-      "Pedro Álvares Cabral: Capitão-mor da armada portuguesa que aportou no Brasil em 1500."
+      "Cristóvão Colombo: Navegador genovês a serviço da Coroa de Castela que chegou ao Caribe em 1492, iniciando uma fase de conquista e colonização europeia nas Américas.",
+      "Vasco da Gama: Comandante da expedição portuguesa que chegou a Calicute, na costa do atual Kerala, em 1498, pela rota marítima contornando a África.",
+      "Pedro Álvares Cabral: Comandante da armada portuguesa que chegou à costa do atual Brasil em 1500, região já habitada por diversos povos indígenas."
     ],
     "grupos_envolvidos": [
       "Monarquias e Mercadores Europeus",
-      "Povos Indígenas Americanos",
-      "Povos Africanos alvos do tráfico transatlântico"
+      "Povos indígenas das Américas, com sociedades, línguas, alianças e formas de organização diversas, que resistiram, negociaram e também sofreram conquista e colonização.",
+      "Sociedades africanas diversas, incluindo comunidades atingidas pelo tráfico transatlântico de pessoas escravizadas e também agentes de relações comerciais e políticas complexas."
     ],
     "interesses_em_disputa": [
-      "Monopólio das rotas comerciais globais e extração de riquezas minerais e agrícolas."
+      "Controle de rotas, portos, feitorias, territórios e mercados, além da apropriação de recursos e da imposição de trabalho compulsório."
     ],
     "linha_do_tempo": [
-      {"ano": 1492, "titulo": "Chegada de Colombo", "descricao": "A frota espanhola chega ao continente americano (Caribe)."},
-      {"ano": 1494, "titulo": "Tratado de Tordesilhas", "descricao": "Acordo entre Portugal e Espanha dividindo as zonas de expansão ultramarina."},
+      {"ano": 1492, "titulo": "Chegada de Colombo", "descricao": "Expedição castelhana comandada por Colombo chegou às ilhas do Caribe, onde encontrou sociedades indígenas; o acontecimento marcou o início de uma nova fase de conquista e colonização europeia."},
+      {"ano": 1494, "titulo": "Tratado de Tordesilhas", "descricao": "Acordo entre as Coroas de Portugal e Castela que estabeleceu uma linha de demarcação para suas reivindicações ultramarinas; não envolveu os povos cujos territórios foram afetados."},
       {"ano": 1500, "titulo": "Chegada ao Brasil", "descricao": "A frota de Pedro Álvares Cabral chega ao litoral da Bahia."}
     ],
     "consequencias_imediatas": [
-      "Início da colonização europeia nas Américas e extermínio/subjugação de populações nativas.",
+      "Conquista e colonização europeia de territórios americanos, acompanhadas de guerras, expropriação de terras, epidemias, escravização e outras formas de trabalho compulsório; os efeitos variaram entre regiões e sociedades.",
       "Intensificação do tráfico transatlântico de africanos escravizados."
     ],
     "consequencias_longo_prazo": [
-      "Formação do sistema capitalista comercial mundial e integração intercontinental (Globalização incipiente).",
-      "Mudanças profundas na dieta global com a troca de alimentos entre os continentes (Columbian Exchange)."
+      "Ampliação de redes comerciais intercontinentais e integração coercitiva de territórios a circuitos imperiais e capitalistas em formação; o processo não foi linear nem significou uma globalização completa.",
+      "Transferência de plantas, animais, pessoas e microrganismos entre continentes, conhecida como intercâmbio colombiano, com efeitos alimentares, demográficos e ecológicos muito desiguais."
     ],
     "impactos": {
-      "politicos": "Consolidação dos Estados Absolutistas financiados pelo comércio colonial.",
-      "economicos": "Afluxo massivo de ouro e prata para a Europa e estabelecimento do pacto colonial mercantilista.",
-      "sociais": "Destruição demográfica de civilizações pré-colombianas e institucionalização do racismo estrutural através da escravidão.",
-      "culturais": "Imposição de padrões culturais europeus e choques civilizacionais profundos.",
-      "territoriais": "Redesenho completo dos mapas mundiais e partilha territorial ultramarina.",
-      "ambientais": "Introdução de espécies vegetais e animais exóticas e desmatamento colonial para monoculturas."
+      "politicos": "Expansão de impérios ultramarinos e fortalecimento de algumas monarquias europeias, em disputa com outras potências e em interação conflituosa com sociedades locais.",
+      "economicos": "Crescimento de circuitos comerciais atlânticos e do fluxo de metais, produtos agrícolas e pessoas escravizadas; a riqueza gerada foi distribuída de forma profundamente desigual.",
+      "sociais": "Colapso demográfico de muitas populações indígenas por epidemias, guerras e exploração, além do crescimento do tráfico e da escravização de africanos; resistências e continuidades culturais também marcaram esses processos.",
+      "culturais": "Intercâmbios, imposições e resistências culturais, linguísticas e religiosas, que produziram sociedades híbridas e conflitos duradouros.",
+      "territoriais": "Conquista e reorganização colonial de territórios nas Américas, África e Ásia, sem que as potências europeias controlassem de imediato ou integralmente essas regiões.",
+      "ambientais": "Introdução e circulação de espécies, transformação de ecossistemas, expansão de plantações e mineração e desmatamento em diferentes regiões; impactos variaram conforme os ambientes e os regimes coloniais."
     },
     "continuidade": "Exploração do trabalho compulsório e busca incessante por lucros comerciais por potências centrais.",
-    "rupturas": "Fim do isolamento entre os continentes americanos, africanos, asiáticos e europeus."
+    "rupturas": "Intensificação das conexões atlânticas e formação de impérios coloniais europeus, sem representar o fim de um suposto isolamento absoluto entre continentes, que já mantinham redes próprias de circulação."
   },
 
   {
