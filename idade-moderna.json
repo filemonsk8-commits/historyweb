@@ -7,7 +7,7 @@
     "periodo": "Idade Moderna",
     "local": "Império Bizantino / Constantinopla",
     "sociedades_envolvidas": "Turcos Otomanos e Império Bizantino",
-    "tema": "Expansão Otomana, Fechamento de Rotas Comerciais e Transição Histórica",
+    "tema": "Expansão Otomana, Transformações Geopolíticas e Comerciais e Transição Histórica",
     "contexto": "A conquista de Constantinopla pelos otomanos em 1453 consolidou mudanças no equilíbrio político e comercial do Mediterrâneo oriental. A cidade passou ao controle otomano, mas isso não significou o fechamento de todas as rotas entre a Europa e a Ásia. O acontecimento é tradicionalmente usado como um dos marcos da transição para a Idade Moderna.",
     "antecedentes": [
       "Enfraquecimento gradual do Império Bizantino ao longo da Baixa Idade Média.",
@@ -15,9 +15,9 @@
     ],
     "causas": {
       "politicas": "Expansão territorial e militar do Império Otomano sob o comando de Maomé II.",
-      "economicas": "Necessidade de controle das rotas comerciais que ligavam o Mar Mediterrâneo ao Mar Negro e à Ásia.",
+      "economicas": "Interesse otomano em controlar Constantinopla e passagens estratégicas entre o Mediterrâneo e o Mar Negro, em uma região atravessada por redes comerciais já existentes.",
       "sociais": "Interesse de mercadores e monarquias europeias em ampliar o acesso às mercadorias orientais e encontrar rotas marítimas, em um contexto de mudanças no controle político e comercial do Mediterrâneo.",
-      "religiosas": "Conflito geopolítico e religioso entre o Islão expansionista e a Cristandade oriental.",
+      "religiosas": "A conquista envolveu poderes de tradições religiosas distintas, mas não pode ser reduzida a um confronto exclusivamente religioso: objetivos políticos, militares e estratégicos também foram centrais.",
       "culturais": "Dispersão de sábios bizantinos para a Europa ocidental, levando consigo textos clássicos gregos.",
       "territoriais": "Domínio otomano sobre os estreitos de Bósforo e Dardanelos.",
       "tecnologias": "Uso intensivo de artilharia pesada e canhões pelos turcos no cerco às muralhas de Constantinopla."
@@ -41,8 +41,8 @@
       {"ano": 1453, "titulo": "Queda de Constantinopla", "descricao": "Invasão e conquista da capital bizantina pelos turcos otomanos em 29 de maio."}
     ],
     "consequencias_imediatas": [
-      "Fechamento das rotas comerciais terrestres tradicionais para as Índias.",
-      "Estímulo urgente à exploração de caminhos marítimos alternativos (Atlântico)."
+      "Ampliação do domínio otomano sobre Constantinopla e passagens estratégicas, alterando condições políticas e fiscais da circulação comercial, sem interromper todas as rotas entre Europa e Ásia.",
+      "Reavaliação de estratégias comerciais e diplomáticas por potências europeias, em um processo de expansão marítima que já estava em curso antes de 1453."
     ],
     "consequencias_longo_prazo": [
       "Deslocamento do eixo econômico europeu do Mar Mediterrâneo para o Oceano Atlântico.",
@@ -51,13 +51,13 @@
     "impactos": {
       "politicos": "Redesenho das alianças geopolíticas na Europa Oriental e no Mediterrâneo.",
       "economicos": "Encarecimento das especiarias orientais na Europa e busca por novas fontes de lucro.",
-      "sociais": "Migração de intelectuais bizantinos para a Europa, impulsionando o Renascimento.",
+      "sociais": "Circulação de intelectuais bizantinos para diferentes regiões da Europa, contribuindo para intercâmbios culturais que já existiam; o Renascimento italiano tinha raízes anteriores e causas múltiplas.",
       "culturais": "Preservação e reinterpretação da herança greco-romana no Ocidente.",
       "territoriais": "Expansão do domínio islâmico otomano sobre os Bálcãs e o Oriente Médio.",
       "ambientais": "Sem impactos diretos imediatos no meio ambiente global."
     },
     "continuidade": "Permanência das rivalidades comerciais e disputas territoriais entre reinos europeus e potências orientais.",
-    "rupturas": "Fim do Império Romano do Oriente (Bizantino) e alteração drástica nas rotas do comércio internacional."
+    "rupturas": "Fim do Império Bizantino e reconfiguração do equilíbrio político e comercial no Mediterrâneo oriental, sem desaparecimento das redes de comércio entre Europa e Ásia."
   },
 
   {
