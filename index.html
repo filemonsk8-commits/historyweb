@@ -1144,6 +1144,24 @@
         .gabarito-nota { margin: 12px 0; padding: 10px 12px; background: #f3f6f9; border-left: 3px solid #8a6a36; line-height: 1.55; }
         .gabarito-respostas, .gabarito-rubrica { padding-left: 22px; margin: 10px 0 18px; }
         .gabarito-respostas li, .gabarito-rubrica li { margin-bottom: 8px; }
+        .planejador-aula { margin-top: 22px; padding: 20px; border: 1px solid #d8e1e9; border-radius: 10px; background: #fff; }
+        .planejador-aula h4 { margin: 0 0 8px; color: #173f63; font: 700 1.18rem Georgia, "Times New Roman", serif; }
+        .planejador-aula p { color: #465568; line-height: 1.55; }
+        .planejador-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 14px 0; }
+        .planejador-campo { display:flex; flex-direction:column; gap:6px; color:#29445f; font-weight:700; font-size:.92rem; margin: 10px 0; }
+        .planejador-campo input,.planejador-campo textarea,.planejador-campo select { width:100%; min-width:0; padding:10px 11px; border:1px solid #cbd6e0; border-radius:6px; background:#fff; color:#26394b; font:400 .95rem Inter,sans-serif; }
+        .planejador-campo textarea { resize:vertical; line-height:1.5; }
+        .planejador-etapas { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:14px 0; }
+        .planejador-etapa { padding:12px; border:1px solid #e1e7ed; border-radius:7px; background:#f9fbfc; }
+        .planejador-etapa strong { display:block; margin-bottom:7px; color:#173f63; }
+        .planejador-etapa small { display:block; margin-bottom:7px; color:#536174; line-height:1.4; }
+        .planejador-acoes { display:flex; flex-wrap:wrap; gap:10px; margin-top:15px; }
+        .planejador-acoes button { min-height:42px; padding:9px 14px; border:1px solid #173f63; border-radius:6px; font:600 .92rem Inter,sans-serif; cursor:pointer; }
+        .planejador-imprimir { background:#173f63; color:#fff; }
+        .planejador-secundario { background:#fff; color:#173f63; }
+        .planejador-status { min-height:1.4em; }
+        @media(max-width:650px){.planejador-grid,.planejador-etapas{grid-template-columns:1fr}.planejador-aula{padding:14px}}
+        @media print { .planejador-aula { break-inside: avoid; border:0; padding:0; } .planejador-acoes,.planejador-salvos { display:none !important; } .planejador-aula input,.planejador-aula textarea,.planejador-aula select { border:0; border-bottom:1px solid #888; border-radius:0; padding:4px 0; } }
         .guia-professor-bloco h4 { margin: 16px 0 8px; color: #173f63; }
     
         .professor-recuperacao { margin-top: 1rem; padding: 1rem; border: 1px solid var(--borda, #cbd5e1); border-radius: 12px; background: var(--fundo-card, #f8fafc); }
@@ -1919,7 +1937,72 @@
                     <div id="professor-recursos"></div>
                     <h3>Gabaritos e orientações de correção</h3>
                     <div id="professor-gabaritos"></div>
+                    <section class="planejador-aula" aria-labelledby="titulo-planejador-aula">
+                        <h3 id="titulo-planejador-aula">Planejador de aulas</h3>
+                        <p>Monte, salve e consulte seus planejamentos. Os registros ficam vinculados à sua conta e só podem ser acessados por você.</p>
+                        <div class="planejador-salvos">
+                            <label class="planejador-campo" for="plano-salvo">Meus planejamentos salvos
+                                <select id="plano-salvo"><option value="">Novo planejamento</option></select>
+                            </label>
+                            <div class="planejador-acoes">
+                                <button type="button" class="planejador-secundario" id="plano-carregar">Abrir selecionado</button>
+                                <button type="button" class="planejador-secundario" id="plano-excluir">Excluir selecionado</button>
+                            </div>
+                        </div>
+                        <form id="form-planejador-aula">
+                            <div class="planejador-grid">
+                                <label class="planejador-campo" for="plano-titulo">Título do planejamento
+                                    <input id="plano-titulo" type="text" maxlength="120" required placeholder="Ex.: Revolução Industrial — 2ª série">
+                                </label>
+                                <label class="planejador-campo" for="plano-turma">Turma / série
+                                    <input id="plano-turma" type="text" maxlength="60">
+                                </label>
+                                <label class="planejador-campo" for="plano-data">Data
+                                    <input id="plano-data" type="date">
+                                </label>
+                                <label class="planejador-campo" for="plano-componente">Componente curricular
+                                    <select id="plano-componente"><option>História</option><option>Sociologia</option><option>Filosofia</option><option>Ciências Humanas</option><option>Itinerário Formativo</option><option>Outro</option></select>
+                                </label>
+                                <label class="planejador-campo" for="plano-duracao">Duração prevista
+                                    <select id="plano-duracao"><option>50 minutos</option><option>90 minutos</option><option>100 minutos</option><option>Outro tempo</option></select>
+                                </label>
+                            </div>
+                            <label class="planejador-campo" for="plano-tema">Tema / objeto de conhecimento
+                                <input id="plano-tema" type="text" maxlength="140">
+                            </label>
+                            <label class="planejador-campo" for="plano-objetivos">Objetivos de aprendizagem
+                                <textarea id="plano-objetivos" rows="2" maxlength="900"></textarea>
+                            </label>
+                            <div class="planejador-etapas">
+                                <div class="planejador-etapa"><strong>1. Problematização</strong><small>Questão disparadora e conhecimentos prévios</small><label class="planejador-campo" for="plano-problematizacao">Proposta</label><textarea id="plano-problematizacao" rows="3" maxlength="700"></textarea></div>
+                                <div class="planejador-etapa"><strong>2. Contextualização</strong><small>Conceitos, tempo histórico e contexto</small><label class="planejador-campo" for="plano-contextualizacao">Proposta</label><textarea id="plano-contextualizacao" rows="3" maxlength="700"></textarea></div>
+                                <div class="planejador-etapa"><strong>3. Investigação</strong><small>Fonte, documento, imagem, mapa ou atividade</small><label class="planejador-campo" for="plano-investigacao">Proposta</label><textarea id="plano-investigacao" rows="3" maxlength="700"></textarea></div>
+                                <div class="planejador-etapa"><strong>4. Socialização</strong><small>Compartilhamento e debate</small><label class="planejador-campo" for="plano-socializacao">Proposta</label><textarea id="plano-socializacao" rows="3" maxlength="700"></textarea></div>
+                            </div>
+                            <label class="planejador-campo" for="plano-sintese">5. Síntese e fechamento
+                                <textarea id="plano-sintese" rows="3" maxlength="700"></textarea>
+                            </label>
+                            <div class="planejador-grid">
+                                <label class="planejador-campo" for="plano-recursos">Recursos e materiais
+                                    <textarea id="plano-recursos" rows="3" maxlength="600"></textarea>
+                                </label>
+                                <label class="planejador-campo" for="plano-inclusao">Adaptações e acessibilidade
+                                    <textarea id="plano-inclusao" rows="3" maxlength="600"></textarea>
+                                </label>
+                            </div>
+                            <label class="planejador-campo" for="plano-avaliacao">Evidências de aprendizagem / avaliação
+                                <textarea id="plano-avaliacao" rows="3" maxlength="700"></textarea>
+                            </label>
+                            <div class="planejador-acoes">
+                                <button type="submit" class="planejador-imprimir">Salvar planejamento</button>
+                                <button type="button" class="planejador-secundario" id="plano-novo">Novo / limpar</button>
+                                <button type="button" class="planejador-secundario" id="plano-imprimir">Imprimir / salvar em PDF</button>
+                            </div>
+                            <p id="plano-status" class="ficha-aviso planejador-status" role="status" aria-live="polite"></p>
+                        </form>
+                    </section>
                 </div>`;
+            await carregarPlanejamentosProfessor(usuario);
             const recursosEl = document.getElementById('professor-recursos');
             const gabaritosEl = document.getElementById('professor-gabaritos');
             recursosEl.innerHTML = recursos.data.length ? recursos.data.map(item => `
@@ -1959,6 +2042,103 @@
                 mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
             });
             status.textContent = 'Acesso autorizado.';
+        }
+
+
+        let planoProfessorAtualId = null;
+        let planoProfessorUsuarioId = null;
+
+        function camposPlanejamento() {
+            return ['titulo','turma','data','componente','duracao','tema','objetivos','problematizacao','contextualizacao','investigacao','socializacao','sintese','recursos','inclusao','avaliacao'];
+        }
+
+        function obterDadosPlanejamento() {
+            const dados = {};
+            camposPlanejamento().forEach(campo => {
+                const el = document.getElementById('plano-' + campo);
+                if (el) dados[campo] = el.value;
+            });
+            return dados;
+        }
+
+        function preencherPlanejamento(dados) {
+            camposPlanejamento().forEach(campo => {
+                const el = document.getElementById('plano-' + campo);
+                if (el) el.value = dados?.[campo] || '';
+            });
+        }
+
+        async function carregarPlanejamentosProfessor(usuario) {
+            planoProfessorUsuarioId = usuario.id;
+            planoProfessorAtualId = null;
+            const seletor = document.getElementById('plano-salvo');
+            if (!seletor) return;
+            const { data, error } = await professorSupabase.from('lesson_plans')
+                .select('id,title,plan_data,updated_at')
+                .eq('owner_id', usuario.id)
+                .order('updated_at', { ascending: false });
+            if (error) throw error;
+            seletor.innerHTML = '<option value="">Novo planejamento</option>' + data.map(item =>
+                '<option value="' + escaparTextoProfessor(item.id) + '">' + escaparTextoProfessor(item.title) + '</option>'
+            ).join('');
+            document.getElementById('plano-carregar').addEventListener('click', () => {
+                const selecionado = data.find(item => item.id === seletor.value);
+                if (!selecionado) return;
+                planoProfessorAtualId = selecionado.id;
+                preencherPlanejamento(selecionado.plan_data || {});
+                document.getElementById('plano-status').textContent = 'Planejamento carregado. Faça alterações e salve para atualizar.';
+            });
+            document.getElementById('plano-excluir').addEventListener('click', async () => {
+                if (!seletor.value) {
+                    document.getElementById('plano-status').textContent = 'Selecione um planejamento para excluir.';
+                    return;
+                }
+                const id = seletor.value;
+                const { error: erroExcluir } = await professorSupabase.from('lesson_plans').delete().eq('id', id).eq('owner_id', usuario.id);
+                if (erroExcluir) {
+                    document.getElementById('plano-status').textContent = erroExcluir.message;
+                    return;
+                }
+                document.getElementById('plano-status').textContent = 'Planejamento excluído.';
+                await carregarPlanejamentosProfessor(usuario);
+                preencherPlanejamento({});
+            });
+            document.getElementById('plano-novo').addEventListener('click', () => {
+                planoProfessorAtualId = null;
+                seletor.value = '';
+                preencherPlanejamento({});
+                document.getElementById('plano-status').textContent = 'Novo planejamento.';
+            });
+            document.getElementById('plano-imprimir').addEventListener('click', () => window.print());
+            document.getElementById('form-planejador-aula').addEventListener('submit', async evento => {
+                evento.preventDefault();
+                const dados = obterDadosPlanejamento();
+                if (!dados.titulo.trim()) {
+                    document.getElementById('plano-status').textContent = 'Informe um título para o planejamento.';
+                    return;
+                }
+                const botao = evento.currentTarget.querySelector('button[type="submit"]');
+                const aviso = document.getElementById('plano-status');
+                botao.disabled = true;
+                aviso.textContent = 'Salvando planejamento...';
+                try {
+                    let resultado;
+                    if (planoProfessorAtualId) {
+                        resultado = await professorSupabase.from('lesson_plans').update({ title: dados.titulo, plan_data: dados }).eq('id', planoProfessorAtualId).eq('owner_id', usuario.id).select('id').single();
+                    } else {
+                        resultado = await professorSupabase.from('lesson_plans').insert({ owner_id: usuario.id, title: dados.titulo, plan_data: dados }).select('id').single();
+                    }
+                    if (resultado.error) throw resultado.error;
+                    planoProfessorAtualId = resultado.data.id;
+                    aviso.textContent = 'Planejamento salvo com segurança na sua conta.';
+                    await carregarPlanejamentosProfessor(usuario);
+                    seletor.value = planoProfessorAtualId;
+                } catch (erro) {
+                    aviso.textContent = erro.message || 'Não foi possível salvar o planejamento.';
+                } finally {
+                    botao.disabled = false;
+                }
+            });
         }
 
         async function entrarAreaProfessor(evento) {
