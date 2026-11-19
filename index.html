@@ -401,6 +401,17 @@
             margin-bottom: 8px;
         }
 
+        .resultado-busca {
+            margin: 0 0 20px;
+            padding: 12px 16px;
+            border-left: 3px solid #b18a4a;
+            background: rgba(255,255,255,0.94);
+            color: #17365d;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
         .erro-msg {
             text-align: center;
             color: #ef4444;
@@ -816,7 +827,7 @@
         <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
     </nav>
 
-    <main class="container" id="app-container">
+    <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
         <!-- Conteúdo inicial injetado via JavaScript -->
     </main>
 
@@ -831,6 +842,8 @@
             { arquivo: 'atualidades.json', titulo: 'Atualidades', subtitulo: 'Cenário Mundial Recente (2019-2026)' },
             { arquivo: 'direitos-humanos.json', titulo: 'Direitos Humanos', subtitulo: 'Conquistas da Cidadania e Democracia' }
         ];
+
+        let requisicaoAtual = 0;
 
         function escaparHTML(valor) {
             return String(valor ?? '').replace(/[&<>"']/g, caractere => ({
@@ -872,10 +885,12 @@
         }
 
         function mostrarCapa() {
+            requisicaoAtual++;
+            const container = document.getElementById('app-container');
+            container.setAttribute('aria-busy', 'false');
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
             document.querySelector('.menu-navegacao button').classList.add('ativo');
 
-            const container = document.getElementById('app-container');
             let htmlCapa = `
                 <div class="conteudo-wrapper">
                     <div class="capa-container">
@@ -911,26 +926,31 @@
         }
 
         async function carregarPeriodo(arquivoJson, botaoElemento) {
+            const requisicao = ++requisicaoAtual;
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
             if (botaoElemento) botaoElemento.classList.add('ativo');
 
             const container = document.getElementById('app-container');
-            container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">A carregar dados...</p></div>';
+            container.setAttribute('aria-busy', 'true');
+            container.innerHTML = '<div class="conteudo-wrapper"><p role="status" style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">Carregando conteúdo do módulo...</p></div>';
             
             try {
                 const resposta = await fetch(arquivoJson);
                 if (!resposta.ok) throw new Error('Ficheiro não encontrado');
                 
                 const itensHistoricos = await resposta.json();
+                if (requisicao !== requisicaoAtual) return;
                 renderizarCards(itensHistoricos, container);
 
             } catch (error) {
+                if (requisicao !== requisicaoAtual) return;
                 console.error("Erro ao carregar dados:", error);
+                container.setAttribute('aria-busy', 'false');
                 container.innerHTML = `
                     <div class="conteudo-wrapper">
-                        <div class="erro-msg">
-                            <p>O ficheiro <code>${arquivoJson}</code> ainda não foi criado ou precisa de um servidor local ativo.</p>
-                            <p style="font-size: 1.1rem; margin-top: 10px;">Dica: Utilize a extensão <b>Live Server</b> no VS Code para carregar os ficheiros JSON corretamente.</p>
+                        <div class="erro-msg" role="alert">
+                            <p>Não foi possível carregar o módulo <strong>${escaparHTML(arquivoJson)}</strong>.</p>
+                            <p style="font-size: 1rem; margin-top: 10px;">Verifique sua conexão e tente novamente. Se estiver usando o site publicado, aguarde alguns instantes e recarregue a página.</p>
                         </div>
                     </div>
                 `;
@@ -938,6 +958,7 @@
         }
 
         function renderizarCards(itensHistoricos, container) {
+            container.setAttribute('aria-busy', 'false');
             container.innerHTML = '';
             if (itensHistoricos.length === 0) {
                 container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">Nenhum registro encontrado para esta busca.</p></div>';
@@ -1040,7 +1061,9 @@
 
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
             const container = document.getElementById('app-container');
-            container.innerHTML = '<div class="conteudo-wrapper"><p style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">Pesquisando em todos os períodos...</p></div>';
+            const requisicao = ++requisicaoAtual;
+            container.setAttribute('aria-busy', 'true');
+            container.innerHTML = '<div class="conteudo-wrapper"><p role="status" style="text-align: center; color: #ffffff; font-size: 1.3rem; padding: 40px;">Pesquisando em todos os módulos...</p></div>';
 
             let resultadosGlobais = [];
 
@@ -1107,7 +1130,16 @@
                 }
             }
 
+            if (requisicao !== requisicaoAtual) return;
             renderizarCards(resultadosGlobais, container);
+            const wrapperResultados = container.querySelector('.conteudo-wrapper');
+            if (wrapperResultados) {
+                const resumo = document.createElement('p');
+                resumo.className = 'resultado-busca';
+                resumo.setAttribute('role', 'status');
+                resumo.textContent = `${resultadosGlobais.length} ${resultadosGlobais.length === 1 ? 'resultado encontrado' : 'resultados encontrados'} para “${document.getElementById('input-busca').value.trim()}”.`;
+                wrapperResultados.insertBefore(resumo, wrapperResultados.firstChild);
+            }
         }
 
         // Registo do Service Worker para a PWA (Funcionar offline e instalar em PCs e Dispositivos Móveis)
