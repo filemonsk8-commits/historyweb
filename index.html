@@ -1134,6 +1134,81 @@
             .ficha-aviso { color: #222 !important; background: #fff !important; }
         }
 
+        /* Área do Professor — login e conteúdo reservado */
+        .area-professor { max-width: 900px; }
+        .professor-login { max-width: 520px; display: grid; gap: 14px; margin: 18px 0; padding: 20px; background: #fff; border: 1px solid #d8e1e9; border-radius: 9px; }
+        .professor-login[hidden] { display: none !important; }
+        .professor-json { white-space: pre-wrap; overflow-wrap: anywhere; padding: 12px; background: #f4f6f8; border-radius: 6px; color: #26394b; font: .88rem/1.55 ui-monospace, monospace; }
+        .gabarito-pergunta { margin: 0 0 16px; padding: 12px 14px; background: #fff; border: 1px solid #dce4eb; border-radius: 7px; line-height: 1.6; }
+        .gabarito-enunciado { margin: 0 0 8px; color: #173f63; }
+        .gabarito-nota { margin: 12px 0; padding: 10px 12px; background: #f3f6f9; border-left: 3px solid #8a6a36; line-height: 1.55; }
+        .gabarito-respostas, .gabarito-rubrica { padding-left: 22px; margin: 10px 0 18px; }
+        .gabarito-respostas li, .gabarito-rubrica li { margin-bottom: 8px; }
+        .planejador-aula { margin-top: 22px; padding: 20px; border: 1px solid #d8e1e9; border-radius: 10px; background: #fff; }
+        .planejador-aula h4 { margin: 0 0 8px; color: #173f63; font: 700 1.18rem Georgia, "Times New Roman", serif; }
+        .planejador-aula p { color: #465568; line-height: 1.55; }
+        .planejador-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 14px 0; }
+        .planejador-campo { display:flex; flex-direction:column; gap:6px; color:#29445f; font-weight:700; font-size:.92rem; margin: 10px 0; }
+        .planejador-campo input,.planejador-campo textarea,.planejador-campo select { width:100%; min-width:0; padding:10px 11px; border:1px solid #cbd6e0; border-radius:6px; background:#fff; color:#26394b; font:400 .95rem Inter,sans-serif; }
+        .planejador-campo textarea { resize:vertical; line-height:1.5; }
+        .planejador-etapas { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:14px 0; }
+        .planejador-etapa { padding:12px; border:1px solid #e1e7ed; border-radius:7px; background:#f9fbfc; }
+        .planejador-etapa strong { display:block; margin-bottom:7px; color:#173f63; }
+        .planejador-etapa small { display:block; margin-bottom:7px; color:#536174; line-height:1.4; }
+        .planejador-acoes { display:flex; flex-wrap:wrap; gap:10px; margin-top:15px; }
+        .planejador-acoes button { min-height:42px; padding:9px 14px; border:1px solid #173f63; border-radius:6px; font:600 .92rem Inter,sans-serif; cursor:pointer; }
+        .planejador-imprimir { background:#173f63; color:#fff; }
+        .planejador-secundario { background:#fff; color:#173f63; }
+        .planejador-status { min-height:1.4em; }
+        @media(max-width:650px){.planejador-grid,.planejador-etapas{grid-template-columns:1fr}.planejador-aula{padding:14px}}
+        @media print { .planejador-aula { break-inside: avoid; border:0; padding:0; } .planejador-acoes,.planejador-salvos { display:none !important; } .planejador-aula input,.planejador-aula textarea,.planejador-aula select { border:0; border-bottom:1px solid #888; border-radius:0; padding:4px 0; } }
+        .guia-professor-bloco h4 { margin: 16px 0 8px; color: #173f63; }
+
+        .professor-navegacao { display:flex; flex-wrap:wrap; gap:9px; margin:18px 0 22px; padding:10px; border:1px solid #d8e1e9; border-radius:10px; background:#f7f9fb; }
+        .professor-navegacao a { display:inline-flex; align-items:center; min-height:42px; padding:9px 15px; border:1px solid #cbd6e0; border-radius:7px; background:#fff; color:#173f63; font-weight:700; text-decoration:none; }
+        .professor-navegacao a:hover { background:#edf3f8; border-color:#8299ae; }
+        .professor-navegacao a:focus-visible { outline:3px solid rgba(37,99,235,.3); outline-offset:2px; }
+        .professor-painel { scroll-margin-top:18px; }
+        .professor-painel:target { outline:2px solid rgba(177,138,74,.45); outline-offset:4px; }
+        .professor-painel-gabaritos { margin:18px 0 24px; padding:18px; border:1px solid #d8e1e9; border-radius:10px; background:#fff; }
+        .professor-painel-gabaritos > h3 { margin:0 0 14px; color:#173f63; }
+        @media(max-width:560px) { .professor-navegacao { display:grid; grid-template-columns:1fr; } .professor-navegacao a { justify-content:center; } }
+        @media print { .professor-navegacao { display:none !important; } }
+        .professor-biblioteca { margin: 18px 0 24px; padding: 18px; border: 1px solid #d8e1e9; border-radius: 10px; background: #fff; }
+        .professor-biblioteca h3 { margin-top: 0; }
+        .professor-biblioteca-controles { display: grid; grid-template-columns: minmax(0,2fr) minmax(180px,1fr); gap: 12px; align-items: end; }
+        .professor-campo { display: flex; flex-direction: column; gap: 6px; margin: 9px 0; color: #29445f; font-weight: 700; font-size: .92rem; }
+        .professor-campo input,.professor-campo select { width: 100%; min-width: 0; padding: 10px 11px; border: 1px solid #cbd6e0; border-radius: 6px; background: #fff; color: #26394b; font: 400 .95rem Inter,sans-serif; }
+        .professor-biblioteca-info { margin: 7px 0 12px; color: #536174; font-size: .9rem; }
+        .professor-recursos-lista { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,280px),1fr)); gap: 12px; }
+        .professor-recurso { min-width: 0; padding: 12px 14px; border: 1px solid #e1e7ed; border-radius: 8px; background: #f9fbfc; }
+        .professor-recurso summary { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; color: #173f63; font-weight: 700; cursor: pointer; }
+        .professor-recurso-categoria { padding: 3px 8px; border-radius: 999px; background: #e8eef4; color: #29445f; font-size: .75rem; font-weight: 600; }
+        .professor-recurso-descricao { margin: 10px 0 6px; color: #465568; line-height: 1.5; overflow-wrap: anywhere; }
+        .professor-recurso-conteudo { max-width: 100%; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; color: #26394b; font: .86rem/1.5 ui-monospace,monospace; }
+        .professor-recurso-acoes { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+        .professor-recurso-acoes button { min-height:38px; padding:8px 12px; border:1px solid #b8c5d1; border-radius:7px; background:#fff; color:#173f63; font:600 .88rem Inter,sans-serif; cursor:pointer; }
+        .professor-recurso-acoes button:hover { background:#edf3f8; border-color:#8299ae; }
+        .professor-recurso-acoes button:focus-visible { outline:3px solid rgba(37,99,235,.3); outline-offset:2px; }
+
+        .professor-recurso-vazio { grid-column: 1/-1; padding: 16px; border: 1px dashed #cbd6e0; border-radius: 8px; color: #536174; }
+        .professor-admin-recursos { margin: 18px 0; padding: 18px; border: 2px solid #b18a4a; border-radius: 10px; background: #fffdf8; }
+        .professor-admin-recursos[hidden] { display: none !important; }
+        .professor-admin-grade { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px; }
+        .professor-admin-recursos textarea { width: 100%; min-height: 130px; padding: 10px; border: 1px solid #cbd6e0; border-radius: 6px; font: inherit; }
+        .professor-admin-acoes { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+        .professor-admin-lista { display:grid; gap:8px; margin-top:14px; }
+        .professor-admin-item { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:10px; border:1px solid #e1e7ed; border-radius:8px; background:#fff; }
+        .professor-admin-item button { padding:7px 10px; border:1px solid #b8c5d1; border-radius:6px; background:#f7fafc; cursor:pointer; }
+        @media(max-width:650px) { .professor-admin-item { align-items:flex-start; flex-direction:column; } }
+
+        @media(max-width:650px) { .professor-biblioteca { padding: 13px; } .professor-biblioteca-controles { grid-template-columns: 1fr; } }
+
+    
+        .professor-recuperacao { margin-top: 1rem; padding: 1rem; border: 1px solid var(--borda, #cbd5e1); border-radius: 12px; background: var(--fundo-card, #f8fafc); }
+        .professor-recuperacao[hidden] { display: none !important; }
+        .professor-link-recuperacao { border: 0; background: transparent; color: var(--cor-destaque, #1d4ed8); text-decoration: underline; cursor: pointer; padding: .65rem .2rem; font: inherit; }
+        .professor-recuperacao-acoes { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .8rem; }
 </style>
 </head>
 <body>
@@ -1161,12 +1236,14 @@
         <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
         <button class="btn-periodo" onclick="mostrarFontesHistoricas(this)">Fontes Históricas</button>
         <button class="btn-periodo" onclick="mostrarBancoAtividades(this)">Banco de Atividades</button>
+        <button class="btn-periodo" onclick="mostrarAreaProfessor(this)">Área do Professor</button>
     </nav>
 
     <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
         <!-- Conteúdo inicial injetado via JavaScript -->
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/dist/umd/supabase.min.js"></script>
     <script>
         const periodosDisponiveis = [
             { arquivo: 'pre-historia.json', titulo: 'Pré-História', subtitulo: 'Origens e Povos Originários' },
@@ -1730,6 +1807,812 @@
                 </article>`).join('');
         }
 
+
+        // Área do Professor — autenticação e autorização verificadas no Supabase.
+        const SUPABASE_URL = 'https://yqkouvoncoxmwxvkjmyp.supabase.co';
+        const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_T7u6dTGWoE586hW9EYk1Ew_59krsbm3';
+        const professorSupabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+
+        function escaparTextoProfessor(valor) {
+            return String(valor ?? '').replace(/[&<>"']/g, caractere => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            })[caractere]);
+        }
+
+        function mostrarAreaProfessor(botaoElemento) {
+            requisicaoAtual++;
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            if (botaoElemento) botaoElemento.classList.add('ativo');
+            const container = document.getElementById('app-container');
+            container.setAttribute('aria-busy', 'false');
+            container.innerHTML = `
+                <section class="conteudo-wrapper fontes-pagina area-professor" aria-labelledby="titulo-area-professor">
+                    <h2 id="titulo-area-professor">Área do Professor</h2>
+                    <p class="fontes-intro">Ambiente reservado para docentes autorizados. Entre com o e-mail e a senha cadastrados no sistema.</p>
+                    <form id="form-login-professor" class="professor-login" autocomplete="on">
+                        <label class="ficha-campo" for="professor-email">E-mail institucional ou cadastrado
+                            <input id="professor-email" name="email" type="email" autocomplete="username" required>
+                        </label>
+                        <label class="ficha-campo" for="professor-senha">Senha
+                            <input id="professor-senha" name="password" type="password" autocomplete="current-password" required>
+                        </label>
+                        <div class="ficha-acoes">
+                            <button class="ficha-botao-principal" type="submit">Entrar na Área do Professor</button>
+                            <button class="professor-link-recuperacao" id="professor-esqueci-senha" type="button">Esqueci minha senha</button>
+                        </div>
+                        <p id="professor-status" class="ficha-aviso" role="status" aria-live="polite"></p>
+                    </form>
+                    <div id="professor-recuperacao" class="professor-recuperacao" hidden></div>
+                    <div id="professor-conteudo" hidden></div>
+                </section>`;
+            document.getElementById('form-login-professor').addEventListener('submit', entrarAreaProfessor);
+            document.getElementById('professor-esqueci-senha').addEventListener('click', solicitarRecuperacaoSenha);
+            verificarSessaoProfessor();
+        }
+
+
+        async function solicitarRecuperacaoSenha() {
+            const email = document.getElementById('professor-email')?.value.trim();
+            const status = document.getElementById('professor-status');
+            if (!email) {
+                status.textContent = 'Informe seu e-mail no campo acima para receber as instruções de recuperação.';
+                document.getElementById('professor-email')?.focus();
+                return;
+            }
+            const botao = document.getElementById('professor-esqueci-senha');
+            botao.disabled = true;
+            status.textContent = 'Solicitando recuperação de senha...';
+            try {
+                const redirectTo = window.location.origin + window.location.pathname;
+                const { error } = await professorSupabase.auth.resetPasswordForEmail(email, { redirectTo });
+                if (error) throw error;
+                status.textContent = 'Se o endereço estiver cadastrado, enviaremos um link para redefinir a senha. Verifique também a caixa de spam.';
+            } catch (erro) {
+                status.textContent = erro.message?.includes('rate limit')
+                    ? 'O serviço está temporariamente limitando o envio de e-mails. Aguarde antes de tentar novamente.'
+                    : (erro.message || 'Não foi possível solicitar a recuperação agora.');
+            } finally {
+                botao.disabled = false;
+            }
+        }
+
+        function mostrarFormularioNovaSenha() {
+            mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
+            const login = document.getElementById('form-login-professor');
+            const recovery = document.getElementById('professor-recuperacao');
+            if (!login || !recovery) return;
+            login.hidden = true;
+            recovery.hidden = false;
+            recovery.innerHTML = `
+                <h3>Definir nova senha</h3>
+                <p>Crie uma senha nova para acessar a Área do Professor.</p>
+                <form id="form-nova-senha" autocomplete="new-password">
+                    <label class="ficha-campo" for="professor-nova-senha">Nova senha
+                        <input id="professor-nova-senha" type="password" minlength="8" autocomplete="new-password" required>
+                    </label>
+                    <label class="ficha-campo" for="professor-confirma-senha">Confirme a nova senha
+                        <input id="professor-confirma-senha" type="password" minlength="8" autocomplete="new-password" required>
+                    </label>
+                    <div class="professor-recuperacao-acoes">
+                        <button class="ficha-botao-principal" type="submit">Salvar nova senha</button>
+                        <button class="ficha-botao-secundario" id="professor-cancelar-recuperacao" type="button">Voltar</button>
+                    </div>
+                    <p id="professor-recuperacao-status" class="ficha-aviso" role="status" aria-live="polite"></p>
+                </form>`;
+            document.getElementById('form-nova-senha').addEventListener('submit', async evento => {
+                evento.preventDefault();
+                const nova = document.getElementById('professor-nova-senha').value;
+                const confirmacao = document.getElementById('professor-confirma-senha').value;
+                const aviso = document.getElementById('professor-recuperacao-status');
+                const botao = evento.currentTarget.querySelector('button[type="submit"]');
+                if (nova.length < 8) {
+                    aviso.textContent = 'A senha precisa ter pelo menos 8 caracteres.';
+                    return;
+                }
+                if (nova !== confirmacao) {
+                    aviso.textContent = 'As senhas não conferem.';
+                    return;
+                }
+                botao.disabled = true;
+                aviso.textContent = 'Atualizando senha...';
+                try {
+                    const { error } = await professorSupabase.auth.updateUser({ password: nova });
+                    if (error) throw error;
+                    aviso.textContent = 'Senha atualizada. Entre novamente com sua nova senha.';
+                    await professorSupabase.auth.signOut();
+                    login.hidden = false;
+                    recovery.hidden = true;
+                    const status = document.getElementById('professor-status');
+                    if (status) status.textContent = 'Senha atualizada com sucesso. Faça login.';
+                } catch (erro) {
+                    aviso.textContent = erro.message || 'Não foi possível atualizar a senha.';
+                } finally {
+                    botao.disabled = false;
+                }
+            });
+            document.getElementById('professor-cancelar-recuperacao').addEventListener('click', () => {
+                recovery.hidden = true;
+                login.hidden = false;
+            });
+        }
+
+        professorSupabase.auth.onAuthStateChange(evento => {
+            if (evento === 'PASSWORD_RECOVERY') {
+                // Aguarda o carregamento inicial e a liberação do lock interno do Auth.
+                const abrirFormulario = () => setTimeout(mostrarFormularioNovaSenha, 0);
+                if (document.readyState === 'complete') abrirFormulario();
+                else window.addEventListener('load', abrirFormulario, { once: true });
+            }
+        });
+
+        async function verificarPermissaoProfessor(usuario) {
+            const { data, error } = await professorSupabase
+                .from('professor_access')
+                .select('role,is_active')
+                .eq('user_id', usuario.id)
+                .eq('is_active', true)
+                .maybeSingle();
+            if (error) throw error;
+            if (!data) throw new Error('Esta conta não possui autorização ativa para a Área do Professor.');
+            return data;
+        }
+
+        async function carregarConteudoProfessor(usuario) {
+            const status = document.getElementById('professor-status');
+            const area = document.getElementById('professor-conteudo');
+            if (!area || !status) return;
+            status.textContent = 'Acesso confirmado. Carregando materiais reservados...';
+            const permissaoProfessor = await verificarPermissaoProfessor(usuario);
+            const [recursos, gabaritos] = await Promise.all([
+                professorSupabase.from('teacher_resources').select('id,title,resource_type,content').order('created_at', { ascending: false }),
+                professorSupabase.from('answer_keys').select('id,module_slug,event_id,activity_title,expected_answers,correction_guidance,rubric').order('created_at', { ascending: false })
+            ]);
+            if (recursos.error) throw recursos.error;
+            if (gabaritos.error) throw gabaritos.error;
+            area.hidden = false;
+            area.innerHTML = `
+                <div class="guia-professor">
+                    <h3>Bem-vindo(a), ${escaparTextoProfessor(usuario.email)}</h3>
+                    <p>Seu acesso foi validado pelo Supabase. Os materiais abaixo são carregados somente após a autorização da conta.</p>
+                    <div class="ficha-acoes"><button class="ficha-botao-secundario" type="button" id="professor-sair">Sair</button></div>
+                    <nav class="professor-navegacao" aria-label="Navegação da Área do Professor">
+                        <a href="#professor-painel-biblioteca">Biblioteca</a>
+                        <a href="#professor-painel-gabaritos">Gabaritos</a>
+                        <a href="#professor-painel-planejador">Planejador de aulas</a>
+                    </nav>
+                    <section id="professor-painel-biblioteca" class="professor-biblioteca professor-painel" aria-labelledby="titulo-professor-biblioteca" tabindex="-1">
+                        <h3 id="titulo-professor-biblioteca">Biblioteca de materiais de apoio</h3>
+                        <p>Pesquise materiais pelo título ou conteúdo e filtre pela categoria. Esta biblioteca é exclusiva da Área do Professor.</p>
+                        <div class="professor-biblioteca-controles">
+                            <label class="professor-campo" for="professor-recurso-busca">Buscar material
+                                <input id="professor-recurso-busca" type="search" maxlength="120" placeholder="Digite um título ou palavra-chave">
+                            </label>
+                            <label class="professor-campo" for="professor-recurso-categoria">Categoria
+                                <select id="professor-recurso-categoria">
+                                    <option value="">Todas as categorias</option>
+                                </select>
+                            </label>
+                        </div>
+                        <p id="professor-recursos-info" class="professor-biblioteca-info" aria-live="polite"></p>
+                        <div id="professor-recursos" class="professor-recursos-lista"></div>
+                    </section>
+                    ${permissaoProfessor.role === 'admin' ? `
+                    <section id="professor-admin-recursos" class="professor-admin-recursos" aria-labelledby="titulo-admin-recursos">
+                        <h3 id="titulo-admin-recursos">Gerenciar biblioteca de materiais</h3>
+                        <p>Área administrativa: somente contas com perfil de administrador podem cadastrar, editar ou excluir materiais.</p>
+                        <form id="form-admin-recurso">
+                            <input id="admin-recurso-id" type="hidden">
+                            <div class="professor-admin-grade">
+                                <label class="professor-campo" for="admin-recurso-titulo">Título do material
+                                    <input id="admin-recurso-titulo" type="text" maxlength="140" required>
+                                </label>
+                                <label class="professor-campo" for="admin-recurso-categoria">Categoria
+                                    <input id="admin-recurso-categoria" type="text" maxlength="60" required placeholder="Ex.: planos-de-aula">
+                                </label>
+                            </div>
+                            <label class="professor-campo" for="admin-recurso-conteudo">Conteúdo do material
+                                <textarea id="admin-recurso-conteudo" maxlength="20000" required placeholder="Digite o texto, orientações ou conteúdo do material."></textarea>
+                            </label>
+                            <div class="professor-admin-acoes">
+                                <button type="submit" class="ficha-botao-principal" id="admin-recurso-salvar">Salvar material</button>
+                                <button type="button" class="ficha-botao-secundario" id="admin-recurso-limpar">Limpar formulário</button>
+                            </div>
+                            <p id="admin-recurso-status" role="status" aria-live="polite"></p>
+                        </form>
+                        <h4>Materiais cadastrados</h4>
+                        <div id="admin-recursos-lista" class="professor-admin-lista"></div>
+                    </section>` : ''}
+                    <section id="professor-painel-gabaritos" class="professor-painel professor-painel-gabaritos" aria-labelledby="titulo-painel-gabaritos" tabindex="-1">
+                        <h3 id="titulo-painel-gabaritos">Gabaritos e orientações de correção</h3>
+                        <div id="professor-gabaritos"></div>
+                    </section>
+                    <section id="professor-painel-planejador" class="planejador-aula professor-painel" aria-labelledby="titulo-planejador-aula" tabindex="-1">
+                        <h3 id="titulo-planejador-aula">Planejador de aulas</h3>
+                        <p>Monte, salve e consulte seus planejamentos. Os registros ficam vinculados à sua conta e só podem ser acessados por você.</p>
+                        <div class="planejador-salvos">
+                            <label class="planejador-campo" for="plano-buscar">Buscar planejamentos
+                                <input id="plano-buscar" type="search" maxlength="100" placeholder="Digite parte do título, tema ou turma">
+                            </label>
+                            <label class="planejador-campo" for="plano-salvo">Meus planejamentos salvos
+                                <select id="plano-salvo"><option value="">Novo planejamento</option></select>
+                            </label>
+                            <p id="plano-lista-info" class="fontes-contagem" aria-live="polite"></p>
+                            <div class="planejador-acoes">
+                                <button type="button" class="planejador-secundario" id="plano-carregar">Abrir selecionado</button>
+                                <button type="button" class="planejador-secundario" id="plano-duplicar">Duplicar selecionado</button>
+                                <button type="button" class="planejador-secundario" id="plano-excluir">Excluir selecionado</button>
+                            </div>
+                        </div>
+                        <form id="form-planejador-aula">
+                            <div class="planejador-grid">
+                                <label class="planejador-campo" for="plano-titulo">Título do planejamento
+                                    <input id="plano-titulo" type="text" maxlength="120" required placeholder="Ex.: Revolução Industrial — 2ª série">
+                                </label>
+                                <label class="planejador-campo" for="plano-turma">Turma / série
+                                    <input id="plano-turma" type="text" maxlength="60">
+                                </label>
+                                <label class="planejador-campo" for="plano-data">Data
+                                    <input id="plano-data" type="date">
+                                </label>
+                                <label class="planejador-campo" for="plano-componente">Componente curricular
+                                    <select id="plano-componente"><option>História</option><option>Sociologia</option><option>Filosofia</option><option>Ciências Humanas</option><option>Itinerário Formativo</option><option>Outro</option></select>
+                                </label>
+                                <label class="planejador-campo" for="plano-duracao">Duração prevista
+                                    <select id="plano-duracao"><option>50 minutos</option><option>90 minutos</option><option>100 minutos</option><option>Outro tempo</option></select>
+                                </label>
+                            </div>
+                            <label class="planejador-campo" for="plano-tema">Tema / objeto de conhecimento
+                                <input id="plano-tema" type="text" maxlength="140">
+                            </label>
+                            <label class="planejador-campo" for="plano-objetivos">Objetivos de aprendizagem
+                                <textarea id="plano-objetivos" rows="2" maxlength="900"></textarea>
+                            </label>
+                            <div class="planejador-etapas">
+                                <div class="planejador-etapa"><strong>1. Problematização</strong><small>Questão disparadora e conhecimentos prévios</small><label class="planejador-campo" for="plano-problematizacao">Proposta</label><textarea id="plano-problematizacao" rows="3" maxlength="700"></textarea></div>
+                                <div class="planejador-etapa"><strong>2. Contextualização</strong><small>Conceitos, tempo histórico e contexto</small><label class="planejador-campo" for="plano-contextualizacao">Proposta</label><textarea id="plano-contextualizacao" rows="3" maxlength="700"></textarea></div>
+                                <div class="planejador-etapa"><strong>3. Investigação</strong><small>Fonte, documento, imagem, mapa ou atividade</small><label class="planejador-campo" for="plano-investigacao">Proposta</label><textarea id="plano-investigacao" rows="3" maxlength="700"></textarea></div>
+                                <div class="planejador-etapa"><strong>4. Socialização</strong><small>Compartilhamento e debate</small><label class="planejador-campo" for="plano-socializacao">Proposta</label><textarea id="plano-socializacao" rows="3" maxlength="700"></textarea></div>
+                            </div>
+                            <label class="planejador-campo" for="plano-sintese">5. Síntese e fechamento
+                                <textarea id="plano-sintese" rows="3" maxlength="700"></textarea>
+                            </label>
+                            <div class="planejador-grid">
+                                <label class="planejador-campo" for="plano-recursos">Recursos e materiais
+                                    <textarea id="plano-recursos" rows="3" maxlength="600"></textarea>
+                                </label>
+                                <label class="planejador-campo" for="plano-inclusao">Adaptações e acessibilidade
+                                    <textarea id="plano-inclusao" rows="3" maxlength="600"></textarea>
+                                </label>
+                            </div>
+                            <label class="planejador-campo" for="plano-avaliacao">Evidências de aprendizagem / avaliação
+                                <textarea id="plano-avaliacao" rows="3" maxlength="700"></textarea>
+                            </label>
+                            <div class="planejador-acoes">
+                                <button type="submit" class="planejador-imprimir">Salvar planejamento</button>
+                                <button type="button" class="planejador-secundario" id="plano-novo">Novo / limpar</button>
+                                <button type="button" class="planejador-secundario" id="plano-imprimir">Imprimir / salvar em PDF</button>
+                            </div>
+                            <p id="plano-status" class="ficha-aviso planejador-status" role="status" aria-live="polite"></p>
+                        </form>
+                    </section>
+                </div>`;
+            await carregarPlanejamentosProfessor(usuario);
+            const recursosEl = document.getElementById('professor-recursos');
+            const gabaritosEl = document.getElementById('professor-gabaritos');
+            const buscaRecurso = document.getElementById('professor-recurso-busca');
+            const filtroCategoriaRecurso = document.getElementById('professor-recurso-categoria');
+            const infoRecursos = document.getElementById('professor-recursos-info');
+            const tipoRecurso = item => String(item.resource_type || 'outros').trim() || 'outros';
+            const nomeCategoriaRecurso = tipo => tipo.replace(/[-_]+/g, ' ').split(' ').filter(Boolean).map(palavra => palavra.charAt(0).toLocaleUpperCase('pt-BR') + palavra.slice(1)).join(' ');
+            const textoBuscaRecurso = item => {
+                const conteudo = item.content;
+                const partes = [item.title, item.resource_type];
+                if (typeof conteudo === 'string') partes.push(conteudo);
+                else if (conteudo && typeof conteudo === 'object') partes.push(JSON.stringify(conteudo));
+                return partes.join(' ').toLocaleLowerCase('pt-BR');
+            };
+            const descricaoRecurso = conteudo => {
+                if (typeof conteudo === 'string') return conteudo.slice(0, 260);
+                if (!conteudo || typeof conteudo !== 'object') return '';
+                const campos = ['descricao','description','resumo','summary','objetivo','orientacao','texto','text'];
+                const campo = campos.find(chave => typeof conteudo[chave] === 'string' && conteudo[chave].trim());
+                return campo ? conteudo[campo].trim().slice(0, 260) : '';
+            };
+            const categoriasRecursos = [...new Set(recursos.data.map(tipoRecurso))].sort((a,b) => nomeCategoriaRecurso(a).localeCompare(nomeCategoriaRecurso(b), 'pt-BR'));
+            filtroCategoriaRecurso.innerHTML = '<option value="">Todas as categorias</option>' + categoriasRecursos.map(tipo =>
+                '<option value="' + escaparTextoProfessor(tipo) + '">' + escaparTextoProfessor(nomeCategoriaRecurso(tipo)) + '</option>'
+            ).join('');
+            const adminAtivo = permissaoProfessor.role === 'admin';
+            const limparFormularioAdmin = () => {
+                const form = document.getElementById('form-admin-recurso');
+                if (form) form.reset();
+                const id = document.getElementById('admin-recurso-id');
+                if (id) id.value = '';
+                const statusAdmin = document.getElementById('admin-recurso-status');
+                if (statusAdmin) statusAdmin.textContent = 'Novo material.';
+            };
+            const renderizarListaAdmin = () => {
+                if (!adminAtivo) return;
+                const listaAdmin = document.getElementById('admin-recursos-lista');
+                if (!listaAdmin) return;
+                listaAdmin.innerHTML = recursos.data.length ? recursos.data.map(item => `
+                    <div class="professor-admin-item">
+                        <span><strong>${escaparTextoProfessor(item.title)}</strong> · ${escaparTextoProfessor(nomeCategoriaRecurso(tipoRecurso(item)))}</span>
+                        <span class="professor-admin-acoes">
+                            <button type="button" data-editar-recurso="${escaparTextoProfessor(item.id)}">Editar</button>
+                            <button type="button" data-excluir-recurso="${escaparTextoProfessor(item.id)}">Excluir</button>
+                        </span>
+                    </div>`).join('') : '<p>Nenhum material cadastrado.</p>';
+                listaAdmin.querySelectorAll('[data-editar-recurso]').forEach(botao => {
+                    botao.onclick = () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.editarRecurso);
+                        if (!item) return;
+                        document.getElementById('admin-recurso-id').value = item.id;
+                        document.getElementById('admin-recurso-titulo').value = item.title || '';
+                        document.getElementById('admin-recurso-categoria').value = item.resource_type || '';
+                        document.getElementById('admin-recurso-conteudo').value = typeof item.content === 'string' ? item.content : JSON.stringify(item.content || {}, null, 2);
+                        document.getElementById('admin-recurso-status').textContent = 'Editando material selecionado.';
+                        document.getElementById('admin-recurso-titulo').focus();
+                    };
+                });
+                listaAdmin.querySelectorAll('[data-excluir-recurso]').forEach(botao => {
+                    botao.onclick = async () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.excluirRecurso);
+                        if (!item || !window.confirm('Excluir o material “' + item.title + '”?')) return;
+                        const statusAdmin = document.getElementById('admin-recurso-status');
+                        statusAdmin.textContent = 'Excluindo material...';
+                        const { error } = await professorSupabase.from('teacher_resources').delete().eq('id', item.id);
+                        if (error) { statusAdmin.textContent = error.message; return; }
+                        await atualizarRecursosAdmin();
+                        limparFormularioAdmin();
+                        statusAdmin.textContent = 'Material excluído.';
+                    };
+                });
+            };
+            const atualizarRecursosAdmin = async () => {
+                const { data, error } = await professorSupabase.from('teacher_resources')
+                    .select('id,title,resource_type,content').order('created_at', { ascending: false });
+                if (error) throw error;
+                recursos.data = data || [];
+                const categoriasAtualizadas = [...new Set(recursos.data.map(tipoRecurso))].sort((a,b) => nomeCategoriaRecurso(a).localeCompare(nomeCategoriaRecurso(b), 'pt-BR'));
+                filtroCategoriaRecurso.innerHTML = '<option value="">Todas as categorias</option>' + categoriasAtualizadas.map(tipo =>
+                    '<option value="' + escaparTextoProfessor(tipo) + '">' + escaparTextoProfessor(nomeCategoriaRecurso(tipo)) + '</option>'
+                ).join('');
+                renderizarRecursos();
+                renderizarListaAdmin();
+            };
+            const renderizarRecursos = () => {
+                const termo = (buscaRecurso.value || '').trim().toLocaleLowerCase('pt-BR');
+                const categoria = filtroCategoriaRecurso.value;
+                const filtrados = recursos.data.filter(item =>
+                    (!categoria || tipoRecurso(item) === categoria) && (!termo || textoBuscaRecurso(item).includes(termo))
+                ).sort((a,b) => {
+                    const porCategoria = nomeCategoriaRecurso(tipoRecurso(a)).localeCompare(nomeCategoriaRecurso(tipoRecurso(b)), 'pt-BR');
+                    return porCategoria || String(a.title || '').localeCompare(String(b.title || ''), 'pt-BR');
+                });
+                infoRecursos.textContent = filtrados.length + ' de ' + recursos.data.length +
+                    (recursos.data.length === 1 ? ' material disponível' : ' materiais disponíveis');
+                if (!filtrados.length) {
+                    recursosEl.innerHTML = '<p class="professor-recurso-vazio">' +
+                        (recursos.data.length ? 'Nenhum material corresponde à busca e ao filtro selecionados.' : 'Nenhum material reservado foi cadastrado ainda.') +
+                        '</p>';
+                    return;
+                }
+                recursosEl.innerHTML = filtrados.map(item => {
+                    const categoriaNome = nomeCategoriaRecurso(tipoRecurso(item));
+                    const descricao = descricaoRecurso(item.content);
+                    const conteudo = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
+                    return `
+                        <details class="professor-recurso">
+                            <summary>
+                                <span>${escaparTextoProfessor(item.title || 'Material sem título')}</span>
+                                <span class="professor-recurso-categoria">${escaparTextoProfessor(categoriaNome)}</span>
+                            </summary>
+                            <p class="professor-recurso-descricao">${escaparTextoProfessor(descricao || 'Abra o material para consultar seu conteúdo.')}</p>
+                            <pre class="professor-recurso-conteudo">${escaparTextoProfessor(conteudo)}</pre>
+                            <div class="professor-recurso-acoes" aria-label="Ações do material">
+                                <button type="button" data-baixar-recurso="${escaparTextoProfessor(item.id)}">Baixar arquivo .txt</button>
+                                <button type="button" data-imprimir-recurso="${escaparTextoProfessor(item.id)}">Imprimir / salvar em PDF</button>
+                            </div>
+                        </details>`;
+                }).join('');
+                recursosEl.querySelectorAll('[data-baixar-recurso]').forEach(botao => {
+                    botao.onclick = () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.baixarRecurso);
+                        if (!item) return;
+                        const texto = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
+                        const nome = String(item.title || 'material').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'material';
+                        const arquivo = new Blob(['\uFEFF', texto], { type: 'text/plain;charset=utf-8' });
+                        const url = URL.createObjectURL(arquivo);
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.download = nome + '.txt';
+                        document.body.appendChild(link);
+                        link.click();
+                        link.remove();
+                        URL.revokeObjectURL(url);
+                    };
+                });
+                recursosEl.querySelectorAll('[data-imprimir-recurso]').forEach(botao => {
+                    botao.onclick = () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.imprimirRecurso);
+                        if (!item) return;
+                        const texto = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
+                        const janela = window.open('', '_blank');
+                        if (!janela) {
+                            infoRecursos.textContent = 'O navegador bloqueou a janela de impressão. Permita pop-ups para este site e tente novamente.';
+                            return;
+                        }
+                        const htmlMaterial = escaparTextoProfessor(texto);
+                        const htmlDocumento = `<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${escaparTextoProfessor(item.title || 'Material de apoio')}</title>
+<style>
+@page { size: A4; margin: 18mm; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #172536; font: 11pt/1.55 Arial, sans-serif; }
+.cabecalho { padding-bottom: 10px; border-bottom: 2px solid #17365d; margin-bottom: 22px; }
+.marca { color: #806b48; font-size: 9pt; font-weight: 700; letter-spacing: .12em; }
+h1 { margin: 8px 0 4px; color: #17365d; font: bold 20pt/1.2 Georgia, serif; }
+.meta { color: #536174; font-size: 9pt; }
+.conteudo { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 11pt/1.6 Arial, sans-serif; }
+.rodape { margin-top: 24px; padding-top: 8px; border-top: 1px solid #cbd5e1; color: #64748b; font-size: 8.5pt; }
+@media screen { body { max-width: 800px; margin: 30px auto; padding: 24px; box-shadow: 0 2px 18px #0002; } }
+</style>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">HISTORYWEB · ÁREA DO PROFESSOR</div>
+<h1>${escaparTextoProfessor(item.title || 'Material de apoio')}</h1>
+<div class="meta">${escaparTextoProfessor(nomeCategoriaRecurso(tipoRecurso(item)))} · Gerado em ${new Date().toLocaleDateString('pt-BR')}</div>
+</header>
+<main class="conteudo">${htmlMaterial}</main>
+<footer class="rodape">Material de apoio pedagógico · HistoryWeb</footer>
+</body>
+</html>`;
+                        janela.document.open();
+                        janela.document.write(htmlDocumento);
+                        janela.document.close();
+                        janela.focus();
+                        janela.print();
+                    };
+                });
+            };
+            buscaRecurso.oninput = renderizarRecursos;
+            filtroCategoriaRecurso.onchange = renderizarRecursos;
+            renderizarRecursos();
+            if (adminAtivo) {
+                renderizarListaAdmin();
+                document.getElementById('form-admin-recurso').onsubmit = async evento => {
+                    evento.preventDefault();
+                    const statusAdmin = document.getElementById('admin-recurso-status');
+                    const id = document.getElementById('admin-recurso-id').value;
+                    const titulo = document.getElementById('admin-recurso-titulo').value.trim();
+                    const categoria = document.getElementById('admin-recurso-categoria').value.trim();
+                    const conteudo = document.getElementById('admin-recurso-conteudo').value.trim();
+                    if (!titulo || !categoria || !conteudo) return;
+                    statusAdmin.textContent = 'Salvando material...';
+                    const registro = { title: titulo, resource_type: categoria, content: conteudo };
+                    const resultado = id
+                        ? await professorSupabase.from('teacher_resources').update(registro).eq('id', id)
+                        : await professorSupabase.from('teacher_resources').insert(registro);
+                    if (resultado.error) { statusAdmin.textContent = resultado.error.message; return; }
+                    await atualizarRecursosAdmin();
+                    limparFormularioAdmin();
+                    statusAdmin.textContent = id ? 'Material atualizado.' : 'Material cadastrado.';
+                };
+                document.getElementById('admin-recurso-limpar').onclick = limparFormularioAdmin;
+            }
+            gabaritosEl.innerHTML = gabaritos.data.length ? gabaritos.data.map(item => {
+                const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
+                const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
+                const respostasHtml = respostas.map((resposta, indice) => {
+                    const pergunta = atividade?.perguntas?.[indice];
+                    return `
+                        <li class="gabarito-pergunta">
+                            ${pergunta ? '<p class="gabarito-enunciado"><strong>Questão ' + (indice + 1) + ':</strong> ' + escaparTextoProfessor(pergunta) + '</p>' : '<p><strong>Resposta ' + (indice + 1) + '</strong></p>'}
+                            <p>${escaparTextoProfessor(typeof resposta === 'string' ? resposta : JSON.stringify(resposta))}</p>
+                        </li>`;
+                }).join('');
+                const rubricaHtml = Array.isArray(item.rubric) ? item.rubric.map(criterio => `
+                    <li><strong>${escaparTextoProfessor(criterio.criterio || 'Critério')}:</strong> ${escaparTextoProfessor(criterio.indicador || '')}</li>
+                `).join('') : '';
+                return `
+                    <details class="guia-professor-bloco">
+                        <summary>${escaparTextoProfessor(item.activity_title || item.event_id || 'Gabarito')}</summary>
+                        <p><strong>Módulo:</strong> ${escaparTextoProfessor(item.module_slug)}</p>
+                        <p class="gabarito-nota">Gabarito orientador: as respostas podem variar, desde que apresentem argumentos coerentes e evidências pertinentes.</p>
+                        <h4>Respostas por questão</h4>
+                        <ol class="gabarito-respostas">${respostasHtml}</ol>
+                        <h4>Orientações de correção</h4>
+                        <p>${escaparTextoProfessor(item.correction_guidance)}</p>
+                        <h4>Critérios de avaliação</h4>
+                        <ul class="gabarito-rubrica">${rubricaHtml}</ul>
+                        <div class="professor-recurso-acoes" aria-label="Ações do gabarito">
+                            <button type="button" data-baixar-gabarito="${escaparTextoProfessor(item.id)}">Baixar gabarito .txt</button>
+                            <button type="button" data-imprimir-gabarito="${escaparTextoProfessor(item.id)}">Imprimir / salvar em PDF</button>
+                        </div>
+                    </details>`;
+            }).join('') : '<p>Os gabaritos serão cadastrados nesta área protegida.</p>';
+            const textoGabarito = item => {
+                const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
+                const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
+                const linhas = [
+                    item.activity_title || item.event_id || 'Gabarito',
+                    'Módulo: ' + (item.module_slug || ''),
+                    '',
+                    'GABARITO ORIENTADOR',
+                    'As respostas podem variar, desde que apresentem argumentos coerentes e evidências pertinentes.',
+                    ''
+                ];
+                respostas.forEach((resposta, indice) => {
+                    const pergunta = atividade?.perguntas?.[indice];
+                    linhas.push('QUESTÃO ' + (indice + 1));
+                    if (pergunta) linhas.push('Enunciado: ' + pergunta);
+                    linhas.push('Resposta orientadora: ' + (typeof resposta === 'string' ? resposta : JSON.stringify(resposta)));
+                    linhas.push('');
+                });
+                linhas.push('ORIENTAÇÕES DE CORREÇÃO', item.correction_guidance || '');
+                linhas.push('', 'CRITÉRIOS DE AVALIAÇÃO');
+                (Array.isArray(item.rubric) ? item.rubric : []).forEach(criterio => {
+                    linhas.push('• ' + (criterio.criterio || 'Critério') + ': ' + (criterio.indicador || ''));
+                });
+                return linhas.join('\n');
+            };
+            const nomeArquivoGabarito = item => String(item.activity_title || item.module_slug || 'gabarito')
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'gabarito';
+            gabaritosEl.querySelectorAll('[data-baixar-gabarito]').forEach(botao => {
+                botao.onclick = () => {
+                    const item = gabaritos.data.find(registro => registro.id === botao.dataset.baixarGabarito);
+                    if (!item) return;
+                    const arquivo = new Blob(['\\uFEFF', textoGabarito(item)], { type: 'text/plain;charset=utf-8' });
+                    const url = URL.createObjectURL(arquivo);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = 'gabarito-' + nomeArquivoGabarito(item) + '.txt';
+                    document.body.appendChild(link);
+                    link.click();
+                    link.remove();
+                    URL.revokeObjectURL(url);
+                };
+            });
+            gabaritosEl.querySelectorAll('[data-imprimir-gabarito]').forEach(botao => {
+                botao.onclick = () => {
+                    const item = gabaritos.data.find(registro => registro.id === botao.dataset.imprimirGabarito);
+                    if (!item) return;
+                    const janela = window.open('', '_blank');
+                    if (!janela) {
+                        status.textContent = 'O navegador bloqueou a janela de impressão. Permita pop-ups para este site e tente novamente.';
+                        return;
+                    }
+                    const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
+                    const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
+                    const respostasHtml = respostas.map((resposta, indice) => {
+                        const pergunta = atividade?.perguntas?.[indice];
+                        const valor = typeof resposta === 'string' ? resposta : JSON.stringify(resposta);
+                        return '<section class="questao"><h2>Questão ' + (indice + 1) + '</h2>' +
+                            (pergunta ? '<p class="enunciado">' + escaparTextoProfessor(pergunta) + '</p>' : '') +
+                            '<p><strong>Resposta orientadora:</strong> ' + escaparTextoProfessor(valor) + '</p></section>';
+                    }).join('');
+                    const criteriosHtml = (Array.isArray(item.rubric) ? item.rubric : []).map(criterio =>
+                        '<li><strong>' + escaparTextoProfessor(criterio.criterio || 'Critério') + ':</strong> ' +
+                        escaparTextoProfessor(criterio.indicador || '') + '</li>'
+                    ).join('');
+                    const documento = `<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gabarito — ${escaparTextoProfessor(item.activity_title || item.module_slug)}</title>
+<style>
+@page { size:A4; margin:18mm; } *{box-sizing:border-box}
+body{margin:0;color:#172536;font:11pt/1.55 Arial,sans-serif}
+header{border-bottom:2px solid #17365d;padding-bottom:12px;margin-bottom:18px}
+.marca{font-size:9pt;font-weight:bold;letter-spacing:.12em;color:#806b48}
+h1{font: bold 20pt/1.2 Georgia,serif;color:#17365d;margin:8px 0}
+.meta{font-size:9pt;color:#536174}
+.aviso{padding:10px;background:#f2f5f8;border-left:3px solid #b18a4a}
+h2{font-size:12pt;color:#17365d;margin:16px 0 6px}
+.questao{break-inside:avoid;margin:12px 0}
+.enunciado{font-style:italic;color:#465568}
+ul{padding-left:22px}.rodape{border-top:1px solid #cbd5e1;margin-top:22px;padding-top:8px;font-size:8.5pt;color:#64748b}
+@media screen{body{max-width:800px;margin:30px auto;padding:24px;box-shadow:0 2px 18px #0002}}
+</style></head><body>
+<header><div class="marca">HISTORYWEB · ÁREA DO PROFESSOR</div>
+<h1>Gabarito — ${escaparTextoProfessor(item.activity_title || item.event_id || 'Atividade')}</h1>
+<div class="meta">Módulo: ${escaparTextoProfessor(item.module_slug)} · Gerado em ${new Date().toLocaleDateString('pt-BR')}</div></header>
+<p class="aviso"><strong>Gabarito orientador:</strong> as respostas podem variar, desde que apresentem argumentos coerentes e evidências pertinentes.</p>
+${respostasHtml}
+<h2>Orientações de correção</h2><p>${escaparTextoProfessor(item.correction_guidance || '')}</p>
+<h2>Critérios de avaliação</h2><ul>${criteriosHtml}</ul>
+<footer class="rodape">Material reservado à Área do Professor · HistoryWeb</footer>
+</body></html>`;
+                    janela.document.open();
+                    janela.document.write(documento);
+                    janela.document.close();
+                    janela.focus();
+                    janela.print();
+                };
+            });
+            document.getElementById('professor-sair').addEventListener('click', async () => {
+                await professorSupabase.auth.signOut();
+                mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
+            });
+            status.textContent = 'Acesso autorizado.';
+        }
+
+
+        let planoProfessorAtualId = null;
+        let planoProfessorUsuarioId = null;
+        let planosProfessorCache = [];
+
+        function camposPlanejamento() {
+            return ['titulo','turma','data','componente','duracao','tema','objetivos','problematizacao','contextualizacao','investigacao','socializacao','sintese','recursos','inclusao','avaliacao'];
+        }
+
+        function obterDadosPlanejamento() {
+            const dados = {};
+            camposPlanejamento().forEach(campo => {
+                const el = document.getElementById('plano-' + campo);
+                if (el) dados[campo] = el.value;
+            });
+            return dados;
+        }
+
+        function preencherPlanejamento(dados) {
+            camposPlanejamento().forEach(campo => {
+                const el = document.getElementById('plano-' + campo);
+                if (el) el.value = dados?.[campo] || '';
+            });
+        }
+
+        async function carregarPlanejamentosProfessor(usuario) {
+            planoProfessorUsuarioId = usuario.id;
+            const seletor = document.getElementById('plano-salvo');
+            const busca = document.getElementById('plano-buscar');
+            const info = document.getElementById('plano-lista-info');
+            if (!seletor) return;
+            const { data, error } = await professorSupabase.from('lesson_plans')
+                .select('id,title,plan_data,updated_at')
+                .eq('owner_id', usuario.id)
+                .order('updated_at', { ascending: false });
+            if (error) throw error;
+            planosProfessorCache = data || [];
+
+            const renderizarOpcoes = () => {
+                const termo = (busca?.value || '').trim().toLocaleLowerCase('pt-BR');
+                const atual = seletor.value;
+                const filtrados = planosProfessorCache.filter(item => {
+                    const dados = item.plan_data || {};
+                    const texto = [item.title, dados.tema, dados.turma, dados.componente].join(' ').toLocaleLowerCase('pt-BR');
+                    return !termo || texto.includes(termo);
+                });
+                seletor.innerHTML = '<option value="">Novo planejamento</option>' + filtrados.map(item => {
+                    const atualizado = item.updated_at ? new Date(item.updated_at).toLocaleString('pt-BR') : 'data indisponível';
+                    return '<option value="' + escaparTextoProfessor(item.id) + '">' +
+                        escaparTextoProfessor(item.title) + ' — atualizado em ' + escaparTextoProfessor(atualizado) + '</option>';
+                }).join('');
+                if (filtrados.some(item => item.id === atual)) seletor.value = atual;
+                if (info) info.textContent = filtrados.length + ' de ' + planosProfessorCache.length +
+                    (planosProfessorCache.length === 1 ? ' planejamento encontrado' : ' planejamentos encontrados');
+            };
+            renderizarOpcoes();
+            if (busca) busca.oninput = renderizarOpcoes;
+
+            document.getElementById('plano-carregar').onclick = () => {
+                const selecionado = planosProfessorCache.find(item => item.id === seletor.value);
+                if (!selecionado) {
+                    document.getElementById('plano-status').textContent = 'Selecione um planejamento para abrir.';
+                    return;
+                }
+                planoProfessorAtualId = selecionado.id;
+                preencherPlanejamento(selecionado.plan_data || {});
+                const atualizado = selecionado.updated_at ? new Date(selecionado.updated_at).toLocaleString('pt-BR') : 'data indisponível';
+                document.getElementById('plano-status').textContent = 'Planejamento carregado. Última atualização: ' + atualizado + '.';
+            };
+            document.getElementById('plano-duplicar').onclick = () => {
+                const selecionado = planosProfessorCache.find(item => item.id === seletor.value);
+                if (!selecionado) {
+                    document.getElementById('plano-status').textContent = 'Selecione um planejamento para duplicar.';
+                    return;
+                }
+                const copia = { ...(selecionado.plan_data || {}) };
+                copia.titulo = (selecionado.title || copia.titulo || 'Planejamento') + ' (cópia)';
+                planoProfessorAtualId = null;
+                preencherPlanejamento(copia);
+                seletor.value = '';
+                document.getElementById('plano-status').textContent = 'Cópia preparada. Clique em “Salvar planejamento” para criar um novo registro sem alterar o original.';
+                document.getElementById('plano-titulo')?.focus();
+            };
+            document.getElementById('plano-excluir').onclick = async () => {
+                if (!seletor.value) {
+                    document.getElementById('plano-status').textContent = 'Selecione um planejamento para excluir.';
+                    return;
+                }
+                const id = seletor.value;
+                const { error: erroExcluir } = await professorSupabase.from('lesson_plans').delete().eq('id', id).eq('owner_id', usuario.id);
+                if (erroExcluir) {
+                    document.getElementById('plano-status').textContent = erroExcluir.message;
+                    return;
+                }
+                if (planoProfessorAtualId === id) planoProfessorAtualId = null;
+                document.getElementById('plano-status').textContent = 'Planejamento excluído.';
+                await carregarPlanejamentosProfessor(usuario);
+                preencherPlanejamento({});
+            };
+            document.getElementById('plano-novo').onclick = () => {
+                planoProfessorAtualId = null;
+                seletor.value = '';
+                preencherPlanejamento({});
+                document.getElementById('plano-status').textContent = 'Novo planejamento.';
+            };
+            document.getElementById('plano-imprimir').onclick = () => window.print();
+            document.getElementById('form-planejador-aula').onsubmit = async evento => {
+                evento.preventDefault();
+                const dados = obterDadosPlanejamento();
+                if (!dados.titulo.trim()) {
+                    document.getElementById('plano-status').textContent = 'Informe um título para o planejamento.';
+                    return;
+                }
+                const botao = evento.currentTarget.querySelector('button[type="submit"]');
+                const aviso = document.getElementById('plano-status');
+                botao.disabled = true;
+                aviso.textContent = 'Salvando planejamento...';
+                try {
+                    let resultado;
+                    if (planoProfessorAtualId) {
+                        resultado = await professorSupabase.from('lesson_plans').update({ title: dados.titulo, plan_data: dados }).eq('id', planoProfessorAtualId).eq('owner_id', usuario.id).select('id').single();
+                    } else {
+                        resultado = await professorSupabase.from('lesson_plans').insert({ owner_id: usuario.id, title: dados.titulo, plan_data: dados }).select('id').single();
+                    }
+                    if (resultado.error) throw resultado.error;
+                    planoProfessorAtualId = resultado.data.id;
+                    aviso.textContent = 'Planejamento salvo com segurança na sua conta.';
+                    await carregarPlanejamentosProfessor(usuario);
+                    seletor.value = planoProfessorAtualId;
+                } catch (erro) {
+                    aviso.textContent = erro.message || 'Não foi possível salvar o planejamento.';
+                } finally {
+                    botao.disabled = false;
+                }
+            };
+        }
+
+                async function entrarAreaProfessor(evento) {
+            evento.preventDefault();
+            const status = document.getElementById('professor-status');
+            const botao = evento.currentTarget.querySelector('button[type="submit"]');
+            const email = document.getElementById('professor-email').value.trim();
+            const password = document.getElementById('professor-senha').value;
+            status.textContent = 'Verificando acesso...';
+            botao.disabled = true;
+            try {
+                const { data, error } = await professorSupabase.auth.signInWithPassword({ email, password });
+                if (error) throw error;
+                await verificarPermissaoProfessor(data.user);
+                await carregarConteudoProfessor(data.user);
+            } catch (erro) {
+                await professorSupabase.auth.signOut();
+                status.textContent = erro.message || 'Não foi possível validar o acesso.';
+            } finally {
+                botao.disabled = false;
+            }
+        }
+
+        async function verificarSessaoProfessor() {
+            const status = document.getElementById('professor-status');
+            try {
+                const { data: { session } } = await professorSupabase.auth.getSession();
+                if (!session) return;
+                await verificarPermissaoProfessor(session.user);
+                await carregarConteudoProfessor(session.user);
+            } catch (erro) {
+                await professorSupabase.auth.signOut();
+                if (status) status.textContent = erro.message || 'Entre com uma conta de professor autorizada.';
+            }
+        }
+
         function mostrarFontesHistoricas(botaoElemento) {
             requisicaoAtual++;
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
@@ -1758,149 +2641,6 @@
                         <p class="fontes-intro">Consulte documentos originais e registros oficiais relacionados a temas estudados nos módulos do HistoryWeb. Observe a linguagem da época, quem produziu o documento e quais grupos ou experiências não aparecem nele.</p>
                         <div id="lista-documentos-historicos" class="fontes-lista"></div>
                     </section>
-                    <section class="guia-professor" aria-labelledby="titulo-guia-professor">
-                        <h3 id="titulo-guia-professor">Área do Professor — como trabalhar as fontes</h3>
-                        <p>Este roteiro apoia o planejamento de aulas com os documentos e as atividades de investigação do HistoryWeb. O professor pode selecionar uma fonte de acordo com o conteúdo em estudo e ajustar a complexidade das questões à turma.</p>
-                        <details class="guia-professor-bloco">
-                            <summary>1. Objetivos de aprendizagem</summary>
-                            <ul>
-                                <li>Reconhecer documentos como vestígios produzidos em contextos históricos específicos.</li>
-                                <li>Identificar autoria, data, finalidade, público e condições de produção.</li>
-                                <li>Analisar perspectivas, interesses, limites e silêncios de uma fonte.</li>
-                                <li>Construir interpretações apoiadas em evidências e comparação documental.</li>
-                            </ul>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>2. Preparação antes da aula</summary>
-                            <ol>
-                                <li>Escolha um documento relacionado ao conteúdo que a turma está estudando.</li>
-                                <li>Leia previamente o documento e a contextualização apresentada no HistoryWeb.</li>
-                                <li>Verifique se o link institucional está acessível e prepare uma alternativa caso a conexão falhe.</li>
-                                <li>Selecione trechos curtos ou imagens legíveis quando o documento for extenso.</li>
-                                <li>Planeje como os estudantes registrarão as evidências: caderno, folha ou produção digital.</li>
-                            </ol>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>3. Sugestão de aula — 50 minutos</summary>
-                            <ol>
-                                <li><strong>Problematização (5 min):</strong> apresente uma pergunta histórica que desperte curiosidade.</li>
-                                <li><strong>Contextualização (10 min):</strong> situe o documento no tempo, no espaço e nas disputas do período, sem antecipar todas as conclusões.</li>
-                                <li><strong>Investigação (15 min):</strong> organize duplas ou grupos para responder às cinco questões da atividade vinculada à fonte.</li>
-                                <li><strong>Socialização (15 min):</strong> compare interpretações e peça que os grupos indiquem as evidências usadas.</li>
-                                <li><strong>Síntese (5 min):</strong> retome a pergunta inicial e registre o que a fonte permite afirmar e o que permanece em aberto.</li>
-                            </ol>
-                            <p class="guia-professor-nota">O tempo é uma referência flexível: a atividade também pode ser distribuída em mais de uma aula.</p>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>4. Mediação e inclusão</summary>
-                            <ul>
-                                <li>Antecipe vocabulário histórico e explique termos jurídicos ou políticos pouco familiares.</li>
-                                <li>Ofereça leitura compartilhada, fonte ampliada, áudio ou transcrição quando disponíveis e adequados.</li>
-                                <li>Divida documentos extensos em trechos e forneça perguntas-guia sem entregar a interpretação pronta.</li>
-                                <li>Permita diferentes formas de registro — texto, exposição oral ou esquema — mantendo a exigência de justificar as conclusões com evidências.</li>
-                                <li>Evite tratar o silêncio de uma fonte como prova automática; convide a turma a investigar por que determinados grupos não aparecem no registro.</li>
-                            </ul>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>5. Critérios para avaliar a atividade</summary>
-                            <div class="criterios-avaliacao">
-                                <div><strong>Identificação e contexto</strong><span>Reconhece autoria, data, finalidade e contexto de produção.</span></div>
-                                <div><strong>Leitura crítica</strong><span>Percebe perspectivas, interesses, limites e ausências sem anacronismos simplificadores.</span></div>
-                                <div><strong>Uso de evidências</strong><span>Aponta elementos concretos do documento e os relaciona à interpretação.</span></div>
-                                <div><strong>Argumentação</strong><span>Apresenta conclusão coerente, distingue informação de inferência e considera outras fontes.</span></div>
-                            </div>
-                            <p class="guia-professor-nota">Sugestão de devolutiva: destaque uma evidência bem utilizada e indique uma pergunta que ajude o estudante a aprofundar sua análise.</p>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>6. Perguntas para o fechamento da aula</summary>
-                            <ul>
-                                <li>O que conseguimos afirmar com segurança a partir desta fonte?</li>
-                                <li>Que informação ainda precisamos buscar em outros registros?</li>
-                                <li>Como a interpretação muda quando comparamos documentos produzidos por grupos diferentes?</li>
-                            </ul>
-                        </details>
-                    
-                        <section class="ficha-acompanhamento" aria-labelledby="titulo-ficha-acompanhamento">
-                            <h4 id="titulo-ficha-acompanhamento">Ficha de acompanhamento da aprendizagem</h4>
-                            <p class="ficha-intro">Use esta ficha para registrar evidências de uma atividade e planejar a próxima intervenção pedagógica. Os níveis são descritivos: não representam nota automática nem comparação entre estudantes.</p>
-                            <form id="form-ficha-acompanhamento" onsubmit="return false;">
-                                <div class="ficha-form-grid">
-                                    <label class="ficha-campo" for="ficha-turma">Turma / série
-                                        <input id="ficha-turma" name="turma" type="text" maxlength="60" autocomplete="off">
-                                    </label>
-                                    <label class="ficha-campo" for="ficha-estudante">Estudante (prefira código ou iniciais)
-                                        <input id="ficha-estudante" name="estudante" type="text" maxlength="40" autocomplete="off">
-                                    </label>
-                                    <label class="ficha-campo" for="ficha-data">Data da atividade
-                                        <input id="ficha-data" name="data" type="date">
-                                    </label>
-                                    <label class="ficha-campo" for="ficha-tema">Atividade / tema estudado
-                                        <input id="ficha-tema" name="tema" type="text" maxlength="100" autocomplete="off">
-                                    </label>
-                                </div>
-
-                                <fieldset class="ficha-rubrica">
-                                    <legend>Critérios de observação</legend>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-contexto"><strong>1. Identificação e contextualização</strong>
-                                            <span>Reconhece autoria, data, finalidade e contexto de produção da fonte ou do acontecimento.</span>
-                                        </label>
-                                        <select id="ficha-contexto" name="contextualizacao">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-leitura"><strong>2. Leitura crítica</strong>
-                                            <span>Identifica perspectivas, interesses, limites e ausências nas fontes e narrativas.</span>
-                                        </label>
-                                        <select id="ficha-leitura" name="leitura">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-evidencias"><strong>3. Uso de evidências</strong>
-                                            <span>Utiliza informações concretas da fonte ou do conteúdo para sustentar a interpretação.</span>
-                                        </label>
-                                        <select id="ficha-evidencias" name="evidencias">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-argumentacao"><strong>4. Argumentação</strong>
-                                            <span>Apresenta conclusão coerente e distingue informação, inferência e opinião.</span>
-                                        </label>
-                                        <select id="ficha-argumentacao" name="argumentacao">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                </fieldset>
-
-                                <label class="ficha-campo ficha-campo-amplo" for="ficha-evidencia-observada">Evidências observadas / avanços
-                                    <textarea id="ficha-evidencia-observada" name="evidencias-observadas" rows="3" maxlength="1200" placeholder="Registre uma fala, argumento, comparação ou trecho utilizado pelo estudante."></textarea>
-                                </label>
-                                <label class="ficha-campo ficha-campo-amplo" for="ficha-proximo-passo">Próximo passo pedagógico / devolutiva
-                                    <textarea id="ficha-proximo-passo" name="proximo-passo" rows="3" maxlength="1200" placeholder="Indique uma orientação, retomada de conteúdo ou oportunidade de aprofundamento."></textarea>
-                                </label>
-                                <p class="ficha-aviso">Privacidade: esta ficha não é enviada nem salva pelo HistoryWeb. Imprima ou salve em PDF antes de sair da página. Evite registrar dados pessoais sensíveis e siga as orientações de proteção de dados da escola.</p>
-                                <div class="ficha-acoes">
-                                    <button type="button" class="ficha-botao-principal" onclick="window.print()">Imprimir ficha / salvar em PDF</button>
-                                    <button type="reset" class="ficha-botao-secundario">Limpar campos</button>
-                                </div>
-                            </form>
-                        </section>
-</section>
                     <section class="fontes-metodo" aria-labelledby="titulo-analise-fonte">
                         <h3 id="titulo-analise-fonte">Como analisar um documento histórico?</h3>
                         <ol>
