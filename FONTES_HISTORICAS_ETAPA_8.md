@@ -77,3 +77,34 @@ Cada documento inclui instituição responsável, ano, tipo documental, explica�
 
 ## Associação aos registros do HistoryWeb
 Cada um dos oito documentos adicionais inclui internamente o módulo de referência e o identificador do acontecimento correspondente em `brasil.json`. A verificação confirmou que os oito identificadores existem no módulo e que os 13 registros originais permanecem preservados.
+
+
+# Etapa 9 — Atividades de interpretação de fontes históricas
+
+## Objetivo pedagógico
+Transformar o catálogo de documentos em um espaço de investigação, incentivando os estudantes a formular perguntas, contextualizar evidências, reconhecer perspectivas e construir interpretações fundamentadas.
+
+## Implementação
+- Cada um dos oito documentos possui um bloco expansível **Investigar esta fonte — atividade para estudantes**.
+- Cada atividade apresenta um desafio específico ao documento e ao processo histórico relacionado.
+- Roteiro comum com cinco operações: identificação, contextualização, interpretação, crítica dos limites e confronto com outras evidências.
+- Orientação de registro final: conclusão sustentada por pelo menos duas evidências, distinguindo informação documental de inferência do estudante.
+- Elementos semânticos `details`, `summary` e lista ordenada, com foco visível para navegação por teclado.
+- Estilos integrados ao visual acadêmico e responsivo existente.
+
+## Articulação pedagógica
+A proposta dialoga com a habilidade EM13CHS101 do Ensino Médio, que envolve identificar, analisar e comparar fontes e narrativas em diferentes linguagens, e com os procedimentos de investigação histórica descritos na BNCC: identificação, comparação, contextualização, interpretação e análise. A atividade pode ser adaptada a outras etapas de ensino, com mediação e complexidade ajustadas à turma.
+
+## Validação estática complementar
+- Oito documentos com desafios específicos.
+- Oito identificadores de eventos conferidos em `brasil.json`.
+- Cinco perguntas por roteiro.
+- Campos dinâmicos escapados antes da renderização.
+- Blocos expansíveis e foco visível conferidos.
+- Os módulos históricos JSON permanecem sem alterações.
+
+## Testes ainda necessários
+- Abrir e responder aos oito roteiros no Android e computador.
+- Conferir navegação por teclado e leitor de tela.
+- Avaliar clareza e adequação das perguntas com estudantes.
+- Testar atualização do aplicativo instalado e funcionamento offline.
