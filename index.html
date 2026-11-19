@@ -7,6 +7,8 @@
     <title>Linha do Tempo Histórica - Modular</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
     <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
     <style>
         :root {
@@ -1134,6 +1136,20 @@
             .ficha-aviso { color: #222 !important; background: #fff !important; }
         }
 
+
+        /* Correção PWA: instalação e preparação explícita dos mapas offline */
+        .pwa-instalar { max-width: 1120px; margin: -10px auto 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 9px; text-align: center; }
+        .pwa-instalar button { padding: 9px 15px; border: 1px solid #17365d; border-radius: 7px; background: #17365d; color: #fff; font: 600 .92rem Inter, sans-serif; cursor: pointer; }
+        .pwa-instalar button[hidden] { display: none; }
+        .pwa-instalar button:focus-visible, .mapas-offline-tools button:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 3px; }
+        .pwa-instalar p { color: #536174; font-size: .86rem; line-height: 1.5; }
+        .mapas-offline-tools { max-width: 1120px; margin: 0 auto 22px; padding: 13px 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; border: 1px solid #d7dfe7; border-left: 4px solid #b18a4a; border-radius: 9px; background: #fff; }
+        .mapas-offline-tools strong { color: #17365d; }
+        .mapas-offline-tools p { margin-top: 3px; color: #536174; font-size: .88rem; line-height: 1.5; }
+        .mapas-offline-tools button { min-height: 42px; padding: 9px 14px; border: 1px solid #17365d; border-radius: 7px; background: #17365d; color: #fff; font: 600 .9rem Inter, sans-serif; cursor: pointer; }
+        .mapas-offline-tools button:disabled { opacity: .65; cursor: progress; }
+        @media (max-width: 650px) { .mapas-offline-tools { align-items: stretch; flex-direction: column; } .mapas-offline-tools button { width: 100%; } }
+
 </style>
 </head>
 <body>
@@ -1141,6 +1157,10 @@
     <header>
         <h1 onclick="mostrarCapa()">Linha do Tempo Histórica</h1>
     </header>
+    <section class="pwa-instalar" aria-label="Instalação do HistoryWeb">
+        <button id="pwa-install-button" type="button" hidden>Instalar HistoryWeb no computador</button>
+        <p id="pwa-install-status" role="status" aria-live="polite">No computador, use a opção de instalação no menu do navegador quando ela estiver disponível.</p>
+    </section>
 
     <!-- Barra de Pesquisa Avançada -->
     <div class="busca-container">
@@ -1162,6 +1182,14 @@
         <button class="btn-periodo" onclick="mostrarFontesHistoricas(this)">Fontes Históricas</button>
         <button class="btn-periodo" onclick="mostrarBancoAtividades(this)">Banco de Atividades</button>
     </nav>
+    <section class="mapas-offline-tools" aria-label="Preparar mapas para uso offline">
+        <div>
+            <strong>Mapas históricos offline</strong>
+            <p>Conecte-se à internet e baixe os mapas antes de ficar sem conexão. A preparação inclui todos os mapas do catálogo.</p>
+            <p id="mapas-offline-status" role="status" aria-live="polite">Ainda não foi feita uma preparação offline nesta sessão.</p>
+        </div>
+        <button id="btn-preparar-mapas" type="button" onclick="prepararMapasOffline(this)">Baixar mapas para consultar offline</button>
+    </section>
 
     <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
         <!-- Conteúdo inicial injetado via JavaScript -->
@@ -1194,6 +1222,77 @@
             } catch (erro) {
                 console.warn('Mapas históricos não puderam ser carregados:', erro);
                 mapasHistoricos = [];
+            }
+        }
+
+
+        // Baixa explicitamente o catálogo de mapas para que as imagens estejam no cache antes de ficar offline.
+        async function prepararMapasOffline(botao) {
+            const status = document.getElementById('mapas-offline-status');
+            if (!status || !botao) return;
+            if (!('caches' in window) || !('serviceWorker' in navigator)) {
+                status.textContent = 'Este navegador não oferece suporte ao armazenamento offline necessário.';
+                return;
+            }
+            if (!navigator.onLine) {
+                status.textContent = 'É necessário estar conectado à internet para preparar os mapas offline.';
+                return;
+            }
+
+            botao.disabled = true;
+            const textoOriginal = botao.textContent;
+            botao.textContent = 'Preparando mapas...';
+            try {
+                await carregarCatalogoMapas();
+                const mapas = mapasHistoricos.filter(mapa =>
+                    typeof mapa.imagem === 'string' &&
+                    mapa.imagem.startsWith('https://commons.wikimedia.org/wiki/Special:FilePath/')
+                );
+                if (!mapas.length) throw new Error('O catálogo de mapas não foi carregado.');
+                const cache = await caches.open('historyweb-maps-v2');
+                let salvos = 0;
+                let falhas = 0;
+                for (let i = 0; i < mapas.length; i++) {
+                    const mapa = mapas[i];
+                    status.textContent = 'Baixando mapa ' + (i + 1) + ' de ' + mapas.length + ': ' + mapa.titulo;
+                    try {
+                        const requisicao = new Request(mapa.imagem, {
+                            method: 'GET',
+                            mode: 'no-cors',
+                            credentials: 'omit',
+                            redirect: 'follow',
+                            cache: 'reload'
+                        });
+                        const resposta = await fetch(requisicao);
+                        if (!resposta.ok && resposta.type !== 'opaque') {
+                            throw new Error('Resposta de imagem indisponível.');
+                        }
+                        await cache.put(requisicao, resposta.clone());
+                        salvos++;
+                    } catch (erroMapa) {
+                        falhas++;
+                        console.warn('Não foi possível preparar um mapa offline:', mapa.id, erroMapa);
+                    }
+                }
+
+                const total = (await cache.keys()).length;
+                if (falhas === 0 && navigator.storage && navigator.storage.persist) {
+                    try { await navigator.storage.persist(); } catch (erroPersistencia) {}
+                }
+                if (falhas === 0) {
+                    status.textContent = salvos + ' mapas preparados. Cache contém ' + total + ' imagens. Agora você pode testar o aplicativo sem internet.';
+                    botao.textContent = 'Atualizar mapas offline';
+                } else {
+                    status.textContent = salvos + ' mapas preparados; ' + falhas + ' não foram baixados. Mantenha a internet ativa e tente novamente.';
+                    botao.textContent = 'Tentar novamente';
+                }
+            } catch (erro) {
+                console.error('Falha ao preparar mapas offline:', erro);
+                status.textContent = 'Não foi possível preparar os mapas. Verifique a conexão e tente novamente.';
+                botao.textContent = 'Tentar novamente';
+            } finally {
+                botao.disabled = false;
+                if (botao.textContent === 'Preparando mapas...') botao.textContent = textoOriginal;
             }
         }
 
@@ -1531,6 +1630,53 @@
                 wrapperResultados.insertBefore(resumo, wrapperResultados.firstChild);
             }
         }
+
+
+        // Oferece instalação pelo próprio navegador quando a PWA atende aos critérios.
+        let promptInstalacaoHistoryWeb = null;
+        const botaoInstalarHistoryWeb = document.getElementById('pwa-install-button');
+        const statusInstalacaoHistoryWeb = document.getElementById('pwa-install-status');
+
+        function historyWebJaInstalado() {
+            return window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+        }
+
+        if (historyWebJaInstalado() && statusInstalacaoHistoryWeb) {
+            statusInstalacaoHistoryWeb.textContent = 'O HistoryWeb já está instalado neste dispositivo.';
+        }
+
+        window.addEventListener('beforeinstallprompt', (evento) => {
+            evento.preventDefault();
+            promptInstalacaoHistoryWeb = evento;
+            if (botaoInstalarHistoryWeb) botaoInstalarHistoryWeb.hidden = false;
+            if (statusInstalacaoHistoryWeb) statusInstalacaoHistoryWeb.textContent = 'A instalação do HistoryWeb está disponível neste navegador.';
+        });
+
+        if (botaoInstalarHistoryWeb) {
+            botaoInstalarHistoryWeb.addEventListener('click', async () => {
+                if (!promptInstalacaoHistoryWeb) {
+                    if (statusInstalacaoHistoryWeb) statusInstalacaoHistoryWeb.textContent = 'Abra o menu do navegador e procure a opção para instalar o site como aplicativo.';
+                    return;
+                }
+                botaoInstalarHistoryWeb.disabled = true;
+                promptInstalacaoHistoryWeb.prompt();
+                const escolha = await promptInstalacaoHistoryWeb.userChoice;
+                if (statusInstalacaoHistoryWeb) {
+                    statusInstalacaoHistoryWeb.textContent = escolha.outcome === 'accepted'
+                        ? 'Solicitação de instalação aceita pelo navegador.'
+                        : 'Instalação não concluída. Você pode tentar novamente pelo menu do navegador.';
+                }
+                promptInstalacaoHistoryWeb = null;
+                botaoInstalarHistoryWeb.hidden = true;
+                botaoInstalarHistoryWeb.disabled = false;
+            });
+        }
+
+        window.addEventListener('appinstalled', () => {
+            if (botaoInstalarHistoryWeb) botaoInstalarHistoryWeb.hidden = true;
+            if (statusInstalacaoHistoryWeb) statusInstalacaoHistoryWeb.textContent = 'O HistoryWeb foi instalado com sucesso.';
+            promptInstalacaoHistoryWeb = null;
+        });
 
         // Registo e verificação automática de atualizações da PWA.
         if ('serviceWorker' in navigator) {
