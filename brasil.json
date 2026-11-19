@@ -2,56 +2,92 @@
   {
     "id": "pre-historia-do-brasil",
     "titulo_principal": "A PRÉ-HISTÓRIA DO BRASIL",
-    "ano_inicio": -12000,
+    "ano_inicio": -15000,
     "ano_fim": 1500,
     "periodo": "História do Brasil",
     "local": "Território Brasileiro",
     "sociedades_envolvidas": "Povos Indígenas Originários, Caçadores, Coletores, Ceramistas e Construtores de Sambaquis",
     "tema": "Povoamento originário, Sambaquis, Arte Rupestre e Diversidade Cultural Indígena",
-    "contexto": "Período anterior à chegada dos europeus em 1500, marcado pela intensa ocupação humana do território brasileiro e pelo desenvolvimento de complexas e diversas culturas indígenas.",
+    "contexto": "Muito antes da chegada dos portugueses, o território que hoje corresponde ao Brasil era habitado por numerosos povos, com histórias, línguas, tecnologias e formas de organização diversas. A arqueologia investiga essa longa trajetória por meio de vestígios como instrumentos de pedra, restos de alimentação, sepultamentos, cerâmicas, pinturas rupestres, sambaquis e alterações antigas da paisagem. As datas mais antigas e os caminhos do povoamento das Américas continuam em debate; por isso, sítios e datações devem ser apresentados com seus contextos e limites de interpretação.",
     "antecedentes": [
-      "Migrações humanas ancestrais rumo ao continente americano."
+      "Deslocamentos humanos pelo continente americano em diferentes períodos e por rotas ainda debatidas, envolvendo ambientes costeiros e interiores.",
+      "Adaptações a paisagens muito variadas, como florestas, cerrados, campos, áreas semiáridas, rios e litoral."
     ],
     "causas": {
-      "politicas": "Organização tribal, lideranças de chefes locais e estruturas comunitárias baseadas no parentesco.",
-      "economicas": "Adaptação aos ecossistemas locais por meio da caça, coleta, pesca, agricultura itinerante e manejo florestal.",
-      "sociais": "Divisão social baseada na idade, gênero e funções rituais ou guerreiras.",
-      "religiosas": "Xamanismo, mitos de origem, rituais funerários e profunda conexão sagrada com a natureza.",
-      "culturais": "Expressões artísticas em pinturas rupestres, grafismos corporais e cerâmicas elaboradas.",
-      "territoriais": "Ocupação de biomas diversos como Amazônia, Cerrado, Caatinga, Pantanal e a costa atlântica (sambaquis).",
-      "tecnologias": "Domínio da lithica (pedra polida e lascada), técnicas de queima cerâmica e construção de aterros e sambaquis."
+      "politicas": "As comunidades desenvolveram formas variadas de decisão, liderança, cooperação e aliança. Não existiu uma única organização política comum a todos os povos.",
+      "economicas": "A subsistência combinava, de maneiras distintas, caça, pesca, coleta, cultivo de plantas, manejo de florestas e trocas entre comunidades.",
+      "sociais": "As relações sociais eram diversas e se organizavam por parentesco, idade, gênero, conhecimentos, alianças e responsabilidades comunitárias, sem um modelo único.",
+      "religiosas": "Práticas rituais, narrativas de origem, relações com ancestrais e concepções sobre seres humanos e não humanos variavam entre os povos e são investigadas por diferentes tipos de evidência.",
+      "culturais": "Pinturas e gravuras rupestres, objetos, adornos, cerâmicas, sepultamentos e tradições orais expressam conhecimentos e identidades culturais plurais.",
+      "territoriais": "A ocupação alcançou diferentes ambientes do atual território brasileiro, com mobilidade, permanência e transformação das paisagens em escalas variadas.",
+      "tecnologias": "Foram desenvolvidas tecnologias de pedra lascada e polida, madeira, fibras, pesca, navegação, cerâmica, cultivo e manejo ambiental, conforme cada contexto histórico."
     },
-    "resumo_card": "Abrange o povoamento originário, os primeiros grupos humanos, caçadores, coletores, agricultores, ceramistas, sambaquis, pinturas rupestres e a imensa diversidade cultural dos povos indígenas brasileiros.",
-    "desenvolvimento": "O território brasileiro foi ocupado milênios antes da chegada europeia por uma rica pluralidade de povos. Comunidades de caçadores-coletores e construtores de sambaquis habitaram o litoral, enquanto povos agricultores e ceramistas expandiram-se pelo interior, deixando registros expressivos em pinturas rupestres e desenvolvendo tradições culturais autônomas.",
+    "resumo_card": "A longa história dos povos que habitaram o atual território brasileiro antes de 1500: povoamento antigo, diversidade cultural, pinturas rupestres, sambaquis, cerâmicas, agricultura e manejo de diferentes ambientes.",
+    "desenvolvimento": "A presença humana no atual território brasileiro é muito anterior a 1500. Sítios arqueológicos como os da Serra da Capivara, no Piauí, Lagoa Santa, em Minas Gerais, e Santa Elina, em Mato Grosso, ajudam a investigar quando e por quais caminhos grupos humanos chegaram e se distribuíram pelo continente. Algumas evidências muito antigas são objeto de debate científico; por isso, não se deve apresentar uma data única e definitiva para o início do povoamento. Ao longo de milênios, comunidades construíram modos de vida diversos. No litoral, os sambaquis — grandes montes formados principalmente por conchas, restos de alimentação e vestígios de atividades humanas — também guardam sepultamentos e objetos. Em diferentes regiões, pinturas e gravuras rupestres registram práticas e formas de expressão. Na Amazônia e em outras áreas, pesquisas identificam antigas formas de cultivo, manejo florestal, solos modificados pela ação humana e construções de terra. A produção de cerâmica, a pesca, a caça, a coleta e o cultivo de plantas ocorreram em combinações distintas. Não existia uma sociedade indígena única: havia muitos povos, línguas, conhecimentos e formas de organização, em transformação ao longo do tempo. Em 1500, a chegada portuguesa iniciou processos de invasão, colonização, epidemias, violência e resistência, mas não apagou a continuidade histórica dos povos indígenas.",
     "personagens": [
-      "Ancestrais e lideranças dos povos indígenas originários do Brasil."
+      "Comunidades e ancestrais dos povos indígenas que habitaram diferentes regiões do atual Brasil.",
+      "Pesquisadores e pesquisadoras da arqueologia, antropologia e história que estudam os vestígios materiais e as histórias indígenas."
     ],
     "grupos_envolvidos": [
-      "Comunidades Tupi-Guarani, Jê, Aruaques, Caribs e Pano, entre centenas de outros povos."
+      "Grupos de caçadores, pescadores e coletores de diferentes ambientes.",
+      "Comunidades construtoras de sambaquis em áreas costeiras e estuarinas.",
+      "Sociedades agricultoras, ceramistas e grupos que transformaram paisagens em regiões amazônicas, centrais e meridionais.",
+      "Numerosos povos indígenas, com línguas, histórias e organizações próprias; categorias linguísticas amplas não representam sociedades homogêneas."
     ],
     "interesses_em_disputa": [
-      "Territórios de caça, pesca, cultivo e demarcação de espaços sagrados entre diferentes etnias."
+      "Acesso e uso de territórios, fontes de água, áreas de pesca, caça e cultivo, em relações que variavam entre cooperação, circulação, alianças e conflitos.",
+      "Preservação de lugares de memória, sepultamentos e espaços considerados significativos por diferentes comunidades."
     ],
     "linha_do_tempo": [
-      {"ano": -12000, "titulo": "Primeiros Registros Humanos", "descricao": "Vestígios da presença humana ancestral no território nacional (ex: Serra da Capivara)."},
-      {"ano": 1500, "titulo": "Pluralidade Originária", "descricao": "Milhões de indígenas de centenas de etnias habitam o Brasil antes da chegada portuguesa."}
+      {
+        "ano": -15000,
+        "titulo": "Vestígios antigos de ocupação",
+        "descricao": "Há sítios no atual território brasileiro com datações próximas a 15 mil anos antes do presente; datas mais antigas são discutidas e exigem avaliação das evidências."
+      },
+      {
+        "ano": -12000,
+        "titulo": "Ocupações em diferentes regiões",
+        "descricao": "Vestígios arqueológicos em áreas como Lagoa Santa, Serra da Capivara e Amazônia ampliam o conhecimento sobre a diversidade das primeiras ocupações."
+      },
+      {
+        "ano": -8000,
+        "titulo": "Sambaquis costeiros",
+        "descricao": "Em diferentes trechos do litoral, comunidades formam sambaquis ao longo de milênios; datas e funções variam de sítio para sítio."
+      },
+      {
+        "ano": -4000,
+        "titulo": "Diversificação de tecnologias e modos de vida",
+        "descricao": "Cerâmicas, instrumentos, práticas de cultivo, pesca e manejo ambiental aparecem em contextos regionais distintos."
+      },
+      {
+        "ano": -2000,
+        "titulo": "Transformações nas paisagens",
+        "descricao": "Em várias regiões, comunidades ampliam práticas de cultivo, manejo de plantas, construção de estruturas e redes de circulação."
+      },
+      {
+        "ano": 1500,
+        "titulo": "Início da colonização portuguesa",
+        "descricao": "A chegada dos portugueses intensifica invasões e transformações, mas os povos indígenas permanecem como sujeitos históricos e resistem à colonização."
+      }
     ],
     "consequencias_imediatas": [
-      "Choque demográfico e cultural profundo com a chegada da colonização europeia a partir de 1500."
+      "Formação, ao longo de milênios, de sociedades diversas, com conhecimentos próprios sobre ecossistemas, tecnologias, alimentação e organização comunitária.",
+      "Em 1500, o início da colonização portuguesa desencadeou epidemias, escravização, expulsões e conflitos, além de alianças, negociações e resistências indígenas."
     ],
     "consequencias_longo_prazo": [
-      "Formação da matriz étnica e cultural indígena como um dos pilares fundamentais da identidade brasileira."
+      "A presença e a atuação dos povos indígenas continuam a marcar a história, a cultura, as línguas, a alimentação e os conhecimentos do Brasil.",
+      "Os sítios arqueológicos constituem patrimônio cultural e fonte de pesquisa, memória e debate sobre a história profunda do território."
     ],
     "impactos": {
-      "politicos": "Desestruturação das soberanias originárias frente à expansão do Estado colonial português.",
-      "economicos": "Sistemas sustentáveis de manejo florestal e agrícola substituídos por monoculturas de exportação.",
-      "sociais": "Dizimação demográfica massiva por doenças e violência institucional nascentede.",
-      "culturais": "Contribuição indelével para a língua, culinária, medicina natural e hábitos cotidianos do Brasil.",
-      "territoriais": "Perda contínua de territórios tradicionais ancestrais.",
-      "ambientais": "Manejo milenar equilibrado da biodiversidade dos biomas brasileiros."
+      "politicos": "Antes de 1500 existiam formas diversas de organização e autoridade. A colonização impôs estruturas de poder europeias, sem eliminar a agência política e a resistência dos povos indígenas.",
+      "economicos": "Caça, pesca, coleta, cultivo, produção de objetos, manejo de plantas e trocas compunham economias variadas, adaptadas a contextos locais.",
+      "sociais": "As sociedades apresentavam diferentes formas de parentesco, cooperação, mobilidade e estabelecimento; a colonização provocou perdas demográficas e deslocamentos violentos.",
+      "culturais": "Línguas, conhecimentos, narrativas, arte, técnicas e práticas indígenas permanecem presentes e se transformam continuamente.",
+      "territoriais": "A ocupação humana transformou paisagens e estabeleceu relações históricas com os territórios; a colonização produziu expropriações e disputas que continuam.",
+      "ambientais": "Práticas de manejo, cultivo e transformação ambiental variaram entre regiões; não se deve idealizar todas as relações com a natureza como iguais ou invariavelmente sustentáveis."
     },
-    "continuidade": "Resistência histórica secular dos povos indígenas na defesa de seus direitos, culturas e demarcações territoriais.",
-    "rupturas": "Colapso demográfico e interrupção violenta de autonomias políticas originárias com o avanço colonial."
+    "continuidade": "A presença dos povos indígenas atravessa todo o período colonial e a história posterior. Comunidades mantêm, recriam e defendem línguas, conhecimentos, identidades, territórios e direitos.",
+    "rupturas": "A colonização iniciada no século XVI provocou epidemias, escravização, violência, deslocamentos e perda de territórios, alterando profundamente muitas sociedades, sem significar seu desaparecimento."
   },
 
   {
