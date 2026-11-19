@@ -1032,6 +1032,10 @@
 
     
         /* Etapa 8 — fontes históricas e documentos */
+        .documentos-secao { margin-top: 30px; }
+        .documentos-secao > h3 { color: #17365d; margin: 0 0 10px; font: 700 1.25rem Georgia, "Times New Roman", serif; }
+        .documento-card { border-top-color: #8a6a36; }
+
         .fontes-pagina { max-width: 1100px; margin: 0 auto; }
         .fontes-intro { background: #eef3f8; border-left: 4px solid #25496b; padding: 18px 20px; border-radius: 8px; margin: 16px 0 22px; color: #24364a; line-height: 1.65; }
         .fontes-filtros { display: grid; grid-template-columns: minmax(0, 2fr) minmax(190px, 1fr); gap: 12px; margin: 18px 0; }
@@ -1504,6 +1508,38 @@
             })[caractere]);
         }
 
+
+        // Documentos primários ligados a acontecimentos dos módulos históricos
+        const documentosHistoricos = [
+            { titulo: 'Constituição Política do Império do Brasil', ano: '1824', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Carta outorgada por D. Pedro I. Permite investigar a organização do Estado imperial, o Poder Moderador, a cidadania e a religião oficial.', tema: 'Império do Brasil (1822–1889)', url: 'https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html' },
+            { titulo: 'Lei nº 3.353 — Lei Áurea', ano: '1888', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Lei original', contexto: 'Documento que declarou extinta juridicamente a escravidão no Brasil. Sua leitura deve ser relacionada à luta das pessoas escravizadas, ao movimento abolicionista e à ausência de políticas amplas de inclusão social após a abolição.', tema: 'Império do Brasil e abolição', url: 'https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-3353-13-maio-1888-533138-publicacaooriginal-16269-pl.html' },
+            { titulo: 'Constituição da República dos Estados Unidos do Brasil', ano: '1891', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Primeira Constituição republicana. Ajuda a analisar federalismo, presidencialismo, organização dos poderes e a passagem das antigas províncias para os estados.', tema: 'Primeira República (1889–1930)', url: 'https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html' },
+            { titulo: 'Constituição de 1934', ano: '1934', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Promulgada durante o governo Vargas, registra mudanças na organização política e social, incluindo direitos trabalhistas, voto feminino e Justiça Eleitoral.', tema: 'Era Vargas (1930–1945)', url: 'https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-1934-16-julho-1934-365196-publicacaooriginal-1-pl.html' },
+            { titulo: 'Constituição de 1937', ano: '1937', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Carta imposta no início do Estado Novo. A leitura permite identificar a concentração de poderes e os mecanismos institucionais do regime autoritário.', tema: 'Era Vargas — Estado Novo', url: 'https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-1-pl.html' },
+            { titulo: 'Decreto nº 1.816 — transferência da capital para Goiânia', ano: '1937', instituicao: 'Casa Civil do Governo de Goiás', tipo: 'Decreto estadual (referência e relação oficial de leis e decretos)', contexto: 'O portal oficial de Goiás registra que o decreto, publicado em 23 de março de 1937, transferiu a capital da Cidade de Goiás para Goiânia. A página também reúne outros atos ligados à construção da nova capital.', tema: 'Construção de Goiânia e transferência da capital', url: 'https://goias.gov.br/casacivil/goiania/' },
+            { titulo: 'Constituição Federal — ADCT, art. 13', ano: '1988', instituicao: 'Presidência da República — Planalto', tipo: 'Texto constitucional promulgado no Diário Oficial', contexto: 'O artigo 13 cria o Estado do Tocantins por desmembramento da área descrita no próprio dispositivo e estabelece condições para sua instalação.', tema: 'Criação do Estado do Tocantins (1988–1989)', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/douconstituicao88.pdf' },
+            { titulo: 'Constituição da República Federativa do Brasil', ano: '1988', instituicao: 'Presidência da República — Planalto', tipo: 'Texto constitucional e ADCT', contexto: 'Documento central da redemocratização. Permite estudar direitos fundamentais, organização do Estado, cidadania e os dispositivos transitórios que reorganizaram o território nacional.', tema: 'Nova República e redemocratização', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm' }
+        ];
+
+        function renderizarDocumentosHistoricos(termo) {
+            const lista = document.getElementById('lista-documentos-historicos');
+            if (!lista) return;
+            const consulta = (termo || '').toLocaleLowerCase('pt-BR');
+            const encontrados = documentosHistoricos.filter(doc =>
+                [doc.titulo, doc.ano, doc.instituicao, doc.tipo, doc.contexto, doc.tema].join(' ').toLocaleLowerCase('pt-BR').includes(consulta)
+            );
+            lista.innerHTML = encontrados.length ? encontrados.map(doc =>
+                '<article class="fonte-card documento-card">' +
+                '<span class="fonte-meta">' + escaparTextoFonte(doc.ano) + ' · ' + escaparTextoFonte(doc.tipo) + '</span>' +
+                '<h3>' + escaparTextoFonte(doc.titulo) + '</h3>' +
+                '<p><strong>Instituição:</strong> ' + escaparTextoFonte(doc.instituicao) + '</p>' +
+                '<p>' + escaparTextoFonte(doc.contexto) + '</p>' +
+                '<p><strong>Tema relacionado:</strong> ' + escaparTextoFonte(doc.tema) + '</p>' +
+                '<p class="fonte-acesso"><a href="' + escaparTextoFonte(doc.url) + '" target="_blank" rel="noopener noreferrer">Consultar documento ou referência oficial</a></p>' +
+                '</article>'
+            ).join('') : '<p role="status">Nenhum documento corresponde à busca.</p>';
+        }
+
         function mostrarFontesHistoricas(botaoElemento) {
             requisicaoAtual++;
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
@@ -1527,6 +1563,11 @@
                     </div>
                     <p id="fontes-contagem" class="fontes-contagem" aria-live="polite"></p>
                     <div id="lista-fontes" class="fontes-lista"></div>
+                    <section class="documentos-secao" aria-labelledby="titulo-documentos-historicos">
+                        <h3 id="titulo-documentos-historicos">Documentos ligados aos acontecimentos históricos</h3>
+                        <p class="fontes-intro">Consulte documentos originais e registros oficiais relacionados a temas estudados nos módulos do HistoryWeb. Observe a linguagem da época, quem produziu o documento e quais grupos ou experiências não aparecem nele.</p>
+                        <div id="lista-documentos-historicos" class="fontes-lista"></div>
+                    </section>
                     <section class="fontes-metodo" aria-labelledby="titulo-analise-fonte">
                         <h3 id="titulo-analise-fonte">Como analisar um documento histórico?</h3>
                         <ol>
@@ -1540,6 +1581,7 @@
                     </section>
                 </section>`;
             filtrarFontesHistoricas();
+            renderizarDocumentosHistoricos('');
         }
 
         function filtrarFontesHistoricas() {
@@ -1562,6 +1604,7 @@
                     <p><strong>Forma de acesso:</strong> ${escaparTextoFonte(fonte.acesso)}</p>
                     <p class="fonte-acesso"><a href="${escaparTextoFonte(fonte.url)}" target="_blank" rel="noopener noreferrer">Acessar acervo institucional</a></p>
                 </article>`).join('') : '<p role="status">Nenhum acervo corresponde à busca. Tente outro termo ou categoria.</p>';
+            renderizarDocumentosHistoricos(busca);
         }
 
         // Inicializa exibindo a Capa Principal
