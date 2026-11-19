@@ -136,3 +136,44 @@ Os critérios avaliam o processo de investigação e a qualidade da justificativ
 
 ## Testes pendentes
 A aplicação prática, navegação por teclado/leitor de tela e apresentação em Android e computador ainda precisam de teste real.
+
+
+# Etapa 11 — Banco de atividades históricas
+
+## Objetivo
+Disponibilizar propostas discursivas organizadas por período e tema, facilitando o planejamento de aulas, revisões e atividades de aprofundamento.
+
+## Conteúdo incluído
+O banco apresenta oito propostas, uma para cada área do HistoryWeb:
+- Pré-História.
+- Idade Antiga.
+- Idade Média.
+- Idade Moderna.
+- Idade Contemporânea.
+- História do Brasil.
+- Atualidades e mundo contemporâneo.
+- Direitos Humanos e cidadania.
+
+Cada proposta contém cinco questões abertas, com foco em contextualização, análise de relações sociais e de poder, comparação, argumentação e conexão crítica com o presente. As perguntas foram elaboradas para evitar mera memorização e podem ser adaptadas pelo professor.
+
+## Funcionamento
+- Novo botão **Banco de Atividades** na navegação principal.
+- Filtro para selecionar um período ou visualizar todas as propostas.
+- Cartões expansíveis para leitura das questões.
+- Layout em duas colunas no computador e uma coluna em telas estreitas.
+- Navegação sem dependência de serviços externos.
+- Cache principal da PWA atualizado para `historyweb-pwa-v7`, preservando o cache separado de mapas consultados.
+
+## Validação estática
+- Oito conjuntos de atividades identificados.
+- Cinco perguntas por conjunto.
+- Filtro e renderização presentes.
+- Conteúdo estático, sem alteração dos módulos históricos JSON.
+- Estrutura expansível, foco visível e responsividade conferidos.
+
+## Testes pendentes
+- Testar seleção de todos os períodos no Android e computador.
+- Conferir atualização do aplicativo instalado para a versão com o novo menu.
+- Testar uso offline após a atualização.
+- Validar navegação por teclado e leitor de tela.
+- Avaliar adequação das propostas com estudantes.
