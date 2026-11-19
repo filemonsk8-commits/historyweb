@@ -1,8 +1,27 @@
 {
+  "id": "./",
   "name": "Linha do Tempo Histórica",
-  "short_name": "Linha do Tempo",
-  "start_url": "index.html",
+  "short_name": "História",
+  "description": "Acervo digital de História com conteúdos organizados por períodos históricos.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#2563eb"
+  "orientation": "any",
+  "background_color": "#10243b",
+  "theme_color": "#10243b",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
 }
