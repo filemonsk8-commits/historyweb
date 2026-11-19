@@ -63,55 +63,55 @@
     "local": "Litoral Brasileiro",
     "sociedades_envolvidas": "Coroa Portuguesa, Povos Indígenas e Corsários Franceses",
     "tema": "Expedição de Cabral, Escambo de Pau-Brasil, Expedições Exploratórias, Guarda-Costas e Concorrentes Franceses",
-    "contexto": "Três primeiras décadas após a chegada da frota de Cabral em 1500, período em que Portugal priorizou o comércio lucrativo das Índias orientais, limitando-se no Brasil à exploração extrativista do pau-brasil baseada no escambo indígena.",
+    "contexto": "Entre 1500 e 1530, a presença portuguesa na costa do atual Brasil foi marcada por expedições, feitorias temporárias e exploração do pau-brasil, enquanto a Coroa priorizava também as rotas comerciais com a África e a Ásia. O rótulo “pré-colonial” refere-se apenas à periodização da colonização portuguesa: o território já era habitado por numerosos povos indígenas, com histórias, sociedades e redes próprias muito anteriores à chegada europeia.",
     "antecedentes": [
       "Expansão marítima portuguesa e assinatura do Tratado de Tordesilhas (1494)."
     ],
     "causas": {
       "politicas": "Necessidade de salvaguardar a posse territorial assegurada pelo Tratado de Tordesilhas contra investidas estrangeiras.",
-      "economicas": "Extração intensiva de pau-brasil para tintura de tecidos na Europa através do escambo com os nativos.",
-      "sociais": "Primeiros contatos, estranhamentos e trocas culturais entre navegadores ibéricos e nativos americanos.",
+      "economicas": "Interesse comercial no pau-brasil, cuja madeira fornecia pigmento valorizado na Europa, e prioridade portuguesa às redes de comércio africanas e asiáticas; a exploração envolveu alianças, negociações e relações desiguais com comunidades indígenas.",
+      "sociais": "Encontros entre sociedades com línguas, conhecimentos e formas de organização distintas, marcados por curiosidade, negociação, conflitos, violência e crescente disseminação de doenças.",
       "religiosas": "Primeiras missas e intenções declaradas de expansão da fé cristã católica.",
-      "culturais": "Percepção eurocêntrica inicial dos portugueses registrada nas cartas de descobrimento.",
-      "territoriais": "Patrulhamento do litoral por expedições guarda-costas (Cristóvão Jacques) contra incursões de franceses.",
+      "culturais": "Relatos portugueses, como a carta de Pero Vaz de Caminha, registraram os contatos a partir de perspectivas europeias e não representam a visão ou a diversidade dos povos indígenas.",
+      "territoriais": "Expedições portuguesas buscaram reconhecer a costa e reforçar reivindicações da Coroa, enquanto franceses e outros agentes europeus também estabeleceram relações comerciais com comunidades indígenas.",
       "tecnologias": "Uso de caravelas e naus de exploração oceânica atlântica."
     },
-    "resumo_card": "Abrange a chegada de Pedro Álvares Cabral em 1500, os primeiros contatos com os indígenas, a exploração do pau-brasil por escambo, as expedições exploratórias e guarda-costas, e a presença concorrente de franceses no litoral.",
-    "desenvolvimento": "A armada de Pedro Álvares Cabral aportou na Bahia em abril de 1500. Como o comércio oriental de especiarias era mais lucrativo, Portugal adotou a colonização indireta inicial: enviou expedições exploratórias e guarda-costas para combater corsários franceses e explorou o pau-brasil utilizando o trabalho indígena por meio do escambo (troca de toras de madeira por quinquilharias europeias).",
+    "resumo_card": "Entre 1500 e 1530, expedições portuguesas reconheceram trechos da costa, instalaram feitorias e exploraram o pau-brasil por meio de relações comerciais e de trabalho com povos indígenas. A presença portuguesa foi disputada por outros europeus, mas não se tratava de um território vazio: sociedades indígenas habitavam e organizavam essas terras havia milênios.",
+    "desenvolvimento": "A armada comandada por Pedro Álvares Cabral chegou à costa da atual Bahia em abril de 1500, em território habitado por diferentes povos indígenas. Expedições posteriores, como as de 1501–1502 e 1503–1504, percorreram trechos do litoral e ampliaram o reconhecimento português. A extração do pau-brasil ocorreu por meio de feitorias e de relações com grupos indígenas, frequentemente descritas como escambo. Essas trocas não devem ser entendidas como relações necessariamente equilibradas: envolveram interesses distintos, pressões e formas de exploração do trabalho indígena. Comerciantes franceses também negociaram com comunidades locais e desafiaram as reivindicações portuguesas. A Coroa enviou expedições de vigilância e combate ao comércio não autorizado, entre elas as comandadas por Cristóvão Jacques em 1516–1519 e 1526–1528. A colonização permanente ganhou impulso a partir de 1530, mas a história dos povos indígenas no território não começou com a chegada dos portugueses.",
     "personagens": [
-      "Pedro Álvares Cabral: Capitão-mor da armada portuguesa de 1500.",
-      "Pero Vaz de Caminha: Escrivão da frota e autor da famosa carta de relato.",
-      "Cristóvão Jacques: Comandante das expedições guarda-costas."
+      "Pedro Álvares Cabral: Comandante da armada portuguesa que chegou à costa da atual Bahia em abril de 1500.",
+      "Pero Vaz de Caminha: Escrivão da armada de Cabral, autor de uma carta dirigida ao rei D. Manuel I, fonte importante, mas marcada pela perspectiva portuguesa sobre os primeiros contatos.",
+      "Cristóvão Jacques: Navegador e comandante português associado a expedições de vigilância do litoral e combate ao comércio estrangeiro não autorizado."
     ],
     "grupos_envolvidos": [
       "Navegadores Portugueses",
-      "Povos Indígenas Litorâneos",
+      "Povos indígenas de diferentes regiões costeiras, com línguas, alianças, atividades econômicas e estratégias políticas próprias; não constituíam um grupo homogêneo.",
       "Corsários e Comerciantes Franceses"
     ],
     "interesses_em_disputa": [
-      "Posse das terras americanas e monopólio comercial da extração de pau-brasil."
+      "Controle das rotas e dos pontos de comércio, acesso ao pau-brasil e reivindicações territoriais das Coroas europeias, em interação com os interesses e as decisões das comunidades indígenas."
     ],
     "linha_do_tempo": [
-      {"ano": 1500, "titulo": "Chegada de Pedro Álvares Cabral", "descricao": "Aporte da armada portuguesa no litoral da Bahia."},
-      {"ano": 1516, "titulo": "Expedições Guarda-Costas", "descricao": "Envio de missões para combater contrabandistas franceses no litoral."}
+      {"ano": 1500, "titulo": "Chegada de Pedro Álvares Cabral", "descricao": "A armada portuguesa comandada por Cabral chegou à costa da atual Bahia, onde encontrou povos indígenas que já habitavam a região."},
+      {"ano": 1516, "titulo": "Expedições Guarda-Costas", "descricao": "Cristóvão Jacques comandou expedições de vigilância do litoral em diferentes anos, incluindo 1516–1519 e 1526–1528, para combater o comércio estrangeiro considerado ilegal pela Coroa portuguesa."}
     ],
     "consequencias_imediatas": [
-      "Destruição parcial de matas de pau-brasil no litoral brasileiro.",
-      "Decisão da Coroa de iniciar a colonização efetiva em 1530 devido à ameaça estrangeira."
+      "Extração de pau-brasil e alterações localizadas na vegetação costeira, ampliadas de modo desigual conforme a intensidade e a duração da exploração.",
+      "A Coroa portuguesa organizou a expedição de Martim Afonso de Sousa em 1530, diante da concorrência estrangeira e do interesse em ampliar a ocupação e a exploração econômica."
     ],
     "consequencias_longo_prazo": [
       "Instauração do sistema colonial definitivo com o envio da expedição de Martim Afonso de Sousa."
     ],
     "impactos": {
-      "politicos": "Afirmação territorial precária de Portugal frente às potências rivais europeias.",
-      "economicos": "Início da exploração mercantilista extrativista na América.",
-      "sociais": "Contatos iniciais geradores de epidemias e conflitos interétnicos.",
-      "culturais": "Aculturação inicial e estranhamento mútuo documentado por cronistas.",
-      "territoriais": "Reconhecimento geográfico parcial da costa atlântica brasileira.",
-      "ambientais": "Primeiro ciclo de exploração predatória vegetal (pau-brasil)."
+      "politicos": "Reivindicação portuguesa sobre parte do território, contestada por outras potências europeias e não equivalente a controle efetivo de toda a costa ou do interior.",
+      "economicos": "Exploração comercial do pau-brasil, com participação de agentes portugueses, franceses e comunidades indígenas em relações assimétricas e variáveis.",
+      "sociais": "Violências, conflitos, alianças e disseminação de doenças afetaram populações indígenas, embora os impactos tenham variado entre regiões e comunidades.",
+      "culturais": "Registros europeus documentaram contatos a partir de perspectivas coloniais; povos indígenas mantiveram e transformaram suas línguas, práticas e formas de organização, resistindo a imposições.",
+      "territoriais": "Reconhecimento parcial da costa por navegadores europeus, sem que isso significasse descoberta de um território desconhecido por seus habitantes ou ocupação portuguesa integral.",
+      "ambientais": "Extração de pau-brasil provocou impactos em áreas costeiras, com intensidade variável; a exploração foi parte de transformações ambientais coloniais posteriores."
     },
     "continuidade": "Disputa geopolítica europeia pelo controle de rotas e territórios ultramarinos.",
-    "rupturas": "Fim da fase puramente extrativista com a transição para o modelo de povoamento e produção açucareira em 1530."
+    "rupturas": "Ampliação da presença portuguesa e de disputas europeias na costa, seguida pelo avanço da colonização permanente a partir de 1530; não houve ruptura na história indígena, que continuou marcada por agência e resistência."
   },
 
   {
