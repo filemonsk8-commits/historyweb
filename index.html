@@ -1138,6 +1138,12 @@
         .area-professor { max-width: 900px; }
         .professor-login { max-width: 520px; display: grid; gap: 14px; margin: 18px 0; padding: 20px; background: #fff; border: 1px solid #d8e1e9; border-radius: 9px; }
         .professor-json { white-space: pre-wrap; overflow-wrap: anywhere; padding: 12px; background: #f4f6f8; border-radius: 6px; color: #26394b; font: .88rem/1.55 ui-monospace, monospace; }
+        .gabarito-pergunta { margin: 0 0 16px; padding: 12px 14px; background: #fff; border: 1px solid #dce4eb; border-radius: 7px; line-height: 1.6; }
+        .gabarito-enunciado { margin: 0 0 8px; color: #173f63; }
+        .gabarito-nota { margin: 12px 0; padding: 10px 12px; background: #f3f6f9; border-left: 3px solid #8a6a36; line-height: 1.55; }
+        .gabarito-respostas, .gabarito-rubrica { padding-left: 22px; margin: 10px 0 18px; }
+        .gabarito-respostas li, .gabarito-rubrica li { margin-bottom: 8px; }
+        .guia-professor-bloco h4 { margin: 16px 0 8px; color: #173f63; }
     </style>
 </head>
 <body>
@@ -1817,17 +1823,33 @@
                     <summary>${escaparTextoProfessor(item.title)}</summary>
                     <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.content, null, 2))}</pre>
                 </details>`).join('') : '<p>Nenhum material reservado foi cadastrado ainda.</p>';
-            gabaritosEl.innerHTML = gabaritos.data.length ? gabaritos.data.map(item => `
-                <details class="guia-professor-bloco">
-                    <summary>${escaparTextoProfessor(item.activity_title || item.event_id || 'Gabarito')}</summary>
-                    <p><strong>Módulo:</strong> ${escaparTextoProfessor(item.module_slug)}</p>
-                    <p><strong>Respostas esperadas</strong></p>
-                    <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.expected_answers, null, 2))}</pre>
-                    <p><strong>Orientações de correção</strong></p>
-                    <pre class="professor-json">${escaparTextoProfessor(item.correction_guidance)}</pre>
-                    <p><strong>Rubrica</strong></p>
-                    <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.rubric, null, 2))}</pre>
-                </details>`).join('') : '<p>Os gabaritos serão cadastrados nesta área protegida.</p>';
+            gabaritosEl.innerHTML = gabaritos.data.length ? gabaritos.data.map(item => {
+                const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
+                const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
+                const respostasHtml = respostas.map((resposta, indice) => {
+                    const pergunta = atividade?.perguntas?.[indice];
+                    return `
+                        <li class="gabarito-pergunta">
+                            ${pergunta ? '<p class="gabarito-enunciado"><strong>Questão ' + (indice + 1) + ':</strong> ' + escaparTextoProfessor(pergunta) + '</p>' : '<p><strong>Resposta ' + (indice + 1) + '</strong></p>'}
+                            <p>${escaparTextoProfessor(typeof resposta === 'string' ? resposta : JSON.stringify(resposta))}</p>
+                        </li>`;
+                }).join('');
+                const rubricaHtml = Array.isArray(item.rubric) ? item.rubric.map(criterio => `
+                    <li><strong>${escaparTextoProfessor(criterio.criterio || 'Critério')}:</strong> ${escaparTextoProfessor(criterio.indicador || '')}</li>
+                `).join('') : '';
+                return `
+                    <details class="guia-professor-bloco">
+                        <summary>${escaparTextoProfessor(item.activity_title || item.event_id || 'Gabarito')}</summary>
+                        <p><strong>Módulo:</strong> ${escaparTextoProfessor(item.module_slug)}</p>
+                        <p class="gabarito-nota">Gabarito orientador: as respostas podem variar, desde que apresentem argumentos coerentes e evidências pertinentes.</p>
+                        <h4>Respostas por questão</h4>
+                        <ol class="gabarito-respostas">${respostasHtml}</ol>
+                        <h4>Orientações de correção</h4>
+                        <p>${escaparTextoProfessor(item.correction_guidance)}</p>
+                        <h4>Critérios de avaliação</h4>
+                        <ul class="gabarito-rubrica">${rubricaHtml}</ul>
+                    </details>`;
+            }).join('') : '<p>Os gabaritos serão cadastrados nesta área protegida.</p>';
             document.getElementById('professor-sair').addEventListener('click', async () => {
                 await professorSupabase.auth.signOut();
                 mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
