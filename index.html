@@ -1175,6 +1175,11 @@
         .professor-recurso-categoria { padding: 3px 8px; border-radius: 999px; background: #e8eef4; color: #29445f; font-size: .75rem; font-weight: 600; }
         .professor-recurso-descricao { margin: 10px 0 6px; color: #465568; line-height: 1.5; overflow-wrap: anywhere; }
         .professor-recurso-conteudo { max-width: 100%; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; color: #26394b; font: .86rem/1.5 ui-monospace,monospace; }
+        .professor-recurso-acoes { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+        .professor-recurso-acoes button { min-height:38px; padding:8px 12px; border:1px solid #b8c5d1; border-radius:7px; background:#fff; color:#173f63; font:600 .88rem Inter,sans-serif; cursor:pointer; }
+        .professor-recurso-acoes button:hover { background:#edf3f8; border-color:#8299ae; }
+        .professor-recurso-acoes button:focus-visible { outline:3px solid rgba(37,99,235,.3); outline-offset:2px; }
+
         .professor-recurso-vazio { grid-column: 1/-1; padding: 16px; border: 1px dashed #cbd6e0; border-radius: 8px; color: #536174; }
         .professor-admin-recursos { margin: 18px 0; padding: 18px; border: 2px solid #b18a4a; border-radius: 10px; background: #fffdf8; }
         .professor-admin-recursos[hidden] { display: none !important; }
@@ -2187,8 +2192,76 @@
                             </summary>
                             <p class="professor-recurso-descricao">${escaparTextoProfessor(descricao || 'Abra o material para consultar seu conteúdo.')}</p>
                             <pre class="professor-recurso-conteudo">${escaparTextoProfessor(conteudo)}</pre>
+                            <div class="professor-recurso-acoes" aria-label="Ações do material">
+                                <button type="button" data-baixar-recurso="${escaparTextoProfessor(item.id)}">Baixar arquivo .txt</button>
+                                <button type="button" data-imprimir-recurso="${escaparTextoProfessor(item.id)}">Imprimir / salvar em PDF</button>
+                            </div>
                         </details>`;
                 }).join('');
+                recursosEl.querySelectorAll('[data-baixar-recurso]').forEach(botao => {
+                    botao.onclick = () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.baixarRecurso);
+                        if (!item) return;
+                        const texto = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
+                        const nome = String(item.title || 'material').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'material';
+                        const arquivo = new Blob(['\\uFEFF', texto], { type: 'text/plain;charset=utf-8' });
+                        const url = URL.createObjectURL(arquivo);
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.download = nome + '.txt';
+                        document.body.appendChild(link);
+                        link.click();
+                        link.remove();
+                        URL.revokeObjectURL(url);
+                    };
+                });
+                recursosEl.querySelectorAll('[data-imprimir-recurso]').forEach(botao => {
+                    botao.onclick = () => {
+                        const item = recursos.data.find(recurso => recurso.id === botao.dataset.imprimirRecurso);
+                        if (!item) return;
+                        const texto = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
+                        const janela = window.open('', '_blank');
+                        if (!janela) {
+                            infoRecursos.textContent = 'O navegador bloqueou a janela de impressão. Permita pop-ups para este site e tente novamente.';
+                            return;
+                        }
+                        const htmlMaterial = escaparTextoProfessor(texto);
+                        const htmlDocumento = `<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${escaparTextoProfessor(item.title || 'Material de apoio')}</title>
+<style>
+@page { size: A4; margin: 18mm; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #172536; font: 11pt/1.55 Arial, sans-serif; }
+.cabecalho { padding-bottom: 10px; border-bottom: 2px solid #17365d; margin-bottom: 22px; }
+.marca { color: #806b48; font-size: 9pt; font-weight: 700; letter-spacing: .12em; }
+h1 { margin: 8px 0 4px; color: #17365d; font: bold 20pt/1.2 Georgia, serif; }
+.meta { color: #536174; font-size: 9pt; }
+.conteudo { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 11pt/1.6 Arial, sans-serif; }
+.rodape { margin-top: 24px; padding-top: 8px; border-top: 1px solid #cbd5e1; color: #64748b; font-size: 8.5pt; }
+@media screen { body { max-width: 800px; margin: 30px auto; padding: 24px; box-shadow: 0 2px 18px #0002; } }
+</style>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">HISTORYWEB · ÁREA DO PROFESSOR</div>
+<h1>${escaparTextoProfessor(item.title || 'Material de apoio')}</h1>
+<div class="meta">${escaparTextoProfessor(nomeCategoriaRecurso(tipoRecurso(item)))} · Gerado em ${new Date().toLocaleDateString('pt-BR')}</div>
+</header>
+<main class="conteudo">${htmlMaterial}</main>
+<footer class="rodape">Material de apoio pedagógico · HistoryWeb</footer>
+</body>
+</html>`;
+                        janela.document.open();
+                        janela.document.write(htmlDocumento);
+                        janela.document.close();
+                        janela.focus();
+                        janela.print();
+                    };
+                });
             };
             buscaRecurso.oninput = renderizarRecursos;
             filtroCategoriaRecurso.onchange = renderizarRecursos;
