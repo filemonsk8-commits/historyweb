@@ -1098,6 +1098,42 @@
         .atividade-banco-card li { margin-bottom: 9px; }
         @media (max-width: 700px) { .atividades-lista { grid-template-columns: 1fr; } }
 
+
+        /* Etapa 12 — ficha de acompanhamento formativo */
+        .ficha-acompanhamento { margin-top: 24px; padding: 20px; border: 1px solid #d8e1e9; border-radius: 10px; background: #fff; }
+        .ficha-acompanhamento h4 { margin: 0 0 8px; color: #173f63; font: 700 1.18rem Georgia, "Times New Roman", serif; }
+        .ficha-intro, .ficha-aviso { color: #465568; font-size: .92rem; line-height: 1.6; }
+        .ficha-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+        .ficha-campo { display: flex; flex-direction: column; gap: 6px; color: #29445f; font-weight: 700; font-size: .92rem; }
+        .ficha-campo input, .ficha-campo textarea, .ficha-criterio select { width: 100%; min-width: 0; padding: 10px 11px; border: 1px solid #cbd6e0; border-radius: 6px; background: #fff; color: #26394b; font: 400 .95rem Inter, sans-serif; }
+        .ficha-campo input:focus-visible, .ficha-campo textarea:focus-visible, .ficha-criterio select:focus-visible, .ficha-acoes button:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 2px; }
+        .ficha-rubrica { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 16px 0; padding: 14px; border: 1px solid #dce4eb; border-radius: 8px; }
+        .ficha-rubrica legend { padding: 0 6px; color: #173f63; font-weight: 700; }
+        .ficha-criterio { display: flex; flex-direction: column; gap: 9px; padding: 12px; border: 1px solid #e1e7ed; border-radius: 7px; background: #f9fbfc; }
+        .ficha-criterio label { display: flex; flex-direction: column; gap: 5px; color: #29445f; font-size: .92rem; line-height: 1.5; }
+        .ficha-criterio label span { color: #536174; font-weight: 400; }
+        .ficha-campo-amplo { margin: 13px 0; }
+        .ficha-campo textarea { resize: vertical; line-height: 1.5; }
+        .ficha-aviso { margin-top: 14px; padding: 10px 12px; border-left: 3px solid #b18a4a; background: #f8f7f3; }
+        .ficha-acoes { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .ficha-acoes button { min-height: 42px; padding: 9px 14px; border: 1px solid #173f63; border-radius: 6px; font: 600 .92rem Inter, sans-serif; cursor: pointer; }
+        .ficha-botao-principal { background: #173f63; color: #fff; }
+        .ficha-botao-secundario { background: #fff; color: #173f63; }
+        @media (max-width: 650px) { .ficha-form-grid, .ficha-rubrica { grid-template-columns: 1fr; } .ficha-acompanhamento { padding: 14px; } }
+        @media print {
+            @page { size: A4 portrait; margin: 14mm; }
+            body { padding: 0 !important; background: #fff !important; }
+            body > header, body > .busca-container, body > .menu-navegacao { display: none !important; }
+            #app-container { max-width: none !important; margin: 0 !important; }
+            #app-container .fontes-pagina > :not(.guia-professor) { display: none !important; }
+            #app-container .guia-professor > :not(.ficha-acompanhamento) { display: none !important; }
+            #app-container .conteudo-wrapper, #app-container .fontes-pagina, #app-container .guia-professor { margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; background: #fff !important; background-image: none !important; }
+            .ficha-acompanhamento { margin: 0 !important; padding: 0 !important; border: 0 !important; background: #fff !important; break-inside: avoid; }
+            .ficha-acoes { display: none !important; }
+            .ficha-campo input, .ficha-campo textarea, .ficha-criterio select { color: #111 !important; background: #fff !important; border: 1px solid #777 !important; }
+            .ficha-aviso { color: #222 !important; background: #fff !important; }
+        }
+
 </style>
 </head>
 <body>
@@ -1783,7 +1819,88 @@
                                 <li>Como a interpretação muda quando comparamos documentos produzidos por grupos diferentes?</li>
                             </ul>
                         </details>
-                    </section>
+                    
+                        <section class="ficha-acompanhamento" aria-labelledby="titulo-ficha-acompanhamento">
+                            <h4 id="titulo-ficha-acompanhamento">Ficha de acompanhamento da aprendizagem</h4>
+                            <p class="ficha-intro">Use esta ficha para registrar evidências de uma atividade e planejar a próxima intervenção pedagógica. Os níveis são descritivos: não representam nota automática nem comparação entre estudantes.</p>
+                            <form id="form-ficha-acompanhamento" onsubmit="return false;">
+                                <div class="ficha-form-grid">
+                                    <label class="ficha-campo" for="ficha-turma">Turma / série
+                                        <input id="ficha-turma" name="turma" type="text" maxlength="60" autocomplete="off">
+                                    </label>
+                                    <label class="ficha-campo" for="ficha-estudante">Estudante (prefira código ou iniciais)
+                                        <input id="ficha-estudante" name="estudante" type="text" maxlength="40" autocomplete="off">
+                                    </label>
+                                    <label class="ficha-campo" for="ficha-data">Data da atividade
+                                        <input id="ficha-data" name="data" type="date">
+                                    </label>
+                                    <label class="ficha-campo" for="ficha-tema">Atividade / tema estudado
+                                        <input id="ficha-tema" name="tema" type="text" maxlength="100" autocomplete="off">
+                                    </label>
+                                </div>
+
+                                <fieldset class="ficha-rubrica">
+                                    <legend>Critérios de observação</legend>
+                                    <div class="ficha-criterio">
+                                        <label for="ficha-contexto"><strong>1. Identificação e contextualização</strong>
+                                            <span>Reconhece autoria, data, finalidade e contexto de produção da fonte ou do acontecimento.</span>
+                                        </label>
+                                        <select id="ficha-contexto" name="contextualizacao">
+                                            <option value="">Não observado</option>
+                                            <option>Consolidado</option>
+                                            <option>Em desenvolvimento</option>
+                                            <option>Precisa de mediação</option>
+                                        </select>
+                                    </div>
+                                    <div class="ficha-criterio">
+                                        <label for="ficha-leitura"><strong>2. Leitura crítica</strong>
+                                            <span>Identifica perspectivas, interesses, limites e ausências nas fontes e narrativas.</span>
+                                        </label>
+                                        <select id="ficha-leitura" name="leitura">
+                                            <option value="">Não observado</option>
+                                            <option>Consolidado</option>
+                                            <option>Em desenvolvimento</option>
+                                            <option>Precisa de mediação</option>
+                                        </select>
+                                    </div>
+                                    <div class="ficha-criterio">
+                                        <label for="ficha-evidencias"><strong>3. Uso de evidências</strong>
+                                            <span>Utiliza informações concretas da fonte ou do conteúdo para sustentar a interpretação.</span>
+                                        </label>
+                                        <select id="ficha-evidencias" name="evidencias">
+                                            <option value="">Não observado</option>
+                                            <option>Consolidado</option>
+                                            <option>Em desenvolvimento</option>
+                                            <option>Precisa de mediação</option>
+                                        </select>
+                                    </div>
+                                    <div class="ficha-criterio">
+                                        <label for="ficha-argumentacao"><strong>4. Argumentação</strong>
+                                            <span>Apresenta conclusão coerente e distingue informação, inferência e opinião.</span>
+                                        </label>
+                                        <select id="ficha-argumentacao" name="argumentacao">
+                                            <option value="">Não observado</option>
+                                            <option>Consolidado</option>
+                                            <option>Em desenvolvimento</option>
+                                            <option>Precisa de mediação</option>
+                                        </select>
+                                    </div>
+                                </fieldset>
+
+                                <label class="ficha-campo ficha-campo-amplo" for="ficha-evidencia-observada">Evidências observadas / avanços
+                                    <textarea id="ficha-evidencia-observada" name="evidencias-observadas" rows="3" maxlength="1200" placeholder="Registre uma fala, argumento, comparação ou trecho utilizado pelo estudante."></textarea>
+                                </label>
+                                <label class="ficha-campo ficha-campo-amplo" for="ficha-proximo-passo">Próximo passo pedagógico / devolutiva
+                                    <textarea id="ficha-proximo-passo" name="proximo-passo" rows="3" maxlength="1200" placeholder="Indique uma orientação, retomada de conteúdo ou oportunidade de aprofundamento."></textarea>
+                                </label>
+                                <p class="ficha-aviso">Privacidade: esta ficha não é enviada nem salva pelo HistoryWeb. Imprima ou salve em PDF antes de sair da página. Evite registrar dados pessoais sensíveis e siga as orientações de proteção de dados da escola.</p>
+                                <div class="ficha-acoes">
+                                    <button type="button" class="ficha-botao-principal" onclick="window.print()">Imprimir ficha / salvar em PDF</button>
+                                    <button type="reset" class="ficha-botao-secundario">Limpar campos</button>
+                                </div>
+                            </form>
+                        </section>
+</section>
                     <section class="fontes-metodo" aria-labelledby="titulo-analise-fonte">
                         <h3 id="titulo-analise-fonte">Como analisar um documento histórico?</h3>
                         <ol>
