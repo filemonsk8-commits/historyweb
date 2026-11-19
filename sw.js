@@ -1,4 +1,4 @@
-const CACHE_NAME = 'historyweb-pwa-v12';
+const CACHE_NAME = 'historyweb-pwa-v13';
 const MAP_CACHE_NAME = 'historyweb-maps-v1';
 const MAX_CACHED_MAPS = 20;
 
