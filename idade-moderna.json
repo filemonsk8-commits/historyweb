@@ -195,26 +195,26 @@
     "local": "Sacro Império Romano-Germânico e Europa",
     "sociedades_envolvidas": "Igreja Católica, Líderes Protestantes, Príncipes Europeus e Companhia de Jesus",
     "tema": "Luteranismo, Calvinismo, Anglicanismo, Concílio de Trento e Guerras de Religião",
-    "contexto": "Críticas profundas aos abusos morais, econômicos e políticos da Igreja Católica culminaram na fratura da cristandade ocidental e na resposta institucional católica.",
+    "contexto": "Críticas à atuação e à autoridade da Igreja no Ocidente latino, debates teológicos, interesses políticos e transformações culturais contribuíram para movimentos de Reforma no século XVI. A fragmentação religiosa da Europa ocidental foi seguida por reformas internas no catolicismo e por conflitos de diferentes naturezas.",
     "antecedentes": [
       "Críticas anteriores de reformadores medievais (John Wycliffe e Jan Hus).",
-      "Enriquecimento material da Igreja e venda de indulgências."
+      "Críticas à venda de indulgências e a práticas do clero, além de debates medievais sobre autoridade religiosa, salvação e interpretação das Escrituras."
     ],
     "causas": {
-      "politicas": "Interesses de príncipes europeus em enfraquecer o poder político e confiscar terras da Igreja Católica.",
-      "economicas": "Oposição à cobrança de impostos papais e à usura/venda de cargos sagrados (simonia).",
-      "sociais": "Aspirações de camponeses e burgueses por uma religiosidade mais direta e barata.",
-      "religiosas": "Divergências teológicas sobre a salvação pela fé (Lutero) e livre interpretação da Bíblia.",
+      "politicas": "Príncipes e autoridades locais buscaram ampliar sua autonomia diante do papado; seus interesses variaram e envolveram religião, território, poder e controle de recursos.",
+      "economicas": "Resistência a tributos e transferências de recursos para Roma, disputas sobre propriedades e críticas a práticas como a simonia e a comercialização de indulgências.",
+      "sociais": "Interesses e expectativas de grupos sociais diversos, incluindo setores urbanos, nobres e camponeses; não houve uma motivação social única para a adesão às reformas.",
+      "religiosas": "Divergências sobre autoridade papal, salvação, sacramentos e interpretação da Bíblia, com diferenças entre as várias correntes reformistas.",
       "culturais": "Uso da imprensa para traduzir e difundir rapidamente textos bíblicos nas línguas nacionais.",
       "territoriais": "Divisão geopolítica de territórios germânicos e europeus por lealdades confessionais.",
       "tecnologias": "Difusão de panfletos impressos com críticas teológicas."
     },
-    "resumo_card": "A Reforma Protestante fraturou a unidade cristã da Europa e gerou conflitos, enquanto a Contrarreforma reorganizou o Catolicismo e expandiu missões educativas pelo mundo.",
-    "desenvolvimento": "Em 1517, Martinho Lutero publicou suas 95 Teses na Saxônia, dando início ao Protestantismo. O movimento ramificou-se no Calvinismo e no Anglicanismo (Henrique VIII). Em resposta, a Igreja Católica convocou o Concílio de Trento (1545–1563) — marco da Contrarreforma — revalidando dogmas, criando o Index de livros proibidos e fundando a Companhia de Jesus para conter o avanço protestante e catequizar novas terras.",
+    "resumo_card": "As Reformas do século XVI dividiram a cristandade ocidental em diferentes tradições confessionais. A Igreja Católica promoveu reformas institucionais e doutrinárias, enquanto disputas políticas e religiosas provocaram conflitos e transformações duradouras.",
+    "desenvolvimento": "Em 1517, Martinho Lutero tornou públicas suas críticas às indulgências, tradicionalmente associadas às 95 Teses. Suas propostas desencadearam debates que levaram à formação de correntes protestantes, entre elas o luteranismo e, em outros contextos, o calvinismo. A ruptura inglesa com Roma ocorreu sob Henrique VIII por uma combinação de questões dinásticas, políticas e religiosas, e não foi simples extensão do movimento de Lutero. A Igreja Católica promoveu reformas internas, reafirmou doutrinas no Concílio de Trento (1545–1563), reorganizou práticas disciplinares e fortaleceu iniciativas missionárias e educativas. A Companhia de Jesus havia sido aprovada pelo papado em 1540, antes do início do Concílio. As mudanças ocorreram de modo diverso conforme os territórios e contribuíram para guerras, perseguições e novas formas de organização religiosa.",
     "personagens": [
-      "Martinho Lutero: Monge agostiniano iniciador da Reforma Protestante.",
-      "João Calvino: Reformador que introduziu a doutrina da predestinação.",
-      "Inácio de Loyola: Fundador da Companhia de Jesus (Jesuítas)."
+      "Martinho Lutero: Teólogo e monge agostiniano cujas críticas às indulgências e propostas teológicas deram origem ao movimento luterano.",
+      "João Calvino: Reformador cuja teologia influenciou a formação de tradições reformadas, incluindo a doutrina da predestinação.",
+      "Inácio de Loyola: Fundador da Companhia de Jesus, aprovada pelo papa em 1540, importante nas atividades educativas e missionárias católicas."
     ],
     "grupos_envolvidos": [
       "Príncipes e Monarcas Protestantes e Católicos",
@@ -225,27 +225,27 @@
       "Monopólio espiritual, controle de terras e autonomia política frente ao papado."
     ],
     "linha_do_tempo": [
-      {"ano": 1517, "titulo": "As 95 Teses de Lutero", "descricao": "Fixação das teses na porta da igreja de Wittenberg."},
+      {"ano": 1517, "titulo": "As 95 Teses de Lutero", "descricao": "Lutero tornou públicas suas 95 Teses, em Wittenberg, em um episódio tradicionalmente datado de 31 de outubro; a forma exata de sua divulgação inicial é objeto de debate historiográfico."},
       {"ano": 1545, "titulo": "Início do Concílio de Trento", "descricao": "Marco inicial da Contrarreforma católica."}
     ],
     "consequencias_imediatas": [
-      "Guerras civis e religiosas sangrentas na Europa (como a Guerra dos Trinta Anos).",
-      "Intensificação das missões católicas nas colônias ultramarinas americanas e asiáticas."
+      "Conflitos confessionais e guerras em diferentes regiões europeias, incluindo a Guerra dos Trinta Anos (1618–1648), que teve causas políticas e territoriais além das religiosas.",
+      "Expansão de missões católicas e protestantes em diferentes regiões do mundo, vinculadas também à expansão marítima, aos impérios e às disputas coloniais."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação da liberdade de consciência religiosa e pluralidade confessional no Ocidente.",
+      "Consolidação de uma pluralidade de igrejas e tradições confessionais em partes da Europa; a liberdade religiosa e de consciência foi conquistada de forma gradual, desigual e conflituosa, não imediatamente.",
       "Formação de redes de ensino jesuíticas em várias partes do mundo colonial."
     ],
     "impactos": {
-      "politicos": "Fortalecimento de monarquias que adotaram o Protestantismo ou unificaram a fé sob o Absolutismo.",
+      "politicos": "Reconfiguração das relações entre autoridades religiosas e poderes políticos, com diferentes arranjos de igrejas territoriais, monarquias e comunidades confessionais.",
       "economicos": "Redistribuição de propriedades e terras eclesiásticas confiscadas.",
-      "sociais": "Aumento do letramento popular para leitura individual das Escrituras Sagradas.",
-      "culturais": "Ruptura definitiva da unidade cultural medieval europeia.",
+      "sociais": "Transformações nas práticas de culto, educação e vida comunitária, acompanhadas por perseguições, coerção religiosa e conflitos em diferentes territórios.",
+      "culturais": "Ampliação da circulação de textos religiosos impressos e da leitura bíblica em línguas vernáculas, em contextos variados de alfabetização e controle religioso.",
       "territoriais": "Fronteiras europeias desenhadas com base em divisões religiosas.",
       "ambientais": "Sem impactos ecológicos diretos causados pelas disputas doutrinárias."
     },
     "continuidade": "Permanência das bases centrais do cristianismo em ambas as vertentes (católica e protestante).",
-    "rupturas": "Fim do monopólio espiritual universal exercido exclusivamente pelo Papado romano na Europa Ocidental."
+    "rupturas": "Ruptura da unidade institucional da cristandade ocidental sob a autoridade papal, com a formação e consolidação de diferentes tradições confessionais."
   },
 
   {
