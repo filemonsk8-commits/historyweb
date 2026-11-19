@@ -1134,7 +1134,11 @@
             .ficha-aviso { color: #222 !important; background: #fff !important; }
         }
 
-</style>
+        /* Área do Professor — login e conteúdo reservado */
+        .area-professor { max-width: 900px; }
+        .professor-login { max-width: 520px; display: grid; gap: 14px; margin: 18px 0; padding: 20px; background: #fff; border: 1px solid #d8e1e9; border-radius: 9px; }
+        .professor-json { white-space: pre-wrap; overflow-wrap: anywhere; padding: 12px; background: #f4f6f8; border-radius: 6px; color: #26394b; font: .88rem/1.55 ui-monospace, monospace; }
+    </style>
 </head>
 <body>
 
@@ -1161,12 +1165,14 @@
         <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
         <button class="btn-periodo" onclick="mostrarFontesHistoricas(this)">Fontes Históricas</button>
         <button class="btn-periodo" onclick="mostrarBancoAtividades(this)">Banco de Atividades</button>
+        <button class="btn-periodo" onclick="mostrarAreaProfessor(this)">Área do Professor</button>
     </nav>
 
     <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
         <!-- Conteúdo inicial injetado via JavaScript -->
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/dist/umd/supabase.min.js"></script>
     <script>
         const periodosDisponiveis = [
             { arquivo: 'pre-historia.json', titulo: 'Pré-História', subtitulo: 'Origens e Povos Originários' },
@@ -1730,6 +1736,139 @@
                 </article>`).join('');
         }
 
+
+        // Área do Professor — autenticação e autorização verificadas no Supabase.
+        const SUPABASE_URL = 'https://yqkouvoncoxmwxvkjmyp.supabase.co';
+        const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_T7u6dTGWoE586hW9EYk1Ew_59krsbm3';
+        const professorSupabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+
+        function escaparTextoProfessor(valor) {
+            return String(valor ?? '').replace(/[&<>"']/g, caractere => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            })[caractere]);
+        }
+
+        function mostrarAreaProfessor(botaoElemento) {
+            requisicaoAtual++;
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            if (botaoElemento) botaoElemento.classList.add('ativo');
+            const container = document.getElementById('app-container');
+            container.setAttribute('aria-busy', 'false');
+            container.innerHTML = `
+                <section class="conteudo-wrapper fontes-pagina area-professor" aria-labelledby="titulo-area-professor">
+                    <h2 id="titulo-area-professor">Área do Professor</h2>
+                    <p class="fontes-intro">Ambiente reservado para docentes autorizados. Entre com o e-mail e a senha cadastrados no sistema.</p>
+                    <form id="form-login-professor" class="professor-login" autocomplete="on">
+                        <label class="ficha-campo" for="professor-email">E-mail institucional ou cadastrado
+                            <input id="professor-email" name="email" type="email" autocomplete="username" required>
+                        </label>
+                        <label class="ficha-campo" for="professor-senha">Senha
+                            <input id="professor-senha" name="password" type="password" autocomplete="current-password" required>
+                        </label>
+                        <div class="ficha-acoes">
+                            <button class="ficha-botao-principal" type="submit">Entrar na Área do Professor</button>
+                        </div>
+                        <p id="professor-status" class="ficha-aviso" role="status" aria-live="polite"></p>
+                    </form>
+                    <div id="professor-conteudo" hidden></div>
+                </section>`;
+            document.getElementById('form-login-professor').addEventListener('submit', entrarAreaProfessor);
+            verificarSessaoProfessor();
+        }
+
+        async function verificarPermissaoProfessor(usuario) {
+            const { data, error } = await professorSupabase
+                .from('professor_access')
+                .select('role,is_active')
+                .eq('user_id', usuario.id)
+                .eq('is_active', true)
+                .maybeSingle();
+            if (error) throw error;
+            if (!data) throw new Error('Esta conta não possui autorização ativa para a Área do Professor.');
+            return data;
+        }
+
+        async function carregarConteudoProfessor(usuario) {
+            const status = document.getElementById('professor-status');
+            const area = document.getElementById('professor-conteudo');
+            if (!area || !status) return;
+            status.textContent = 'Acesso confirmado. Carregando materiais reservados...';
+            const [recursos, gabaritos] = await Promise.all([
+                professorSupabase.from('teacher_resources').select('id,title,resource_type,content').order('created_at', { ascending: false }),
+                professorSupabase.from('answer_keys').select('id,module_slug,event_id,activity_title,expected_answers,correction_guidance,rubric').order('created_at', { ascending: false })
+            ]);
+            if (recursos.error) throw recursos.error;
+            if (gabaritos.error) throw gabaritos.error;
+            area.hidden = false;
+            area.innerHTML = `
+                <div class="guia-professor">
+                    <h3>Bem-vindo(a), ${escaparTextoProfessor(usuario.email)}</h3>
+                    <p>Seu acesso foi validado pelo Supabase. Os materiais abaixo são carregados somente após a autorização da conta.</p>
+                    <div class="ficha-acoes"><button class="ficha-botao-secundario" type="button" id="professor-sair">Sair</button></div>
+                    <h3>Materiais de apoio</h3>
+                    <div id="professor-recursos"></div>
+                    <h3>Gabaritos e orientações de correção</h3>
+                    <div id="professor-gabaritos"></div>
+                </div>`;
+            const recursosEl = document.getElementById('professor-recursos');
+            const gabaritosEl = document.getElementById('professor-gabaritos');
+            recursosEl.innerHTML = recursos.data.length ? recursos.data.map(item => `
+                <details class="guia-professor-bloco">
+                    <summary>${escaparTextoProfessor(item.title)}</summary>
+                    <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.content, null, 2))}</pre>
+                </details>`).join('') : '<p>Nenhum material reservado foi cadastrado ainda.</p>';
+            gabaritosEl.innerHTML = gabaritos.data.length ? gabaritos.data.map(item => `
+                <details class="guia-professor-bloco">
+                    <summary>${escaparTextoProfessor(item.activity_title || item.event_id || 'Gabarito')}</summary>
+                    <p><strong>Módulo:</strong> ${escaparTextoProfessor(item.module_slug)}</p>
+                    <p><strong>Respostas esperadas</strong></p>
+                    <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.expected_answers, null, 2))}</pre>
+                    <p><strong>Orientações de correção</strong></p>
+                    <pre class="professor-json">${escaparTextoProfessor(item.correction_guidance)}</pre>
+                    <p><strong>Rubrica</strong></p>
+                    <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.rubric, null, 2))}</pre>
+                </details>`).join('') : '<p>Os gabaritos serão cadastrados nesta área protegida.</p>';
+            document.getElementById('professor-sair').addEventListener('click', async () => {
+                await professorSupabase.auth.signOut();
+                mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
+            });
+            status.textContent = 'Acesso autorizado.';
+        }
+
+        async function entrarAreaProfessor(evento) {
+            evento.preventDefault();
+            const status = document.getElementById('professor-status');
+            const botao = evento.currentTarget.querySelector('button[type="submit"]');
+            const email = document.getElementById('professor-email').value.trim();
+            const password = document.getElementById('professor-senha').value;
+            status.textContent = 'Verificando acesso...';
+            botao.disabled = true;
+            try {
+                const { data, error } = await professorSupabase.auth.signInWithPassword({ email, password });
+                if (error) throw error;
+                await verificarPermissaoProfessor(data.user);
+                await carregarConteudoProfessor(data.user);
+            } catch (erro) {
+                await professorSupabase.auth.signOut();
+                status.textContent = erro.message || 'Não foi possível validar o acesso.';
+            } finally {
+                botao.disabled = false;
+            }
+        }
+
+        async function verificarSessaoProfessor() {
+            const status = document.getElementById('professor-status');
+            try {
+                const { data: { session } } = await professorSupabase.auth.getSession();
+                if (!session) return;
+                await verificarPermissaoProfessor(session.user);
+                await carregarConteudoProfessor(session.user);
+            } catch (erro) {
+                await professorSupabase.auth.signOut();
+                if (status) status.textContent = erro.message || 'Entre com uma conta de professor autorizada.';
+            }
+        }
+
         function mostrarFontesHistoricas(botaoElemento) {
             requisicaoAtual++;
             document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
@@ -1758,149 +1897,6 @@
                         <p class="fontes-intro">Consulte documentos originais e registros oficiais relacionados a temas estudados nos módulos do HistoryWeb. Observe a linguagem da época, quem produziu o documento e quais grupos ou experiências não aparecem nele.</p>
                         <div id="lista-documentos-historicos" class="fontes-lista"></div>
                     </section>
-                    <section class="guia-professor" aria-labelledby="titulo-guia-professor">
-                        <h3 id="titulo-guia-professor">Área do Professor — como trabalhar as fontes</h3>
-                        <p>Este roteiro apoia o planejamento de aulas com os documentos e as atividades de investigação do HistoryWeb. O professor pode selecionar uma fonte de acordo com o conteúdo em estudo e ajustar a complexidade das questões à turma.</p>
-                        <details class="guia-professor-bloco">
-                            <summary>1. Objetivos de aprendizagem</summary>
-                            <ul>
-                                <li>Reconhecer documentos como vestígios produzidos em contextos históricos específicos.</li>
-                                <li>Identificar autoria, data, finalidade, público e condições de produção.</li>
-                                <li>Analisar perspectivas, interesses, limites e silêncios de uma fonte.</li>
-                                <li>Construir interpretações apoiadas em evidências e comparação documental.</li>
-                            </ul>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>2. Preparação antes da aula</summary>
-                            <ol>
-                                <li>Escolha um documento relacionado ao conteúdo que a turma está estudando.</li>
-                                <li>Leia previamente o documento e a contextualização apresentada no HistoryWeb.</li>
-                                <li>Verifique se o link institucional está acessível e prepare uma alternativa caso a conexão falhe.</li>
-                                <li>Selecione trechos curtos ou imagens legíveis quando o documento for extenso.</li>
-                                <li>Planeje como os estudantes registrarão as evidências: caderno, folha ou produção digital.</li>
-                            </ol>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>3. Sugestão de aula — 50 minutos</summary>
-                            <ol>
-                                <li><strong>Problematização (5 min):</strong> apresente uma pergunta histórica que desperte curiosidade.</li>
-                                <li><strong>Contextualização (10 min):</strong> situe o documento no tempo, no espaço e nas disputas do período, sem antecipar todas as conclusões.</li>
-                                <li><strong>Investigação (15 min):</strong> organize duplas ou grupos para responder às cinco questões da atividade vinculada à fonte.</li>
-                                <li><strong>Socialização (15 min):</strong> compare interpretações e peça que os grupos indiquem as evidências usadas.</li>
-                                <li><strong>Síntese (5 min):</strong> retome a pergunta inicial e registre o que a fonte permite afirmar e o que permanece em aberto.</li>
-                            </ol>
-                            <p class="guia-professor-nota">O tempo é uma referência flexível: a atividade também pode ser distribuída em mais de uma aula.</p>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>4. Mediação e inclusão</summary>
-                            <ul>
-                                <li>Antecipe vocabulário histórico e explique termos jurídicos ou políticos pouco familiares.</li>
-                                <li>Ofereça leitura compartilhada, fonte ampliada, áudio ou transcrição quando disponíveis e adequados.</li>
-                                <li>Divida documentos extensos em trechos e forneça perguntas-guia sem entregar a interpretação pronta.</li>
-                                <li>Permita diferentes formas de registro — texto, exposição oral ou esquema — mantendo a exigência de justificar as conclusões com evidências.</li>
-                                <li>Evite tratar o silêncio de uma fonte como prova automática; convide a turma a investigar por que determinados grupos não aparecem no registro.</li>
-                            </ul>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>5. Critérios para avaliar a atividade</summary>
-                            <div class="criterios-avaliacao">
-                                <div><strong>Identificação e contexto</strong><span>Reconhece autoria, data, finalidade e contexto de produção.</span></div>
-                                <div><strong>Leitura crítica</strong><span>Percebe perspectivas, interesses, limites e ausências sem anacronismos simplificadores.</span></div>
-                                <div><strong>Uso de evidências</strong><span>Aponta elementos concretos do documento e os relaciona à interpretação.</span></div>
-                                <div><strong>Argumentação</strong><span>Apresenta conclusão coerente, distingue informação de inferência e considera outras fontes.</span></div>
-                            </div>
-                            <p class="guia-professor-nota">Sugestão de devolutiva: destaque uma evidência bem utilizada e indique uma pergunta que ajude o estudante a aprofundar sua análise.</p>
-                        </details>
-                        <details class="guia-professor-bloco">
-                            <summary>6. Perguntas para o fechamento da aula</summary>
-                            <ul>
-                                <li>O que conseguimos afirmar com segurança a partir desta fonte?</li>
-                                <li>Que informação ainda precisamos buscar em outros registros?</li>
-                                <li>Como a interpretação muda quando comparamos documentos produzidos por grupos diferentes?</li>
-                            </ul>
-                        </details>
-                    
-                        <section class="ficha-acompanhamento" aria-labelledby="titulo-ficha-acompanhamento">
-                            <h4 id="titulo-ficha-acompanhamento">Ficha de acompanhamento da aprendizagem</h4>
-                            <p class="ficha-intro">Use esta ficha para registrar evidências de uma atividade e planejar a próxima intervenção pedagógica. Os níveis são descritivos: não representam nota automática nem comparação entre estudantes.</p>
-                            <form id="form-ficha-acompanhamento" onsubmit="return false;">
-                                <div class="ficha-form-grid">
-                                    <label class="ficha-campo" for="ficha-turma">Turma / série
-                                        <input id="ficha-turma" name="turma" type="text" maxlength="60" autocomplete="off">
-                                    </label>
-                                    <label class="ficha-campo" for="ficha-estudante">Estudante (prefira código ou iniciais)
-                                        <input id="ficha-estudante" name="estudante" type="text" maxlength="40" autocomplete="off">
-                                    </label>
-                                    <label class="ficha-campo" for="ficha-data">Data da atividade
-                                        <input id="ficha-data" name="data" type="date">
-                                    </label>
-                                    <label class="ficha-campo" for="ficha-tema">Atividade / tema estudado
-                                        <input id="ficha-tema" name="tema" type="text" maxlength="100" autocomplete="off">
-                                    </label>
-                                </div>
-
-                                <fieldset class="ficha-rubrica">
-                                    <legend>Critérios de observação</legend>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-contexto"><strong>1. Identificação e contextualização</strong>
-                                            <span>Reconhece autoria, data, finalidade e contexto de produção da fonte ou do acontecimento.</span>
-                                        </label>
-                                        <select id="ficha-contexto" name="contextualizacao">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-leitura"><strong>2. Leitura crítica</strong>
-                                            <span>Identifica perspectivas, interesses, limites e ausências nas fontes e narrativas.</span>
-                                        </label>
-                                        <select id="ficha-leitura" name="leitura">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-evidencias"><strong>3. Uso de evidências</strong>
-                                            <span>Utiliza informações concretas da fonte ou do conteúdo para sustentar a interpretação.</span>
-                                        </label>
-                                        <select id="ficha-evidencias" name="evidencias">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                    <div class="ficha-criterio">
-                                        <label for="ficha-argumentacao"><strong>4. Argumentação</strong>
-                                            <span>Apresenta conclusão coerente e distingue informação, inferência e opinião.</span>
-                                        </label>
-                                        <select id="ficha-argumentacao" name="argumentacao">
-                                            <option value="">Não observado</option>
-                                            <option>Consolidado</option>
-                                            <option>Em desenvolvimento</option>
-                                            <option>Precisa de mediação</option>
-                                        </select>
-                                    </div>
-                                </fieldset>
-
-                                <label class="ficha-campo ficha-campo-amplo" for="ficha-evidencia-observada">Evidências observadas / avanços
-                                    <textarea id="ficha-evidencia-observada" name="evidencias-observadas" rows="3" maxlength="1200" placeholder="Registre uma fala, argumento, comparação ou trecho utilizado pelo estudante."></textarea>
-                                </label>
-                                <label class="ficha-campo ficha-campo-amplo" for="ficha-proximo-passo">Próximo passo pedagógico / devolutiva
-                                    <textarea id="ficha-proximo-passo" name="proximo-passo" rows="3" maxlength="1200" placeholder="Indique uma orientação, retomada de conteúdo ou oportunidade de aprofundamento."></textarea>
-                                </label>
-                                <p class="ficha-aviso">Privacidade: esta ficha não é enviada nem salva pelo HistoryWeb. Imprima ou salve em PDF antes de sair da página. Evite registrar dados pessoais sensíveis e siga as orientações de proteção de dados da escola.</p>
-                                <div class="ficha-acoes">
-                                    <button type="button" class="ficha-botao-principal" onclick="window.print()">Imprimir ficha / salvar em PDF</button>
-                                    <button type="reset" class="ficha-botao-secundario">Limpar campos</button>
-                                </div>
-                            </form>
-                        </section>
-</section>
                     <section class="fontes-metodo" aria-labelledby="titulo-analise-fonte">
                         <h3 id="titulo-analise-fonte">Como analisar um documento histórico?</h3>
                         <ol>
