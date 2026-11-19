@@ -1104,9 +1104,9 @@
         }
 
         function criarPerguntasOrientadoras(item) {
-            const titulo = escaparHTML(item.titulo_principal || 'este processo histórico');
-            const tema = escaparHTML(item.tema || 'o tema estudado');
-            const sociedades = escaparHTML(item.sociedades_envolvidas || 'os grupos envolvidos');
+            const titulo = item.titulo_principal || 'este processo histórico';
+            const tema = item.tema || 'o tema estudado';
+            const sociedades = item.sociedades_envolvidas || 'os grupos envolvidos';
             const periodo = `${formatarAno(item.ano_inicio)} a ${formatarAno(item.ano_fim)}`;
 
             const perguntas = [
