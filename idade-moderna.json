@@ -318,30 +318,30 @@
     "local": "Inglaterra",
     "sociedades_envolvidas": "Monarquia Inglesa, Parlamento, Puritana/Burguesia e Guilherme de Orange",
     "tema": "Fim do Absolutismo Inglês, Guerra Civil, República de Cromwell e Declaração de Direitos (Bill of Rights)",
-    "contexto": "Conflitos políticos e religiosos entre a Coroa inglesa, que tentava impor o absolutismo, e o Parlamento, que defendia seus privilégios e limites ao poder real.",
+    "contexto": "Entre as décadas de 1640 e 1680, conflitos entre a monarquia Stuart e o Parlamento envolveram disputas sobre tributação, religião, prerrogativas reais e autoridade política. As guerras civis, a experiência republicana e a Revolução de 1688–1689 transformaram a relação entre Coroa e Parlamento, mas não criaram de uma só vez uma democracia moderna.",
     "antecedentes": [
-      "Tradição parlamentar histórica inglesa (Magna Carta de 1215).",
+      "A Magna Carta de 1215 e o desenvolvimento posterior de instituições representativas constituíam antecedentes importantes, mas não significavam que a Inglaterra já fosse uma monarquia parlamentar moderna.",
       "Ascensão da dinastia Stuart e conflitos sobre impostos e religião."
     ],
     "causas": {
-      "politicas": "Tentativa dos reis Carlos I e Jaime II de governar sem o Parlamento e impor tendências absolutistas.",
+      "politicas": "Conflitos sobre prerrogativas reais, dissolução e convocação do Parlamento, tributação e governo sem consentimento parlamentar, especialmente durante os reinados de Carlos I e Jaime II.",
       "economicas": "Disputas sobre a criação arbitrária de taxas e tributos comerciais sem autorização parlamentar.",
-      "sociais": "Ascensão da burguesia puritana e parlamentar, exigindo maior participação nas decisões do reino.",
-      "religiosas": "Conflitos entre anglicanos defensores do rei, puritanos e católicos.",
+      "sociais": "Interesses divergentes entre proprietários rurais, grupos mercantis, setores urbanos e diferentes comunidades políticas e religiosas; não se tratou apenas de uma burguesia unificada contra a monarquia.",
+      "religiosas": "Conflitos entre anglicanos, puritanos, presbiterianos e católicos, relacionados também às disputas sobre a autoridade do rei e a organização das igrejas.",
       "culturais": "Defesa de direitos civis tradicionais ingleses contra a tirania monárquica.",
       "territoriais": "Controle político e militar sobre a Inglaterra, Escócia e Irlanda.",
       "tecnologias": "Organização do Exército de Novo Modelo (New Model Army) por Oliver Cromwell."
     },
-    "resumo_card": "As Revoluções Inglesas e a Revolução Gloriosa de 1688 limitaram o poder real, fortaleceram o Parlamento e inauguraram a monarquia constitucional na Inglaterra.",
-    "desenvolvimento": "A crise gerou a Guerra Civil (1642–1649), a execução do rei Carlos I e a proclamação da República por Oliver Cromwell. Anos mais tarde, a instabilidade retornou até que, na Revolução Gloriosa de 1688, Jaime II foi deposto sem derramamento de sangue e substituído por Guilherme de Orange, que assinou a Declaração de Direitos (*Bill of Rights*), subordinando o rei ao Parlamento.",
+    "resumo_card": "As Revoluções Inglesas do século XVII e a mudança de regime de 1688–1689 limitaram prerrogativas da Coroa e fortaleceram o Parlamento. O processo foi marcado por guerras, república, restauração monárquica e disputas, e não instaurou imediatamente uma democracia universal.",
+    "desenvolvimento": "A crise entre Carlos I e o Parlamento contribuiu para as guerras civis iniciadas em 1642. Após a vitória das forças parlamentares, Carlos I foi executado em 1649 e a monarquia foi abolida, dando lugar à Commonwealth; mais tarde, Oliver Cromwell governou como Lorde Protetor (1653–1658), em um regime de forte concentração de poder. A monarquia foi restaurada em 1660. Em 1688, Jaime II foi deposto durante a chamada Revolução Gloriosa, em meio à intervenção militar de Guilherme de Orange e a conflitos que não foram inteiramente pacíficos em todos os territórios. Guilherme e Maria assumiram o trono, e a Declaração de Direitos de 1689 estabeleceu limites importantes à Coroa e reforçou o papel do Parlamento. A construção do sistema parlamentar prosseguiu em etapas posteriores.",
     "personagens": [
       "Carlos I: Rei inglês decapitado durante a Guerra Civil em 1649.",
-      "Oliver Cromwell: Líder puritano e chefe da República Inglesa (Protetorado).",
-      "Guilherme de Orange: Príncipe holandês que assumiu o trono inglês após a Revolução Gloriosa."
+      "Oliver Cromwell: Comandante parlamentar que se tornou Lorde Protetor; seu governo combinou apoio militar e concentração autoritária de poder.",
+      "Guilherme de Orange: Governante neerlandês que invadiu a Inglaterra em 1688 e assumiu o trono com Maria II, após a deposição de Jaime II."
     ],
     "grupos_envolvidos": [
-      "Parlamentares (Cabeças-Redondas)",
-      "Realistas (Cavaleiros)",
+      "Forças parlamentares, compostas por diferentes correntes políticas e religiosas, cujas alianças e objetivos mudaram ao longo das guerras.",
+      "Realistas, defensores de Carlos I e da monarquia, também diversos em suas motivações e posições religiosas.",
       "Burguesia Comercial e Financeira"
     ],
     "interesses_em_disputa": [
@@ -353,23 +353,23 @@
       {"ano": 1689, "titulo": "Bill of Rights", "descricao": "Assinatura da Declaração de Direitos que garantiu a supremacia do Parlamento."}
     ],
     "consequencias_imediatas": [
-      "Fim definitivo do absolutismo na Inglaterra e instauração da monarquia parlamentar constitucional.",
-      "Garantia de liberdades individuais básicas e proteção à propriedade privada burguesa."
+      "Limitação de prerrogativas reais e fortalecimento do Parlamento, sem fim instantâneo de toda forma de autoridade monárquica nem implantação imediata de sufrágio amplo.",
+      "A Declaração de Direitos protegeu prerrogativas parlamentares e estabeleceu limites ao monarca; não instituiu direitos políticos universais nem igualdade social."
     ],
     "consequencias_longo_prazo": [
-      "Estabilidade institucional favorável ao acúmulo de capitais e ao pioneirismo na Revolução Industrial.",
+      "Contribuição para a formação gradual de instituições parlamentares e para mudanças políticas e financeiras posteriores; o Banco da Inglaterra foi fundado em 1694, não como consequência imediata da Revolução de 1688.",
       "Inspiração para as filosofias liberais do Iluminismo europeu."
     ],
     "impactos": {
-      "politicos": "Transição estrutural do poder absoluto monárquico para a soberania representativa parlamentar.",
-      "economicos": "Criação do Banco da Inglaterra e consolidação de leis comerciais estáveis.",
+      "politicos": "Fortalecimento da autoridade parlamentar e consolidação gradual de uma monarquia limitada por leis e convenções, com participação política restrita a parcelas da população.",
+      "economicos": "Reorganização das finanças públicas e expansão posterior do crédito e das instituições financeiras; o Banco da Inglaterra foi criado em 1694.",
       "sociais": "Fortalecimento político da burguesia e das classes proprietárias urbanas e rurais.",
       "culturais": "Disseminação de ideias sobre contratos sociais e direitos civis fundamentais.",
-      "territoriais": "Centralização sob leis comuns da Grã-Bretanha.",
+      "territoriais": "Transformações na relação entre Inglaterra, Escócia e Irlanda; a formação do Reino da Grã-Bretanha ocorreu somente em 1707, pelos Atos de União entre Inglaterra e Escócia.",
       "ambientais": "Sem impactos ecológicos diretos provocados pelos eventos políticos."
     },
     "continuidade": "Manutenção da figura do monarca como chefe de Estado simbólico e das desigualdades sociais da época.",
-    "rupturas": "Submissão obrigatória do poder executivo real às leis aprovadas pelo Parlamento representativo."
+    "rupturas": "Mudança duradoura no equilíbrio entre Coroa e Parlamento, com limites legais mais fortes ao poder monárquico, embora a monarquia tenha sido restaurada após a experiência republicana."
   },
 
   {
