@@ -554,128 +554,204 @@
   },
   {
     "id": "atualidades-2025",
-    "titulo_principal": "ATUALIDADES (2025): GOVERNO TRUMP 2.0, TARIFAS E AVANÇO DA IA",
+    "titulo_principal": "ATUALIDADES (2025): TENSÕES COMERCIAIS, CONFLITOS E TRANSFORMAÇÕES POLÍTICAS",
     "ano_inicio": 2025,
     "ano_fim": 2025,
     "periodo": "Atualidades Mundiais",
     "local": "Global / Estados Unidos",
-    "sociedades_envolvidas": "Governo dos Estados Unidos, China, União Europeia, Economia Global",
-    "tema": "Segundo Mandato de Donald Trump, Disputas Tarifárias, Guerra Rússia-Ucrânia, Conflitos no Oriente Médio, Economia de IA, Empregos e Automação, Cibersegurança, Transição Energética",
-    "contexto": "O ano de 2025 foi marcado pela posse do segundo mandato de Donald Trump, pela imposição de uma nova agenda tarifária protecionista global, e pela penetração profunda da inteligência artificial na economia produtiva, gerando temores de desemprego tecnológico.",
+    "sociedades_envolvidas": "Estados Unidos, China, União Europeia, Ucrânia, Rússia, Israel, palestinos, países em desenvolvimento e comunidades afetadas por crises",
+    "tema": "Segundo mandato de Donald Trump, tarifas e disputas comerciais, guerra na Ucrânia, guerra em Gaza e cessar-fogo, mudanças na liderança da Igreja Católica, inteligência artificial, COP30 e desigualdades globais",
+    "contexto": "O ano de 2025 foi marcado pelo início do segundo mandato de Donald Trump, por uma escalada de medidas tarifárias dos Estados Unidos e por tensões sobre o futuro do comércio internacional. Conflitos armados e negociações diplomáticas continuaram a produzir impactos humanitários. A morte do papa Francisco e a eleição de Leão XIV, a expansão da inteligência artificial e a realização da COP30 em Belém também marcaram o período.",
     "antecedentes": [
-      "Vitória eleitoral de novembro de 2024 e escalada contínua de capacidades em inteligência artificial."
+      "A eleição presidencial dos Estados Unidos em novembro de 2024 levou à posse de Donald Trump em 20 de janeiro de 2025, inaugurando seu segundo mandato não consecutivo.",
+      "As disputas comerciais entre grandes economias e as críticas às regras multilaterais já existiam antes de 2025; as novas tarifas ampliaram a incerteza e provocaram negociações e respostas de parceiros comerciais.",
+      "A guerra em larga escala na Ucrânia, iniciada em fevereiro de 2022, e a guerra em Gaza, iniciada após os ataques de 7 de outubro de 2023, continuavam sem solução política duradoura.",
+      "A expansão da IA generativa desde 2022 acelerou debates sobre emprego, direitos autorais, segurança, privacidade e regulação."
     ],
     "causas": {
-      "politicas": "Implementação da agenda 'America First' por Donald Trump, com renegociação de tratados e imposição de tarifas alfandegárias.",
-      "economicas": "Guerra comercial reacesa entre os EUA e parceiros comerciais (Europa, China, México, Canadá) através de barreiras protecionistas.",
-      "sociais": "Apreensão generalizada da classe trabalhadora com a substituição de empregos cognitivos e operacionais pela automação.",
-      "religiosas": "Permanência de divisões geopolítico-religiosas em zonas de atrito.",
-      "culturais": "Adaptação cultural forçada de corporações e escolas à nova realidade da IA onipresente.",
-      "territoriais": "Tentativas diplomáticas de cessar-fogo na Ucrânia e impasses territoriais crônicos em Gaza.",
-      "tecnologias": "Consolidação de agentes autônomos de IA e proliferação de ataques a infraestruturas de segurança cibernética."
+      "politicas": "A nova administração dos Estados Unidos adotou uma agenda de tarifas e renegociação de relações comerciais, enquanto guerras e disputas diplomáticas continuaram a desafiar organismos multilaterais.",
+      "economicas": "As medidas tarifárias anunciadas pelos Estados Unidos em abril e as respostas e negociações subsequentes elevaram a incerteza sobre custos, investimentos e cadeias de abastecimento.",
+      "sociais": "Conflitos, deslocamentos, custo de vida e desigualdade de acesso a serviços públicos e tecnologias continuaram a afetar populações de diferentes regiões.",
+      "religiosas": "A morte do papa Francisco e a eleição de Leão XIV tiveram repercussão mundial, enquanto comunidades religiosas diversas participaram de ações humanitárias e debates sociais; não se deve reduzir conflitos geopolíticos a causas religiosas.",
+      "culturais": "A circulação de conteúdos digitais e ferramentas de IA ampliou debates sobre desinformação, autoria, confiança pública e transformações nas práticas de trabalho e aprendizagem.",
+      "territoriais": "A guerra na Ucrânia e a situação na Faixa de Gaza permaneceram centrais. Em Gaza, um cessar-fogo entrou em vigor em janeiro, foi rompido em março com a retomada de operações militares israelenses e um novo acordo começou em outubro, permanecendo frágil.",
+      "tecnologias": "A adoção de sistemas generativos e agentes de IA avançou, enquanto governos e empresas discutiram segurança cibernética, concentração de infraestrutura e governança tecnológica."
     },
-    "resumo_card": "Abrange o início do segundo mandato de Donald Trump em 2025, o aumento de disputas tarifárias internacionais, tentativas de paz na Ucrânia e no Oriente Médio, a IA na economia/educação, ameaças de empregos por automação, cibersegurança e transição energética.",
-    "desenvolvimento": "Com a posse de Donald Trump em janeiro de 2025, a economia global enfrentou turbulências comerciais devido a tarifas agressivas. Em paralelo, intensificaram-se os esforços diplomáticos para negociar termos de paz na Ucrânia e estabilizar o Oriente Médio. No setor corporativo, a inteligência artificial deixou de ser uma novidade para se tornar infraestrutura crítica, provocando debates urgentes sobre segurança cibernética, regulamentação e o impacto no desemprego estrutural.",
+    "resumo_card": "Abrange o segundo mandato de Trump, tarifas e negociações comerciais, guerra na Ucrânia, fases de cessar-fogo e crise humanitária em Gaza, eleição do papa Leão XIV, expansão da IA e COP30 em Belém.",
+    "desenvolvimento": "Donald Trump tomou posse para seu segundo mandato em 20 de janeiro de 2025. Em 2 de abril, anunciou um amplo pacote de tarifas sobre importações, apresentado como política de reciprocidade. As medidas provocaram turbulência nos mercados e abriram uma sequência de negociações, suspensões parciais e acordos comerciais; por isso, não significaram o fim do comércio global, mas uma mudança nas condições e incertezas que o regulam. Na guerra em Gaza, um cessar-fogo iniciado em 19 de janeiro permitiu ampliar temporariamente a entrada de ajuda humanitária, mas as operações militares foram retomadas em março. Um novo acordo entrou em vigor em outubro, sem resolver questões de segurança, governança, reconstrução e direitos palestinos. A guerra da Rússia contra a Ucrânia continuou, enquanto iniciativas diplomáticas não alcançaram uma solução duradoura. Em abril morreu o papa Francisco; em 8 de maio, o conclave elegeu Robert Francis Prevost, que adotou o nome Leão XIV. A inteligência artificial continuou a se integrar a serviços e atividades produtivas, ao mesmo tempo que cresceu a discussão sobre regulação e efeitos no trabalho. Na União Europeia, novas etapas do AI Act passaram a ser aplicadas em fevereiro e agosto. Em novembro, Belém, no Pará, sediou a COP30, que aprovou um pacote com ampliação de apoio financeiro a países em desenvolvimento para enfrentar impactos climáticos e apoiar a transição energética. O ano expôs tensões entre interesses nacionais, cooperação internacional, proteção humanitária e justiça climática.",
     "personagens": [
-      "Donald Trump: Presidente dos Estados Unidos em seu segundo mandato.",
-      "Lideranças diplomáticas mediadoras de conflitos."
+      "Donald Trump, presidente dos Estados Unidos em seu segundo mandato.",
+      "Volodymyr Zelenskyy e Vladimir Putin, envolvidos nas disputas e negociações relativas à guerra na Ucrânia.",
+      "Papa Francisco, falecido em abril, e papa Leão XIV, eleito em maio de 2025.",
+      "Representantes de organismos multilaterais, governos e organizações humanitárias envolvidos em negociações comerciais, conflitos e clima."
     ],
     "grupos_envolvidos": [
-      "Blocos Econômicos Internacionais",
-      "Empresas Globais de Tecnologia",
-      "Sindicatos e Associações Profissionais"
+      "Governos, trabalhadores, consumidores e empresas afetados pelas medidas tarifárias",
+      "Populações civis da Ucrânia e da Faixa de Gaza, pessoas deslocadas e organizações humanitárias",
+      "Comunidades católicas e outras tradições religiosas em diferentes países",
+      "Empresas de tecnologia, pesquisadores, educadores e trabalhadores impactados pela IA",
+      "Países em desenvolvimento, povos e comunidades vulneráveis aos impactos climáticos"
     ],
     "interesses_em_disputa": [
-      "Protecionismo industrial norte-americano versus livre mercado global; soberania de dados e cibersegurança."
+      "Proteção de setores produtivos nacionais e poder de negociação versus previsibilidade comercial e cooperação multilateral.",
+      "Soberania e segurança na Ucrânia, proteção de civis, libertação de reféns e direitos e autodeterminação palestinos.",
+      "Inovação e competitividade em IA versus transparência, privacidade, segurança e proteção de trabalhadores.",
+      "Responsabilidade histórica pelas emissões, financiamento climático e apoio à adaptação de países em desenvolvimento."
     ],
     "linha_do_tempo": [
       {
         "ano": 2025,
-        "titulo": "Posse de Donald Trump (2º Mandato)",
-        "descricao": "Início da nova administração focada em tarifas protecionistas e reviravoltas na política externa."
+        "titulo": "20 de janeiro — posse de Donald Trump",
+        "descricao": "Trump inicia seu segundo mandato como presidente dos Estados Unidos."
       },
       {
         "ano": 2025,
-        "titulo": "IA na Economia Real",
-        "descricao": "Inteligência artificial integrada profundamente na produção corporativa e nas instituições de ensino."
+        "titulo": "19 de janeiro — início de cessar-fogo em Gaza",
+        "descricao": "Entra em vigor um acordo que permite aumento temporário da entrada de ajuda humanitária e trocas de reféns e prisioneiros."
+      },
+      {
+        "ano": 2025,
+        "titulo": "2 de abril — anúncio de tarifas recíprocas",
+        "descricao": "A Casa Branca anuncia um amplo pacote tarifário, seguido por negociações, ajustes e medidas de parceiros comerciais."
+      },
+      {
+        "ano": 2025,
+        "titulo": "21 de abril e 8 de maio — mudança no papado",
+        "descricao": "Morre o papa Francisco; em maio, Robert Francis Prevost é eleito papa e adota o nome Leão XIV."
+      },
+      {
+        "ano": 2025,
+        "titulo": "18 de março — retomada de operações militares em Gaza",
+        "descricao": "Após o colapso da primeira fase do cessar-fogo, operações militares israelenses são retomadas."
+      },
+      {
+        "ano": 2025,
+        "titulo": "10 de outubro — novo cessar-fogo em Gaza",
+        "descricao": "Um novo acordo começa a ser implementado, mas questões políticas, humanitárias e de segurança permanecem sem solução."
+      },
+      {
+        "ano": 2025,
+        "titulo": "Novembro — COP30 em Belém",
+        "descricao": "A conferência climática aprova o Pacote Político de Belém, com decisões sobre apoio a países em desenvolvimento."
       }
     ],
     "consequencias_imediatas": [
-      "Volatilidade nos mercados financeiros internacionais e reações tarifárias de retaliação comercial pela China e Europa.",
-      "Aumento acentuado de alertas e incidentes globais de segurança cibernética."
+      "As tarifas e as respostas comerciais aumentaram a incerteza para empresas, consumidores e governos, ao mesmo tempo que abriram negociações e ajustes entre parceiros.",
+      "Em Gaza, os períodos de cessar-fogo facilitaram a entrada de ajuda, mas a retomada das hostilidades e as restrições mantiveram a emergência humanitária.",
+      "A eleição de Leão XIV iniciou uma nova etapa de liderança na Igreja Católica, após a morte de Francisco.",
+      "A COP30 recolocou o financiamento climático e a adaptação de países vulneráveis no centro das negociações internacionais."
     ],
     "consequencias_longo_prazo": [
-      "Reestruturação completa das cadeias globais de suprimento em blocos econômicos protegidos."
+      "As disputas tarifárias podem acelerar a diversificação de fornecedores e a revisão de estratégias comerciais, mas não permitem afirmar que a globalização ou o comércio internacional tenham terminado.",
+      "A reconstrução de Gaza, a proteção da população civil e a definição de governança política permanecem desafios de longo prazo.",
+      "A aplicação gradual de regras sobre IA influencia empresas e governos, com obrigações e prazos que variam conforme o tipo de sistema e o risco.",
+      "Os compromissos de financiamento climático exigem implementação, recursos e acompanhamento para produzir efeitos concretos."
     ],
     "impactos": {
-      "politicos": "Tensão nas relações multilaterais tradicionais (OMC, tratados climáticos e alianças de defesa).",
-      "economicos": "Pressões inflacionárias induzidas por tarifas alfandegárias protecionistas.",
-      "sociais": "Debates intensos sobre requalificação profissional (reskilling) diante da automação.",
-      "culturais": "Normalização de ferramentas de IA autônomas no cotidiano profissional e acadêmico.",
-      "territoriais": "Esforços diplomáticos voláteis em zonas de guerra na Europa Oriental e Oriente Médio.",
-      "ambientais": "Disputas regulatórias sobre metas de transição energética em meio a interesses industriais."
+      "politicos": "A política comercial dos Estados Unidos tensionou relações com parceiros tradicionais e rivais; conflitos e negociações expuseram limites da diplomacia internacional.",
+      "economicos": "Tarifas, incerteza e negociações comerciais influenciaram decisões de investimento e cadeias de abastecimento; a adoção de IA continuou a transformar setores produtivos.",
+      "sociais": "Conflitos mantiveram deslocamentos e necessidades humanitárias; debates sobre emprego, acesso digital e proteção social ganharam força.",
+      "culturais": "A mudança no papado teve repercussão religiosa e cultural global; ferramentas de IA ampliaram debates sobre autoria, conhecimento e confiança na informação.",
+      "territoriais": "A guerra na Ucrânia e a crise em Gaza continuaram sem solução territorial e política definitiva.",
+      "ambientais": "A COP30 em Belém avançou em decisões de apoio financeiro e transição energética, mas a distância entre compromissos e necessidades climáticas permaneceu significativa."
     },
-    "continuidade": "Incerteza geopolítica e avanço tecnológico exponencial ininterrupto.",
-    "rupturas": "Fim do arranjo comercial globalizado de baixas tarifas que vigorou nas últimas décadas."
+    "continuidade": "Persistência de guerras, desigualdades, disputas entre grandes potências, pressão sobre o sistema multilateral e necessidade de respostas à crise climática.",
+    "rupturas": "A nova rodada de tarifas dos Estados Unidos alterou as expectativas do comércio internacional; a mudança no papado e a COP30 em Belém marcaram, respectivamente, uma transição institucional religiosa e um momento de negociação climática no Brasil."
   },
   {
     "id": "atualidades-2026",
-    "titulo_principal": "ATUALIDADES (2026): O CENÁRIO GLOBAL ATUAL",
+    "titulo_principal": "ATUALIDADES (2026): CONFLITOS, ENERGIA, CLIMA E GOVERNANÇA TECNOLÓGICA",
     "ano_inicio": 2026,
     "ano_fim": 2026,
-    "periodo": "Atualidades Mundiais",
-    "local": "Global",
-    "sociedades_envolvidas": "Comunidade Internacional, Organizações Multilaterais, Superpotências",
-    "tema": "Guerra Rússia-Ucrânia, Segurança Energética Europeia, Conflitos no Oriente Médio, Investimentos em IA, Regulamentação e Segurança da IA, Empregos e Automação, Dívida Pública Global, Inflação, Mudanças Climáticas e Eventos Extremos, Corrida Armamentista",
-    "contexto": "No cenário atual de 2026, o mundo enfrenta uma combinação complexa de pressões macroeconômicas (alta dívida pública e inflação energética), consolidação estratégica da inteligência artificial na economia, persistência de conflitos na Ucrânia e no Oriente Médio, e o agravamento das crises climáticas e geopolíticas.",
+    "periodo": "Atualidades Mundiais — panorama até 19 de novembro de 2026",
+    "local": "Global / Oriente Médio / Europa / Ásia",
+    "sociedades_envolvidas": "Populações afetadas por conflitos, governos, organizações multilaterais, consumidores, trabalhadores e comunidades vulneráveis a riscos climáticos",
+    "tema": "Conflitos no Oriente Médio e impactos no Estreito de Ormuz, guerra na Ucrânia, segurança energética, economia global, inteligência artificial, regulação tecnológica, mudanças climáticas e cooperação internacional",
+    "contexto": "Este registro apresenta um panorama provisório do mundo até 19 de novembro de 2026. Conflitos no Oriente Médio e perturbações na navegação pelo Estreito de Ormuz voltaram a colocar a segurança energética no centro das preocupações internacionais. Ao mesmo tempo, a economia global enfrentou riscos ligados a tensões comerciais, dívida pública e inflação; a inteligência artificial avançou sob novas regras; e indicadores climáticos apontaram a continuidade de temperaturas excepcionalmente elevadas.",
     "antecedentes": [
-      "Acúmulo de crises sanitárias, climáticas e comerciais da primeira metade da década de 2020."
+      "A guerra em larga escala na Ucrânia desde 2022 e os conflitos recorrentes no Oriente Médio mantiveram tensões sobre segurança, soberania, rotas comerciais e abastecimento energético.",
+      "As disputas comerciais e a reorganização das cadeias produtivas desde 2025 aumentaram a atenção à resiliência econômica e à dependência de fornecedores estratégicos.",
+      "A rápida expansão da inteligência artificial elevou a demanda por chips, centros de dados, eletricidade e infraestrutura de telecomunicações, além de ampliar debates sobre riscos e regulação.",
+      "O aquecimento global acumulado e a elevação do nível do mar aumentaram a exposição de comunidades a ondas de calor, enchentes, secas e outros eventos extremos."
     ],
     "causas": {
-      "politicas": "Aumento das tensões geopolíticas globais, gerando preocupações reais com uma nova corrida armamentista entre potências.",
-      "economicas": "Dívida pública soberana elevada em várias nações, custos de energia persistentes e inflação estrutural.",
-      "sociais": "Insegurança trabalhista generalizada diante da automação cognitiva em massa e desafios para o futuro do trabalho.",
-      "religiosas": "Permanência de fraturas sectárias em zonas de atrito internacional.",
-      "culturais": "Adaptação social definitiva à dependência de ecossistemas digitais hiperconectados.",
-      "territoriais": "Disputas ferozes por energia, tecnologia de ponta e recursos minerais estratégicos (metais raros, semicondutores).",
-      "tecnologias": "Posicionamento da inteligência artificial como ativo de segurança nacional e pilar estratégico da economia mundial."
+      "politicas": "Conflitos regionais, rivalidades entre potências e dificuldades de coordenação diplomática afetam a segurança internacional e a capacidade de resposta coletiva.",
+      "economicas": "Tensões geopolíticas e interrupções no transporte de energia pressionam mercados; o FMI apontou riscos de crescimento mais lento, inflação e vulnerabilidades fiscais em seu cenário de outubro de 2026.",
+      "sociais": "O custo de vida, os deslocamentos forçados, as desigualdades no acesso à energia e à tecnologia e a exposição desigual a eventos climáticos afetam grupos sociais de maneira diferente.",
+      "religiosas": "Identidades e instituições religiosas participam de contextos políticos diversos, mas os conflitos contemporâneos não podem ser explicados por uma causa religiosa única.",
+      "culturais": "A circulação de informação digital, conteúdos sintéticos e sistemas automatizados desafia a confiança pública, a privacidade e a formação crítica.",
+      "territoriais": "A importância estratégica de rotas como o Estreito de Ormuz demonstra como conflitos localizados podem afetar a circulação internacional de petróleo, gás e mercadorias.",
+      "tecnologias": "A IA tornou-se tema de competitividade econômica e segurança nacional, exigindo políticas sobre transparência, proteção de dados, segurança cibernética e responsabilidade."
     },
-    "resumo_card": "O cenário de 2026 abrange a continuidade da guerra Rússia-Ucrânia com ataques à infraestrutura, segurança energética na Europa, reflexos econômicos dos conflitos no Oriente Médio, investimentos recordes em IA, debates de regulamentação e segurança da IA, impacto em empregos, alta da dívida pública e inflação, mudanças climáticas extremas, disputas comerciais e tecnológicas, segurança cibernética, reorganização de alianças internacionais e o papel das organizações multilaterais.",
-    "desenvolvimento": "Atualmente, em 2026, a comunidade internacional navega por um momento de profundas incertezas estruturais. A guerra na Ucrânia prossegue com impactos severos na infraestrutura e na segurança energética europeia, enquanto os desdobramentos no Oriente Médio continuam balançando os mercados de petróleo e energia. No plano econômico, governos lidam com dívidas públicas elevadas e inflação persistente. Paralelamente, a inteligência artificial assumiu uma posição absolutamente estratégica na economia mundial, exigindo marcos regulatórios urgentes para mitigar riscos de segurança cibernética e o desemprego tecnológico. Em meio a eventos climáticos extremos frequentes e disputas por recursos estratégicos, as organizações multilaterais enfrentam o desafio supremo de manter a cooperação global.",
+    "resumo_card": "Panorama até 19/11/2026: conflitos no Oriente Médio e impactos no Estreito de Ormuz, guerra na Ucrânia, riscos econômicos, regras para IA, temperaturas excepcionais e desafios à cooperação internacional.",
+    "desenvolvimento": "Até 19 de novembro de 2026, o cenário internacional continuava marcado por conflitos e instabilidade. A Agência Internacional de Energia publicou nesse dia o World Energy Outlook 2026 e destacou que o conflito no Oriente Médio e as perturbações na navegação pelo Estreito de Ormuz estavam afetando mercados de energia e levantando questões sobre segurança, preços e abastecimento. A guerra na Ucrânia também permanecia como fator de tensão para a segurança europeia e as relações internacionais. No campo econômico, o FMI projetou em outubro crescimento mundial de 3,1% em 2026 e inflação global de 4,7%, ressaltando riscos de escalada de conflitos, novas tensões comerciais e vulnerabilidades fiscais; são projeções, não resultados finais do ano. Na União Europeia, a aplicação do AI Act avançou: em 2 de agosto de 2026 começaram a ser aplicadas a maioria das regras previstas para essa etapa, incluindo obrigações de transparência e mecanismos de fiscalização, enquanto outras disposições têm prazos posteriores. Na área climática, a Organização Meteorológica Mundial informou em 9 de novembro que 2026 estava entre os quatro anos mais quentes já registrados. A média global de janeiro a setembro foi estimada em cerca de 1,47 °C acima da média pré-industrial, dado provisório que não representa ainda o balanço definitivo do ano. A OMM também destacou recordes de calor oceânico e nível do mar e os riscos associados ao fortalecimento do El Niño. Como o ano ainda não terminou, acontecimentos, estatísticas e negociações posteriores a 19 de novembro não fazem parte deste panorama.",
     "personagens": [
-      "Lideranças políticas e econômicas globais do momento atual."
+      "Representantes de governos e organismos multilaterais envolvidos em negociações sobre segurança, energia e economia.",
+      "Especialistas da Agência Internacional de Energia, do Fundo Monetário Internacional e da Organização Meteorológica Mundial.",
+      "Reguladores, pesquisadores, trabalhadores e empresas envolvidos na implementação e no debate sobre inteligência artificial."
     ],
     "grupos_envolvidos": [
-      "Organizações Internacionais (ONU, FMI, OMC)",
-      "Blocos Geopolíticos em Reorganização",
-      "Empresas Globais de Alta Tecnologia e Energia"
+      "Populações civis afetadas por conflitos e deslocamentos",
+      "Países importadores e exportadores de energia e setores dependentes de rotas marítimas",
+      "Governos, bancos centrais e organismos econômicos multilaterais",
+      "Empresas de tecnologia, trabalhadores, pesquisadores e órgãos reguladores",
+      "Comunidades expostas a ondas de calor, elevação do nível do mar e eventos extremos"
     ],
     "interesses_em_disputa": [
-      "Estabilidade macroeconômica global, soberania tecnológica, segurança energética e controle de recursos estratégicos."
+      "Segurança de populações e soberania nacional versus objetivos militares e estratégicos de atores envolvidos em conflitos.",
+      "Segurança energética e liberdade de navegação versus riscos de bloqueios, ataques e escaladas regionais.",
+      "Inovação e competitividade em inteligência artificial versus proteção de direitos, segurança e transparência.",
+      "Estabilidade econômica e controle da inflação versus necessidades de investimento público, proteção social e sustentabilidade fiscal.",
+      "Desenvolvimento econômico e uso de recursos naturais versus redução de emissões, adaptação e justiça climática."
     ],
     "linha_do_tempo": [
       {
         "ano": 2026,
-        "titulo": "Cenário Global Contemporâneo",
-        "descricao": "Momento atual marcado por transição energética, hegemonia da IA na economia, riscos de corrida armamentista e desafios climáticos extremos."
+        "titulo": "Fevereiro — atualização de medidas comerciais dos Estados Unidos",
+        "descricao": "O governo norte-americano altera determinadas medidas tarifárias e regras de importação, mantendo incertezas sobre o ambiente comercial."
+      },
+      {
+        "ano": 2026,
+        "titulo": "2 de agosto — nova etapa de aplicação do AI Act",
+        "descricao": "Começa a aplicação da maioria das regras previstas para essa fase da legislação europeia de inteligência artificial, com obrigações de transparência e fiscalização."
+      },
+      {
+        "ano": 2026,
+        "titulo": "Outubro — projeções econômicas do FMI",
+        "descricao": "O World Economic Outlook de outubro projeta crescimento mundial de 3,1% e inflação global de 4,7% para 2026, com riscos associados a conflitos e tensões comerciais."
+      },
+      {
+        "ano": 2026,
+        "titulo": "9 de novembro — atualização climática da OMM",
+        "descricao": "A Organização Meteorológica Mundial informa que 2026 está entre os quatro anos mais quentes já registrados e divulga dados provisórios de janeiro a setembro."
+      },
+      {
+        "ano": 2026,
+        "titulo": "19 de novembro — relatório mundial de energia",
+        "descricao": "A Agência Internacional de Energia publica o World Energy Outlook 2026, destacando efeitos do conflito no Oriente Médio e das perturbações no Estreito de Ormuz sobre a segurança energética."
       }
     ],
     "consequencias_imediatas": [
-      "Necessidade imperativa de reformas fiscais em governos nacionais e investimento pesado em defesa cibernética e física.",
-      "Intensificação da transição para fontes energéticas alternativas devido à volatilidade crônica dos combustíveis fósseis."
+      "As perturbações na navegação pelo Estreito de Ormuz aumentaram a preocupação com custos, oferta e segurança dos mercados de energia.",
+      "Projeções econômicas do FMI apontaram crescimento global mais lento e inflação mais elevada em 2026, com riscos que podem alterar os resultados finais.",
+      "A aplicação de novas etapas do AI Act ampliou as responsabilidades de provedores e autoridades, sem que todas as regras da legislação já estejam em vigor.",
+      "Dados provisórios da OMM indicaram continuidade do aquecimento excepcional, com impactos sobre oceanos, nível do mar e eventos extremos."
     ],
     "consequencias_longo_prazo": [
-      "Redefinição completa dos equilíbrios de poder e do modelo de civilização digital e automatizada do século XXI."
+      "A segurança energética depende de diversificação de fontes, infraestrutura resiliente, cooperação e redução gradual de vulnerabilidades geopolíticas.",
+      "A regulação da inteligência artificial continuará a ser implementada e debatida, com efeitos sobre empresas, serviços públicos, educação e direitos.",
+      "A adaptação climática exigirá sistemas de alerta, infraestrutura resistente e financiamento, sobretudo para populações e países mais vulneráveis.",
+      "A cooperação internacional será decisiva para enfrentar conflitos, instabilidade econômica, riscos tecnológicos e mudanças ambientais."
     ],
     "impactos": {
-      "politicos": "Enfraquecimento ou forçada reinvenção das organizações internacionais diante das crises sistêmicas.",
-      "economicos": "Pressão inflacionária, custos de energia elevados e controle rigoroso de gastos públicos.",
-      "sociais": "Debates urgentes sobre redes de proteção social e requalificação massiva para o futuro do trabalho.",
-      "culturais": "Imersão total da sociedade em fluxos de inteligência artificial e conectividade digital.",
-      "territoriais": "Disputas acirradas por zonas de influência energética e tecnológica global.",
-      "ambientais": "Gestão de emergências decorrentes de eventos climáticos extremos recorrentes em várias regiões."
+      "politicos": "Conflitos e disputas entre potências pressionam instituições multilaterais e tornam mais difícil construir acordos duradouros.",
+      "economicos": "A instabilidade no Oriente Médio e no transporte pelo Estreito de Ormuz afeta a segurança energética; o FMI projeta crescimento mais lento e inflação global mais elevada em 2026.",
+      "sociais": "Populações afetadas por guerras, custo de vida e eventos climáticos extremos enfrentam riscos desiguais, enquanto a transformação tecnológica modifica ocupações e serviços.",
+      "culturais": "O uso cotidiano de sistemas de IA amplia debates sobre autoria, confiança na informação, privacidade e formação crítica.",
+      "territoriais": "Rotas marítimas estratégicas e áreas de conflito evidenciam a ligação entre controle territorial, circulação de mercadorias e segurança energética.",
+      "ambientais": "A OMM registra temperaturas, calor oceânico e nível do mar excepcionalmente elevados, com riscos adicionais associados ao El Niño e a eventos extremos."
     },
-    "continuidade": "Incerteza geopolítica sistêmica e aceleração contínua da inovação técnica global.",
-    "rupturas": "Consolidação definitiva da inteligência artificial como eixo estruturante central da economia e da geopolítica mundial."
+    "continuidade": "Persistência de conflitos armados, desigualdades, rivalidades geopolíticas, vulnerabilidade das cadeias de energia e agravamento dos riscos climáticos.",
+    "rupturas": "A aplicação de novas etapas regulatórias para inteligência artificial e a centralidade da segurança energética diante das perturbações no Estreito de Ormuz marcam mudanças importantes, ainda em desenvolvimento."
   }
 ]
