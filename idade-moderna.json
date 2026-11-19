@@ -381,27 +381,27 @@
     "local": "França e Europa",
     "sociedades_envolvidas": "Filósofos (Iluministas), Burguesia, Monarcas Esclarecidos e Oposição ao Antigo Regime",
     "tema": "Razão, Liberdade Individual, Divisão dos Poderes, Fisiocracia e Enciclopédia",
-    "contexto": "Movimento intelectual do século XVIII que criticou duramente o Antigo Regime (absolutismo, mercantilismo e poder clerical), defendendo o primado da razão, da ciência e dos direitos civis.",
+    "contexto": "Movimento intelectual plural, associado sobretudo ao século XVIII, que valorizou a razão, a crítica, a investigação e a discussão sobre a organização da sociedade e do poder. Desenvolveu-se em diferentes regiões europeias e atlânticas, com debates sobre absolutismo, religião, direitos, economia e conhecimento.",
     "antecedentes": [
-      "Revolução Científica e filosofia empirista (John Locke, René Descartes).",
+      "Debates científicos e filosóficos dos séculos XVII e XVIII, incluindo o empirismo de John Locke, o racionalismo de René Descartes e os avanços da Revolução Científica.",
       "Exemplo prático do parlamentarismo inglês."
     ],
     "causas": {
       "politicas": "Insatisfação generalizada com os abusos do absolutismo monárquico e os privilégios da nobreza.",
-      "economicas": "Críticas burguesas aos monopólios mercantilistas e às traves corporativas feudais na economia.",
+      "economicas": "Críticas a privilégios econômicos, restrições comerciais e práticas mercantilistas; pensadores iluministas apresentaram propostas distintas, incluindo a fisiocracia e o liberalismo econômico.",
       "sociais": "Aspirações da burguesia por igualdade jurídica e fim dos privilégios de berço do Antigo Regime.",
-      "religiosas": "Combate ao fanatismo religioso, à intolerância da Igreja e ao dogmatismo teológico.",
-      "culturais": "Exaltação absoluta da razão humana como luz guia para o progresso da civilização.",
+      "religiosas": "Críticas à intolerância religiosa, ao fanatismo e à autoridade eclesiástica quando limitava a liberdade de pensamento; muitos iluministas defenderam formas diversas de tolerância e de religião, não necessariamente o ateísmo.",
+      "culturais": "Valorização da razão, da observação, da crítica e da possibilidade de aperfeiçoamento das instituições, com diferenças importantes entre os próprios pensadores.",
       "territoriais": "Difusão transnacional de salões literários, panfletos e da Enciclopédia pela Europa.",
       "tecnologias": "Expansão editorial de livros e jornais acessíveis à opinião pública instruída."
     },
-    "resumo_card": "O Iluminismo criticou o absolutismo e os privilégios do Antigo Regime com base na razão, influenciando revoluções burguesas e a reorganização política do Ocidente.",
-    "desenvolvimento": "Surgido na França, o Iluminismo uniu pensadores célebres: Montesquieu propôs a separação dos poderes estatais; Voltaire defendeu a liberdade de expressão e o laicismo; Rousseau teorizou sobre a soberania popular e a igualdade social; e Adam Smith lançou as bases do liberalismo econômico. Suas ideias inspiraram reformas em alguns reinos (Despotismo Esclarecido) e revoluções estruturais.",
+    "resumo_card": "O Iluminismo reuniu correntes de pensamento que questionaram aspectos do Antigo Regime e debateram razão, liberdade, tolerância, direitos e organização do poder. Suas ideias circularam em diferentes sociedades e influenciaram reformas e movimentos políticos.",
+    "desenvolvimento": "O Iluminismo não surgiu apenas na França: formou-se a partir de debates que atravessaram diferentes regiões da Europa e do mundo atlântico. Montesquieu analisou a distribuição e o equilíbrio dos poderes; Voltaire criticou a intolerância e defendeu liberdades civis; Rousseau discutiu soberania popular e vontade geral; e Adam Smith sistematizou críticas a aspectos do mercantilismo e argumentos em favor da liberdade econômica. As ideias iluministas foram diversas e, em alguns casos, contraditórias. Influenciaram reformas promovidas por certos monarcas, debates públicos e revoluções, mas não determinaram sozinhas esses processos.",
     "personagens": [
       "Voltaire: Filósofo francês crítico implacável da intolerância religiosa e do absolutismo.",
-      "Montesquieu: Teórico da divisão dos poderes (Executivo, Legislativo e Judiciário).",
-      "Jean-Jacques Rousseau: Defensor da soberania popular e da democracia direta.",
-      "Adam Smith: Economista escocês fundador do liberalismo econômico clássico."
+      "Montesquieu: Pensador francês que analisou a distribuição dos poderes e defendeu mecanismos para evitar sua concentração.",
+      "Jean-Jacques Rousseau: Filósofo genebrino que elaborou uma teoria da soberania popular e da vontade geral, debatendo as condições de legitimidade política.",
+      "Adam Smith: Filósofo e economista escocês que criticou aspectos do mercantilismo e analisou a divisão do trabalho e os mercados; sua obra contribuiu para a formação da economia política clássica."
     ],
     "grupos_envolvidos": [
       "Intelectualidade Burguesa (Filósofos e Enciclopedistas)",
@@ -415,23 +415,23 @@
       {"ano": 1751, "titulo": "Início da Enciclopédia", "descricao": "Publicação dos primeiros volumes organizados por Diderot e D'Alembert."}
     ],
     "consequencias_imediatas": [
-      "Formulação teórica que fundamentou a Independência dos EUA e a Revolução Francesa.",
+      "Contribuição para repertórios políticos mobilizados na Independência dos Estados Unidos, na Revolução Francesa e em outras reformas e movimentos, cujas causas também envolveram conflitos e condições locais.",
       "Modernização administrativa superficial em reinos absolutistas (Despotismo Esclarecido)."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação dos Estados liberais democráticos contemporâneos e do livre mercado capitalista.",
+      "Influência sobre constituições, debates de direitos e projetos de reforma política e econômica; os regimes liberais e democráticos se desenvolveram posteriormente de forma desigual e conflituosa.",
       "Secularização dos sistemas educacionais e jurídicos no mundo ocidental."
     ],
     "impactos": {
-      "politicos": "Demolição ideológica do direito divino dos reis e defesa da soberania cidadã.",
+      "politicos": "Questionamento de fundamentos tradicionais do poder e ampliação dos debates sobre soberania, representação, direitos e limites da autoridade política.",
       "economicos": "Ascensão das teorias liberais de livre concorrência e oposição ao pacto colonial rígido.",
-      "sociais": "Defesa da igualdade civil perante a lei e abolição de resquicios de servidão feudal.",
-      "culturais": "Triunfo do Racionalismo e do pensamento crítico secular na educação e na ciência.",
+      "sociais": "Difusão de debates sobre igualdade jurídica e direitos, embora muitas formulações iluministas convivessem com exclusões de mulheres, pessoas escravizadas e grupos colonizados.",
+      "culturais": "Expansão de práticas de crítica, circulação de livros, academias, salões e debates públicos, sem significar o desaparecimento da religião ou das tradições intelectuais anteriores.",
       "territoriais": "Internacionalização das correntes de pensamento burguesas pelo Atlântico.",
       "ambientais": "Foco intelectual no progresso técnico humano, sem pautas ecológicas na época."
     },
     "continuidade": "Permanência de desigualdades sociais profundas e exclusão de minorias e mulheres dos plenos direitos políticos iniciais.",
-    "rupturas": "Rompimento definitivo com a legitimação mística e religiosa do poder político tradicional."
+    "rupturas": "Contestação de fundamentos do absolutismo e de privilégios tradicionais, sem ruptura uniforme ou definitiva com a religião e as instituições do Antigo Regime."
   },
 
   {
