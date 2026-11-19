@@ -2070,7 +2070,6 @@
 
         async function carregarPlanejamentosProfessor(usuario) {
             planoProfessorUsuarioId = usuario.id;
-            planoProfessorAtualId = null;
             const seletor = document.getElementById('plano-salvo');
             if (!seletor) return;
             const { data, error } = await professorSupabase.from('lesson_plans')
