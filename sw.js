@@ -49,10 +49,11 @@ self.addEventListener('fetch', (event) => {
   // Navegação online prioriza a versão publicada; offline usa a última cópia válida.
   if (request.mode === 'navigate') {
     event.respondWith(
-      fetch(request).then((response) => {
+      fetch(new Request(request, { cache: 'no-store' })).then(async (response) => {
         if (response.ok) {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put('./index.html', copy));
+          const cache = await caches.open(CACHE_NAME);
+          await cache.put(new URL('./index.html', self.registration.scope), copy);
         }
         return response;
       }).catch(async () => {
