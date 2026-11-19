@@ -37,11 +37,31 @@
       "Manutenção de privilégios aristocráticos versus consolidação dos direitos liberais burgueses e soberania nacional."
     ],
     "linha_do_tempo": [
-      {"ano": 1789, "titulo": "Revolução Francesa e Declaração de Direitos", "descricao": "Queda da Bastilha e proclamação dos direitos civis."},
-      {"ano": 1792, "titulo": "Proclamação da República", "descricao": "Fim da monarquia constitucional francesa."},
-      {"ano": 1793, "titulo": "Execução de Luís XVI e Período do Terror", "descricao": "Radicalização extrema e governo de exceção."},
-      {"ano": 1804, "titulo": "Império e Código Napoleônico", "descricao": "Napoleão torna-se imperador e consolida o código civil."},
-      {"ano": 1815, "titulo": "Waterloo e Congresso de Viena", "descricao": "Queda definitiva de Napoleão e restauração conservadora."}
+      {
+        "ano": 1789,
+        "titulo": "Revolução Francesa e Declaração de Direitos",
+        "descricao": "Queda da Bastilha e proclamação dos direitos civis."
+      },
+      {
+        "ano": 1792,
+        "titulo": "Proclamação da República",
+        "descricao": "Fim da monarquia constitucional francesa."
+      },
+      {
+        "ano": 1793,
+        "titulo": "Execução de Luís XVI e Período do Terror",
+        "descricao": "Radicalização extrema e governo de exceção."
+      },
+      {
+        "ano": 1804,
+        "titulo": "Império e Código Napoleônico",
+        "descricao": "Napoleão torna-se imperador e consolida o código civil."
+      },
+      {
+        "ano": 1815,
+        "titulo": "Waterloo e Congresso de Viena",
+        "descricao": "Queda definitiva de Napoleão e restauração conservadora."
+      }
     ],
     "consequencias_imediatas": [
       "Tentativa de restauração do Antigo Regime absolutista na Europa pelas potências vencedoras.",
@@ -61,7 +81,6 @@
     "continuidade": "Desigualdades sociais econômicas persistentes apesar da igualdade jurídica formal.",
     "rupturas": "Destruição estrutural das bases jurídicas e sociais do feudalismo europeu remanescente."
   },
-
   {
     "id": "seculo-xix-industrializacao-nacionalismos",
     "titulo_principal": "SÉCULO XIX: INDUSTRIALIZAÇÃO, MOVIMENTOS SOCIAIS E UNIFICAÇÕES",
@@ -73,7 +92,8 @@
     "tema": "Revolução Industrial, Urbanização, Ludismo, Cartismo, Socialismo, Manifesto Comunista, Revoluções de 1848 e Unificações da Itália e Alemanha",
     "contexto": "A industrialização acelerada transformou a paisagem urbana, gerou a classe operária e estimulou ideologias de contestação social, culminando nas revoluções de 1848 e na formação dos Estados modernos italiano e alemão.",
     "antecedentes": [
-      "Acumulação de capitais decorrente do mercantilismo colonial e pioneirismo britânico na tecnologia a vapor."
+      "Industrialização pioneira na Grã-Bretanha, expansão do comércio atlântico, acumulação de capitais, transformações agrárias e desenvolvimento de máquinas e fontes de energia.",
+      "As revoluções liberais e as ideias de soberania nacional contribuíram para questionar privilégios e antigas divisões políticas europeias."
     ],
     "causas": {
       "politicas": "Avanço do liberalismo burguês e pressões populares por reformas políticas e sufrágio universal.",
@@ -85,47 +105,79 @@
       "tecnologias": "Mecanização fabril, ferrovias a vapor e expansão urbana desordenada."
     },
     "resumo_card": "Aborda a Revolução Industrial, o crescimento das fábricas e da urbanização, a formação da classe operária, os movimentos Ludista e Cartismo, o surgimento do socialismo, o Manifesto Comunista de 1848, as revoluções liberais de 1848 e as unificações da Itália e Alemanha até a formação do Império Alemão em 1871.",
-    "desenvolvimento": "Com as fábricas e ferrovias, a urbanização cresceu e formou o proletariado submetido a duras condições. Isso gerou reações como o Ludismo (quebra de máquinas) e o Cartismo (exigências políticas), além do surgimento do socialismo e da publicação do Manifesto Comunista em 1848 — ano de ondas revolucionárias liberais por toda a Europa. Paralelamente, o nacionalismo impulsionou as unificações da Itália e da Alemanha, culminando na formação do Império Alemão em 1871.",
+    "desenvolvimento": "A industrialização, iniciada na Grã-Bretanha no século XVIII, expandiu-se durante o século XIX para outras regiões da Europa e para os Estados Unidos. A mecanização, o uso do carvão e do vapor, a construção de ferrovias e o crescimento das cidades transformaram a produção e as relações de trabalho. A expansão fabril ampliou a riqueza de setores empresariais, mas também submeteu muitos trabalhadores a jornadas longas, baixos salários, ambientes insalubres e trabalho infantil. As respostas foram diversas: o ludismo expressou protestos contra os efeitos da mecanização e das relações de trabalho; o cartismo reivindicou reformas políticas, como ampliação do sufrágio masculino; sindicatos e associações organizaram ações coletivas. Socialistas, anarquistas e outros críticos do capitalismo formularam projetos distintos de transformação social. Em 1848, Karl Marx e Friedrich Engels publicaram o Manifesto Comunista, no contexto de revoluções que reuniram reivindicações liberais, nacionais e sociais, sem constituir um movimento uniforme. O nacionalismo também impulsionou processos de unificação: a Itália foi proclamada reino em 1861, embora a incorporação de Roma só se completasse em 1870; a unificação alemã foi proclamada em 1871 sob liderança prussiana. Industrialização e nacionalismo, portanto, avançaram de formas desiguais e produziram conflitos e mudanças que ultrapassaram a Europa.",
     "personagens": [
-      "Karl Marx e Friedrich Engels: Criadores do socialismo científico e autores do Manifesto Comunista.",
-      "Giuseppe Garibaldi e Conde de Cavour: Artífices da unificação italiana.",
-      "Otto von Bismarck: Chanceler prusiano responsável pela unificação alemã."
+      "Mary Wollstonecraft: pensadora que defendeu a educação e os direitos das mulheres no contexto das transformações políticas modernas.",
+      "Karl Marx e Friedrich Engels: autores do Manifesto Comunista (1848), que analisaram as contradições do capitalismo e a luta de classes.",
+      "Giuseppe Garibaldi e Camillo di Cavour: participantes importantes, com projetos distintos, do processo de unificação italiana.",
+      "Otto von Bismarck: chanceler da Prússia, central na unificação alemã conduzida por guerras e acordos diplomáticos."
     ],
     "grupos_envolvidos": [
-      "Proletariado Industrial",
-      "Burguesia Industrial e Financeira",
-      "Movimentos Operários, Ludistas e Cartistas"
+      "Trabalhadores fabris, artesãos, mineiros, mulheres e crianças submetidos a diferentes formas de exploração do trabalho.",
+      "Empresários industriais, comerciantes, proprietários de terras e setores financeiros.",
+      "Movimentos ludistas, cartistas, sindicatos, associações operárias e correntes socialistas e anarquistas.",
+      "Estados, monarquistas, liberais e movimentos nacionalistas envolvidos nas unificações italiana e alemã."
     ],
     "interesses_em_disputa": [
-      "Direitos trabalhistas e sociais versus exploração capitalista; soberania nacional unificada."
+      "Controle da produção e distribuição da riqueza, condições de trabalho, direitos políticos e organização dos trabalhadores.",
+      "Projetos liberais, socialistas e conservadores, além de disputas sobre soberania, fronteiras e liderança nos processos de unificação nacional."
     ],
     "linha_do_tempo": [
-      {"ano": 1848, "titulo": "Manifesto Comunista e Revoluções Liberais", "descricao": "Publicação marxista e sublevações da 'Primavera dos Povos'."},
-      {"ano": 1871, "titulo": "Formação do Império Alemão", "descricao": "Consolidação da unificação germânica sob liderança prusiana."}
+      {
+        "ano": 1811,
+        "titulo": "Protestos ludistas na Inglaterra",
+        "descricao": "Grupos de trabalhadores destruíram máquinas em protestos contra mudanças nas condições de trabalho e nos meios de subsistência."
+      },
+      {
+        "ano": 1838,
+        "titulo": "Início da mobilização cartista",
+        "descricao": "A Carta do Povo reuniu reivindicações por reformas políticas e ampliação da representação parlamentar."
+      },
+      {
+        "ano": 1848,
+        "titulo": "Manifesto Comunista e revoluções europeias",
+        "descricao": "A publicação do manifesto coincidiu com revoltas de diferentes orientações liberais, nacionais e sociais."
+      },
+      {
+        "ano": 1861,
+        "titulo": "Proclamação do Reino da Itália",
+        "descricao": "A unificação avançou, mas Roma e outras áreas ainda seriam incorporadas posteriormente."
+      },
+      {
+        "ano": 1870,
+        "titulo": "Anexação de Roma à Itália",
+        "descricao": "A tomada de Roma completou uma etapa decisiva da unificação italiana."
+      },
+      {
+        "ano": 1871,
+        "titulo": "Proclamação do Império Alemão",
+        "descricao": "A unificação alemã foi concluída sob liderança prussiana, alterando o equilíbrio de poder europeu."
+      }
     ],
     "consequencias_imediatas": [
-      "Surgimento de leis trabalhistas iniciais e fortalecimento de partidos socialistas e sindicatos na Europa.",
-      "Alteração profunda no equilíbrio de forças geopolíticas continentais com o surgimento da Alemanha unificada."
+      "Expansão da produção industrial, das ferrovias e das cidades, acompanhada por novas formas de disciplina fabril e desigualdades urbanas.",
+      "Fortalecimento de organizações operárias, sindicatos e correntes políticas que passaram a reivindicar direitos sociais e participação política.",
+      "Formação dos Estados italiano e alemão, com mudanças no equilíbrio diplomático e militar europeu."
     ],
     "consequencias_longo_prazo": [
-      "Polarização ideológica mundial entre capitalismo e socialismo ao longo dos séculos XIX e XX."
+      "Ampliação gradual, desigual e conflituosa da legislação trabalhista, da organização sindical e dos direitos políticos em diferentes países.",
+      "Consolidação de movimentos socialistas, comunistas, anarquistas e trabalhistas que influenciaram debates e disputas políticas nos séculos seguintes."
     ],
     "impactos": {
-      "politicos": "Surgimento do Estado de Bem-Estar social embrião e consolidação de democracias representativas liberais.",
-      "economicos": "Industrialização generalizada e expansão do mercado financeiro e fabril.",
-      "sociais": "Divisão social marcante entre burguesia detentora dos meios de produção e classe operária urbana.",
-      "culturais": "Fortalecimento de doutrinas políticas de massa e ideologias nacionalistas exacerbadas.",
-      "territoriais": "Criação de dois novos gigantes estatais centrais: Itália e Alemanha.",
-      "ambientais": "Poluição atmosférica massiva gerada pela queima de carvão mineral e expansão urbana insustentável."
+      "politicos": "Ampliação das disputas por representação, cidadania e direitos sociais; formação de novos Estados nacionais e fortalecimento de governos centralizados.",
+      "economicos": "Expansão do capitalismo industrial, das ferrovias, dos bancos e dos mercados, com concentração empresarial e desigualdade na distribuição da riqueza.",
+      "sociais": "Crescimento do proletariado urbano, migrações internas, conflitos trabalhistas e organização coletiva de trabalhadores, inclusive mulheres e crianças.",
+      "culturais": "Difusão de novas ideias sobre classe, trabalho, nação, progresso e direitos, acompanhada por disputas entre projetos políticos.",
+      "territoriais": "Unificações italiana e alemã e reconfiguração das relações de poder na Europa.",
+      "ambientais": "Aumento da poluição do ar e das águas, exploração intensiva de carvão e matérias-primas e expansão urbana com infraestrutura frequentemente insuficiente."
     },
-    "continuidade": "Exploração do trabalho assalariado e expansão contínua do maquinismo tecnológico.",
-    "rupturas": "Superação das formas artesanais de produção e fim da fragmentação política medieval em Estados centrais europeus."
+    "continuidade": "A industrialização não eliminou desigualdades de classe, gênero e região; formas de exploração e hierarquias sociais persistiram, mesmo com novas leis e organizações.",
+    "rupturas": "A produção mecanizada e a formação de movimentos operários e Estados nacionais transformaram profundamente as relações econômicas, sociais e políticas, sem eliminar imediatamente o artesanato ou as estruturas anteriores."
   },
-
   {
     "id": "americas-independencias-seculo-xix",
     "titulo_principal": "AS AMÉRICAS NO SÉCULO XIX: INDEPENDÊNCIAS E A GUERRA CIVIL AMERICANA",
-    "ano_inicio": 1804,
+    "ano_inicio": 1791,
     "ano_fim": 1865,
     "periodo": "Idade Contemporânea",
     "local": "América Latina e Estados Unidos",
@@ -133,57 +185,102 @@
     "tema": "Independência do Haiti, Emancipação da América Espanhola, Independência do México, Doutrina Monroe, Guerra Civil dos Estados Unidos e Abolição da Escravidão",
     "contexto": "Inspirados pelo Iluminismo e aproveitando a crise das metrópoles ibéricas, os territórios americanos lutaram por suas independências, enquanto os Estados Unidos expandiram-se e resolveram suas fraturas internas em sangrenta guerra civil.",
     "antecedentes": [
-      "Insurreições coloniais reprimidas e o enfraquecimento da Espanha e de Portugal após as guerras napoleônicas."
+      "Circulação de ideias iluministas e experiências das revoluções Americana e Francesa, além da Revolução Haitiana.",
+      "Crise das monarquias ibéricas e invasões napoleônicas, que abriram disputas sobre legitimidade política e autonomia nas colônias.",
+      "Conflitos sociais anteriores, incluindo revoltas indígenas, quilombolas, escravizadas e movimentos populares."
     ],
     "causas": {
-      "politicas": "Desejo das elites locais de autonomia administrativa, independência do México (1821) e Lançamento da Doutrina Monroe (1823).",
-      "economicas": "Rejeição ao monopólio comercial metropolitano e defesa do livre comércio internacional.",
-      "sociais": "Insatisfação de criollos, mestiços e revoltas de escravizados (como a Independência do Haiti em 1804).",
-      "religiosas": "Participação de líderes clericais em algumas independências latino-americanas.",
-      "culturais": "Difusão dos ideais liberais republicanos e de soberania popular.",
-      "territoriais": "Formação de novas repúblicas soberanas e expansão territorial norte-americana.",
-      "tecnologias": "Uso de ferrovias e armamentos modernos na Guerra Civil dos EUA (1861–1865)."
+      "politicas": "Crise de legitimidade das monarquias ibéricas, disputa por autonomia, projetos republicanos e monárquicos e interesses das elites locais; cada região apresentou alianças e cronologias próprias.",
+      "economicas": "Contestação de restrições comerciais coloniais, busca por controle local de impostos e recursos e interesse de comerciantes e proprietários em ampliar relações comerciais.",
+      "sociais": "Ação de pessoas escravizadas e libertas, indígenas, mestiços, camponeses, artesãos e elites criollas, com objetivos nem sempre coincidentes; no Haiti, a luta contra a escravidão foi central.",
+      "religiosas": "Participação de membros do clero em diferentes movimentos, sem que a religião tenha determinado uma posição política única.",
+      "culturais": "Circulação de ideias de soberania, representação e direitos, reinterpretadas conforme as realidades sociais e coloniais americanas.",
+      "territoriais": "Disputas sobre fronteiras, expansão dos Estados recém-independentes e avanço territorial dos Estados Unidos sobre terras indígenas e mexicanas.",
+      "tecnologias": "Ferrovias e telégrafo tiveram importância crescente em fases posteriores do século XIX; na Guerra Civil dos EUA, ferrovias, telégrafo, navios encouraçados e armamentos industriais influenciaram a condução militar."
     },
-    "resumo_card": "Abrange a Independência do Haiti (1804), as independências da América Espanhola, o México (1821), a Doutrina Monroe (1823), a Guerra Civil dos EUA (1861–1865) e a abolição da escravidão norte-americana em 1865.",
-    "desenvolvimento": "O Haiti tornou-se independente em 1804 após revolta de escravizados. Na América Espanhola, líderes conduziram as repúblicas à emancipação. O México tornou-se independente em 1821. Em 1823, os EUA lançaram a Doutrina Monroe. Mais tarde, entre 1861 e 1865, os Estados Unidos travaram sua Guerra Civil entre o Norte industrial e o Sul escravagista, resultando na preservação da União e na abolição oficial da escravidão em 1865.",
+    "resumo_card": "Estuda processos distintos de independência nas Américas: Revolução Haitiana (1791–1804), emancipações da América espanhola, independência do México (1821), Doutrina Monroe (1823), independência do Brasil (1822), expansão territorial dos EUA e Guerra Civil (1861–1865), que levou à abolição constitucional da escravidão em 1865.",
+    "desenvolvimento": "As independências americanas ocorreram em processos diferentes, influenciados pelo Iluminismo, pelas revoluções atlânticas, pela crise das monarquias ibéricas e por conflitos locais. No Haiti, a revolução iniciada em 1791 reuniu pessoas escravizadas, libertos e outros grupos contra a ordem colonial francesa; a independência foi proclamada em 1804, tornando o país a primeira república negra independente e resultado de uma revolução vitoriosa de escravizados. Na América espanhola, as guerras de independência se intensificaram a partir de 1810, em meio à crise da monarquia espanhola provocada pela invasão napoleônica. Simón Bolívar, José de San Martín e muitos outros participaram de campanhas que resultaram em novas repúblicas, mas as elites criollas frequentemente conservaram posições de poder e as desigualdades sociais permaneceram. No México, a luta começou em 1810 com movimentos populares associados a Miguel Hidalgo e José María Morelos; a independência foi consumada em 1821 por uma coalizão política e militar distinta. O Brasil seguiu trajetória própria, com independência em 1822 e manutenção da monarquia e da escravidão. Em 1823, a Doutrina Monroe expressou a oposição dos Estados Unidos a novas intervenções coloniais europeias no continente, mas também seria mobilizada posteriormente para justificar pretensões de influência norte-americana. A expansão territorial dos EUA envolveu guerras, tratados e expulsões de povos indígenas. Entre 1861 e 1865, a Guerra Civil opôs a União à Confederação; a escravidão foi central para o conflito, embora questões de poder federal e organização econômica também estivessem em disputa. A Proclamação de Emancipação entrou em vigor em 1863 em áreas ainda em rebelião, e a 13ª Emenda aboliu legalmente a escravidão em todo o país em 1865. A abolição, contudo, não encerrou a violência racial nem garantiu igualdade de direitos.",
     "personagens": [
-      "Toussaint Louverture: Líder da Revolução Haitiana.",
-      "Simón Bolívar e José de San Martín: Libertadores da América Espanhola.",
-      "Abraham Lincoln: Presidente norte-americano durante a Guerra Civil."
+      "Toussaint Louverture: liderança fundamental da Revolução Haitiana; foi preso pelos franceses em 1802 e morreu na França em 1803, antes da independência.",
+      "Jean-Jacques Dessalines: proclamou a independência do Haiti em 1804.",
+      "Simón Bolívar e José de San Martín: lideranças importantes das guerras de independência na América espanhola, ao lado de muitos outros participantes.",
+      "Miguel Hidalgo e José María Morelos: religiosos que lideraram fases iniciais da luta pela independência mexicana.",
+      "Abraham Lincoln: presidente dos Estados Unidos durante a Guerra Civil; emitiu a Proclamação de Emancipação em 1863."
     ],
     "grupos_envolvidos": [
-      "Exércitos Libertadores Latino-Americanos",
-      "União (Norte) vs. Confederação (Sul) na Guerra Civil dos EUA",
-      "Populações indígenas e afro-descendentes"
+      "Pessoas escravizadas, libertas e livres de diferentes origens, com papel decisivo na Revolução Haitiana e em outras lutas americanas.",
+      "Elites criollas, comerciantes, proprietários rurais, militares e funcionários coloniais.",
+      "Populações indígenas, camponesas, mestiças e afrodescendentes, cujos projetos e experiências variaram entre regiões.",
+      "União e Confederação na Guerra Civil dos Estados Unidos, além de pessoas escravizadas, abolicionistas e soldados negros que participaram do conflito."
     ],
     "interesses_em_disputa": [
-      "Abolição da escravidão, soberania nacional republicana e hegemonia comercial no continente."
+      "Autonomia e soberania política, controle do comércio e da tributação e definição dos novos regimes de governo.",
+      "Abolição da escravidão, manutenção ou transformação das hierarquias sociais e reconhecimento de direitos para grupos antes subordinados.",
+      "Expansão territorial, controle de terras indígenas e influência política e econômica dos Estados Unidos no continente."
     ],
     "linha_do_tempo": [
-      {"ano": 1804, "titulo": "Independência do Haiti", "descricao": "Primeira nação livre de escravizados nas Américas."},
-      {"ano": 1821, "titulo": "Independência do México", "descricao": "Emancipação mexicana definitiva."},
-      {"ano": 1823, "titulo": "Doutrina Monroe", "descricao": "Diretriz externa dos EUA no continente americano."},
-      {"ano": 1865, "titulo": "Fim da Guerra Civil e Abolição nos EUA", "descricao": "Preservação da União e fim legal da escravidão norte-americana."}
+      {
+        "ano": 1791,
+        "titulo": "Início da Revolução Haitiana",
+        "descricao": "Levante de pessoas escravizadas na colônia francesa de Saint-Domingue, que desencadeou um processo revolucionário prolongado."
+      },
+      {
+        "ano": 1804,
+        "titulo": "Independência do Haiti",
+        "descricao": "Proclamação da independência após a derrota das forças francesas."
+      },
+      {
+        "ano": 1810,
+        "titulo": "Início das guerras de independência na América espanhola e no México",
+        "descricao": "Crise da monarquia espanhola e movimentos locais abriram uma fase de guerras e disputas políticas."
+      },
+      {
+        "ano": 1821,
+        "titulo": "Independência do México",
+        "descricao": "A emancipação foi consumada após uma coalizão política e militar que reuniu antigos adversários."
+      },
+      {
+        "ano": 1822,
+        "titulo": "Independência do Brasil",
+        "descricao": "O Brasil rompeu com Portugal e manteve a monarquia e a escravidão."
+      },
+      {
+        "ano": 1823,
+        "titulo": "Doutrina Monroe",
+        "descricao": "Os Estados Unidos declararam oposição a novas intervenções coloniais europeias nas Américas."
+      },
+      {
+        "ano": 1863,
+        "titulo": "Proclamação de Emancipação",
+        "descricao": "Lincoln declarou livres as pessoas escravizadas em áreas ainda em rebelião contra a União, com alcance limitado pelo contexto da guerra."
+      },
+      {
+        "ano": 1865,
+        "titulo": "Fim da Guerra Civil e 13ª Emenda",
+        "descricao": "A derrota confederada e a ratificação da 13ª Emenda aboliram legalmente a escravidão nos Estados Unidos."
+      }
     ],
     "consequencias_imediatas": [
-      "Fragmentação do império espanhol em diversas repúblicas independentes.",
-      "Fim do regime escravista formal nos Estados Unidos em 1865."
+      "Fim do domínio colonial espanhol em grande parte da América continental e formação de novos Estados, com fronteiras e instituições ainda instáveis.",
+      "Independência do Haiti e abolição da escravidão em seu território, em contraste com a permanência da escravidão em várias outras sociedades americanas.",
+      "Preservação da União nos Estados Unidos e abolição constitucional da escravidão em 1865, sem eliminar a discriminação racial."
     ],
     "consequencias_longo_prazo": [
-      "Subordinação econômica da América Latina ao imperialismo britânico e posteriormente norte-americano."
+      "Persistência de concentração fundiária, desigualdades raciais e exclusão política em diferentes países americanos, apesar das mudanças de soberania.",
+      "Expansão da influência econômica e diplomática britânica e, posteriormente, norte-americana, com ritmos e formas diferentes conforme o país.",
+      "Disputas sobre cidadania, direitos indígenas, trabalho e igualdade racial continuaram após as independências e abolições."
     ],
     "impactos": {
-      "politicos": "Republicanismo generalizado nas Américas e fortalecimento institucional norte-americano.",
-      "economicos": "Abertura dos mercados americanos ao capital estrangeiro industrial internacional.",
-      "sociais": "Permanência de profundas desigualdades raciais e exclusão social persistente de negros e indígenas.",
-      "culturais": "Formação de identidades nacionais distintas em cada nova república americana.",
-      "territoriais": "Desenho dos mapas continentais atuais do Novo Mundo.",
-      "ambientais": "Avanço agrícola extensivo sobre florestas e pradarias americanas."
+      "politicos": "Formação de Estados independentes com regimes diversos; em muitos casos, as elites locais mantiveram o controle político e limitaram a participação popular.",
+      "economicos": "Reorganização das relações comerciais e fiscais, dependência de exportações primárias em várias economias e ampliação da influência de capitais estrangeiros.",
+      "sociais": "A escravidão foi abolida em momentos diferentes; hierarquias raciais, concentração de terras e exclusão de indígenas e afrodescendentes permaneceram.",
+      "culturais": "Construção de identidades nacionais plurais, atravessadas por referências indígenas, africanas, europeias e mestiças.",
+      "territoriais": "Redefinição de fronteiras, guerras entre Estados e expansão dos Estados Unidos sobre territórios indígenas e mexicanos.",
+      "ambientais": "Expansão de plantations, mineração, pecuária e ocupação de novas áreas provocou impactos ambientais e deslocamentos de comunidades."
     },
-    "continuidade": "Estruturas agrárias latifundiárias concentradoras de renda na América Latina.",
-    "rupturas": "Rompimento do vínculo colonial de submissão política direta às metrópoles europeias."
+    "continuidade": "A independência política não significou automaticamente igualdade social, reforma agrária, participação democrática ampla ou fim do racismo e das formas de exploração do trabalho.",
+    "rupturas": "O domínio colonial europeu foi substituído por Estados soberanos, mas a construção dessas nações ocorreu com conflitos internos, exclusões e diferentes projetos de sociedade."
   },
-
   {
     "id": "imperialismo-segunda-revolucao-industrial",
     "titulo_principal": "SEGUNDA REVOLUÇÃO INDUSTRIAL E O IMPERIALISMO (NEOCOLONIALISMO)",
@@ -195,54 +292,93 @@
     "tema": "Segunda Revolução Industrial, Eletricidade, Petróleo, Indústria Química, Aço, Telefone, Automóvel, Cinema, Imperialismo, Partilha da África e da Ásia, Conferência de Berlim (1884-1885), Corrida Colonial e Alianças Militares (Tríplice Aliança e Tríplice Entente)",
     "contexto": "A Segunda Revolução Industrial gerou enorme excedente produtivo e necessidade de matérias-primas, impulsionando o imperialismo europeu sobre a África e a Ásia sob o pretexto da 'missão civilizatória'.",
     "antecedentes": [
-      "Crescimento capitalista monopolista e concentração de capitais industriais e bancários na Europa."
+      "Expansão do capitalismo industrial e financeiro, crescimento das empresas de grande porte e competição por matérias-primas, mercados e investimentos.",
+      "Avanços em transportes, armamentos e comunicações ampliaram a capacidade de projeção militar e econômica das potências, mas também facilitaram conexões e resistências locais."
     ],
     "causas": {
-      "politicas": "Disputa por prestígio internacional, nacionalismo agressivo e formação da Tríplice Aliança e Tríplice Entente.",
-      "economicas": "Busca voraz por mercados consumidores, matérias-primas e áreas de investimento monopolista.",
-      "sociais": "Alívio de pressões demográficas internas europeias através da emigração colonial.",
-      "religiosas": "Ideologia paternalista da 'Missão Civilizatória' e expansão de missões cristãs.",
-      "culturais": "Racismo científico e teorias de darwinismo social aplicadas à dominação de povos não europeus.",
-      "territoriais": "Conquista militar de territórios ultramarinos na África e na Ásia regulamentada pela Conferência de Berlim (1884–1885).",
-      "tecnologias": "Inovações como eletricidade, petróleo, indústria química, aço, telefone, automóvel e cinema."
+      "politicas": "Competição entre Estados por prestígio, bases navais e influência estratégica; rivalidades nacionais e formação de alianças contribuíram para a tensão internacional.",
+      "economicas": "Busca por matérias-primas, mercados, oportunidades de investimento e controle de rotas comerciais, em combinação com interesses empresariais e financeiros.",
+      "sociais": "Migrações, urbanização e desigualdades internas foram mobilizadas em discursos que apresentavam a expansão colonial como solução para problemas das metrópoles, embora a colonização tenha servido a interesses variados.",
+      "religiosas": "Missões cristãs participaram de projetos coloniais em algumas regiões, mas atuaram de formas diversas; a religião também foi apropriada por sociedades colonizadas em processos de resistência e negociação.",
+      "culturais": "Racismo científico, darwinismo social e discursos de 'missão civilizatória' foram usados para legitimar hierarquias e dominação, sem base científica válida.",
+      "territoriais": "Conquista, ocupação e controle de territórios africanos e asiáticos por meio de guerras, tratados desiguais, protetorados, concessões e zonas de influência.",
+      "tecnologias": "Eletricidade, aço, petróleo, química industrial, telégrafo, telefone, navios a vapor, ferrovias, metralhadoras e avanços médicos ampliaram a capacidade produtiva e militar, com acesso desigual."
     },
-    "resumo_card": "Aborda a Segunda Revolução Industrial, eletricidade, petróleo, química, aço, telefone, automóvel, cinema, o imperialismo, a partilha da África e da Ásia, a Conferência de Berlim (1884–1885), a corrida colonial, os nacionalismos e a formação da Tríplice Aliança e Tríplice Entente.",
-    "desenvolvimento": "Com novas tecnologias como eletricidade, motores a explosão (petróleo), aço e a indústria química — além de inovações culturais como o telefone, o automóvel e o cinema —, o capitalismo entrou na fase monopolista. Na Conferência de Berlim (1884–1885), a África foi retalhada entre os europeus. A corrida colonial alimentou rivalidades e o nacionalismo, resultando na divisão da Europa em blocos militares rivais: a Tríplice Aliança e a Tríplice Entente.",
+    "resumo_card": "Relaciona as inovações da Segunda Revolução Industrial — eletricidade, petróleo, aço, química, transportes e comunicações — à expansão imperialista na África e na Ásia, à Conferência de Berlim (1884–1885), às resistências locais e às rivalidades internacionais anteriores à Primeira Guerra Mundial.",
+    "desenvolvimento": "A Segunda Revolução Industrial, intensificada a partir da segunda metade do século XIX, ampliou o uso da eletricidade, do petróleo, do aço e de processos químicos, transformando transportes, comunicações, produção e vida urbana. Ferrovias, navios a vapor, telégrafo e, depois, telefone aceleraram a circulação de mercadorias, capitais e informações. Grandes empresas, bancos e cartéis passaram a concentrar recursos em alguns setores, embora a organização econômica variasse entre países. A busca por matérias-primas, mercados, áreas de investimento e posições estratégicas contribuiu para a expansão imperialista, mas não foi sua única causa: nacionalismos, rivalidades entre Estados, interesses militares e ideologias racistas também sustentaram a dominação. A Conferência de Berlim (1884–1885) estabeleceu regras entre potências europeias para reivindicações territoriais na África, sem participação dos povos africanos; não foi uma divisão integral e instantânea do continente, pois a conquista e a resistência ocorreram em ritmos diferentes. Sociedades africanas e asiáticas enfrentaram invasões, tratados desiguais, tributação, trabalho forçado e reorganização de economias em benefício das metrópoles, mas também resistiram por meio de guerras, diplomacia e movimentos políticos. No Congo, o domínio pessoal de Leopoldo II foi marcado por violência extrema e exploração, antes da anexação belga em 1908. Na Ásia, a expansão imperialista assumiu formas variadas, incluindo colônias, protetorados, concessões e zonas de influência. As rivalidades imperiais contribuíram para tensões internacionais, mas a Primeira Guerra Mundial não foi resultado automático de uma única causa: alianças, militarismo, nacionalismos, crises diplomáticas e a crise de julho de 1914 também foram decisivos.",
     "personagens": [
-      "Leopoldo II da Bélgica: Principal responsável pela exploração brutal do Congo.",
-      "Cecil Rhodes: Imperialista britânico símbolo da expansão na África Austral."
+      "Leopoldo II da Bélgica: governou o Estado Livre do Congo como propriedade pessoal, em regime de exploração violenta, até a anexação pela Bélgica em 1908.",
+      "Cecil Rhodes: empresário e político britânico associado à expansão colonial na África Austral.",
+      "Menelik II: imperador etíope que liderou a resistência à invasão italiana e venceu a Batalha de Adwa em 1896.",
+      "Samori Touré: líder político e militar que resistiu à expansão francesa na África Ocidental."
     ],
     "grupos_envolvidos": [
-      "Trustes, Cartéis e Monopólios Capitalistas",
-      "Administrações Coloniais Europeias",
-      "Povos Nativos da África e da Ásia submetidos"
+      "Potências imperiais europeias, além de Estados Unidos e Japão, com projetos e ritmos de expansão distintos.",
+      "Governos, comerciantes, comunidades, reinos e sociedades africanas e asiáticas, que negociaram, resistiram ou foram submetidos à conquista.",
+      "Empresas industriais, bancos, companhias concessionárias, forças armadas e missões religiosas envolvidas em diferentes aspectos da expansão."
     ],
     "interesses_em_disputa": [
-      "Domínio de jazidas minerais, ferrovias transcontinentais, cinema, tecnologia industrial e mercados globais cativos."
+      "Controle de matérias-primas, rotas marítimas, mercados, investimentos e posições militares estratégicas.",
+      "Soberania política, autonomia econômica, terras, recursos e formas locais de organização social e cultural.",
+      "Prestígio e equilíbrio de poder entre as potências, em um contexto de nacionalismos e alianças concorrentes."
     ],
     "linha_do_tempo": [
-      {"ano": 1884, "titulo": "Conferência de Berlim", "descricao": "Regulamentação europeia da partilha arbitrária do continente africano."},
-      {"ano": 1907, "titulo": "Tríplice Entente", "descricao": "Consolidação da aliança militar entre Reino Unido, França e Rússia contra o bloco central."}
+      {
+        "ano": 1870,
+        "titulo": "Expansão da Segunda Revolução Industrial",
+        "descricao": "Eletricidade, aço, petróleo e novos processos industriais ganharam importância crescente em diferentes países."
+      },
+      {
+        "ano": 1884,
+        "titulo": "Conferência de Berlim",
+        "descricao": "Potências europeias estabeleceram regras para reivindicações territoriais na África, sem representação dos povos africanos."
+      },
+      {
+        "ano": 1885,
+        "titulo": "Encerramento da Conferência de Berlim",
+        "descricao": "O acordo não concluiu a conquista do continente; a ocupação e as resistências prosseguiram nas décadas seguintes."
+      },
+      {
+        "ano": 1896,
+        "titulo": "Batalha de Adwa",
+        "descricao": "Forças etíopes derrotaram a invasão italiana e preservaram a independência do país naquele momento."
+      },
+      {
+        "ano": 1904,
+        "titulo": "Guerra Russo-Japonesa",
+        "descricao": "O conflito evidenciou a disputa imperialista no Leste Asiático e a ascensão do Japão como potência militar."
+      },
+      {
+        "ano": 1908,
+        "titulo": "Anexação do Congo pela Bélgica",
+        "descricao": "O Estado Livre do Congo deixou de ser propriedade pessoal de Leopoldo II e passou ao domínio formal do Estado belga."
+      },
+      {
+        "ano": 1914,
+        "titulo": "Início da Primeira Guerra Mundial",
+        "descricao": "Rivalidades imperialistas integraram o contexto de tensões, ao lado de alianças, militarismo, nacionalismos e crises diplomáticas."
+      }
     ],
     "consequencias_imediatas": [
-      "Subjugação e destruição violenta de sociedades tradicionais na África e na Ásia.",
-      "Criação de tensões nacionalistas e militares extremas na Europa ('Paz Armada')."
+      "Imposição de administrações coloniais e formas de exploração econômica, trabalho compulsório e violência em várias regiões da África e da Ásia.",
+      "Desestruturação ou transformação de instituições políticas e economias locais, acompanhada por resistências e negociações.",
+      "Intensificação das rivalidades entre potências, sem que o imperialismo explique isoladamente a eclosão da Primeira Guerra Mundial."
     ],
     "consequencias_longo_prazo": [
-      "Fronteiras artificiais geradoras de conflitos étnicos crônicos pós-independência no Terceiro Mundo."
+      "Fronteiras coloniais, economias voltadas à exportação e desigualdades estruturais influenciaram processos de independência e conflitos posteriores, embora os efeitos variassem conforme a região.",
+      "Experiências de resistência, circulação de ideias e organização política contribuíram para movimentos anticoloniais do século XX."
     ],
     "impactos": {
-      "politicos": "Subordinação de continentes inteiros aos interesses de capitais metropolitanos estrangeiros.",
-      "economicos": "Globalização capitalista predatória e extração intensiva de riquezas coloniais.",
-      "sociais": "Trabalho forçado, segregationismo racial institucionalizado e imposição cultural eurocêntrica.",
-      "culturais": "Aculturação forçada e disseminação de preconceitos eurocêntricos globais.",
-      "territoriais": "Mapa da África e da Ásia redesenhado conforme interesses de gabinetes europeus.",
-      "ambientais": "Extração exaustiva de recursos naturais e degradação ambiental colonial em larga escala."
+      "politicos": "Perda ou limitação da soberania de muitos povos, formação de administrações coloniais e fortalecimento de rivalidades entre Estados imperiais.",
+      "economicos": "Extração de recursos, reorganização de atividades produtivas para atender mercados externos e concentração de lucros em empresas e metrópoles.",
+      "sociais": "Trabalho forçado, deslocamentos, tributação coercitiva, violência racial e transformação das relações comunitárias, com respostas e resistências locais.",
+      "culturais": "Imposição de línguas e instituições coloniais em alguns contextos, circulação cultural e também preservação, adaptação e resistência de tradições locais.",
+      "territoriais": "Conquista e redefinição de fronteiras por potências estrangeiras, sem respeitar necessariamente organizações políticas e sociais existentes.",
+      "ambientais": "Mineração, monoculturas, exploração florestal e construção de infraestrutura alteraram ecossistemas e formas locais de uso da terra."
     },
-    "continuidade": "Divisão internacional do trabalho entre países exportadores de matérias-primas e potências industriais.",
-    "rupturas": "Substituição do colonialismo mercantilista tradicional pelo imperialismo financeiro e industrial monopolista."
+    "continuidade": "A desigualdade entre centros industriais e regiões subordinadas permaneceu e foi reproduzida por relações comerciais, políticas e financeiras mesmo após o fim de muitos regimes coloniais.",
+    "rupturas": "A expansão imperialista criou novas formas de controle territorial e econômico, articuladas ao capitalismo industrial e financeiro, mas não eliminou as sociedades, instituições e agências políticas locais."
   },
-
   {
     "id": "guerras-e-revolucoes-1914-1945",
     "titulo_principal": "GUERRAS E REVOLUÇÕES (1914–1945): DA PRIMEIRA GUERRA À SEGUNDA GUERRA MUNDIAL",
@@ -281,12 +417,36 @@
       "Hegemonia geopolítica mundial, mercados coloniais e sobrevivência de sistemas democráticos versus totalitários."
     ],
     "linha_do_tempo": [
-      {"ano": 1914, "titulo": "Início da Primeira Guerra Mundial", "descricao": "Conflito industrializado entre potências europeias."},
-      {"ano": 1917, "titulo": "Revolução Russa", "descricao": "Queda do czarismo e triunfo bolchevique."},
-      {"ano": 1919, "titulo": "Tratado de Versalhes e Liga das Nações", "descricao": "Acordos punitivos e pacto internacional de paz."},
-      {"ano": 1929, "titulo": "Grande Depressão", "descricao": "Quebra da Bolsa de Nova York e crise econômica global."},
-      {"ano": 1939, "titulo": "Início da Segunda Guerra Mundial", "descricao": "Invasão da Polônia pela Alemanha nazista."},
-      {"ano": 1945, "titulo": "Fim da Segunda Guerra e Criação da ONU", "descricao": "Rrendição do Eixo, bombas atômicas e fundação das Nações Unidas."}
+      {
+        "ano": 1914,
+        "titulo": "Início da Primeira Guerra Mundial",
+        "descricao": "Conflito industrializado entre potências europeias."
+      },
+      {
+        "ano": 1917,
+        "titulo": "Revolução Russa",
+        "descricao": "Queda do czarismo e triunfo bolchevique."
+      },
+      {
+        "ano": 1919,
+        "titulo": "Tratado de Versalhes e Liga das Nações",
+        "descricao": "Acordos punitivos e pacto internacional de paz."
+      },
+      {
+        "ano": 1929,
+        "titulo": "Grande Depressão",
+        "descricao": "Quebra da Bolsa de Nova York e crise econômica global."
+      },
+      {
+        "ano": 1939,
+        "titulo": "Início da Segunda Guerra Mundial",
+        "descricao": "Invasão da Polônia pela Alemanha nazista."
+      },
+      {
+        "ano": 1945,
+        "titulo": "Fim da Segunda Guerra e Criação da ONU",
+        "descricao": "Rendição das potências do Eixo, bombas atômicas e fundação das Nações Unidas."
+      }
     ],
     "consequencias_imediatas": [
       "Dezenas de milhões de mortos civis e militares, destruição urbana generalizada na Europa e Ásia.",
@@ -306,31 +466,30 @@
     "continuidade": "Disputas de poder geopolítico imperialista entre grandes nações industrializadas.",
     "rupturas": "Colapso do protagonismo global europeu tradicional e invenção da capacidade de autoextinção da humanidade por armas nucleares."
   },
-
   {
     "id": "guerra-fria-descolonizacao",
     "titulo_principal": "A GUERRA FRIA E A DESCOLONIZAÇÃO DA ÁFRICA E DA ÁSIA",
-    "ano_inicio": 1947,
+    "ano_inicio": 1945,
     "ano_fim": 1991,
     "periodo": "Idade Contemporânea",
     "local": "Global (EUA, URSS, Europa, Ásia, América Latina e África)",
     "sociedades_envolvidas": "Bloco Capitalista (OTAN), Bloco Socialista (Pacto de Varsóvia) e Nações do Terceiro Mundo",
     "tema": "Início da Guerra Fria, Doutrina Truman (1947), Plano Marshall (1947), Bloqueio de Berlim (1948-1949), OTAN (1949), Revolução Chinesa (1949), Guerra da Coreia (1950-1953), Pacto de Varsóvia (1955), Conferência de Bandung (1955), Crise de Suez (1956), Sputnik e Início da Corrida Espacial (1957), Revolução Cubana (1959), Ano da África (1960), Muro de Berlim (1961), Crise dos Mísseis em Cuba (1962), Guerra do Vietnã (1955-1975), Independência da Argélia (1962), Chegada do Homem à Lua (1969), Fim da Guerra Fria, Queda do Muro de Berlim (1989) e Fim da URSS (1991)",
-    "contexto": "Conflito ideológico, tecnológico e geopolítico indireto entre os Estados Unidos e a União Soviética, acompanhado pela emancipação dos povos colonizados na África e na Ásia.",
+    "contexto": "Conflito ideológico, tecnológico e geopolítico entre Estados Unidos e União Soviética, acompanhado por processos de descolonização na África e na Ásia. Suas tensões se formaram no contexto do fim da Segunda Guerra Mundial, em 1945–1946, e a política de contenção foi formalizada em 1947.",
     "antecedentes": [
-      "Emergência de duas superpotências antagônicas após a Segunda Guerra Mundial e divisão de Berlim."
+      "Emergência dos Estados Unidos e da União Soviética como superpotências após a Segunda Guerra Mundial, ocupação da Alemanha e de Berlim e divergências sobre a reorganização da ordem internacional."
     ],
     "causas": {
       "politicas": "Disputa irreconciliável entre o modelo liberal-capitalista democrático e o socialismo de Estado soviético.",
-      "economicas": "Luta por mercados consumidores globais e modelos econômicos concorrentes (Plano Marshall vs. Pacto de Varsóvia/Comecon).",
+      "economicas": "Disputa entre modelos econômicos e projetos de reconstrução: o Plano Marshall apoiou a recuperação da Europa ocidental, enquanto o Comecon, criado em 1949, articulou a cooperação econômica entre países socialistas. O Pacto de Varsóvia, criado em 1955, foi uma aliança militar, não um organismo econômico.",
       "sociais": "Medo generalizado de conflito nuclear aniquilador (Equilíbrio do Terror) e propaganda ideológica de massas.",
-      "religiosas": "Confronto entre o ateísmo de Estado soviético e valores religiosos ocidentais.",
+      "religiosas": "A religião foi mobilizada de maneiras distintas nos discursos políticos dos blocos, mas a oposição entre capitalismo e socialismo não se reduziu a uma divisão religiosa; sociedades e governos de ambos os lados apresentavam diversidade de posições.",
       "culturais": "Disputa cultural e ideológica pela supremacia nos costumes, na ciência, nos esportes (corrida espacial e chegada à Lua em 1969).",
       "territoriais": "Esferas de influência global estendidas por golpes, revoluções e guerras regionais (Coreia, Vietnã, Cuba).",
       "tecnologias": "Armas nucleares intercontinentais, satélites (Sputnik em 1957), computação inicial e exploração espacial."
     },
     "resumo_card": "Abrange a Doutrina Truman e o Plano Marshall (1947), o Bloqueio de Berlim (1948–1949), a OTAN (1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), o Pacto de Varsóvia (1955), a Conferência de Bandung e a descolonização asiática/africana (Independência da Índia em 1947, Estado de Israel e Guerra Árabe-Israelense em 1948, Crise de Suez em 1956, o 'Ano da África' em 1960, Independência da Argélia em 1962, Movimento dos Não Alinhados), além do Sputnik (1957), Revolução Cubana (1959), Muro de Berlim (1961), Crise dos Mísseis (1962), Guerra do Vietnã, chegada à Lua (1969), Queda do Muro de Berlim (1989) e o fim da URSS em 1991.",
-    "desenvolvimento": "Iniciada com a Doutrina Truman e o Plano Marshall em 1947, a Guerra Fria dividiu o mundo entre OTAN (1949) e Pacto de Varsóvia (1955). Teve marcos tensos como o Bloqueio de Berlim (1948–1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), a Revolução Cubana (1959), a construção do Muro de Berlim (1961) e a Crise dos Mísseis em Cuba (1962). Na tecnologia, o Sputnik (1957) iniciou a corrida espacial que levou o homem à Lua em 1969. No Terceiro Mundo, ocorreu a descolonização: independência da Índia (1947), criação de Israel e conflitos árabes (1948), Conferência de Bandung (1955), Crise de Suez (1956), o 'Ano da África' (1960), a Argélia (1962) e o Movimento dos Não Alinhados. O conflito encerrou-se com a Queda do Muro de Berlim em 1989 e o fim da URSS em 1991.",
+    "desenvolvimento": "As tensões entre as antigas aliadas começaram a se intensificar no fim da Segunda Guerra Mundial e nos anos de 1945–1946. Em 1947, a Doutrina Truman e o Plano Marshall marcaram a formalização da política de contenção dos Estados Unidos. A Guerra Fria passou a organizar grande parte da política internacional, embora muitos países tenham buscado caminhos próprios e formas de não alinhamento. A OTAN foi criada em 1949 e o Pacto de Varsóvia em 1955. Teve marcos tensos como o Bloqueio de Berlim (1948–1949), a Revolução Chinesa (1949), a Guerra da Coreia (1950–1953), a Revolução Cubana (1959), a construção do Muro de Berlim (1961) e a Crise dos Mísseis em Cuba (1962). Na tecnologia, o Sputnik (1957) iniciou a corrida espacial que levou o homem à Lua em 1969. No Terceiro Mundo, ocorreu a descolonização: independência da Índia (1947), criação de Israel e conflitos árabes (1948), Conferência de Bandung (1955), Crise de Suez (1956), o 'Ano da África' (1960), a Argélia (1962) e o Movimento dos Não Alinhados. O conflito encerrou-se com a Queda do Muro de Berlim em 1989 e o fim da URSS em 1991.",
     "personagens": [
       "John F. Kennedy e Nikita Khrushchev: Líderes durante a Crise dos Mísseis em Cuba.",
       "Mahatma Gandhi e Ho Chi Minh: Líderes anticoloniais asiáticos.",
@@ -342,18 +501,42 @@
       "Países Não Alinhados"
     ],
     "interesses_em_disputa": [
-      "Hemonia militar global, controle de zonas geoestratégicas e expansão ou contenção do socialismo."
+      "Hegemonia militar e influência geopolítica, controle de áreas estratégicas e expansão ou contenção de projetos políticos e econômicos concorrentes."
     ],
     "linha_do_tempo": [
-      {"ano": 1947, "titulo": "Doutrina Truman e Independência da Índia", "descricao": "Início da contenção soviética e fim do domínio britânico na Índia."},
-      {"ano": 1955, "titulo": "Conferência de Bandung", "descricao": "Articulação das nações afro-asiáticas recém-independentes."},
-      {"ano": 1962, "titulo": "Crise dos Mísseis em Cuba", "descricao": "O momento mais próximo de uma guerra nuclear aberta."},
-      {"ano": 1969, "titulo": "Chegada do Homem à Lua", "descricao": "Marco supremo da corrida espacial americana."},
-      {"ano": 1989, "titulo": "Queda do Muro de Berlim", "descricao": "Símbolo do fim da divisão da Europa."},
-      {"ano": 1991, "titulo": "Fim da União Soviética", "descricao": "Dissolvimento oficial da URSS e encerramento da Guerra Fria."}
+      {
+        "ano": 1947,
+        "titulo": "Doutrina Truman e Independência da Índia",
+        "descricao": "Início da contenção soviética e fim do domínio britânico na Índia."
+      },
+      {
+        "ano": 1955,
+        "titulo": "Conferência de Bandung",
+        "descricao": "Articulação das nações afro-asiáticas recém-independentes."
+      },
+      {
+        "ano": 1962,
+        "titulo": "Crise dos Mísseis em Cuba",
+        "descricao": "O momento mais próximo de uma guerra nuclear aberta."
+      },
+      {
+        "ano": 1969,
+        "titulo": "Chegada do Homem à Lua",
+        "descricao": "Marco supremo da corrida espacial americana."
+      },
+      {
+        "ano": 1989,
+        "titulo": "Queda do Muro de Berlim",
+        "descricao": "Símbolo do fim da divisão da Europa."
+      },
+      {
+        "ano": 1991,
+        "titulo": "Fim da União Soviética",
+        "descricao": "Dissolvimento oficial da URSS e encerramento da Guerra Fria."
+      }
     ],
     "consequencias_imediatas": [
-      "Fim do mundo bipolar e triunfo temporário incontestável do capitalismo global liberal.",
+      "Fim da ordem bipolar e fortalecimento internacional do capitalismo liberal nos anos 1990, sem eliminar conflitos, desigualdades ou experiências políticas e econômicas alternativas.",
       "Independência política formal de dezenas de novos Estados na África e na Ásia."
     ],
     "consequencias_longo_prazo": [
@@ -370,66 +553,109 @@
     "continuidade": "Desigualdade estrutural histórica entre países desenvolvidos e as nações do Sul Global.",
     "rupturas": "Colapso estrutural definitivo do bloco socialista soviético europeu."
   },
-
   {
     "id": "transformacoes-sociais-culturais-seculo-xx",
     "titulo_principal": "TRANSFORMAÇÕES SOCIAIS, CULTURAIS E MOVIMENTOS DE 1968",
     "ano_inicio": 1950,
     "ano_fim": 1980,
     "periodo": "Idade Contemporânea",
-    "local": "Global (EUA, Europa e América Latina)",
-    "sociedades_envolvidas": "Estudantes, Minorias Civis, Movimento Feminista, Movimento Negro e Contracultura",
-    "tema": "Movimento pelos Direitos Civis nos EUA, Luta contra a Segregação Racial, Marcha sobre Washington (1963), Movimento Feminista, Movimento Negro, Movimento Hippie, Contracultura, Revolução Sexual e Protestos Estudantis de 1968",
-    "contexto": "O pós-guerra testemunhou uma intensa onda de contestação social contra o racismo, o patriarcado, a guerra e os valores burgueses tradicionais, redefinindo os costumes e os direitos humanos.",
+    "local": "Global, com destaque para Estados Unidos, Europa, América Latina e movimentos anticoloniais na África e na Ásia",
+    "sociedades_envolvidas": "Movimentos negros e antirracistas, organizações feministas, estudantes, trabalhadores, juventudes, movimentos pacifistas, comunidades LGBTQ+ e grupos anticoloniais",
+    "tema": "Movimento pelos Direitos Civis nos EUA, dessegregação, Marcha sobre Washington (1963), legislação de direitos civis (1964–1965), feminismos, movimentos de libertação nacional, oposição à Guerra do Vietnã, contracultura, Maio de 1968 na França, Primavera de Praga, protestos no México e transformações culturais",
+    "contexto": "Nas décadas posteriores à Segunda Guerra Mundial, processos de urbanização, expansão da educação e dos meios de comunicação coexistiram com desigualdades, racismo, colonialismo, discriminação de gênero e conflitos da Guerra Fria. Diferentes movimentos questionaram estruturas de poder e reivindicaram direitos, autonomia, participação política e mudanças culturais. Essas mobilizações tiveram características próprias em cada sociedade e não formaram um movimento único.",
     "antecedentes": [
-      "Exclusão social sistêmica de minorias e segregação legalizada (Jim Crow nos EUA)."
+      "A longa história de resistência de populações negras à escravidão, à segregação e ao racismo, incluindo organizações comunitárias, sindicatos, igrejas e movimentos políticos.",
+      "A atuação de movimentos sufragistas e feministas anteriores, além da participação crescente das mulheres no trabalho, na educação e na vida pública.",
+      "A descolonização afro-asiática, as lutas anticoloniais e as disputas políticas da Guerra Fria.",
+      "A expansão do ensino superior, da televisão, do rádio, da indústria cultural e das redes internacionais de circulação de ideias."
     ],
     "causas": {
-      "politicas": "Insatisfação juvenil e popular com o autoritarismo estatal, guerras imperialistas (Vietnã) e repressão institucional.",
-      "economicas": "Expansão do consumo de massa, da televisão e do acesso universitário da classe média.",
-      "sociais": "Reivindicações urgentes por igualdade racial, direitos das mulheres e liberdade de expressão.",
-      "religiosas": "Questionamento de dogmas morais tradicionais conservadores pelas gerações jovens.",
-      "culturais": "Surgimento da contracultura, da revolução sexual, do movimento hippie e da expansão da cultura de massa e da televisão.",
-      "territoriais": "Protestos transnacionais sincronizados globalmente em 1968 (Paris, EUA, México, Praga).",
-      "tecnologias": "Expansão massiva da televisão e dos meios de comunicação de massa."
+      "politicas": "Reivindicações por igualdade perante a lei, participação democrática, liberdade de expressão e oposição a guerras, ditaduras, colonialismo e intervenções militares.",
+      "economicas": "Crescimento econômico desigual no pós-guerra, expansão do consumo e da escolarização em algumas regiões, ao lado de pobreza, discriminação no trabalho e desigualdade de oportunidades.",
+      "sociais": "Persistência do racismo, da segregação, do sexismo e de hierarquias sociais; mobilização de estudantes, trabalhadores, mulheres e grupos historicamente marginalizados.",
+      "religiosas": "Organizações e lideranças religiosas participaram de algumas lutas por direitos, enquanto setores conservadores contestaram mudanças nos costumes; não houve posição religiosa única.",
+      "culturais": "Questionamento de padrões tradicionais de autoridade, família e comportamento; circulação de novas expressões musicais, artísticas e políticas, sem que a contracultura representasse toda a juventude.",
+      "territoriais": "Mobilizações ocorreram em diferentes países e contextos, incluindo Estados Unidos, França, México, Tchecoslováquia e movimentos de independência e libertação nacional.",
+      "tecnologias": "Rádio, televisão, imprensa, discos e, posteriormente, transmissões internacionais ampliaram a circulação de imagens, discursos e notícias, embora o acesso aos meios fosse desigual."
     },
-    "resumo_card": "Abrange o Movimento pelos Direitos Civis, a luta contra a segregação, a Marcha sobre Washington de 1963, o movimento feminista, o movimento negro, o movimento hippie, a contracultura, a revolução sexual, os protestos estudantis de 1968 e a expansão da cultura de massa e da televisão.",
-    "desenvolvimento": "Liderado por figuras como Martin Luther King Jr., o Movimento pelos Direitos Civis culminou na Marcha sobre Washington em 1963 contra a segregação racial. Paralelamente, emergiu a segunda onda do feminismo, a revolução sexual impulsionada pelos anticoncepcionais, o movimento negro e o movimento contracultural hippie de rejeição aos conflitos bélicos. Em 1968, uma onda de revoltas estudantis sacudiu o mundo, impulsionada pela expansão da cultura de massa e da televisão, transformando irreversivelmente a moralidade pública.",
+    "resumo_card": "Analisa as lutas por direitos civis e contra o racismo nos Estados Unidos, os movimentos feministas, a oposição à Guerra do Vietnã, a contracultura e mobilizações de 1968 na França, no México e na Tchecoslováquia, relacionando mudanças culturais a conflitos políticos e sociais do pós-guerra.",
+    "desenvolvimento": "As transformações sociais e culturais do pós-guerra foram construídas por movimentos diversos, com trajetórias e objetivos próprios. Nos Estados Unidos, décadas de organização negra e de resistência à segregação ganharam visibilidade nacional. A decisão Brown v. Board of Education (1954) declarou inconstitucional a segregação racial nas escolas públicas; o boicote aos ônibus de Montgomery (1955–1956), as campanhas lideradas por organizações locais e a Marcha sobre Washington (1963) ampliaram a pressão por mudanças. O Civil Rights Act de 1964 proibiu formas importantes de discriminação, e o Voting Rights Act de 1965 combateu barreiras racistas ao voto. A luta, porém, não se limitou a essas leis nem foi conduzida por uma única liderança: Martin Luther King Jr., Malcolm X, organizações comunitárias, estudantes e ativistas adotaram estratégias diferentes. Os feminismos também se diversificaram, questionando desigualdades no trabalho, na educação, na política, na família e na vida cotidiana; suas pautas e experiências variaram conforme classe, raça e região. A oposição à Guerra do Vietnã aproximou estudantes, pacifistas, veteranos e outros setores, enquanto a contracultura contestou padrões de consumo e autoridade por meio da música, da arte e de novos estilos de vida. Em 1968, protestos estudantis e operários na França, mobilizações no México — reprimidas pelo Estado no massacre de Tlatelolco — e a Primavera de Praga, sufocada pela intervenção militar liderada pela União Soviética, revelaram conflitos distintos, não uma revolta mundial uniforme. Na América Latina, movimentos sociais e culturais enfrentaram também ditaduras, censura e desigualdade. As mudanças ampliaram debates sobre direitos e liberdade, mas não eliminaram discriminações nem produziram conquistas iguais para todos.",
     "personagens": [
-      "Martin Luther King Jr. e Malcolm X: Ícones da luta pelos direitos civis e antirracistas nos EUA.",
-      "Betty Friedan e Simone de Beauvoir: Filósofas impulsionadoras do movimento feminista contemporâneo."
+      "Martin Luther King Jr.: liderança do movimento pelos direitos civis, defensor da ação política não violenta.",
+      "Rosa Parks: ativista cuja prisão em 1955 se tornou marco do boicote aos ônibus de Montgomery.",
+      "Malcolm X: importante liderança negra que defendeu autonomia e diferentes formas de resistência ao racismo.",
+      "Betty Friedan: autora de A Mística Feminina (1963) e uma das referências do feminismo estadunidense de sua época.",
+      "Simone de Beauvoir: filósofa cuja obra O Segundo Sexo (1949) influenciou debates feministas em vários países."
     ],
     "grupos_envolvidos": [
-      "Ativistas de Direitos Civis",
-      "Estudantes e Universidades em revolta",
-      "Comunidades Contraculturais"
+      "Organizações negras, estudantes, lideranças comunitárias, igrejas e associações pelos direitos civis nos Estados Unidos.",
+      "Movimentos feministas diversos, organizações de mulheres trabalhadoras e grupos que reivindicavam igualdade jurídica e autonomia.",
+      "Estudantes, trabalhadores, intelectuais, artistas, pacifistas e opositores à Guerra do Vietnã.",
+      "Movimentos anticoloniais, organizações populares e grupos que enfrentavam ditaduras e regimes autoritários."
     ],
     "interesses_em_disputa": [
-      "Igualdade civil perante a lei, autonomia dos corpos, paz internacional e liberdade de costumes."
+      "Igualdade jurídica e política, combate à segregação e ao racismo, acesso à educação, ao trabalho e ao voto.",
+      "Autonomia das mulheres, igualdade de oportunidades, direitos reprodutivos e contestação de hierarquias de gênero.",
+      "Liberdade de expressão e organização, oposição à guerra e ao autoritarismo e disputa sobre modelos de sociedade e cultura."
     ],
     "linha_do_tempo": [
-      {"ano": 1963, "titulo": "Marcha sobre Washington", "descricao": "Discurso histórico 'I Have a Dream' de Martin Luther King Jr."},
-      {"ano": 1968, "titulo": "Protestos Globais de 1968", "descricao": "Auge das revoltas estudantis na Europa, Américas e Ásia."}
+      {
+        "ano": 1954,
+        "titulo": "Decisão Brown v. Board of Education",
+        "descricao": "A Suprema Corte dos EUA declarou inconstitucional a segregação racial nas escolas públicas."
+      },
+      {
+        "ano": 1955,
+        "titulo": "Boicote aos ônibus de Montgomery",
+        "descricao": "Mobilização contra a segregação no transporte público, fortalecendo o movimento pelos direitos civis."
+      },
+      {
+        "ano": 1963,
+        "titulo": "Marcha sobre Washington",
+        "descricao": "Grande mobilização por trabalho e liberdade, na qual Martin Luther King Jr. fez seu conhecido discurso."
+      },
+      {
+        "ano": 1964,
+        "titulo": "Civil Rights Act nos Estados Unidos",
+        "descricao": "Lei federal proibiu formas importantes de discriminação racial, étnica, religiosa e de gênero."
+      },
+      {
+        "ano": 1965,
+        "titulo": "Voting Rights Act",
+        "descricao": "Lei federal fortaleceu a proteção do direito ao voto e combateu práticas discriminatórias."
+      },
+      {
+        "ano": 1968,
+        "titulo": "Mobilizações e conflitos em diferentes países",
+        "descricao": "Protestos na França, massacre de Tlatelolco no México e repressão à Primavera de Praga na Tchecoslováquia."
+      },
+      {
+        "ano": 1975,
+        "titulo": "Fim da Guerra do Vietnã",
+        "descricao": "A queda de Saigon encerrou a guerra, que havia provocado mobilizações pacifistas internacionais."
+      }
     ],
     "consequencias_imediatas": [
-      "Aprovação de leis federais contra a segregação racial nos EUA (Civil Rights Act de 1964).",
-      "Reformulação profunda das leis de família, divórcio e costumes em vários países."
+      "Nos Estados Unidos, leis federais importantes combateram a segregação e barreiras racistas ao voto, embora a desigualdade e a violência racial persistissem.",
+      "Ampliação da presença pública de movimentos feministas, estudantis, antirracistas e pacifistas e maior visibilidade de suas reivindicações.",
+      "Repressão estatal a mobilizações em diferentes países, demonstrando os limites e os riscos da contestação política em regimes democráticos e autoritários."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação da agenda contemporânea de direitos humanos, diversidade e reconhecimento de minorias sociais."
+      "Influência sobre legislações, políticas públicas e movimentos posteriores por igualdade racial, direitos das mulheres, direitos LGBTQ+ e liberdade política.",
+      "Transformações nas artes, na música, na moda, nos meios de comunicação e nos debates sobre juventude, família e comportamento.",
+      "Persistência de disputas sobre racismo estrutural, desigualdade de gênero, violência estatal e participação democrática."
     ],
     "impactos": {
-      "politicos": "Inclusão política de parcelas da população anteriormente marginalizadas.",
-      "economicos": "Adaptação do mercado capitalista de consumo aos novos estilos de vida juvenis e alternativos.",
-      "sociais": "Rompimento do padrão patriarcal tradicional rígido na família ocidental.",
-      "culturais": "Revolução moral nos costumes, na música, nas artes e na liberdade individual.",
-      "territoriais": "Mobilização global interconectada via mídia de massa.",
-      "ambientais": "Início da conscientização ecológica moderna ligada aos movimentos alternativos dos anos 70."
+      "politicos": "Ampliação de agendas de direitos civis e sociais e pressão por reformas; em vários contextos, movimentos também enfrentaram repressão, censura e violência.",
+      "economicos": "Debates sobre igualdade de acesso ao emprego, remuneração, educação e consumo, sem superação das desigualdades de classe e raça.",
+      "sociais": "Mudanças nas relações de gênero, na organização familiar e na participação pública, com efeitos diferentes conforme país, classe, raça e geração.",
+      "culturais": "Renovação de linguagens artísticas e musicais, expansão da cultura juvenil e questionamento de normas sociais, sem homogeneidade entre os movimentos.",
+      "territoriais": "Circulação internacional de repertórios de protesto e solidariedade, adaptados a contextos nacionais e locais específicos.",
+      "ambientais": "A contracultura e movimentos sociais contribuíram para ampliar debates sobre consumo, natureza e qualidade de vida; o ambientalismo também se desenvolveu por trajetórias próprias."
     },
-    "continuidade": "Preconceitos estruturais persistentes e lutas contínuas por equidade plena de gênero e raça.",
-    "rupturas": "Fim da hegemonia moral conservadora estrita sobre a vida privada e familiar no Ocidente."
+    "continuidade": "Racismo, desigualdade de gênero, discriminação, concentração de poder e conflitos sobre direitos permaneceram, exigindo mobilizações e mudanças posteriores.",
+    "rupturas": "Leis antidiscriminatórias, novas formas de organização coletiva e mudanças culturais alteraram relações sociais e ampliaram direitos em diversos países, sem representar o fim das hierarquias ou uma transformação uniforme do Ocidente."
   },
-
   {
     "id": "globalizacao-tecnologia-fim-seculo-xx",
     "titulo_principal": "GLOBALIZAÇÃO, REVOLUÇÃO INFORMÁTICA E O FIM DO SÉCULO XX",
@@ -468,11 +694,31 @@
       "Livre mercado financeiro global versus soberania estatal de proteção social e regulação trabalhista."
     ],
     "linha_do_tempo": [
-      {"ano": 1979, "titulo": "Revolução Iraniana", "descricao": "Instauração de república teocrática islâmica no Irã."},
-      {"ano": 1989, "titulo": "Criação da World Wide Web", "descricao": "Invenção da rede mundial de computadores por Tim Berners-Lee."},
-      {"ano": 1990, "titulo": "Reunificação da Alemanha", "descricao": "Fim simbólico definitivo da divisão alemã da Guerra Fria."},
-      {"ano": 1994, "titulo": "Fim do Apartheid e Eleição de Mandela", "descricao": "Eleição histórica na África do Sul rumo à democracia multirracial."},
-      {"ano": 1999, "titulo": "Criação do Euro", "descricao": "Unificação da moeda europeia no bloco econômico."}
+      {
+        "ano": 1979,
+        "titulo": "Revolução Iraniana",
+        "descricao": "Instauração de república teocrática islâmica no Irã."
+      },
+      {
+        "ano": 1989,
+        "titulo": "Criação da World Wide Web",
+        "descricao": "Invenção da rede mundial de computadores por Tim Berners-Lee."
+      },
+      {
+        "ano": 1990,
+        "titulo": "Reunificação da Alemanha",
+        "descricao": "Fim simbólico definitivo da divisão alemã da Guerra Fria."
+      },
+      {
+        "ano": 1994,
+        "titulo": "Fim do Apartheid e Eleição de Mandela",
+        "descricao": "Eleição histórica na África do Sul rumo à democracia multirracial."
+      },
+      {
+        "ano": 1999,
+        "titulo": "Criação do Euro",
+        "descricao": "Unificação da moeda europeia no bloco econômico."
+      }
     ],
     "consequencias_imediatas": [
       "Aceleração vertiginosa das trocas comerciais, financeiras e informacionais em tempo real pelo planeta.",
@@ -491,5 +737,112 @@
     },
     "continuidade": "Busca capitalista por novos mercados e expansão contínua da produtividade técnica.",
     "rupturas": "Passagem da era industrial mecânica para a era da informação digital em rede global."
+  },
+  {
+    "id": "seculo-xxi-globalizacao-crises-tecnologia-2001-2026",
+    "titulo_principal": "SÉCULO XXI (2001–2026): GLOBALIZAÇÃO, CRISES, TECNOLOGIA E DESAFIOS CONTEMPORÂNEOS",
+    "ano_inicio": 2001,
+    "ano_fim": 2026,
+    "periodo": "História Contemporânea — século XXI",
+    "local": "Escala global, com processos e impactos regionais distintos",
+    "sociedades_envolvidas": "Sociedades, Estados, organizações internacionais, empresas transnacionais, movimentos sociais e comunidades de diferentes regiões do mundo",
+    "tema": "Atentados de 11 de setembro, guerras no Afeganistão e Iraque, crise financeira de 2008, Primavera Árabe, ascensão da China, mudanças climáticas, pandemia de COVID-19, redes digitais, inteligência artificial e conflitos geopolíticos",
+    "contexto": "O século XXI intensificou conexões econômicas, políticas, culturais e tecnológicas, mas seus efeitos foram desiguais. Crises financeiras, conflitos armados, mobilizações sociais, mudanças climáticas, pandemias e transformações digitais passaram a atravessar fronteiras. A história recente não segue uma trajetória única: diferentes regiões enfrentam desafios específicos e participam da reorganização da ordem internacional.",
+    "antecedentes": [
+      "Expansão da globalização econômica, das tecnologias digitais e das redes de comunicação nas últimas décadas do século XX.",
+      "Fim da Guerra Fria e transformações na ordem internacional, com novas disputas de poder e fortalecimento de atores estatais e não estatais."
+    ],
+    "causas": {
+      "politicas": "A reorganização das relações internacionais após a Guerra Fria, a atuação de potências globais e regionais, o crescimento de organizações multilaterais e a emergência de novos conflitos redefiniram alianças e disputas.",
+      "economicas": "A integração dos mercados, a expansão das cadeias globais de produção, a financeirização, a ascensão econômica chinesa e as crises de 2008 e posteriores alteraram relações de trabalho, comércio e desenvolvimento.",
+      "sociais": "Migrações, desigualdades, mobilizações por direitos, protestos contra regimes autoritários e debates sobre gênero, raça, trabalho e participação política marcaram diferentes sociedades.",
+      "religiosas": "Identidades e movimentos religiosos participaram de debates públicos e conflitos em contextos variados; não se deve confundir religiões inteiras com organizações extremistas ou decisões de governos.",
+      "culturais": "Redes sociais, plataformas de streaming e circulação digital ampliaram a produção cultural e a comunicação, mas também facilitaram a desinformação, a vigilância e a polarização.",
+      "territoriais": "Conflitos no Oriente Médio, na Europa Oriental e em outras regiões, disputas marítimas, deslocamentos populacionais e pressões sobre territórios e recursos naturais evidenciam tensões geopolíticas.",
+      "tecnologias": "Telefonia móvel, computação em nuvem, redes sociais, biotecnologia e inteligência artificial transformaram comunicação, ciência, economia e trabalho, ao mesmo tempo que ampliaram debates sobre privacidade, regulação e desigualdade de acesso."
+    },
+    "resumo_card": "O século XXI reúne mudanças na ordem mundial, guerras e crises, mobilizações sociais, transformações digitais e desafios ambientais e sanitários. Seus processos são globais, mas produzem efeitos diferentes conforme as condições históricas de cada sociedade.",
+    "desenvolvimento": "Os atentados de 11 de setembro de 2001 nos Estados Unidos foram seguidos pela invasão do Afeganistão, liderada pelos EUA e aliados, e pela guerra do Iraque iniciada em 2003, com consequências duradouras para a região e para a política internacional. A crise financeira de 2007–2008, iniciada no mercado imobiliário e financeiro dos Estados Unidos, espalhou-se internacionalmente e expôs fragilidades do sistema financeiro global. A partir de 2010, mobilizações conhecidas como Primavera Árabe contestaram governos e condições sociais em países do norte da África e do Oriente Médio, produzindo resultados distintos: mudanças de governo, guerras, repressão e processos de transição. A China ampliou sua influência econômica e diplomática, enquanto fóruns como o G20 e os BRICS ganharam relevância nos debates sobre governança global. A crise climática tornou-se cada vez mais visível em negociações internacionais, políticas energéticas e eventos extremos; o Acordo de Paris foi adotado em 2015. A pandemia de COVID-19, reconhecida como pandemia pela Organização Mundial da Saúde em março de 2020, provocou milhões de mortes, mudanças no trabalho e na educação e profundas consequências sociais e econômicas. Em 2022, a invasão em larga escala da Ucrânia pela Rússia reconfigurou a segurança europeia e provocou efeitos internacionais sobre energia, alimentos e deslocamentos. Em 7 de outubro de 2023, ataques liderados pelo Hamas contra Israel foram seguidos por uma ofensiva militar israelense na Faixa de Gaza, com grave crise humanitária, destruição e deslocamento de civis; o conflito deve ser compreendido em seu contexto histórico mais amplo e sem apagar a diversidade de experiências palestinas e israelenses. Paralelamente, plataformas digitais e sistemas de inteligência artificial generativa passaram a influenciar comunicação, trabalho, educação e disputas sobre direitos, regulação e concentração de poder. Esses acontecimentos não encerram a história do século XXI: são processos em desenvolvimento, com interpretações e consequências ainda em debate.",
+    "personagens": [
+      "George W. Bush: presidente dos Estados Unidos durante os atentados de 11 de setembro de 2001 e o início das guerras no Afeganistão e no Iraque.",
+      "Xi Jinping: dirigente da China desde 2012, período de ampliação da presença internacional chinesa.",
+      "Greta Thunberg: ativista cuja mobilização, iniciada em 2018, contribuiu para dar visibilidade internacional às reivindicações por ação climática."
+    ],
+    "grupos_envolvidos": [
+      "Estados, organizações internacionais e alianças político-militares, com interesses e capacidades desiguais.",
+      "Movimentos sociais, organizações humanitárias, grupos ambientalistas e coletivos por direitos civis e democráticos.",
+      "Empresas de tecnologia, trabalhadores, pesquisadores e comunidades afetadas pela digitalização e pela inteligência artificial."
+    ],
+    "interesses_em_disputa": [
+      "Segurança, soberania, influência geopolítica, recursos naturais e controle de territórios.",
+      "Distribuição de riqueza, regulação financeira, direitos sociais, proteção ambiental e acesso às tecnologias.",
+      "Liberdade de expressão, privacidade, combate à desinformação e responsabilidade de plataformas digitais."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": 2001,
+        "titulo": "Atentados de 11 de setembro",
+        "descricao": "Ataques terroristas nos Estados Unidos foram seguidos pela chamada Guerra ao Terror e por intervenções militares no Afeganistão."
+      },
+      {
+        "ano": 2003,
+        "titulo": "Invasão do Iraque",
+        "descricao": "Uma coalizão liderada pelos Estados Unidos invadiu o Iraque; a guerra e a ocupação provocaram instabilidade e consequências duradouras."
+      },
+      {
+        "ano": 2008,
+        "titulo": "Crise financeira global",
+        "descricao": "A crise iniciada no sistema financeiro dos Estados Unidos espalhou-se pelo mundo e provocou recessão, desemprego e respostas estatais distintas."
+      },
+      {
+        "ano": 2011,
+        "titulo": "Primavera Árabe",
+        "descricao": "Protestos e mobilizações no norte da África e no Oriente Médio contestaram regimes e condições sociais, com desfechos diferentes em cada país."
+      },
+      {
+        "ano": 2015,
+        "titulo": "Acordo de Paris",
+        "descricao": "Países adotaram um acordo internacional para enfrentar as mudanças climáticas, com metas nacionais e mecanismos de acompanhamento."
+      },
+      {
+        "ano": 2020,
+        "titulo": "Pandemia de COVID-19",
+        "descricao": "A OMS caracterizou a COVID-19 como pandemia em março; a crise afetou a saúde, a economia, a educação e a vida social em escala mundial."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Invasão em larga escala da Ucrânia",
+        "descricao": "A Rússia iniciou uma invasão em larga escala da Ucrânia, intensificando a guerra e provocando repercussões internacionais."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Popularização da inteligência artificial generativa",
+        "descricao": "Ferramentas generativas tornaram-se amplamente acessíveis ao público e intensificaram debates sobre trabalho, educação, direitos e regulação."
+      },
+      {
+        "ano": 2023,
+        "titulo": "Escalada da guerra em Gaza",
+        "descricao": "Os ataques liderados pelo Hamas em 7 de outubro foram seguidos pela ofensiva israelense em Gaza e por grave crise humanitária."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Aumento de deslocamentos forçados, crises humanitárias e insegurança em regiões atingidas por guerras e instabilidade política.",
+      "Reorganização de cadeias produtivas, políticas econômicas e relações de trabalho após crises financeiras e sanitárias.",
+      "Ampliação do debate público sobre mudanças climáticas, governança digital, privacidade e regulação da inteligência artificial."
+    ],
+    "consequencias_longo_prazo": [
+      "As consequências das guerras, da crise climática, da pandemia e das transformações tecnológicas continuam em desenvolvimento e variam entre regiões e grupos sociais.",
+      "A ordem internacional tornou-se mais complexa, com disputas entre potências, fortalecimento de atores regionais e questionamentos sobre instituições multilaterais."
+    ],
+    "impactos": {
+      "politicos": "Reconfiguração de alianças e conflitos, fortalecimento de debates sobre soberania, segurança, democracia e governança internacional.",
+      "economicos": "Crises financeiras e sanitárias, expansão de cadeias globais, transformações do trabalho e concentração de poder em setores digitais.",
+      "sociais": "Desigualdades persistentes, migrações, efeitos da pandemia e novas mobilizações por direitos e justiça social.",
+      "culturais": "Comunicação em rede, circulação cultural acelerada e disputas sobre desinformação, privacidade e liberdade de expressão.",
+      "territoriais": "Guerras, deslocamentos, disputas por recursos e impactos desiguais de eventos climáticos extremos.",
+      "ambientais": "Aquecimento global, perda de biodiversidade e pressão sobre recursos naturais ampliaram a urgência de políticas de mitigação e adaptação."
+    },
+    "continuidade": "Persistem desigualdades históricas, disputas por poder e recursos e a busca por direitos e participação política, embora em contextos tecnológicos e geopolíticos transformados.",
+    "rupturas": "A digitalização em larga escala, a pandemia e a intensificação de crises geopolíticas e climáticas modificaram práticas sociais e relações internacionais, sem eliminar estruturas anteriores."
   }
 ]

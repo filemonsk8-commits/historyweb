@@ -2,56 +2,92 @@
   {
     "id": "pre-historia-do-brasil",
     "titulo_principal": "A PRÉ-HISTÓRIA DO BRASIL",
-    "ano_inicio": -12000,
+    "ano_inicio": -15000,
     "ano_fim": 1500,
     "periodo": "História do Brasil",
     "local": "Território Brasileiro",
     "sociedades_envolvidas": "Povos Indígenas Originários, Caçadores, Coletores, Ceramistas e Construtores de Sambaquis",
     "tema": "Povoamento originário, Sambaquis, Arte Rupestre e Diversidade Cultural Indígena",
-    "contexto": "Período anterior à chegada dos europeus em 1500, marcado pela intensa ocupação humana do território brasileiro e pelo desenvolvimento de complexas e diversas culturas indígenas.",
+    "contexto": "Muito antes da chegada dos portugueses, o território que hoje corresponde ao Brasil era habitado por numerosos povos, com histórias, línguas, tecnologias e formas de organização diversas. A arqueologia investiga essa longa trajetória por meio de vestígios como instrumentos de pedra, restos de alimentação, sepultamentos, cerâmicas, pinturas rupestres, sambaquis e alterações antigas da paisagem. As datas mais antigas e os caminhos do povoamento das Américas continuam em debate; por isso, sítios e datações devem ser apresentados com seus contextos e limites de interpretação.",
     "antecedentes": [
-      "Migrações humanas ancestrais rumo ao continente americano."
+      "Deslocamentos humanos pelo continente americano em diferentes períodos e por rotas ainda debatidas, envolvendo ambientes costeiros e interiores.",
+      "Adaptações a paisagens muito variadas, como florestas, cerrados, campos, áreas semiáridas, rios e litoral."
     ],
     "causas": {
-      "politicas": "Organização tribal, lideranças de chefes locais e estruturas comunitárias baseadas no parentesco.",
-      "economicas": "Adaptação aos ecossistemas locais por meio da caça, coleta, pesca, agricultura itinerante e manejo florestal.",
-      "sociais": "Divisão social baseada na idade, gênero e funções rituais ou guerreiras.",
-      "religiosas": "Xamanismo, mitos de origem, rituais funerários e profunda conexão sagrada com a natureza.",
-      "culturais": "Expressões artísticas em pinturas rupestres, grafismos corporais e cerâmicas elaboradas.",
-      "territoriais": "Ocupação de biomas diversos como Amazônia, Cerrado, Caatinga, Pantanal e a costa atlântica (sambaquis).",
-      "tecnologias": "Domínio da lithica (pedra polida e lascada), técnicas de queima cerâmica e construção de aterros e sambaquis."
+      "politicas": "As comunidades desenvolveram formas variadas de decisão, liderança, cooperação e aliança. Não existiu uma única organização política comum a todos os povos.",
+      "economicas": "A subsistência combinava, de maneiras distintas, caça, pesca, coleta, cultivo de plantas, manejo de florestas e trocas entre comunidades.",
+      "sociais": "As relações sociais eram diversas e se organizavam por parentesco, idade, gênero, conhecimentos, alianças e responsabilidades comunitárias, sem um modelo único.",
+      "religiosas": "Práticas rituais, narrativas de origem, relações com ancestrais e concepções sobre seres humanos e não humanos variavam entre os povos e são investigadas por diferentes tipos de evidência.",
+      "culturais": "Pinturas e gravuras rupestres, objetos, adornos, cerâmicas, sepultamentos e tradições orais expressam conhecimentos e identidades culturais plurais.",
+      "territoriais": "A ocupação alcançou diferentes ambientes do atual território brasileiro, com mobilidade, permanência e transformação das paisagens em escalas variadas.",
+      "tecnologias": "Foram desenvolvidas tecnologias de pedra lascada e polida, madeira, fibras, pesca, navegação, cerâmica, cultivo e manejo ambiental, conforme cada contexto histórico."
     },
-    "resumo_card": "Abrange o povoamento originário, os primeiros grupos humanos, caçadores, coletores, agricultores, ceramistas, sambaquis, pinturas rupestres e a imensa diversidade cultural dos povos indígenas brasileiros.",
-    "desenvolvimento": "O território brasileiro foi ocupado milênios antes da chegada europeia por uma rica pluralidade de povos. Comunidades de caçadores-coletores e construtores de sambaquis habitaram o litoral, enquanto povos agricultores e ceramistas expandiram-se pelo interior, deixando registros expressivos em pinturas rupestres e desenvolvendo tradições culturais autônomas.",
+    "resumo_card": "A longa história dos povos que habitaram o atual território brasileiro antes de 1500: povoamento antigo, diversidade cultural, pinturas rupestres, sambaquis, cerâmicas, agricultura e manejo de diferentes ambientes.",
+    "desenvolvimento": "A presença humana no atual território brasileiro é muito anterior a 1500. Sítios arqueológicos como os da Serra da Capivara, no Piauí, Lagoa Santa, em Minas Gerais, e Santa Elina, em Mato Grosso, ajudam a investigar quando e por quais caminhos grupos humanos chegaram e se distribuíram pelo continente. Algumas evidências muito antigas são objeto de debate científico; por isso, não se deve apresentar uma data única e definitiva para o início do povoamento. Ao longo de milênios, comunidades construíram modos de vida diversos. No litoral, os sambaquis — grandes montes formados principalmente por conchas, restos de alimentação e vestígios de atividades humanas — também guardam sepultamentos e objetos. Em diferentes regiões, pinturas e gravuras rupestres registram práticas e formas de expressão. Na Amazônia e em outras áreas, pesquisas identificam antigas formas de cultivo, manejo florestal, solos modificados pela ação humana e construções de terra. A produção de cerâmica, a pesca, a caça, a coleta e o cultivo de plantas ocorreram em combinações distintas. Não existia uma sociedade indígena única: havia muitos povos, línguas, conhecimentos e formas de organização, em transformação ao longo do tempo. Em 1500, a chegada portuguesa iniciou processos de invasão, colonização, epidemias, violência e resistência, mas não apagou a continuidade histórica dos povos indígenas.",
     "personagens": [
-      "Ancestrais e lideranças dos povos indígenas originários do Brasil."
+      "Comunidades e ancestrais dos povos indígenas que habitaram diferentes regiões do atual Brasil.",
+      "Pesquisadores e pesquisadoras da arqueologia, antropologia e história que estudam os vestígios materiais e as histórias indígenas."
     ],
     "grupos_envolvidos": [
-      "Comunidades Tupi-Guarani, Jê, Aruaques, Caribs e Pano, entre centenas de outros povos."
+      "Grupos de caçadores, pescadores e coletores de diferentes ambientes.",
+      "Comunidades construtoras de sambaquis em áreas costeiras e estuarinas.",
+      "Sociedades agricultoras, ceramistas e grupos que transformaram paisagens em regiões amazônicas, centrais e meridionais.",
+      "Numerosos povos indígenas, com línguas, histórias e organizações próprias; categorias linguísticas amplas não representam sociedades homogêneas."
     ],
     "interesses_em_disputa": [
-      "Territórios de caça, pesca, cultivo e demarcação de espaços sagrados entre diferentes etnias."
+      "Acesso e uso de territórios, fontes de água, áreas de pesca, caça e cultivo, em relações que variavam entre cooperação, circulação, alianças e conflitos.",
+      "Preservação de lugares de memória, sepultamentos e espaços considerados significativos por diferentes comunidades."
     ],
     "linha_do_tempo": [
-      {"ano": -12000, "titulo": "Primeiros Registros Humanos", "descricao": "Vestígios da presença humana ancestral no território nacional (ex: Serra da Capivara)."},
-      {"ano": 1500, "titulo": "Pluralidade Originária", "descricao": "Milhões de indígenas de centenas de etnias habitam o Brasil antes da chegada portuguesa."}
+      {
+        "ano": -15000,
+        "titulo": "Vestígios antigos de ocupação",
+        "descricao": "Há sítios no atual território brasileiro com datações próximas a 15 mil anos antes do presente; datas mais antigas são discutidas e exigem avaliação das evidências."
+      },
+      {
+        "ano": -12000,
+        "titulo": "Ocupações em diferentes regiões",
+        "descricao": "Vestígios arqueológicos em áreas como Lagoa Santa, Serra da Capivara e Amazônia ampliam o conhecimento sobre a diversidade das primeiras ocupações."
+      },
+      {
+        "ano": -8000,
+        "titulo": "Sambaquis costeiros",
+        "descricao": "Em diferentes trechos do litoral, comunidades formam sambaquis ao longo de milênios; datas e funções variam de sítio para sítio."
+      },
+      {
+        "ano": -4000,
+        "titulo": "Diversificação de tecnologias e modos de vida",
+        "descricao": "Cerâmicas, instrumentos, práticas de cultivo, pesca e manejo ambiental aparecem em contextos regionais distintos."
+      },
+      {
+        "ano": -2000,
+        "titulo": "Transformações nas paisagens",
+        "descricao": "Em várias regiões, comunidades ampliam práticas de cultivo, manejo de plantas, construção de estruturas e redes de circulação."
+      },
+      {
+        "ano": 1500,
+        "titulo": "Início da colonização portuguesa",
+        "descricao": "A chegada dos portugueses intensifica invasões e transformações, mas os povos indígenas permanecem como sujeitos históricos e resistem à colonização."
+      }
     ],
     "consequencias_imediatas": [
-      "Choque demográfico e cultural profundo com a chegada da colonização europeia a partir de 1500."
+      "Formação, ao longo de milênios, de sociedades diversas, com conhecimentos próprios sobre ecossistemas, tecnologias, alimentação e organização comunitária.",
+      "Em 1500, o início da colonização portuguesa desencadeou epidemias, escravização, expulsões e conflitos, além de alianças, negociações e resistências indígenas."
     ],
     "consequencias_longo_prazo": [
-      "Formação da matriz étnica e cultural indígena como um dos pilares fundamentais da identidade brasileira."
+      "A presença e a atuação dos povos indígenas continuam a marcar a história, a cultura, as línguas, a alimentação e os conhecimentos do Brasil.",
+      "Os sítios arqueológicos constituem patrimônio cultural e fonte de pesquisa, memória e debate sobre a história profunda do território."
     ],
     "impactos": {
-      "politicos": "Desestruturação das soberanias originárias frente à expansão do Estado colonial português.",
-      "economicos": "Sistemas sustentáveis de manejo florestal e agrícola substituídos por monoculturas de exportação.",
-      "sociais": "Dizimação demográfica massiva por doenças e violência institucional nascentede.",
-      "culturais": "Contribuição indelével para a língua, culinária, medicina natural e hábitos cotidianos do Brasil.",
-      "territoriais": "Perda contínua de territórios tradicionais ancestrais.",
-      "ambientais": "Manejo milenar equilibrado da biodiversidade dos biomas brasileiros."
+      "politicos": "Antes de 1500 existiam formas diversas de organização e autoridade. A colonização impôs estruturas de poder europeias, sem eliminar a agência política e a resistência dos povos indígenas.",
+      "economicos": "Caça, pesca, coleta, cultivo, produção de objetos, manejo de plantas e trocas compunham economias variadas, adaptadas a contextos locais.",
+      "sociais": "As sociedades apresentavam diferentes formas de parentesco, cooperação, mobilidade e estabelecimento; a colonização provocou perdas demográficas e deslocamentos violentos.",
+      "culturais": "Línguas, conhecimentos, narrativas, arte, técnicas e práticas indígenas permanecem presentes e se transformam continuamente.",
+      "territoriais": "A ocupação humana transformou paisagens e estabeleceu relações históricas com os territórios; a colonização produziu expropriações e disputas que continuam.",
+      "ambientais": "Práticas de manejo, cultivo e transformação ambiental variaram entre regiões; não se deve idealizar todas as relações com a natureza como iguais ou invariavelmente sustentáveis."
     },
-    "continuidade": "Resistência histórica secular dos povos indígenas na defesa de seus direitos, culturas e demarcações territoriais.",
-    "rupturas": "Colapso demográfico e interrupção violenta de autonomias políticas originárias com o avanço colonial."
+    "continuidade": "A presença dos povos indígenas atravessa todo o período colonial e a história posterior. Comunidades mantêm, recriam e defendem línguas, conhecimentos, identidades, territórios e direitos.",
+    "rupturas": "A colonização iniciada no século XVI provocou epidemias, escravização, violência, deslocamentos e perda de territórios, alterando profundamente muitas sociedades, sem significar seu desaparecimento."
   },
 
   {
@@ -63,120 +99,120 @@
     "local": "Litoral Brasileiro",
     "sociedades_envolvidas": "Coroa Portuguesa, Povos Indígenas e Corsários Franceses",
     "tema": "Expedição de Cabral, Escambo de Pau-Brasil, Expedições Exploratórias, Guarda-Costas e Concorrentes Franceses",
-    "contexto": "Três primeiras décadas após a chegada da frota de Cabral em 1500, período em que Portugal priorizou o comércio lucrativo das Índias orientais, limitando-se no Brasil à exploração extrativista do pau-brasil baseada no escambo indígena.",
+    "contexto": "Entre 1500 e 1530, a presença portuguesa na costa do atual Brasil foi marcada por expedições, feitorias temporárias e exploração do pau-brasil, enquanto a Coroa priorizava também as rotas comerciais com a África e a Ásia. O rótulo “pré-colonial” refere-se apenas à periodização da colonização portuguesa: o território já era habitado por numerosos povos indígenas, com histórias, sociedades e redes próprias muito anteriores à chegada europeia.",
     "antecedentes": [
       "Expansão marítima portuguesa e assinatura do Tratado de Tordesilhas (1494)."
     ],
     "causas": {
       "politicas": "Necessidade de salvaguardar a posse territorial assegurada pelo Tratado de Tordesilhas contra investidas estrangeiras.",
-      "economicas": "Extração intensiva de pau-brasil para tintura de tecidos na Europa através do escambo com os nativos.",
-      "sociais": "Primeiros contatos, estranhamentos e trocas culturais entre navegadores ibéricos e nativos americanos.",
+      "economicas": "Interesse comercial no pau-brasil, cuja madeira fornecia pigmento valorizado na Europa, e prioridade portuguesa às redes de comércio africanas e asiáticas; a exploração envolveu alianças, negociações e relações desiguais com comunidades indígenas.",
+      "sociais": "Encontros entre sociedades com línguas, conhecimentos e formas de organização distintas, marcados por curiosidade, negociação, conflitos, violência e crescente disseminação de doenças.",
       "religiosas": "Primeiras missas e intenções declaradas de expansão da fé cristã católica.",
-      "culturais": "Percepção eurocêntrica inicial dos portugueses registrada nas cartas de descobrimento.",
-      "territoriais": "Patrulhamento do litoral por expedições guarda-costas (Cristóvão Jacques) contra incursões de franceses.",
+      "culturais": "Relatos portugueses, como a carta de Pero Vaz de Caminha, registraram os contatos a partir de perspectivas europeias e não representam a visão ou a diversidade dos povos indígenas.",
+      "territoriais": "Expedições portuguesas buscaram reconhecer a costa e reforçar reivindicações da Coroa, enquanto franceses e outros agentes europeus também estabeleceram relações comerciais com comunidades indígenas.",
       "tecnologias": "Uso de caravelas e naus de exploração oceânica atlântica."
     },
-    "resumo_card": "Abrange a chegada de Pedro Álvares Cabral em 1500, os primeiros contatos com os indígenas, a exploração do pau-brasil por escambo, as expedições exploratórias e guarda-costas, e a presença concorrente de franceses no litoral.",
-    "desenvolvimento": "A armada de Pedro Álvares Cabral aportou na Bahia em abril de 1500. Como o comércio oriental de especiarias era mais lucrativo, Portugal adotou a colonização indireta inicial: enviou expedições exploratórias e guarda-costas para combater corsários franceses e explorou o pau-brasil utilizando o trabalho indígena por meio do escambo (troca de toras de madeira por quinquilharias europeias).",
+    "resumo_card": "Entre 1500 e 1530, expedições portuguesas reconheceram trechos da costa, instalaram feitorias e exploraram o pau-brasil por meio de relações comerciais e de trabalho com povos indígenas. A presença portuguesa foi disputada por outros europeus, mas não se tratava de um território vazio: sociedades indígenas habitavam e organizavam essas terras havia milênios.",
+    "desenvolvimento": "A armada comandada por Pedro Álvares Cabral chegou à costa da atual Bahia em abril de 1500, em território habitado por diferentes povos indígenas. Expedições posteriores, como as de 1501–1502 e 1503–1504, percorreram trechos do litoral e ampliaram o reconhecimento português. A extração do pau-brasil ocorreu por meio de feitorias e de relações com grupos indígenas, frequentemente descritas como escambo. Essas trocas não devem ser entendidas como relações necessariamente equilibradas: envolveram interesses distintos, pressões e formas de exploração do trabalho indígena. Comerciantes franceses também negociaram com comunidades locais e desafiaram as reivindicações portuguesas. A Coroa enviou expedições de vigilância e combate ao comércio não autorizado, entre elas as comandadas por Cristóvão Jacques em 1516–1519 e 1526–1528. A colonização permanente ganhou impulso a partir de 1530, mas a história dos povos indígenas no território não começou com a chegada dos portugueses.",
     "personagens": [
-      "Pedro Álvares Cabral: Capitão-mor da armada portuguesa de 1500.",
-      "Pero Vaz de Caminha: Escrivão da frota e autor da famosa carta de relato.",
-      "Cristóvão Jacques: Comandante das expedições guarda-costas."
+      "Pedro Álvares Cabral: Comandante da armada portuguesa que chegou à costa da atual Bahia em abril de 1500.",
+      "Pero Vaz de Caminha: Escrivão da armada de Cabral, autor de uma carta dirigida ao rei D. Manuel I, fonte importante, mas marcada pela perspectiva portuguesa sobre os primeiros contatos.",
+      "Cristóvão Jacques: Navegador e comandante português associado a expedições de vigilância do litoral e combate ao comércio estrangeiro não autorizado."
     ],
     "grupos_envolvidos": [
       "Navegadores Portugueses",
-      "Povos Indígenas Litorâneos",
+      "Povos indígenas de diferentes regiões costeiras, com línguas, alianças, atividades econômicas e estratégias políticas próprias; não constituíam um grupo homogêneo.",
       "Corsários e Comerciantes Franceses"
     ],
     "interesses_em_disputa": [
-      "Posse das terras americanas e monopólio comercial da extração de pau-brasil."
+      "Controle das rotas e dos pontos de comércio, acesso ao pau-brasil e reivindicações territoriais das Coroas europeias, em interação com os interesses e as decisões das comunidades indígenas."
     ],
     "linha_do_tempo": [
-      {"ano": 1500, "titulo": "Chegada de Pedro Álvares Cabral", "descricao": "Aporte da armada portuguesa no litoral da Bahia."},
-      {"ano": 1516, "titulo": "Expedições Guarda-Costas", "descricao": "Envio de missões para combater contrabandistas franceses no litoral."}
+      {"ano": 1500, "titulo": "Chegada de Pedro Álvares Cabral", "descricao": "A armada portuguesa comandada por Cabral chegou à costa da atual Bahia, onde encontrou povos indígenas que já habitavam a região."},
+      {"ano": 1516, "titulo": "Expedições Guarda-Costas", "descricao": "Cristóvão Jacques comandou expedições de vigilância do litoral em diferentes anos, incluindo 1516–1519 e 1526–1528, para combater o comércio estrangeiro considerado ilegal pela Coroa portuguesa."}
     ],
     "consequencias_imediatas": [
-      "Destruição parcial de matas de pau-brasil no litoral brasileiro.",
-      "Decisão da Coroa de iniciar a colonização efetiva em 1530 devido à ameaça estrangeira."
+      "Extração de pau-brasil e alterações localizadas na vegetação costeira, ampliadas de modo desigual conforme a intensidade e a duração da exploração.",
+      "A Coroa portuguesa organizou a expedição de Martim Afonso de Sousa em 1530, diante da concorrência estrangeira e do interesse em ampliar a ocupação e a exploração econômica."
     ],
     "consequencias_longo_prazo": [
       "Instauração do sistema colonial definitivo com o envio da expedição de Martim Afonso de Sousa."
     ],
     "impactos": {
-      "politicos": "Afirmação territorial precária de Portugal frente às potências rivais europeias.",
-      "economicos": "Início da exploração mercantilista extrativista na América.",
-      "sociais": "Contatos iniciais geradores de epidemias e conflitos interétnicos.",
-      "culturais": "Aculturação inicial e estranhamento mútuo documentado por cronistas.",
-      "territoriais": "Reconhecimento geográfico parcial da costa atlântica brasileira.",
-      "ambientais": "Primeiro ciclo de exploração predatória vegetal (pau-brasil)."
+      "politicos": "Reivindicação portuguesa sobre parte do território, contestada por outras potências europeias e não equivalente a controle efetivo de toda a costa ou do interior.",
+      "economicos": "Exploração comercial do pau-brasil, com participação de agentes portugueses, franceses e comunidades indígenas em relações assimétricas e variáveis.",
+      "sociais": "Violências, conflitos, alianças e disseminação de doenças afetaram populações indígenas, embora os impactos tenham variado entre regiões e comunidades.",
+      "culturais": "Registros europeus documentaram contatos a partir de perspectivas coloniais; povos indígenas mantiveram e transformaram suas línguas, práticas e formas de organização, resistindo a imposições.",
+      "territoriais": "Reconhecimento parcial da costa por navegadores europeus, sem que isso significasse descoberta de um território desconhecido por seus habitantes ou ocupação portuguesa integral.",
+      "ambientais": "Extração de pau-brasil provocou impactos em áreas costeiras, com intensidade variável; a exploração foi parte de transformações ambientais coloniais posteriores."
     },
     "continuidade": "Disputa geopolítica europeia pelo controle de rotas e territórios ultramarinos.",
-    "rupturas": "Fim da fase puramente extrativista com a transição para o modelo de povoamento e produção açucareira em 1530."
+    "rupturas": "Ampliação da presença portuguesa e de disputas europeias na costa, seguida pelo avanço da colonização permanente a partir de 1530; não houve ruptura na história indígena, que continuou marcada por agência e resistência."
   },
 
   {
     "id": "brasil-colonial-administracao-economia-sociedade",
-    "titulo_principal": "BRASIL COLONIAL (1530–1822): ADMINISTRAÇÃO, AÇÚCAR, HOLANDESES E EXPANSÃO",
+    "titulo_principal": "BRASIL COLONIAL (1530–1808): ADMINISTRAÇÃO, AÇÚCAR, HOLANDESES E EXPANSÃO",
     "ano_inicio": 1530,
     "ano_fim": 1808,
     "periodo": "História do Brasil",
     "local": "Território Colonial Brasileiro",
     "sociedades_envolvidas": "Coroa Portuguesa, Senhores de Engenho, Jesuítas, Colonos, Indígenas e Africanos Escravizados",
     "tema": "Capitanias Hereditárias, Governo-Geral, Salvador, Economia Açucareira, Escravidão, Invasões Francesas e Holandesas (Maurício de Nassau), Bandeirismo e Tratado de Madri",
-    "contexto": "Período de efetiva colonização, estruturação administrativa centralizada, implantação da grande lavoura canavieira com base no trabalho escravo, resistências a invasões estrangeiras e expansão territorial interiorana.",
+    "contexto": "Entre 1530 e 1808, a colonização portuguesa no território que hoje corresponde ao Brasil combinou exploração econômica, ocupação territorial e diferentes formas de administração. A produção açucareira, a mineração e outras atividades dependeram de trabalho compulsório, sobretudo de africanos escravizados, sem que a escravização e a resistência indígena desaparecessem. A sociedade colonial foi diversa e marcada por conflitos, negociações e resistências.",
     "antecedentes": [
-      "Fim do período pré-colonial e urgência de povoar a colônia para evitar perdas territoriais."
+      "Disputas entre potências europeias pelo Atlântico, presença de povos indígenas com seus próprios territórios e redes políticas, e interesse da Coroa portuguesa em ampliar a ocupação e a exploração econômica de suas possessões americanas."
     ],
     "causas": {
-      "politicas": "Necessidade de descentralizar os custos coloniais (Capitanias em 1534) e recentralizar com o Governo-Geral (1548/1549).",
-      "economicas": "Lucratividade do açúcar no mercado europeu e financiamento holandês associado ao refino e transporte.",
-      "sociais": "Impossibilidade de manter a escravidão indígena em larga escala e transição violenta para o tráfico negreiro africano.",
-      "religiosas": "Atuação dos jesuítas na catequese, fundação de missões e fundação de colégios (Salvador em 1549).",
-      "culturais": "Formação de uma sociedade patriarcal, escravocrata e rural centrada no engenho de açúcar.",
-      "territoriais": "Avanço do bandeirismo paulista para o interior em busca de índios e ouro, redesenhando limites (Tratado de Madri em 1750).",
+      "politicas": "A Coroa portuguesa implantou capitanias hereditárias a partir de 1534, delegando a particulares responsabilidades e poderes; em 1548 criou o Governo-Geral para ampliar a coordenação administrativa, sem extinguir as capitanias.",
+      "economicas": "Expansão da demanda europeia por açúcar e articulação de capitais, crédito, transporte e refino em redes atlânticas, nas quais comerciantes portugueses, flamengos e neerlandeses tiveram papéis importantes.",
+      "sociais": "A colonização recorreu à escravização indígena e africana, ao tráfico transatlântico e a outras formas de coerção. A expansão do tráfico de africanos escravizados não significou o desaparecimento da escravização indígena, que persistiu em diferentes regiões e períodos.",
+      "religiosas": "Ordens religiosas, especialmente os jesuítas, participaram da catequese, da educação e da organização de aldeamentos, em relações que envolveram disputas com colonos e também formas de controle sobre populações indígenas.",
+      "culturais": "Formação de uma sociedade colonial hierarquizada, com experiências distintas de indígenas, africanos, europeus e seus descendentes; práticas culturais foram impostas, negociadas, recriadas e preservadas.",
+      "territoriais": "Expedições, pecuária, missões, mineração, comércio e ação de agentes coloniais ampliaram a ocupação portuguesa para além de áreas inicialmente litorâneas, por meio de conflitos e negociações com povos indígenas.",
       "tecnologias": "Engenhos hidráulicos e de tração animal para moagem de cana."
     },
-    "resumo_card": "Abrange a expedição de Martim Afonso de Sousa (1530), Capitanias Hereditárias (1534), Governo-Geral (1548), fundação de Salvador (1549), jesuítas, economia açucareira, escravidão indígena e africana, invasões francesas e holandesas em Pernambuco (Maurício de Nassau, Insurreição Pernambucana e expulsão em 1654), bandeirismo, expansão e o Tratado de Madri de 1750.",
-    "desenvolvimento": "Diante das ameaças estrangeiras, Portugal enviou Martim Afonso de Sousa em 1530. Criou as Capitanias Hereditárias em 1534 e, devido ao fracasso de boa parte delas, instituiu o Governo-Geral em 1548, fundando Salvador em 1549 com a chegada dos jesuítas. Economicamente, o Brasil despontou como grande produtor de açúcar no Nordeste, sustentado pelo latifúndio e pela escravidão africana. O período foi marcado por ameaças estrangeiras, como as invasões francesas e o domínio holandês em Pernambuco (1630–1654), brilhantemente administrado por Maurício de Nassau até a Insurreição Pernambucana e expulsão dos batavos. No interior, o bandeirismo expandiu as fronteiras além do Tratado de Tordesilhas, culminando no Tratado de Madri (1750).",
+    "resumo_card": "A colonização portuguesa envolveu capitanias, Governo-Geral, produção açucareira, escravização indígena e africana, invasões e ocupações francesas e neerlandesas, mineração e expansão territorial. Povos indígenas e africanos escravizados resistiram de diferentes maneiras, e a sociedade colonial foi marcada por desigualdades e conflitos.",
+    "desenvolvimento": "A expedição de Martim Afonso de Sousa, em 1530, integrou a estratégia de ampliar a presença portuguesa. A partir de 1534, a Coroa implantou capitanias hereditárias, que tiveram resultados variados; em 1548 instituiu o Governo-Geral, instalado em Salvador em 1549, sem abolir o sistema de capitanias. A produção açucareira se expandiu especialmente no Nordeste, articulada a redes comerciais atlânticas e sustentada pelo trabalho escravizado de africanos e indígenas. A escravização indígena continuou em diferentes regiões, apesar de legislações, disputas e iniciativas missionárias. Franceses estabeleceram a França Antártica na baía de Guanabara (1555–1567) e a França Equinocial no Maranhão (1612–1615). A Companhia Neerlandesa das Índias Ocidentais ocupou partes do Nordeste a partir de 1630; Maurício de Nassau governou a região sob domínio neerlandês entre 1637 e 1644, período de iniciativas urbanas e científicas, mas também de continuidade da economia escravista. A Insurreição Pernambucana (1645–1654), envolvendo diferentes grupos locais e interesses, contribuiu para a saída neerlandesa. No interior, bandeiras, missões, pecuária e mineração ampliaram a presença colonial, frequentemente mediante violência e expulsão de comunidades indígenas. O Tratado de Madri (1750) redefiniu fronteiras entre as Coroas ibéricas com base, entre outros critérios, no princípio do uti possidetis, mas não resolveu todas as disputas territoriais.",
     "personagens": [
-      "Tomé de Sousa: Primeiro Governador-Geral do Brasil.",
-      "Manuel da Nóbrega e José de Anchieta: Sacerdotes jesuítas fundamentais na catequese e fundação de cidades.",
-      "Maurício de Nassau: Conde holandês que governou Pernambuco no século XVII.",
-      "Domingos Jorge Velho: Líder bandeirante na destruição de Quilombos."
+      "Tomé de Sousa: Primeiro governador-geral, chegou à Bahia em 1549 e participou da instalação do governo central e da fundação de Salvador.",
+      "Manuel da Nóbrega e José de Anchieta: Jesuítas que atuaram na catequese e na educação; suas atividades também integraram políticas de conversão e controle das populações indígenas.",
+      "Maurício de Nassau: Governador do domínio neerlandês no Nordeste entre 1637 e 1644, associado a obras urbanas e iniciativas científicas, dentro de uma administração colonial que manteve a escravidão.",
+      "Domingos Jorge Velho: Sertanista contratado para combater o Quilombo dos Palmares; sua atuação esteve ligada à violência colonial e à repressão de comunidades quilombolas."
     ],
     "grupos_envolvidos": [
-      "Senhores de Engenho e Aristocracia Rural",
-      "Companhia das Índias Ocidentais (Holandeses)",
-      "Bandeirantes Paulistas",
+      "Senhores de engenho, lavradores, comerciantes e outros grupos ligados à produção e ao comércio colonial, com interesses nem sempre coincidentes.",
+      "Companhia Neerlandesa das Índias Ocidentais e forças neerlandesas, envolvidas na ocupação e administração de partes do Nordeste.",
+      "Bandeirantes e outros sertanistas, cujas expedições buscavam indígenas para escravização, metais e pedras preciosas e também ampliavam rotas e ocupações coloniais.",
       "Africanos Escravizados e Povos Indígenas"
     ],
     "interesses_em_disputa": [
-      "Monopólio do açúcar atlântico, controle territorial e posse de terras e braço escravo."
+      "Controle de terras, rotas e mercados, exploração de recursos e domínio sobre o trabalho de populações indígenas e africanas escravizadas."
     ],
     "linha_do_tempo": [
-      {"ano": 1534, "titulo": "Capitanias Hereditárias", "descricao": "Primeira tentativa de divisão administrativa da colônia."},
-      {"ano": 1549, "titulo": "Fundação de Salvador", "descricao": "Criação da primeira sede do Governo-Geral do Brasil."},
-      {"ano": 1630, "titulo": "Domínio Holandês em Pernambuco", "descricao": "Início da ocupação batava na região açucareira nordestina."},
-      {"ano": 1654, "titulo": "Expulsão dos Holandeses", "descricao": "Derrota batava na Insurreição Pernambucana."},
-      {"ano": 1750, "titulo": "Tratado de Madri", "descricao": "Redefinição dos limites territoriais com base no princípio do uti possidetis."}
+      {"ano": 1534, "titulo": "Capitanias Hereditárias", "descricao": "A Coroa portuguesa dividiu parte do território em capitanias doadas a donatários, que receberam atribuições e direitos; os resultados variaram e o sistema continuou após a criação do Governo-Geral."},
+      {"ano": 1549, "titulo": "Fundação de Salvador", "descricao": "Tomé de Sousa chegou à Bahia para instalar o Governo-Geral e fundar Salvador, que se tornou a primeira capital da América portuguesa."},
+      {"ano": 1630, "titulo": "Domínio Holandês em Pernambuco", "descricao": "Forças da Companhia Neerlandesa das Índias Ocidentais iniciaram a ocupação de Olinda e Recife, expandindo o domínio sobre áreas produtoras de açúcar."},
+      {"ano": 1654, "titulo": "Expulsão dos Holandeses", "descricao": "Após anos de conflitos, a Insurreição Pernambucana e negociações diplomáticas contribuíram para o fim do domínio neerlandês no Nordeste; a capitulação ocorreu em 1654."},
+      {"ano": 1750, "titulo": "Tratado de Madri", "descricao": "Tratado entre Portugal e Espanha que redefiniu limites coloniais na América, utilizando o princípio do uti possidetis e outros critérios; não considerou a soberania dos povos indígenas sobre seus territórios."}
     ],
     "consequencias_imediatas": [
-      "Crise na economia açucareira nordestina após a expulsão holandesa devido à concorrência antilhana.",
-      "Fixação definitiva da soberania portuguesa sobre vastos sertões interiores."
+      "A concorrência da produção açucareira antilhana, desenvolvida também com participação de agentes neerlandeses após sua saída do Nordeste, contribuiu para mudanças no mercado e dificuldades para produtores da América portuguesa; não foi a única causa de crises regionais.",
+      "Ampliação das reivindicações e da ocupação portuguesa em áreas interiores, em processo conflituoso e incompleto, com resistência de povos indígenas e disputas com outras potências."
     ],
     "consequencias_longo_prazo": [
       "Consolidação de uma estrutura social profundamente desigual, escravocrata e patriarcal."
     ],
     "impactos": {
-      "politicos": "Centralização burocrática em Salvador e subordinação colonial rígida a Lisboa.",
-      "economicos": "Ciclo do açúcar como base primária da riqueza colonial inicial.",
-      "sociais": "Tráfico transatlântico massivo de africanos escravizados, moldando a demografia brasileira.",
-      "culturais": "Sinergias sincréticas religiosas, culinárias e musicais afro-indígenas-portuguesas.",
-      "territoriais": "Expansão continental do território brasileiro muito além do meridiano de Tordesilhas.",
-      "ambientais": "Devastação extensiva da Mata Atlântica para implantação de canaviais e pastagens."
+      "politicos": "Ampliação da administração colonial portuguesa por meio de capitanias, Governo-Geral, câmaras e outras instituições, com negociação e conflitos entre autoridades metropolitanas e poderes locais.",
+      "economicos": "Economia diversificada e regionalmente desigual, com açúcar, pecuária, mineração, comércio e atividades de abastecimento, sustentadas em larga medida por diferentes formas de trabalho compulsório.",
+      "sociais": "Sociedade hierarquizada e escravista, marcada pelo tráfico transatlântico, pela escravização indígena, por resistências, fugas, quilombos, negociações e formas de sobrevivência cultural.",
+      "culturais": "Encontros e conflitos entre tradições indígenas, africanas e europeias produziram trocas, imposições e recriações culturais; o termo sincretismo não deve apagar relações desiguais de poder.",
+      "territoriais": "Ampliação gradual das áreas sob domínio reivindicado por Portugal, por meio de expedições, povoamento, tratados e conflitos, sem controle efetivo e uniforme de todo o território.",
+      "ambientais": "Desmatamento da Mata Atlântica, expansão de canaviais e pecuária, mineração e alterações de rios e solos, com impactos diferentes conforme região e período."
     },
     "continuidade": "Estrutura fundiária baseada no latifúndio agroexportador.",
-    "rupturas": "Substituição do extrativismo litorâneo inicial pela economia agrária plantation enraizada."
+    "rupturas": "Passagem de uma presença portuguesa inicialmente concentrada em feitorias e atividades costeiras para uma colonização mais ampla, com núcleos urbanos, atividades econômicas diversificadas e ocupação territorial progressiva."
   },
 
   {
@@ -188,56 +224,56 @@
     "local": "Minas Gerais, Bahia, Maranhão e Pernambuco",
     "sociedades_envolvidas": "Coroa Portuguesa, Mineradores, Homens Bons, Escravizados e Inconfidentes",
     "tema": "Descoberta do Ouro, Ciclo do Ouro, Vilas e Cidades, Casas de Fundição, Revolta de Beckman, Guerra dos Emboabas, Guerra dos Mascates, Revolta de Vila Rica, Inconfidência Mineira e Conjuração Baiana",
-    "contexto": "Século XVIII marcado pela descoberta de ouro e diamantes na região das Minas, deslocando o eixo econômico para o Sudeste, gerando urbanização e estimulando revoltas nativistas e separatistas contra o pacto colonial.",
+    "contexto": "Entre o final do século XVII e o final do XVIII, a mineração de ouro e diamantes estimulou migrações, formação de vilas, circulação de mercadorias e mudanças na administração portuguesa da América. A mineração não substituiu por completo outras atividades econômicas nem deslocou de forma simples e definitiva o centro econômico colonial. A cobrança de tributos, disputas locais, escravização e desigualdades alimentaram conflitos e movimentos de contestação com objetivos diversos.",
     "antecedentes": [
-      "Exaustão gradual do ciclo do açúcar nordestino e exploração exaustiva dos sertões pelos bandeirantes."
+      "Expansão das entradas e bandeiras, redes comerciais internas e atividades agropecuárias que abasteciam os núcleos mineradores; a economia açucareira continuou ativa, apesar de crises e concorrência."
     ],
     "causas": {
-      "politicas": "Aumento draconiano da fiscalização metropolitana, criação das Casas de Fundição e cobrança abusiva de quintos.",
-      "economicas": "Descoberta de minas auríferas e diamantíferas, inflação de preços nas alterosas e monopólio comercial.",
-      "sociais": "Choque entre bandeirantes descobridores e forasteiros (Emboabas), além de revoltas populares contra impostos (Ex: Sedição de Vila Rica).",
-      "religiosas": "Participação de padres e intelectuais letrados nas conspirações iluministas do final do século XVIII.",
-      "culturais": "Surgimento de um ambiente urbano letrado em Minas Gerais com florescimento do Barroco (Aleijadinho, Ataíde).",
-      "territoriais": "Deslocamento populacional em massa do litoral para o interior mineiro e goiano.",
+      "politicas": "Tentativas da Coroa de controlar a extração e a circulação do ouro e dos diamantes, organizar a administração das áreas mineradoras e assegurar a cobrança de tributos, como o quinto.",
+      "economicas": "Descoberta de jazidas auríferas e diamantíferas, crescimento de mercados internos e aumento da demanda por alimentos, animais, ferramentas e trabalho escravizado; a tributação e as restrições comerciais provocaram tensões.",
+      "sociais": "Conflitos entre paulistas e grupos vindos de outras regiões na disputa por áreas de mineração, além de tensões entre autoridades, comerciantes, proprietários, trabalhadores livres e pessoas escravizadas.",
+      "religiosas": "Clérigos participaram de diferentes redes sociais e políticas; alguns se envolveram em movimentos de contestação, mas as revoltas não podem ser explicadas como fenômenos essencialmente religiosos.",
+      "culturais": "Crescimento de núcleos urbanos e circulação de livros, ideias políticas e práticas artísticas, incluindo o Barroco; o acesso à cultura letrada permaneceu restrito e desigual.",
+      "territoriais": "Expansão da ocupação colonial para áreas interiores, incluindo regiões que hoje correspondem a Minas Gerais, Goiás e Mato Grosso, por meio da mineração, de rotas comerciais e de conflitos com povos indígenas.",
       "tecnologias": "Técnicas de faiscação e mineração aluvial aurífera."
     },
-    "resumo_card": "Abrange o ciclo do ouro e dos diamantes em Minas Gerais, o crescimento de vilas, Casas de Fundição, e as revoltas coloniais: Revolta de Beckman (1684), Emboabas (1707), Mascates (1710), Vila Rica (1720), Inconfidência Mineira (1789) e Conjuração Baiana (1798).",
-    "desenvolvimento": "No final do século XVII, bandeirantes acharam ouro em Minas Gerais, inaugurando o Ciclo do Ouro. A região urbanizou-se rapidamente, gerando conflitos como a Guerra dos Emboabas (1707) e a Revolta de Vila Rica (1720). Para conter o extravio de ouro, Portugal impôs forte fiscalização e as Casas de Fundição. A opressão fiscal e o atraso colonial geraram revoltas nativistas (Beckman, Mascates) e, inspiradas pelo Iluminismo, conspirações separatistas: a Inconfidência Mineira (1789, elitista e inativada com o sacrifício de Tiradentes) e a Conjuração Baiana (1798, popular, abolicionista e republicana na Bahia).",
+    "resumo_card": "A mineração de ouro e diamantes transformou a economia e a sociedade colonial, estimulando vilas, comércio e maior fiscalização. Conflitos como Emboabas, Mascates e Vila Rica tiveram causas distintas; no final do século XVIII, a Inconfidência Mineira e a Conjuração Baiana formularam projetos de ruptura política diferentes.",
+    "desenvolvimento": "A descoberta de ouro na região que se tornou Minas Gerais, no final do século XVII, intensificou a migração e a formação de núcleos urbanos. A mineração dependia do trabalho de africanos escravizados e de redes de abastecimento, comércio e crédito. A Guerra dos Emboabas (1707–1709) envolveu disputas entre paulistas e outros grupos pelo controle das áreas auríferas. A Guerra dos Mascates (1710–1711), em Pernambuco, expressou conflitos entre a elite açucareira de Olinda e comerciantes do Recife, não sendo uma revolta diretamente ligada à mineração. A Revolta de Vila Rica (1720), associada a Filipe dos Santos, contestou medidas fiscais e as Casas de Fundição. No final do século XVIII, a Inconfidência Mineira (1789) reuniu participantes sobretudo de setores letrados e proprietários, com projetos variados; foi denunciada antes de se transformar em levante, e Tiradentes foi executado em 1792. A Conjuração Baiana (1798), também chamada Revolta dos Alfaiates, teve participação de soldados, artesãos e outros setores populares, além de pessoas de diferentes posições sociais. Defendeu mudanças políticas e sociais, incluindo propostas de república e igualdade; ideias de emancipação dos escravizados circularam no movimento, mas seus participantes não formavam um bloco homogêneo. A repressão foi severa e quatro condenados foram executados em 1799.",
     "personagens": [
-      "Tiradentes (Joaquim José da Silva Xavier): Mártir da Inconfidência Mineira.",
-      "Antônio Francisco Lisboa (Aleijadinho): Maior expoente do Barroco mineiro.",
-      "Lucas Dantas e João de Deus: Líderes populares da Conjuração Baiana."
+      "Joaquim José da Silva Xavier (Tiradentes): Participante da Inconfidência Mineira, executado em 21 de abril de 1792; sua transformação em símbolo nacional ocorreu sobretudo em períodos posteriores.",
+      "Antônio Francisco Lisboa (Aleijadinho): Escultor e arquiteto associado ao Barroco e ao Rococó em Minas Gerais, cuja obra se desenvolveu no contexto da sociedade escravista colonial.",
+      "Lucas Dantas e João de Deus: Soldados e participantes da Conjuração Baiana, executados em 1799 junto com outros dois condenados."
     ],
     "grupos_envolvidos": [
-      "Inconfidentes Mineiros (Intelectuais e Militares)",
-      "Alfaiates e Soldados da Conjuração Baiana",
+      "Participantes da Inconfidência Mineira, em grande parte ligados a setores proprietários, militares e letrados, com interesses e projetos políticos diversos.",
+      "Participantes da Conjuração Baiana, incluindo soldados, alfaiates, artesãos e outros setores populares, além de indivíduos de diferentes condições sociais.",
       "Autoridades Metropolitas e Fiscais da Coroa"
     ],
     "interesses_em_disputa": [
-      "Fim do monopólio metropolitano, autonomia política, proclamação da república e abolição da escravidão."
+      "Críticas à tributação e ao controle metropolitano, projetos de autonomia ou independência e propostas distintas sobre república, igualdade social e escravidão."
     ],
     "linha_do_tempo": [
-      {"ano": 1709, "titulo": "Fim da Guerra dos Emboabas", "descricao": "Vitória dos forasteiros e criação da capitania de São Paulo e Minas de Ouro."},
-      {"ano": 1789, "titulo": "Inconfidência Mineira", "descricao": "Desarticulação da conspiração separatista em Minas Gerais."},
-      {"ano": 1798, "titulo": "Conjuração Baiana", "descricao": "Revolta emancipacionista popular e abolicionista em Salvador."}
+      {"ano": 1709, "titulo": "Fim da Guerra dos Emboabas", "descricao": "Conflito entre paulistas e grupos de outras regiões pelo controle das áreas de mineração; a Coroa reorganizou a administração e criou a Capitania de São Paulo e Minas do Ouro em 1709."},
+      {"ano": 1789, "titulo": "Inconfidência Mineira", "descricao": "Conspiração articulada em Minas Gerais, descoberta antes de se converter em levante; seus participantes foram presos e julgados, e Tiradentes foi executado em 1792."},
+      {"ano": 1798, "titulo": "Conjuração Baiana", "descricao": "Movimento ocorrido em Salvador, com participação popular e propostas republicanas e de transformação social; a repressão levou à execução de quatro condenados em 1799."}
     ],
     "consequencias_imediatas": [
-      "Repressão implacável da Coroa sobre os conjurados, culminando na execução exemplar de Tiradentes em 1792.",
-      "Enfraquecimento das conspirações armadas imediatas contra o domínio luso."
+      "Repressão aos movimentos: Tiradentes foi executado em 1792, enquanto quatro participantes condenados da Conjuração Baiana foram executados em 1799.",
+      "Desarticulação dos movimentos e reforço da vigilância colonial, sem eliminar críticas ao domínio português nem tensões sociais e fiscais."
     ],
     "consequencias_longo_prazo": [
-      "Surgimento dos ideais republicanos e nacionalistas que frutificariam no século XIX."
+      "Memória e apropriação posterior desses movimentos por projetos políticos do século XIX e da República; não se deve tratá-los como etapas inevitáveis de um nacionalismo brasileiro já consolidado."
     ],
     "impactos": {
-      "politicos": "Queda de confiança no absolutismo metropolitano por parte das elites e camadas urbanas letradas.",
-      "economicos": "Deslocamento temporário da centralidade econômica colonial para o Sudeste mineiro.",
-      "sociais": "Aparecimento de uma camada média urbana e de estratos livres empobrecidos nas cidades mineradoras.",
+      "politicos": "Questionamento de aspectos do domínio metropolitano e circulação de projetos variados de autonomia, independência e reorganização política, com diferenças entre movimentos e participantes.",
+      "economicos": "Expansão da mineração e dos circuitos internos de abastecimento, acompanhada de tributação, contrabando e concentração desigual da riqueza.",
+      "sociais": "Crescimento de núcleos urbanos e diversificação de ocupações, em sociedade profundamente desigual e sustentada pelo trabalho escravizado; pessoas escravizadas também construíram redes de sociabilidade e resistência.",
       "culturais": "Apogeu cultural do Barroco mineiro e circulação clandestina de ideias iluministas europeias.",
-      "territoriais": "Surgimento de dezenas de vilas e caminhos interprovinciais no interior do Brasil.",
+      "territoriais": "Ampliação da ocupação colonial em áreas interiores, com abertura de caminhos e formação de vilas, acompanhada de expulsão e violência contra comunidades indígenas.",
       "ambientais": "Assoreamento de rios e degradação aurífera intensiva nas serras mineiras."
     },
     "continuidade": "Carga tributária pesada cobrada pelas autoridades centrais sobre a produção econômica.",
-    "rupturas": "Passagem de revoltas estritamente nativistas ou antifiscais para revoltas de caráter emancipacionista e separatista inspiradas pelo Iluminismo."
+    "rupturas": "Ampliação de formas de contestação política e social, que passaram de conflitos locais e fiscais a projetos emancipacionistas variados, sem trajetória linear ou consenso sobre república, igualdade e escravidão."
   },
 
   {
@@ -249,57 +285,57 @@
     "local": "Rio de Janeiro e Províncias do Brasil",
     "sociedades_envolvidas": "Família Real Portuguesa, Corte, Elite Colonial, Escravizados e Revolucionários Pernambucanos",
     "tema": "Chegada da Família Real, Abertura dos Portos, Instituições Culturais, Banco do Brasil, Imprensa Régia, Reino Unido a Portugal e Algarves, Revolução Pernambucana de 1817 e Retorno de D. João VI",
-    "contexto": "Fugindo das tropas napoleônicas, a Família Real portuguesa transferiu-se para o Brasil em 1808, transformando o Rio de Janeiro em sede do Império lUSO, abrindo os portos e modernizando a colônia rumo à emancipação.",
+    "contexto": "A transferência da corte portuguesa para o Rio de Janeiro, em 1808, ocorreu no contexto das guerras napoleônicas e da invasão francesa de Portugal, com apoio naval britânico à travessia. A presença da monarquia alterou a posição política e administrativa do Brasil, ampliou instituições na América portuguesa e abriu novas possibilidades comerciais, mas também reforçou desigualdades, a escravidão e a dependência econômica. O processo não conduziu automaticamente à Independência.",
     "antecedentes": [
-      "Avanço de Napoleão Bonaparte sobre a Península Ibérica e recusa portuguesa ao Bloqueio Continental."
+      "Guerras napoleônicas na Europa, invasão francesa de Portugal em 1807 e acordos diplomáticos e comerciais que aproximaram a monarquia portuguesa da Grã-Bretanha."
     ],
     "causas": {
-      "politicas": "Sobrevivência da dinastia de Bragança sob proteção britânica e transformação institucional do Brasil.",
-      "economicas": "Fim do pacto colonial com o Decreto de Abertura dos Portos às Nações Amigas (1808) e fundação do Banco do Brasil.",
-      "sociais": "Afluxo de milhares de nobres portugueses para o Rio de Janeiro, alterando o cotidiano urbano local.",
-      "religiosas": "Manutenção do catolicismo como religião oficial do Estado sob bênçãos papais e régias.",
-      "culturais": "Criação da Imprensa Régia, Jardim Botânico, Biblioteca Real e escolas superiores.",
-      "territoriais": "Elevação do Brasil a Reino Unido a Portugal e Algarves (1815) e anexação da Cisplatina.",
-      "tecnologias": "Instalação de tipografias e melhorias urbanas na capital do Vice-Reino/Império."
+      "politicas": "A decisão da monarquia portuguesa de transferir a sede da corte para o Rio de Janeiro para preservar a dinastia e manter o governo durante a ocupação francesa de Portugal.",
+      "economicas": "Abertura dos portos às nações amigas em 1808, que encerrou o antigo exclusivismo comercial metropolitano, embora outras formas de dependência e privilégios comerciais tenham permanecido. Os tratados de 1810 favoreceram especialmente os interesses britânicos.",
+      "sociais": "Chegada de milhares de integrantes da corte, funcionários, comerciantes e outros migrantes, com efeitos sobre moradia, abastecimento, trabalho, impostos e população do Rio de Janeiro.",
+      "religiosas": "O catolicismo permaneceu religião oficial, mas os tratados de 1810 concederam garantias de culto privado a estrangeiros protestantes, sob condições específicas.",
+      "culturais": "Criação e reorganização de instituições, como Imprensa Régia, Biblioteca Real, Jardim de Aclimação (depois Jardim Botânico) e escolas médico-cirúrgicas; essas iniciativas não significaram acesso igualitário à educação e à cultura.",
+      "territoriais": "Elevação do Brasil a Reino Unido a Portugal e Algarves em 1815 e ocupação portuguesa da Banda Oriental, incorporada em 1821 como Província Cisplatina, em meio a conflitos e disputas regionais.",
+      "tecnologias": "Instalação de tipografias oficiais, ampliação de serviços administrativos e obras urbanas, concentradas sobretudo no Rio de Janeiro e sustentadas também por tributos e trabalho escravizado."
     },
-    "resumo_card": "Abrange a chegada da Família Real em 1808, abertura dos portos, criação do Banco do Brasil, Imprensa Régia, Jardim Botânico, elevação a Reino Unido em 1815, a Revolução Pernambucana de 1817 e o retorno de D. João VI em 1821.",
-    "desenvolvimento": "A chegada de D. João em 1808 rompeu o pacto colonial ao abrir os portos. O Rio de Janeiro ganhou status de metrópole com órgãos administrativos, o Banco do Brasil e a Imprensa Régia. Em 1815, o Brasil deixou de ser colônia e tornou-se Reino Unido. A insatisfação com os altos impostos e privilégios da corte gerou a Revolução Pernambucana de 1817 (republicana e separatista). Com a Revolução Liberal do Porto em 1820, D. João VI foi forçado a retornar a Lisboa em 1821, deixando seu filho D. Pedro como Príncipe Regente.",
+    "resumo_card": "O Período Joanino foi marcado pela transferência da corte portuguesa para o Rio de Janeiro em 1808, abertura dos portos, criação de instituições, tratados comerciais com a Grã-Bretanha, elevação do Brasil a Reino Unido em 1815, Revolução Pernambucana de 1817 e retorno de D. João VI a Portugal em 1821.",
+    "desenvolvimento": "A corte portuguesa chegou ao Rio de Janeiro em 1808, após a invasão francesa de Portugal, acompanhada por navios britânicos. No mesmo ano, a abertura dos portos às nações amigas encerrou o antigo exclusivismo comercial metropolitano. Os tratados de 1810 concederam vantagens tarifárias aos produtos britânicos e garantias a súditos britânicos, reforçando a influência econômica da Grã-Bretanha. A instalação da corte ampliou órgãos administrativos e instituições, entre elas o Banco do Brasil (criado em 1808), a Imprensa Régia, a Biblioteca Real e o Jardim de Aclimação. Essas mudanças concentraram investimentos e privilégios na capital, enquanto a escravidão continuou estruturando a economia e a sociedade. Em 1815, o Brasil foi elevado à condição de Reino Unido a Portugal e Algarves. A Revolução Pernambucana de 1817 foi um movimento republicano e separatista, com participação de diferentes grupos e propostas, que chegou a instalar um governo provisório por cerca de 75 dias antes de ser derrotado. Em 1820, a Revolução Liberal do Porto exigiu o retorno da corte e a reorganização política do Império português. D. João VI voltou a Lisboa em 1821, deixando D. Pedro como príncipe regente no Brasil. As medidas das Cortes de Lisboa e os conflitos em torno da autonomia brasileira contribuíram para a crise que levou à Independência em 1822.",
     "personagens": [
-      "D. João VI: Rei de Portugal e do Brasil durante a permanência da corte no Rio de Janeiro.",
-      "D. Pedro de Bragança: Príncipe Regente deixado no Brasil em 1821.",
-      "Domingos Martins e Padre Roma: Líderes da Revolução Pernambucana de 1817."
+      "D. João VI: Príncipe regente desde 1799 e rei a partir de 1816; transferiu a corte para o Rio de Janeiro em 1808 e retornou a Portugal em 1821.",
+      "D. Pedro de Alcântara: Filho de D. João VI, permaneceu no Brasil como príncipe regente após o retorno do pai a Portugal em 1821.",
+      "Domingos José Martins e Padre João Ribeiro: Participantes e lideranças da Revolução Pernambucana de 1817, movimento que reuniu diferentes setores e projetos políticos."
     ],
     "grupos_envolvidos": [
-      "Corte Portuguesa e Nobreza Migrada",
-      "Aristocracia Rural Brasileira",
-      "Revolucionários Pernambucanos"
+      "Corte portuguesa, funcionários, comerciantes e nobres que acompanharam a transferência da monarquia para o Rio de Janeiro, com interesses e posições variadas.",
+      "Proprietários, comerciantes, profissionais liberais, religiosos, militares, pessoas escravizadas e livres, cujas experiências e interesses foram distintos durante o período.",
+      "Participantes da Revolução Pernambucana de 1817, incluindo proprietários, militares, religiosos, comerciantes e setores urbanos, sem unidade completa de objetivos."
     ],
     "interesses_em_disputa": [
-      "Autonomia administrativa brasileira versus centralização em Lisboa; liberdade comercial versus privilégios ingleses."
+      "Disputas sobre autonomia política e administrativa, centralização nas Cortes de Lisboa, liberdade comercial, privilégios britânicos, tributação e manutenção da ordem escravista."
     ],
     "linha_do_tempo": [
-      {"ano": 1808, "titulo": "Chegada da Corte e Abertura dos Portos", "descricao": "Fim do exclusivismo colonial português."},
-      {"ano": 1815, "titulo": "Brasil Reino Unido", "descricao": "Elevação jurídica do Brasil a igualdade com Portugal."},
-      {"ano": 1817, "titulo": "Revolução Pernambucana", "descricao": "Insurreição liberal e republicana no Nordeste brasileiro."},
-      {"ano": 1821, "titulo": "Retorno de D. João VI", "descricao": "O rei regressa a Portugal e D. Pedro assume a regência."}
+      {"ano": 1808, "titulo": "Chegada da Corte e Abertura dos Portos", "descricao": "A corte portuguesa chegou ao Rio de Janeiro e, naquele ano, foi decretada a abertura dos portos às nações amigas, encerrando o antigo exclusivismo comercial metropolitano."},
+      {"ano": 1815, "titulo": "Brasil Reino Unido", "descricao": "O Brasil foi elevado à condição de Reino Unido a Portugal e Algarves, deixando formalmente de ser colônia, embora persistissem desigualdades e disputas políticas."},
+      {"ano": 1817, "titulo": "Revolução Pernambucana", "descricao": "Movimento republicano e separatista que instalou um governo provisório em Pernambuco por cerca de 75 dias e foi derrotado pelas forças leais à monarquia."},
+      {"ano": 1821, "titulo": "Retorno de D. João VI", "descricao": "D. João VI retornou a Lisboa após a Revolução Liberal do Porto, deixando seu filho D. Pedro como príncipe regente no Brasil."}
     ],
     "consequencias_imediatas": [
-      "Inversão metropolitana: a colônia passou a mandar na metrópole em termos administrativos.",
-      "Profundo endividamento e dependência comercial em relação à Inglaterra (Tratados de 1810)."
+      "Transferência da sede da monarquia para o Rio de Janeiro, que passou a concentrar órgãos centrais do governo português; a relação entre metrópole e América foi profundamente alterada, mas não houve uma simples inversão em que a antiga colônia passou a governar Portugal.",
+      "Acordos de 1810 ampliaram as vantagens comerciais britânicas, incluindo tarifas preferenciais, e aprofundaram a influência econômica da Grã-Bretanha."
     ],
     "consequencias_longo_prazo": [
-      "Criação das bases institucionais indispensáveis para a independência política iminente do país."
+      "Ampliação de instituições e mudanças jurídicas e administrativas que integraram o contexto da Independência, sem constituírem causa única ou resultado inevitável da transferência da corte."
     ],
     "impactos": {
-      "politicos": "Autonomia política crescente que tornou insustentável o retorno à condição colonial.",
-      "economicos": "Livre comércio e entrada maciça de produtos manufaturados britânicos.",
-      "sociais": "Enriquecimento da elite burocrática e nobiliárquica instalada na corte carioca.",
-      "culturais": "Modernização cultural e intelectual urbana do Rio de Janeiro.",
-      "territoriais": "Inovações geopolíticas com anexações e consolidação das fronteiras imperiais.",
-      "ambientais": "Criação do Jardim Botânico e urbanização acelerada da capital."
+      "politicos": "Ampliação da centralidade política do Rio de Janeiro, elevação do Brasil a Reino Unido e intensificação das disputas entre projetos de autonomia e centralização nas Cortes de Lisboa.",
+      "economicos": "Expansão do comércio externo após 1808 e concessão de privilégios tarifários à Grã-Bretanha em 1810; a economia continuou baseada em atividades agrárias e no trabalho escravizado.",
+      "sociais": "Crescimento e transformação do Rio de Janeiro, com concentração de cargos e privilégios na corte, aumento de demandas urbanas e permanência da escravidão e de profundas desigualdades.",
+      "culturais": "Criação e reorganização de instituições culturais e científicas, com circulação ampliada de impressos e conhecimentos, embora o acesso permanecesse restrito socialmente.",
+      "territoriais": "Elevação do Brasil a Reino Unido em 1815 e incorporação da Banda Oriental como Província Cisplatina em 1821, em contexto de guerra e contestação regional.",
+      "ambientais": "Expansão urbana do Rio de Janeiro e implantação de instituições como o Jardim de Aclimação, em meio a intervenções sobre paisagens e recursos naturais."
     },
-    "continuidade": "Manutenção da escravidão negra como eixo estrutural da força de trabalho nacional.",
-    "rupturas": "Fim definitivo do pacto colonial mercantilista tradicional."
+    "continuidade": "Manutenção da escravidão, das hierarquias sociais e da concentração fundiária, apesar das mudanças institucionais e comerciais.",
+    "rupturas": "Fim do antigo exclusivismo comercial metropolitano e transformação do Brasil em sede da monarquia portuguesa; a ruptura política definitiva com Portugal ocorreu somente em 1822."
   },
 
   {
@@ -311,61 +347,61 @@
     "local": "Território Nacional do Império",
     "sociedades_envolvidas": "Família Imperial, Elites Agrárias, Militares, Escravizados e Movimento Abolicionista",
     "tema": "Independência, D. Pedro I, Constituição de 1824, Confederação do Equador, Abdicação, Período Regencial (Cabanagem, Farroupilha, Sabinada, Balaiada), Golpe da Maioridade, D. Pedro II, Café, Lei Eusébio de Queirós, Lei de Terras, Guerra do Paraguai, Leis Abolicionistas e Proclamação da República",
-    "contexto": "Período monárquico constitucional que abrangeu a separação de Portugal (1822), a turbulenta regência com revoltas provinciais, o longo e modernizador Segundo Reinado de D. Pedro II, o ciclo do café, a abolição da escravidão e o colapso final do regime.",
+    "contexto": "Entre 1822 e 1889, o Brasil foi uma monarquia independente, marcada por disputas sobre centralização política, participação provincial, escravidão, propriedade da terra e organização do Estado. O período incluiu a consolidação da Independência, o Primeiro Reinado, as Regências, o Segundo Reinado, a expansão cafeeira, a Guerra do Paraguai e a abolição tardia da escravidão. A queda da monarquia resultou de uma crise política e institucional na qual atuaram diferentes setores, sem participação popular ampla na mudança de regime.",
     "antecedentes": [
-      "Exigências das cortes portuguesas em 1821 para que o Brasil retornasse à condição colonial."
+      "A Revolução Liberal do Porto (1820) e as decisões das Cortes portuguesas, que buscaram reorganizar o Império e reduzir a autonomia política adquirida pelo Brasil desde 1808, intensificaram conflitos entre grupos políticos dos dois lados do Atlântico."
     ],
     "causas": {
-      "politicas": "Autoritarismo de D. Pedro I (Dissolução da Constituinte de 1823), instabilidade regencial e crise final de sustentação do Segundo Reinado.",
-      "economicas": "Ascensão espetacular da economia cafeeira no Sudeste, substituição gradual do tráfico negreiro pelo trabalho livre e imigrante.",
-      "sociais": "Descontentamento popular nas revoltas regenciais, pressões internacionais britânicas pelo fim da escravidão e crescimento abolicionista.",
-      "religiosas": "Questão Religiosa envolvendo o conflito entre o Império e a Igreja Católica na década de 1870.",
-      "culturais": "Florescimento da literatura romântica, imprensa crítica e difusão de ideais republicanos e positivistas.",
-      "territoriais": "Guerra da Cisplatina e a vitoriosa, porém custosa, Guerra do Paraguai (1864–1870).",
-      "tecnologias": "Ferrovias, telégrafo, iluminação a gás e modernização portuária no Segundo Reinado."
+      "politicas": "Disputas sobre a organização do Estado independente, o poder do imperador, a autonomia das províncias e a participação política; no final do século, conflitos entre monarquia, setores militares, republicanos e grupos descontentes contribuíram para a crise do regime.",
+      "economicas": "Expansão da cafeicultura, especialmente no Sudeste, coexistindo com outras atividades regionais; manutenção da escravidão até 1888, transição desigual para formas de trabalho livre e mudanças nas relações comerciais e financeiras.",
+      "sociais": "Conflitos sociais e regionais durante as Regências, resistência de pessoas escravizadas, mobilização abolicionista e disputas entre grupos proprietários, trabalhadores livres, militares e setores urbanos.",
+      "religiosas": "A Questão Religiosa, na década de 1870, envolveu conflitos entre bispos católicos, maçonaria e governo imperial, em torno da autoridade eclesiástica e do padroado; não foi simplesmente um rompimento entre Igreja e Estado.",
+      "culturais": "Expansão da imprensa, do Romantismo e de instituições científicas e culturais, ao lado da circulação de ideias liberais, republicanas e abolicionistas; o acesso à educação e à cultura permaneceu profundamente desigual.",
+      "territoriais": "Conflitos na região platina, incluindo a Guerra da Cisplatina (1825–1828) e a Guerra do Paraguai (1864–1870), além de disputas internas sobre autonomia provincial e organização territorial.",
+      "tecnologias": "Expansão de ferrovias, navegação a vapor, telégrafo e iluminação a gás, sobretudo na segunda metade do século XIX, com distribuição regional desigual e vínculos com a economia exportadora."
     },
-    "resumo_card": "Abrange a Independência em 1822, Primeiro Reinado, Constituição de 1824, Confederação do Equador, abdicação em 1831, Período Regencial (Cabanagem, Farroupilha, Sabinada, Balaiada), Golpe da Maioridade (1840), Segundo Reinado, café, Lei Eusébio de Queirós (1850), Lei de Terras, Guerra do Paraguai, movimento abolicionista, Lei do Ventre Livre (1871), Lei dos Sexagenários (1885), Lei Áurea (1888) e Proclamação da República em 1889.",
-    "desenvolvimento": "D. Pedro I proclamou a Independência em 7 de setembro de 1822, outorgando a Constituição de 1824 (Poder Moderador). Seu autoritarismo gerou a Confederação do Equador e o levou a abdicar em 1831. Seguiu-se o Período Regencial, marcado por graves revoltas populares (Cabanagem, Farroupilha, Sabinada e Balaiada) e pelo Ato Adicional de 1834. Ante o caos, antecipou-se a maioridade de D. Pedro II em 1840, inaugurando o Segundo Reinado. O país enriqueceu com o café, enfrentou a Guerra do Paraguai (1864–1870), extinguiu o tráfico negreiro (1850) e avançou nas leis abolicionistas até a Lei Áurea de 1888. Isolado politicamente sem o apoio da Igreja, dos militares e dos barões do café, o Império caiu em 15 de novembro de 1889 com a Proclamação da República.",
+    "resumo_card": "O Império do Brasil (1822–1889) compreendeu a Independência, o Primeiro Reinado, as Regências e o Segundo Reinado. Foi marcado por disputas políticas, revoltas provinciais, expansão do café, Guerra do Paraguai, resistência e movimento abolicionista, leis graduais de emancipação e abolição da escravidão em 1888, antes da Proclamação da República em 1889.",
+    "desenvolvimento": "A Independência foi construída por conflitos e negociações entre 1821 e 1824, com declaração de separação em 1822, guerras em diferentes províncias e reconhecimento português em 1825. A Assembleia Constituinte foi dissolvida por D. Pedro I em 1823, e a Constituição de 1824 foi outorgada, estabelecendo quatro poderes, incluindo o Poder Moderador. A Confederação do Equador (1824) contestou o centralismo imperial e foi reprimida. A crise política e econômica contribuiu para a abdicação de D. Pedro I em 1831. Durante as Regências (1831–1840), disputas sobre centralização e autonomia provincial, tensões sociais e conflitos locais estiveram presentes em revoltas de características distintas, como Cabanagem, Farroupilha, Sabinada e Balaiada. A antecipação da maioridade de D. Pedro II, em 1840, iniciou o Segundo Reinado. A economia cafeeira cresceu, sustentada inicialmente em grande medida pelo trabalho escravizado, enquanto a Lei de Terras de 1850 regulou o acesso às terras públicas por compra e contribuiu para barreiras à posse por grupos pobres. A Lei Eusébio de Queirós (1850) reprimiu o tráfico transatlântico de africanos escravizados, mas não aboliu a escravidão. A Guerra do Paraguai (1864–1870) envolveu o Brasil, a Argentina e o Uruguai contra o Paraguai, em contexto de disputas regionais complexas. A mobilização abolicionista, as ações de pessoas escravizadas e libertas e as mudanças políticas contribuíram para a Lei do Ventre Livre (1871), a Lei dos Sexagenários (1885) e a Lei Áurea (1888), que aboliu juridicamente a escravidão sem garantir reparação ou inclusão social aos libertos. A crise da monarquia envolveu tensões militares, religiosas e políticas, além do avanço republicano. Em 15 de novembro de 1889, um movimento militar derrubou a monarquia e proclamou a República, sem consulta popular.",
     "personagens": [
-      "D. Pedro I: Primeiro Imperador do Brasil.",
-      "D. Pedro II: Segundo e último Imperador do Brasil.",
-      "Duque de Caxias: Comandante militar na Guerra do Paraguai e pacificador de revoltas.",
-      "Luís Gama, Joaquim Nabuco e André Rebouças: Líderes abolicionistas históricos."
+      "D. Pedro I: Primeiro imperador do Brasil; governou de 1822 a 1831, outorgou a Constituição de 1824 e abdicou em meio a uma crise política.",
+      "D. Pedro II: Segundo imperador, governou de 1840 a 1889, durante o período de expansão cafeeira, conflitos políticos, Guerra do Paraguai e abolição.",
+      "Luís Alves de Lima e Silva, Duque de Caxias: Militar que atuou na repressão de revoltas regenciais e comandou forças brasileiras na Guerra do Paraguai; sua atuação deve ser compreendida no contexto dos conflitos e das políticas imperiais.",
+      "Luís Gama, Joaquim Nabuco e André Rebouças: Intelectuais e militantes que atuaram, por caminhos distintos, na luta abolicionista; pessoas escravizadas e libertas também foram protagonistas centrais da resistência e da emancipação."
     ],
     "grupos_envolvidos": [
-      "Barões do Café e Elite Agrária",
-      "Militares Veteranos da Guerra do Paraguai",
-      "Movimento Abolicionista e Republicanos históricos"
+      "Proprietários rurais e comerciantes ligados à cafeicultura e a outras atividades econômicas, com posições diversas sobre escravidão, reformas e organização política.",
+      "Setores das Forças Armadas, cuja participação na política se ampliou especialmente após a Guerra do Paraguai, com diferentes posições diante da monarquia e da República.",
+      "Movimentos abolicionistas e republicanos, heterogêneos em composição e objetivos, ao lado de pessoas escravizadas, libertas e livres que organizaram fugas, revoltas, ações judiciais e outras formas de resistência."
     ],
     "interesses_em_disputa": [
-      "Manutenção ou abolição do trabalho escravo; centralização unitária versus federalismo provincial; monarquia versus república."
+      "Disputas entre centralização e autonomia provincial, monarquia e república, manutenção e abolição da escravidão, além de conflitos sobre terra, cidadania e participação política."
     ],
     "linha_do_tempo": [
-      {"ano": 1822, "titulo": "Independência do Brasil", "descricao": "Proclamação da separação política de Portugal."},
-      {"ano": 1824, "titulo": "Constituição Imperial", "descricao": "Outorga da primeira constituição brasileira com o Poder Moderador."},
-      {"ano": 1831, "titulo": "Abdicação de D. Pedro I", "descricao": "Início do instável Período Regencial."},
-      {"ano": 1840, "titulo": "Golpe da Maioridade", "descricao": "Início do Segundo Reinado sob D. Pedro II."},
-      {"ano": 1864, "titulo": "Guerra do Paraguai", "descricao": "Maior conflito armado internacional da América do Sul."},
-      {"ano": 1888, "titulo": "Abolição da Escravidão", "descricao": "Sanção da Lei Áurea pela Princesa Isabel."},
-      {"ano": 1889, "titulo": "Proclamação da República", "descricao": "Queda do Império liderada por setores militares e civis."}
+      {"ano": 1822, "titulo": "Independência do Brasil", "descricao": "D. Pedro anunciou a separação política de Portugal em meio a um processo que envolveu conflitos provinciais e negociações; a Independência foi reconhecida por Portugal em 1825."},
+      {"ano": 1824, "titulo": "Constituição Imperial", "descricao": "A Constituição foi outorgada por D. Pedro I após a dissolução da Assembleia Constituinte em 1823; estabeleceu quatro poderes, incluindo o Poder Moderador."},
+      {"ano": 1831, "titulo": "Abdicação de D. Pedro I", "descricao": "D. Pedro I abdicou em favor de seu filho, então criança; iniciou-se o governo regencial, com disputas políticas e revoltas em diferentes províncias."},
+      {"ano": 1840, "titulo": "Golpe da Maioridade", "descricao": "A maioridade de D. Pedro II foi antecipada por decisão política do Parlamento em 1840, encerrando o período regencial."},
+      {"ano": 1864, "titulo": "Guerra do Paraguai", "descricao": "Conflito regional entre Paraguai e a aliança formada por Brasil, Argentina e Uruguai, ocorrido entre 1864 e 1870, com enormes perdas humanas e materiais."},
+      {"ano": 1888, "titulo": "Abolição da Escravidão", "descricao": "A Lei Áurea, assinada pela princesa Isabel em 13 de maio de 1888, aboliu juridicamente a escravidão no Brasil, sem políticas amplas de reparação ou inclusão para a população liberta."},
+      {"ano": 1889, "titulo": "Proclamação da República", "descricao": "Movimento militar derrubou a monarquia e instaurou a República; a mudança ocorreu sem plebiscito ou participação popular ampla."}
     ],
     "consequencias_imediatas": [
-      "Banimento da família imperial para a Europa e estabelecimento do regime republicano presidencialista.",
-      "Descontentamento imediato dos antigos proprietários de escravos ('esquecidos' sem indenização), que aderiram ao golpe republicano."
+      "A família imperial foi afastada do poder e enviada ao exílio; o novo governo republicano iniciou a reorganização das instituições e adotou o regime federativo e presidencialista.",
+      "Setores de proprietários escravistas manifestaram descontentamento com a abolição sem indenização, mas a adesão de antigos senhores à República variou e não explica sozinha a queda do Império."
     ],
     "consequencias_longo_prazo": [
-      "Inserção dependente do Brasil na economia capitalista global como exportador primário de produtos agrícolas."
+      "A República herdou desigualdades sociais, concentração fundiária e uma economia ainda fortemente dependente da exportação de produtos primários; essas características tinham raízes anteriores e trajetórias posteriores próprias."
     ],
     "impactos": {
-      "politicos": "Transição pacífica aparente na cúpula, seguida pela exclusão popular da fundação republicana.",
-      "economicos": "Café como principal motor gerador de divisas e acumulação interna de capital.",
-      "sociais": "Abandono estatal dos recém-libertos após 1888, gerando exclusão socioeconômica estrutural.",
-      "culturais": "Afirmação de uma identidade nacional letrada, científica e literária imperial.",
-      "territoriais": "Definição pacífica de fronteiras com vizinhos sul-americanos através da diplomacia de Rio Branco e tratados.",
-      "ambientais": "Destruição generalizada de florestas no Oeste paulista e Vale do Paraíba para expansão cafeeira."
+      "politicos": "Consolidação de um Estado nacional monárquico e constitucional, com participação eleitoral restrita; a República foi instaurada por ação militar e civil em 1889, sem consulta popular.",
+      "economicos": "Expansão da cafeicultura e de infraestrutura de transporte e crédito, coexistindo com economias regionais diversas e com a escravidão até 1888.",
+      "sociais": "Manutenção de hierarquias raciais e sociais após a abolição, sem políticas abrangentes de redistribuição de terras, reparação ou inclusão da população liberta.",
+      "culturais": "Produção literária, científica e artística do século XIX, marcada por projetos de identidade nacional e também por disputas sobre raça, cidadania, escravidão e representação dos povos indígenas.",
+      "territoriais": "Consolidação gradual de fronteiras por conflitos, negociações e tratados ao longo do século XIX; a atuação diplomática de Rio Branco ocorreu principalmente durante a República, não no Império.",
+      "ambientais": "Expansão cafeeira contribuiu para desmatamento e transformação de paisagens, especialmente no Vale do Paraíba e no Oeste Paulista, em ritmos e escalas diferentes."
     },
-    "continuidade": "Concentração fundiária latifundiária e exclusão das maiorias populares dos processos decisórios formais.",
-    "rupturas": "Fim da monarquia dinástica e extinção legal do regime de trabalho escravo."
+    "continuidade": "Persistência da concentração fundiária, das hierarquias sociais e raciais e da exclusão de grande parte da população dos processos decisórios.",
+    "rupturas": "Independência política em relação a Portugal, abolição jurídica da escravidão em 1888 e fim da monarquia em 1889; cada transformação ocorreu em processos distintos e não eliminou desigualdades estruturais."
   },
 
   {
@@ -377,59 +413,59 @@
     "local": "Todo o Território Nacional",
     "sociedades_envolvidas": "Oligarquias Cafeeiras, Militares, Coronéis, Camponeses e Operariado Urbano",
     "tema": "República da Espada, Constituição de 1891, Política dos Governadores, Café com Leite, Coronelismo, Canudos, Vacina, Chibata, Contestado, Tenentismo e Semana de Arte Moderna de 1922",
-    "contexto": "Período republicano inicial dominado por elites agrárias estaduais (principalmente São Paulo e Minas Gerais), marcado pelo coronelismo, revoltas sociais rurais e urbanas, e o nascente descontentamento tenentista e operário.",
+    "contexto": "Entre 1889 e 1930, a República brasileira foi marcada pelo federalismo, pela força política das oligarquias estaduais e por mecanismos de controle eleitoral, mas também por disputas regionais, mobilizações populares, greves, revoltas e transformações culturais. O poder não esteve sempre organizado por um acordo estável entre São Paulo e Minas Gerais: alianças variaram conforme conjunturas e interesses. A participação política permaneceu restrita, e diferentes grupos contestaram a ordem republicana.",
     "antecedentes": [
-      "Crise institucional do Segundo Reinado, abolição sem amparo aos libertos e insatisfação militar."
+      "Crise do regime monárquico, conflitos entre setores militares e a Coroa, avanço de projetos republicanos e abolição da escravidão em 1888 sem políticas abrangentes de reparação e inclusão social."
     ],
     "causas": {
-      "politicas": "Acordo oligárquico da Política dos Governadores e revezamento presidencial do Café com Leite.",
-      "economicas": "Defesa dos interesses cafeeiros (Valorização do Café, Convênio de Taubaté) e expansão da industrialização leve urbana.",
-      "sociais": "Violenta exclusão social, miséria nos sertões (Canudos, Contestado) e revoltas sanitárias urbanas (Vacina).",
-      "religiosas": "Conflitos messiânicos rurais provocados pelo abandono estatal e fanatismo religioso popular.",
-      "culturais": "Modernismo estético e cultural inaugurado pela Semana de Arte Moderna de 1922 em São Paulo.",
-      "territoriais": "Acordos limítrofes bem-sucedidos do Barão do Rio Branco (ex: Anexação do Acre em 1903).",
-      "tecnologias": "Expansão ferroviária, telégrafo e início da radiodifusão e aviação."
+      "politicas": "Federalismo da Constituição de 1891 e fortalecimento de oligarquias estaduais, articuladas por alianças e mecanismos como a Política dos Governadores; o arranjo político variou e enfrentou disputas e oposições.",
+      "economicas": "Predomínio das exportações de café, políticas de valorização do produto, expansão de atividades industriais e urbanas e desigualdades regionais; o Convênio de Taubaté foi firmado em 1906, não no início do regime.",
+      "sociais": "Desigualdade, concentração fundiária, racismo e exclusão política após a abolição, conflitos no campo, condições precárias de trabalho e crescimento de movimentos operários e populares.",
+      "religiosas": "Movimentos como Canudos e Contestado reuniram dimensões religiosas, sociais, econômicas e políticas; não podem ser explicados como simples fanatismo ou como consequência automática do abandono estatal.",
+      "culturais": "Expansão da imprensa, de associações e de novas linguagens artísticas; a Semana de Arte Moderna de 1922 foi um marco importante, mas não inaugurou sozinha o Modernismo nem representou toda a diversidade cultural brasileira.",
+      "territoriais": "Disputas de fronteira resolvidas por negociações e tratados, como a incorporação do Acre pelo Tratado de Petrópolis (1903), além de conflitos internos e disputas pelo uso da terra.",
+      "tecnologias": "Expansão desigual de ferrovias, telégrafo, eletrificação, aviação e radiocomunicação; a primeira transmissão oficial de rádio no Brasil ocorreu em 1922."
     },
-    "resumo_card": "Abrange a República da Espada, Constituição de 1891, República Oligárquica, coronelismo, Política dos Governadores, Café com Leite, Canudos (1896), Revolta da Vacina (1904), Revolta da Chibata (1910), Contestado (1912), greves operárias, tenentismo, Semana de Arte Moderna de 1922, Coluna Prestes e a Revolução de 1930.",
-    "desenvolvimento": "A República iniciou-se sob controle militar (Espada) com Deodoro e Floriano. Em 1891, promulgou-se a primeira constituição republicana. Depois, consolidou-se a República Oligárquica, sustentada pelo coronelismo local, pela Política dos Governadores e pelo pacto do Café com Leite entre SP e MG. A exclusão social gerou rebeldias memoráveis: Canudos (BA), Revolta da Vacina (RJ), Revolta da Chibata (RJ) e Contestado (PR/SC). Nos anos 1920, o tenentismo fardado contestou o sistema através de revoltas e da famosa Coluna Prestes, enquanto a burguesia e intelectuais romperam com o passado na Semana de Arte Moderna de 1922. A crise de 1929 quebrou o arranjo oligárquico, culminando na Revolução de 1930 que levou Getúlio Vargas ao poder.",
+    "resumo_card": "A Primeira República (1889–1930) incluiu a República da Espada e o domínio de oligarquias estaduais, com coronelismo e fraudes eleitorais, mas também revoltas, greves e movimentos sociais. Entre seus marcos estão Canudos, Vacina, Chibata, Contestado, tenentismo, Semana de Arte Moderna e a crise política que levou à ruptura de 1930.",
+    "desenvolvimento": "A República foi proclamada por um movimento militar em 15 de novembro de 1889. A Constituição de 1891 estabeleceu federalismo, presidencialismo e separação entre Igreja e Estado, mas manteve restrições à participação política: mulheres não votavam e pessoas analfabetas foram excluídas do voto. A chamada República da Espada corresponde aos governos de Deodoro da Fonseca e Floriano Peixoto. A partir da década de 1890, oligarquias estaduais ampliaram sua influência por meio de alianças, controle local e práticas eleitorais excludentes. A Política dos Governadores, articulada no governo Campos Sales, e o coronelismo foram mecanismos importantes, mas não formaram um sistema sem conflitos. A expressão “política do café com leite” resume de modo simplificado a influência de São Paulo e Minas Gerais, cujas alianças nem sempre foram contínuas. A Guerra de Canudos (1896–1897) foi uma campanha militar contra uma comunidade sertaneja liderada por Antônio Conselheiro, cuja organização social e religiosa não pode ser reduzida a fanatismo. A Revolta da Vacina (1904) combinou oposição à vacinação obrigatória, autoritarismo das reformas urbanas e insatisfação popular. A Revolta da Chibata (1910) foi protagonizada por marinheiros, em sua maioria negros, contra castigos corporais e condições de serviço. A Guerra do Contestado (1912–1916) envolveu disputas de terra, expulsões, interesses ferroviários e religiosidade popular. Greves operárias, mobilizações anarquistas e socialistas, e o tenentismo expressaram críticas à ordem política. A Coluna Prestes percorreu o interior entre 1925 e 1927. A Semana de Arte Moderna ocorreu em 1922, em um cenário cultural mais amplo. A crise de 1929 agravou tensões econômicas, mas a ruptura de 1930 resultou também de disputas sucessórias, alianças políticas e ação militar: Washington Luís foi deposto, e Getúlio Vargas assumiu o governo provisório.",
     "personagens": [
-      "Barão do Rio Branco: Chanceler responsável pelas grandes conquistas diplomáticas e territoriais.",
-      "Antônio Conselheiro: Líder messiânico de Canudos.",
-      "João Cândido (O Almirante Negro): Líder da Revolta da Chibata.",
-      "Luís Carlos Prestes: Capitão líder da Coluna Prestes."
+      "José Maria da Silva Paranhos Júnior, Barão do Rio Branco: Ministro das Relações Exteriores entre 1902 e 1912, atuou em negociações que consolidaram fronteiras brasileiras, incluindo a questão do Acre.",
+      "Antônio Conselheiro: Líder religioso e comunitário de Canudos, cuja comunidade foi destruída por forças militares em 1897.",
+      "João Cândido Felisberto: Marinheiro que se destacou na Revolta da Chibata, movimento contra castigos corporais e condições degradantes na Marinha.",
+      "Luís Carlos Prestes: Oficial que se tornou uma das principais lideranças da Coluna Prestes, movimento de oposição ao governo que percorreu o país entre 1925 e 1927."
     ],
     "grupos_envolvidos": [
-      "Oligarquias Cafeeiras e leiteiras",
-      "Oficiais Jovens do Exército (Tenentistas)",
-      "Trabalhadores Imigrantes e Nacionais urbanos"
+      "Oligarquias estaduais e lideranças locais, com destaque variável de São Paulo, Minas Gerais, Rio Grande do Sul e outros estados; seus acordos e rivalidades mudaram ao longo do período.",
+      "Jovens oficiais do Exército envolvidos em movimentos tenentistas, com críticas ao sistema eleitoral e propostas políticas diversas, nem sempre democráticas ou consensuais.",
+      "Trabalhadores urbanos nacionais e imigrantes, organizados em associações, sindicatos e greves, com diferentes correntes políticas e reivindicações."
     ],
     "interesses_em_disputa": [
-      "Democratização do voto e fim das fraudes eleitorais versus controle oligárquico regional."
+      "Disputas por representação política, autonomia estadual, controle eleitoral, direitos trabalhistas, acesso à terra e participação de grupos excluídos."
     ],
     "linha_do_tempo": [
-      {"ano": 1891, "titulo": "Constituição Republicana", "descricao": "Proclamação do Estado laico, federalismo e presidencialismo."},
-      {"ano": 1896, "titulo": "Guerra de Canudos", "descricao": "Massacre estatal do arraial de Antônio Conselheiro na Bahia."},
-      {"ano": 1910, "titulo": "Revolta da Chibata", "descricao": "Rebelião de marinheiros contra os castigos corporais na Marinha."},
-      {"ano": 1922, "titulo": "Semana de Arte Moderna", "descricao": "Ruptura estética e cultural com o academicismo tradicional em São Paulo."},
-      {"ano": 1930, "titulo": "Revolução de 1930", "descricao": "Fim da Primeira República com a deposição de Washington Luís."}
+      {"ano": 1891, "titulo": "Constituição Republicana", "descricao": "A Constituição promulgada em 1891 estabeleceu a República federativa e presidencialista e a separação entre Igreja e Estado, mas manteve o voto restrito a homens alfabetizados, entre outras exclusões."},
+      {"ano": 1896, "titulo": "Guerra de Canudos", "descricao": "Campanha militar do governo federal destruiu o arraial de Canudos, na Bahia, após sucessivas expedições; o conflito envolveu disputas políticas, sociais, fundiárias e religiosas."},
+      {"ano": 1910, "titulo": "Revolta da Chibata", "descricao": "Marinheiros se revoltaram contra castigos corporais, baixos soldos e condições de serviço; apesar das promessas de anistia, muitos foram perseguidos posteriormente."},
+      {"ano": 1922, "titulo": "Semana de Arte Moderna", "descricao": "Evento realizado em São Paulo que reuniu artistas e intelectuais e se tornou marco simbólico do Modernismo, em diálogo com transformações culturais anteriores e posteriores."},
+      {"ano": 1930, "titulo": "Revolução de 1930", "descricao": "Movimento político-militar derrubou o presidente Washington Luís e impediu a posse de Júlio Prestes; Getúlio Vargas assumiu o governo provisório em novembro de 1930."}
     ],
     "consequencias_imediatas": [
-      "Rompimento definitivo da aliança entre São Paulo e Minas Gerais na sucessão presidencial de 1930.",
-      "Ascensão de Getúlio Vargas e interrupção do modelo oligárquico tradicional."
+      "Ruptura da ordem política vigente e deposição de Washington Luís, em meio a uma crise sucessória, disputas entre oligarquias e mobilização político-militar.",
+      "Getúlio Vargas assumiu um governo provisório que suspendeu aspectos da ordem constitucional anterior e iniciou processo de centralização do poder federal."
     ],
     "consequencias_longo_prazo": [
-      "Centralização progressiva do poder político na União em detrimento das autonomias estaduais."
+      "A partir de 1930, houve reorganização das relações entre União e estados e ampliação da intervenção federal, em processo que teve conflitos, continuidades e rupturas."
     ],
     "impactos": {
-      "politicos": "Eleições viciadas pelo voto de cabresto e manipulação das atas eleitorais.",
-      "economicos": "Intervenção estatal na economia para socorrer produtores de café (Convênio de Taubaté).",
-      "sociais": "Violência crônica contra movimentos messiânicos e repressão policial a greves operárias.",
-      "culturais": "Modernização artística vanguardista e afirmação da cultura urbana nacional.",
-      "territoriais": "Incorporação pacífica do Acre ao território nacional (Tratado de Petrópolis, 1903).",
-      "ambientais": "Avanço agrícola no interior e saneamento urbano pioneiro liderado por Oswaldo Cruz no Rio de Janeiro."
+      "politicos": "Federalismo formal e forte influência das oligarquias estaduais, com práticas de controle eleitoral, exclusão política e contestação por movimentos civis e militares.",
+      "economicos": "Economia exportadora baseada sobretudo no café, com políticas de valorização, expansão industrial gradual e vulnerabilidade a crises internacionais.",
+      "sociais": "Repressão a movimentos rurais e urbanos, crescimento do operariado e das organizações trabalhistas, e persistência do racismo e da desigualdade após a abolição.",
+      "culturais": "Diversificação da imprensa, da literatura, das artes e das culturas urbanas e populares; o Modernismo de 1922 foi um marco, não a totalidade da produção cultural do período.",
+      "territoriais": "Consolidação de fronteiras por negociações diplomáticas, como o Tratado de Petrópolis (1903), e expansão de infraestrutura que transformou territórios e comunidades.",
+      "ambientais": "Expansão agrícola, ferroviária e urbana provocou desmatamento, alterações de paisagens e conflitos pelo uso da terra, com efeitos regionais distintos."
     },
-    "continuidade": "Exclusão das camadas populares dos direitos políticos básicos e predomínio da violência policial contra pobres.",
-    "rupturas": "Fim do predomínio político exclusivo dos barões do café estaduais."
+    "continuidade": "Persistência de concentração fundiária, desigualdades raciais, exclusão eleitoral e violência estatal contra populações pobres e movimentos sociais.",
+    "rupturas": "Fim da monarquia e implantação da República em 1889; em 1930, ruptura político-militar encerrou a Primeira República e abriu uma nova fase de centralização federal."
   },
 
   {
@@ -441,57 +477,57 @@
     "local": "Todo o Território Nacional",
     "sociedades_envolvidas": "Getúlio Vargas, Operariado Urbano, Militares, Oligarquias Paulista e Nova Burguesia Industrial",
     "tema": "Revolução de 1930, Governo Provisório, Revolução Constitucionalista de 1932, Constituição de 1934, Intentona Comunista de 1935, Golpe do Estado Novo de 1937, DIP, Censura, CLT de 1943, Substituição de Importações e Segunda Guerra Mundial",
-    "contexto": "Período de quinze anos em que Getúlio Vargas governou o país de forma centralizada, promovendo a industrialização por substituição de importações, a legislação trabalhista e o populismo político, encerrado com a redemocratização em 1945.",
+    "contexto": "Entre 1930 e 1945, Getúlio Vargas esteve à frente do governo brasileiro em diferentes configurações políticas: governo provisório, governo constitucional e Estado Novo, uma ditadura instaurada em 1937. O período combinou centralização do Estado, industrialização, legislação trabalhista, controle dos sindicatos, propaganda e repressão política. A participação do Brasil na Segunda Guerra Mundial e as pressões pela redemocratização contribuíram para o fim do Estado Novo em 1945.",
     "antecedentes": [
-      "Crise de 1929, quebra da economia cafeeira e ruptura da política do Café com Leite em 1930."
+      "Crise econômica mundial iniciada em 1929, disputas entre oligarquias estaduais, contestação ao resultado eleitoral de 1930 e articulação político-militar que depôs Washington Luís e impediu a posse de Júlio Prestes."
     ],
     "causas": {
-      "politicas": "Insatisfação militar e civil com as fraudes eleitorais oligárquicas e necessidade de modernização burocrática do Estado.",
-      "economicas": "Crise mundial do café, necessitando diversificar a economia rumo à industrialização nacional protegida.",
-      "sociais": "Reivindicações urgentes do operariado urbano por direitos trabalhistas, regulamentadas de forma paternalista.",
-      "religiosas": "Apoio ambivalente da Igreja Católica ao regime moralizador varguista.",
-      "culturais": "Uso sistemático da propaganda oficial de massas pelo DIP (Departamento de Imprensa e Propaganda).",
-      "territoriais": "Fortalecimento do controle federal sobre os governos estaduais (interventores).",
-      "tecnologias": "Surgimento da indústria de base nacional (CSN, Vale do Rio Doce) e modernização industrial."
+      "politicas": "Crise da ordem política da Primeira República, disputas entre grupos regionais e militares e formação de uma coalizão heterogênea que levou Vargas ao poder em 1930; posteriormente, o governo ampliou a centralização e restringiu a competição política.",
+      "economicas": "Crise das exportações de café e políticas de intervenção estatal, diversificação produtiva e estímulo à indústria; a industrialização envolveu capitais privados, investimento público e condições internacionais específicas.",
+      "sociais": "Crescimento do operariado urbano e de suas organizações, reivindicações por direitos e conflitos trabalhistas; a legislação social foi resultado de mobilizações anteriores e contemporâneas, além de iniciativas do Estado.",
+      "religiosas": "A Igreja Católica manteve relações variáveis com o governo, apoiando algumas políticas e criticando outras; setores católicos participaram de movimentos políticos distintos, sem posição única.",
+      "culturais": "Uso de propaganda oficial, especialmente pelo Departamento de Imprensa e Propaganda (DIP), criado em 1939, junto à censura e à promoção de símbolos nacionais e de uma imagem pública de Vargas.",
+      "territoriais": "Nomeação de interventores nos estados após 1930 e maior centralização administrativa; no Estado Novo, partidos e legislativos foram fechados e a autonomia política estadual foi fortemente restringida.",
+      "tecnologias": "Investimentos em infraestrutura e indústria de base, incluindo a criação da Companhia Siderúrgica Nacional em 1941 e da Companhia Vale do Rio Doce em 1942; a CSN iniciou sua produção em 1946."
     },
-    "resumo_card": "Abrange a chegada de Vargas ao poder em 1930, Governo Provisório, Revolução Constitucionalista de 1932, Constituição de 1934, Intentona Comunista de 1935, o golpe do Estado Novo em 1937, DIP, censura, CLT em 1943, industrialização, participação na Segunda Guerra e o fim do regime em 1945.",
-    "desenvolvimento": "Vargas assumiu em 1930 chefiando o Governo Provisório. Após a derrota paulista na Revolução Constitucionalista de 1932, outorgou a Constituição de 1934. Em 1937, sob o pretexto de combater a Intentona Comunista de 1935, aplicou o golpe do Estado Novo, instaurando uma ditadura populista, autoritária e anticomunista (com censura via DIP). Criou a CLT em 1943, impulsionou a siderurgia pesada e enviou a FEB para lutar na Segunda Guerra Mundial. Contraditoriamente, os ventos democráticos de 1945 forçaram sua deposição pelos militares.",
+    "resumo_card": "A Era Vargas (1930–1945) abrangeu o Governo Provisório, a Revolução Constitucionalista de 1932, a Constituição de 1934, a revolta de 1935, o golpe e a ditadura do Estado Novo (1937–1945), a legislação trabalhista, a industrialização e a participação brasileira na Segunda Guerra Mundial.",
+    "desenvolvimento": "Getúlio Vargas chegou ao poder em outubro de 1930, após uma coalizão político-militar depor Washington Luís e impedir a posse do presidente eleito Júlio Prestes. O Governo Provisório centralizou decisões e nomeou interventores para os estados. Em 1932, a Revolução Constitucionalista mobilizou setores paulistas por uma nova Constituição e por maior autonomia, reunindo interesses diversos; o movimento foi derrotado militarmente, mas o processo de constitucionalização prosseguiu. A Constituição de 1934 foi promulgada por uma Assembleia Constituinte. Em novembro de 1935, levantes organizados por setores ligados à Aliança Nacional Libertadora e a militares ocorreram em algumas cidades e foram rapidamente derrotados; o governo usou o episódio para ampliar a repressão. Em 10 de novembro de 1937, Vargas deu um golpe, fechou o Congresso e instaurou o Estado Novo, uma ditadura que suspendeu liberdades políticas, censurou a imprensa, perseguiu opositores e concentrou poderes. O Plano Cohen, divulgado como ameaça comunista iminente, era um documento forjado e foi utilizado como justificativa para o golpe. O Departamento de Imprensa e Propaganda (DIP), criado em 1939, controlou e promoveu a propaganda oficial. A legislação trabalhista foi construída em etapas desde o início da década de 1930; a Consolidação das Leis do Trabalho (CLT), de 1943, reuniu normas já existentes e novas disposições, mantendo sindicatos sob controle estatal e deixando trabalhadores rurais fora de grande parte de sua proteção. O governo estimulou a industrialização e criou instituições e empresas estratégicas, como a CSN (1941) e a Vale do Rio Doce (1942). Após ataques a navios brasileiros, o Brasil declarou guerra às potências do Eixo em 1942 e enviou a Força Expedicionária Brasileira para combater na Itália em 1944–1945. A contradição entre a luta externa contra regimes autoritários e a ditadura interna fortaleceu pressões por democratização. Em outubro de 1945, Vargas foi deposto por militares, e eleições foram realizadas no mesmo ano.",
     "personagens": [
-      "Getúlio Vargas: Líder político dominante da história brasileira do século XX.",
-      "Plínio Salgado: Líder do movimento integralista de extrema-direita."
+      "Getúlio Vargas: Chefe do governo a partir de 1930; governou em diferentes configurações até ser deposto em 1945 e voltou à Presidência por eleição em 1951.",
+      "Plínio Salgado: Principal liderança da Ação Integralista Brasileira, movimento nacionalista autoritário de inspiração fascista; apoiou inicialmente o golpe de 1937, mas foi posteriormente afastado do poder."
     ],
     "grupos_envolvidos": [
-      "Movimento Operário Urbano",
-      "Forças Armadas (Exército)",
-      "Elites Industriais Nacionais nascentes"
+      "Trabalhadores urbanos, sindicatos e associações operárias, com reivindicações e correntes políticas diversas; parte das organizações foi incorporada ou submetida ao controle estatal.",
+      "Setores das Forças Armadas, que apoiaram a chegada de Vargas ao poder e tiveram papel central na instauração e, em 1945, no encerramento do Estado Novo; suas posições não foram uniformes.",
+      "Empresários industriais e comerciais, técnicos e agentes do Estado, envolvidos de formas variadas no processo de industrialização e na ampliação da intervenção econômica federal."
     ],
     "interesses_em_disputa": [
-      "Democracia liberal contra ditadura centralizadora; leis trabalhistas tuteladas pelo Estado versus autonomia sindical."
+      "Disputas entre constitucionalismo e centralização autoritária, direitos trabalhistas e controle sindical, projetos econômicos e modelos de participação política; no Estado Novo, a oposição foi reprimida."
     ],
     "linha_do_tempo": [
-      {"ano": 1930, "titulo": "Revolução de 1930", "descricao": "Deposição de Washington Luís e ascensão de Vargas."},
-      {"ano": 1932, "titulo": "Revolução Constitucionalista", "descricao": "Levante armado de São Paulo exigindo constituição e democracia."},
-      {"ano": 1937, "titulo": "Golpe do Estado Novo", "descricao": "Instauração da ditadura varguista inspirada no fascismo europeu."},
-      {"ano": 1943, "titulo": "Criação da CLT", "descricao": "Consolidação das Leis do Trabalho garantindo direitos fundamentais ao operário."},
-      {"ano": 1945, "titulo": "Fim do Estado Novo", "descricao": "Deposição de Vargas e redemocratização do país."}
+      {"ano": 1930, "titulo": "Revolução de 1930", "descricao": "Uma coalizão político-militar depôs Washington Luís e impediu a posse de Júlio Prestes; Vargas assumiu o Governo Provisório."},
+      {"ano": 1932, "titulo": "Revolução Constitucionalista", "descricao": "Levante armado paulista contra o governo federal, com reivindicações constitucionais e autonomistas e participação de grupos com interesses diversos; foi derrotado em outubro."},
+      {"ano": 1937, "titulo": "Golpe do Estado Novo", "descricao": "Vargas fechou o Congresso, cancelou eleições e instaurou uma ditadura; o Plano Cohen, documento forjado, foi apresentado como ameaça comunista para justificar o golpe."},
+      {"ano": 1943, "titulo": "Criação da CLT", "descricao": "A CLT reuniu e sistematizou legislação trabalhista produzida desde o início da década de 1930, sem abranger de modo igual todos os trabalhadores e mantendo o controle estatal sobre sindicatos."},
+      {"ano": 1945, "titulo": "Fim do Estado Novo", "descricao": "Vargas foi deposto por militares em outubro de 1945, em meio a pressões pela redemocratização; eleições presidenciais ocorreram no mesmo ano."}
     ],
     "consequencias_imediatas": [
-      "Criação de uma nova ordem política trabalhista de caráter paternalista e estatizante.",
-      "Fundação dos partidos políticos modernos brasileiros (PSD, PTB e UDN)."
+      "Consolidação de uma legislação trabalhista nacional, ao mesmo tempo em que sindicatos foram submetidos a mecanismos de reconhecimento e controle estatal; direitos e cobertura variaram entre categorias.",
+      "Reorganização do sistema partidário após o fim do Estado Novo, com criação do PSD, PTB e UDN em 1945, no processo de transição para a ordem constitucional de 1946."
     ],
     "consequencias_longo_prazo": [
-      "Transformação definitiva do Brasil de um país agrário-exportador em uma nação urbano-industrial."
+      "Expansão da indústria e da intervenção estatal na economia, sem que o Brasil deixasse de ser também exportador de produtos primários nem que a industrialização se completasse nesse período."
     ],
     "impactos": {
-      "politicos": "Centralização férrea da administração federal e controle sindical por atrelamento estatal.",
-      "economicos": "Industrialização por substituição de importações e criação da base siderúrgica pesada.",
-      "sociais": "Garantia de direitos sociais e trabalhistas formais para os trabalhadores urbanos (excluindo o campo).",
-      "culturais": "Construção mitológica do líder como 'Pai dos Pobres' através de forte propaganda estatal.",
-      "territoriais": "Integração territorial impulsionada por ferrovias, estradas e legislações federais unificadas.",
-      "ambientais": "Crescimento urbano desordenado nos centros fabris como São Paulo e Rio de Janeiro."
+      "politicos": "Centralização do poder federal, restrição de liberdades durante o Estado Novo e reorganização partidária e eleitoral após a deposição de Vargas em 1945.",
+      "economicos": "Estímulo à industrialização, criação de empresas estatais estratégicas e intervenção na economia, em coexistência com a agricultura exportadora e desigualdades regionais.",
+      "sociais": "Ampliação de direitos trabalhistas para parcelas dos trabalhadores urbanos, controle estatal dos sindicatos e exclusão de grande parte dos trabalhadores rurais da proteção da CLT.",
+      "culturais": "Propaganda oficial, censura e construção de símbolos nacionais, ao lado de produção cultural diversa que nem sempre se alinhava ao projeto do regime.",
+      "territoriais": "Fortalecimento da administração federal e integração econômica por infraestrutura e políticas nacionais, com nomeação de interventores e restrição das autonomias estaduais durante o Estado Novo.",
+      "ambientais": "Industrialização, urbanização e expansão de infraestrutura ampliaram a pressão sobre recursos naturais e áreas urbanas, com impactos variados e pouca regulação ambiental."
     },
-    "continuidade": "Paternalismo estatal nas relações trabalhistas e forte intervenção do governo na economia.",
-    "rupturas": "Fim da hegemonia política absoluta das oligarquias agrárias estaduais regionais."
+    "continuidade": "Persistência de desigualdades sociais e regionais, concentração de poder e limitações à autonomia sindical, mesmo com a ampliação de direitos trabalhistas.",
+    "rupturas": "Ruptura com a estrutura política da Primeira República, ampliação da intervenção federal e criação de instituições trabalhistas e industriais; o Estado Novo representou uma ruptura autoritária com a ordem constitucional."
   },
 
   {
@@ -503,57 +539,57 @@
     "local": "Todo o Território Nacional",
     "sociedades_envolvidas": "Partidos Políticos (PSD, PTB, UDN), Movimento Operário, Militares e Classes Médias",
     "tema": "Constituição de 1946, Dutra, 2º Governo Vargas, Suicídio em 1954, Juscelino Kubitschek, Plano de Metas, Copa de 1958, Brasília (1960), Jânio Quadros, Renúncia, João Goulart, Reformas de Base e Golpe Civil-Militar de 1964",
-    "contexto": "Experiência democrática multipartidária marcada pela industrialização desenvolvimentista, debates nacionalistas sobre petróleo e energia, construção de Brasília e polarização ideológica da Guerra Fria que culminou no golpe militar.",
+    "contexto": "Entre 1946 e 1964, o Brasil viveu uma experiência de democracia constitucional e multipartidária, atravessada por conflitos sociais, disputas sobre o desenvolvimento econômico, mobilização sindical e camponesa e forte intervenção militar na política. O período incluiu governos eleitos, crises institucionais e projetos distintos para o país. A ruptura de 1964 resultou de uma articulação civil-militar, em contexto de Guerra Fria, e encerrou a ordem democrática.",
     "antecedentes": [
-      "Fim da ditadura do Estado Novo em 1945 e redemocratização liberal."
+      "Deposição de Getúlio Vargas em 1945, convocação de eleições e elaboração de uma nova Constituição, que restabeleceu instituições representativas após o Estado Novo."
     ],
     "causas": {
-      "politicas": "Intensa polarização entre a UDN (conservadora), o PSD (conservador-desenvolvimentista) e o PTB (trabalhista-populista), além da pressão militar.",
-      "economicas": "Necessidade de modernização acelerada da infraestrutura nacional (energia, transporte) e inflação crescente.",
-      "sociais": "Urbanização explosiva, migração nordestina para o Sudeste e mobilização de ligas camponesas e sindicatos.",
-      "religiosas": "Anticomunismo fervoroso de setores da Igreja Católica e da classe média urbana.",
-      "culturais": "Auge da Bossa Nova, cinema novo, conquistas esportivas (Copa de 1958) e otimismo modernizante.",
-      "territoriais": "Integração do interior com a construção de Brasília (inaugurada em 1960 por JK).",
-      "tecnologias": "Instalação da indústria automobilística e expansão rodoviarista nacional."
+      "politicas": "Disputas entre partidos e projetos políticos, crises entre Executivo e Congresso, intervenções militares e polarização em torno de reformas sociais, nacionalismo econômico e alinhamentos internacionais; os partidos não eram blocos ideológicos homogêneos.",
+      "economicas": "Debates sobre industrialização, infraestrutura, inflação, financiamento do desenvolvimento, participação do capital estrangeiro e controle de setores estratégicos, como petróleo e energia.",
+      "sociais": "Urbanização, crescimento do operariado, mobilização sindical, organização camponesa e reivindicações por reforma agrária, educação, direitos sociais e melhores condições de vida.",
+      "religiosas": "Setores de diferentes igrejas e organizações religiosas participaram dos debates políticos; grupos católicos anticomunistas tiveram influência, mas também existiram cristãos favoráveis a reformas sociais.",
+      "culturais": "Expansão da cultura de massas, rádio, cinema, música popular, Bossa Nova e movimentos artísticos e intelectuais; a efervescência cultural não se limitou às grandes cidades.",
+      "territoriais": "Construção de Brasília e transferência da capital federal em 1960, além de políticas de integração territorial por rodovias e projetos de ocupação do interior.",
+      "tecnologias": "Expansão da indústria automobilística, da produção de bens duráveis, da energia e das rodovias, com participação de empresas nacionais e estrangeiras e aumento das necessidades de financiamento."
     },
-    "resumo_card": "Abrange a Constituição de 1946, governo Dutra, 2º Governo Vargas e seu suicídio em 1954, governo Juscelino Kubitschek com o Plano de Metas, Copa de 1958, Brasília em 1960, Jânio Quadros e sua renúncia, João Goulart, Reformas de Base e o Golpe Civil-Militar de 1964.",
-    "desenvolvimento": "A redemocratização gerou a Constituição de 1946. Eurico Dutra governou no pós-guerra. Vargas retornou eleito em 1950, criando a Petrobras, mas acuado pela oposição suicidou-se em agosto de 1954. Juscelino Kubitschek sucedeu-o com o lema '50 anos em 5' do Plano de Metas, culminando na inauguração de Brasília em 1960. Jânio Quadros renunciou em 1961, abrindo crise política que levou João Goulart à presidência. Jango propôs as Reformas de Base, amedrontando os setores conservadores e militares que, apoiados pelos EUA, desferiram o Golpe Civil-Militar em 31 de março de 1964.",
+    "resumo_card": "O período democrático de 1946 a 1964 incluiu os governos Dutra, Getúlio Vargas, Juscelino Kubitschek, Jânio Quadros e João Goulart. Foi marcado pela Constituição de 1946, criação da Petrobras, Plano de Metas, construção de Brasília, crises políticas e debates sobre as Reformas de Base, até o golpe de 1964.",
+    "desenvolvimento": "A Constituição de 1946 restabeleceu liberdades e eleições, embora mantivesse exclusões políticas, como a proibição do voto de pessoas analfabetas; o Partido Comunista Brasileiro teve seu registro cassado em 1947. No governo Eurico Dutra (1946–1951), o país alinhou-se aos Estados Unidos no contexto da Guerra Fria e adotou medidas de repressão ao movimento comunista e sindical. Getúlio Vargas voltou à Presidência pelo voto em 1951. Em seu segundo governo, enfrentou conflitos com opositores, empresários, militares e trabalhadores; a Petrobras foi criada em 1953, após intensa campanha nacionalista em torno do petróleo. Em agosto de 1954, diante de uma grave crise política e militar, Vargas se suicidou, provocando ampla comoção e manifestações. Juscelino Kubitschek (1956–1961) implementou o Plano de Metas, que estimulou energia, transportes, indústria e construção de Brasília, inaugurada em 21 de abril de 1960. O crescimento acelerado ampliou a industrialização, mas também veio acompanhado de inflação, endividamento e desigualdades. Jânio Quadros renunciou em agosto de 1961, desencadeando uma crise sobre a posse do vice-presidente João Goulart. Após resistência de setores militares, uma solução parlamentarista permitiu sua posse em setembro de 1961; o presidencialismo foi restaurado por plebiscito em 1963. Goulart defendeu as Reformas de Base, que incluíam propostas agrárias, educacionais, fiscais e administrativas. As propostas provocaram apoio e oposição de diferentes setores. Em 31 de março e 1º de abril de 1964, um movimento civil-militar depôs o presidente, com participação de lideranças políticas, empresariais e militares e apoio do governo dos Estados Unidos. Instalou-se uma ditadura que rompeu a ordem constitucional e reprimiu opositores.",
     "personagens": [
-      "Getúlio Vargas: Presidente eleito em 1950, morto em 1954.",
-      "Juscelino Kubitschek: Presidente modernizador construtor de Brasília.",
-      "João Goulart (Jango): Presidente deposto em 1964."
+      "Getúlio Vargas: Presidente eleito em 1950, retornou ao poder pelo voto e governou de 1951 a 1954; suicidou-se em 24 de agosto de 1954 durante uma crise política.",
+      "Juscelino Kubitschek: Presidente entre 1956 e 1961, responsável pelo Plano de Metas e pela construção e inauguração de Brasília.",
+      "João Goulart: Vice-presidente eleito em 1960, assumiu a Presidência em 1961 após uma crise política e foi deposto pelo golpe de 1964."
     ],
     "grupos_envolvidos": [
-      "Movimentos Sindicais e Ligas Camponesas",
-      "Setores Conservadores das Forças Armadas",
-      "Burguesia Industrial e Capital Estrangeiro"
+      "Sindicatos, organizações de trabalhadores, ligas camponesas e movimentos sociais, com pautas e orientações políticas diversas.",
+      "Setores das Forças Armadas com posições distintas; parte da cúpula militar participou diretamente da articulação e execução do golpe de 1964.",
+      "Empresários industriais, empresas multinacionais, técnicos e agentes públicos, com interesses diversos sobre o papel do Estado, investimentos e desenvolvimento."
     ],
     "interesses_em_disputa": [
-      "Nacionalismo econômico estatal versus controle do capital estrangeiro; reformas de base agrárias e urbanas."
+      "Debates sobre soberania econômica, participação do capital estrangeiro, reformas agrária e urbana, direitos trabalhistas, distribuição de renda e limites da democracia."
     ],
     "linha_do_tempo": [
-      {"ano": 1946, "titulo": "Constituição de 1946", "descricao": "Garantia de liberdades democráticas e eleições pluripartidárias."},
-      {"ano": 1954, "titulo": "Suicídio de Getúlio Vargas", "descricao": "Crise terminal do segundo governo varguista."},
-      {"ano": 1960, "titulo": "Inauguração de Brasília", "descricao": "Transferência da capital federal para o Planalto Central."},
-      {"ano": 1964, "titulo": "Golpe Civil-Militar", "descricao": "Deposição de João Goulart e início da ditadura militar."}
+      {"ano": 1946, "titulo": "Constituição de 1946", "descricao": "A Constituição promulgada em 1946 restabeleceu direitos e instituições democráticas, mas manteve restrições ao voto e outras limitações de participação política."},
+      {"ano": 1954, "titulo": "Suicídio de Getúlio Vargas", "descricao": "Getúlio Vargas suicidou-se durante uma crise política e militar; sua carta-testamento e a reação popular influenciaram profundamente o cenário político."},
+      {"ano": 1960, "titulo": "Inauguração de Brasília", "descricao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo Juscelino Kubitschek, como nova capital federal."},
+      {"ano": 1964, "titulo": "Golpe Civil-Militar", "descricao": "Um movimento civil-militar depôs João Goulart em 31 de março e 1º de abril de 1964, encerrando a experiência democrática e iniciando uma ditadura."}
     ],
     "consequencias_imediatas": [
-      "Suspensão das garantias constitucionais, cassações de mandatos políticos e exílio de opositores.",
-      "Instauração de um regime autoritário de exceção com forte alinhamento geopolítico aos EUA."
+      "Deposição de João Goulart, cassações de mandatos, prisões e perseguições políticas, além da imposição de medidas autoritárias que desmontaram garantias constitucionais.",
+      "Alinhamento do novo regime com os Estados Unidos e repressão a organizações e lideranças consideradas opositoras, em contexto de Guerra Fria."
     ],
     "consequencias_longo_prazo": [
-      "Interrupção de reformas estruturais agrárias e educacionais fundamentais para a modernização social inclusiva do país."
+      "Interrupção das instituições democráticas, restrição de direitos e transformação da estrutura política e social durante a ditadura que se estendeu até 1985."
     ],
     "impactos": {
-      "politicos": "Polarização ideológica extrema associada ao fantasma do comunismo da Guerra Fria.",
-      "economicos": "Entrada maciça de multinacionais e endividamento externo acelerado para custear a infraestrutura.",
-      "sociais": "Aumento das desigualdades regionais e tensões no campo pela reforma agrária.",
-      "culturais": "Esferas artísticas politizadas e efervescência cultural urbana vanguardista.",
-      "territoriais": "Consolidação geopolítica do centro-oeste com a nova capital federal.",
-      "ambientais": "Início da abertura rodoviária em direção à Amazônia e cerrado."
+      "politicos": "Consolidação de instituições democráticas entre 1946 e 1964, apesar de crises e exclusões, seguida pela ruptura autoritária do golpe civil-militar.",
+      "economicos": "Industrialização acelerada e ampliação da infraestrutura, acompanhadas de inflação, endividamento e desigualdades regionais e sociais.",
+      "sociais": "Crescimento das cidades e mobilização de trabalhadores e camponeses, com reivindicações por direitos, reformas e melhores condições de vida.",
+      "culturais": "Efervescência cultural, com Bossa Nova, cinema, teatro, literatura e movimentos artísticos, em diálogo com transformações sociais e políticas.",
+      "territoriais": "Construção de Brasília e expansão de rodovias e projetos de integração do interior, com efeitos sobre populações locais e ambientes naturais.",
+      "ambientais": "Construção de infraestrutura, expansão urbana e industrial e abertura de rodovias provocaram desmatamento e transformações ambientais, especialmente no Cerrado."
     },
-    "continuidade": "Concentração da renda urbana e persistência de estruturas sociais arcaicas no meio rural.",
-    "rupturas": "Interrupção abrupta da legalidade democrática representativa por duas décadas."
+    "continuidade": "Persistência de desigualdades sociais, concentração de renda e terra e limitações de participação política, apesar da ampliação de mobilizações e direitos.",
+    "rupturas": "Fim do Estado Novo e restabelecimento de uma ordem constitucional em 1946; em 1964, golpe civil-militar interrompeu essa experiência democrática e instaurou uma ditadura."
   },
 
   {
@@ -565,58 +601,58 @@
     "local": "Todo o Território Nacional",
     "sociedades_envolvidas": "Regime Militar, Oposição Democrática, Movimento Estudantil, Guerrilheiros, Igreja Católica e Sociedade Civil",
     "tema": "Golpe de 1964, Castelo Branco, AI-1, Costa e Silva, AI-5 de 1968, Médici, Milagre Econômico, Repressão, Censura, Luta Armada, Geisel, Abertura lenta e gradual, Figueiredo, Lei da Anistia de 1979, Diretas Já e Fim da Ditadura",
-    "contexto": "Regime de exceção autoritário que suprimiu liberdades constitucionais, perseguiu opositores, impôs censura rígida, alternou momentos de crescimento econômico artificial com inflação, e encerrou-se por esgotamento político e pressão popular.",
+    "contexto": "Entre 1964 e 1985, o Brasil viveu uma ditadura instaurada por um golpe civil-militar, com participação de setores das Forças Armadas e apoio de grupos civis. O regime restringiu direitos políticos, censurou meios de comunicação, perseguiu opositores e utilizou prisões ilegais, tortura e assassinatos. Houve diferentes fases de institucionalização, endurecimento e abertura, em meio a resistências sociais, crises econômicas e mobilização pela redemocratização.",
     "antecedentes": [
-      "Crise institucional, medo do comunismo e desestabilização do governo Jango."
+      "Crise política do governo João Goulart, polarização em torno das Reformas de Base, anticomunismo, mobilização de setores civis e militares e apoio externo dos Estados Unidos à desestabilização e ao golpe."
     ],
     "causas": {
-      "politicas": "Desejo das Forças Armadas e elites civis de conter reformas de esquerda, eliminar o comunismo e tutelar a política nacional.",
-      "economicas": "Combate à inflação inicial e posterior fomento ao chamado 'Milagre Econômico' com empréstimos externos.",
-      "sociais": "Censura implacável à imprensa, tortura sistemática de presos políticos e resistência armada clandestina.",
-      "religiosas": "Racha na Igreja Católica entre setores conservadores apoiadores do golpe e setores progressistas defensores dos direitos humanos.",
-      "culturais": "Censura artística severa a músicos, dramaturgos, jornalistas e escritores, gerando o movimento de resistência cultural.",
-      "territoriais": "Integração forçada da Amazônia (Transamazônica) e segurança nacional de fronteiras.",
-      "tecnologias": "Modernização das telecomunicações estatais, embratel e infraestrutura viária."
+      "politicas": "Articulação de setores militares, empresariais, políticos e sociais que se opunham ao governo Goulart e às reformas propostas, defendiam uma ordem anticomunista e pretendiam reorganizar o Estado sob tutela militar.",
+      "economicas": "Disputas sobre reformas econômicas, inflação, política salarial, propriedade e participação do capital estrangeiro; o regime adotou políticas de estabilização, concentração de renda e incentivo ao investimento, com resultados distintos ao longo do período.",
+      "sociais": "Repressão a sindicatos, movimentos estudantis, organizações camponesas e opositores; resistência por meio de manifestações, greves, imprensa alternativa, movimentos culturais e, em alguns casos, luta armada.",
+      "religiosas": "A Igreja Católica teve posições diversas: setores apoiaram o golpe, enquanto outros denunciaram violações de direitos humanos e atuaram em defesa de perseguidos e comunidades populares.",
+      "culturais": "Censura, propaganda oficial e vigilância sobre artistas, jornalistas, professores e intelectuais, ao mesmo tempo que a produção cultural desenvolveu formas de crítica, alegoria e resistência.",
+      "territoriais": "Projetos de integração e ocupação da Amazônia e de outras regiões, com abertura de rodovias e grandes obras, frequentemente acompanhados de deslocamentos populacionais, conflitos fundiários e impactos sobre povos indígenas.",
+      "tecnologias": "Expansão das telecomunicações, criação e fortalecimento de infraestrutura estatal, grandes obras rodoviárias e energéticas e incentivo à indústria, com custos sociais e ambientais relevantes."
     },
-    "resumo_card": "Abrange o início da ditadura em 1964, governo Castelo Branco, AI-1, Costa e Silva, o endurecedor AI-5 de 1968, governo Médici, Milagre Econômico, repressão, censura, luta armada, governo Geisel com abertura lenta, Figueiredo, Lei da Anistia de 1979, o movimento Diretas Já e o fim da ditadura em 1985.",
-    "desenvolvimento": "Os militares tomaram o poder em 1964, governando inicialmente sob Castelo Branco com Atos Institucionais. Com a insatisfação crescente e protestos em 1968, o regime endureceu totalmente com o AI-5, inaugurando a fase mais violenta da ditadura sob Médici, marcada pelo 'Milagre Econômico' e pela repressão implacável à luta armada. A partir de Geisel (1974), iniciou-se uma abertura política 'lenta, gradual e segura'. Sob Figueiredo, veio a Lei da Anistia (1979), a explosão da inflação, e a campanha das Diretas Já (1984). Embora as Diretas tenham sido rejeitadas no Congresso, a transição concluiu-se em 1985 com a eleição indireta do civil Tancredo Neves.",
+    "resumo_card": "A ditadura civil-militar (1964–1985) passou por diferentes governos e fases: golpe e Atos Institucionais, AI-5 em 1968, repressão intensificada, crescimento econômico e desigualdade no chamado Milagre Econômico, crise nos anos 1970 e 1980, abertura política, Lei da Anistia de 1979, Diretas Já e transição civil em 1985.",
+    "desenvolvimento": "O golpe de 31 de março e 1º de abril de 1964 depôs João Goulart e instaurou um regime autoritário com participação militar e apoio de setores civis. O governo Castelo Branco editou Atos Institucionais, cassou mandatos e restringiu direitos; em 1965, o AI-2 extinguiu os partidos existentes e instituiu o bipartidarismo controlado, com ARENA e MDB. Em 13 de dezembro de 1968, após conflitos políticos, protestos e a recusa da Câmara em autorizar o processo contra o deputado Márcio Moreira Alves, foi decretado o AI-5, que ampliou os poderes repressivos, permitiu o fechamento do Congresso e suspendeu garantias como o habeas corpus para determinados crimes políticos. Durante o governo Médici (1969–1974), a repressão atingiu seu período mais intenso, com censura, tortura, mortes e desaparecimentos, enquanto o chamado Milagre Econômico (aproximadamente 1968–1973) registrou altas taxas de crescimento, acompanhadas de concentração de renda e endividamento. A resistência incluiu movimentos estudantis, greves operárias, organizações de familiares de presos e desaparecidos, setores religiosos, imprensa alternativa e grupos que optaram pela luta armada. No governo Geisel (1974–1979), iniciou-se uma abertura anunciada como lenta, gradual e segura, conduzida sob controle do próprio regime e marcada por avanços e recuos. A Lei da Anistia de 1979 permitiu o retorno de exilados e a libertação de presos políticos, mas também foi interpretada de modo a proteger agentes estatais envolvidos em violações, tornando-se objeto de disputa. No governo Figueiredo (1979–1985), o pluripartidarismo foi restabelecido, greves e mobilizações cresceram e a campanha Diretas Já reuniu milhões de pessoas em 1983 e 1984. A emenda das eleições diretas foi rejeitada pela Câmara em abril de 1984. Tancredo Neves foi eleito indiretamente pelo Colégio Eleitoral em janeiro de 1985, mas adoeceu e morreu antes de tomar posse; o vice José Sarney assumiu a Presidência em março. A transição civil encerrou o ciclo de governos militares, mas a redemocratização institucional avançou com a Constituição de 1988.",
     "personagens": [
-      "Emílio Garrastazu Médici: Presidente durante o período de maior repressão e auge do Milagre Econômico.",
-      "Ernesto Geisel: Artífice da transição com abertura lenta, gradual e segura.",
-      "Tancredo Neves: Líder civil eleito presidente em 1985, falecido antes de posse."
+      "Emílio Garrastazu Médici: Presidente entre 1969 e 1974, período de intensificação da repressão política e de crescimento econômico conhecido como Milagre Econômico.",
+      "Ernesto Geisel: Presidente entre 1974 e 1979, iniciou a política de abertura controlada, em meio a resistências internas do regime e denúncias de violações de direitos humanos.",
+      "Tancredo Neves: Político civil eleito indiretamente pelo Colégio Eleitoral em janeiro de 1985; morreu antes da posse, e José Sarney assumiu a Presidência."
     ],
     "grupos_envolvidos": [
-      "Aparelho de Repressão do Estado (DOI-CODI, SNI)",
-      "Organizações de Esquerda de Luta Armada",
-      "Movimento Diretas Já e Oposição Democrática"
+      "Órgãos de informação e repressão do Estado, como SNI, DOI-CODI e estruturas policiais e militares, envolvidos em vigilância, prisões ilegais, tortura e outras violações.",
+      "Organizações de esquerda e grupos de resistência, com estratégias diversas, incluindo mobilização política, atuação sindical, clandestinidade e luta armada; suas experiências não foram homogêneas.",
+      "Movimentos pela redemocratização, entidades civis, sindicatos, estudantes, familiares de vítimas, setores religiosos, partidos e organizações de direitos humanos."
     ],
     "interesses_em_disputa": [
-      "Restabelecimento imediato da democracia e eleições livres versus tutela militar permanente do Estado."
+      "Manutenção da tutela militar e da ordem autoritária versus restabelecimento das liberdades, eleições diretas, direitos humanos e participação democrática."
     ],
     "linha_do_tempo": [
-      {"ano": 1964, "titulo": "Golpe Civil-Militar", "descricao": "Destituição de João Goulart e tomada do poder pelos militares."},
-      {"ano": 1968, "titulo": "Decreto do AI-5", "descricao": "Fechamento do Congresso, suspensão do habeas corpus e censura prévia."},
-      {"ano": 1979, "titulo": "Lei da Anistia", "descricao": "Perdão a crimes políticos, permitindo o retorno de exilados ao país."},
-      {"ano": 1984, "titulo": "Diretas Já", "descricao": "Imensa mobilização nacional popular exigindo eleições presidenciais diretas."},
-      {"ano": 1985, "titulo": "Fim da Ditadura", "descricao": "Posse de José Sarney e transição civil para a Nova República."}
+      {"ano": 1964, "titulo": "Golpe Civil-Militar", "descricao": "Golpe civil-militar depôs João Goulart e instaurou um regime autoritário, com apoio de setores políticos, empresariais e sociais e participação decisiva das Forças Armadas."},
+      {"ano": 1968, "titulo": "Decreto do AI-5", "descricao": "Ato Institucional nº 5 ampliou os poderes do Executivo, permitiu o fechamento do Congresso e suspendeu garantias constitucionais, aprofundando a repressão."},
+      {"ano": 1979, "titulo": "Lei da Anistia", "descricao": "A lei concedeu anistia a perseguidos políticos e permitiu o retorno de exilados, mas sua aplicação também protegeu agentes estatais acusados de violações, tornando-se objeto de controvérsia."},
+      {"ano": 1984, "titulo": "Diretas Já", "descricao": "Campanha nacional por eleições presidenciais diretas mobilizou multidões; a emenda foi rejeitada pela Câmara dos Deputados em abril de 1984."},
+      {"ano": 1985, "titulo": "Fim da Ditadura", "descricao": "Tancredo Neves foi eleito indiretamente em janeiro de 1985, morreu antes da posse e foi sucedido por José Sarney, marcando o início do governo civil."}
     ],
     "consequencias_imediatas": [
-      "Violência de Estado, centenas de mortos e desaparecidos políticos, e exílio de intelectuais e artistas.",
-      "Grave crise da dívida externa nos anos 80 (década perdida) devido ao esgotamento do modelo militar."
+      "Perseguição política, cassações, prisões, exílios, censura, tortura e assassinatos cometidos por agentes do Estado; vítimas e familiares organizaram denúncias e movimentos por memória e justiça.",
+      "Crise econômica marcada por endividamento externo, inflação elevada e recessão no início dos anos 1980, em contexto internacional adverso e de esgotamento do modelo de crescimento."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação de uma constituição cidadã em 1988 como repúdio institucional aos anos de chumbo."
+      "A redemocratização levou à Constituição de 1988, que ampliou direitos e garantias, mas não eliminou os efeitos sociais, institucionais e políticos da ditadura."
     ],
     "impactos": {
-      "politicos": "Supressão do pluripartidismo livre e criação de sistema bipartidário controlado (ARENA vs. MDB).",
-      "economicos": "Crescimento artificial inicial seguido por inflação galopante e estagnação sistêmica.",
-      "sociais": "Violência policial institucionalizada e concentração drástica de renda durante o milagre econômico.",
-      "culturais": "Resistência artística formidável através da MPB, teatro de arena e imprensa alternativa.",
-      "territoriais": "Abertura de rodovias estratégicas na Amazônia e centralização federativa.",
-      "ambientais": "Grandes impactos ecológicos com desmatamento na Amazônia estimulado por projetos militares de ocupação."
+      "politicos": "Supressão de direitos e de eleições presidenciais diretas, bipartidarismo controlado, censura e repressão, seguidos por abertura política e transição civil.",
+      "economicos": "Crescimento acelerado em parte do período, com concentração de renda, endividamento externo e crise inflacionária nos anos finais.",
+      "sociais": "Violência estatal, desigualdade, migrações internas e conflitos fundiários, ao lado de organização de movimentos sociais e campanhas por direitos.",
+      "culturais": "Censura e perseguição coexistiram com produção artística de resistência na música, no teatro, no cinema, na literatura e na imprensa alternativa.",
+      "territoriais": "Grandes projetos rodoviários e de ocupação territorial alteraram a Amazônia e outras regiões, provocando conflitos com comunidades indígenas, ribeirinhas e camponesas.",
+      "ambientais": "Grandes obras, mineração, pecuária e abertura de estradas contribuíram para desmatamento, deslocamentos e danos ambientais, especialmente na Amazônia."
     },
-    "continuidade": "Estruturas de violência policial e impunidade de agentes estatais herdadas do regime.",
-    "rupturas": "Fim da ditadura e conquista de liberdades democráticas fundamentais na Constituição de 1988."
+    "continuidade": "Persistência de práticas autoritárias, violência policial, desigualdades sociais e impunidade de agentes estatais, temas que permaneceram em debate após a redemocratização.",
+    "rupturas": "Fim do regime militar em 1985 e retomada do governo civil, seguida pela Constituição de 1988; a transição não eliminou imediatamente estruturas e práticas herdadas da ditadura."
   },
 
   {
@@ -628,61 +664,61 @@
     "local": "Todo o Território Nacional",
     "sociedades_envolvidas": "Sociedade Civil, Partidos Democráticos, Presidentes Eleitos, Movimentos Sociais e População Brasileira",
     "tema": "Redemocratização, Sarney, Constituição de 1988, Eleição de 1989, Collor, Impeachment de 1992, Itamar Franco, Plano Real (1994), FHC, Eleição de Lula (2002), Governos Lula e Dilma, Jornadas de Junho de 2013, Lava Jato, Impeachment de 2016, Temer, Bolsonaro, Pandemia de COVID-19, Retorno de Lula em 2023 e Transformações Contemporâneas",
-    "contexto": "Período democrático atual iniciado em 1985, marcado pela promulgação da Constituição Cidadã de 1988, estabilização econômica pelo Plano Real, alternância de mandatos presidenciais à esquerda e à direita, graves crises institucionais, escândalos de corrupção, a pandemia e os desafios contemporâneos da nação.",
+    "contexto": "A Nova República começou com a transição para o governo civil em 1985 e a reconstrução das instituições democráticas, consolidada pela Constituição de 1988. Desde então, o país passou por eleições competitivas, alternância de poder, reformas econômicas, ampliação de políticas sociais e crises políticas e institucionais. O período também foi marcado por desigualdades persistentes, mobilizações sociais, transformações tecnológicas e desafios ambientais e sanitários.",
     "antecedentes": [
-      "Esgotamento da ditadura militar e aspirações populares por liberdades civis e eleições."
+      "Esgotamento político e econômico da ditadura civil-militar, mobilização pela anistia e pela redemocratização, campanha Diretas Já e transição negociada que levou à eleição indireta de Tancredo Neves em 1985 e à posse de José Sarney."
     ],
     "causas": {
-      "politicas": "Instabilidade econômica crônica inicial, corrupção, crises políticas, impeachments e acirradas polarizações eleitorais recentes.",
-      "economicas": "Superação da hiperinflação pelo Plano Real (1994), expansão do consumo de massas, choques externos e crises fiscais.",
-      "sociais": "Redução da pobreza em períodos de crescimento, persistência de desigualdades estruturais, violência urbana e ascensão de pautas identitárias.",
-      "religiosas": "Crescimento exponencial das igrejas evangélicas neopentecostais e sua forte influência na política nacional.",
-      "culturais": "Era da informação digital, redes sociais, polarização ideológica e debates culturais contemporâneos.",
-      "territoriais": "Gestão e preservação de biomas, demarcações de terras e expansão do agronegócio no território.",
-      "tecnologias": "Revolução digital, internet, inteligência artificial e conectividade móvel massiva."
+      "politicas": "Reconstrução do sistema partidário e das instituições democráticas, disputas entre Executivo e Legislativo, processos de impeachment, mobilizações sociais, escândalos políticos e tensões institucionais em diferentes governos.",
+      "economicas": "Combate à inflação elevada nos anos 1980 e 1990, estabilização monetária com o Plano Real, reformas econômicas, ciclos de crescimento e recessão, mudanças no mercado de trabalho e desafios fiscais.",
+      "sociais": "Expansão de direitos e políticas sociais, mobilização de movimentos negros, indígenas, feministas, sindicais e por moradia, além da persistência de desigualdades de renda, raça, gênero e território.",
+      "religiosas": "Pluralização do campo religioso e maior presença pública de diferentes grupos e organizações religiosas, incluindo setores evangélicos e católicos, sem que essas comunidades tenham posições políticas uniformes.",
+      "culturais": "Expansão da televisão, da internet e das redes sociais, diversificação das produções culturais e intensificação de debates públicos, disputas de memória e circulação de desinformação.",
+      "territoriais": "Conflitos sobre demarcação de terras indígenas, reforma agrária, expansão agropecuária, urbanização e políticas de conservação de biomas, com impactos regionais distintos.",
+      "tecnologias": "Digitalização de serviços e relações de trabalho, expansão da internet e da telefonia móvel, desenvolvimento de plataformas digitais e uso crescente de inteligência artificial."
     },
-    "resumo_card": "Abrange a redemocratização (1985), governo Sarney, Constituição de 1988, eleição de 1989, Fernando Collor, impeachment em 1992, Itamar Franco, Plano Real (1994), FHC, eleição de Lula em 2002, governos Lula e Dilma, Jornadas de Junho (2013), Operação Lava Jato, impeachment de Dilma (2016), Michel Temer, governo Jair Bolsonaro, pandemia de COVID-19 (2020), retorno de Lula à presidência em 2023 e as transformações políticas, econômicas, sociais, culturais e tecnológicas contemporâneas.",
-    "desenvolvimento": "A Nova República nasceu com a transição civil e a Constituição de 1988. Após a hiperinflação dos anos Sarney, Collor assumiu em 1990 mas sofreu impeachment em 1992 por corrupção. Itamar Franco estabilizou a economia com o Plano Real (1994), implementado por FHC em seus dois mandatos. Em 2002, Luiz Inácio Lula da Silva foi eleito, seguido por sua reeleição e pela eleição de Dilma Rousseff em 2010. O país viveu as manifestações de 2013 e a Operação Lava Jato, culminando no impeachment de Dilma em 2016 (sucedida por Michel Temer). Em 2018, Jair Bolsonaro venceu as eleições. Após a crise sanitária da pandemia de COVID-19 em 2020, Lula retornou à presidência em 2023, inaugurando seu terceiro mandato em meio a intensas transformações tecnológicas, sociais e políticas do Brasil contemporâneo.",
+    "resumo_card": "A Nova República (1985–atualidade) inclui a redemocratização, a Constituição de 1988, o impeachment de Collor, o Plano Real, os governos FHC, Lula, Dilma, Temer e Bolsonaro, as manifestações de 2013, o impeachment de Dilma, a pandemia de COVID-19, a eleição de Lula em 2022 e os desafios democráticos, sociais, econômicos, ambientais e tecnológicos recentes.",
+    "desenvolvimento": "A Nova República começou em 1985, quando José Sarney assumiu após a morte de Tancredo Neves, eleito indiretamente pelo Colégio Eleitoral. A Assembleia Nacional Constituinte elaborou e promulgou a Constituição de 1988, que ampliou direitos e garantias e reorganizou o Estado democrático. Em 1989, Fernando Collor foi eleito por voto direto, na primeira eleição presidencial direta desde 1960; em 1992, após denúncias e um processo político de impeachment, renunciou antes da conclusão do julgamento pelo Senado, que prosseguiu e resultou na perda de seus direitos políticos. Itamar Franco assumiu a Presidência, e o Plano Real foi elaborado por uma equipe econômica sob sua administração, com Fernando Henrique Cardoso como ministro da Fazenda; a nova moeda entrou em circulação em 1994. FHC foi eleito em 1994 e reeleito em 1998, governando em meio a reformas, privatizações, estabilização monetária e crises econômicas. Luiz Inácio Lula da Silva foi eleito em 2002 e reeleito em 2006; Dilma Rousseff venceu as eleições de 2010 e 2014, tornando-se a primeira mulher a presidir o país. As manifestações de junho de 2013 reuniram pautas variadas e expressaram insatisfações distintas. A Operação Lava Jato, iniciada em 2014, investigou esquemas de corrupção e gerou controvérsias sobre procedimentos judiciais; decisões posteriores anularam condenações específicas e reconheceram a parcialidade do então juiz Sergio Moro em processos contra Lula. Em 2016, Dilma Rousseff sofreu impeachment por acusações relacionadas a decretos orçamentários e operações fiscais; o processo foi objeto de intensos debates políticos e jurídicos e não teve como fundamento uma condenação por corrupção pessoal. Michel Temer assumiu a Presidência. Jair Bolsonaro foi eleito em 2018 e governou de 2019 a 2022, período marcado por conflitos políticos, debates sobre políticas públicas e pela pandemia de COVID-19, que teve grande impacto sanitário e social no Brasil. Lula venceu a eleição de 2022 e iniciou seu terceiro mandato em janeiro de 2023. Em 8 de janeiro de 2023, apoiadores do ex-presidente Bolsonaro invadiram e depredaram as sedes dos Três Poderes em Brasília, em ataque às instituições democráticas. A Nova República permanece em transformação, com disputas políticas, desafios socioeconômicos, ambientais e tecnológicos e debates sobre a qualidade da democracia.",
     "personagens": [
-      "José Sarney: Primeiro presidente da redemocratização e promulgador da Constituição de 1988.",
-      "Itamar Franco e Fernando Henrique Cardoso: Criador e executor político do Plano Real de estabilização econômica.",
-      "Luiz Inácio Lula da Silva: Líder sindical eleito em 2002, 2006, 2022 e atual presidente.",
-      "Dilma Rousseff: Primeira mulher presidente do Brasil, deposta por impeachment em 2016.",
-      "Jair Bolsonaro: Presidente eleito em 2018."
+      "José Sarney: Vice-presidente eleito em 1985, assumiu a Presidência após a doença e morte de Tancredo Neves; governou durante a transição e a promulgação da Constituição de 1988.",
+      "Itamar Franco e Fernando Henrique Cardoso: Itamar presidiu o país entre 1992 e 1994; como ministro da Fazenda, FHC coordenou a equipe responsável pela implementação do Plano Real.",
+      "Luiz Inácio Lula da Silva: Presidente eleito em 2002, reeleito em 2006 e novamente eleito em 2022, iniciou seu terceiro mandato em 2023.",
+      "Dilma Rousseff: Primeira mulher eleita presidente do Brasil, em 2010 e reeleita em 2014; foi afastada definitivamente em 2016 após processo de impeachment.",
+      "Jair Bolsonaro: Presidente eleito em 2018, governou de 2019 a 2022."
     ],
     "grupos_envolvidos": [
-      "Sociedade Civil Organizada e Movimentos Sociais",
-      "Setores do Agronegócio e da Indústria",
-      "Eleitorado Polarizado Contemporâneo"
+      "Organizações da sociedade civil, movimentos sociais, sindicatos, associações comunitárias e entidades de defesa de direitos, com pautas e estratégias diversas.",
+      "Setores do agronegócio, da indústria, dos serviços e do sistema financeiro, com interesses variados em políticas econômicas, ambientais e trabalhistas.",
+      "Eleitoras e eleitores, partidos, movimentos e organizações políticas que participam de disputas eleitorais e debates públicos, sem constituir blocos homogêneos."
     ],
     "interesses_em_disputa": [
-      "Responsabilidade fiscal e austeridade versus investimentos sociais estatais; soberania ambiental e desenvolvimento agrário."
+      "Debates sobre políticas fiscais e sociais, papel do Estado, distribuição de renda, direitos trabalhistas, desenvolvimento econômico, proteção ambiental, segurança pública e qualidade das instituições democráticas."
     ],
     "linha_do_tempo": [
-      {"ano": 1988, "titulo": "Constituição Cidadã", "descricao": "Promulgação da atual constituição democrática do Brasil."},
-      {"ano": 1992, "titulo": "Impeachment de Collor", "descricao": "Queda do primeiro presidente eleito por sufrágio direto pós-ditadura devido a corrupção."},
-      {"ano": 1994, "titulo": "Lançamento do Plano Real", "descricao": "Fim da hiperinflação crônica com a criação da nova moeda estável."},
-      {"ano": 2002, "titulo": "Eleição de Lula", "descricao": "Primeira vitória de um líder de esquerda oriundo do sindicalismo à presidência."},
-      {"ano": 2016, "titulo": "Impeachment de Dilma Rousseff", "descricao": "Queda da primeira presidente mulher do país."},
-      {"ano": 2020, "titulo": "Pandemia de COVID-19", "descricao": "Crise sanitária global com forte impacto humano, social e político no Brasil."},
-      {"ano": 2023, "titulo": "Início do 3º Governo Lula", "descricao": "Retorno ao poder num cenário de profunda polarização e transição tecnológica contemporânea."}
+      {"ano": 1988, "titulo": "Constituição Cidadã", "descricao": "A Assembleia Nacional Constituinte promulgou a Constituição de 1988, que restabeleceu e ampliou direitos e garantias fundamentais e estruturou a ordem democrática atual."},
+      {"ano": 1992, "titulo": "Impeachment de Collor", "descricao": "Após denúncias e um processo de impeachment, Collor renunciou em dezembro de 1992; o Senado prosseguiu com o julgamento e decidiu pela perda de seus direitos políticos."},
+      {"ano": 1994, "titulo": "Lançamento do Plano Real", "descricao": "O Plano Real foi implementado durante o governo Itamar Franco, com Fernando Henrique Cardoso no Ministério da Fazenda, e iniciou a circulação da nova moeda em julho de 1994."},
+      {"ano": 2002, "titulo": "Eleição de Lula", "descricao": "Lula venceu a eleição presidencial de 2002 e assumiu o cargo em janeiro de 2003, após disputar eleições anteriores."},
+      {"ano": 2016, "titulo": "Impeachment de Dilma Rousseff", "descricao": "O Senado aprovou o impeachment de Dilma Rousseff em agosto de 2016, por acusações relativas a decretos orçamentários e operações fiscais; o processo foi objeto de controvérsia política e jurídica."},
+      {"ano": 2020, "titulo": "Pandemia de COVID-19", "descricao": "A pandemia de COVID-19 provocou grave crise sanitária, social e econômica no Brasil, com elevado número de mortes e impactos prolongados."},
+      {"ano": 2023, "titulo": "Início do 3º Governo Lula", "descricao": "Lula iniciou seu terceiro mandato em 1º de janeiro de 2023, após vencer a eleição presidencial de 2022."}
     ],
     "consequencias_imediatas": [
-      "Estabilidade monetária duradoura e inclusão de dezenas de milhões de cidadãos no consumo e cidadania básica.",
-      "Intensa polarização ideológica e política nas eleições e redes sociais do século XXI."
+      "Estabilização da moeda com o Plano Real a partir de 1994, seguida por mudanças no poder de compra e na economia; a estabilidade de preços não eliminou desigualdades nem crises posteriores.",
+      "Polarização política e disputas nas instituições e nas redes sociais, acompanhadas por mobilizações e participação de diferentes grupos da sociedade."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação de instituições democráticas capazes de superar crises de chefes de Estado, apesar de constantes tensionamentos institucionais."
+      "Manutenção de eleições competitivas e alternância de governos desde 1985, apesar de crises, ameaças e ataques às instituições; a democracia exige defesa contínua de direitos e controles constitucionais."
     ],
     "impactos": {
-      "politicos": "Pluripartidismo, fortalecimento do Congresso Nacional (Centrão) e disputas acirradas pelo Executivo.",
-      "economicos": "Controle inflacionário definitivo, crises cíclicas, avanço do agronegócio exportador e vulnerabilidades fiscais.",
-      "sociais": "Programas de transferência de renda de sucesso histórico, mas persistência de profundas desigualdades estruturais, raciais e de violência.",
-      "culturais": "Diversificação cultural intensa, internet, redes sociais e guerras culturais contemporâneas.",
-      "territoriais": "Pressões ambientais na Amazônia e expansão da fronteira agrícola nacional.",
-      "ambientais": "Enfrentamento aos maiores desafios climáticos e ecológicos da história nacional moderna."
+      "politicos": "Consolidação de eleições regulares, pluripartidarismo e instituições constitucionais, com crises, impeachments, conflitos entre Poderes e mobilizações sociais.",
+      "economicos": "Estabilização monetária após 1994, expansão e retração de políticas de crescimento e inclusão, mudanças produtivas e persistência de desigualdades e vulnerabilidades fiscais.",
+      "sociais": "Ampliação de políticas de saúde, educação e transferência de renda, junto à permanência de desigualdades raciais, regionais e de gênero e de desafios em segurança e moradia.",
+      "culturais": "Diversificação da produção cultural e ampliação da comunicação digital, com novas formas de participação, expressão, desinformação e disputa pública.",
+      "territoriais": "Conflitos e políticas em torno de terras indígenas, reforma agrária, urbanização, infraestrutura e conservação dos biomas brasileiros.",
+      "ambientais": "Desmatamento, queimadas, mudanças no uso da terra e eventos climáticos extremos convivem com políticas de conservação, fiscalização e transição energética, em ritmos variáveis."
     },
-    "continuidade": "Desigualdade socioeconômica histórica e desafios persistentes na saúde, educação e segurança pública.",
-    "rupturas": "Instauração de um regime democrático constitucional de longa duração inédito na história republicana do país."
+    "continuidade": "Persistência de desigualdades socioeconômicas, raciais e regionais, violência e desafios estruturais nos sistemas de saúde, educação, segurança e justiça.",
+    "rupturas": "Restabelecimento de eleições diretas e da ordem constitucional, ampliação de direitos pela Constituição de 1988 e consolidação de uma experiência democrática duradoura, ainda sujeita a crises e disputas."
   }
 ]

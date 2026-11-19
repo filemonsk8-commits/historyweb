@@ -7,23 +7,23 @@
     "periodo": "Idade Moderna",
     "local": "Império Bizantino / Constantinopla",
     "sociedades_envolvidas": "Turcos Otomanos e Império Bizantino",
-    "tema": "Expansão Otomana, Fechamento de Rotas Comerciais e Transição Histórica",
-    "contexto": "A conquista de Constantinopla pelos turcos otomanos em 1453 bloqueou as rotas tradicionais de comércio terrestre entre a Europa e o Oriente, servindo como marco tradicional para o início da Idade Moderna.",
+    "tema": "Expansão Otomana, Transformações Geopolíticas e Comerciais e Transição Histórica",
+    "contexto": "A conquista de Constantinopla pelos otomanos em 1453 consolidou mudanças no equilíbrio político e comercial do Mediterrâneo oriental. A cidade passou ao controle otomano, mas isso não significou o fechamento de todas as rotas entre a Europa e a Ásia. O acontecimento é tradicionalmente usado como um dos marcos da transição para a Idade Moderna.",
     "antecedentes": [
       "Enfraquecimento gradual do Império Bizantino ao longo da Baixa Idade Média.",
       "Avanço militar do Império Otomano sobre a Europa Oriental."
     ],
     "causas": {
       "politicas": "Expansão territorial e militar do Império Otomano sob o comando de Maomé II.",
-      "economicas": "Necessidade de controle das rotas comerciais que ligavam o Mar Mediterrâneo ao Mar Negro e à Ásia.",
-      "sociais": "Busca de alternativas por mercadores europeus diante do encerramento de monopólios terrestres tradicionais.",
-      "religiosas": "Conflito geopolítico e religioso entre o Islão expansionista e a Cristandade oriental.",
+      "economicas": "Interesse otomano em controlar Constantinopla e passagens estratégicas entre o Mediterrâneo e o Mar Negro, em uma região atravessada por redes comerciais já existentes.",
+      "sociais": "Interesse de mercadores e monarquias europeias em ampliar o acesso às mercadorias orientais e encontrar rotas marítimas, em um contexto de mudanças no controle político e comercial do Mediterrâneo.",
+      "religiosas": "A conquista envolveu poderes de tradições religiosas distintas, mas não pode ser reduzida a um confronto exclusivamente religioso: objetivos políticos, militares e estratégicos também foram centrais.",
       "culturais": "Dispersão de sábios bizantinos para a Europa ocidental, levando consigo textos clássicos gregos.",
       "territoriais": "Domínio otomano sobre os estreitos de Bósforo e Dardanelos.",
       "tecnologias": "Uso intensivo de artilharia pesada e canhões pelos turcos no cerco às muralhas de Constantinopla."
     },
-    "resumo_card": "A conquista de Constantinopla pelos turcos otomanos em 1453 fechou as rotas terrestres para as Índias, estimulando as Grandes Navegações e marcando o início da Idade Moderna.",
-    "desenvolvimento": "O cerco e a tomada de Constantinopla alteraram profundamente a geopolítica da Eurásia. Ao monopolizarem o acesso comercial rumo ao Oriente, os otomanos forçaram os reinos da Europa ocidental — com destaque para Portugal e Espanha — a investirem em rotas marítimas alternativas, inaugurando a era das Grandes Navegações.",
+    "resumo_card": "A conquista de Constantinopla em 1453 fortaleceu o poder otomano no Mediterrâneo oriental e alterou as condições do comércio entre Europa e Ásia. As Grandes Navegações, porém, tiveram várias causas e já estavam em curso antes dessa conquista.",
+    "desenvolvimento": "Em 29 de maio de 1453, após um cerco de cerca de sete semanas, as forças otomanas comandadas pelo sultão Maomé II conquistaram Constantinopla, encerrando o Império Bizantino. A cidade tinha posição estratégica entre o Mediterrâneo e o Mar Negro e passou a integrar o centro do poder otomano, sendo posteriormente transformada em uma das principais capitais do império. A conquista alterou a administração, a tributação e as condições políticas de circulação na região, mas não interrompeu o comércio entre Europa e Ásia: mercadores continuaram utilizando rotas terrestres e marítimas sob novos arranjos. A expansão marítima portuguesa já estava em curso, e a procura por caminhos oceânicos resultou de vários fatores, como competição entre monarquias, interesses mercantis, busca por especiarias e metais, evangelização e conhecimentos náuticos. A chegada de estudiosos bizantinos à Itália contribuiu para intercâmbios intelectuais, mas o Renascimento tinha raízes anteriores e não foi consequência exclusiva da queda da cidade.",
     "personagens": [
       "Maomé II (O Conquistador): Sultão otomano responsável pela tomada de Constantinopla.",
       "Constantino XI Paleólogo: Último imperador bizantino morto na defesa da cidade."
@@ -38,28 +38,33 @@
       "Domínio geopolítico e estratégico entre o Oriente e o Ocidente."
     ],
     "linha_do_tempo": [
-      {"ano": 1453, "titulo": "Queda de Constantinopla", "descricao": "Invasão e conquista da capital bizantina pelos turcos otomanos em 29 de maio."}
+      {
+        "ano": 1453,
+        "titulo": "Queda de Constantinopla",
+        "descricao": "Invasão e conquista da capital bizantina pelos turcos otomanos em 29 de maio."
+      }
     ],
     "consequencias_imediatas": [
-      "Fechamento das rotas comerciais terrestres tradicionais para as Índias.",
-      "Estímulo urgente à exploração de caminhos marítimos alternativos (Atlântico)."
+      "Fim do Império Bizantino e incorporação de Constantinopla ao domínio otomano, com mudanças na administração e no equilíbrio político do Mediterrâneo oriental.",
+      "Reorganização de condições comerciais e fiscais em algumas rotas, sem bloqueio geral do comércio entre Europa e Ásia.",
+      "A cidade manteve sua importância urbana, econômica e cultural e tornou-se uma capital central do Império Otomano."
     ],
     "consequencias_longo_prazo": [
-      "Deslocamento do eixo econômico europeu do Mar Mediterrâneo para o Oceano Atlântico.",
-      "Consolidação de impérios marítimos ultramarinos."
+      "A conquista tornou-se um marco simbólico da transição entre períodos históricos na periodização europeia, embora processos medievais e modernos tenham ocorrido em ritmos diferentes conforme a região.",
+      "O fortalecimento otomano no Mediterrâneo oriental influenciou a diplomacia e as disputas entre potências, enquanto as navegações atlânticas prosseguiram por causas múltiplas.",
+      "Intercâmbios entre estudiosos gregos e círculos humanistas ocidentais ampliaram a circulação de textos, sem explicar isoladamente o Renascimento."
     ],
     "impactos": {
       "politicos": "Redesenho das alianças geopolíticas na Europa Oriental e no Mediterrâneo.",
-      "economicos": "Encarecimento das especiarias orientais na Europa e busca por novas fontes de lucro.",
-      "sociais": "Migração de intelectuais bizantinos para a Europa, impulsionando o Renascimento.",
-      "culturais": "Preservação e reinterpretação da herança greco-romana no Ocidente.",
+      "economicos": "O domínio otomano alterou a tributação e as condições políticas de algumas rotas estratégicas, mas as redes comerciais entre Europa e Ásia continuaram funcionando e se adaptando.",
+      "sociais": "Circulação de intelectuais bizantinos para diferentes regiões da Europa, contribuindo para intercâmbios culturais que já existiam; o Renascimento italiano tinha raízes anteriores e causas múltiplas.",
+      "culturais": "A presença e a circulação de estudiosos bizantinos contribuíram para intercâmbios intelectuais na Europa ocidental, em continuidade com contatos e traduções anteriores.",
       "territoriais": "Expansão do domínio islâmico otomano sobre os Bálcãs e o Oriente Médio.",
       "ambientais": "Sem impactos diretos imediatos no meio ambiente global."
     },
     "continuidade": "Permanência das rivalidades comerciais e disputas territoriais entre reinos europeus e potências orientais.",
-    "rupturas": "Fim do Império Romano do Oriente (Bizantino) e alteração drástica nas rotas do comércio internacional."
+    "rupturas": "Fim do Império Bizantino e reconfiguração do equilíbrio político e comercial no Mediterrâneo oriental, sem desaparecimento das redes de comércio entre Europa e Ásia."
   },
-
   {
     "id": "grandes-navegacoes-mercantilismo",
     "titulo_principal": "AS GRANDES NAVEGAÇÕES E O EXPANSIONISMO EUROPEU",
@@ -69,60 +74,71 @@
     "local": "Europa, Atlântico, África, Ásia e América",
     "sociedades_envolvidas": "Monarquias Ibéricas (Portugal e Espanha), Reinos Europeus e Povos Nativos Americanos e Africanos",
     "tema": "Expansão Marítima, Mercantilismo, Formação de Impérios Coloniais e Escravização Atlântica",
-    "contexto": "Movidos pela necessidade de encontrar novas rotas comerciais para o Oriente e fortalecidos pelos Estados Nacionais centralizados, os países europeus lançaram-se ao Atlântico.",
+    "contexto": "A expansão marítima europeia dos séculos XV e XVI resultou de interesses comerciais, fiscais, políticos e religiosos, além de conhecimentos náuticos acumulados em diferentes sociedades. Portugal avançou gradualmente pela costa africana e pelo Atlântico; Castela financiou a viagem de Colombo em 1492. Esses movimentos conectaram redes já existentes e deram início a novas formas de conquista, colonização e exploração, com impactos profundos sobre povos africanos, asiáticos e americanos.",
     "antecedentes": [
-      "Centralização das monarquias europeias (Estados Nacionais).",
-      "Aperfeiçoamento de instrumentos náuticos (bússola, astrolábio) e das embarcações (caravelas)."
+      "Fortalecimento de monarquias e de estruturas fiscais e administrativas em alguns reinos europeus, sem que todos os Estados estivessem igualmente centralizados.",
+      "Apropriação e combinação de conhecimentos náuticos, cartográficos e astronômicos de diferentes tradições, além de adaptações em embarcações como caravelas e naus; bússola e astrolábio tinham origens e trajetórias anteriores à expansão portuguesa."
     ],
     "causas": {
       "politicas": "Desejo dos reis de ampliar seus territórios, arrecadar mais impostos e fortalecer o poder real.",
-      "economicas": "Busca por especiarias orientais, metais preciosos e quebra do monopólio comercial italiano/otomano.",
-      "sociais": "Interesses da burguesia mercantil em novas fontes de lucro e expansão dos mercados.",
-      "religiosas": "Espalhamento da fé católica por meio da catequese e expansão missionária ultramarina.",
-      "culturais": "Curiosidade intelectual incentivada pelo Renascimento e superação de mitos sobre os oceanos.",
-      "territoriais": "Conquista e exploração de novas terras além-mar.",
-      "tecnologias": "Desenvolvimento da cartografia e de embarcações capazes de navegar em alto-mar."
+      "economicas": "Busca de acesso direto a mercados e produtos valorizados, como especiarias, metais e tecidos, além de oportunidades de comércio, tributação e investimento. Não havia um monopólio único e absoluto de italianos ou otomanos sobre todo o comércio euro-asiático.",
+      "sociais": "Interesses de comerciantes, armadores, investidores, trabalhadores marítimos e grupos ligados às cortes; seus objetivos e benefícios eram desiguais.",
+      "religiosas": "Projetos de expansão do cristianismo e alianças religiosas tiveram importância para algumas coroas e expedições, articulados a interesses políticos, comerciais e militares.",
+      "culturais": "Intercâmbios de conhecimentos geográficos e náuticos, experiências de navegação e interesses de exploração; não se tratou simplesmente de superar mitos sobre oceanos desconhecidos.",
+      "territoriais": "Busca por estabelecer feitorias, controlar pontos estratégicos, reivindicar territórios e ampliar zonas de influência, enfrentando sociedades que já habitavam e organizavam esses espaços.",
+      "tecnologias": "Aperfeiçoamento e combinação de técnicas de navegação, construção naval, cartografia e instrumentos de orientação, com contribuições de saberes mediterrâneos, africanos e asiáticos."
     },
-    "resumo_card": "A expansão marítima dos séculos XV e XVI integrou continentes, resultou na chegada dos europeus à América, na circulação de riquezas e na consolidação do mercantilismo.",
-    "desenvolvimento": "Portugal pioneirizou contornando a África rumo às Índias. A Espanha, com a viagem de Cristóvão Colombo em 1492, alcançou a América. Em 1500, a frota de Pedro Álvares Cabral chegou ao Brasil. Esse processo deu origem ao sistema colonial mercantilista, baseado no pacto colonial, na exploração de metais e na exploração do trabalho escravizado de africanos e indígenas.",
+    "resumo_card": "As navegações europeias dos séculos XV e XVI ampliaram conexões entre Atlântico, África, Ásia e América. Produziram novas rotas e redes comerciais, mas também conquista territorial, colonização, escravização e profundas transformações demográficas, sociais e ambientais.",
+    "desenvolvimento": "Portugal iniciou no século XV uma expansão gradual pelo Atlântico e pela costa africana, que incluiu a ocupação de Ceuta (1415), a exploração de arquipélagos atlânticos e a passagem do cabo da Boa Esperança por Bartolomeu Dias (1488). Vasco da Gama chegou a Calicute, na Índia, em 1498. Em 1492, uma expedição financiada pelos Reis Católicos de Castela, comandada por Cristóvão Colombo, alcançou o Caribe, onde já viviam diversos povos. O Tratado de Tordesilhas (1494) estabeleceu uma linha de demarcação entre as áreas de expansão reivindicadas por Portugal e Castela, sem representar uma divisão efetiva de todo o planeta nem contar com a participação dos povos atingidos. Em 1500, a armada de Pedro Álvares Cabral chegou à costa do atual Brasil, território habitado por numerosas sociedades indígenas. A expansão europeia não criou contatos entre continentes antes isolados: intensificou e reorganizou conexões preexistentes e impôs novas relações de poder. A conquista e a colonização envolveram guerras, epidemias, apropriação de terras, trabalho compulsório e tráfico transatlântico de africanos escravizados.",
     "personagens": [
-      "Cristóvão Colombo: Navegador genovês a serviço da Espanha que chegou à América em 1492.",
-      "Vasco da Gama: Navegador português que abriu a rota marítima para a Índia contornando a África.",
-      "Pedro Álvares Cabral: Capitão-mor da armada portuguesa que aportou no Brasil em 1500."
+      "Cristóvão Colombo: Navegador genovês a serviço da Coroa de Castela que chegou ao Caribe em 1492, iniciando uma fase de conquista e colonização europeia nas Américas.",
+      "Vasco da Gama: Comandante da expedição portuguesa que chegou a Calicute, na costa do atual Kerala, em 1498, pela rota marítima contornando a África.",
+      "Pedro Álvares Cabral: Comandante da armada portuguesa que chegou à costa do atual Brasil em 1500, região já habitada por diversos povos indígenas."
     ],
     "grupos_envolvidos": [
       "Monarquias e Mercadores Europeus",
-      "Povos Indígenas Americanos",
-      "Povos Africanos alvos do tráfico transatlântico"
+      "Povos indígenas das Américas, com sociedades, línguas, alianças e formas de organização diversas, que resistiram, negociaram e também sofreram conquista e colonização.",
+      "Sociedades africanas diversas, incluindo comunidades atingidas pelo tráfico transatlântico de pessoas escravizadas e também agentes de relações comerciais e políticas complexas."
     ],
     "interesses_em_disputa": [
-      "Monopólio das rotas comerciais globais e extração de riquezas minerais e agrícolas."
+      "Controle de rotas, portos, feitorias, territórios e mercados, além da apropriação de recursos e da imposição de trabalho compulsório."
     ],
     "linha_do_tempo": [
-      {"ano": 1492, "titulo": "Chegada de Colombo", "descricao": "A frota espanhola chega ao continente americano (Caribe)."},
-      {"ano": 1494, "titulo": "Tratado de Tordesilhas", "descricao": "Acordo entre Portugal e Espanha dividindo as zonas de expansão ultramarina."},
-      {"ano": 1500, "titulo": "Chegada ao Brasil", "descricao": "A frota de Pedro Álvares Cabral chega ao litoral da Bahia."}
+      {
+        "ano": 1492,
+        "titulo": "Chegada de Colombo",
+        "descricao": "Expedição castelhana comandada por Colombo chegou às ilhas do Caribe, onde encontrou sociedades indígenas; o acontecimento marcou o início de uma nova fase de conquista e colonização europeia."
+      },
+      {
+        "ano": 1494,
+        "titulo": "Tratado de Tordesilhas",
+        "descricao": "Acordo entre as Coroas de Portugal e Castela que estabeleceu uma linha de demarcação para suas reivindicações ultramarinas; não envolveu os povos cujos territórios foram afetados."
+      },
+      {
+        "ano": 1500,
+        "titulo": "Chegada ao Brasil",
+        "descricao": "A frota de Pedro Álvares Cabral chega ao litoral da Bahia."
+      }
     ],
     "consequencias_imediatas": [
-      "Início da colonização europeia nas Américas e extermínio/subjugação de populações nativas.",
+      "Conquista e colonização europeia de territórios americanos, acompanhadas de guerras, expropriação de terras, epidemias, escravização e outras formas de trabalho compulsório; os efeitos variaram entre regiões e sociedades.",
       "Intensificação do tráfico transatlântico de africanos escravizados."
     ],
     "consequencias_longo_prazo": [
-      "Formação do sistema capitalista comercial mundial e integração intercontinental (Globalização incipiente).",
-      "Mudanças profundas na dieta global com a troca de alimentos entre os continentes (Columbian Exchange)."
+      "Ampliação de redes comerciais intercontinentais e integração coercitiva de territórios a circuitos imperiais e capitalistas em formação; o processo não foi linear nem significou uma globalização completa.",
+      "Transferência de plantas, animais, pessoas e microrganismos entre continentes, conhecida como intercâmbio colombiano, com efeitos alimentares, demográficos e ecológicos muito desiguais."
     ],
     "impactos": {
-      "politicos": "Consolidação dos Estados Absolutistas financiados pelo comércio colonial.",
-      "economicos": "Afluxo massivo de ouro e prata para a Europa e estabelecimento do pacto colonial mercantilista.",
-      "sociais": "Destruição demográfica de civilizações pré-colombianas e institucionalização do racismo estrutural através da escravidão.",
-      "culturais": "Imposição de padrões culturais europeus e choques civilizacionais profundos.",
-      "territoriais": "Redesenho completo dos mapas mundiais e partilha territorial ultramarina.",
-      "ambientais": "Introdução de espécies vegetais e animais exóticas e desmatamento colonial para monoculturas."
+      "politicos": "Expansão de impérios ultramarinos e fortalecimento de algumas monarquias europeias, em disputa com outras potências e em interação conflituosa com sociedades locais.",
+      "economicos": "Crescimento de circuitos comerciais atlânticos e do fluxo de metais, produtos agrícolas e pessoas escravizadas; a riqueza gerada foi distribuída de forma profundamente desigual.",
+      "sociais": "Colapso demográfico de muitas populações indígenas por epidemias, guerras e exploração, além do crescimento do tráfico e da escravização de africanos; resistências e continuidades culturais também marcaram esses processos.",
+      "culturais": "Intercâmbios, imposições e resistências culturais, linguísticas e religiosas, que produziram sociedades híbridas e conflitos duradouros.",
+      "territoriais": "Conquista e reorganização colonial de territórios nas Américas, África e Ásia, sem que as potências europeias controlassem de imediato ou integralmente essas regiões.",
+      "ambientais": "Introdução e circulação de espécies, transformação de ecossistemas, expansão de plantações e mineração e desmatamento em diferentes regiões; impactos variaram conforme os ambientes e os regimes coloniais."
     },
     "continuidade": "Exploração do trabalho compulsório e busca incessante por lucros comerciais por potências centrais.",
-    "rupturas": "Fim do isolamento entre os continentes americanos, africanos, asiáticos e europeus."
+    "rupturas": "Intensificação das conexões atlânticas e formação de impérios coloniais europeus, sem representar o fim de um suposto isolamento absoluto entre continentes, que já mantinham redes próprias de circulação."
   },
-
   {
     "id": "renascimento-humanismo-ciencia",
     "titulo_principal": "RENASCIMENTO, HUMANISMO E REVOLUÇÃO CIENTÍFICA",
@@ -132,7 +148,7 @@
     "local": "Itália e Europa Ocidental",
     "sociedades_envolvidas": "Artistas, Cientistas, Intelectuais, Humanistas e Igreja Católica",
     "tema": "Antropocentrismo, Racionalismo, Imprensa de Gutenberg e Nova Visão de Mundo",
-    "contexto": "Período de efervescência cultural e intelectual que transformou a arte, a literatura, a filosofia e a ciência, rompendo com o monopólio escolástico medieval.",
+    "contexto": "Período de intensas transformações culturais e intelectuais na Europa, com valorização renovada dos textos clássicos e desenvolvimento das artes e dos estudos da natureza. O Humanismo conviveu com a tradição escolástica, que continuou influente nas universidades; não houve uma ruptura súbita entre o pensamento medieval e o moderno.",
     "antecedentes": [
       "Crescimento das cidades e fortalecimento da burguesia urbana.",
       "Recuperação de textos clássicos greco-romanos traduzidos e preservados."
@@ -142,14 +158,14 @@
       "economicas": "Prosperidade comercial de cidades italianas como Florença, Veneza e Gênova.",
       "sociais": "Valorização do indivíduo e ascensão social de artistas e letrados.",
       "religiosas": "Busca por conciliar o saber humanista com valores cristãos ou reformar a espiritualidade.",
-      "culturais": "Invenção da imprensa de tipos móveis por Gutenberg (c. 1450), facilitando a circulação de ideias.",
+      "culturais": "Desenvolvimento e difusão da imprensa europeia de tipos móveis por Johannes Gutenberg, em meados do século XV, ampliando a reprodução de textos. Técnicas de impressão e de tipos móveis já existiam anteriormente em sociedades do Leste Asiático.",
       "territoriais": "Difusão cultural da Itália para o restante da Europa.",
-      "tecnologias": "Aperfeiçoamento da imprensa, telescópio e métodos matemáticos de investigação."
+      "tecnologias": "Difusão da imprensa de tipos móveis na Europa e, sobretudo nos séculos XVI e XVII, aperfeiçoamento de instrumentos de observação, como o telescópio, e de métodos matemáticos e experimentais."
     },
-    "resumo_card": "O Renascimento, o Humanismo e a Revolução Científica colocaram o ser humano e a razão no centro das reflexões, transformando a arte, a ciência e a circulação de livros com a imprensa.",
-    "desenvolvimento": "Com base no antropocentrismo, artistas como Leonardo da Vinci e Michelangelo revolucionaram a estética visual. Paralelamente, pensadores humanistas como Erasmo de Roterdã criticaram dogmas tradicionais. Na ciência, a Revolução Científica — encabeçada por Copérnico, Galileu e Newton — derrubou o geocentrismo e inaugurou o método científico experimental baseado na matemática e na observação.",
+    "resumo_card": "O Renascimento e o Humanismo renovaram as artes e os estudos dos textos clássicos, enquanto a Revolução Científica dos séculos XVI e XVII transformou gradualmente a investigação da natureza. A imprensa ampliou a circulação de obras e debates.",
+    "desenvolvimento": "Artistas como Leonardo da Vinci e Michelangelo exploraram referências clássicas, proporção, perspectiva e observação da natureza, sem que isso significasse o desaparecimento imediato das tradições medievais. Humanistas como Erasmo de Roterdã estudaram textos antigos e propuseram reformas culturais e religiosas. Em processo relacionado, mas desenvolvido ao longo dos séculos XVI e XVII, a chamada Revolução Científica transformou a astronomia e o estudo da natureza: Copérnico propôs um modelo heliocêntrico em 1543; Galileu contribuiu com observações telescópicas e estudos do movimento; e Newton formulou a lei da gravitação universal em 1687. Essas mudanças resultaram de debates e contribuições acumuladas, não da ação isolada de poucos indivíduos.",
     "personagens": [
-      "Johannes Gutenberg: Inventor da imprensa de tipos móveis na Europa.",
+      "Johannes Gutenberg: Figura central no desenvolvimento e na difusão da imprensa europeia de tipos móveis, em meados do século XV.",
       "Leonardo da Vinci: Artista e polímata símbolo do Renascimento.",
       "Galileu Galilei: Cientista que defendeu o heliocentrismo e a observação experimental.",
       "Isaac Newton: Formulador da lei da gravitação universal e da mecânica clássica."
@@ -163,29 +179,36 @@
       "Liberdade de investigação intelectual e científica contra o dogmatismo tradicional."
     ],
     "linha_do_tempo": [
-      {"ano": 1450, "titulo": "Imprensa de Gutenberg", "descricao": "Invenção dos tipos móveis metálicos na Alemanha."},
-      {"ano": 1543, "titulo": "Modelo Heliocêntrico", "descricao": "Copérnico publica a obra sobre as revoluções das esferas celestes."}
+      {
+        "ano": 1450,
+        "titulo": "Imprensa de Gutenberg",
+        "descricao": "Invenção dos tipos móveis metálicos na Alemanha."
+      },
+      {
+        "ano": 1543,
+        "titulo": "Modelo Heliocêntrico",
+        "descricao": "Copérnico publica a obra sobre as revoluções das esferas celestes."
+      }
     ],
     "consequencias_imediatas": [
-      "Barateamento e multiplicação rápida de livros, impulsionando a alfabetização.",
-      "Confrontos teológicos entre novas teorias científicas e doutrinas tradicionais (ex: caso Galileu)."
+      "Ampliação da reprodução de livros e de sua circulação em diferentes públicos; os efeitos sobre alfabetização e leitura variaram conforme a região e as condições sociais.",
+      "Debates e conflitos envolvendo novas explicações sobre a natureza, autoridades religiosas, instituições acadêmicas e concepções científicas estabelecidas, como no caso de Galileu."
     ],
     "consequencias_longo_prazo": [
-      "Fundação da ciência moderna e secularização progressiva do pensamento ocidental.",
-      "Desenvolvimento de tecnologias industriais e avanço técnico contínuo."
+      "Consolidação gradual de práticas de investigação baseadas em observação, experimentação, argumentação matemática e debate público, sem eliminar de imediato explicações religiosas ou tradições anteriores.",
+      "Contribuições para transformações posteriores na ciência, na técnica e na produção, que ocorreram em contextos históricos distintos."
     ],
     "impactos": {
       "politicos": "Questionamento do direito divino absoluto através da valorização racional da soberania.",
       "economicos": "Estímulo a inovações técnicas úteis à navegação, à mineração e ao comércio.",
       "sociais": "Ampliação do público leitor e valorização da educação intelectual formal.",
-      "culturais": "Rompimento estético com a arte medieval e consolidação do padrão humanista clássico.",
+      "culturais": "Difusão de linguagens artísticas inspiradas na Antiguidade clássica, que coexistiram com tradições medievais e assumiram formas diferentes conforme a região.",
       "territoriais": "Disseminação internacional de correntes científicas e artísticas na Europa.",
-      "ambientais": "Mudança na relação filosófica entre o homem e a natureza (visão de domínio técnico sobre o meio)."
+      "ambientais": "Novas práticas de observação e representação da natureza e debates sobre o conhecimento e o uso de seus recursos; não houve uma mudança única e uniforme na relação entre sociedades europeias e meio ambiente."
     },
     "continuidade": "Permanência da fé religiosa na vida cotidiana da maioria da população europeia.",
-    "rupturas": "Substituição do modelo geocêntrico aristotélico-ptolomaico pelo heliocentrismo científico."
+    "rupturas": "Transformação gradual dos modelos cosmológicos e dos métodos de investigação da natureza, com a consolidação do heliocentrismo ao longo de debates que atravessaram os séculos XVI e XVII."
   },
-
   {
     "id": "reformas-religiosas-contrarreforma",
     "titulo_principal": "REFORMA PROTESTANTE E REFORMA CATÓLICA (CONTRARREFORMA)",
@@ -195,26 +218,26 @@
     "local": "Sacro Império Romano-Germânico e Europa",
     "sociedades_envolvidas": "Igreja Católica, Líderes Protestantes, Príncipes Europeus e Companhia de Jesus",
     "tema": "Luteranismo, Calvinismo, Anglicanismo, Concílio de Trento e Guerras de Religião",
-    "contexto": "Críticas profundas aos abusos morais, econômicos e políticos da Igreja Católica culminaram na fratura da cristandade ocidental e na resposta institucional católica.",
+    "contexto": "Críticas à atuação e à autoridade da Igreja no Ocidente latino, debates teológicos, interesses políticos e transformações culturais contribuíram para movimentos de Reforma no século XVI. A fragmentação religiosa da Europa ocidental foi seguida por reformas internas no catolicismo e por conflitos de diferentes naturezas.",
     "antecedentes": [
       "Críticas anteriores de reformadores medievais (John Wycliffe e Jan Hus).",
-      "Enriquecimento material da Igreja e venda de indulgências."
+      "Críticas à venda de indulgências e a práticas do clero, além de debates medievais sobre autoridade religiosa, salvação e interpretação das Escrituras."
     ],
     "causas": {
-      "politicas": "Interesses de príncipes europeus em enfraquecer o poder político e confiscar terras da Igreja Católica.",
-      "economicas": "Oposição à cobrança de impostos papais e à usura/venda de cargos sagrados (simonia).",
-      "sociais": "Aspirações de camponeses e burgueses por uma religiosidade mais direta e barata.",
-      "religiosas": "Divergências teológicas sobre a salvação pela fé (Lutero) e livre interpretação da Bíblia.",
+      "politicas": "Príncipes e autoridades locais buscaram ampliar sua autonomia diante do papado; seus interesses variaram e envolveram religião, território, poder e controle de recursos.",
+      "economicas": "Resistência a tributos e transferências de recursos para Roma, disputas sobre propriedades e críticas a práticas como a simonia e a comercialização de indulgências.",
+      "sociais": "Interesses e expectativas de grupos sociais diversos, incluindo setores urbanos, nobres e camponeses; não houve uma motivação social única para a adesão às reformas.",
+      "religiosas": "Divergências sobre autoridade papal, salvação, sacramentos e interpretação da Bíblia, com diferenças entre as várias correntes reformistas.",
       "culturais": "Uso da imprensa para traduzir e difundir rapidamente textos bíblicos nas línguas nacionais.",
       "territoriais": "Divisão geopolítica de territórios germânicos e europeus por lealdades confessionais.",
       "tecnologias": "Difusão de panfletos impressos com críticas teológicas."
     },
-    "resumo_card": "A Reforma Protestante fraturou a unidade cristã da Europa e gerou conflitos, enquanto a Contrarreforma reorganizou o Catolicismo e expandiu missões educativas pelo mundo.",
-    "desenvolvimento": "Em 1517, Martinho Lutero publicou suas 95 Teses na Saxônia, dando início ao Protestantismo. O movimento ramificou-se no Calvinismo e no Anglicanismo (Henrique VIII). Em resposta, a Igreja Católica convocou o Concílio de Trento (1545–1563) — marco da Contrarreforma — revalidando dogmas, criando o Index de livros proibidos e fundando a Companhia de Jesus para conter o avanço protestante e catequizar novas terras.",
+    "resumo_card": "As Reformas do século XVI dividiram a cristandade ocidental em diferentes tradições confessionais. A Igreja Católica promoveu reformas institucionais e doutrinárias, enquanto disputas políticas e religiosas provocaram conflitos e transformações duradouras.",
+    "desenvolvimento": "Em 1517, Martinho Lutero tornou públicas suas críticas às indulgências, tradicionalmente associadas às 95 Teses. Suas propostas desencadearam debates que levaram à formação de correntes protestantes, entre elas o luteranismo e, em outros contextos, o calvinismo. A ruptura inglesa com Roma ocorreu sob Henrique VIII por uma combinação de questões dinásticas, políticas e religiosas, e não foi simples extensão do movimento de Lutero. A Igreja Católica promoveu reformas internas, reafirmou doutrinas no Concílio de Trento (1545–1563), reorganizou práticas disciplinares e fortaleceu iniciativas missionárias e educativas. A Companhia de Jesus havia sido aprovada pelo papado em 1540, antes do início do Concílio. As mudanças ocorreram de modo diverso conforme os territórios e contribuíram para guerras, perseguições e novas formas de organização religiosa.",
     "personagens": [
-      "Martinho Lutero: Monge agostiniano iniciador da Reforma Protestante.",
-      "João Calvino: Reformador que introduziu a doutrina da predestinação.",
-      "Inácio de Loyola: Fundador da Companhia de Jesus (Jesuítas)."
+      "Martinho Lutero: Teólogo e monge agostiniano cujas críticas às indulgências e propostas teológicas deram origem ao movimento luterano.",
+      "João Calvino: Reformador cuja teologia influenciou a formação de tradições reformadas, incluindo a doutrina da predestinação.",
+      "Inácio de Loyola: Fundador da Companhia de Jesus, aprovada pelo papa em 1540, importante nas atividades educativas e missionárias católicas."
     ],
     "grupos_envolvidos": [
       "Príncipes e Monarcas Protestantes e Católicos",
@@ -225,29 +248,36 @@
       "Monopólio espiritual, controle de terras e autonomia política frente ao papado."
     ],
     "linha_do_tempo": [
-      {"ano": 1517, "titulo": "As 95 Teses de Lutero", "descricao": "Fixação das teses na porta da igreja de Wittenberg."},
-      {"ano": 1545, "titulo": "Início do Concílio de Trento", "descricao": "Marco inicial da Contrarreforma católica."}
+      {
+        "ano": 1517,
+        "titulo": "As 95 Teses de Lutero",
+        "descricao": "Lutero tornou públicas suas 95 Teses, em Wittenberg, em um episódio tradicionalmente datado de 31 de outubro; a forma exata de sua divulgação inicial é objeto de debate historiográfico."
+      },
+      {
+        "ano": 1545,
+        "titulo": "Início do Concílio de Trento",
+        "descricao": "Marco inicial da Contrarreforma católica."
+      }
     ],
     "consequencias_imediatas": [
-      "Guerras civis e religiosas sangrentas na Europa (como a Guerra dos Trinta Anos).",
-      "Intensificação das missões católicas nas colônias ultramarinas americanas e asiáticas."
+      "Conflitos confessionais e guerras em diferentes regiões europeias, incluindo a Guerra dos Trinta Anos (1618–1648), que teve causas políticas e territoriais além das religiosas.",
+      "Expansão de missões católicas e protestantes em diferentes regiões do mundo, vinculadas também à expansão marítima, aos impérios e às disputas coloniais."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação da liberdade de consciência religiosa e pluralidade confessional no Ocidente.",
+      "Consolidação de uma pluralidade de igrejas e tradições confessionais em partes da Europa; a liberdade religiosa e de consciência foi conquistada de forma gradual, desigual e conflituosa, não imediatamente.",
       "Formação de redes de ensino jesuíticas em várias partes do mundo colonial."
     ],
     "impactos": {
-      "politicos": "Fortalecimento de monarquias que adotaram o Protestantismo ou unificaram a fé sob o Absolutismo.",
+      "politicos": "Reconfiguração das relações entre autoridades religiosas e poderes políticos, com diferentes arranjos de igrejas territoriais, monarquias e comunidades confessionais.",
       "economicos": "Redistribuição de propriedades e terras eclesiásticas confiscadas.",
-      "sociais": "Aumento do letramento popular para leitura individual das Escrituras Sagradas.",
-      "culturais": "Ruptura definitiva da unidade cultural medieval europeia.",
+      "sociais": "Transformações nas práticas de culto, educação e vida comunitária, acompanhadas por perseguições, coerção religiosa e conflitos em diferentes territórios.",
+      "culturais": "Ampliação da circulação de textos religiosos impressos e da leitura bíblica em línguas vernáculas, em contextos variados de alfabetização e controle religioso.",
       "territoriais": "Fronteiras europeias desenhadas com base em divisões religiosas.",
       "ambientais": "Sem impactos ecológicos diretos causados pelas disputas doutrinárias."
     },
     "continuidade": "Permanência das bases centrais do cristianismo em ambas as vertentes (católica e protestante).",
-    "rupturas": "Fim do monopólio espiritual universal exercido exclusivamente pelo Papado romano na Europa Ocidental."
+    "rupturas": "Ruptura da unidade institucional da cristandade ocidental sob a autoridade papal, com a formação e consolidação de diferentes tradições confessionais."
   },
-
   {
     "id": "absolutismo-mercantilismo",
     "titulo_principal": "ABSOLUTISMO MONÁRQUICO E MERCANTILISMO",
@@ -257,26 +287,26 @@
     "local": "Europa Ocidental e Domínios Coloniais",
     "sociedades_envolvidas": "Monarcas Absolutistas, Nobreza, Burguesia Mercantil e Camponeses",
     "tema": "Pacto Colonial, Bulionismo, Centralização Política e Teóricos do Absolutismo",
-    "contexto": "Sistema político e econômico em que os reis concentraram poderes administrativos e militares, associados à burguesia mercantil para enriquecer o Estado através do controle da economia.",
+    "contexto": "Entre os séculos XVI e XVIII, diversas monarquias europeias ampliaram a capacidade administrativa, fiscal e militar dos soberanos. Esse processo assumiu formas diferentes conforme cada reino e conviveu com parlamentos, assembleias, privilégios locais e limites negociados. No campo econômico, práticas hoje reunidas sob o nome de mercantilismo buscaram fortalecer os Estados por meio do comércio, da tributação, da produção e da expansão colonial.",
     "antecedentes": [
       "Formação dos Estados Nacionais na Baixa Idade Média.",
-      "Enfraquecimento dos senhores feudais locais."
+      "Transformações das relações feudais, crescimento das cidades e do comércio, fortalecimento de monarquias e negociação de alianças com diferentes grupos sociais."
     ],
     "causas": {
-      "politicas": "Necessidade de estabilidade interna, unificação de leis, moedas e impostos após crises e guerras.",
-      "economicas": "Aliança tática entre reis e burgueses: proteção ao comércio em troca de financiamento fiscal e empréstimos.",
-      "sociais": "Manutenção dos privilégios da nobreza na corte real em troca da submissão ao soberano.",
-      "religiosas": "Teoria do Direito Divino dos Reis, respaldada por teólogos e pela lealdade dinástica.",
-      "culturais": "Justificação teórica de pensadores como Thomas Hobbes, Jacques Bossuet e Nicolau Maquiavel.",
+      "politicas": "Interesses dos soberanos em ampliar a arrecadação, organizar exércitos e administrar territórios; a centralização foi gradual e encontrou resistências e limites institucionais.",
+      "economicas": "Acordos e conflitos entre monarquias, comerciantes, companhias privilegiadas e produtores em torno de impostos, tarifas, monopólios e acesso a mercados; a burguesia não atuou como bloco homogêneo.",
+      "sociais": "Reorganização das relações entre monarquia e nobreza, que frequentemente manteve privilégios e influência política, ao lado da ascensão de grupos mercantis e financeiros.",
+      "religiosas": "Em alguns reinos, doutrinas como o direito divino foram usadas para legitimar a autoridade monárquica; a religião, porém, não foi a única base do poder e as relações entre Igreja e Estado variaram.",
+      "culturais": "Debates sobre razão de Estado, soberania e autoridade política, com autores de perspectivas distintas, como Maquiavel, Hobbes e Bossuet; eles não defenderam exatamente o mesmo modelo de governo.",
       "territoriais": "Defesa rigorosa das fronteiras nacionais contra invasões estrangeiras.",
       "tecnologias": "Criação de exércitos profissionais permanentes e burocracia fiscal unificada."
     },
-    "resumo_card": "O Absolutismo concentrou o poder político nas mãos dos reis, enquanto o Mercantilismo orientou a economia para a acumulação de capitais, metais preciosos e proteção comercial.",
-    "desenvolvimento": "Nações como França (sob os Bourbons), Espanha e Portugal estruturaram monarquias onde o rei detinha amplas prerrogativas. Na economia, vigorou o Mercantilismo, cujas práticas incluíam o metalismo, a balança comercial favorável, o protecionismo alfandegário e a exploração exclusiva de colônias ultramarinas por meio do pacto colonial.",
+    "resumo_card": "O absolutismo foi uma forma de organização monárquica em que soberanos ampliaram seus poderes, sem eliminar todos os limites institucionais. Mercantilismo é um nome abrangente para práticas econômicas variadas, como protecionismo, monopólios, estímulo às exportações e exploração colonial.",
+    "desenvolvimento": "Na França, a monarquia dos Bourbon tornou-se referência de centralização, especialmente durante o governo pessoal de Luís XIV, iniciado em 1661. Mesmo ali, o poder real convivia com costumes, privilégios e instituições. Em outros reinos, como Inglaterra, Portugal e Espanha, as relações entre Coroa, parlamentos, cortes e elites seguiram trajetórias próprias. Mercantilismo não foi um sistema único e uniforme: governos adotaram combinações distintas de tarifas, companhias monopolistas, incentivos à produção, controle do comércio colonial e busca por metais preciosos. A exploração colonial esteve associada à escravização, ao trabalho compulsório e à transferência desigual de riquezas.",
     "personagens": [
-      "Nicolau Maquiavel: Pensador político italiano autor de 'O Príncipe'.",
-      "Thomas Hobbes: Filósofo inglês defensor do poder centralizado no contrato social ('O Leviatã').",
-      "Luís XIV (O Rei Sol): Símbolo máximo do absolutismo francês ('O Estado sou eu')."
+      "Nicolau Maquiavel: Pensador florentino que analisou a política e a manutenção do poder em O Príncipe; sua obra não é uma defesa simples do absolutismo.",
+      "Thomas Hobbes: Filósofo inglês que defendeu a soberania forte como solução para superar a guerra civil e garantir a paz, em Leviatã.",
+      "Luís XIV: Rei da França entre 1643 e 1715, cujo governo pessoal a partir de 1661 tornou-se referência da monarquia absolutista; a frase “O Estado sou eu” é atribuída a ele, mas sua autenticidade é contestada."
     ],
     "grupos_envolvidos": [
       "Monarcas e Cortes Reais",
@@ -287,28 +317,31 @@
       "Controle de impostos, privilégios fiscais e monopólios comerciais ultramarinos."
     ],
     "linha_do_tempo": [
-      {"ano": 1661, "titulo": "Início do governo pessoal de Luís XIV", "descricao": "Consolidação do apogeu do absolutismo clássico na França."}
+      {
+        "ano": 1661,
+        "titulo": "Início do governo pessoal de Luís XIV",
+        "descricao": "Luís XIV assumiu pessoalmente o governo após a morte do cardeal Mazarin, fortalecendo a autoridade real, embora a monarquia continuasse negociando com instituições e grupos privilegiados."
+      }
     ],
     "consequencias_imediatas": [
-      "Rigidez fiscal e exploração extrema de colônias como o Brasil mercantil.",
+      "Ampliação da exploração colonial e do trabalho compulsório em diferentes impérios, com impactos severos sobre populações indígenas e africanas escravizadas; as experiências coloniais variaram conforme território e época.",
       "Guerras comerciais frequentes entre potências europeias pelo controle de mercados."
     ],
     "consequencias_longo_prazo": [
-      "Acumulação primitiva de capital que pavimentou o caminho para a Revolução Industrial.",
+      "Contribuição para a acumulação de riquezas e capitais na Europa, processo relacionado também à escravidão, ao comércio atlântico, à agricultura, às finanças e à produção; não foi uma causa única da Revolução Industrial.",
       "Reações revolucionárias burguesas contra o Antigo Regime no final do século XVIII."
     ],
     "impactos": {
-      "politicos": "Supremacia da máquina estatal monárquica sobre parlamentos e instâncias locais fragmentadas.",
-      "economicos": "Intervenção estatal profunda na economia, colonialismo predatório e monopólios.",
+      "politicos": "Ampliação da capacidade administrativa, fiscal e militar de diversas monarquias, sem que parlamentos, assembleias e poderes locais desaparecessem em todos os reinos.",
+      "economicos": "Intervenções estatais variadas no comércio e na produção, incluindo tarifas, subsídios, monopólios e privilégios concedidos a companhias; os resultados diferiram entre os Estados.",
       "sociais": "Sociedade estamental rigidamente desigual, com privilégios fiscais para nobreza e clero.",
       "culturais": "Arte palaciana pomposa (Barroco) usada para ostentar o poder e o prestígio dos soberanos.",
       "territoriais": "Expansão e defesa militar de fronteiras estatais e domínios ultramarinos.",
       "ambientais": "Exploração intensiva de recursos naturais nas colônias para abastecer o mercado metropolitano."
     },
     "continuidade": "Desigualdade social estrutural e exploração de colônias por metrópoles europeias.",
-    "rupturas": "Substituição gradual do poder descentralizado feudal pela autoridade nacional unificada."
+    "rupturas": "Fortalecimento gradual de monarquias territoriais e de estruturas administrativas centralizadas, em processo desigual que não eliminou de imediato relações feudais, poderes locais ou instituições representativas."
   },
-
   {
     "id": "revolucoes-inglesas-gloriosa",
     "titulo_principal": "REVOLUÇÕES INGLESAS E A REVOLUÇÃO GLORIOSA",
@@ -318,60 +351,71 @@
     "local": "Inglaterra",
     "sociedades_envolvidas": "Monarquia Inglesa, Parlamento, Puritana/Burguesia e Guilherme de Orange",
     "tema": "Fim do Absolutismo Inglês, Guerra Civil, República de Cromwell e Declaração de Direitos (Bill of Rights)",
-    "contexto": "Conflitos políticos e religiosos entre a Coroa inglesa, que tentava impor o absolutismo, e o Parlamento, que defendia seus privilégios e limites ao poder real.",
+    "contexto": "Entre as décadas de 1640 e 1680, conflitos entre a monarquia Stuart e o Parlamento envolveram disputas sobre tributação, religião, prerrogativas reais e autoridade política. As guerras civis, a experiência republicana e a Revolução de 1688–1689 transformaram a relação entre Coroa e Parlamento, mas não criaram de uma só vez uma democracia moderna.",
     "antecedentes": [
-      "Tradição parlamentar histórica inglesa (Magna Carta de 1215).",
+      "A Magna Carta de 1215 e o desenvolvimento posterior de instituições representativas constituíam antecedentes importantes, mas não significavam que a Inglaterra já fosse uma monarquia parlamentar moderna.",
       "Ascensão da dinastia Stuart e conflitos sobre impostos e religião."
     ],
     "causas": {
-      "politicas": "Tentativa dos reis Carlos I e Jaime II de governar sem o Parlamento e impor tendências absolutistas.",
+      "politicas": "Conflitos sobre prerrogativas reais, dissolução e convocação do Parlamento, tributação e governo sem consentimento parlamentar, especialmente durante os reinados de Carlos I e Jaime II.",
       "economicas": "Disputas sobre a criação arbitrária de taxas e tributos comerciais sem autorização parlamentar.",
-      "sociais": "Ascensão da burguesia puritana e parlamentar, exigindo maior participação nas decisões do reino.",
-      "religiosas": "Conflitos entre anglicanos defensores do rei, puritanos e católicos.",
+      "sociais": "Interesses divergentes entre proprietários rurais, grupos mercantis, setores urbanos e diferentes comunidades políticas e religiosas; não se tratou apenas de uma burguesia unificada contra a monarquia.",
+      "religiosas": "Conflitos entre anglicanos, puritanos, presbiterianos e católicos, relacionados também às disputas sobre a autoridade do rei e a organização das igrejas.",
       "culturais": "Defesa de direitos civis tradicionais ingleses contra a tirania monárquica.",
       "territoriais": "Controle político e militar sobre a Inglaterra, Escócia e Irlanda.",
       "tecnologias": "Organização do Exército de Novo Modelo (New Model Army) por Oliver Cromwell."
     },
-    "resumo_card": "As Revoluções Inglesas e a Revolução Gloriosa de 1688 limitaram o poder real, fortaleceram o Parlamento e inauguraram a monarquia constitucional na Inglaterra.",
-    "desenvolvimento": "A crise gerou a Guerra Civil (1642–1649), a execução do rei Carlos I e a proclamação da República por Oliver Cromwell. Anos mais tarde, a instabilidade retornou até que, na Revolução Gloriosa de 1688, Jaime II foi deposto sem derramamento de sangue e substituído por Guilherme de Orange, que assinou a Declaração de Direitos (*Bill of Rights*), subordinando o rei ao Parlamento.",
+    "resumo_card": "As Revoluções Inglesas do século XVII e a mudança de regime de 1688–1689 limitaram prerrogativas da Coroa e fortaleceram o Parlamento. O processo foi marcado por guerras, república, restauração monárquica e disputas, e não instaurou imediatamente uma democracia universal.",
+    "desenvolvimento": "A crise entre Carlos I e o Parlamento contribuiu para as guerras civis iniciadas em 1642. Após a vitória das forças parlamentares, Carlos I foi executado em 1649 e a monarquia foi abolida, dando lugar à Commonwealth; mais tarde, Oliver Cromwell governou como Lorde Protetor (1653–1658), em um regime de forte concentração de poder. A monarquia foi restaurada em 1660. Em 1688, Jaime II foi deposto durante a chamada Revolução Gloriosa, em meio à intervenção militar de Guilherme de Orange e a conflitos que não foram inteiramente pacíficos em todos os territórios. Guilherme e Maria assumiram o trono, e a Declaração de Direitos de 1689 estabeleceu limites importantes à Coroa e reforçou o papel do Parlamento. A construção do sistema parlamentar prosseguiu em etapas posteriores.",
     "personagens": [
       "Carlos I: Rei inglês decapitado durante a Guerra Civil em 1649.",
-      "Oliver Cromwell: Líder puritano e chefe da República Inglesa (Protetorado).",
-      "Guilherme de Orange: Príncipe holandês que assumiu o trono inglês após a Revolução Gloriosa."
+      "Oliver Cromwell: Comandante parlamentar que se tornou Lorde Protetor; seu governo combinou apoio militar e concentração autoritária de poder.",
+      "Guilherme de Orange: Governante neerlandês que invadiu a Inglaterra em 1688 e assumiu o trono com Maria II, após a deposição de Jaime II."
     ],
     "grupos_envolvidos": [
-      "Parlamentares (Cabeças-Redondas)",
-      "Realistas (Cavaleiros)",
+      "Forças parlamentares, compostas por diferentes correntes políticas e religiosas, cujas alianças e objetivos mudaram ao longo das guerras.",
+      "Realistas, defensores de Carlos I e da monarquia, também diversos em suas motivações e posições religiosas.",
       "Burguesia Comercial e Financeira"
     ],
     "interesses_em_disputa": [
       "Supremacia política entre o Rei e o Parlamento na condução do Estado."
     ],
     "linha_do_tempo": [
-      {"ano": 1649, "titulo": "Execução de Carlos I", "descricao": "Fim da monarquia tradicional e início da experiência republicana."},
-      {"ano": 1688, "titulo": "Revolução Gloriosa", "descricao": "Deposição pacífica de Jaime II e ascensão de Guilherme de Orange."},
-      {"ano": 1689, "titulo": "Bill of Rights", "descricao": "Assinatura da Declaração de Direitos que garantiu a supremacia do Parlamento."}
+      {
+        "ano": 1649,
+        "titulo": "Execução de Carlos I",
+        "descricao": "Fim da monarquia tradicional e início da experiência republicana."
+      },
+      {
+        "ano": 1688,
+        "titulo": "Revolução Gloriosa",
+        "descricao": "Deposição pacífica de Jaime II e ascensão de Guilherme de Orange."
+      },
+      {
+        "ano": 1689,
+        "titulo": "Bill of Rights",
+        "descricao": "Assinatura da Declaração de Direitos que garantiu a supremacia do Parlamento."
+      }
     ],
     "consequencias_imediatas": [
-      "Fim definitivo do absolutismo na Inglaterra e instauração da monarquia parlamentar constitucional.",
-      "Garantia de liberdades individuais básicas e proteção à propriedade privada burguesa."
+      "Limitação de prerrogativas reais e fortalecimento do Parlamento, sem fim instantâneo de toda forma de autoridade monárquica nem implantação imediata de sufrágio amplo.",
+      "A Declaração de Direitos protegeu prerrogativas parlamentares e estabeleceu limites ao monarca; não instituiu direitos políticos universais nem igualdade social."
     ],
     "consequencias_longo_prazo": [
-      "Estabilidade institucional favorável ao acúmulo de capitais e ao pioneirismo na Revolução Industrial.",
+      "Contribuição para a formação gradual de instituições parlamentares e para mudanças políticas e financeiras posteriores; o Banco da Inglaterra foi fundado em 1694, não como consequência imediata da Revolução de 1688.",
       "Inspiração para as filosofias liberais do Iluminismo europeu."
     ],
     "impactos": {
-      "politicos": "Transição estrutural do poder absoluto monárquico para a soberania representativa parlamentar.",
-      "economicos": "Criação do Banco da Inglaterra e consolidação de leis comerciais estáveis.",
+      "politicos": "Fortalecimento da autoridade parlamentar e consolidação gradual de uma monarquia limitada por leis e convenções, com participação política restrita a parcelas da população.",
+      "economicos": "Reorganização das finanças públicas e expansão posterior do crédito e das instituições financeiras; o Banco da Inglaterra foi criado em 1694.",
       "sociais": "Fortalecimento político da burguesia e das classes proprietárias urbanas e rurais.",
       "culturais": "Disseminação de ideias sobre contratos sociais e direitos civis fundamentais.",
-      "territoriais": "Centralização sob leis comuns da Grã-Bretanha.",
+      "territoriais": "Transformações na relação entre Inglaterra, Escócia e Irlanda; a formação do Reino da Grã-Bretanha ocorreu somente em 1707, pelos Atos de União entre Inglaterra e Escócia.",
       "ambientais": "Sem impactos ecológicos diretos provocados pelos eventos políticos."
     },
     "continuidade": "Manutenção da figura do monarca como chefe de Estado simbólico e das desigualdades sociais da época.",
-    "rupturas": "Submissão obrigatória do poder executivo real às leis aprovadas pelo Parlamento representativo."
+    "rupturas": "Mudança duradoura no equilíbrio entre Coroa e Parlamento, com limites legais mais fortes ao poder monárquico, embora a monarquia tenha sido restaurada após a experiência republicana."
   },
-
   {
     "id": "iluminismo-seculo-xviii",
     "titulo_principal": "O ILUMINISMO E O SÉCULO DAS LUZES",
@@ -381,27 +425,27 @@
     "local": "França e Europa",
     "sociedades_envolvidas": "Filósofos (Iluministas), Burguesia, Monarcas Esclarecidos e Oposição ao Antigo Regime",
     "tema": "Razão, Liberdade Individual, Divisão dos Poderes, Fisiocracia e Enciclopédia",
-    "contexto": "Movimento intelectual do século XVIII que criticou duramente o Antigo Regime (absolutismo, mercantilismo e poder clerical), defendendo o primado da razão, da ciência e dos direitos civis.",
+    "contexto": "Movimento intelectual plural, associado sobretudo ao século XVIII, que valorizou a razão, a crítica, a investigação e a discussão sobre a organização da sociedade e do poder. Desenvolveu-se em diferentes regiões europeias e atlânticas, com debates sobre absolutismo, religião, direitos, economia e conhecimento.",
     "antecedentes": [
-      "Revolução Científica e filosofia empirista (John Locke, René Descartes).",
+      "Debates científicos e filosóficos dos séculos XVII e XVIII, incluindo o empirismo de John Locke, o racionalismo de René Descartes e os avanços da Revolução Científica.",
       "Exemplo prático do parlamentarismo inglês."
     ],
     "causas": {
       "politicas": "Insatisfação generalizada com os abusos do absolutismo monárquico e os privilégios da nobreza.",
-      "economicas": "Críticas burguesas aos monopólios mercantilistas e às traves corporativas feudais na economia.",
+      "economicas": "Críticas a privilégios econômicos, restrições comerciais e práticas mercantilistas; pensadores iluministas apresentaram propostas distintas, incluindo a fisiocracia e o liberalismo econômico.",
       "sociais": "Aspirações da burguesia por igualdade jurídica e fim dos privilégios de berço do Antigo Regime.",
-      "religiosas": "Combate ao fanatismo religioso, à intolerância da Igreja e ao dogmatismo teológico.",
-      "culturais": "Exaltação absoluta da razão humana como luz guia para o progresso da civilização.",
+      "religiosas": "Críticas à intolerância religiosa, ao fanatismo e à autoridade eclesiástica quando limitava a liberdade de pensamento; muitos iluministas defenderam formas diversas de tolerância e de religião, não necessariamente o ateísmo.",
+      "culturais": "Valorização da razão, da observação, da crítica e da possibilidade de aperfeiçoamento das instituições, com diferenças importantes entre os próprios pensadores.",
       "territoriais": "Difusão transnacional de salões literários, panfletos e da Enciclopédia pela Europa.",
       "tecnologias": "Expansão editorial de livros e jornais acessíveis à opinião pública instruída."
     },
-    "resumo_card": "O Iluminismo criticou o absolutismo e os privilégios do Antigo Regime com base na razão, influenciando revoluções burguesas e a reorganização política do Ocidente.",
-    "desenvolvimento": "Surgido na França, o Iluminismo uniu pensadores célebres: Montesquieu propôs a separação dos poderes estatais; Voltaire defendeu a liberdade de expressão e o laicismo; Rousseau teorizou sobre a soberania popular e a igualdade social; e Adam Smith lançou as bases do liberalismo econômico. Suas ideias inspiraram reformas em alguns reinos (Despotismo Esclarecido) e revoluções estruturais.",
+    "resumo_card": "O Iluminismo reuniu correntes de pensamento que questionaram aspectos do Antigo Regime e debateram razão, liberdade, tolerância, direitos e organização do poder. Suas ideias circularam em diferentes sociedades e influenciaram reformas e movimentos políticos.",
+    "desenvolvimento": "O Iluminismo não surgiu apenas na França: formou-se a partir de debates que atravessaram diferentes regiões da Europa e do mundo atlântico. Montesquieu analisou a distribuição e o equilíbrio dos poderes; Voltaire criticou a intolerância e defendeu liberdades civis; Rousseau discutiu soberania popular e vontade geral; e Adam Smith sistematizou críticas a aspectos do mercantilismo e argumentos em favor da liberdade econômica. As ideias iluministas foram diversas e, em alguns casos, contraditórias. Influenciaram reformas promovidas por certos monarcas, debates públicos e revoluções, mas não determinaram sozinhas esses processos.",
     "personagens": [
       "Voltaire: Filósofo francês crítico implacável da intolerância religiosa e do absolutismo.",
-      "Montesquieu: Teórico da divisão dos poderes (Executivo, Legislativo e Judiciário).",
-      "Jean-Jacques Rousseau: Defensor da soberania popular e da democracia direta.",
-      "Adam Smith: Economista escocês fundador do liberalismo econômico clássico."
+      "Montesquieu: Pensador francês que analisou a distribuição dos poderes e defendeu mecanismos para evitar sua concentração.",
+      "Jean-Jacques Rousseau: Filósofo genebrino que elaborou uma teoria da soberania popular e da vontade geral, debatendo as condições de legitimidade política.",
+      "Adam Smith: Filósofo e economista escocês que criticou aspectos do mercantilismo e analisou a divisão do trabalho e os mercados; sua obra contribuiu para a formação da economia política clássica."
     ],
     "grupos_envolvidos": [
       "Intelectualidade Burguesa (Filósofos e Enciclopedistas)",
@@ -412,91 +456,129 @@
       "Liberdade comercial e civil contra o controle fiscal e corporativo absolutista."
     ],
     "linha_do_tempo": [
-      {"ano": 1751, "titulo": "Início da Enciclopédia", "descricao": "Publicação dos primeiros volumes organizados por Diderot e D'Alembert."}
+      {
+        "ano": 1751,
+        "titulo": "Início da Enciclopédia",
+        "descricao": "Publicação dos primeiros volumes organizados por Diderot e D'Alembert."
+      }
     ],
     "consequencias_imediatas": [
-      "Formulação teórica que fundamentou a Independência dos EUA e a Revolução Francesa.",
+      "Contribuição para repertórios políticos mobilizados na Independência dos Estados Unidos, na Revolução Francesa e em outras reformas e movimentos, cujas causas também envolveram conflitos e condições locais.",
       "Modernização administrativa superficial em reinos absolutistas (Despotismo Esclarecido)."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação dos Estados liberais democráticos contemporâneos e do livre mercado capitalista.",
+      "Influência sobre constituições, debates de direitos e projetos de reforma política e econômica; os regimes liberais e democráticos se desenvolveram posteriormente de forma desigual e conflituosa.",
       "Secularização dos sistemas educacionais e jurídicos no mundo ocidental."
     ],
     "impactos": {
-      "politicos": "Demolição ideológica do direito divino dos reis e defesa da soberania cidadã.",
+      "politicos": "Questionamento de fundamentos tradicionais do poder e ampliação dos debates sobre soberania, representação, direitos e limites da autoridade política.",
       "economicos": "Ascensão das teorias liberais de livre concorrência e oposição ao pacto colonial rígido.",
-      "sociais": "Defesa da igualdade civil perante a lei e abolição de resquicios de servidão feudal.",
-      "culturais": "Triunfo do Racionalismo e do pensamento crítico secular na educação e na ciência.",
+      "sociais": "Difusão de debates sobre igualdade jurídica e direitos, embora muitas formulações iluministas convivessem com exclusões de mulheres, pessoas escravizadas e grupos colonizados.",
+      "culturais": "Expansão de práticas de crítica, circulação de livros, academias, salões e debates públicos, sem significar o desaparecimento da religião ou das tradições intelectuais anteriores.",
       "territoriais": "Internacionalização das correntes de pensamento burguesas pelo Atlântico.",
       "ambientais": "Foco intelectual no progresso técnico humano, sem pautas ecológicas na época."
     },
     "continuidade": "Permanência de desigualdades sociais profundas e exclusão de minorias e mulheres dos plenos direitos políticos iniciais.",
-    "rupturas": "Rompimento definitivo com a legitimação mística e religiosa do poder político tradicional."
+    "rupturas": "Contestação de fundamentos do absolutismo e de privilégios tradicionais, sem ruptura uniforme ou definitiva com a religião e as instituições do Antigo Regime."
   },
-
   {
     "id": "independencia-eua-1776",
     "titulo_principal": "A INDEPENDÊNCIA DOS ESTADOS UNIDOS DA AMÉRICA",
-    "ano_inicio": 1776,
-    "ano_fim": 1783,
+    "ano_inicio": 1765,
+    "ano_fim": 1789,
     "periodo": "Idade Moderna",
     "local": "América do Norte (Treze Colônias)",
     "sociedades_envolvidas": "Colonos das Treze Colônias, Coroa Britânica e Tropas Nativas/Aliadas",
-    "tema": "Revolta contra o Pacto Colonial, Declaração de Independência e Primeira República Liberal",
+    "tema": "Independência das Treze Colônias, Declaração de 1776 e formação de uma república constitucional",
     "contexto": "As Treze Colônias inglesas na América do Norte, marcadas por grande autonomia e desenvolvimento econômico, revoltaram-se contra o aumento de impostos e restrições comerciais impostos pela metrópole britânica após a Guerra dos Sete Anos.",
     "antecedentes": [
-      "Autonomia relativa administrativa das colônias do Norte (comércio triangular) e do Sul (plantation).",
-      "Fim da Guerra dos Sete Anos (1756–1763) e endividamento do governo britânico."
+      "Autonomia relativa das colônias, com economias e estruturas sociais distintas entre Norte, Centro e Sul.",
+      "Guerra dos Sete Anos (1756–1763), cujo custo contribuiu para a política fiscal britânica após o conflito.",
+      "Circulação de ideias iluministas sobre representação, direitos e legitimidade do poder, interpretadas de maneiras diferentes pelos colonos."
     ],
     "causas": {
-      "politicas": "Imposição de leis restritivas pela metrópole sem representação colonial no Parlamento britânico (*No taxation without representation*).",
-      "economicas": "Criação de taxas sobre o açúcar, selos, chá e restrições à expansão territorial para o oeste.",
-      "sociais": "Crescimento de uma identidade colonial autônoma e rejeição ao autoritarismo britânico.",
+      "politicas": "Conflito sobre a autoridade do Parlamento britânico para legislar e cobrar impostos nas colônias sem representação colonial direta, expresso no lema 'No taxation without representation'.",
+      "economicas": "Medidas fiscais e comerciais, como a Lei do Selo, os impostos sobre o chá e restrições imperiais, somaram-se a interesses de comerciantes e proprietários coloniais por maior autonomia.",
+      "sociais": "A mobilização reuniu grupos com interesses diferentes. Mulheres participaram de boicotes e redes de apoio; pessoas negras escravizadas e livres buscaram caminhos distintos de liberdade; povos indígenas avaliaram alianças conforme a defesa de suas terras e soberania.",
       "religiosas": "Diferenças culturais e religiosas e desejo de liberdade de culto e organização.",
       "culturais": "Forte influência dos ideais iluministas de liberdade e direitos naturais de John Locke.",
       "territoriais": "Disputa pelo controle de terras a oeste dos Montes Apalaches.",
-      "tecnologias": "Uso de táticas de guerrilha e mobilização de milícias coloniais."
+      "tecnologias": "Uso de milícias, redes locais de abastecimento e diferentes táticas militares; forças regulares e apoio externo também foram importantes para o resultado da guerra."
     },
-    "resumo_card": "A Independência dos EUA em 1776 rompeu o pacto colonial britânico, fundou a primeira república liberal moderna e aplicou os ideais iluministas na prática política.",
-    "desenvolvimento": "Diante das Leis Intoleráveis e do massacre de Boston, os colonos reuniram-se nos Congressos Continentais. Em 4 de julho de 1776, aprovaram a Declaração de Independência redigida por Thomas Jefferson. Após uma guerra vitoriosa contra a Grã-Bretanha (com apoio da França), os britânicos reconheceram a independência em 1783, consolidada pela Constituição de 1787.",
+    "resumo_card": "A independência proclamada em 1776 deu origem aos Estados Unidos, cuja organização política foi construída ao longo de debates e experiências constitucionais. A Constituição federal de 1787 substituiu os Artigos da Confederação e estabeleceu um novo arranjo de governo.",
+    "desenvolvimento": "As tensões entre as Treze Colônias e a Grã-Bretanha cresceram após a Guerra dos Sete Anos (1756–1763), quando o governo britânico buscou arrecadar receitas e reforçar o controle imperial. Medidas como a Lei do Selo (1765), os impostos sobre o chá e as Leis Intoleráveis (1774) alimentaram protestos, boicotes e debates sobre representação política. O Primeiro Congresso Continental reuniu representantes coloniais em 1774; em 1775 começaram os confrontos armados em Lexington e Concord. O Segundo Congresso Continental coordenou o esforço de guerra e, em 4 de julho de 1776, aprovou a Declaração de Independência, redigida principalmente por Thomas Jefferson. A guerra envolveu alianças e interesses diversos: a França apoiou os revolucionários, enquanto diferentes nações indígenas e pessoas negras, escravizadas e livres, tomaram posições variadas diante do conflito. A vitória norte-americana em Yorktown (1781) foi decisiva; o Tratado de Paris reconheceu a independência em 1783. O novo país foi inicialmente organizado pelos Artigos da Confederação; as limitações desse arranjo levaram à Convenção da Filadélfia e à Constituição federal de 1787, ratificada pelos estados e em vigor a partir de 1789. A independência proclamou princípios de liberdade e direitos, mas coexistiu com a escravidão, a expansão sobre territórios indígenas e a exclusão política de mulheres e de grande parte da população.",
     "personagens": [
       "Thomas Jefferson: Principal autor da Declaração de Independência dos Estados Unidos.",
       "George Washington: Líder militar das tropas norte-americanas e primeiro presidente do país.",
       "Benjamin Franklin: Diplomata e um dos principais pais fundadores da república."
     ],
     "grupos_envolvidos": [
-      "Patriotas Americanos",
-      "Exército Britânico (Casacas-Vermelhas)",
-      "Povos Indígenas (frequentemente aliados dos britânicos) e Escravizados negros"
+      "Patriotas e legalistas das Treze Colônias, com posições políticas divergentes.",
+      "Exército britânico e forças aliadas, incluindo tropas alemãs contratadas pela Coroa.",
+      "Nações indígenas com decisões variadas, incluindo alianças com britânicos, apoio aos revolucionários ou neutralidade, conforme seus interesses territoriais.",
+      "Pessoas negras escravizadas e livres que atuaram em diferentes lados, buscando em alguns casos oportunidades de emancipação."
     ],
     "interesses_em_disputa": [
       "Autonomia fiscal, liberdade comercial e soberania territorial sobre o território norte-americano."
     ],
     "linha_do_tempo": [
-      {"ano": 1776, "titulo": "Declaração de Independência", "descricao": "Proclamação formal da separação das Treze Colônias da Grã-Bretanha em 4 de julho."},
-      {"ano": 1783, "titulo": "Tratado de Paris", "descricao": "Reconhecimento oficial da independência norte-americana pela coroa britânica."},
-      {"ano": 1787, "titulo": "Constituição dos EUA", "descricao": "Aprovação da primeira constituição liberal-democrática escrita do mundo moderno."}
+      {
+        "ano": 1765,
+        "titulo": "Lei do Selo",
+        "descricao": "A imposição de taxas sobre documentos e impressos provocou protestos coloniais e ampliou o debate sobre representação."
+      },
+      {
+        "ano": 1774,
+        "titulo": "Primeiro Congresso Continental",
+        "descricao": "Representantes de doze colônias coordenaram reivindicações e medidas de resistência às políticas britânicas."
+      },
+      {
+        "ano": 1775,
+        "titulo": "Início da guerra",
+        "descricao": "Os confrontos de Lexington e Concord marcaram o início da guerra entre forças coloniais e britânicas."
+      },
+      {
+        "ano": 1776,
+        "titulo": "Declaração de Independência",
+        "descricao": "Em 4 de julho, o Congresso Continental aprovou a declaração de separação política da Grã-Bretanha."
+      },
+      {
+        "ano": 1781,
+        "titulo": "Vitória em Yorktown",
+        "descricao": "A rendição das forças britânicas em Yorktown, com apoio francês, foi decisiva para o desfecho militar."
+      },
+      {
+        "ano": 1783,
+        "titulo": "Tratado de Paris",
+        "descricao": "A Grã-Bretanha reconheceu formalmente a independência dos Estados Unidos."
+      },
+      {
+        "ano": 1787,
+        "titulo": "Constituição federal",
+        "descricao": "A Convenção da Filadélfia aprovou a Constituição, que substituiu os Artigos da Confederação após a ratificação."
+      }
     ],
     "consequencias_imediatas": [
-      "Nascimento dos Estados Unidos da América como nação soberana baseada em princípios liberais.",
-      "Grave endividamento da França, o que acelerou a crise interna que provocaria a Revolução Francesa."
+      "Reconhecimento internacional da independência em 1783 e formação de uma república que adotou uma Constituição federal em 1787.",
+      "A vitória revolucionária não eliminou a escravidão nem garantiu direitos políticos iguais: mulheres, povos indígenas e pessoas negras permaneceram excluídos de muitas garantias e instituições.",
+      "A guerra agravou as finanças da monarquia francesa, mas a Revolução Francesa teve causas políticas, sociais e econômicas mais amplas."
     ],
     "consequencias_longo_prazo": [
-      "Inspiração direta para os movimentos de independência na América Latina e colônias ibéricas.",
-      "Expansão territorial continental rumo ao Pacífico (Marcha para o Oeste)."
+      "A experiência republicana e constitucional norte-americana influenciou debates políticos em outras regiões, embora tenha coexistido com contradições profundas entre liberdade proclamada, escravidão e expansão territorial.",
+      "A expansão dos Estados Unidos ocorreu por guerras, compras, tratados e deslocamentos forçados de povos indígenas, processo que continuou ao longo do século XIX.",
+      "A disputa sobre a escravidão permaneceu central e contribuiu para conflitos que culminaram na Guerra Civil (1861–1865)."
     ],
     "impactos": {
-      "politicos": "Primeira aplicação prática bem-sucedida de um Estado republicano com separação de poderes baseada no Iluminismo.",
-      "economicos": "Libertação do pacto colonial mercantilista britânico e estímulo ao livre mercado capitalista.",
-      "sociais": "Manutenção vergonhosa da escravidão negra e exclusão jurídica de indígenas e mulheres na nova república.",
+      "politicos": "A independência criou uma república federal com separação de poderes; a Constituição estabeleceu instituições nacionais, mas a participação política permaneceu restrita e variou conforme estado, gênero, condição jurídica e propriedade.",
+      "economicos": "O rompimento do vínculo colonial permitiu aos Estados Unidos definir suas próprias políticas comerciais, mas não significou adoção imediata de livre-comércio irrestrito nem eliminou dependências econômicas.",
+      "sociais": "A escravidão continuou legal em vários estados, povos indígenas enfrentaram perda de territórios e mulheres não obtiveram igualdade política; os princípios de liberdade foram aplicados de forma profundamente desigual.",
       "culturais": "Disseminação global do mito fundador da liberdade democrática americana.",
       "territoriais": "Criação de um novo Estado no continente norte-americano.",
       "ambientais": "Início da expansão desmatadora e agrícola sobre territórios nativos tradicionais."
     },
-    "continuidade": "Preservação da escravidão e subjugação violenta das populações indígenas originárias.",
-    "rupturas": "Rompimento colonial pioneiro de um território ultramarino em relação a uma grande potência europeia."
+    "continuidade": "A escravidão, a desigualdade racial e a disputa pelo território indígena permaneceram estruturais após a independência, apesar da linguagem universalista da Declaração.",
+    "rupturas": "O rompimento com a soberania britânica e a criação de instituições republicanas federais alteraram a organização política das antigas colônias, sem produzir igualdade social ou política imediata."
   },
-
   {
     "id": "revolucao-francesa-1789",
     "titulo_principal": "A REVOLUÇÃO FRANCESA E O FIM DA IDADE MODERNA",
@@ -506,57 +588,160 @@
     "local": "França",
     "sociedades_envolvidas": "Terceiro Estado (Burguesia, Camponeses, Trabalhadores), Nobreza, Clero e Monarquia",
     "tema": "Queda da Bastilha, Fim do Antigo Regime, Declaração dos Direitos do Homem e do Cidadão",
-    "contexto": "Profunda crise financeira, fome e revolta contra os privilégios absurdos do clero e da nobreza na França levaram à queda do Antigo Regime, servindo como o marco tradicional de encerramento da Idade Moderna.",
+    "contexto": "A crise fiscal da monarquia, a desigualdade tributária, a alta do preço dos alimentos e a contestação dos privilégios do clero e da nobreza contribuíram para a Revolução Francesa. O processo transformou profundamente as instituições políticas e sociais da França e é tradicionalmente utilizado como marco do fim da Idade Moderna.",
     "antecedentes": [
       "Sociedade estamental rigidamente desigual (1º Estado: Clero, 2º Estado: Nobreza, 3º Estado: Povo).",
-      "Grave crise econômica e fiscal agravada pela participação francesa na Independência dos EUA e secas agrícolas."
+      "Dificuldades fiscais acumuladas pela monarquia, agravadas por guerras — entre elas o apoio francês à independência dos Estados Unidos —, desigualdade na cobrança de impostos e crises de abastecimento, especialmente em 1788 e 1789."
     ],
     "causas": {
       "politicas": "Incapacidade da monarquia absolutista de Luís XVI em reformar impostos sem afetar os privilégios aristocráticos.",
       "economicas": "Fome generalizada, alta inflação do pão, déficit público crônico e falência financeira do Estado.",
-      "sociais": "Revolta do Terceiro Estado contra a exploração tributária exclusiva recaída sobre os mais pobres.",
-      "religiosas": "Crítica à aliança tradicional entre trono e altar e confisco de bens eclesiásticos.",
+      "sociais": "Contestação dos privilégios jurídicos e fiscais dos estamentos privilegiados e dos efeitos da crise econômica sobre camponeses, trabalhadores urbanos e setores da burguesia.",
+      "religiosas": "Questionamento dos privilégios e da influência política da Igreja no Antigo Regime; durante a Revolução, medidas como a nacionalização dos bens eclesiásticos e a Constituição Civil do Clero provocaram conflitos e divisões.",
       "culturais": "Difusão massiva dos ideais iluministas de liberdade, igualdade e fraternidade.",
       "territoriais": "Defesa revolucionária da pátria francesa contra invasões de monarquias absolutistas vizinhas.",
       "tecnologias": "Mobilização popular urbana e convocação histórica dos Estados Gerais."
     },
-    "resumo_card": "A Revolução Francesa de 1789 demolição o Antigo Regime, proclamou os direitos universais do homem e encerrou tradicionalmente a Idade Moderna, abrindo caminho para a Idade Contemporânea.",
-    "desenvolvimento": "Com a recusa de reformas pelos Estados Gerais, o povo de Paris tomou a prisão da Bastilha em 14 de julho de 1789. A Assembleia Nacional aboliu os privilégios feudais e publicou a Declaração dos Direitos do Homem e do Cidadão. O processo radicalizou-se com a proclamação da República, a execução de Luís XVI, a fase do Terror liderada pelos jacobinos, até culminar no golpe de Napoleão Bonaparte em 1799.",
+    "resumo_card": "A Revolução Francesa derrubou a monarquia absoluta, aboliu privilégios jurídicos do Antigo Regime e difundiu novas concepções de cidadania e soberania nacional. Seus resultados foram disputados e não significaram a conquista imediata de direitos iguais para toda a população.",
+    "desenvolvimento": "A crise política levou à convocação dos Estados Gerais em 1789. Em junho, representantes do Terceiro Estado proclamaram-se Assembleia Nacional; em 14 de julho, uma mobilização popular tomou a Bastilha. Na sequência, foram abolidos privilégios feudais e aprovada a Declaração dos Direitos do Homem e do Cidadão. A monarquia constitucional foi derrubada em 1792 e a República proclamada. Luís XVI foi executado em 1793. A Convenção atravessou disputas entre diferentes grupos revolucionários e o período do Terror (1793–1794), associado ao predomínio jacobino. Após o Diretório, o golpe de 18 de Brumário, em 1799, levou Napoleão Bonaparte ao poder.",
     "personagens": [
       "Luís XVI: Rei francês executado na guilhotina durante a radicalização revolucionária.",
       "Maria Antonieta: Rainha consorte decapitada no contexto da revolução.",
       "Maximilien Robespierre: Líder jacobino radical durante a fase do Terror revolucionário."
     ],
     "grupos_envolvidos": [
-      "Burguesia Moderada (Girondinos)",
-      "Radicais Urbanos e Camponeses (Jacobinos / Sans-culottes)",
-      "Aristocracia e Monarquias Absolutistas Europeias coalhadas contra a França"
+      "Girondinos e outros setores republicanos moderados, com posições diversas ao longo do processo revolucionário.",
+      "Jacobinos, sans-culottes e outros setores populares urbanos, que não constituíam um grupo único e tiveram interesses e formas de atuação distintos.",
+      "Nobreza, setores do clero e monarquias europeias contrárias à Revolução; as posições desses grupos também variaram ao longo do processo."
     ],
     "interesses_em_disputa": [
       "Igualdade jurídica civil, fim dos privilégios estamentais e controle do poder político do Estado."
     ],
     "linha_do_tempo": [
-      {"ano": 1789, "titulo": "Queda da Bastilha", "descricao": "Insurreição popular em Paris que marcou o início prático da Revolução Francesa em 14 de julho."},
-      {"ano": 1789, "titulo": "Declaração dos Direitos", "descricao": "Aprovação dos Direitos do Homem e do Cidadão, consagrando a liberdade e a igualdade civil."},
-      {"ano": 1792, "titulo": "Proclamação da República", "descricao": "Fim da monarquia constitucional e estabelecimento do governo republicano francês."}
+      {
+        "ano": 1789,
+        "titulo": "Queda da Bastilha",
+        "descricao": "Insurreição popular em Paris que marcou o início prático da Revolução Francesa em 14 de julho."
+      },
+      {
+        "ano": 1789,
+        "titulo": "Declaração dos Direitos",
+        "descricao": "Aprovação dos Direitos do Homem e do Cidadão, consagrando a liberdade e a igualdade civil."
+      },
+      {
+        "ano": 1792,
+        "titulo": "Proclamação da República",
+        "descricao": "Fim da monarquia constitucional e estabelecimento do governo republicano francês."
+      }
     ],
     "consequencias_imediatas": [
-      "Fim dos privilégios feudais, da servidão residual e destruição da estrutura do Antigo Regime na França.",
-      "Início das Guerras Napoleônicas, que espalharam ideias liberais e nacionalistas por toda a Europa."
+      "Abolição de privilégios feudais e estamentais em etapas, transformação das relações entre Estado e Igreja e reorganização das instituições políticas e jurídicas francesas.",
+      "A guerra contra potências europeias começou em 1792; a expansão militar francesa e as Guerras Napoleônicas ocorreram em fases posteriores, sobretudo a partir de 1803."
     ],
     "consequencias_longo_prazo": [
-      "Consolidação definitiva do sistema capitalista burguês e dos Estados liberais contemporâneos no mundo.",
-      "Origem das divisões políticas modernas entre Esquerda e Direita."
+      "Difusão de princípios de igualdade jurídica, soberania nacional e cidadania, embora sua aplicação tenha sido desigual e contestada e não tenha eliminado as desigualdades sociais.",
+      "Consolidação de novas linguagens e divisões políticas, incluindo as noções modernas de esquerda e direita, cuja origem está associada às posições ocupadas na Assembleia durante a Revolução."
     ],
     "impactos": {
       "politicos": "Destruição do absolutismo monárquico e ascensão da soberania nacional representativa.",
       "economicos": "Eliminação de barreiras alfandegárias internas e consolidação das leis de livre mercado capitalista.",
-      "sociais": "Substituição da sociedade estamental de privilégios hereditários pela sociedade de classes baseada na riqueza e mérito.",
-      "culturais": "Universalização de conceitos modernos de cidadania, direitos humanos, laicismo e nação.",
+      "sociais": "Desmonte da sociedade de ordens e dos privilégios jurídicos, sem eliminar desigualdades econômicas; mulheres, pessoas escravizadas nas colônias e outros grupos permaneceram excluídos de muitos direitos.",
+      "culturais": "Difusão de ideias de cidadania, nação, direitos e laicidade, em meio a conflitos sobre religião, autoridade e os limites da participação política.",
       "territoriais": "Expansão e reconfiguração das fronteiras europeias pelas campanhas da era napoleônica.",
       "ambientais": "Sem impactos ecológicos diretos causados pelas rupturas institucionais da época."
     },
     "continuidade": "Permanência de desigualdades socioeconômicas e exclusão inicial das mulheres dos direitos políticos plenos.",
-    "rupturas": "Colapso total e irreversível das estruturas políticas, jurídicas e sociais do Antigo Regime europeu."
+    "rupturas": "Ruptura profunda com instituições e privilégios do Antigo Regime na França, embora muitas estruturas sociais e desigualdades tenham persistido e o processo tenha passado por diferentes regimes políticos."
+  },
+  {
+    "id": "sociedades-americanas-pre-conquista-1200ac-1532",
+    "titulo_principal": "SOCIEDADES AMERICANAS ANTES DA CONQUISTA EUROPEIA: MAIAS, MEXICAS E INCAS",
+    "ano_inicio": -1200,
+    "ano_fim": 1532,
+    "periodo": "Histórias indígenas das Américas e conquista europeia (recorte próprio, não equivalente à periodização europeia)",
+    "local": "Mesoamérica, Andes centrais e outras regiões das Américas",
+    "sociedades_envolvidas": "Povos olmecas, maias, mexicas, incas e numerosas outras sociedades indígenas americanas",
+    "tema": "Cidades e centros cerimoniais, agricultura, calendários, escrita maia, alianças políticas, Tenochtitlán, Tahuantinsuyu e conquista espanhola",
+    "contexto": "As sociedades americanas desenvolveram histórias próprias, com cidades, sistemas agrícolas, conhecimentos astronômicos, formas de escrita, redes comerciais e organizações políticas distintas. A expressão 'pré-colombiano' é uma referência cronológica à chegada de Colombo, não uma identidade comum. A divisão europeia entre Idade Média e Moderna não descreve adequadamente as temporalidades indígenas; este registro acompanha processos americanos até o início da conquista espanhola.",
+    "antecedentes": [
+      "Longos processos de povoamento, domesticação de plantas e formação de comunidades agrícolas em diferentes regiões americanas.",
+      "Desenvolvimento de centros cerimoniais, redes de troca e formas variadas de organização política muito antes da chegada europeia."
+    ],
+    "causas": {
+      "politicas": "Diferentes sociedades organizaram cidades-Estado, confederações, reinos e impérios. Alianças, tributos, guerras e disputas internas influenciaram suas transformações.",
+      "economicas": "Agricultura do milho, batata, feijão e outras plantas, sistemas de terraços e chinampas, criação de animais nos Andes e redes de intercâmbio sustentaram populações numerosas.",
+      "sociais": "As sociedades apresentavam hierarquias e papéis sociais variados, com agricultores, artesãos, comerciantes, autoridades, guerreiros e especialistas religiosos.",
+      "religiosas": "Cosmologias e práticas religiosas diversas articulavam calendários, agricultura, poder político e rituais; não havia uma religião indígena única.",
+      "culturais": "Povos maias desenvolveram sistemas de escrita e calendários; sociedades andinas e mesoamericanas produziram arquitetura, matemática, astronomia, arte e técnicas próprias.",
+      "territoriais": "A expansão mexica e inca incorporou povos diversos por meio de guerras, alianças e tributos, mantendo tensões e resistências locais.",
+      "tecnologias": "Chinampas, terraços agrícolas, estradas, pontes, sistemas de armazenamento, metalurgia andina e técnicas construtivas demonstram conhecimentos adaptados a diferentes ambientes."
+    },
+    "resumo_card": "Antes da conquista europeia, sociedades americanas construíram cidades, redes comerciais e grandes organizações políticas. Maias, mexicas e incas tiveram trajetórias distintas, marcadas por conhecimentos, alianças, conflitos e adaptações ambientais.",
+    "desenvolvimento": "Na Mesoamérica, sociedades olmecas floresceram entre aproximadamente 1200 e 400 a.C., influenciando tradições regionais posteriores. Os maias desenvolveram cidades, sistemas de escrita, matemática e calendários; seu período clássico (aproximadamente 250–900) foi marcado por centros políticos diversos, e comunidades maias continuaram existindo depois dele. No vale do México, os mexicas fundaram Tenochtitlán em 1325 e, no século XV, lideraram a Tríplice Aliança, que construiu um poder tributário sobre diversos povos. Nos Andes, os incas expandiram o Tahuantinsuyu a partir do século XV, integrando territórios por estradas, centros administrativos e formas de trabalho obrigatório, como a mita. A conquista espanhola não ocorreu porque essas sociedades fossem homogêneas ou tecnologicamente imóveis: alianças indígenas, conflitos internos, estratégias militares, epidemias introduzidas após o contato e violência colonial tiveram papéis decisivos. Hernán Cortés e seus aliados indígenas conquistaram Tenochtitlán em 1521; Francisco Pizarro capturou Atahualpa em 1532, dando início à conquista do centro do poder inca. A conquista foi prolongada e encontrou resistências, e as sociedades indígenas não desapareceram.",
+    "personagens": [
+      "Pakal, governante de Palenque no século VII, associado à arquitetura e às inscrições maias.",
+      "Moctezuma II: governante mexica durante a chegada de Cortés e seus aliados, em 1519.",
+      "Atahualpa: governante inca capturado por forças de Pizarro em 1532."
+    ],
+    "grupos_envolvidos": [
+      "Povos e cidades maias, com diferentes centros políticos e comunidades regionais.",
+      "Mexicas e povos submetidos ou aliados à Tríplice Aliança, incluindo grupos que participaram de sua derrota.",
+      "Incas e povos incorporados ao Tahuantinsuyu, com diferentes formas de negociação e resistência.",
+      "Povos indígenas aliados, resistentes e submetidos à expansão espanhola."
+    ],
+    "interesses_em_disputa": [
+      "Controle de tributos, terras agrícolas, rotas, cidades e recursos estratégicos.",
+      "Alianças e rivalidades entre poderes indígenas e, posteriormente, disputas contra a conquista e a colonização europeias."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": -1200,
+        "titulo": "Florescimento de centros olmecas",
+        "descricao": "Sociedades olmecas desenvolveram centros cerimoniais e redes culturais na Mesoamérica."
+      },
+      {
+        "ano": 250,
+        "titulo": "Período Clássico maia",
+        "descricao": "Cidades maias ampliaram a produção artística, arquitetônica, matemática e escrita."
+      },
+      {
+        "ano": 1325,
+        "titulo": "Fundação de Tenochtitlán",
+        "descricao": "Os mexicas estabeleceram sua capital no lago Texcoco, no vale do México."
+      },
+      {
+        "ano": 1438,
+        "titulo": "Expansão do poder inca",
+        "descricao": "O Tahuantinsuyu ampliou-se sob Pachacuti e seus sucessores."
+      },
+      {
+        "ano": 1521,
+        "titulo": "Queda de Tenochtitlán",
+        "descricao": "Forças espanholas e numerosos aliados indígenas derrotaram a capital mexica após cerco e epidemias."
+      },
+      {
+        "ano": 1532,
+        "titulo": "Captura de Atahualpa",
+        "descricao": "Pizarro capturou o governante inca em Cajamarca, em um marco da conquista espanhola dos Andes."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Colapso ou transformação de estruturas políticas indígenas em regiões conquistadas, acompanhado de violência, epidemias e imposição colonial.",
+      "Sobrevivência e reorganização de comunidades indígenas, que resistiram, negociaram e preservaram práticas culturais em novos contextos."
+    ],
+    "consequencias_longo_prazo": [
+      "A colonização transformou profundamente demografia, territórios, línguas, religiões e formas de trabalho, sem eliminar a presença e a agência dos povos indígenas.",
+      "Conhecimentos agrícolas, científicos, linguísticos e culturais indígenas permanecem fundamentais para as sociedades americanas contemporâneas."
+    ],
+    "impactos": {
+      "politicos": "Transformações de cidades, confederações e impérios indígenas, seguidas pela imposição de autoridades coloniais e por resistências prolongadas.",
+      "economicos": "Reorganização da produção e dos tributos, apropriação de recursos e incorporação forçada a circuitos coloniais.",
+      "sociais": "Epidemias, violência, deslocamentos e trabalho compulsório atingiram populações indígenas, que também desenvolveram estratégias de resistência e negociação.",
+      "culturais": "Imposição religiosa e linguística coexistiu com permanências, adaptações e recriações de tradições indígenas.",
+      "territoriais": "Conquista e colonização redesenharam fronteiras e formas de ocupação, sem apagar a continuidade dos povos originários.",
+      "ambientais": "Novas formas de exploração de terras e recursos alteraram paisagens, enquanto conhecimentos indígenas continuaram a orientar práticas agrícolas e ambientais."
+    },
+    "continuidade": "Povos indígenas mantiveram presença, línguas, conhecimentos, formas comunitárias e práticas culturais antes e depois da conquista, apesar da violência colonial.",
+    "rupturas": "A conquista e a colonização europeias provocaram profundas rupturas demográficas, políticas e econômicas, mas não significaram desaparecimento das sociedades indígenas."
   }
 ]
