@@ -41,11 +41,31 @@
       "Controle das rotas comerciais do Mediterrâneo e posse de terras/escravos."
     ],
     "linha_do_tempo": [
-      {"ano": -1750, "titulo": "Código de Hamurábi", "descricao": "Compilação de leis escritas baseada no princípio de 'olho por olho, dente por dente'."},
-      {"ano": -508, "titulo": "Reformas de Clístenes", "descricao": "Consolidação das bases da Democracia Direta na cidade de Atenas."},
-      {"ano": -27, "titulo": "Início do Império Romano", "descricao": "Caio Otávio recebe o título de Augusto, encerrando o período republicano."},
-      {"ano": 313, "titulo": "Édito de Milão", "descricao": "Imperador Constantino concede liberdade de culto aos cristãos no Império Romano."},
-      {"ano": 476, "titulo": "Queda de Roma", "descricao": "Deposição do último imperador romano do Ocidente, marcando o fim da Antiguidade."}
+      {
+        "ano": -1750,
+        "titulo": "Código de Hamurábi",
+        "descricao": "Compilação de leis escritas baseada no princípio de 'olho por olho, dente por dente'."
+      },
+      {
+        "ano": -508,
+        "titulo": "Reformas de Clístenes",
+        "descricao": "Consolidação das bases da Democracia Direta na cidade de Atenas."
+      },
+      {
+        "ano": -27,
+        "titulo": "Início do Império Romano",
+        "descricao": "Caio Otávio recebe o título de Augusto, encerrando o período republicano."
+      },
+      {
+        "ano": 313,
+        "titulo": "Édito de Milão",
+        "descricao": "Imperador Constantino concede liberdade de culto aos cristãos no Império Romano."
+      },
+      {
+        "ano": 476,
+        "titulo": "Queda de Roma",
+        "descricao": "Deposição do último imperador romano do Ocidente, marcando o fim da Antiguidade."
+      }
     ],
     "consequencias_imediatas": [
       "Fragmentação política da Europa Ocidental e surgimento dos reinos romano-germânicos.",
@@ -65,5 +85,92 @@
     },
     "continuidade": "Permanência de estruturas linguísticas latinas (línguas românicas) e princípios do direito clássico.",
     "rupturas": "Colapso do Estado centralizado romano no Ocidente e ruralização da economia."
+  },
+  {
+    "id": "geral-ant-02",
+    "titulo_principal": "CIVILIZAÇÕES DA ÁSIA ANTIGA: ÍNDIA, CHINA E PÉRSIA",
+    "ano_inicio": -2600,
+    "ano_fim": 476,
+    "periodo": "Antiguidade",
+    "local": "Sul, Leste e Oeste da Ásia",
+    "sociedades_envolvidas": "Sociedades do Vale do Indo, povos e reinos da Índia antiga, dinastias chinesas e Império Persa",
+    "tema": "Civilização do Vale do Indo, tradições védicas, Impérios Maurya e Gupta, dinastias Shang, Zhou, Qin e Han, Império Aquemênida e circulação pela Rota da Seda",
+    "contexto": "A Antiguidade também foi marcada por sociedades complexas na Ásia. Em diferentes épocas, comunidades urbanas, reinos e impérios desenvolveram formas próprias de organização política, produção agrícola, comércio, pensamento filosófico e religião. Essas experiências não foram isoladas: redes terrestres e marítimas conectaram regiões asiáticas e outras partes da Afro-Eurásia.",
+    "antecedentes": [
+      "Desenvolvimento de comunidades agrícolas e urbanas em vales fluviais, como os rios Indo, Ganges, Huang He e Yangtzé.",
+      "Formação de redes de troca entre regiões da Ásia Central, Sul da Ásia, Mesopotâmia e Mediterrâneo."
+    ],
+    "causas": {
+      "politicas": "A expansão de reinos e impérios esteve ligada à disputa por territórios, rotas comerciais, tributos e controle de populações diversas.",
+      "economicas": "Agricultura irrigada, artesanato, metalurgia e comércio sustentaram centros urbanos e estruturas estatais.",
+      "sociais": "Diferentes sociedades organizaram hierarquias, comunidades rurais, grupos mercantis e formas variadas de trabalho.",
+      "religiosas": "Tradições védicas, hinduísmo, budismo, confucionismo, taoismo e zoroastrismo influenciaram práticas sociais e instituições em diferentes contextos.",
+      "culturais": "Escrita, matemática, filosofia, literatura e conhecimentos técnicos desenvolveram-se em centros culturais diversos.",
+      "territoriais": "A expansão persa, a unificação de territórios chineses e a formação de grandes reinos indianos transformaram fronteiras e relações regionais.",
+      "tecnologias": "Sistemas de irrigação, metalurgia, estradas, técnicas agrícolas e produção de seda contribuíram para a organização econômica e política."
+    },
+    "resumo_card": "Apresenta sociedades antigas da Ásia: a civilização do Vale do Indo, as tradições e impérios da Índia, as dinastias chinesas e o Império Persa, destacando suas instituições, conhecimentos, religiões e redes de comércio.",
+    "desenvolvimento": "No sul da Ásia, cidades do Vale do Indo, como Harappa e Mohenjo-Daro, floresceram no terceiro milênio a.C. Em períodos posteriores, formaram-se tradições védicas e diferentes reinos; os impérios Maurya, especialmente sob Ashoka no século III a.C., e Gupta, que ganhou destaque a partir do século IV d.C., marcaram fases importantes da história indiana. Na China, dinastias como Shang e Zhou antecederam a unificação promovida por Qin Shi Huang em 221 a.C.; a dinastia Han consolidou instituições imperiais e ampliou conexões comerciais. No oeste da Ásia, o Império Aquemênida, fundado por Ciro II no século VI a.C., organizou vastos territórios por meio de satrapias e redes de estradas. Ao longo dos séculos, mercadores, viajantes e comunidades religiosas conectaram essas regiões por rotas terrestres e marítimas. Não existiu uma única trajetória asiática: cada sociedade passou por transformações próprias e manteve relações com vizinhos.",
+    "personagens": [
+      "Ashoka: governante Maurya do século III a.C., associado à expansão do budismo.",
+      "Qin Shi Huang: governante que unificou grande parte da China em 221 a.C.",
+      "Ciro II: fundador do Império Aquemênida no século VI a.C.",
+      "Confúcio: pensador chinês cujas ideias influenciaram tradições políticas e éticas."
+    ],
+    "grupos_envolvidos": [
+      "Comunidades urbanas e agrícolas do Vale do Indo",
+      "Reinos e impérios do subcontinente indiano",
+      "Dinastias e comunidades da China antiga",
+      "Persas e povos incorporados ao Império Aquemênida"
+    ],
+    "interesses_em_disputa": [
+      "Controle de terras agrícolas, rotas comerciais, tributos e centros urbanos.",
+      "Construção de legitimidade política e organização de sociedades culturalmente diversas."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": -2600,
+        "titulo": "Florescimento urbano do Vale do Indo",
+        "descricao": "Cidades como Harappa e Mohenjo-Daro desenvolveram planejamento urbano e redes de troca."
+      },
+      {
+        "ano": -550,
+        "titulo": "Expansão do Império Aquemênida",
+        "descricao": "Ciro II iniciou a formação de um grande império no oeste da Ásia."
+      },
+      {
+        "ano": -268,
+        "titulo": "Governo de Ashoka",
+        "descricao": "O imperador Maurya ampliou seu domínio e apoiou a difusão do budismo."
+      },
+      {
+        "ano": -221,
+        "titulo": "Unificação da China por Qin",
+        "descricao": "Qin Shi Huang estabeleceu um governo imperial unificado."
+      },
+      {
+        "ano": 206,
+        "titulo": "Consolidação da dinastia Han",
+        "descricao": "A dinastia Han fortaleceu instituições e conexões comerciais da China."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Formação de tradições políticas, religiosas e intelectuais que influenciaram sociedades asiáticas por muitos séculos.",
+      "Ampliação de redes de circulação de mercadorias, técnicas, conhecimentos e práticas religiosas."
+    ],
+    "consequencias_longo_prazo": [
+      "Influência duradoura de tradições filosóficas e religiosas, como budismo, hinduísmo, confucionismo e taoismo.",
+      "Contribuições para a história das instituições imperiais, da ciência, da matemática, da metalurgia e do comércio afro-eurasiático."
+    ],
+    "impactos": {
+      "politicos": "Experiências variadas de organização estatal, administração imperial e integração de territórios.",
+      "economicos": "Expansão da agricultura, do artesanato, das cidades e de redes comerciais de longa distância.",
+      "sociais": "Consolidação e transformação de hierarquias sociais, comunidades rurais e grupos mercantis.",
+      "culturais": "Produção de tradições filosóficas, religiosas, literárias e científicas de grande influência.",
+      "territoriais": "Mudanças de fronteiras e formação de grandes unidades políticas na Índia, China e Pérsia.",
+      "ambientais": "Irrigação, expansão agrícola e crescimento urbano transformaram paisagens e recursos hídricos."
+    },
+    "continuidade": "A agricultura, as redes de comércio e diferentes tradições religiosas e filosóficas permaneceram importantes, embora tenham mudado ao longo do tempo.",
+    "rupturas": "Unificações imperiais, mudanças dinásticas e novas formas de administração alteraram profundamente a organização política de diversas regiões."
   }
 ]
