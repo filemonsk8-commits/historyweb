@@ -311,61 +311,61 @@
     "local": "Território Nacional do Império",
     "sociedades_envolvidas": "Família Imperial, Elites Agrárias, Militares, Escravizados e Movimento Abolicionista",
     "tema": "Independência, D. Pedro I, Constituição de 1824, Confederação do Equador, Abdicação, Período Regencial (Cabanagem, Farroupilha, Sabinada, Balaiada), Golpe da Maioridade, D. Pedro II, Café, Lei Eusébio de Queirós, Lei de Terras, Guerra do Paraguai, Leis Abolicionistas e Proclamação da República",
-    "contexto": "Período monárquico constitucional que abrangeu a separação de Portugal (1822), a turbulenta regência com revoltas provinciais, o longo e modernizador Segundo Reinado de D. Pedro II, o ciclo do café, a abolição da escravidão e o colapso final do regime.",
+    "contexto": "Entre 1822 e 1889, o Brasil foi uma monarquia independente, marcada por disputas sobre centralização política, participação provincial, escravidão, propriedade da terra e organização do Estado. O período incluiu a consolidação da Independência, o Primeiro Reinado, as Regências, o Segundo Reinado, a expansão cafeeira, a Guerra do Paraguai e a abolição tardia da escravidão. A queda da monarquia resultou de uma crise política e institucional na qual atuaram diferentes setores, sem participação popular ampla na mudança de regime.",
     "antecedentes": [
-      "Exigências das cortes portuguesas em 1821 para que o Brasil retornasse à condição colonial."
+      "A Revolução Liberal do Porto (1820) e as decisões das Cortes portuguesas, que buscaram reorganizar o Império e reduzir a autonomia política adquirida pelo Brasil desde 1808, intensificaram conflitos entre grupos políticos dos dois lados do Atlântico."
     ],
     "causas": {
-      "politicas": "Autoritarismo de D. Pedro I (Dissolução da Constituinte de 1823), instabilidade regencial e crise final de sustentação do Segundo Reinado.",
-      "economicas": "Ascensão espetacular da economia cafeeira no Sudeste, substituição gradual do tráfico negreiro pelo trabalho livre e imigrante.",
-      "sociais": "Descontentamento popular nas revoltas regenciais, pressões internacionais britânicas pelo fim da escravidão e crescimento abolicionista.",
-      "religiosas": "Questão Religiosa envolvendo o conflito entre o Império e a Igreja Católica na década de 1870.",
-      "culturais": "Florescimento da literatura romântica, imprensa crítica e difusão de ideais republicanos e positivistas.",
-      "territoriais": "Guerra da Cisplatina e a vitoriosa, porém custosa, Guerra do Paraguai (1864–1870).",
-      "tecnologias": "Ferrovias, telégrafo, iluminação a gás e modernização portuária no Segundo Reinado."
+      "politicas": "Disputas sobre a organização do Estado independente, o poder do imperador, a autonomia das províncias e a participação política; no final do século, conflitos entre monarquia, setores militares, republicanos e grupos descontentes contribuíram para a crise do regime.",
+      "economicas": "Expansão da cafeicultura, especialmente no Sudeste, coexistindo com outras atividades regionais; manutenção da escravidão até 1888, transição desigual para formas de trabalho livre e mudanças nas relações comerciais e financeiras.",
+      "sociais": "Conflitos sociais e regionais durante as Regências, resistência de pessoas escravizadas, mobilização abolicionista e disputas entre grupos proprietários, trabalhadores livres, militares e setores urbanos.",
+      "religiosas": "A Questão Religiosa, na década de 1870, envolveu conflitos entre bispos católicos, maçonaria e governo imperial, em torno da autoridade eclesiástica e do padroado; não foi simplesmente um rompimento entre Igreja e Estado.",
+      "culturais": "Expansão da imprensa, do Romantismo e de instituições científicas e culturais, ao lado da circulação de ideias liberais, republicanas e abolicionistas; o acesso à educação e à cultura permaneceu profundamente desigual.",
+      "territoriais": "Conflitos na região platina, incluindo a Guerra da Cisplatina (1825–1828) e a Guerra do Paraguai (1864–1870), além de disputas internas sobre autonomia provincial e organização territorial.",
+      "tecnologias": "Expansão de ferrovias, navegação a vapor, telégrafo e iluminação a gás, sobretudo na segunda metade do século XIX, com distribuição regional desigual e vínculos com a economia exportadora."
     },
-    "resumo_card": "Abrange a Independência em 1822, Primeiro Reinado, Constituição de 1824, Confederação do Equador, abdicação em 1831, Período Regencial (Cabanagem, Farroupilha, Sabinada, Balaiada), Golpe da Maioridade (1840), Segundo Reinado, café, Lei Eusébio de Queirós (1850), Lei de Terras, Guerra do Paraguai, movimento abolicionista, Lei do Ventre Livre (1871), Lei dos Sexagenários (1885), Lei Áurea (1888) e Proclamação da República em 1889.",
-    "desenvolvimento": "D. Pedro I proclamou a Independência em 7 de setembro de 1822, outorgando a Constituição de 1824 (Poder Moderador). Seu autoritarismo gerou a Confederação do Equador e o levou a abdicar em 1831. Seguiu-se o Período Regencial, marcado por graves revoltas populares (Cabanagem, Farroupilha, Sabinada e Balaiada) e pelo Ato Adicional de 1834. Ante o caos, antecipou-se a maioridade de D. Pedro II em 1840, inaugurando o Segundo Reinado. O país enriqueceu com o café, enfrentou a Guerra do Paraguai (1864–1870), extinguiu o tráfico negreiro (1850) e avançou nas leis abolicionistas até a Lei Áurea de 1888. Isolado politicamente sem o apoio da Igreja, dos militares e dos barões do café, o Império caiu em 15 de novembro de 1889 com a Proclamação da República.",
+    "resumo_card": "O Império do Brasil (1822–1889) compreendeu a Independência, o Primeiro Reinado, as Regências e o Segundo Reinado. Foi marcado por disputas políticas, revoltas provinciais, expansão do café, Guerra do Paraguai, resistência e movimento abolicionista, leis graduais de emancipação e abolição da escravidão em 1888, antes da Proclamação da República em 1889.",
+    "desenvolvimento": "A Independência foi construída por conflitos e negociações entre 1821 e 1824, com declaração de separação em 1822, guerras em diferentes províncias e reconhecimento português em 1825. A Assembleia Constituinte foi dissolvida por D. Pedro I em 1823, e a Constituição de 1824 foi outorgada, estabelecendo quatro poderes, incluindo o Poder Moderador. A Confederação do Equador (1824) contestou o centralismo imperial e foi reprimida. A crise política e econômica contribuiu para a abdicação de D. Pedro I em 1831. Durante as Regências (1831–1840), disputas sobre centralização e autonomia provincial, tensões sociais e conflitos locais estiveram presentes em revoltas de características distintas, como Cabanagem, Farroupilha, Sabinada e Balaiada. A antecipação da maioridade de D. Pedro II, em 1840, iniciou o Segundo Reinado. A economia cafeeira cresceu, sustentada inicialmente em grande medida pelo trabalho escravizado, enquanto a Lei de Terras de 1850 regulou o acesso às terras públicas por compra e contribuiu para barreiras à posse por grupos pobres. A Lei Eusébio de Queirós (1850) reprimiu o tráfico transatlântico de africanos escravizados, mas não aboliu a escravidão. A Guerra do Paraguai (1864–1870) envolveu o Brasil, a Argentina e o Uruguai contra o Paraguai, em contexto de disputas regionais complexas. A mobilização abolicionista, as ações de pessoas escravizadas e libertas e as mudanças políticas contribuíram para a Lei do Ventre Livre (1871), a Lei dos Sexagenários (1885) e a Lei Áurea (1888), que aboliu juridicamente a escravidão sem garantir reparação ou inclusão social aos libertos. A crise da monarquia envolveu tensões militares, religiosas e políticas, além do avanço republicano. Em 15 de novembro de 1889, um movimento militar derrubou a monarquia e proclamou a República, sem consulta popular.",
     "personagens": [
-      "D. Pedro I: Primeiro Imperador do Brasil.",
-      "D. Pedro II: Segundo e último Imperador do Brasil.",
-      "Duque de Caxias: Comandante militar na Guerra do Paraguai e pacificador de revoltas.",
-      "Luís Gama, Joaquim Nabuco e André Rebouças: Líderes abolicionistas históricos."
+      "D. Pedro I: Primeiro imperador do Brasil; governou de 1822 a 1831, outorgou a Constituição de 1824 e abdicou em meio a uma crise política.",
+      "D. Pedro II: Segundo imperador, governou de 1840 a 1889, durante o período de expansão cafeeira, conflitos políticos, Guerra do Paraguai e abolição.",
+      "Luís Alves de Lima e Silva, Duque de Caxias: Militar que atuou na repressão de revoltas regenciais e comandou forças brasileiras na Guerra do Paraguai; sua atuação deve ser compreendida no contexto dos conflitos e das políticas imperiais.",
+      "Luís Gama, Joaquim Nabuco e André Rebouças: Intelectuais e militantes que atuaram, por caminhos distintos, na luta abolicionista; pessoas escravizadas e libertas também foram protagonistas centrais da resistência e da emancipação."
     ],
     "grupos_envolvidos": [
-      "Barões do Café e Elite Agrária",
-      "Militares Veteranos da Guerra do Paraguai",
-      "Movimento Abolicionista e Republicanos históricos"
+      "Proprietários rurais e comerciantes ligados à cafeicultura e a outras atividades econômicas, com posições diversas sobre escravidão, reformas e organização política.",
+      "Setores das Forças Armadas, cuja participação na política se ampliou especialmente após a Guerra do Paraguai, com diferentes posições diante da monarquia e da República.",
+      "Movimentos abolicionistas e republicanos, heterogêneos em composição e objetivos, ao lado de pessoas escravizadas, libertas e livres que organizaram fugas, revoltas, ações judiciais e outras formas de resistência."
     ],
     "interesses_em_disputa": [
-      "Manutenção ou abolição do trabalho escravo; centralização unitária versus federalismo provincial; monarquia versus república."
+      "Disputas entre centralização e autonomia provincial, monarquia e república, manutenção e abolição da escravidão, além de conflitos sobre terra, cidadania e participação política."
     ],
     "linha_do_tempo": [
-      {"ano": 1822, "titulo": "Independência do Brasil", "descricao": "Proclamação da separação política de Portugal."},
-      {"ano": 1824, "titulo": "Constituição Imperial", "descricao": "Outorga da primeira constituição brasileira com o Poder Moderador."},
-      {"ano": 1831, "titulo": "Abdicação de D. Pedro I", "descricao": "Início do instável Período Regencial."},
-      {"ano": 1840, "titulo": "Golpe da Maioridade", "descricao": "Início do Segundo Reinado sob D. Pedro II."},
-      {"ano": 1864, "titulo": "Guerra do Paraguai", "descricao": "Maior conflito armado internacional da América do Sul."},
-      {"ano": 1888, "titulo": "Abolição da Escravidão", "descricao": "Sanção da Lei Áurea pela Princesa Isabel."},
-      {"ano": 1889, "titulo": "Proclamação da República", "descricao": "Queda do Império liderada por setores militares e civis."}
+      {"ano": 1822, "titulo": "Independência do Brasil", "descricao": "D. Pedro anunciou a separação política de Portugal em meio a um processo que envolveu conflitos provinciais e negociações; a Independência foi reconhecida por Portugal em 1825."},
+      {"ano": 1824, "titulo": "Constituição Imperial", "descricao": "A Constituição foi outorgada por D. Pedro I após a dissolução da Assembleia Constituinte em 1823; estabeleceu quatro poderes, incluindo o Poder Moderador."},
+      {"ano": 1831, "titulo": "Abdicação de D. Pedro I", "descricao": "D. Pedro I abdicou em favor de seu filho, então criança; iniciou-se o governo regencial, com disputas políticas e revoltas em diferentes províncias."},
+      {"ano": 1840, "titulo": "Golpe da Maioridade", "descricao": "A maioridade de D. Pedro II foi antecipada por decisão política do Parlamento em 1840, encerrando o período regencial."},
+      {"ano": 1864, "titulo": "Guerra do Paraguai", "descricao": "Conflito regional entre Paraguai e a aliança formada por Brasil, Argentina e Uruguai, ocorrido entre 1864 e 1870, com enormes perdas humanas e materiais."},
+      {"ano": 1888, "titulo": "Abolição da Escravidão", "descricao": "A Lei Áurea, assinada pela princesa Isabel em 13 de maio de 1888, aboliu juridicamente a escravidão no Brasil, sem políticas amplas de reparação ou inclusão para a população liberta."},
+      {"ano": 1889, "titulo": "Proclamação da República", "descricao": "Movimento militar derrubou a monarquia e instaurou a República; a mudança ocorreu sem plebiscito ou participação popular ampla."}
     ],
     "consequencias_imediatas": [
-      "Banimento da família imperial para a Europa e estabelecimento do regime republicano presidencialista.",
-      "Descontentamento imediato dos antigos proprietários de escravos ('esquecidos' sem indenização), que aderiram ao golpe republicano."
+      "A família imperial foi afastada do poder e enviada ao exílio; o novo governo republicano iniciou a reorganização das instituições e adotou o regime federativo e presidencialista.",
+      "Setores de proprietários escravistas manifestaram descontentamento com a abolição sem indenização, mas a adesão de antigos senhores à República variou e não explica sozinha a queda do Império."
     ],
     "consequencias_longo_prazo": [
-      "Inserção dependente do Brasil na economia capitalista global como exportador primário de produtos agrícolas."
+      "A República herdou desigualdades sociais, concentração fundiária e uma economia ainda fortemente dependente da exportação de produtos primários; essas características tinham raízes anteriores e trajetórias posteriores próprias."
     ],
     "impactos": {
-      "politicos": "Transição pacífica aparente na cúpula, seguida pela exclusão popular da fundação republicana.",
-      "economicos": "Café como principal motor gerador de divisas e acumulação interna de capital.",
-      "sociais": "Abandono estatal dos recém-libertos após 1888, gerando exclusão socioeconômica estrutural.",
-      "culturais": "Afirmação de uma identidade nacional letrada, científica e literária imperial.",
-      "territoriais": "Definição pacífica de fronteiras com vizinhos sul-americanos através da diplomacia de Rio Branco e tratados.",
-      "ambientais": "Destruição generalizada de florestas no Oeste paulista e Vale do Paraíba para expansão cafeeira."
+      "politicos": "Consolidação de um Estado nacional monárquico e constitucional, com participação eleitoral restrita; a República foi instaurada por ação militar e civil em 1889, sem consulta popular.",
+      "economicos": "Expansão da cafeicultura e de infraestrutura de transporte e crédito, coexistindo com economias regionais diversas e com a escravidão até 1888.",
+      "sociais": "Manutenção de hierarquias raciais e sociais após a abolição, sem políticas abrangentes de redistribuição de terras, reparação ou inclusão da população liberta.",
+      "culturais": "Produção literária, científica e artística do século XIX, marcada por projetos de identidade nacional e também por disputas sobre raça, cidadania, escravidão e representação dos povos indígenas.",
+      "territoriais": "Consolidação gradual de fronteiras por conflitos, negociações e tratados ao longo do século XIX; a atuação diplomática de Rio Branco ocorreu principalmente durante a República, não no Império.",
+      "ambientais": "Expansão cafeeira contribuiu para desmatamento e transformação de paisagens, especialmente no Vale do Paraíba e no Oeste Paulista, em ritmos e escalas diferentes."
     },
-    "continuidade": "Concentração fundiária latifundiária e exclusão das maiorias populares dos processos decisórios formais.",
-    "rupturas": "Fim da monarquia dinástica e extinção legal do regime de trabalho escravo."
+    "continuidade": "Persistência da concentração fundiária, das hierarquias sociais e raciais e da exclusão de grande parte da população dos processos decisórios.",
+    "rupturas": "Independência política em relação a Portugal, abolição jurídica da escravidão em 1888 e fim da monarquia em 1889; cada transformação ocorreu em processos distintos e não eliminou desigualdades estruturais."
   },
 
   {
