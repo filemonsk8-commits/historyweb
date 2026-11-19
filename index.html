@@ -2081,14 +2081,14 @@
             seletor.innerHTML = '<option value="">Novo planejamento</option>' + data.map(item =>
                 '<option value="' + escaparTextoProfessor(item.id) + '">' + escaparTextoProfessor(item.title) + '</option>'
             ).join('');
-            document.getElementById('plano-carregar').addEventListener('click', () => {
+            document.getElementById('plano-carregar').onclick = () => {
                 const selecionado = data.find(item => item.id === seletor.value);
                 if (!selecionado) return;
                 planoProfessorAtualId = selecionado.id;
                 preencherPlanejamento(selecionado.plan_data || {});
                 document.getElementById('plano-status').textContent = 'Planejamento carregado. Faça alterações e salve para atualizar.';
-            });
-            document.getElementById('plano-excluir').addEventListener('click', async () => {
+            };
+            document.getElementById('plano-excluir').onclick = async () => {
                 if (!seletor.value) {
                     document.getElementById('plano-status').textContent = 'Selecione um planejamento para excluir.';
                     return;
@@ -2102,15 +2102,15 @@
                 document.getElementById('plano-status').textContent = 'Planejamento excluído.';
                 await carregarPlanejamentosProfessor(usuario);
                 preencherPlanejamento({});
-            });
-            document.getElementById('plano-novo').addEventListener('click', () => {
+            };
+            document.getElementById('plano-novo').onclick = () => {
                 planoProfessorAtualId = null;
                 seletor.value = '';
                 preencherPlanejamento({});
                 document.getElementById('plano-status').textContent = 'Novo planejamento.';
-            });
-            document.getElementById('plano-imprimir').addEventListener('click', () => window.print());
-            document.getElementById('form-planejador-aula').addEventListener('submit', async evento => {
+            };
+            document.getElementById('plano-imprimir').onclick = () => window.print();
+            document.getElementById('form-planejador-aula').onsubmit = async evento => {
                 evento.preventDefault();
                 const dados = obterDadosPlanejamento();
                 if (!dados.titulo.trim()) {
@@ -2138,7 +2138,7 @@
                 } finally {
                     botao.disabled = false;
                 }
-            });
+            };
         }
 
         async function entrarAreaProfessor(evento) {
