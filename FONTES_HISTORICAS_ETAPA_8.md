@@ -28,7 +28,7 @@ Criar no HistoryWeb uma área de consulta a acervos institucionais e uma orienta
 - A área apresenta portais de acervo e instrumentos de pesquisa, não atribui documentos específicos a acontecimentos sem comprovação.
 
 ## Offline
-A funcionalidade está incorporada ao `index.html`, que já integra o conjunto de recursos centrais do aplicativo. Assim, a interface e as descrições do catálogo ficam no próprio arquivo da aplicação; os portais externos e documentos hospedados por terceiros continuam dependendo de conexão.
+A funcionalidade está incorporada ao `index.html`, que já integra o conjunto de recursos centrais do aplicativo. O cache principal do service worker foi incrementado de `historyweb-pwa-v5` para `historyweb-pwa-v6`, garantindo que a instalação atualizada recarregue o `index.html` com o novo catálogo. O cache separado de mapas consultados permanece preservado pela regra de ativação existente. Assim, a interface e as descrições do catálogo ficam no próprio arquivo da aplicação; os portais externos e documentos hospedados por terceiros continuam dependendo de conexão.
 
 ## Preservação
 - Nenhum dos oito módulos históricos JSON foi modificado.
