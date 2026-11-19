@@ -128,5 +128,44 @@
     "autoria": "Milenioscuro",
     "licenca": "CC BY-SA 4.0",
     "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-goias-capitania-1751",
+    "evento_id": "brasil-colonial-mineracao-revoltas",
+    "titulo": "Limites da Capitania de Goiás (1751)",
+    "periodo": "Período colonial — século XVIII",
+    "contexto": "Reconstrução cartográfica moderna baseada em mapa histórico atribuído a Francesco Tosi Colombina. A imagem permite observar a extensão reivindicada para a Capitania de Goiás e discutir como os limites coloniais eram representados. Não deve ser interpretada como fronteira estadual atual nem como prova de ocupação efetiva e uniforme. O território era habitado por diferentes povos indígenas, cujas territorialidades não se reduziam às linhas administrativas coloniais.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Geral_dos_Limites_da_Capitania_de_Goi%C3%A1s.png?width=1280",
+    "alt": "Reconstrução cartográfica dos limites da Capitania de Goiás em 1751, com contorno territorial e localidades indicadas.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Mapa_Geral_dos_Limites_da_Capitania_de_Goi%C3%A1s.png",
+    "autoria": "Historiadorpúblico (reconstituição cartográfica moderna de mapa atribuído a Francesco Tosi Colombina)",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-goias-sesmarias-1739-1770",
+    "evento_id": "brasil-colonial-mineracao-revoltas",
+    "titulo": "Distribuição espacial das sesmarias na Capitania de Goiás",
+    "periodo": "1739–1770",
+    "contexto": "Mapa de pesquisa que representa a distribuição espacial das sesmarias entre 1739 e 1770, além de sedes do poder político-jurídico, cursos d'água e caminhos. Ajuda a discutir a ocupação colonial e a concessão de terras, sem confundir sesmarias com ocupação total do território ou ignorar a presença e os direitos dos povos indígenas.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Distribui%C3%A7%C3%A3o_Espacial_das_Sesmarias_da_Capitania_de_Goi%C3%A1s_%281770%29.jpg?width=1280",
+    "alt": "Mapa da Capitania de Goiás com a distribuição espacial das sesmarias entre 1739 e 1770, sedes administrativas, rios e caminhos.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Distribui%C3%A7%C3%A3o_Espacial_das_Sesmarias_da_Capitania_de_Goi%C3%A1s_(1770).jpg",
+    "autoria": "Pesquisa e concepção de Cristiano Alencar Arrais (2019); arquivo disponibilizado por Lucas F.A. Cruz",
+    "licenca": "CC BY 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "mapa-goias-territorio-1974",
+    "evento_id": "ditadura-civil-militar-1964-1985",
+    "titulo": "Estado de Goiás em 1974: configuração territorial anterior à criação do Tocantins",
+    "periodo": "Ditadura civil-militar — 1974",
+    "contexto": "Mapa de pesquisa baseado em dados cartográficos do IBGE de 1970, que representa Goiás em sua configuração territorial anterior à criação do Tocantins. A região que se tornou o Tocantins ainda integrava o estado goiano. A imagem permite comparar a extensão territorial daquele período com a divisão atual, mas não representa por si só o processo político de criação do novo estado em 1988.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_do_Estado_de_Goi%C3%A1s_em_1974.jpg?width=1280",
+    "alt": "Mapa do Estado de Goiás em 1974, com limites municipais e estaduais e elementos da organização territorial anterior à criação do Tocantins.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Mapa_do_Estado_de_Goi%C3%A1s_em_1974.jpg",
+    "autoria": "Elaboração de Juheina Lacerda Vieira Viana; pesquisa e concepção de Cristiano Alencar Arrais e David Maciel; fonte cartográfica: IBGE (1970)",
+    "licenca": "CC BY 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]
