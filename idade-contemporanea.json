@@ -37,11 +37,31 @@
       "Manutenção de privilégios aristocráticos versus consolidação dos direitos liberais burgueses e soberania nacional."
     ],
     "linha_do_tempo": [
-      {"ano": 1789, "titulo": "Revolução Francesa e Declaração de Direitos", "descricao": "Queda da Bastilha e proclamação dos direitos civis."},
-      {"ano": 1792, "titulo": "Proclamação da República", "descricao": "Fim da monarquia constitucional francesa."},
-      {"ano": 1793, "titulo": "Execução de Luís XVI e Período do Terror", "descricao": "Radicalização extrema e governo de exceção."},
-      {"ano": 1804, "titulo": "Império e Código Napoleônico", "descricao": "Napoleão torna-se imperador e consolida o código civil."},
-      {"ano": 1815, "titulo": "Waterloo e Congresso de Viena", "descricao": "Queda definitiva de Napoleão e restauração conservadora."}
+      {
+        "ano": 1789,
+        "titulo": "Revolução Francesa e Declaração de Direitos",
+        "descricao": "Queda da Bastilha e proclamação dos direitos civis."
+      },
+      {
+        "ano": 1792,
+        "titulo": "Proclamação da República",
+        "descricao": "Fim da monarquia constitucional francesa."
+      },
+      {
+        "ano": 1793,
+        "titulo": "Execução de Luís XVI e Período do Terror",
+        "descricao": "Radicalização extrema e governo de exceção."
+      },
+      {
+        "ano": 1804,
+        "titulo": "Império e Código Napoleônico",
+        "descricao": "Napoleão torna-se imperador e consolida o código civil."
+      },
+      {
+        "ano": 1815,
+        "titulo": "Waterloo e Congresso de Viena",
+        "descricao": "Queda definitiva de Napoleão e restauração conservadora."
+      }
     ],
     "consequencias_imediatas": [
       "Tentativa de restauração do Antigo Regime absolutista na Europa pelas potências vencedoras.",
@@ -61,7 +81,6 @@
     "continuidade": "Desigualdades sociais econômicas persistentes apesar da igualdade jurídica formal.",
     "rupturas": "Destruição estrutural das bases jurídicas e sociais do feudalismo europeu remanescente."
   },
-
   {
     "id": "seculo-xix-industrializacao-nacionalismos",
     "titulo_principal": "SÉCULO XIX: INDUSTRIALIZAÇÃO, MOVIMENTOS SOCIAIS E UNIFICAÇÕES",
@@ -100,8 +119,16 @@
       "Direitos trabalhistas e sociais versus exploração capitalista; soberania nacional unificada."
     ],
     "linha_do_tempo": [
-      {"ano": 1848, "titulo": "Manifesto Comunista e Revoluções Liberais", "descricao": "Publicação marxista e sublevações da 'Primavera dos Povos'."},
-      {"ano": 1871, "titulo": "Formação do Império Alemão", "descricao": "Consolidação da unificação germânica sob liderança prusiana."}
+      {
+        "ano": 1848,
+        "titulo": "Manifesto Comunista e Revoluções Liberais",
+        "descricao": "Publicação marxista e sublevações da 'Primavera dos Povos'."
+      },
+      {
+        "ano": 1871,
+        "titulo": "Formação do Império Alemão",
+        "descricao": "Consolidação da unificação germânica sob liderança prusiana."
+      }
     ],
     "consequencias_imediatas": [
       "Surgimento de leis trabalhistas iniciais e fortalecimento de partidos socialistas e sindicatos na Europa.",
@@ -121,7 +148,6 @@
     "continuidade": "Exploração do trabalho assalariado e expansão contínua do maquinismo tecnológico.",
     "rupturas": "Superação das formas artesanais de produção e fim da fragmentação política medieval em Estados centrais europeus."
   },
-
   {
     "id": "americas-independencias-seculo-xix",
     "titulo_principal": "AS AMÉRICAS NO SÉCULO XIX: INDEPENDÊNCIAS E A GUERRA CIVIL AMERICANA",
@@ -160,10 +186,26 @@
       "Abolição da escravidão, soberania nacional republicana e hegemonia comercial no continente."
     ],
     "linha_do_tempo": [
-      {"ano": 1804, "titulo": "Independência do Haiti", "descricao": "Primeira nação livre de escravizados nas Américas."},
-      {"ano": 1821, "titulo": "Independência do México", "descricao": "Emancipação mexicana definitiva."},
-      {"ano": 1823, "titulo": "Doutrina Monroe", "descricao": "Diretriz externa dos EUA no continente americano."},
-      {"ano": 1865, "titulo": "Fim da Guerra Civil e Abolição nos EUA", "descricao": "Preservação da União e fim legal da escravidão norte-americana."}
+      {
+        "ano": 1804,
+        "titulo": "Independência do Haiti",
+        "descricao": "Primeira nação livre de escravizados nas Américas."
+      },
+      {
+        "ano": 1821,
+        "titulo": "Independência do México",
+        "descricao": "Emancipação mexicana definitiva."
+      },
+      {
+        "ano": 1823,
+        "titulo": "Doutrina Monroe",
+        "descricao": "Diretriz externa dos EUA no continente americano."
+      },
+      {
+        "ano": 1865,
+        "titulo": "Fim da Guerra Civil e Abolição nos EUA",
+        "descricao": "Preservação da União e fim legal da escravidão norte-americana."
+      }
     ],
     "consequencias_imediatas": [
       "Fragmentação do império espanhol em diversas repúblicas independentes.",
@@ -183,7 +225,6 @@
     "continuidade": "Estruturas agrárias latifundiárias concentradoras de renda na América Latina.",
     "rupturas": "Rompimento do vínculo colonial de submissão política direta às metrópoles europeias."
   },
-
   {
     "id": "imperialismo-segunda-revolucao-industrial",
     "titulo_principal": "SEGUNDA REVOLUÇÃO INDUSTRIAL E O IMPERIALISMO (NEOCOLONIALISMO)",
@@ -221,8 +262,16 @@
       "Domínio de jazidas minerais, ferrovias transcontinentais, cinema, tecnologia industrial e mercados globais cativos."
     ],
     "linha_do_tempo": [
-      {"ano": 1884, "titulo": "Conferência de Berlim", "descricao": "Regulamentação europeia da partilha arbitrária do continente africano."},
-      {"ano": 1907, "titulo": "Tríplice Entente", "descricao": "Consolidação da aliança militar entre Reino Unido, França e Rússia contra o bloco central."}
+      {
+        "ano": 1884,
+        "titulo": "Conferência de Berlim",
+        "descricao": "Regulamentação europeia da partilha arbitrária do continente africano."
+      },
+      {
+        "ano": 1907,
+        "titulo": "Tríplice Entente",
+        "descricao": "Consolidação da aliança militar entre Reino Unido, França e Rússia contra o bloco central."
+      }
     ],
     "consequencias_imediatas": [
       "Subjugação e destruição violenta de sociedades tradicionais na África e na Ásia.",
@@ -242,7 +291,6 @@
     "continuidade": "Divisão internacional do trabalho entre países exportadores de matérias-primas e potências industriais.",
     "rupturas": "Substituição do colonialismo mercantilista tradicional pelo imperialismo financeiro e industrial monopolista."
   },
-
   {
     "id": "guerras-e-revolucoes-1914-1945",
     "titulo_principal": "GUERRAS E REVOLUÇÕES (1914–1945): DA PRIMEIRA GUERRA À SEGUNDA GUERRA MUNDIAL",
@@ -281,12 +329,36 @@
       "Hegemonia geopolítica mundial, mercados coloniais e sobrevivência de sistemas democráticos versus totalitários."
     ],
     "linha_do_tempo": [
-      {"ano": 1914, "titulo": "Início da Primeira Guerra Mundial", "descricao": "Conflito industrializado entre potências europeias."},
-      {"ano": 1917, "titulo": "Revolução Russa", "descricao": "Queda do czarismo e triunfo bolchevique."},
-      {"ano": 1919, "titulo": "Tratado de Versalhes e Liga das Nações", "descricao": "Acordos punitivos e pacto internacional de paz."},
-      {"ano": 1929, "titulo": "Grande Depressão", "descricao": "Quebra da Bolsa de Nova York e crise econômica global."},
-      {"ano": 1939, "titulo": "Início da Segunda Guerra Mundial", "descricao": "Invasão da Polônia pela Alemanha nazista."},
-      {"ano": 1945, "titulo": "Fim da Segunda Guerra e Criação da ONU", "descricao": "Rendição das potências do Eixo, bombas atômicas e fundação das Nações Unidas."}
+      {
+        "ano": 1914,
+        "titulo": "Início da Primeira Guerra Mundial",
+        "descricao": "Conflito industrializado entre potências europeias."
+      },
+      {
+        "ano": 1917,
+        "titulo": "Revolução Russa",
+        "descricao": "Queda do czarismo e triunfo bolchevique."
+      },
+      {
+        "ano": 1919,
+        "titulo": "Tratado de Versalhes e Liga das Nações",
+        "descricao": "Acordos punitivos e pacto internacional de paz."
+      },
+      {
+        "ano": 1929,
+        "titulo": "Grande Depressão",
+        "descricao": "Quebra da Bolsa de Nova York e crise econômica global."
+      },
+      {
+        "ano": 1939,
+        "titulo": "Início da Segunda Guerra Mundial",
+        "descricao": "Invasão da Polônia pela Alemanha nazista."
+      },
+      {
+        "ano": 1945,
+        "titulo": "Fim da Segunda Guerra e Criação da ONU",
+        "descricao": "Rendição das potências do Eixo, bombas atômicas e fundação das Nações Unidas."
+      }
     ],
     "consequencias_imediatas": [
       "Dezenas de milhões de mortos civis e militares, destruição urbana generalizada na Europa e Ásia.",
@@ -306,7 +378,6 @@
     "continuidade": "Disputas de poder geopolítico imperialista entre grandes nações industrializadas.",
     "rupturas": "Colapso do protagonismo global europeu tradicional e invenção da capacidade de autoextinção da humanidade por armas nucleares."
   },
-
   {
     "id": "guerra-fria-descolonizacao",
     "titulo_principal": "A GUERRA FRIA E A DESCOLONIZAÇÃO DA ÁFRICA E DA ÁSIA",
@@ -345,12 +416,36 @@
       "Hegemonia militar e influência geopolítica, controle de áreas estratégicas e expansão ou contenção de projetos políticos e econômicos concorrentes."
     ],
     "linha_do_tempo": [
-      {"ano": 1947, "titulo": "Doutrina Truman e Independência da Índia", "descricao": "Início da contenção soviética e fim do domínio britânico na Índia."},
-      {"ano": 1955, "titulo": "Conferência de Bandung", "descricao": "Articulação das nações afro-asiáticas recém-independentes."},
-      {"ano": 1962, "titulo": "Crise dos Mísseis em Cuba", "descricao": "O momento mais próximo de uma guerra nuclear aberta."},
-      {"ano": 1969, "titulo": "Chegada do Homem à Lua", "descricao": "Marco supremo da corrida espacial americana."},
-      {"ano": 1989, "titulo": "Queda do Muro de Berlim", "descricao": "Símbolo do fim da divisão da Europa."},
-      {"ano": 1991, "titulo": "Fim da União Soviética", "descricao": "Dissolvimento oficial da URSS e encerramento da Guerra Fria."}
+      {
+        "ano": 1947,
+        "titulo": "Doutrina Truman e Independência da Índia",
+        "descricao": "Início da contenção soviética e fim do domínio britânico na Índia."
+      },
+      {
+        "ano": 1955,
+        "titulo": "Conferência de Bandung",
+        "descricao": "Articulação das nações afro-asiáticas recém-independentes."
+      },
+      {
+        "ano": 1962,
+        "titulo": "Crise dos Mísseis em Cuba",
+        "descricao": "O momento mais próximo de uma guerra nuclear aberta."
+      },
+      {
+        "ano": 1969,
+        "titulo": "Chegada do Homem à Lua",
+        "descricao": "Marco supremo da corrida espacial americana."
+      },
+      {
+        "ano": 1989,
+        "titulo": "Queda do Muro de Berlim",
+        "descricao": "Símbolo do fim da divisão da Europa."
+      },
+      {
+        "ano": 1991,
+        "titulo": "Fim da União Soviética",
+        "descricao": "Dissolvimento oficial da URSS e encerramento da Guerra Fria."
+      }
     ],
     "consequencias_imediatas": [
       "Fim da ordem bipolar e fortalecimento internacional do capitalismo liberal nos anos 1990, sem eliminar conflitos, desigualdades ou experiências políticas e econômicas alternativas.",
@@ -370,7 +465,6 @@
     "continuidade": "Desigualdade estrutural histórica entre países desenvolvidos e as nações do Sul Global.",
     "rupturas": "Colapso estrutural definitivo do bloco socialista soviético europeu."
   },
-
   {
     "id": "transformacoes-sociais-culturais-seculo-xx",
     "titulo_principal": "TRANSFORMAÇÕES SOCIAIS, CULTURAIS E MOVIMENTOS DE 1968",
@@ -408,8 +502,16 @@
       "Igualdade civil perante a lei, autonomia dos corpos, paz internacional e liberdade de costumes."
     ],
     "linha_do_tempo": [
-      {"ano": 1963, "titulo": "Marcha sobre Washington", "descricao": "Discurso histórico 'I Have a Dream' de Martin Luther King Jr."},
-      {"ano": 1968, "titulo": "Protestos Globais de 1968", "descricao": "Auge das revoltas estudantis na Europa, Américas e Ásia."}
+      {
+        "ano": 1963,
+        "titulo": "Marcha sobre Washington",
+        "descricao": "Discurso histórico 'I Have a Dream' de Martin Luther King Jr."
+      },
+      {
+        "ano": 1968,
+        "titulo": "Protestos Globais de 1968",
+        "descricao": "Auge das revoltas estudantis na Europa, Américas e Ásia."
+      }
     ],
     "consequencias_imediatas": [
       "Aprovação de leis federais contra a segregação racial nos EUA (Civil Rights Act de 1964).",
@@ -429,7 +531,6 @@
     "continuidade": "Preconceitos estruturais persistentes e lutas contínuas por equidade plena de gênero e raça.",
     "rupturas": "Fim da hegemonia moral conservadora estrita sobre a vida privada e familiar no Ocidente."
   },
-
   {
     "id": "globalizacao-tecnologia-fim-seculo-xx",
     "titulo_principal": "GLOBALIZAÇÃO, REVOLUÇÃO INFORMÁTICA E O FIM DO SÉCULO XX",
@@ -468,11 +569,31 @@
       "Livre mercado financeiro global versus soberania estatal de proteção social e regulação trabalhista."
     ],
     "linha_do_tempo": [
-      {"ano": 1979, "titulo": "Revolução Iraniana", "descricao": "Instauração de república teocrática islâmica no Irã."},
-      {"ano": 1989, "titulo": "Criação da World Wide Web", "descricao": "Invenção da rede mundial de computadores por Tim Berners-Lee."},
-      {"ano": 1990, "titulo": "Reunificação da Alemanha", "descricao": "Fim simbólico definitivo da divisão alemã da Guerra Fria."},
-      {"ano": 1994, "titulo": "Fim do Apartheid e Eleição de Mandela", "descricao": "Eleição histórica na África do Sul rumo à democracia multirracial."},
-      {"ano": 1999, "titulo": "Criação do Euro", "descricao": "Unificação da moeda europeia no bloco econômico."}
+      {
+        "ano": 1979,
+        "titulo": "Revolução Iraniana",
+        "descricao": "Instauração de república teocrática islâmica no Irã."
+      },
+      {
+        "ano": 1989,
+        "titulo": "Criação da World Wide Web",
+        "descricao": "Invenção da rede mundial de computadores por Tim Berners-Lee."
+      },
+      {
+        "ano": 1990,
+        "titulo": "Reunificação da Alemanha",
+        "descricao": "Fim simbólico definitivo da divisão alemã da Guerra Fria."
+      },
+      {
+        "ano": 1994,
+        "titulo": "Fim do Apartheid e Eleição de Mandela",
+        "descricao": "Eleição histórica na África do Sul rumo à democracia multirracial."
+      },
+      {
+        "ano": 1999,
+        "titulo": "Criação do Euro",
+        "descricao": "Unificação da moeda europeia no bloco econômico."
+      }
     ],
     "consequencias_imediatas": [
       "Aceleração vertiginosa das trocas comerciais, financeiras e informacionais em tempo real pelo planeta.",
@@ -491,5 +612,112 @@
     },
     "continuidade": "Busca capitalista por novos mercados e expansão contínua da produtividade técnica.",
     "rupturas": "Passagem da era industrial mecânica para a era da informação digital em rede global."
+  },
+  {
+    "id": "seculo-xxi-globalizacao-crises-tecnologia-2001-2026",
+    "titulo_principal": "SÉCULO XXI (2001–2026): GLOBALIZAÇÃO, CRISES, TECNOLOGIA E DESAFIOS CONTEMPORÂNEOS",
+    "ano_inicio": 2001,
+    "ano_fim": 2026,
+    "periodo": "História Contemporânea — século XXI",
+    "local": "Escala global, com processos e impactos regionais distintos",
+    "sociedades_envolvidas": "Sociedades, Estados, organizações internacionais, empresas transnacionais, movimentos sociais e comunidades de diferentes regiões do mundo",
+    "tema": "Atentados de 11 de setembro, guerras no Afeganistão e Iraque, crise financeira de 2008, Primavera Árabe, ascensão da China, mudanças climáticas, pandemia de COVID-19, redes digitais, inteligência artificial e conflitos geopolíticos",
+    "contexto": "O século XXI intensificou conexões econômicas, políticas, culturais e tecnológicas, mas seus efeitos foram desiguais. Crises financeiras, conflitos armados, mobilizações sociais, mudanças climáticas, pandemias e transformações digitais passaram a atravessar fronteiras. A história recente não segue uma trajetória única: diferentes regiões enfrentam desafios específicos e participam da reorganização da ordem internacional.",
+    "antecedentes": [
+      "Expansão da globalização econômica, das tecnologias digitais e das redes de comunicação nas últimas décadas do século XX.",
+      "Fim da Guerra Fria e transformações na ordem internacional, com novas disputas de poder e fortalecimento de atores estatais e não estatais."
+    ],
+    "causas": {
+      "politicas": "A reorganização das relações internacionais após a Guerra Fria, a atuação de potências globais e regionais, o crescimento de organizações multilaterais e a emergência de novos conflitos redefiniram alianças e disputas.",
+      "economicas": "A integração dos mercados, a expansão das cadeias globais de produção, a financeirização, a ascensão econômica chinesa e as crises de 2008 e posteriores alteraram relações de trabalho, comércio e desenvolvimento.",
+      "sociais": "Migrações, desigualdades, mobilizações por direitos, protestos contra regimes autoritários e debates sobre gênero, raça, trabalho e participação política marcaram diferentes sociedades.",
+      "religiosas": "Identidades e movimentos religiosos participaram de debates públicos e conflitos em contextos variados; não se deve confundir religiões inteiras com organizações extremistas ou decisões de governos.",
+      "culturais": "Redes sociais, plataformas de streaming e circulação digital ampliaram a produção cultural e a comunicação, mas também facilitaram a desinformação, a vigilância e a polarização.",
+      "territoriais": "Conflitos no Oriente Médio, na Europa Oriental e em outras regiões, disputas marítimas, deslocamentos populacionais e pressões sobre territórios e recursos naturais evidenciam tensões geopolíticas.",
+      "tecnologias": "Telefonia móvel, computação em nuvem, redes sociais, biotecnologia e inteligência artificial transformaram comunicação, ciência, economia e trabalho, ao mesmo tempo que ampliaram debates sobre privacidade, regulação e desigualdade de acesso."
+    },
+    "resumo_card": "O século XXI reúne mudanças na ordem mundial, guerras e crises, mobilizações sociais, transformações digitais e desafios ambientais e sanitários. Seus processos são globais, mas produzem efeitos diferentes conforme as condições históricas de cada sociedade.",
+    "desenvolvimento": "Os atentados de 11 de setembro de 2001 nos Estados Unidos foram seguidos pela invasão do Afeganistão, liderada pelos EUA e aliados, e pela guerra do Iraque iniciada em 2003, com consequências duradouras para a região e para a política internacional. A crise financeira de 2007–2008, iniciada no mercado imobiliário e financeiro dos Estados Unidos, espalhou-se internacionalmente e expôs fragilidades do sistema financeiro global. A partir de 2010, mobilizações conhecidas como Primavera Árabe contestaram governos e condições sociais em países do norte da África e do Oriente Médio, produzindo resultados distintos: mudanças de governo, guerras, repressão e processos de transição. A China ampliou sua influência econômica e diplomática, enquanto fóruns como o G20 e os BRICS ganharam relevância nos debates sobre governança global. A crise climática tornou-se cada vez mais visível em negociações internacionais, políticas energéticas e eventos extremos; o Acordo de Paris foi adotado em 2015. A pandemia de COVID-19, reconhecida como pandemia pela Organização Mundial da Saúde em março de 2020, provocou milhões de mortes, mudanças no trabalho e na educação e profundas consequências sociais e econômicas. Em 2022, a invasão em larga escala da Ucrânia pela Rússia reconfigurou a segurança europeia e provocou efeitos internacionais sobre energia, alimentos e deslocamentos. Em 7 de outubro de 2023, ataques liderados pelo Hamas contra Israel foram seguidos por uma ofensiva militar israelense na Faixa de Gaza, com grave crise humanitária, destruição e deslocamento de civis; o conflito deve ser compreendido em seu contexto histórico mais amplo e sem apagar a diversidade de experiências palestinas e israelenses. Paralelamente, plataformas digitais e sistemas de inteligência artificial generativa passaram a influenciar comunicação, trabalho, educação e disputas sobre direitos, regulação e concentração de poder. Esses acontecimentos não encerram a história do século XXI: são processos em desenvolvimento, com interpretações e consequências ainda em debate.",
+    "personagens": [
+      "George W. Bush: presidente dos Estados Unidos durante os atentados de 11 de setembro de 2001 e o início das guerras no Afeganistão e no Iraque.",
+      "Xi Jinping: dirigente da China desde 2012, período de ampliação da presença internacional chinesa.",
+      "Greta Thunberg: ativista cuja mobilização, iniciada em 2018, contribuiu para dar visibilidade internacional às reivindicações por ação climática."
+    ],
+    "grupos_envolvidos": [
+      "Estados, organizações internacionais e alianças político-militares, com interesses e capacidades desiguais.",
+      "Movimentos sociais, organizações humanitárias, grupos ambientalistas e coletivos por direitos civis e democráticos.",
+      "Empresas de tecnologia, trabalhadores, pesquisadores e comunidades afetadas pela digitalização e pela inteligência artificial."
+    ],
+    "interesses_em_disputa": [
+      "Segurança, soberania, influência geopolítica, recursos naturais e controle de territórios.",
+      "Distribuição de riqueza, regulação financeira, direitos sociais, proteção ambiental e acesso às tecnologias.",
+      "Liberdade de expressão, privacidade, combate à desinformação e responsabilidade de plataformas digitais."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": 2001,
+        "titulo": "Atentados de 11 de setembro",
+        "descricao": "Ataques terroristas nos Estados Unidos foram seguidos pela chamada Guerra ao Terror e por intervenções militares no Afeganistão."
+      },
+      {
+        "ano": 2003,
+        "titulo": "Invasão do Iraque",
+        "descricao": "Uma coalizão liderada pelos Estados Unidos invadiu o Iraque; a guerra e a ocupação provocaram instabilidade e consequências duradouras."
+      },
+      {
+        "ano": 2008,
+        "titulo": "Crise financeira global",
+        "descricao": "A crise iniciada no sistema financeiro dos Estados Unidos espalhou-se pelo mundo e provocou recessão, desemprego e respostas estatais distintas."
+      },
+      {
+        "ano": 2011,
+        "titulo": "Primavera Árabe",
+        "descricao": "Protestos e mobilizações no norte da África e no Oriente Médio contestaram regimes e condições sociais, com desfechos diferentes em cada país."
+      },
+      {
+        "ano": 2015,
+        "titulo": "Acordo de Paris",
+        "descricao": "Países adotaram um acordo internacional para enfrentar as mudanças climáticas, com metas nacionais e mecanismos de acompanhamento."
+      },
+      {
+        "ano": 2020,
+        "titulo": "Pandemia de COVID-19",
+        "descricao": "A OMS caracterizou a COVID-19 como pandemia em março; a crise afetou a saúde, a economia, a educação e a vida social em escala mundial."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Invasão em larga escala da Ucrânia",
+        "descricao": "A Rússia iniciou uma invasão em larga escala da Ucrânia, intensificando a guerra e provocando repercussões internacionais."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Popularização da inteligência artificial generativa",
+        "descricao": "Ferramentas generativas tornaram-se amplamente acessíveis ao público e intensificaram debates sobre trabalho, educação, direitos e regulação."
+      },
+      {
+        "ano": 2023,
+        "titulo": "Escalada da guerra em Gaza",
+        "descricao": "Os ataques liderados pelo Hamas em 7 de outubro foram seguidos pela ofensiva israelense em Gaza e por grave crise humanitária."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Aumento de deslocamentos forçados, crises humanitárias e insegurança em regiões atingidas por guerras e instabilidade política.",
+      "Reorganização de cadeias produtivas, políticas econômicas e relações de trabalho após crises financeiras e sanitárias.",
+      "Ampliação do debate público sobre mudanças climáticas, governança digital, privacidade e regulação da inteligência artificial."
+    ],
+    "consequencias_longo_prazo": [
+      "As consequências das guerras, da crise climática, da pandemia e das transformações tecnológicas continuam em desenvolvimento e variam entre regiões e grupos sociais.",
+      "A ordem internacional tornou-se mais complexa, com disputas entre potências, fortalecimento de atores regionais e questionamentos sobre instituições multilaterais."
+    ],
+    "impactos": {
+      "politicos": "Reconfiguração de alianças e conflitos, fortalecimento de debates sobre soberania, segurança, democracia e governança internacional.",
+      "economicos": "Crises financeiras e sanitárias, expansão de cadeias globais, transformações do trabalho e concentração de poder em setores digitais.",
+      "sociais": "Desigualdades persistentes, migrações, efeitos da pandemia e novas mobilizações por direitos e justiça social.",
+      "culturais": "Comunicação em rede, circulação cultural acelerada e disputas sobre desinformação, privacidade e liberdade de expressão.",
+      "territoriais": "Guerras, deslocamentos, disputas por recursos e impactos desiguais de eventos climáticos extremos.",
+      "ambientais": "Aquecimento global, perda de biodiversidade e pressão sobre recursos naturais ampliaram a urgência de políticas de mitigação e adaptação."
+    },
+    "continuidade": "Persistem desigualdades históricas, disputas por poder e recursos e a busca por direitos e participação política, embora em contextos tecnológicos e geopolíticos transformados.",
+    "rupturas": "A digitalização em larga escala, a pandemia e a intensificação de crises geopolíticas e climáticas modificaram práticas sociais e relações internacionais, sem eliminar estruturas anteriores."
   }
 ]
