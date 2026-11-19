@@ -73,3 +73,7 @@ Cada documento inclui instituição responsável, ano, tipo documental, explica�
 - Busca integrada aos acervos e documentos.
 - Campos textuais dos cartões escapados antes da renderização.
 - Os oito módulos JSON históricos permanecem sem alterações.
+
+
+## Associação aos registros do HistoryWeb
+Cada um dos oito documentos adicionais inclui internamente o módulo de referência e o identificador do acontecimento correspondente em `brasil.json`. A verificação confirmou que os oito identificadores existem no módulo e que os 13 registros originais permanecem preservados.
