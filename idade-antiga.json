@@ -110,7 +110,7 @@
       "tecnologias": "Sistemas de irrigação, metalurgia, estradas, técnicas agrícolas e produção de seda contribuíram para a organização econômica e política."
     },
     "resumo_card": "Apresenta sociedades antigas da Ásia: a civilização do Vale do Indo, as tradições e impérios da Índia, as dinastias chinesas e o Império Persa, destacando suas instituições, conhecimentos, religiões e redes de comércio.",
-    "desenvolvimento": "No sul da Ásia, cidades do Vale do Indo, como Harappa e Mohenjo-Daro, floresceram no terceiro milênio a.C. Em períodos posteriores, formaram-se tradições védicas e diferentes reinos; os impérios Maurya, especialmente sob Ashoka no século III a.C., e Gupta, entre os séculos IV e VI d.C., marcaram fases importantes da história indiana. Na China, dinastias como Shang e Zhou antecederam a unificação promovida por Qin Shi Huang em 221 a.C.; a dinastia Han consolidou instituições imperiais e ampliou conexões comerciais. No oeste da Ásia, o Império Aquemênida, fundado por Ciro II no século VI a.C., organizou vastos territórios por meio de satrapias e redes de estradas. Ao longo dos séculos, mercadores, viajantes e comunidades religiosas conectaram essas regiões por rotas terrestres e marítimas. Não existiu uma única trajetória asiática: cada sociedade passou por transformações próprias e manteve relações com vizinhos.",
+    "desenvolvimento": "No sul da Ásia, cidades do Vale do Indo, como Harappa e Mohenjo-Daro, floresceram no terceiro milênio a.C. Em períodos posteriores, formaram-se tradições védicas e diferentes reinos; os impérios Maurya, especialmente sob Ashoka no século III a.C., e Gupta, que ganhou destaque a partir do século IV d.C., marcaram fases importantes da história indiana. Na China, dinastias como Shang e Zhou antecederam a unificação promovida por Qin Shi Huang em 221 a.C.; a dinastia Han consolidou instituições imperiais e ampliou conexões comerciais. No oeste da Ásia, o Império Aquemênida, fundado por Ciro II no século VI a.C., organizou vastos territórios por meio de satrapias e redes de estradas. Ao longo dos séculos, mercadores, viajantes e comunidades religiosas conectaram essas regiões por rotas terrestres e marítimas. Não existiu uma única trajetória asiática: cada sociedade passou por transformações próprias e manteve relações com vizinhos.",
     "personagens": [
       "Ashoka: governante Maurya do século III a.C., associado à expansão do budismo.",
       "Qin Shi Huang: governante que unificou grande parte da China em 221 a.C.",
@@ -139,14 +139,14 @@
         "descricao": "Ciro II iniciou a formação de um grande império no oeste da Ásia."
       },
       {
-        "ano": -221,
-        "titulo": "Unificação da China por Qin",
-        "descricao": "Qin Shi Huang estabeleceu um governo imperial unificado."
-      },
-      {
         "ano": -268,
         "titulo": "Governo de Ashoka",
         "descricao": "O imperador Maurya ampliou seu domínio e apoiou a difusão do budismo."
+      },
+      {
+        "ano": -221,
+        "titulo": "Unificação da China por Qin",
+        "descricao": "Qin Shi Huang estabeleceu um governo imperial unificado."
       },
       {
         "ano": 206,
