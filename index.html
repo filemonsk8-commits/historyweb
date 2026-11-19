@@ -2313,8 +2313,110 @@ h1 { margin: 8px 0 4px; color: #17365d; font: bold 20pt/1.2 Georgia, serif; }
                         <p>${escaparTextoProfessor(item.correction_guidance)}</p>
                         <h4>Critérios de avaliação</h4>
                         <ul class="gabarito-rubrica">${rubricaHtml}</ul>
+                        <div class="professor-recurso-acoes" aria-label="Ações do gabarito">
+                            <button type="button" data-baixar-gabarito="${escaparTextoProfessor(item.id)}">Baixar gabarito .txt</button>
+                            <button type="button" data-imprimir-gabarito="${escaparTextoProfessor(item.id)}">Imprimir / salvar em PDF</button>
+                        </div>
                     </details>`;
             }).join('') : '<p>Os gabaritos serão cadastrados nesta área protegida.</p>';
+            const textoGabarito = item => {
+                const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
+                const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
+                const linhas = [
+                    item.activity_title || item.event_id || 'Gabarito',
+                    'Módulo: ' + (item.module_slug || ''),
+                    '',
+                    'GABARITO ORIENTADOR',
+                    'As respostas podem variar, desde que apresentem argumentos coerentes e evidências pertinentes.',
+                    ''
+                ];
+                respostas.forEach((resposta, indice) => {
+                    const pergunta = atividade?.perguntas?.[indice];
+                    linhas.push('QUESTÃO ' + (indice + 1));
+                    if (pergunta) linhas.push('Enunciado: ' + pergunta);
+                    linhas.push('Resposta orientadora: ' + (typeof resposta === 'string' ? resposta : JSON.stringify(resposta)));
+                    linhas.push('');
+                });
+                linhas.push('ORIENTAÇÕES DE CORREÇÃO', item.correction_guidance || '');
+                linhas.push('', 'CRITÉRIOS DE AVALIAÇÃO');
+                (Array.isArray(item.rubric) ? item.rubric : []).forEach(criterio => {
+                    linhas.push('• ' + (criterio.criterio || 'Critério') + ': ' + (criterio.indicador || ''));
+                });
+                return linhas.join('\\n');
+            };
+            const nomeArquivoGabarito = item => String(item.activity_title || item.module_slug || 'gabarito')
+                .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'gabarito';
+            gabaritosEl.querySelectorAll('[data-baixar-gabarito]').forEach(botao => {
+                botao.onclick = () => {
+                    const item = gabaritos.data.find(registro => registro.id === botao.dataset.baixarGabarito);
+                    if (!item) return;
+                    const arquivo = new Blob(['\\uFEFF', textoGabarito(item)], { type: 'text/plain;charset=utf-8' });
+                    const url = URL.createObjectURL(arquivo);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = 'gabarito-' + nomeArquivoGabarito(item) + '.txt';
+                    document.body.appendChild(link);
+                    link.click();
+                    link.remove();
+                    URL.revokeObjectURL(url);
+                };
+            });
+            gabaritosEl.querySelectorAll('[data-imprimir-gabarito]').forEach(botao => {
+                botao.onclick = () => {
+                    const item = gabaritos.data.find(registro => registro.id === botao.dataset.imprimirGabarito);
+                    if (!item) return;
+                    const janela = window.open('', '_blank');
+                    if (!janela) {
+                        status.textContent = 'O navegador bloqueou a janela de impressão. Permita pop-ups para este site e tente novamente.';
+                        return;
+                    }
+                    const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
+                    const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
+                    const respostasHtml = respostas.map((resposta, indice) => {
+                        const pergunta = atividade?.perguntas?.[indice];
+                        const valor = typeof resposta === 'string' ? resposta : JSON.stringify(resposta);
+                        return '<section class="questao"><h2>Questão ' + (indice + 1) + '</h2>' +
+                            (pergunta ? '<p class="enunciado">' + escaparTextoProfessor(pergunta) + '</p>' : '') +
+                            '<p><strong>Resposta orientadora:</strong> ' + escaparTextoProfessor(valor) + '</p></section>';
+                    }).join('');
+                    const criteriosHtml = (Array.isArray(item.rubric) ? item.rubric : []).map(criterio =>
+                        '<li><strong>' + escaparTextoProfessor(criterio.criterio || 'Critério') + ':</strong> ' +
+                        escaparTextoProfessor(criterio.indicador || '') + '</li>'
+                    ).join('');
+                    const documento = `<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gabarito — ${escaparTextoProfessor(item.activity_title || item.module_slug)}</title>
+<style>
+@page { size:A4; margin:18mm; } *{box-sizing:border-box}
+body{margin:0;color:#172536;font:11pt/1.55 Arial,sans-serif}
+header{border-bottom:2px solid #17365d;padding-bottom:12px;margin-bottom:18px}
+.marca{font-size:9pt;font-weight:bold;letter-spacing:.12em;color:#806b48}
+h1{font: bold 20pt/1.2 Georgia,serif;color:#17365d;margin:8px 0}
+.meta{font-size:9pt;color:#536174}
+.aviso{padding:10px;background:#f2f5f8;border-left:3px solid #b18a4a}
+h2{font-size:12pt;color:#17365d;margin:16px 0 6px}
+.questao{break-inside:avoid;margin:12px 0}
+.enunciado{font-style:italic;color:#465568}
+ul{padding-left:22px}.rodape{border-top:1px solid #cbd5e1;margin-top:22px;padding-top:8px;font-size:8.5pt;color:#64748b}
+@media screen{body{max-width:800px;margin:30px auto;padding:24px;box-shadow:0 2px 18px #0002}}
+</style></head><body>
+<header><div class="marca">HISTORYWEB · ÁREA DO PROFESSOR</div>
+<h1>Gabarito — ${escaparTextoProfessor(item.activity_title || item.event_id || 'Atividade')}</h1>
+<div class="meta">Módulo: ${escaparTextoProfessor(item.module_slug)} · Gerado em ${new Date().toLocaleDateString('pt-BR')}</div></header>
+<p class="aviso"><strong>Gabarito orientador:</strong> as respostas podem variar, desde que apresentem argumentos coerentes e evidências pertinentes.</p>
+${respostasHtml}
+<h2>Orientações de correção</h2><p>${escaparTextoProfessor(item.correction_guidance || '')}</p>
+<h2>Critérios de avaliação</h2><ul>${criteriosHtml}</ul>
+<footer class="rodape">Material reservado à Área do Professor · HistoryWeb</footer>
+</body></html>`;
+                    janela.document.open();
+                    janela.document.write(documento);
+                    janela.document.close();
+                    janela.focus();
+                    janela.print();
+                };
+            });
             document.getElementById('professor-sair').addEventListener('click', async () => {
                 await professorSupabase.auth.signOut();
                 mostrarAreaProfessor(document.querySelector('.btn-periodo.ativo'));
