@@ -797,7 +797,7 @@
 
     <!-- Barra de Pesquisa Avançada -->
     <div class="busca-container">
-        <input type="text" id="input-busca" placeholder="Pesquisar por palavra, ano (ex: 1500) ou século (ex: séc. XIX)..." onkeypress="verificarEnter(event)">
+        <input type="text" id="input-busca" aria-label="Pesquisar no acervo histórico" placeholder="Pesquisar por palavra, ano (ex: 1500) ou século (ex: séc. XIX)..." onkeypress="verificarEnter(event)">
         <button onclick="executarBusca()">Pesquisar</button>
     </div>
 
@@ -855,12 +855,13 @@
             botao.classList.toggle('ativo');
             const conteudo = botao.nextElementSibling;
             conteudo.classList.toggle('aberto');
+            botao.setAttribute('aria-expanded', String(conteudo.classList.contains('aberto')));
         }
 
         function criarAcordeao(titulo, conteudoHtml) {
             return `
                 <div class="acordeao-container">
-                    <button class="acordeao-botao" onclick="alternarAcordeao(event)">${escaparHTML(titulo)}</button>
+                    <button type="button" class="acordeao-botao" aria-expanded="false" onclick="alternarAcordeao(event)">${escaparHTML(titulo)}</button>
                     <div class="acordeao-conteudo">
                         ${conteudoHtml}
                     </div>
