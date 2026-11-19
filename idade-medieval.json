@@ -90,5 +90,90 @@
     },
     "continuidade": "Persistência e transformação de tradições religiosas, instituições, práticas agrícolas, redes comerciais e conhecimentos herdados de períodos anteriores. As sociedades medievais mantiveram conexões entre si e com regiões vizinhas.",
     "rupturas": "Mudanças graduais na organização do poder, nas relações de trabalho e na vida urbana. A ideia de um feudalismo totalmente isolado e autárquico não descreve a diversidade das economias medievais."
+  },
+  {
+    "id": "sociedades-africanas-redes-comerciais-700-1600",
+    "titulo_principal": "REINOS E REDES COMERCIAIS AFRICANAS: GANA, MALI, SONGHAI E CIDADES SUAÍLIS",
+    "ano_inicio": 700,
+    "ano_fim": 1600,
+    "periodo": "Sociedades africanas medievais e da transição para a época moderna",
+    "local": "África Ocidental, Sahel, Saara e litoral oriental africano",
+    "sociedades_envolvidas": "Reinos de Gana, Mali e Songhai; povos mandês e songais; comunidades mercantis e cidades suaílis da costa oriental africana",
+    "tema": "Formação de Estados africanos, comércio transaariano, ouro e sal, islamização plural, Timbuktu, Mansa Musa, redes do oceano Índico e cidades suaílis",
+    "contexto": "A história africana reúne experiências políticas, econômicas e culturais muito diversas. Entre a África Ocidental e a costa oriental, reinos, cidades e comunidades construíram redes comerciais de longa distância, com conexões pelo Saara, pelo Mediterrâneo e pelo oceano Índico. As datas e os limites desses poderes variaram; não existiu uma única trajetória africana nem uma cultura homogênea.",
+    "antecedentes": [
+      "Desenvolvimento de sociedades agrícolas, centros urbanos e redes regionais de troca em diferentes áreas do continente africano.",
+      "Expansão de rotas caravaneiras pelo Saara e de circuitos marítimos no oceano Índico, conectando comunidades africanas, árabes, persas e asiáticas."
+    ],
+    "causas": {
+      "politicas": "O controle de rotas, centros de tributação e territórios agrícolas contribuiu para a formação e a expansão de diferentes reinos, cujas estruturas políticas e sucessões variaram.",
+      "economicas": "O comércio de ouro, sal, cobre, tecidos, marfim e outros produtos articulou mercados locais e circuitos de longa distância; agricultura, criação de animais e produção artesanal sustentaram populações e cidades.",
+      "sociais": "Agricultores, pastores, comerciantes, artesãos, autoridades políticas e estudiosos participaram de sociedades hierarquizadas e diversas. Relações de dependência e escravização existiram em diferentes contextos e não devem ser confundidas com um único sistema.",
+      "religiosas": "O Islã difundiu-se em partes da África por meio de comerciantes, estudiosos e governantes, convivendo com religiões locais e diferentes práticas. A conversão das elites não significou adesão uniforme de toda a população.",
+      "culturais": "Centros como Timbuktu reuniram estudiosos, manuscritos e instituições de ensino. Nas cidades suaílis, línguas e práticas culturais combinaram elementos africanos e conexões do oceano Índico.",
+      "territoriais": "A expansão e a fragmentação de Gana, Mali e Songhai alteraram relações de poder no Sahel; cidades costeiras como Kilwa participaram de redes marítimas sem constituir um único império.",
+      "tecnologias": "Conhecimentos de navegação, construção naval, metalurgia, agricultura e organização de caravanas apoiaram a circulação regional e intercontinental."
+    },
+    "resumo_card": "Reinos da África Ocidental, como Gana, Mali e Songhai, e cidades suaílis da costa oriental participaram de redes comerciais que conectavam o Saara, o Mediterrâneo e o oceano Índico, desenvolvendo centros urbanos, instituições políticas e tradições culturais próprias.",
+    "desenvolvimento": "Na África Ocidental, o antigo reino de Gana ganhou importância nas redes comerciais do Sahel e do Saara, articulando a circulação de ouro e sal; seu poder se transformou ao longo dos séculos e não deve ser confundido com o atual Estado de Gana. A partir do século XIII, o Império do Mali expandiu-se sob lideranças como Sundiata Keita. No século XIV, Mansa Musa tornou-se conhecido por sua peregrinação a Meca em 1324 e pela riqueza de sua corte; cidades como Timbuktu e Djenné participaram de circuitos comerciais e intelectuais. Nos séculos XV e XVI, Songhai consolidou-se como importante potência regional, especialmente sob Askia Muhammad, antes de sofrer a invasão marroquina de 1591 e processos de fragmentação. Na costa oriental, cidades suaílis como Kilwa, Mombaça e Zanzibar integraram redes do oceano Índico, comercializando produtos africanos e conectando-se a mercadores da Arábia, Pérsia e Índia. Essas sociedades tinham línguas, instituições e experiências próprias; contatos islâmicos e comerciais produziram intercâmbios, não uma identidade africana única.",
+    "personagens": [
+      "Sundiata Keita: liderança associada à formação e à expansão inicial do Império do Mali no século XIII.",
+      "Mansa Musa: governante do Mali no século XIV, conhecido pela peregrinação a Meca em 1324 e pelo patrocínio de centros religiosos e intelectuais.",
+      "Askia Muhammad: governante de Songhai a partir de 1493, associado à reorganização administrativa e à expansão do império."
+    ],
+    "grupos_envolvidos": [
+      "Comunidades agrícolas e pastoris do Sahel e das regiões sudanesas.",
+      "Comerciantes, estudiosos e autoridades políticas ligados às rotas transaarianas.",
+      "Populações urbanas e mercantis das cidades suaílis do litoral oriental africano."
+    ],
+    "interesses_em_disputa": [
+      "Controle de rotas comerciais, centros urbanos, recursos e tributos.",
+      "Disputas dinásticas e territoriais, além de alianças entre governantes e grupos mercantis."
+    ],
+    "linha_do_tempo": [
+      {
+        "ano": 700,
+        "titulo": "Expansão das redes comerciais africanas",
+        "descricao": "Rotas transaarianas e circuitos do oceano Índico conectavam diferentes regiões africanas a mercados de longa distância."
+      },
+      {
+        "ano": 1235,
+        "titulo": "Ascensão do Império do Mali",
+        "descricao": "A tradição associa Sundiata Keita à consolidação do poder mandê na África Ocidental."
+      },
+      {
+        "ano": 1324,
+        "titulo": "Peregrinação de Mansa Musa",
+        "descricao": "A viagem do governante do Mali a Meca tornou conhecida a riqueza e a inserção internacional de seu império."
+      },
+      {
+        "ano": 1464,
+        "titulo": "Expansão de Songhai",
+        "descricao": "Sob Sonni Ali e, depois, Askia Muhammad, Songhai ampliou seu poder no vale do rio Níger."
+      },
+      {
+        "ano": 1591,
+        "titulo": "Invasão marroquina de Songhai",
+        "descricao": "A invasão contribuiu para a fragmentação do poder imperial songai."
+      }
+    ],
+    "consequencias_imediatas": [
+      "Fortalecimento de cidades, mercados e centros de conhecimento conectados por rotas terrestres e marítimas.",
+      "Circulação de línguas, técnicas, manuscritos, práticas religiosas e mercadorias entre diferentes sociedades."
+    ],
+    "consequencias_longo_prazo": [
+      "Memórias políticas e culturais dos reinos do Sahel permanecem importantes para a história de diversas sociedades africanas.",
+      "As redes suaílis e do oceano Índico contribuíram para a formação de culturas costeiras plurais e conectadas."
+    ],
+    "impactos": {
+      "politicos": "Formação, expansão e transformação de reinos e cidades-Estado, com estruturas políticas distintas.",
+      "economicos": "Integração de mercados regionais e intercontinentais por meio do comércio de ouro, sal e outros produtos.",
+      "sociais": "Crescimento de centros urbanos e fortalecimento de grupos mercantis, religiosos e intelectuais, em sociedades também marcadas por hierarquias e formas de coerção.",
+      "culturais": "Produção de manuscritos, ensino islâmico, línguas e tradições suaílis e intercâmbios culturais diversos.",
+      "territoriais": "Mudanças de poder no Sahel e fortalecimento de cidades costeiras do Índico.",
+      "ambientais": "Rotas comerciais, mineração, agricultura e urbanização modificaram paisagens e recursos em escalas regionais."
+    },
+    "continuidade": "O comércio de longa distância, as redes urbanas e a diversidade linguística e religiosa permaneceram importantes, embora seus circuitos e centros de poder tenham mudado.",
+    "rupturas": "A ascensão e a fragmentação de diferentes impérios alteraram as relações de poder; a invasão de Songhai em 1591 foi um marco de transformação regional."
   }
 ]
