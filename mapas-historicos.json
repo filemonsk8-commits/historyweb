@@ -1,0 +1,67 @@
+[
+  {
+    "id": "mapa-migracoes-humanas",
+    "evento_id": "geral-pre-01",
+    "titulo": "Migrações de Homo sapiens",
+    "periodo": "Pré-História — dispersões ao longo de dezenas de milhares de anos",
+    "contexto": "O mapa representa rotas propostas para a dispersão de grupos de Homo sapiens a partir da África. Datas e trajetórias são estimativas científicas e podem ser revistas conforme novas evidências arqueológicas e genéticas.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_migration_routes_following_Out-of-Africa.png?width=1280",
+    "alt": "Mapa-múndi com rotas propostas de migração de grupos humanos após a saída da África.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Human_migration_routes_following_Out-of-Africa.png",
+    "autoria": "ABCymta",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-crescente-fertil",
+    "evento_id": "geral-ant-01",
+    "titulo": "Crescente Fértil",
+    "periodo": "Antiguidade — região do Oriente Próximo",
+    "contexto": "O mapa destaca uma região ampla que inclui o Egito, o Levante e a Mesopotâmia. A expressão é uma referência geográfica moderna e não correspondeu a um Estado ou unidade política única.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_fertile_crescent-pt.svg",
+    "alt": "Mapa em português da região do Crescente Fértil, incluindo Egito, Levante e Mesopotâmia.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Map_of_fertile_crescent-pt.svg",
+    "autoria": "Nafsadh (mapa original); adaptação em português por Parzeus",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-imperio-romano-395",
+    "evento_id": "geral-ant-01",
+    "titulo": "Divisão administrativa do Império Romano por volta de 395",
+    "periodo": "Final do século IV",
+    "contexto": "A representação mostra províncias e divisões administrativas do Império Romano em torno de 395. Não deve ser confundida com a extensão máxima do Império em outros momentos.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Roman_Empire.svg?width=1280",
+    "alt": "Mapa das províncias e divisões administrativas do Império Romano por volta do ano 395.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Roman_Empire.svg",
+    "autoria": "Ollie Bye",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "mapa-rotas-comerciais-medievais",
+    "evento_id": "geral-med-01",
+    "titulo": "Rotas comerciais da Europa no final da Idade Média",
+    "periodo": "Baixa Idade Média",
+    "contexto": "O mapa diferencia rotas associadas à Liga Hanseática e às redes comerciais de Veneza e Gênova. Ele representa circuitos europeus selecionados, não todas as redes afro-euro-asiáticas da época.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Late_Medieval_Trade_Routes.jpg",
+    "alt": "Mapa das principais rotas comerciais europeias no final da Idade Média, com rotas hanseáticas, venezianas e genovesas.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Late_Medieval_Trade_Routes.jpg",
+    "autoria": "Lampman",
+    "licenca": "Domínio público",
+    "licenca_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules"
+  },
+  {
+    "id": "mapa-expansao-portuguesa",
+    "evento_id": "grandes-navegacoes-mercantilismo",
+    "titulo": "Expansão marítima portuguesa e rotas de navegação",
+    "periodo": "Séculos XIV–XVI",
+    "contexto": "O mapa reúne viagens, contatos e reivindicações portuguesas em diferentes regiões. As áreas coloridas indicam reivindicações e presença imperial, não controle efetivo e uniforme de todo o território representado.",
+    "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Descobrimentos_e_explora%C3%A7%C3%B5es_portuguesesV2.png",
+    "alt": "Mapa em português das viagens, contatos, conquistas e rotas marítimas portuguesas durante a expansão ultramarina.",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Descobrimentos_e_explora%C3%A7%C3%B5es_portuguesesV2.png",
+    "autoria": "Tokle (mapa original); trabalho derivado e atualização por Uxbona",
+    "licenca": "CC BY-SA 3.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+]
