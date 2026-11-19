@@ -92,7 +92,8 @@
     "tema": "Revolução Industrial, Urbanização, Ludismo, Cartismo, Socialismo, Manifesto Comunista, Revoluções de 1848 e Unificações da Itália e Alemanha",
     "contexto": "A industrialização acelerada transformou a paisagem urbana, gerou a classe operária e estimulou ideologias de contestação social, culminando nas revoluções de 1848 e na formação dos Estados modernos italiano e alemão.",
     "antecedentes": [
-      "Acumulação de capitais decorrente do mercantilismo colonial e pioneirismo britânico na tecnologia a vapor."
+      "Industrialização pioneira na Grã-Bretanha, expansão do comércio atlântico, acumulação de capitais, transformações agrárias e desenvolvimento de máquinas e fontes de energia.",
+      "As revoluções liberais e as ideias de soberania nacional contribuíram para questionar privilégios e antigas divisões políticas europeias."
     ],
     "causas": {
       "politicas": "Avanço do liberalismo burguês e pressões populares por reformas políticas e sufrágio universal.",
@@ -104,49 +105,74 @@
       "tecnologias": "Mecanização fabril, ferrovias a vapor e expansão urbana desordenada."
     },
     "resumo_card": "Aborda a Revolução Industrial, o crescimento das fábricas e da urbanização, a formação da classe operária, os movimentos Ludista e Cartismo, o surgimento do socialismo, o Manifesto Comunista de 1848, as revoluções liberais de 1848 e as unificações da Itália e Alemanha até a formação do Império Alemão em 1871.",
-    "desenvolvimento": "Com as fábricas e ferrovias, a urbanização cresceu e formou o proletariado submetido a duras condições. Isso gerou reações como o Ludismo (quebra de máquinas) e o Cartismo (exigências políticas), além do surgimento do socialismo e da publicação do Manifesto Comunista em 1848 — ano de ondas revolucionárias liberais por toda a Europa. Paralelamente, o nacionalismo impulsionou as unificações da Itália e da Alemanha, culminando na formação do Império Alemão em 1871.",
+    "desenvolvimento": "A industrialização, iniciada na Grã-Bretanha no século XVIII, expandiu-se durante o século XIX para outras regiões da Europa e para os Estados Unidos. A mecanização, o uso do carvão e do vapor, a construção de ferrovias e o crescimento das cidades transformaram a produção e as relações de trabalho. A expansão fabril ampliou a riqueza de setores empresariais, mas também submeteu muitos trabalhadores a jornadas longas, baixos salários, ambientes insalubres e trabalho infantil. As respostas foram diversas: o ludismo expressou protestos contra os efeitos da mecanização e das relações de trabalho; o cartismo reivindicou reformas políticas, como ampliação do sufrágio masculino; sindicatos e associações organizaram ações coletivas. Socialistas, anarquistas e outros críticos do capitalismo formularam projetos distintos de transformação social. Em 1848, Karl Marx e Friedrich Engels publicaram o Manifesto Comunista, no contexto de revoluções que reuniram reivindicações liberais, nacionais e sociais, sem constituir um movimento uniforme. O nacionalismo também impulsionou processos de unificação: a Itália foi proclamada reino em 1861, embora a incorporação de Roma só se completasse em 1870; a unificação alemã foi proclamada em 1871 sob liderança prussiana. Industrialização e nacionalismo, portanto, avançaram de formas desiguais e produziram conflitos e mudanças que ultrapassaram a Europa.",
     "personagens": [
-      "Karl Marx e Friedrich Engels: Criadores do socialismo científico e autores do Manifesto Comunista.",
-      "Giuseppe Garibaldi e Conde de Cavour: Artífices da unificação italiana.",
-      "Otto von Bismarck: Chanceler prusiano responsável pela unificação alemã."
+      "Mary Wollstonecraft: pensadora que defendeu a educação e os direitos das mulheres no contexto das transformações políticas modernas.",
+      "Karl Marx e Friedrich Engels: autores do Manifesto Comunista (1848), que analisaram as contradições do capitalismo e a luta de classes.",
+      "Giuseppe Garibaldi e Camillo di Cavour: participantes importantes, com projetos distintos, do processo de unificação italiana.",
+      "Otto von Bismarck: chanceler da Prússia, central na unificação alemã conduzida por guerras e acordos diplomáticos."
     ],
     "grupos_envolvidos": [
-      "Proletariado Industrial",
-      "Burguesia Industrial e Financeira",
-      "Movimentos Operários, Ludistas e Cartistas"
+      "Trabalhadores fabris, artesãos, mineiros, mulheres e crianças submetidos a diferentes formas de exploração do trabalho.",
+      "Empresários industriais, comerciantes, proprietários de terras e setores financeiros.",
+      "Movimentos ludistas, cartistas, sindicatos, associações operárias e correntes socialistas e anarquistas.",
+      "Estados, monarquistas, liberais e movimentos nacionalistas envolvidos nas unificações italiana e alemã."
     ],
     "interesses_em_disputa": [
-      "Direitos trabalhistas e sociais versus exploração capitalista; soberania nacional unificada."
+      "Controle da produção e distribuição da riqueza, condições de trabalho, direitos políticos e organização dos trabalhadores.",
+      "Projetos liberais, socialistas e conservadores, além de disputas sobre soberania, fronteiras e liderança nos processos de unificação nacional."
     ],
     "linha_do_tempo": [
       {
+        "ano": 1811,
+        "titulo": "Protestos ludistas na Inglaterra",
+        "descricao": "Grupos de trabalhadores destruíram máquinas em protestos contra mudanças nas condições de trabalho e nos meios de subsistência."
+      },
+      {
+        "ano": 1838,
+        "titulo": "Início da mobilização cartista",
+        "descricao": "A Carta do Povo reuniu reivindicações por reformas políticas e ampliação da representação parlamentar."
+      },
+      {
         "ano": 1848,
-        "titulo": "Manifesto Comunista e Revoluções Liberais",
-        "descricao": "Publicação marxista e sublevações da 'Primavera dos Povos'."
+        "titulo": "Manifesto Comunista e revoluções europeias",
+        "descricao": "A publicação do manifesto coincidiu com revoltas de diferentes orientações liberais, nacionais e sociais."
+      },
+      {
+        "ano": 1861,
+        "titulo": "Proclamação do Reino da Itália",
+        "descricao": "A unificação avançou, mas Roma e outras áreas ainda seriam incorporadas posteriormente."
+      },
+      {
+        "ano": 1870,
+        "titulo": "Anexação de Roma à Itália",
+        "descricao": "A tomada de Roma completou uma etapa decisiva da unificação italiana."
       },
       {
         "ano": 1871,
-        "titulo": "Formação do Império Alemão",
-        "descricao": "Consolidação da unificação germânica sob liderança prusiana."
+        "titulo": "Proclamação do Império Alemão",
+        "descricao": "A unificação alemã foi concluída sob liderança prussiana, alterando o equilíbrio de poder europeu."
       }
     ],
     "consequencias_imediatas": [
-      "Surgimento de leis trabalhistas iniciais e fortalecimento de partidos socialistas e sindicatos na Europa.",
-      "Alteração profunda no equilíbrio de forças geopolíticas continentais com o surgimento da Alemanha unificada."
+      "Expansão da produção industrial, das ferrovias e das cidades, acompanhada por novas formas de disciplina fabril e desigualdades urbanas.",
+      "Fortalecimento de organizações operárias, sindicatos e correntes políticas que passaram a reivindicar direitos sociais e participação política.",
+      "Formação dos Estados italiano e alemão, com mudanças no equilíbrio diplomático e militar europeu."
     ],
     "consequencias_longo_prazo": [
-      "Polarização ideológica mundial entre capitalismo e socialismo ao longo dos séculos XIX e XX."
+      "Ampliação gradual, desigual e conflituosa da legislação trabalhista, da organização sindical e dos direitos políticos em diferentes países.",
+      "Consolidação de movimentos socialistas, comunistas, anarquistas e trabalhistas que influenciaram debates e disputas políticas nos séculos seguintes."
     ],
     "impactos": {
-      "politicos": "Surgimento do Estado de Bem-Estar social embrião e consolidação de democracias representativas liberais.",
-      "economicos": "Industrialização generalizada e expansão do mercado financeiro e fabril.",
-      "sociais": "Divisão social marcante entre burguesia detentora dos meios de produção e classe operária urbana.",
-      "culturais": "Fortalecimento de doutrinas políticas de massa e ideologias nacionalistas exacerbadas.",
-      "territoriais": "Criação de dois novos gigantes estatais centrais: Itália e Alemanha.",
-      "ambientais": "Poluição atmosférica massiva gerada pela queima de carvão mineral e expansão urbana insustentável."
+      "politicos": "Ampliação das disputas por representação, cidadania e direitos sociais; formação de novos Estados nacionais e fortalecimento de governos centralizados.",
+      "economicos": "Expansão do capitalismo industrial, das ferrovias, dos bancos e dos mercados, com concentração empresarial e desigualdade na distribuição da riqueza.",
+      "sociais": "Crescimento do proletariado urbano, migrações internas, conflitos trabalhistas e organização coletiva de trabalhadores, inclusive mulheres e crianças.",
+      "culturais": "Difusão de novas ideias sobre classe, trabalho, nação, progresso e direitos, acompanhada por disputas entre projetos políticos.",
+      "territoriais": "Unificações italiana e alemã e reconfiguração das relações de poder na Europa.",
+      "ambientais": "Aumento da poluição do ar e das águas, exploração intensiva de carvão e matérias-primas e expansão urbana com infraestrutura frequentemente insuficiente."
     },
-    "continuidade": "Exploração do trabalho assalariado e expansão contínua do maquinismo tecnológico.",
-    "rupturas": "Superação das formas artesanais de produção e fim da fragmentação política medieval em Estados centrais europeus."
+    "continuidade": "A industrialização não eliminou desigualdades de classe, gênero e região; formas de exploração e hierarquias sociais persistiram, mesmo com novas leis e organizações.",
+    "rupturas": "A produção mecanizada e a formação de movimentos operários e Estados nacionais transformaram profundamente as relações econômicas, sociais e políticas, sem eliminar imediatamente o artesanato ou as estruturas anteriores."
   },
   {
     "id": "americas-independencias-seculo-xix",
@@ -159,71 +185,101 @@
     "tema": "Independência do Haiti, Emancipação da América Espanhola, Independência do México, Doutrina Monroe, Guerra Civil dos Estados Unidos e Abolição da Escravidão",
     "contexto": "Inspirados pelo Iluminismo e aproveitando a crise das metrópoles ibéricas, os territórios americanos lutaram por suas independências, enquanto os Estados Unidos expandiram-se e resolveram suas fraturas internas em sangrenta guerra civil.",
     "antecedentes": [
-      "Insurreições coloniais reprimidas e o enfraquecimento da Espanha e de Portugal após as guerras napoleônicas."
+      "Circulação de ideias iluministas e experiências das revoluções Americana e Francesa, além da Revolução Haitiana.",
+      "Crise das monarquias ibéricas e invasões napoleônicas, que abriram disputas sobre legitimidade política e autonomia nas colônias.",
+      "Conflitos sociais anteriores, incluindo revoltas indígenas, quilombolas, escravizadas e movimentos populares."
     ],
     "causas": {
-      "politicas": "Desejo das elites locais de autonomia administrativa, independência do México (1821) e Lançamento da Doutrina Monroe (1823).",
-      "economicas": "Rejeição ao monopólio comercial metropolitano e defesa do livre comércio internacional.",
-      "sociais": "Insatisfação de criollos, mestiços e revoltas de escravizados (como a Independência do Haiti em 1804).",
-      "religiosas": "Participação de líderes clericais em algumas independências latino-americanas.",
-      "culturais": "Difusão dos ideais liberais republicanos e de soberania popular.",
-      "territoriais": "Formação de novas repúblicas soberanas e expansão territorial norte-americana.",
-      "tecnologias": "Uso de ferrovias e armamentos modernos na Guerra Civil dos EUA (1861–1865)."
+      "politicas": "Crise de legitimidade das monarquias ibéricas, disputa por autonomia, projetos republicanos e monárquicos e interesses das elites locais; cada região apresentou alianças e cronologias próprias.",
+      "economicas": "Contestação de restrições comerciais coloniais, busca por controle local de impostos e recursos e interesse de comerciantes e proprietários em ampliar relações comerciais.",
+      "sociais": "Ação de pessoas escravizadas e libertas, indígenas, mestiços, camponeses, artesãos e elites criollas, com objetivos nem sempre coincidentes; no Haiti, a luta contra a escravidão foi central.",
+      "religiosas": "Participação de membros do clero em diferentes movimentos, sem que a religião tenha determinado uma posição política única.",
+      "culturais": "Circulação de ideias de soberania, representação e direitos, reinterpretadas conforme as realidades sociais e coloniais americanas.",
+      "territoriais": "Disputas sobre fronteiras, expansão dos Estados recém-independentes e avanço territorial dos Estados Unidos sobre terras indígenas e mexicanas.",
+      "tecnologias": "Ferrovias e telégrafo tiveram importância crescente em fases posteriores do século XIX; na Guerra Civil dos EUA, ferrovias, telégrafo, navios encouraçados e armamentos industriais influenciaram a condução militar."
     },
-    "resumo_card": "Abrange a Independência do Haiti (1804), as independências da América Espanhola, o México (1821), a Doutrina Monroe (1823), a Guerra Civil dos EUA (1861–1865) e a abolição da escravidão norte-americana em 1865.",
-    "desenvolvimento": "O Haiti tornou-se independente em 1804 após revolta de escravizados. Na América Espanhola, líderes conduziram as repúblicas à emancipação. O México tornou-se independente em 1821. Em 1823, os EUA lançaram a Doutrina Monroe. Mais tarde, entre 1861 e 1865, os Estados Unidos travaram sua Guerra Civil entre o Norte industrial e o Sul escravagista, resultando na preservação da União e na abolição oficial da escravidão em 1865.",
+    "resumo_card": "Estuda processos distintos de independência nas Américas: Revolução Haitiana (1791–1804), emancipações da América espanhola, independência do México (1821), Doutrina Monroe (1823), independência do Brasil (1822), expansão territorial dos EUA e Guerra Civil (1861–1865), que levou à abolição constitucional da escravidão em 1865.",
+    "desenvolvimento": "As independências americanas ocorreram em processos diferentes, influenciados pelo Iluminismo, pelas revoluções atlânticas, pela crise das monarquias ibéricas e por conflitos locais. No Haiti, a revolução iniciada em 1791 reuniu pessoas escravizadas, libertos e outros grupos contra a ordem colonial francesa; a independência foi proclamada em 1804, tornando o país a primeira república negra independente e resultado de uma revolução vitoriosa de escravizados. Na América espanhola, as guerras de independência se intensificaram a partir de 1810, em meio à crise da monarquia espanhola provocada pela invasão napoleônica. Simón Bolívar, José de San Martín e muitos outros participaram de campanhas que resultaram em novas repúblicas, mas as elites criollas frequentemente conservaram posições de poder e as desigualdades sociais permaneceram. No México, a luta começou em 1810 com movimentos populares associados a Miguel Hidalgo e José María Morelos; a independência foi consumada em 1821 por uma coalizão política e militar distinta. O Brasil seguiu trajetória própria, com independência em 1822 e manutenção da monarquia e da escravidão. Em 1823, a Doutrina Monroe expressou a oposição dos Estados Unidos a novas intervenções coloniais europeias no continente, mas também seria mobilizada posteriormente para justificar pretensões de influência norte-americana. A expansão territorial dos EUA envolveu guerras, tratados e expulsões de povos indígenas. Entre 1861 e 1865, a Guerra Civil opôs a União à Confederação; a escravidão foi central para o conflito, embora questões de poder federal e organização econômica também estivessem em disputa. A Proclamação de Emancipação entrou em vigor em 1863 em áreas ainda em rebelião, e a 13ª Emenda aboliu legalmente a escravidão em todo o país em 1865. A abolição, contudo, não encerrou a violência racial nem garantiu igualdade de direitos.",
     "personagens": [
-      "Toussaint Louverture: Líder da Revolução Haitiana.",
-      "Simón Bolívar e José de San Martín: Libertadores da América Espanhola.",
-      "Abraham Lincoln: Presidente norte-americano durante a Guerra Civil."
+      "Toussaint Louverture: liderança fundamental da Revolução Haitiana; foi preso pelos franceses em 1802 e morreu na França em 1803, antes da independência.",
+      "Jean-Jacques Dessalines: proclamou a independência do Haiti em 1804.",
+      "Simón Bolívar e José de San Martín: lideranças importantes das guerras de independência na América espanhola, ao lado de muitos outros participantes.",
+      "Miguel Hidalgo e José María Morelos: religiosos que lideraram fases iniciais da luta pela independência mexicana.",
+      "Abraham Lincoln: presidente dos Estados Unidos durante a Guerra Civil; emitiu a Proclamação de Emancipação em 1863."
     ],
     "grupos_envolvidos": [
-      "Exércitos Libertadores Latino-Americanos",
-      "União (Norte) vs. Confederação (Sul) na Guerra Civil dos EUA",
-      "Populações indígenas e afro-descendentes"
+      "Pessoas escravizadas, libertas e livres de diferentes origens, com papel decisivo na Revolução Haitiana e em outras lutas americanas.",
+      "Elites criollas, comerciantes, proprietários rurais, militares e funcionários coloniais.",
+      "Populações indígenas, camponesas, mestiças e afrodescendentes, cujos projetos e experiências variaram entre regiões.",
+      "União e Confederação na Guerra Civil dos Estados Unidos, além de pessoas escravizadas, abolicionistas e soldados negros que participaram do conflito."
     ],
     "interesses_em_disputa": [
-      "Abolição da escravidão, soberania nacional republicana e hegemonia comercial no continente."
+      "Autonomia e soberania política, controle do comércio e da tributação e definição dos novos regimes de governo.",
+      "Abolição da escravidão, manutenção ou transformação das hierarquias sociais e reconhecimento de direitos para grupos antes subordinados.",
+      "Expansão territorial, controle de terras indígenas e influência política e econômica dos Estados Unidos no continente."
     ],
     "linha_do_tempo": [
       {
+        "ano": 1791,
+        "titulo": "Início da Revolução Haitiana",
+        "descricao": "Levante de pessoas escravizadas na colônia francesa de Saint-Domingue, que desencadeou um processo revolucionário prolongado."
+      },
+      {
         "ano": 1804,
         "titulo": "Independência do Haiti",
-        "descricao": "Primeira nação livre de escravizados nas Américas."
+        "descricao": "Proclamação da independência após a derrota das forças francesas."
+      },
+      {
+        "ano": 1810,
+        "titulo": "Início das guerras de independência na América espanhola e no México",
+        "descricao": "Crise da monarquia espanhola e movimentos locais abriram uma fase de guerras e disputas políticas."
       },
       {
         "ano": 1821,
         "titulo": "Independência do México",
-        "descricao": "Emancipação mexicana definitiva."
+        "descricao": "A emancipação foi consumada após uma coalizão política e militar que reuniu antigos adversários."
+      },
+      {
+        "ano": 1822,
+        "titulo": "Independência do Brasil",
+        "descricao": "O Brasil rompeu com Portugal e manteve a monarquia e a escravidão."
       },
       {
         "ano": 1823,
         "titulo": "Doutrina Monroe",
-        "descricao": "Diretriz externa dos EUA no continente americano."
+        "descricao": "Os Estados Unidos declararam oposição a novas intervenções coloniais europeias nas Américas."
+      },
+      {
+        "ano": 1863,
+        "titulo": "Proclamação de Emancipação",
+        "descricao": "Lincoln declarou livres as pessoas escravizadas em áreas ainda em rebelião contra a União, com alcance limitado pelo contexto da guerra."
       },
       {
         "ano": 1865,
-        "titulo": "Fim da Guerra Civil e Abolição nos EUA",
-        "descricao": "Preservação da União e fim legal da escravidão norte-americana."
+        "titulo": "Fim da Guerra Civil e 13ª Emenda",
+        "descricao": "A derrota confederada e a ratificação da 13ª Emenda aboliram legalmente a escravidão nos Estados Unidos."
       }
     ],
     "consequencias_imediatas": [
-      "Fragmentação do império espanhol em diversas repúblicas independentes.",
-      "Fim do regime escravista formal nos Estados Unidos em 1865."
+      "Fim do domínio colonial espanhol em grande parte da América continental e formação de novos Estados, com fronteiras e instituições ainda instáveis.",
+      "Independência do Haiti e abolição da escravidão em seu território, em contraste com a permanência da escravidão em várias outras sociedades americanas.",
+      "Preservação da União nos Estados Unidos e abolição constitucional da escravidão em 1865, sem eliminar a discriminação racial."
     ],
     "consequencias_longo_prazo": [
-      "Subordinação econômica da América Latina ao imperialismo britânico e posteriormente norte-americano."
+      "Persistência de concentração fundiária, desigualdades raciais e exclusão política em diferentes países americanos, apesar das mudanças de soberania.",
+      "Expansão da influência econômica e diplomática britânica e, posteriormente, norte-americana, com ritmos e formas diferentes conforme o país.",
+      "Disputas sobre cidadania, direitos indígenas, trabalho e igualdade racial continuaram após as independências e abolições."
     ],
     "impactos": {
-      "politicos": "Republicanismo generalizado nas Américas e fortalecimento institucional norte-americano.",
-      "economicos": "Abertura dos mercados americanos ao capital estrangeiro industrial internacional.",
-      "sociais": "Permanência de profundas desigualdades raciais e exclusão social persistente de negros e indígenas.",
-      "culturais": "Formação de identidades nacionais distintas em cada nova república americana.",
-      "territoriais": "Desenho dos mapas continentais atuais do Novo Mundo.",
-      "ambientais": "Avanço agrícola extensivo sobre florestas e pradarias americanas."
+      "politicos": "Formação de Estados independentes com regimes diversos; em muitos casos, as elites locais mantiveram o controle político e limitaram a participação popular.",
+      "economicos": "Reorganização das relações comerciais e fiscais, dependência de exportações primárias em várias economias e ampliação da influência de capitais estrangeiros.",
+      "sociais": "A escravidão foi abolida em momentos diferentes; hierarquias raciais, concentração de terras e exclusão de indígenas e afrodescendentes permaneceram.",
+      "culturais": "Construção de identidades nacionais plurais, atravessadas por referências indígenas, africanas, europeias e mestiças.",
+      "territoriais": "Redefinição de fronteiras, guerras entre Estados e expansão dos Estados Unidos sobre territórios indígenas e mexicanos.",
+      "ambientais": "Expansão de plantations, mineração, pecuária e ocupação de novas áreas provocou impactos ambientais e deslocamentos de comunidades."
     },
-    "continuidade": "Estruturas agrárias latifundiárias concentradoras de renda na América Latina.",
-    "rupturas": "Rompimento do vínculo colonial de submissão política direta às metrópoles europeias."
+    "continuidade": "A independência política não significou automaticamente igualdade social, reforma agrária, participação democrática ampla ou fim do racismo e das formas de exploração do trabalho.",
+    "rupturas": "O domínio colonial europeu foi substituído por Estados soberanos, mas a construção dessas nações ocorreu com conflitos internos, exclusões e diferentes projetos de sociedade."
   },
   {
     "id": "imperialismo-segunda-revolucao-industrial",
@@ -236,60 +292,92 @@
     "tema": "Segunda Revolução Industrial, Eletricidade, Petróleo, Indústria Química, Aço, Telefone, Automóvel, Cinema, Imperialismo, Partilha da África e da Ásia, Conferência de Berlim (1884-1885), Corrida Colonial e Alianças Militares (Tríplice Aliança e Tríplice Entente)",
     "contexto": "A Segunda Revolução Industrial gerou enorme excedente produtivo e necessidade de matérias-primas, impulsionando o imperialismo europeu sobre a África e a Ásia sob o pretexto da 'missão civilizatória'.",
     "antecedentes": [
-      "Crescimento capitalista monopolista e concentração de capitais industriais e bancários na Europa."
+      "Expansão do capitalismo industrial e financeiro, crescimento das empresas de grande porte e competição por matérias-primas, mercados e investimentos.",
+      "Avanços em transportes, armamentos e comunicações ampliaram a capacidade de projeção militar e econômica das potências, mas também facilitaram conexões e resistências locais."
     ],
     "causas": {
-      "politicas": "Disputa por prestígio internacional, nacionalismo agressivo e formação da Tríplice Aliança e Tríplice Entente.",
-      "economicas": "Busca voraz por mercados consumidores, matérias-primas e áreas de investimento monopolista.",
-      "sociais": "Alívio de pressões demográficas internas europeias através da emigração colonial.",
-      "religiosas": "Ideologia paternalista da 'Missão Civilizatória' e expansão de missões cristãs.",
-      "culturais": "Racismo científico e teorias de darwinismo social aplicadas à dominação de povos não europeus.",
-      "territoriais": "Conquista militar de territórios ultramarinos na África e na Ásia regulamentada pela Conferência de Berlim (1884–1885).",
-      "tecnologias": "Inovações como eletricidade, petróleo, indústria química, aço, telefone, automóvel e cinema."
+      "politicas": "Competição entre Estados por prestígio, bases navais e influência estratégica; rivalidades nacionais e formação de alianças contribuíram para a tensão internacional.",
+      "economicas": "Busca por matérias-primas, mercados, oportunidades de investimento e controle de rotas comerciais, em combinação com interesses empresariais e financeiros.",
+      "sociais": "Migrações, urbanização e desigualdades internas foram mobilizadas em discursos que apresentavam a expansão colonial como solução para problemas das metrópoles, embora a colonização tenha servido a interesses variados.",
+      "religiosas": "Missões cristãs participaram de projetos coloniais em algumas regiões, mas atuaram de formas diversas; a religião também foi apropriada por sociedades colonizadas em processos de resistência e negociação.",
+      "culturais": "Racismo científico, darwinismo social e discursos de 'missão civilizatória' foram usados para legitimar hierarquias e dominação, sem base científica válida.",
+      "territoriais": "Conquista, ocupação e controle de territórios africanos e asiáticos por meio de guerras, tratados desiguais, protetorados, concessões e zonas de influência.",
+      "tecnologias": "Eletricidade, aço, petróleo, química industrial, telégrafo, telefone, navios a vapor, ferrovias, metralhadoras e avanços médicos ampliaram a capacidade produtiva e militar, com acesso desigual."
     },
-    "resumo_card": "Aborda a Segunda Revolução Industrial, eletricidade, petróleo, química, aço, telefone, automóvel, cinema, o imperialismo, a partilha da África e da Ásia, a Conferência de Berlim (1884–1885), a corrida colonial, os nacionalismos e a formação da Tríplice Aliança e Tríplice Entente.",
-    "desenvolvimento": "Com novas tecnologias como eletricidade, motores a explosão (petróleo), aço e a indústria química — além de inovações culturais como o telefone, o automóvel e o cinema —, o capitalismo entrou na fase monopolista. Na Conferência de Berlim (1884–1885), a África foi retalhada entre os europeus. A corrida colonial alimentou rivalidades e o nacionalismo, resultando na divisão da Europa em blocos militares rivais: a Tríplice Aliança e a Tríplice Entente.",
+    "resumo_card": "Relaciona as inovações da Segunda Revolução Industrial — eletricidade, petróleo, aço, química, transportes e comunicações — à expansão imperialista na África e na Ásia, à Conferência de Berlim (1884–1885), às resistências locais e às rivalidades internacionais anteriores à Primeira Guerra Mundial.",
+    "desenvolvimento": "A Segunda Revolução Industrial, intensificada a partir da segunda metade do século XIX, ampliou o uso da eletricidade, do petróleo, do aço e de processos químicos, transformando transportes, comunicações, produção e vida urbana. Ferrovias, navios a vapor, telégrafo e, depois, telefone aceleraram a circulação de mercadorias, capitais e informações. Grandes empresas, bancos e cartéis passaram a concentrar recursos em alguns setores, embora a organização econômica variasse entre países. A busca por matérias-primas, mercados, áreas de investimento e posições estratégicas contribuiu para a expansão imperialista, mas não foi sua única causa: nacionalismos, rivalidades entre Estados, interesses militares e ideologias racistas também sustentaram a dominação. A Conferência de Berlim (1884–1885) estabeleceu regras entre potências europeias para reivindicações territoriais na África, sem participação dos povos africanos; não foi uma divisão integral e instantânea do continente, pois a conquista e a resistência ocorreram em ritmos diferentes. Sociedades africanas e asiáticas enfrentaram invasões, tratados desiguais, tributação, trabalho forçado e reorganização de economias em benefício das metrópoles, mas também resistiram por meio de guerras, diplomacia e movimentos políticos. No Congo, o domínio pessoal de Leopoldo II foi marcado por violência extrema e exploração, antes da anexação belga em 1908. Na Ásia, a expansão imperialista assumiu formas variadas, incluindo colônias, protetorados, concessões e zonas de influência. As rivalidades imperiais contribuíram para tensões internacionais, mas a Primeira Guerra Mundial não foi resultado automático de uma única causa: alianças, militarismo, nacionalismos, crises diplomáticas e a crise de julho de 1914 também foram decisivos.",
     "personagens": [
-      "Leopoldo II da Bélgica: Principal responsável pela exploração brutal do Congo.",
-      "Cecil Rhodes: Imperialista britânico símbolo da expansão na África Austral."
+      "Leopoldo II da Bélgica: governou o Estado Livre do Congo como propriedade pessoal, em regime de exploração violenta, até a anexação pela Bélgica em 1908.",
+      "Cecil Rhodes: empresário e político britânico associado à expansão colonial na África Austral.",
+      "Menelik II: imperador etíope que liderou a resistência à invasão italiana e venceu a Batalha de Adwa em 1896.",
+      "Samori Touré: líder político e militar que resistiu à expansão francesa na África Ocidental."
     ],
     "grupos_envolvidos": [
-      "Trustes, Cartéis e Monopólios Capitalistas",
-      "Administrações Coloniais Europeias",
-      "Povos Nativos da África e da Ásia submetidos"
+      "Potências imperiais europeias, além de Estados Unidos e Japão, com projetos e ritmos de expansão distintos.",
+      "Governos, comerciantes, comunidades, reinos e sociedades africanas e asiáticas, que negociaram, resistiram ou foram submetidos à conquista.",
+      "Empresas industriais, bancos, companhias concessionárias, forças armadas e missões religiosas envolvidas em diferentes aspectos da expansão."
     ],
     "interesses_em_disputa": [
-      "Domínio de jazidas minerais, ferrovias transcontinentais, cinema, tecnologia industrial e mercados globais cativos."
+      "Controle de matérias-primas, rotas marítimas, mercados, investimentos e posições militares estratégicas.",
+      "Soberania política, autonomia econômica, terras, recursos e formas locais de organização social e cultural.",
+      "Prestígio e equilíbrio de poder entre as potências, em um contexto de nacionalismos e alianças concorrentes."
     ],
     "linha_do_tempo": [
       {
-        "ano": 1884,
-        "titulo": "Conferência de Berlim",
-        "descricao": "Regulamentação europeia da partilha arbitrária do continente africano."
+        "ano": 1870,
+        "titulo": "Expansão da Segunda Revolução Industrial",
+        "descricao": "Eletricidade, aço, petróleo e novos processos industriais ganharam importância crescente em diferentes países."
       },
       {
-        "ano": 1907,
-        "titulo": "Tríplice Entente",
-        "descricao": "Consolidação da aliança militar entre Reino Unido, França e Rússia contra o bloco central."
+        "ano": 1884,
+        "titulo": "Conferência de Berlim",
+        "descricao": "Potências europeias estabeleceram regras para reivindicações territoriais na África, sem representação dos povos africanos."
+      },
+      {
+        "ano": 1885,
+        "titulo": "Encerramento da Conferência de Berlim",
+        "descricao": "O acordo não concluiu a conquista do continente; a ocupação e as resistências prosseguiram nas décadas seguintes."
+      },
+      {
+        "ano": 1896,
+        "titulo": "Batalha de Adwa",
+        "descricao": "Forças etíopes derrotaram a invasão italiana e preservaram a independência do país naquele momento."
+      },
+      {
+        "ano": 1904,
+        "titulo": "Guerra Russo-Japonesa",
+        "descricao": "O conflito evidenciou a disputa imperialista no Leste Asiático e a ascensão do Japão como potência militar."
+      },
+      {
+        "ano": 1908,
+        "titulo": "Anexação do Congo pela Bélgica",
+        "descricao": "O Estado Livre do Congo deixou de ser propriedade pessoal de Leopoldo II e passou ao domínio formal do Estado belga."
+      },
+      {
+        "ano": 1914,
+        "titulo": "Início da Primeira Guerra Mundial",
+        "descricao": "Rivalidades imperialistas integraram o contexto de tensões, ao lado de alianças, militarismo, nacionalismos e crises diplomáticas."
       }
     ],
     "consequencias_imediatas": [
-      "Subjugação e destruição violenta de sociedades tradicionais na África e na Ásia.",
-      "Criação de tensões nacionalistas e militares extremas na Europa ('Paz Armada')."
+      "Imposição de administrações coloniais e formas de exploração econômica, trabalho compulsório e violência em várias regiões da África e da Ásia.",
+      "Desestruturação ou transformação de instituições políticas e economias locais, acompanhada por resistências e negociações.",
+      "Intensificação das rivalidades entre potências, sem que o imperialismo explique isoladamente a eclosão da Primeira Guerra Mundial."
     ],
     "consequencias_longo_prazo": [
-      "Fronteiras artificiais geradoras de conflitos étnicos crônicos pós-independência no Terceiro Mundo."
+      "Fronteiras coloniais, economias voltadas à exportação e desigualdades estruturais influenciaram processos de independência e conflitos posteriores, embora os efeitos variassem conforme a região.",
+      "Experiências de resistência, circulação de ideias e organização política contribuíram para movimentos anticoloniais do século XX."
     ],
     "impactos": {
-      "politicos": "Subordinação de continentes inteiros aos interesses de capitais metropolitanos estrangeiros.",
-      "economicos": "Globalização capitalista predatória e extração intensiva de riquezas coloniais.",
-      "sociais": "Trabalho forçado, segregationismo racial institucionalizado e imposição cultural eurocêntrica.",
-      "culturais": "Aculturação forçada e disseminação de preconceitos eurocêntricos globais.",
-      "territoriais": "Mapa da África e da Ásia redesenhado conforme interesses de gabinetes europeus.",
-      "ambientais": "Extração exaustiva de recursos naturais e degradação ambiental colonial em larga escala."
+      "politicos": "Perda ou limitação da soberania de muitos povos, formação de administrações coloniais e fortalecimento de rivalidades entre Estados imperiais.",
+      "economicos": "Extração de recursos, reorganização de atividades produtivas para atender mercados externos e concentração de lucros em empresas e metrópoles.",
+      "sociais": "Trabalho forçado, deslocamentos, tributação coercitiva, violência racial e transformação das relações comunitárias, com respostas e resistências locais.",
+      "culturais": "Imposição de línguas e instituições coloniais em alguns contextos, circulação cultural e também preservação, adaptação e resistência de tradições locais.",
+      "territoriais": "Conquista e redefinição de fronteiras por potências estrangeiras, sem respeitar necessariamente organizações políticas e sociais existentes.",
+      "ambientais": "Mineração, monoculturas, exploração florestal e construção de infraestrutura alteraram ecossistemas e formas locais de uso da terra."
     },
-    "continuidade": "Divisão internacional do trabalho entre países exportadores de matérias-primas e potências industriais.",
-    "rupturas": "Substituição do colonialismo mercantilista tradicional pelo imperialismo financeiro e industrial monopolista."
+    "continuidade": "A desigualdade entre centros industriais e regiões subordinadas permaneceu e foi reproduzida por relações comerciais, políticas e financeiras mesmo após o fim de muitos regimes coloniais.",
+    "rupturas": "A expansão imperialista criou novas formas de controle territorial e econômico, articuladas ao capitalismo industrial e financeiro, mas não eliminou as sociedades, instituições e agências políticas locais."
   },
   {
     "id": "guerras-e-revolucoes-1914-1945",
