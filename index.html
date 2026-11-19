@@ -1081,6 +1081,23 @@
         .criterios-avaliacao span { line-height: 1.5; font-size: .92rem; }
         @media (max-width: 600px) { .guia-professor { padding: 14px; } .criterios-avaliacao { grid-template-columns: 1fr; } }
 
+
+        /* Etapa 11 — banco de atividades históricas */
+        .atividades-filtros { display: flex; flex-direction: column; gap: 7px; max-width: 520px; margin: 18px 0; }
+        .atividades-filtros label { font-weight: 700; color: #29445f; }
+        .atividades-filtros select { width: 100%; padding: 11px 12px; border: 1px solid #cbd6e0; border-radius: 6px; background: #fff; color: #26394b; font: inherit; }
+        .atividades-filtros select:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 2px; }
+        .atividades-lista { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .atividade-banco-card { padding: 17px; border: 1px solid #dce4eb; border-radius: 9px; background: #fff; }
+        .atividade-banco-card h3 { margin: 8px 0; color: #173f63; }
+        .atividade-banco-card p { line-height: 1.6; }
+        .atividade-banco-card details { margin-top: 12px; padding-top: 10px; border-top: 1px solid #e1e7ee; }
+        .atividade-banco-card summary { cursor: pointer; color: #174d7a; font-weight: 700; line-height: 1.5; }
+        .atividade-banco-card summary:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 3px; border-radius: 4px; }
+        .atividade-banco-card ol { padding-left: 22px; line-height: 1.65; }
+        .atividade-banco-card li { margin-bottom: 9px; }
+        @media (max-width: 700px) { .atividades-lista { grid-template-columns: 1fr; } }
+
 </style>
 </head>
 <body>
@@ -1107,6 +1124,7 @@
         <button class="btn-periodo" onclick="carregarPeriodo('atualidades.json', this)">Atualidades</button>
         <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
         <button class="btn-periodo" onclick="mostrarFontesHistoricas(this)">Fontes Históricas</button>
+        <button class="btn-periodo" onclick="mostrarBancoAtividades(this)">Banco de Atividades</button>
     </nav>
 
     <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
@@ -1573,6 +1591,107 @@
                 '<p class="atividade-fonte-dica"><strong>Registro final:</strong> escreva uma conclusão sustentada por pelo menos duas evidências do documento ou de fontes complementares. Diferencie o que o documento informa daquilo que você concluiu.</p></div></details>' +
                 '</article>'
             ).join('') : '<p role="status">Nenhum documento corresponde à busca.</p>';
+        }
+
+        const bancoAtividades = [
+            { id: 'pre-historia', titulo: 'Pré-História', foco: 'Vestígios, modos de vida e diversidade das primeiras sociedades', perguntas: [
+                'Que tipos de vestígios arqueológicos permitem investigar sociedades sem registros escritos?',
+                'Como o domínio do fogo, a produção de ferramentas e outras técnicas alteraram a relação dos grupos humanos com o ambiente?',
+                'Por que não devemos imaginar todos os grupos humanos seguindo uma única trajetória de desenvolvimento?',
+                'O que pinturas rupestres e objetos encontrados em sítios arqueológicos podem revelar — e o que não permitem afirmar sozinhos?',
+                'Como museus, sítios arqueológicos e povos originários podem contribuir para ampliar a compreensão sobre o passado?'
+            ]},
+            { id: 'idade-antiga', titulo: 'Idade Antiga', foco: 'Cidades, poder, trabalho, cultura e conexões entre sociedades', perguntas: [
+                'Como rios, rotas comerciais e condições geográficas influenciaram a formação de diferentes sociedades antigas?',
+                'Quem concentrava o poder político e religioso nas sociedades estudadas e como justificava sua autoridade?',
+                'Quais formas de trabalho sustentavam a produção de riquezas e quais grupos se beneficiavam delas?',
+                'Como as trocas culturais e comerciais conectavam povos que viviam em regiões distantes?',
+                'Que heranças da Antiguidade permanecem presentes, ainda que transformadas, nas sociedades atuais?'
+            ]},
+            { id: 'idade-medieval', titulo: 'Idade Média', foco: 'Relações de poder, religiosidade, trabalho e circulação', perguntas: [
+                'Como se organizavam as relações entre senhores, trabalhadores e autoridades políticas no feudalismo?',
+                'De que maneiras a Igreja influenciava a cultura, a educação e a política medieval?',
+                'Como cidades, feiras e rotas comerciais contribuíram para transformar a sociedade medieval?',
+                'Por que a experiência medieval foi diferente na Europa, na África e na Ásia?',
+                'Quais ideias equivocadas sobre a Idade Média podem ser revistas quando analisamos diferentes fontes e regiões?'
+            ]},
+            { id: 'idade-moderna', titulo: 'Idade Moderna', foco: 'Expansão marítima, colonização, ciência e disputas de poder', perguntas: [
+                'Quais interesses econômicos e políticos impulsionaram a expansão marítima europeia?',
+                'Como a conquista e a colonização transformaram sociedades indígenas, africanas e europeias?',
+                'De que modo o tráfico atlântico de pessoas escravizadas integrou economias e ampliou desigualdades?',
+                'Como o Renascimento, a Reforma e a Revolução Científica questionaram ou modificaram formas de pensar e exercer autoridade?',
+                'Por que é importante analisar a expansão marítima a partir das experiências de diferentes povos envolvidos?'
+            ]},
+            { id: 'idade-contemporanea', titulo: 'Idade Contemporânea', foco: 'Revoluções, industrialização, guerras e transformações sociais', perguntas: [
+                'Como as revoluções políticas dos séculos XVIII e XIX redefiniram ideias de cidadania e direitos?',
+                'Quais mudanças a industrialização provocou no trabalho, nas cidades e nas relações sociais?',
+                'Como nacionalismos, imperialismos e disputas econômicas contribuíram para conflitos mundiais?',
+                'De que maneiras movimentos sociais e processos de descolonização questionaram desigualdades e dominações?',
+                'Que continuidades e rupturas do mundo contemporâneo podem ser identificadas na realidade atual?'
+            ]},
+            { id: 'brasil', titulo: 'História do Brasil', foco: 'Colonização, independência, cidadania e formação do Estado', perguntas: [
+                'Como diferentes povos indígenas, africanos, europeus e seus descendentes participaram da formação histórica do Brasil?',
+                'Quais interesses sustentaram a colonização e como foram contestados por diferentes grupos?',
+                'A Independência de 1822 alterou de imediato as condições de vida e a participação política de toda a população? Justifique.',
+                'Como abolição, República e mudanças constitucionais transformaram — e também mantiveram — desigualdades sociais?',
+                'Que fontes históricas permitem confrontar versões oficiais da história brasileira com experiências de grupos pouco representados?'
+            ]},
+            { id: 'atualidades', titulo: 'Atualidades e mundo contemporâneo', foco: 'Leitura crítica de acontecimentos e informações', perguntas: [
+                'Qual é o fato central da notícia ou acontecimento escolhido e quais informações permitem situá-lo no tempo e no espaço?',
+                'Quais atores sociais estão envolvidos e que interesses ou perspectivas podem ser identificados?',
+                'Que dados, documentos ou fontes independentes ajudam a verificar as informações divulgadas?',
+                'Quais grupos são mais afetados pelo acontecimento e suas vozes aparecem na cobertura?',
+                'Como distinguir fato comprovado, interpretação, opinião e desinformação ao analisar o tema?'
+            ]},
+            { id: 'direitos-humanos', titulo: 'Direitos Humanos e cidadania', foco: 'Direitos, democracia, diversidade e conflitos sociais', perguntas: [
+                'Por que os direitos humanos são considerados universais e como essa ideia foi construída historicamente?',
+                'Quais grupos ou movimentos sociais atuaram para ampliar direitos em diferentes períodos?',
+                'Que tensões podem surgir entre direitos individuais, interesses coletivos e decisões do Estado?',
+                'Como preconceito, discriminação e desigualdade limitam o exercício efetivo da cidadania?',
+                'Que ações concretas podem fortalecer os direitos humanos na escola e na comunidade?'
+            ]}
+        ];
+
+        function mostrarBancoAtividades(botaoElemento) {
+            requisicaoAtual++;
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            if (botaoElemento) botaoElemento.classList.add('ativo');
+            const container = document.getElementById('app-container');
+            container.setAttribute('aria-busy', 'false');
+            container.innerHTML = `
+                <section class="conteudo-wrapper banco-atividades" aria-labelledby="titulo-banco-atividades">
+                    <h2 id="titulo-banco-atividades">Banco de Atividades Históricas</h2>
+                    <p class="fontes-intro">Atividades discursivas organizadas por período e tema. Cada proposta contém cinco questões abertas, pensadas para estimular análise, argumentação e relações entre passado e presente. O professor pode selecionar, adaptar ou combinar questões conforme os objetivos da aula.</p>
+                    <div class="atividades-filtros">
+                        <label for="filtro-atividades">Selecionar período ou tema</label>
+                        <select id="filtro-atividades" onchange="filtrarBancoAtividades()">
+                            <option value="">Todos os períodos e temas</option>
+                            ${bancoAtividades.map(item => '<option value="' + escaparHTML(item.id) + '">' + escaparHTML(item.titulo) + '</option>').join('')}
+                        </select>
+                    </div>
+                    <p id="atividades-contagem" class="fontes-contagem" aria-live="polite"></p>
+                    <div id="lista-banco-atividades" class="atividades-lista"></div>
+                </section>`;
+            filtrarBancoAtividades();
+        }
+
+        function filtrarBancoAtividades() {
+            const filtro = document.getElementById('filtro-atividades')?.value || '';
+            const lista = document.getElementById('lista-banco-atividades');
+            const contagem = document.getElementById('atividades-contagem');
+            if (!lista || !contagem) return;
+            const atividades = bancoAtividades.filter(item => !filtro || item.id === filtro);
+            contagem.textContent = atividades.length + (atividades.length === 1 ? ' atividade disponível' : ' atividades disponíveis');
+            lista.innerHTML = atividades.map(item => `
+                <article class="atividade-banco-card">
+                    <span class="fonte-meta">ATIVIDADE DISCURSIVA · CINCO QUESTÕES</span>
+                    <h3>${escaparHTML(item.titulo)}</h3>
+                    <p><strong>Foco:</strong> ${escaparHTML(item.foco)}</p>
+                    <details>
+                        <summary>Abrir atividade</summary>
+                        <ol>${item.perguntas.map(pergunta => '<li>' + escaparHTML(pergunta) + '</li>').join('')}</ol>
+                    </details>
+                </article>`).join('');
         }
 
         function mostrarFontesHistoricas(botaoElemento) {
