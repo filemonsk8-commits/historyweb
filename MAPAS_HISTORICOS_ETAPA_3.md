@@ -33,6 +33,7 @@ Acrescentar mapas históricos associados a registros específicos, com contextua
 - [x] Auditar os oito módulos e identificar registros sem mapas.
 - [x] Selecionar cinco mapas para uma primeira entrega.
 - [x] Conferir autoria, fonte e licença nas páginas de origem.
+- [x] Corrigir atribuições de obras derivadas e otimizar duas imagens de maior dimensão.
 - [x] Criar catálogo separado, sem alterar os JSON históricos existentes.
 - [x] Integrar mapas aos cartões correspondentes.
 - [x] Incluir contexto, texto alternativo e créditos.
