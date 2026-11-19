@@ -81,7 +81,6 @@
     "continuidade": "Persistência de disputas comerciais e tecnológicas entre grandes potências e de reivindicações sociais por direitos e participação política.",
     "rupturas": "A intensidade das mobilizações em 2019 marcou diferentes cenários nacionais, mas não representou o fim do livre comércio nem uma ruptura mundial única."
   },
-
   {
     "id": "atualidades-2020",
     "titulo_principal": "ATUALIDADES (2020): PANDEMIA, DESIGUALDADES E TRANSFORMAÇÕES SOCIAIS",
@@ -166,123 +165,201 @@
     "continuidade": "Desafios de saúde pública, desigualdade no acesso a serviços e necessidade de preparação para emergências sanitárias permaneceram após 2020.",
     "rupturas": "A pandemia interrompeu ou reorganizou temporariamente atividades presenciais em escala mundial e acelerou mudanças digitais, sem tornar permanentes ou universais todas essas transformações."
   },
-
   {
     "id": "atualidades-2021",
-    "titulo_principal": "ATUALIDADES (2021): RETOMADA, VACINAÇÃO E CRISE LOGÍSTICA",
+    "titulo_principal": "ATUALIDADES (2021): VACINAÇÃO, DESIGUALDADES E RECONFIGURAÇÃO GLOBAL",
     "ano_inicio": 2021,
     "ano_fim": 2021,
     "periodo": "Atualidades Mundiais",
     "local": "Global",
-    "sociedades_envolvidas": "Nações Desenvolvidas e em Desenvolvimento, Cadeias Logísticas Globais",
-    "tema": "Campanhas de Vacinação, Retomada Econômica, Crise de Suprimentos, Desigualdade Social, Clima e Criptomoedas",
-    "contexto": "Com a imunização em massa avançando, a economia global tentou recuperar-se, esbarrando em graves gargalos logísticos nas cadeias de transporte e no acirramento das desigualdades pós-pandemia.",
+    "sociedades_envolvidas": "Populações de diferentes regiões do mundo, governos, organismos multilaterais, comunidades científicas, trabalhadores e empresas",
+    "tema": "Vacinação contra a COVID-19, desigualdade no acesso à saúde, variantes do coronavírus, retomada econômica, crise logística, inflação, mudanças climáticas e disputas políticas",
+    "contexto": "O ano de 2021 foi marcado pela ampliação das campanhas de vacinação contra a COVID-19 e pela tentativa de retomada das atividades sociais e econômicas. A recuperação ocorreu de forma desigual entre países e grupos sociais, enquanto gargalos no transporte e na produção, pressões inflacionárias, novas variantes do coronavírus e a emergência climática mantiveram a crise em evidência.",
     "antecedentes": [
-      "Paralisação industrial e restrições sanitárias do ano anterior."
+      "A pandemia iniciada em 2020 provocou recessão, mudanças no trabalho e na educação, interrupções produtivas e forte pressão sobre os sistemas de saúde.",
+      "A produção de vacinas em tempo recorde criou novas possibilidades de controle da doença, mas a distribuição internacional começou marcada por desigualdades de renda, contratos e capacidade de aquisição.",
+      "A retomada de atividades ocorreu em um cenário de demanda reprimida, estoques reduzidos e dificuldades acumuladas nos transportes e no abastecimento."
     ],
     "causas": {
-      "politicas": "Disparidade geopolítica na distribuição de vacinas ('apartheid vacinal') entre países ricos e pobres.",
-      "economicas": "Retomada súbita da demanda de consumo global encontrando portos e indústrias despreparados.",
-      "sociais": "Aumento alarmante da pobreza extrema e da fome decorrentes da crise de 2020.",
-      "religiosas": "Debates éticos sobre vacinação e campanhas de desinformação sanitária.",
-      "culturais": "Consolidação de ecossistemas financeiros digitais e criptoativos na economia popular.",
-      "territoriais": "Gargalos logísticos marítimos internacionais e escassez de contentores (containers).",
-      "tecnologias": "Boom especulativo e tecnológico das criptomoedas e ativos baseados em blockchain."
+      "politicas": "A distribuição desigual de vacinas, a disputa por contratos e insumos e as diferentes estratégias nacionais de enfrentamento da pandemia expuseram limites da cooperação internacional.",
+      "economicas": "A reabertura de setores produtivos e o aumento da demanda encontraram gargalos em portos, transporte marítimo, semicondutores e matérias-primas, contribuindo para atrasos e pressões sobre preços.",
+      "sociais": "A perda de renda, a informalidade, a desigualdade no acesso à internet e aos serviços de saúde e a distribuição desigual dos imunizantes ampliaram vulnerabilidades já existentes.",
+      "religiosas": "Comunidades religiosas e lideranças de diferentes tradições participaram de ações de solidariedade e de debates públicos sobre vacinação; posições internas foram diversas, não formando um bloco único.",
+      "culturais": "A circulação de desinformação, a hesitação vacinal e a polarização em redes sociais influenciaram debates sobre ciência, saúde pública e confiança nas instituições.",
+      "territoriais": "A concentração de fábricas, portos e rotas de transporte em determinadas regiões tornou visíveis as dependências geográficas das cadeias internacionais de produção.",
+      "tecnologias": "Vacinas de diferentes plataformas, sistemas digitais de informação e pagamentos eletrônicos ganharam visibilidade; ao mesmo tempo, a escassez de semicondutores afetou setores industriais."
     },
-    "resumo_card": "Abrange as campanhas mundiais de vacinação em 2021, a retomada econômica gradual, a crise global de cadeias de produção e transportes, o debate sobre desigualdade social, a COP e o boom das criptomoedas.",
-    "desenvolvimento": "Em 2021, o foco mundial centrou-se na imunização populacional. Enquanto os países desenvolvidos vacinavam rapidamente, o Sul Global enfrentou escassez. A reabertura econômica gerou um gargalo sem precedentes nas cadeias logísticas marítimas globais, elevando custos de frete e inflação. Simultaneamente, as discussões sobre desigualdade, criptoativos e metas climáticas ganharam força na agenda internacional.",
+    "resumo_card": "Reúne a vacinação desigual contra a COVID-19, a circulação de variantes, a retomada econômica, os gargalos logísticos, a inflação, a crise dos semicondutores, a COP26 e as disputas em torno da informação científica.",
+    "desenvolvimento": "Em 2021, a vacinação contra a COVID-19 avançou, mas de maneira profundamente desigual. Em setembro, a OMS e parceiros apontavam que a cobertura com ao menos uma dose era muito maior nos países de renda alta e média-alta do que nos países de renda baixa e média-baixa. A variante Delta impulsionou novas ondas de contágio; em 26 de novembro, a OMS classificou a Ômicron como variante de preocupação. A retomada econômica elevou a procura por mercadorias e energia, enquanto a falta de contêineres, a congestão portuária e a escassez de componentes, especialmente semicondutores, atrasaram a produção e pressionaram preços. Esses problemas não significaram o desaparecimento do modelo just-in-time, mas revelaram seus riscos quando estoques e rotas ficam vulneráveis. O bloqueio do Canal de Suez pelo navio Ever Given, em março, tornou visível a dependência de rotas estratégicas. No Afeganistão, o Talibã retomou o poder após a retirada das forças internacionais e o colapso do governo afegão. Na COP26, em Glasgow, países aprovaram o Pacto Climático de Glasgow, que incluiu pela primeira vez uma referência explícita à redução gradual do uso de carvão sem abatimento e a subsídios ineficientes aos combustíveis fósseis. O ano revelou que a recuperação pós-pandemia era desigual e atravessada por disputas econômicas, políticas e ambientais.",
     "personagens": [
-      "Líderes farmacêuticos e autoridades de saúde global."
+      "Profissionais de saúde, pesquisadores e equipes responsáveis pelas campanhas de vacinação.",
+      "Lideranças políticas e representantes de organismos multilaterais envolvidos na resposta à pandemia e nas negociações climáticas.",
+      "Comunidades afetadas por conflitos, crises econômicas e eventos climáticos extremos."
     ],
     "grupos_envolvidos": [
-      "Indústria Farmacêutica",
-      "Empresas de Transporte Marítimo",
-      "Investidores Globais"
+      "Organização Mundial da Saúde, COVAX e sistemas nacionais de saúde",
+      "Indústrias farmacêuticas, trabalhadores e redes internacionais de transporte",
+      "Governos, organizações da sociedade civil e movimentos ambientais",
+      "Populações com acesso desigual a vacinas, renda, serviços públicos e conectividade"
     ],
     "interesses_em_disputa": [
-      "Patentes de vacinas e acesso igualitário à saúde versus lucros industriais privados."
+      "Acesso amplo e equitativo a vacinas e tratamentos versus concentração de doses, capacidade produtiva e poder de compra.",
+      "Retomada econômica e circulação de mercadorias versus proteção sanitária, condições de trabalho e redução de desigualdades.",
+      "Metas climáticas e transição energética versus dependência de combustíveis fósseis e interesses econômicos estabelecidos."
     ],
     "linha_do_tempo": [
-      {"ano": 2021, "titulo": "Campanhas de Imunização em Massa", "descricao": "Distribuição global de bilhões de doses de vacinas anticovid."},
-      {"ano": 2021, "titulo": "Gargalo Logístico Internacional", "descricao": "Crise nos portos e escassez de insumos industriais básicos."}
+      {
+        "ano": 2021,
+        "titulo": "Janeiro a dezembro — expansão da vacinação",
+        "descricao": "Campanhas de imunização avançam em diferentes ritmos; a desigualdade de acesso entre países permanece acentuada."
+      },
+      {
+        "ano": 2021,
+        "titulo": "Março — bloqueio do Canal de Suez",
+        "descricao": "O encalhe do navio Ever Given interrompe temporariamente uma das principais rotas do comércio marítimo mundial."
+      },
+      {
+        "ano": 2021,
+        "titulo": "Agosto — retorno do Talibã ao poder no Afeganistão",
+        "descricao": "A retirada das forças internacionais e o colapso do governo afegão culminam na tomada de Cabul pelo Talibã."
+      },
+      {
+        "ano": 2021,
+        "titulo": "26 de novembro — classificação da Ômicron",
+        "descricao": "A OMS designa a variante B.1.1.529 como variante de preocupação."
+      },
+      {
+        "ano": 2021,
+        "titulo": "Novembro — COP26 em Glasgow",
+        "descricao": "A conferência aprova o Pacto Climático de Glasgow e reforça compromissos e debates sobre financiamento e redução de emissões."
+      }
     ],
     "consequencias_imediatas": [
-      "Inflação de custos em escala global e estrangulamento de linhas de montagem industrial."
+      "A vacinação reduziu riscos de formas graves da COVID-19, embora a proteção e a cobertura variassem entre países e grupos.",
+      "Gargalos de transporte e produção, somados à retomada da demanda, contribuíram para atrasos, aumento de fretes e pressões inflacionárias.",
+      "A tomada do poder pelo Talibã provocou deslocamentos, incerteza política e preocupações internacionais com direitos, especialmente de mulheres e meninas."
     ],
     "consequencias_longo_prazo": [
-      "Necessidade de reestruturação de cadeias logísticas regionais (nearshoring)."
+      "A pandemia reforçou debates sobre capacidade de produção regional de vacinas, cooperação científica e preparação para emergências sanitárias.",
+      "Empresas e governos passaram a discutir maior diversificação de fornecedores e estoques estratégicos, sem que isso representasse o abandono generalizado das cadeias globais.",
+      "As metas climáticas e o financiamento para adaptação e mitigação permaneceram no centro das negociações internacionais."
     ],
     "impactos": {
-      "politicos": "Tensão diplomática por doações e acesso a imunizantes (diplomacia das vacinas).",
-      "economicos": "Pressão inflacionária duradoura e disparada nos preços de insumos e fretes.",
-      "sociais": "Aprofundamento da fratura socioeconômica entre nações ricas e pobres.",
-      "culturais": "Popularização financeira de criptomoedas e investimentos descentralizados.",
-      "territoriais": "Dependência crítica de rotas marítimas asiáticas de exportação.",
-      "ambientais": "Reativação de debates climáticos na COP com foco na transição energética pós-crise."
+      "politicos": "A pandemia e a desigualdade vacinal tensionaram a cooperação internacional; a retomada do Talibã ao poder alterou a situação política e humanitária do Afeganistão.",
+      "economicos": "A recuperação foi acompanhada por gargalos de oferta, custos de transporte mais altos e pressões inflacionárias, com efeitos diferentes conforme cada país.",
+      "sociais": "Persistiram perdas educacionais, insegurança de renda e diferenças no acesso à saúde, à vacinação e à conectividade.",
+      "culturais": "Debates sobre ciência, desinformação, confiança institucional e circulação de informações ganharam centralidade nas plataformas digitais.",
+      "territoriais": "O bloqueio do Canal de Suez e os gargalos portuários demonstraram como interrupções localizadas podem repercutir nas redes globais de abastecimento.",
+      "ambientais": "A COP26 reafirmou a urgência de reduzir emissões e ampliar financiamento climático, embora os compromissos permanecessem insuficientes diante das metas de temperatura."
     },
-    "continuidade": "Flutuações econômicas e inflacionárias decorrentes de choques de oferta.",
-    "rupturas": "Fim do modelo logístico global Just-in-Time sem estoques de segurança."
+    "continuidade": "Desigualdades entre países e dentro deles, dependência de cadeias internacionais de produção, conflitos regionais e disputas sobre o ritmo da transição energética.",
+    "rupturas": "A escala da vacinação global, a classificação de novas variantes e a experiência da crise sanitária ampliaram a atenção à preparação para pandemias e à vulnerabilidade das cadeias de abastecimento."
   },
-
   {
     "id": "atualidades-2022",
-    "titulo_principal": "ATUALIDADES (2022): A INVASÃO DA UCRÂNIA E O CHOQUE ENERGÉTICO",
+    "titulo_principal": "ATUALIDADES (2022): GUERRA NA UCRÂNIA, CRISES GLOBAIS E TRANSFORMAÇÕES SOCIAIS",
     "ano_inicio": 2022,
     "ano_fim": 2022,
     "periodo": "Atualidades Mundiais",
     "local": "Europa Oriental / Global",
-    "sociedades_envolvidas": "Rússia, Ucrânia, Países da OTAN, União Europeia",
-    "tema": "Invasão da Ucrânia pela Rússia, Crise Energética, Preços de Alimentos, Tensões Geopolíticas, Segurança Alimentar, IA Generativa",
-    "contexto": "A ordem de segurança europeia ruiu com a invasão militar russa à Ucrânia em fevereiro de 2022, provocando choques brutais nos mercados de energia e grãos, e impulsionando a ascensão pública da IA generativa.",
+    "sociedades_envolvidas": "Populações da Ucrânia e da Rússia, países europeus, organismos internacionais e sociedades afetadas por crises econômicas, alimentares, energéticas e climáticas",
+    "tema": "Invasão russa em larga escala da Ucrânia, deslocamentos forçados, crise energética, segurança alimentar, inflação, protestos sociais, mudanças climáticas, COP27 e popularização da inteligência artificial generativa",
+    "contexto": "Em 24 de fevereiro de 2022, a Federação Russa iniciou uma invasão em larga escala da Ucrânia, ampliando uma guerra que já existia desde 2014. O conflito provocou graves consequências humanitárias e repercussões internacionais nos mercados de energia e alimentos. Ao mesmo tempo, inflação, protestos sociais, eventos climáticos extremos e debates sobre inteligência artificial marcaram o cenário mundial.",
     "antecedentes": [
-      "Expansão da OTAN para o leste europeu, anexação da Crimeia em 2014 e acúmulo de tropas russas nas fronteiras."
+      "A dissolução da União Soviética, em 1991, foi seguida por disputas políticas e estratégicas sobre a posição da Ucrânia e a segurança da Europa Oriental.",
+      "Em 2014, a Rússia anexou a Crimeia, ação não reconhecida pela maior parte da comunidade internacional, e começou o conflito armado no Donbas, no leste ucraniano.",
+      "Os Acordos de Minsk buscaram reduzir a violência no leste da Ucrânia, mas não produziram uma solução duradoura.",
+      "A pandemia, a recuperação econômica desigual e os problemas nas cadeias de abastecimento já pressionavam preços de energia, alimentos e outros produtos antes da invasão em larga escala."
     ],
     "causas": {
-      "politicas": "Objetivo geopolítico russo de impedir a ocidentalização da Ucrânia e expandir esferas de influência.",
-      "economicas": "Sanções econômicas ocidentais severas contra a Rússia e corte no fornecimento de gás natural russo para a Europa.",
-      "sociais": "Crise humanitária com milhões de refugiados ucranianos buscando abrigo na Europa.",
-      "religiosas": "Conflitos de jurisdição e lealdade entre igrejas ortodoxas na região.",
-      "culturais": "Ruptura cultural drástica entre populações russa e ucraniana.",
-      "territoriais": "Anexação militar de províncias ucranianas pelas forças russas.",
-      "tecnologias": "Salto espetacular na inteligência artificial generativa (lançamento público de modelos de linguagem como o ChatGPT)."
+      "politicas": "A invasão decorreu de decisões do governo russo e de uma disputa geopolítica mais ampla envolvendo a soberania ucraniana, a orientação internacional do país e a arquitetura de segurança europeia. O governo russo apresentou justificativas próprias relacionadas à segurança e à OTAN, contestadas por outros governos e que não legitimam o uso da força contra a Ucrânia.",
+      "economicas": "A guerra, as sanções, as incertezas sobre o fornecimento de energia e as interrupções no comércio de grãos e fertilizantes agravaram pressões sobre preços que já existiam desde a retomada pós-pandemia.",
+      "sociais": "A invasão provocou mortes, destruição de moradias e infraestrutura e deslocamento de milhões de pessoas. Em outros países, inflação e perda de poder de compra alimentaram tensões sociais.",
+      "religiosas": "O conflito envolveu também disputas de identidade e jurisdição entre instituições ortodoxas, mas não pode ser explicado como uma guerra religiosa; as populações e comunidades religiosas da região são diversas.",
+      "culturais": "A guerra intensificou debates sobre identidade nacional, língua, memória histórica, propaganda, desinformação e proteção do patrimônio cultural.",
+      "territoriais": "O governo russo reivindicou a anexação de territórios ucranianos ocupados após processos eleitorais não reconhecidos pela Ucrânia e por grande parte da comunidade internacional; as fronteiras internacionalmente reconhecidas da Ucrânia não foram alteradas por esses atos.",
+      "tecnologias": "A guerra evidenciou o uso de drones, satélites comerciais, comunicação digital e operações cibernéticas. Em novembro, o lançamento público do ChatGPT ampliou a visibilidade da inteligência artificial generativa, tecnologia que já tinha antecedentes e aplicações anteriores."
     },
-    "resumo_card": "Abrange a invasão da Ucrânia pela Rússia em 2022, crise energética, alta de preços de alimentos, tensões entre Rússia, EUA e Europa, segurança alimentar, crise humanitária e a popularização da IA generativa.",
-    "desenvolvimento": "Em 24 de fevereiro de 2022, a Rússia invadiu a Ucrânia. O conflito provocou sanções sem precedentes do Ocidente, disparando os preços do petróleo, gás e fertilizantes, gerando uma crise de segurança alimentar mundial (especialmente na África e Oriente Médio). Paralelamente, o ano marcou uma reviravolta tecnológica com a chegada ao grande público das ferramentas de inteligência artificial generativa.",
+    "resumo_card": "Aborda a invasão russa em larga escala da Ucrânia, a crise humanitária, os impactos sobre energia e alimentos, a inflação, protestos sociais, a COP27 e a chegada do ChatGPT ao público.",
+    "desenvolvimento": "Em 24 de fevereiro de 2022, a Rússia iniciou uma invasão em larga escala da Ucrânia, ampliando o conflito iniciado em 2014. A Assembleia Geral da ONU aprovou, em 2 de março, a resolução ES-11/1, que deplorou a agressão e exigiu a retirada das forças russas: 141 países votaram a favor, cinco contra e 35 se abstiveram. A guerra provocou mortes, destruição de infraestrutura e deslocamentos em grande escala. Também afetou mercados internacionais de energia, fertilizantes e alimentos. A pressão sobre os preços, contudo, não começou exclusivamente com a guerra: já havia gargalos e inflação associados à recuperação desigual após a pandemia. Em março, o índice de preços de alimentos da FAO atingiu o maior nível desde o início da série, em 1990. Países europeus buscaram reduzir a dependência do gás russo, enquanto consumidores e indústrias enfrentaram contas mais elevadas. Em maio, Finlândia e Suécia solicitaram ingresso na OTAN; a Finlândia só se tornou membro em abril de 2023. O ano também foi marcado por protestos no Sri Lanka em meio a uma grave crise econômica e, no Irã, por manifestações após a morte de Mahsa Amini sob custódia policial, com forte participação de mulheres e jovens. Na COP27, realizada no Egito, os países decidiram criar um fundo para perdas e danos associados aos impactos climáticos. Em 30 de novembro, a OpenAI disponibilizou publicamente o ChatGPT, ampliando a popularização da inteligência artificial generativa e os debates sobre educação, trabalho, autoria, privacidade e regulação.",
     "personagens": [
-      "Vladimir Putin: Presidente da Rússia.",
-      "Volodymyr Zelenskyy: Presidente da Ucrânia."
+      "Volodymyr Zelenskyy, presidente da Ucrânia, e Vladimir Putin, presidente da Federação Russa.",
+      "Representantes da ONU, da União Europeia, da OTAN e de governos envolvidos nas respostas diplomáticas e humanitárias.",
+      "Mahsa Amini, cuja morte sob custódia policial desencadeou protestos no Irã, e manifestantes que reivindicaram direitos e liberdades."
     ],
     "grupos_envolvidos": [
-      "Forças Armadas da Federação Russa",
-      "Forças de Defesa da Ucrânia",
-      "Países Aliados da OTAN"
+      "População civil ucraniana, pessoas deslocadas e organizações humanitárias",
+      "Forças armadas da Rússia e da Ucrânia",
+      "Governos, organismos multilaterais e países envolvidos em sanções, negociações e ajuda humanitária",
+      "Consumidores, trabalhadores e setores econômicos afetados pela inflação e pela crise energética",
+      "Movimentos sociais e grupos que reivindicaram direitos no Sri Lanka e no Irã"
     ],
     "interesses_em_disputa": [
-      "Soberania territorial ucraniana versus reconfiguração imperial russa de fronteiras."
+      "Soberania, integridade territorial e autodeterminação da Ucrânia versus objetivos estratégicos e territoriais do governo russo.",
+      "Segurança energética e abastecimento de alimentos versus dependência de fornecedores, sanções e instabilidade dos mercados.",
+      "Direitos das mulheres, liberdades civis e participação política versus práticas repressivas e restrições estatais.",
+      "Desenvolvimento de tecnologias de inteligência artificial versus exigências de transparência, segurança, privacidade e responsabilidade."
     ],
     "linha_do_tempo": [
-      {"ano": 2022, "titulo": "Invasão da Ucrânia", "descricao": "Ofensiva militar russa em larga escala a partir de 24 de fevereiro."},
-      {"ano": 2022, "titulo": "Explosão da IA Generativa", "descricao": "Lançamento público de tecnologias de inteligência artificial de conversação avançada."}
+      {
+        "ano": 2022,
+        "titulo": "24 de fevereiro — invasão em larga escala da Ucrânia",
+        "descricao": "Forças russas iniciam uma ofensiva militar em larga escala contra o território ucraniano."
+      },
+      {
+        "ano": 2022,
+        "titulo": "2 de março — resolução da Assembleia Geral da ONU",
+        "descricao": "A resolução ES-11/1 deplora a agressão contra a Ucrânia e exige a retirada das forças russas."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Março — alta histórica dos preços internacionais de alimentos",
+        "descricao": "O índice da FAO alcança o maior nível desde o início da série, em 1990."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Maio — pedidos de ingresso na OTAN",
+        "descricao": "Finlândia e Suécia apresentam pedidos formais de adesão à aliança militar."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Setembro — protestos no Irã",
+        "descricao": "A morte de Mahsa Amini sob custódia policial desencadeia manifestações em várias cidades."
+      },
+      {
+        "ano": 2022,
+        "titulo": "Novembro — COP27 no Egito",
+        "descricao": "A conferência decide estabelecer um fundo para perdas e danos relacionados aos impactos climáticos."
+      },
+      {
+        "ano": 2022,
+        "titulo": "30 de novembro — lançamento público do ChatGPT",
+        "descricao": "A ferramenta é disponibilizada como prévia de pesquisa e amplia o debate público sobre IA generativa."
+      }
     ],
     "consequencias_imediatas": [
-      "Maior crise de refugiados na Europa desde a Segunda Guerra Mundial e choque inflacionário energético.",
-      "Realinhamento militar europeu com o rearmamento da Alemanha e ampliação da OTAN (entrada da Finlândia)."
+      "A guerra produziu mortes, destruição de infraestrutura, deslocamento de civis e uma ampla resposta humanitária internacional.",
+      "A instabilidade nos mercados de energia, grãos e fertilizantes contribuiu para o aumento de custos e insegurança alimentar em diversos países.",
+      "Sanções e medidas de retaliação econômica alteraram fluxos comerciais e aceleraram a busca europeia por alternativas ao fornecimento russo de energia.",
+      "Os protestos no Irã e no Sri Lanka expuseram tensões relacionadas a direitos, representação política, custo de vida e condições econômicas."
     ],
     "consequencias_longo_prazo": [
-      "Fim definitivo da era de gás natural russo barato para a indústria europeia e transição apressada para energias limpas."
+      "A guerra aprofundou a reorganização da segurança europeia e manteve efeitos sobre gastos militares, alianças e relações diplomáticas.",
+      "Governos e empresas passaram a rever estratégias de segurança energética, diversificação de fornecedores e abastecimento, sem que a dependência de combustíveis fósseis fosse eliminada de imediato.",
+      "A decisão de criar um fundo de perdas e danos na COP27 abriu uma nova etapa de negociação sobre financiamento climático; sua estrutura e funcionamento seriam definidos posteriormente.",
+      "A popularização da IA generativa ampliou discussões sobre regulação, direitos autorais, privacidade, educação e transformações no trabalho."
     ],
     "impactos": {
-      "politicos": "Isolamento diplomático russo no Ocidente e consolidação da unidade da OTAN.",
-      "economicos": "Inflação de commodities, alimentos e energia em nível planetário.",
-      "sociais": "Trauma humanitário e migratório em larga escala na Europa Oriental.",
-      "culturais": "Início da revolução tecnológica baseada em inteligência artificial generativa.",
-      "territoriais": "Guerra de trincheiras prolongada em território ucraniano.",
-      "ambientais": "Impactos destrutivos severos em ecossistemas, barragens e infraestruturas industriais ucranianas."
+      "politicos": "A invasão aprofundou tensões entre Rússia e países ocidentais, enquanto a Assembleia Geral da ONU expressou ampla condenação à agressão. Finlândia e Suécia iniciaram processos de adesão à OTAN.",
+      "economicos": "Energia, alimentos e fertilizantes sofreram forte volatilidade; inflação e aumento do custo de vida atingiram países em diferentes regiões, somando-se a pressões anteriores à guerra.",
+      "sociais": "Milhões de pessoas foram deslocadas pela guerra; em outros contextos, protestos denunciaram crises econômicas, violência estatal e restrições de direitos.",
+      "culturais": "Debates sobre identidade nacional, liberdade de expressão, direitos das mulheres e usos da inteligência artificial ganharam projeção internacional.",
+      "territoriais": "A ocupação de áreas ucranianas e as tentativas russas de anexação agravaram disputas de fronteira e ameaçaram a integridade territorial da Ucrânia.",
+      "ambientais": "A guerra danificou ecossistemas e infraestruturas; paralelamente, a COP27 colocou perdas e danos climáticos no centro das negociações internacionais."
     },
-    "continuidade": "Conflito militar prolongado e polarização diplomática Leste-Oeste.",
-    "rupturas": "Rompimento total das relações econômico-energéticas centrais entre Rússia e União Europeia."
+    "continuidade": "Persistência da guerra iniciada em 2014 no leste da Ucrânia, desigualdades econômicas, dependência de combustíveis fósseis, disputas geopolíticas e dificuldades de cooperação internacional.",
+    "rupturas": "A invasão em larga escala alterou a segurança europeia e os fluxos energéticos; a decisão sobre perdas e danos na COP27 e a popularização pública da IA generativa abriram novas frentes de debate internacional."
   },
-
   {
     "id": "atualidades-2023",
     "titulo_principal": "ATUALIDADES (2023): INTELIGÊNCIA ARTIFICIAL E A GUERRA EM GAZA",
@@ -320,8 +397,16 @@
       "Segurança nacional israelense e aspirações de autodeterminação palestina; controle da vanguarda tecnológica global."
     ],
     "linha_do_tempo": [
-      {"ano": 2023, "titulo": "Boom da IA Generativa", "descricao": "Adoção em massa de ferramentas de inteligência artificial em empresas e escolas."},
-      {"ano": 2023, "titulo": "Eclosão da Guerra Israel-Hamas", "descricao": "Ataques de 7 de outubro e início da ofensiva militar israelense em Gaza."}
+      {
+        "ano": 2023,
+        "titulo": "Boom da IA Generativa",
+        "descricao": "Adoção em massa de ferramentas de inteligência artificial em empresas e escolas."
+      },
+      {
+        "ano": 2023,
+        "titulo": "Eclosão da Guerra Israel-Hamas",
+        "descricao": "Ataques de 7 de outubro e início da ofensiva militar israelense em Gaza."
+      }
     ],
     "consequencias_imediatas": [
       "Dezenas de milhares de vítimas civis em Gaza e desestabilização geopolítica do Oriente Médio.",
@@ -341,7 +426,6 @@
     "continuidade": "Avanço tecnológico vertiginoso em conflito com a lentidão regulatória ética estatal.",
     "rupturas": "Entrada oficial da inteligência artificial na economia cognitiva cotidiana de massa."
   },
-
   {
     "id": "atualidades-2024",
     "titulo_principal": "ATUALIDADES (2024): ELEIÇÕES GLOBAIS, TRUMP E A QUEDA DE ASSAD",
@@ -379,9 +463,21 @@
       "Rumo da política externa dos EUA, integridade da informação democrática e controle territorial na Síria."
     ],
     "linha_do_tempo": [
-      {"ano": 2024, "titulo": "Superano Eleitoral Global", "descricao": "Ciclo histórico de eleições em dezenas de países."},
-      {"ano": 2024, "titulo": "Queda de Bashar al-Assad", "descricao": "Colapso do regime sírio após ofensiva relâmpago de oposicionistas em dezembro."},
-      {"ano": 2024, "titulo": "Retorno de Donald Trump", "descricao": "Vitória eleitoral republicana nos Estados Unidos em novembro."}
+      {
+        "ano": 2024,
+        "titulo": "Superano Eleitoral Global",
+        "descricao": "Ciclo histórico de eleições em dezenas de países."
+      },
+      {
+        "ano": 2024,
+        "titulo": "Queda de Bashar al-Assad",
+        "descricao": "Colapso do regime sírio após ofensiva relâmpago de oposicionistas em dezembro."
+      },
+      {
+        "ano": 2024,
+        "titulo": "Retorno de Donald Trump",
+        "descricao": "Vitória eleitoral republicana nos Estados Unidos em novembro."
+      }
     ],
     "consequencias_imediatas": [
       "Mudança iminente na postura dos EUA em acordos climáticos, comerciais e no apoio à Ucrânia.",
@@ -401,7 +497,6 @@
     "continuidade": "Instabilidade bélica internacional e corrida tecnológica corporativa.",
     "rupturas": "Queda abrupta de um dos regimes autoritários mais antigos do Oriente Médio (Síria)."
   },
-
   {
     "id": "atualidades-2025",
     "titulo_principal": "ATUALIDADES (2025): GOVERNO TRUMP 2.0, TARIFAS E AVANÇO DA IA",
@@ -439,8 +534,16 @@
       "Protecionismo industrial norte-americano versus livre mercado global; soberania de dados e cibersegurança."
     ],
     "linha_do_tempo": [
-      {"ano": 2025, "titulo": "Posse de Donald Trump (2º Mandato)", "descricao": "Início da nova administração focada em tarifas protecionistas e reviravoltas na política externa."},
-      {"ano": 2025, "titulo": "IA na Economia Real", "descricao": "Inteligência artificial integrada profundamente na produção corporativa e nas instituições de ensino."}
+      {
+        "ano": 2025,
+        "titulo": "Posse de Donald Trump (2º Mandato)",
+        "descricao": "Início da nova administração focada em tarifas protecionistas e reviravoltas na política externa."
+      },
+      {
+        "ano": 2025,
+        "titulo": "IA na Economia Real",
+        "descricao": "Inteligência artificial integrada profundamente na produção corporativa e nas instituições de ensino."
+      }
     ],
     "consequencias_imediatas": [
       "Volatilidade nos mercados financeiros internacionais e reações tarifárias de retaliação comercial pela China e Europa.",
@@ -460,7 +563,6 @@
     "continuidade": "Incerteza geopolítica e avanço tecnológico exponencial ininterrupto.",
     "rupturas": "Fim do arranjo comercial globalizado de baixas tarifas que vigorou nas últimas décadas."
   },
-
   {
     "id": "atualidades-2026",
     "titulo_principal": "ATUALIDADES (2026): O CENÁRIO GLOBAL ATUAL",
@@ -497,7 +599,11 @@
       "Estabilidade macroeconômica global, soberania tecnológica, segurança energética e controle de recursos estratégicos."
     ],
     "linha_do_tempo": [
-      {"ano": 2026, "titulo": "Cenário Global Contemporâneo", "descricao": "Momento atual marcado por transição energética, hegemonia da IA na economia, riscos de corrida armamentista e desafios climáticos extremos."}
+      {
+        "ano": 2026,
+        "titulo": "Cenário Global Contemporâneo",
+        "descricao": "Momento atual marcado por transição energética, hegemonia da IA na economia, riscos de corrida armamentista e desafios climáticos extremos."
+      }
     ],
     "consequencias_imediatas": [
       "Necessidade imperativa de reformas fiscais em governos nacionais e investimento pesado em defesa cibernética e física.",
