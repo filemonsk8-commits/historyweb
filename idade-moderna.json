@@ -257,26 +257,26 @@
     "local": "Europa Ocidental e Domínios Coloniais",
     "sociedades_envolvidas": "Monarcas Absolutistas, Nobreza, Burguesia Mercantil e Camponeses",
     "tema": "Pacto Colonial, Bulionismo, Centralização Política e Teóricos do Absolutismo",
-    "contexto": "Sistema político e econômico em que os reis concentraram poderes administrativos e militares, associados à burguesia mercantil para enriquecer o Estado através do controle da economia.",
+    "contexto": "Entre os séculos XVI e XVIII, diversas monarquias europeias ampliaram a capacidade administrativa, fiscal e militar dos soberanos. Esse processo assumiu formas diferentes conforme cada reino e conviveu com parlamentos, assembleias, privilégios locais e limites negociados. No campo econômico, práticas hoje reunidas sob o nome de mercantilismo buscaram fortalecer os Estados por meio do comércio, da tributação, da produção e da expansão colonial.",
     "antecedentes": [
       "Formação dos Estados Nacionais na Baixa Idade Média.",
-      "Enfraquecimento dos senhores feudais locais."
+      "Transformações das relações feudais, crescimento das cidades e do comércio, fortalecimento de monarquias e negociação de alianças com diferentes grupos sociais."
     ],
     "causas": {
-      "politicas": "Necessidade de estabilidade interna, unificação de leis, moedas e impostos após crises e guerras.",
-      "economicas": "Aliança tática entre reis e burgueses: proteção ao comércio em troca de financiamento fiscal e empréstimos.",
-      "sociais": "Manutenção dos privilégios da nobreza na corte real em troca da submissão ao soberano.",
-      "religiosas": "Teoria do Direito Divino dos Reis, respaldada por teólogos e pela lealdade dinástica.",
-      "culturais": "Justificação teórica de pensadores como Thomas Hobbes, Jacques Bossuet e Nicolau Maquiavel.",
+      "politicas": "Interesses dos soberanos em ampliar a arrecadação, organizar exércitos e administrar territórios; a centralização foi gradual e encontrou resistências e limites institucionais.",
+      "economicas": "Acordos e conflitos entre monarquias, comerciantes, companhias privilegiadas e produtores em torno de impostos, tarifas, monopólios e acesso a mercados; a burguesia não atuou como bloco homogêneo.",
+      "sociais": "Reorganização das relações entre monarquia e nobreza, que frequentemente manteve privilégios e influência política, ao lado da ascensão de grupos mercantis e financeiros.",
+      "religiosas": "Em alguns reinos, doutrinas como o direito divino foram usadas para legitimar a autoridade monárquica; a religião, porém, não foi a única base do poder e as relações entre Igreja e Estado variaram.",
+      "culturais": "Debates sobre razão de Estado, soberania e autoridade política, com autores de perspectivas distintas, como Maquiavel, Hobbes e Bossuet; eles não defenderam exatamente o mesmo modelo de governo.",
       "territoriais": "Defesa rigorosa das fronteiras nacionais contra invasões estrangeiras.",
       "tecnologias": "Criação de exércitos profissionais permanentes e burocracia fiscal unificada."
     },
-    "resumo_card": "O Absolutismo concentrou o poder político nas mãos dos reis, enquanto o Mercantilismo orientou a economia para a acumulação de capitais, metais preciosos e proteção comercial.",
-    "desenvolvimento": "Nações como França (sob os Bourbons), Espanha e Portugal estruturaram monarquias onde o rei detinha amplas prerrogativas. Na economia, vigorou o Mercantilismo, cujas práticas incluíam o metalismo, a balança comercial favorável, o protecionismo alfandegário e a exploração exclusiva de colônias ultramarinas por meio do pacto colonial.",
+    "resumo_card": "O absolutismo foi uma forma de organização monárquica em que soberanos ampliaram seus poderes, sem eliminar todos os limites institucionais. Mercantilismo é um nome abrangente para práticas econômicas variadas, como protecionismo, monopólios, estímulo às exportações e exploração colonial.",
+    "desenvolvimento": "Na França, a monarquia dos Bourbon tornou-se referência de centralização, especialmente durante o governo pessoal de Luís XIV, iniciado em 1661. Mesmo ali, o poder real convivia com costumes, privilégios e instituições. Em outros reinos, como Inglaterra, Portugal e Espanha, as relações entre Coroa, parlamentos, cortes e elites seguiram trajetórias próprias. Mercantilismo não foi um sistema único e uniforme: governos adotaram combinações distintas de tarifas, companhias monopolistas, incentivos à produção, controle do comércio colonial e busca por metais preciosos. A exploração colonial esteve associada à escravização, ao trabalho compulsório e à transferência desigual de riquezas.",
     "personagens": [
-      "Nicolau Maquiavel: Pensador político italiano autor de 'O Príncipe'.",
-      "Thomas Hobbes: Filósofo inglês defensor do poder centralizado no contrato social ('O Leviatã').",
-      "Luís XIV (O Rei Sol): Símbolo máximo do absolutismo francês ('O Estado sou eu')."
+      "Nicolau Maquiavel: Pensador florentino que analisou a política e a manutenção do poder em O Príncipe; sua obra não é uma defesa simples do absolutismo.",
+      "Thomas Hobbes: Filósofo inglês que defendeu a soberania forte como solução para superar a guerra civil e garantir a paz, em Leviatã.",
+      "Luís XIV: Rei da França entre 1643 e 1715, cujo governo pessoal a partir de 1661 tornou-se referência da monarquia absolutista; a frase “O Estado sou eu” é atribuída a ele, mas sua autenticidade é contestada."
     ],
     "grupos_envolvidos": [
       "Monarcas e Cortes Reais",
@@ -287,26 +287,26 @@
       "Controle de impostos, privilégios fiscais e monopólios comerciais ultramarinos."
     ],
     "linha_do_tempo": [
-      {"ano": 1661, "titulo": "Início do governo pessoal de Luís XIV", "descricao": "Consolidação do apogeu do absolutismo clássico na França."}
+      {"ano": 1661, "titulo": "Início do governo pessoal de Luís XIV", "descricao": "Luís XIV assumiu pessoalmente o governo após a morte do cardeal Mazarin, fortalecendo a autoridade real, embora a monarquia continuasse negociando com instituições e grupos privilegiados."}
     ],
     "consequencias_imediatas": [
-      "Rigidez fiscal e exploração extrema de colônias como o Brasil mercantil.",
+      "Ampliação da exploração colonial e do trabalho compulsório em diferentes impérios, com impactos severos sobre populações indígenas e africanas escravizadas; as experiências coloniais variaram conforme território e época.",
       "Guerras comerciais frequentes entre potências europeias pelo controle de mercados."
     ],
     "consequencias_longo_prazo": [
-      "Acumulação primitiva de capital que pavimentou o caminho para a Revolução Industrial.",
+      "Contribuição para a acumulação de riquezas e capitais na Europa, processo relacionado também à escravidão, ao comércio atlântico, à agricultura, às finanças e à produção; não foi uma causa única da Revolução Industrial.",
       "Reações revolucionárias burguesas contra o Antigo Regime no final do século XVIII."
     ],
     "impactos": {
-      "politicos": "Supremacia da máquina estatal monárquica sobre parlamentos e instâncias locais fragmentadas.",
-      "economicos": "Intervenção estatal profunda na economia, colonialismo predatório e monopólios.",
+      "politicos": "Ampliação da capacidade administrativa, fiscal e militar de diversas monarquias, sem que parlamentos, assembleias e poderes locais desaparecessem em todos os reinos.",
+      "economicos": "Intervenções estatais variadas no comércio e na produção, incluindo tarifas, subsídios, monopólios e privilégios concedidos a companhias; os resultados diferiram entre os Estados.",
       "sociais": "Sociedade estamental rigidamente desigual, com privilégios fiscais para nobreza e clero.",
       "culturais": "Arte palaciana pomposa (Barroco) usada para ostentar o poder e o prestígio dos soberanos.",
       "territoriais": "Expansão e defesa militar de fronteiras estatais e domínios ultramarinos.",
       "ambientais": "Exploração intensiva de recursos naturais nas colônias para abastecer o mercado metropolitano."
     },
     "continuidade": "Desigualdade social estrutural e exploração de colônias por metrópoles europeias.",
-    "rupturas": "Substituição gradual do poder descentralizado feudal pela autoridade nacional unificada."
+    "rupturas": "Fortalecimento gradual de monarquias territoriais e de estruturas administrativas centralizadas, em processo desigual que não eliminou de imediato relações feudais, poderes locais ou instituições representativas."
   },
 
   {
