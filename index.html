@@ -1941,11 +1941,16 @@
                         <h3 id="titulo-planejador-aula">Planejador de aulas</h3>
                         <p>Monte, salve e consulte seus planejamentos. Os registros ficam vinculados à sua conta e só podem ser acessados por você.</p>
                         <div class="planejador-salvos">
+                            <label class="planejador-campo" for="plano-buscar">Buscar planejamentos
+                                <input id="plano-buscar" type="search" maxlength="100" placeholder="Digite parte do título, tema ou turma">
+                            </label>
                             <label class="planejador-campo" for="plano-salvo">Meus planejamentos salvos
                                 <select id="plano-salvo"><option value="">Novo planejamento</option></select>
                             </label>
+                            <p id="plano-lista-info" class="fontes-contagem" aria-live="polite"></p>
                             <div class="planejador-acoes">
                                 <button type="button" class="planejador-secundario" id="plano-carregar">Abrir selecionado</button>
+                                <button type="button" class="planejador-secundario" id="plano-duplicar">Duplicar selecionado</button>
                                 <button type="button" class="planejador-secundario" id="plano-excluir">Excluir selecionado</button>
                             </div>
                         </div>
@@ -2047,6 +2052,7 @@
 
         let planoProfessorAtualId = null;
         let planoProfessorUsuarioId = null;
+        let planosProfessorCache = [];
 
         function camposPlanejamento() {
             return ['titulo','turma','data','componente','duracao','tema','objetivos','problematizacao','contextualizacao','investigacao','socializacao','sintese','recursos','inclusao','avaliacao'];
@@ -2071,21 +2077,60 @@
         async function carregarPlanejamentosProfessor(usuario) {
             planoProfessorUsuarioId = usuario.id;
             const seletor = document.getElementById('plano-salvo');
+            const busca = document.getElementById('plano-buscar');
+            const info = document.getElementById('plano-lista-info');
             if (!seletor) return;
             const { data, error } = await professorSupabase.from('lesson_plans')
                 .select('id,title,plan_data,updated_at')
                 .eq('owner_id', usuario.id)
                 .order('updated_at', { ascending: false });
             if (error) throw error;
-            seletor.innerHTML = '<option value="">Novo planejamento</option>' + data.map(item =>
-                '<option value="' + escaparTextoProfessor(item.id) + '">' + escaparTextoProfessor(item.title) + '</option>'
-            ).join('');
+            planosProfessorCache = data || [];
+
+            const renderizarOpcoes = () => {
+                const termo = (busca?.value || '').trim().toLocaleLowerCase('pt-BR');
+                const atual = seletor.value;
+                const filtrados = planosProfessorCache.filter(item => {
+                    const dados = item.plan_data || {};
+                    const texto = [item.title, dados.tema, dados.turma, dados.componente].join(' ').toLocaleLowerCase('pt-BR');
+                    return !termo || texto.includes(termo);
+                });
+                seletor.innerHTML = '<option value="">Novo planejamento</option>' + filtrados.map(item => {
+                    const atualizado = item.updated_at ? new Date(item.updated_at).toLocaleString('pt-BR') : 'data indisponível';
+                    return '<option value="' + escaparTextoProfessor(item.id) + '">' +
+                        escaparTextoProfessor(item.title) + ' — atualizado em ' + escaparTextoProfessor(atualizado) + '</option>';
+                }).join('');
+                if (filtrados.some(item => item.id === atual)) seletor.value = atual;
+                if (info) info.textContent = filtrados.length + ' de ' + planosProfessorCache.length +
+                    (planosProfessorCache.length === 1 ? ' planejamento encontrado' : ' planejamentos encontrados');
+            };
+            renderizarOpcoes();
+            if (busca) busca.oninput = renderizarOpcoes;
+
             document.getElementById('plano-carregar').onclick = () => {
-                const selecionado = data.find(item => item.id === seletor.value);
-                if (!selecionado) return;
+                const selecionado = planosProfessorCache.find(item => item.id === seletor.value);
+                if (!selecionado) {
+                    document.getElementById('plano-status').textContent = 'Selecione um planejamento para abrir.';
+                    return;
+                }
                 planoProfessorAtualId = selecionado.id;
                 preencherPlanejamento(selecionado.plan_data || {});
-                document.getElementById('plano-status').textContent = 'Planejamento carregado. Faça alterações e salve para atualizar.';
+                const atualizado = selecionado.updated_at ? new Date(selecionado.updated_at).toLocaleString('pt-BR') : 'data indisponível';
+                document.getElementById('plano-status').textContent = 'Planejamento carregado. Última atualização: ' + atualizado + '.';
+            };
+            document.getElementById('plano-duplicar').onclick = () => {
+                const selecionado = planosProfessorCache.find(item => item.id === seletor.value);
+                if (!selecionado) {
+                    document.getElementById('plano-status').textContent = 'Selecione um planejamento para duplicar.';
+                    return;
+                }
+                const copia = { ...(selecionado.plan_data || {}) };
+                copia.titulo = (selecionado.title || copia.titulo || 'Planejamento') + ' (cópia)';
+                planoProfessorAtualId = null;
+                preencherPlanejamento(copia);
+                seletor.value = '';
+                document.getElementById('plano-status').textContent = 'Cópia preparada. Clique em “Salvar planejamento” para criar um novo registro sem alterar o original.';
+                document.getElementById('plano-titulo')?.focus();
             };
             document.getElementById('plano-excluir').onclick = async () => {
                 if (!seletor.value) {
@@ -2098,6 +2143,7 @@
                     document.getElementById('plano-status').textContent = erroExcluir.message;
                     return;
                 }
+                if (planoProfessorAtualId === id) planoProfessorAtualId = null;
                 document.getElementById('plano-status').textContent = 'Planejamento excluído.';
                 await carregarPlanejamentosProfessor(usuario);
                 preencherPlanejamento({});
@@ -2140,7 +2186,7 @@
             };
         }
 
-        async function entrarAreaProfessor(evento) {
+                async function entrarAreaProfessor(evento) {
             evento.preventDefault();
             const status = document.getElementById('professor-status');
             const botao = evento.currentTarget.querySelector('button[type="submit"]');
