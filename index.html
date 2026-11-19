@@ -1030,7 +1030,75 @@
         .mapa-creditos a { color: #17365d; text-decoration: underline; }
         @media (max-width: 640px) { .mapa-historico { padding: 12px; } .mapa-historico img { max-height: 360px; } }
 
-    </style>
+    
+
+        /* Etapa 9 — atividades de interpretação documental */
+        .atividade-fonte { margin-top: 8px; border-top: 1px solid #e1e7ee; padding-top: 12px; }
+        .atividade-fonte summary { cursor: pointer; color: #174d7a; font-weight: 700; line-height: 1.5; padding: 5px 0; }
+        .atividade-fonte summary:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 3px; border-radius: 4px; }
+        .atividade-fonte-conteudo { padding: 10px 2px 2px; }
+        .atividade-fonte-conteudo ol { padding-left: 22px; color: #35465a; line-height: 1.65; }
+        .atividade-fonte-conteudo li { margin: 0 0 9px; }
+        .atividade-fonte-dica { background: #f3f6f9; border-left: 3px solid #8a6a36; padding: 10px 12px; border-radius: 4px; font-size: .9rem; }
+
+        /* Etapa 8 — fontes históricas e documentos */
+        .documentos-secao { margin-top: 30px; }
+        .documentos-secao > h3 { color: #17365d; margin: 0 0 10px; font: 700 1.25rem Georgia, "Times New Roman", serif; }
+        .documento-card { border-top-color: #8a6a36; }
+
+        .fontes-pagina { max-width: 1100px; margin: 0 auto; }
+        .fontes-intro { background: #eef3f8; border-left: 4px solid #25496b; padding: 18px 20px; border-radius: 8px; margin: 16px 0 22px; color: #24364a; line-height: 1.65; }
+        .fontes-filtros { display: grid; grid-template-columns: minmax(0, 2fr) minmax(190px, 1fr); gap: 12px; margin: 18px 0; }
+        .fontes-filtros input, .fontes-filtros select { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 7px; background: #fff; color: #172b42; font: inherit; font-size: 1rem; }
+        .fontes-contagem { color: #526174; font-size: .9rem; margin: 0 0 12px; }
+        .fontes-lista { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); gap: 15px; }
+        .fonte-card { display: flex; flex-direction: column; gap: 9px; background: #fff; border: 1px solid #d8e0e8; border-top: 3px solid #315778; border-radius: 9px; padding: 17px; box-shadow: 0 2px 7px rgba(15, 35, 55, .045); }
+        .fonte-card h3 { color: #17365d; font: 700 1.08rem Georgia, "Times New Roman", serif; line-height: 1.35; }
+        .fonte-meta { color: #657386; font-size: .82rem; font-weight: 600; }
+        .fonte-card p { color: #35465a; font-size: .94rem; line-height: 1.6; }
+        .fonte-acesso { margin-top: auto; padding-top: 5px; }
+        .fonte-acesso a { color: #174d7a; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+        .fontes-metodo { margin-top: 26px; padding: 20px; border: 1px solid #d9e0e7; border-radius: 9px; background: #f8fafc; }
+        .fontes-metodo h3 { color: #17365d; margin-bottom: 10px; font: 700 1.12rem Georgia, "Times New Roman", serif; }
+        .fontes-metodo ol { padding-left: 22px; color: #35465a; line-height: 1.7; }
+        .fontes-aviso { margin-top: 14px; color: #5b6470; font-size: .86rem; line-height: 1.55; }
+        @media (max-width: 600px) { .fontes-filtros { grid-template-columns: 1fr; } .fontes-intro, .fontes-metodo { padding: 15px; } }
+
+    
+        /* Etapa 10 — área de apoio ao professor */
+        .guia-professor { margin-top: 28px; padding: 20px; border: 1px solid #d8e1e9; border-radius: 10px; background: #f7f9fb; }
+        .guia-professor > h3 { margin-top: 0; color: #173f63; }
+        .guia-professor > p { line-height: 1.65; }
+        .guia-professor-bloco { margin: 10px 0; padding: 12px 14px; border: 1px solid #dce4eb; border-radius: 7px; background: #fff; }
+        .guia-professor-bloco summary { cursor: pointer; color: #174d7a; font-weight: 700; line-height: 1.5; }
+        .guia-professor-bloco summary:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 3px; border-radius: 4px; }
+        .guia-professor-bloco ul, .guia-professor-bloco ol { padding-left: 22px; line-height: 1.65; }
+        .guia-professor-bloco li { margin-bottom: 7px; }
+        .guia-professor-nota { padding: 10px 12px; border-left: 3px solid #8a6a36; background: #f3f6f9; font-size: .92rem; }
+        .criterios-avaliacao { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
+        .criterios-avaliacao div { display: flex; flex-direction: column; gap: 5px; padding: 11px; border: 1px solid #e1e7ed; border-radius: 6px; background: #f9fbfc; }
+        .criterios-avaliacao strong { color: #174d7a; }
+        .criterios-avaliacao span { line-height: 1.5; font-size: .92rem; }
+        @media (max-width: 600px) { .guia-professor { padding: 14px; } .criterios-avaliacao { grid-template-columns: 1fr; } }
+
+
+        /* Etapa 11 — banco de atividades históricas */
+        .atividades-filtros { display: flex; flex-direction: column; gap: 7px; max-width: 520px; margin: 18px 0; }
+        .atividades-filtros label { font-weight: 700; color: #29445f; }
+        .atividades-filtros select { width: 100%; padding: 11px 12px; border: 1px solid #cbd6e0; border-radius: 6px; background: #fff; color: #26394b; font: inherit; }
+        .atividades-filtros select:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 2px; }
+        .atividades-lista { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .atividade-banco-card { padding: 17px; border: 1px solid #dce4eb; border-radius: 9px; background: #fff; }
+        .atividade-banco-card h3 { margin: 8px 0; color: #173f63; }
+        .atividade-banco-card p { line-height: 1.6; }
+        .atividade-banco-card details { margin-top: 12px; padding-top: 10px; border-top: 1px solid #e1e7ee; }
+        .atividade-banco-card summary { cursor: pointer; color: #174d7a; font-weight: 700; line-height: 1.5; }
+        .atividade-banco-card summary:focus-visible { outline: 3px solid #8bb7dc; outline-offset: 3px; border-radius: 4px; }
+        .atividade-banco-card ol { padding-left: 22px; line-height: 1.65; }
+        .atividade-banco-card li { margin-bottom: 9px; }
+        @media (max-width: 700px) { .atividades-lista { grid-template-columns: 1fr; } }
+
+</style>
 </head>
 <body>
 
@@ -1055,6 +1123,8 @@
         <button class="btn-periodo" onclick="carregarPeriodo('brasil.json', this)">Brasil</button>
         <button class="btn-periodo" onclick="carregarPeriodo('atualidades.json', this)">Atualidades</button>
         <button class="btn-periodo" onclick="carregarPeriodo('direitos-humanos.json', this)">Direitos Humanos</button>
+        <button class="btn-periodo" onclick="mostrarFontesHistoricas(this)">Fontes Históricas</button>
+        <button class="btn-periodo" onclick="mostrarBancoAtividades(this)">Banco de Atividades</button>
     </nav>
 
     <main class="container" id="app-container" aria-live="polite" aria-atomic="true" aria-busy="false">
@@ -1462,6 +1532,295 @@
                 recarregamentoPorAtualizacao = true;
                 window.location.reload();
             });
+        }
+
+
+        // Etapa 8 — catálogo de acervos institucionais e orientação para análise documental
+        const fontesHistoricas = [
+            { titulo: 'Sistema de Informações do Arquivo Nacional (SIAN)', instituicao: 'Arquivo Nacional', tipo: 'Documentos, fotografias, mapas, manuscritos, vídeos e áudios', periodo: 'Acervos de diferentes períodos', acesso: 'Consulta digital para documentos já digitalizados; outros itens podem exigir consulta ou solicitação.', categoria: 'Acervo digital', url: 'https://sian.an.gov.br/' },
+            { titulo: 'Acervos do Arquivo Nacional', instituicao: 'Arquivo Nacional', tipo: 'Fundos e coleções dos poderes Executivo e Legislativo, acervos judiciais e privados', periodo: 'Brasil colonial, Império e República', acesso: 'Portal de orientação para localizar fundos, coleções, bases e instrumentos de pesquisa.', categoria: 'Guia de acervos', url: 'https://www.gov.br/arquivonacional/pt-br/servicos/acervos' },
+            { titulo: 'Biblioteca Nacional Digital', instituicao: 'Fundação Biblioteca Nacional', tipo: 'Documentos cartográficos, iconográficos, manuscritos, bibliográficos, periódicos e sonoros', periodo: 'Coleções de diferentes séculos, com destaque para materiais dos séculos XV ao início do XX', acesso: 'Consulta online de itens digitalizados e liberados para acesso público.', categoria: 'Acervo digital', url: 'https://bndigital.bn.gov.br/' },
+            { titulo: 'Hemeroteca Digital Brasileira', instituicao: 'Fundação Biblioteca Nacional', tipo: 'Jornais, revistas, anuários, boletins e outras publicações seriadas', periodo: 'Séculos XIX e XX, entre outros', acesso: 'Portal de periódicos digitalizados. A instituição informa que a plataforma pode apresentar indisponibilidade temporária; se necessário, consulte o Acervo Digital da BNDigital.', categoria: 'Jornais e revistas', url: 'https://bndigital.bn.gov.br/hemeroteca-digital/' },
+            { titulo: 'Arquivo Histórico da Câmara dos Deputados', instituicao: 'Câmara dos Deputados', tipo: 'Anais, debates, processos legislativos, fotografias, mapas, plantas, áudios e vídeos', periodo: 'Desde a Assembleia Constituinte de 1823 e a instalação da Câmara em 1826', acesso: 'Parte do acervo possui imagem digital; também há pesquisa presencial e solicitação de digitalização.', categoria: 'Documentos políticos', url: 'https://arquivohistorico.camara.leg.br/' },
+            { titulo: 'Assembleias Constituintes brasileiras', instituicao: 'Câmara dos Deputados', tipo: 'Projetos, emendas, debates e registros das assembleias constituintes', periodo: '1823, 1890–1891, 1933–1934, 1946 e 1987–1988', acesso: 'Consulte os acervos e documentos disponibilizados pelo Arquivo Histórico da Câmara.', categoria: 'Documentos políticos', url: 'https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/arquivo/tematico/acervo-das-assembleias-constituintes' },
+            { titulo: 'Arquivo Histórico Estadual de Goiás', instituicao: 'Secretaria de Estado da Cultura de Goiás', tipo: 'Manuscritos, documentação administrativa, jornais, revistas, mapas, plantas e documentos municipais', periodo: 'Documentos desde o século XVIII; documentação avulsa de 1731 a 1973', acesso: 'Consulta presencial ao acervo, mediante agendamento. Nem todo o material está digitalizado.', categoria: 'Acervo regional', url: 'https://goias.gov.br/cultura/arquivo-historico/' },
+            { titulo: 'Índice do Arquivo Histórico de Goiás', instituicao: 'Secretaria de Estado da Cultura de Goiás', tipo: 'Instrumento de pesquisa para manuscritos, documentos municipais, hemeroteca e biblioteca de apoio', periodo: 'Período colonial e épocas posteriores', acesso: 'Consulte o índice online para identificar séries e conjuntos documentais antes de solicitar a pesquisa.', categoria: 'Acervo regional', url: 'https://goias.gov.br/cultura/indice-arquivo-historico-de-goias/' }
+        ];
+
+        function escaparTextoFonte(valor) {
+            return String(valor).replace(/[&<>"']/g, caractere => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            })[caractere]);
+        }
+
+
+        // Documentos primários ligados a acontecimentos dos módulos históricos
+        const documentosHistoricos = [
+            { titulo: 'Constituição Política do Império do Brasil', ano: '1824', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Carta outorgada por D. Pedro I. Permite investigar a organização do Estado imperial, o Poder Moderador, a cidadania e a religião oficial.', tema: 'Império do Brasil (1822–1889)', modulo: 'brasil.json', eventoId: 'imperio-brasil-1822-1889', desafio: 'Que poderes a Constituição concentrou no imperador e como isso afetava a organização política do Império?', url: 'https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html' },
+            { titulo: 'Lei nº 3.353 — Lei Áurea', ano: '1888', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Lei original', contexto: 'Documento que declarou extinta juridicamente a escravidão no Brasil. Sua leitura deve ser relacionada à luta das pessoas escravizadas, ao movimento abolicionista e à ausência de políticas amplas de inclusão social após a abolição.', tema: 'Império do Brasil e abolição', modulo: 'brasil.json', eventoId: 'imperio-brasil-1822-1889', desafio: 'O que a lei determinou juridicamente e quais problemas sociais não foram resolvidos por seu texto?', url: 'https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-3353-13-maio-1888-533138-publicacaooriginal-16269-pl.html' },
+            { titulo: 'Constituição da República dos Estados Unidos do Brasil', ano: '1891', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Primeira Constituição republicana. Ajuda a analisar federalismo, presidencialismo, organização dos poderes e a passagem das antigas províncias para os estados.', tema: 'Primeira República (1889–1930)', modulo: 'brasil.json', eventoId: 'primeira-republica-1889-1930', desafio: 'Como a Constituição organizou o federalismo e a participação política? Quem permanecia excluído da cidadania eleitoral?', url: 'https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html' },
+            { titulo: 'Constituição de 1934', ano: '1934', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Promulgada durante o governo Vargas, registra mudanças na organização política e social, incluindo direitos trabalhistas, voto feminino e Justiça Eleitoral.', tema: 'Era Vargas (1930–1945)', modulo: 'brasil.json', eventoId: 'era-vargas-1930-1945', desafio: 'Quais mudanças políticas e sociais aparecem no texto constitucional e quais grupos foram contemplados?', url: 'https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-1934-16-julho-1934-365196-publicacaooriginal-1-pl.html' },
+            { titulo: 'Constituição de 1937', ano: '1937', instituicao: 'Câmara dos Deputados — Legislação Informatizada', tipo: 'Texto constitucional original', contexto: 'Carta imposta no início do Estado Novo. A leitura permite identificar a concentração de poderes e os mecanismos institucionais do regime autoritário.', tema: 'Era Vargas — Estado Novo', modulo: 'brasil.json', eventoId: 'era-vargas-1930-1945', desafio: 'Que elementos do texto revelam concentração de poder e restrições à participação democrática?', url: 'https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-1-pl.html' },
+            { titulo: 'Decreto nº 1.816 — transferência da capital para Goiânia', ano: '1937', instituicao: 'Casa Civil do Governo de Goiás', tipo: 'Decreto estadual (referência e relação oficial de leis e decretos)', contexto: 'O portal oficial de Goiás registra que o decreto, publicado em 23 de março de 1937, transferiu a capital da Cidade de Goiás para Goiânia. A página também reúne outros atos ligados à construção da nova capital.', tema: 'Construção de Goiânia e transferência da capital', modulo: 'brasil.json', eventoId: 'goias-transferencia-capital-goiania-1932-1942', desafio: 'Quais objetivos políticos e territoriais podem ser relacionados à transferência da capital? Que outras fontes ajudariam a compreender seus impactos?', url: 'https://goias.gov.br/casacivil/goiania/' },
+            { titulo: 'Constituição Federal — ADCT, art. 13', ano: '1988', instituicao: 'Presidência da República — Planalto', tipo: 'Texto constitucional promulgado no Diário Oficial', contexto: 'O artigo 13 cria o Estado do Tocantins por desmembramento da área descrita no próprio dispositivo e estabelece condições para sua instalação.', tema: 'Criação do Estado do Tocantins (1988–1989)', modulo: 'brasil.json', eventoId: 'criacao-estado-tocantins-1988-1989', desafio: 'Como o texto constitucional formalizou a criação do novo estado e que questões de território e administração precisaram ser organizadas?', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/douconstituicao88.pdf' },
+            { titulo: 'Constituição da República Federativa do Brasil', ano: '1988', instituicao: 'Presidência da República — Planalto', tipo: 'Texto constitucional e ADCT', contexto: 'Documento central da redemocratização. Permite estudar direitos fundamentais, organização do Estado, cidadania e os dispositivos transitórios que reorganizaram o território nacional.', tema: 'Nova República e redemocratização', modulo: 'brasil.json', eventoId: 'nova-republica-1985-atualidade', desafio: 'Que direitos e princípios democráticos aparecem no texto e como eles respondem ao contexto de redemocratização?', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm' }
+        ];
+
+        function renderizarDocumentosHistoricos(termo) {
+            const lista = document.getElementById('lista-documentos-historicos');
+            if (!lista) return;
+            const consulta = (termo || '').toLocaleLowerCase('pt-BR');
+            const encontrados = documentosHistoricos.filter(doc =>
+                [doc.titulo, doc.ano, doc.instituicao, doc.tipo, doc.contexto, doc.tema].join(' ').toLocaleLowerCase('pt-BR').includes(consulta)
+            );
+            lista.innerHTML = encontrados.length ? encontrados.map(doc =>
+                '<article class="fonte-card documento-card">' +
+                '<span class="fonte-meta">' + escaparTextoFonte(doc.ano) + ' · ' + escaparTextoFonte(doc.tipo) + '</span>' +
+                '<h3>' + escaparTextoFonte(doc.titulo) + '</h3>' +
+                '<p><strong>Instituição:</strong> ' + escaparTextoFonte(doc.instituicao) + '</p>' +
+                '<p>' + escaparTextoFonte(doc.contexto) + '</p>' +
+                '<p><strong>Tema relacionado:</strong> ' + escaparTextoFonte(doc.tema) + '</p>' +
+                '<p class="fonte-acesso"><a href="' + escaparTextoFonte(doc.url) + '" target="_blank" rel="noopener noreferrer">Consultar documento ou referência oficial</a></p>' +
+                '<details class="atividade-fonte"><summary>Investigar esta fonte — atividade para estudantes</summary>' +
+                '<div class="atividade-fonte-conteudo"><p><strong>Desafio de investigação:</strong> ' + escaparTextoFonte(doc.desafio) + '</p>' +
+                '<ol><li>Identifique o documento: quem o produziu, em que ano e com qual finalidade?</li>' +
+                '<li>Contextualize: que acontecimentos e condições históricas ajudam a compreender sua produção?</li>' +
+                '<li>Interprete: que ideias, interesses, direitos, decisões ou relações de poder aparecem no documento?</li>' +
+                '<li>Questione os limites: quais pessoas, grupos ou experiências aparecem pouco ou não aparecem? Por quê?</li>' +
+                '<li>Confronte evidências: que outra fonte do período poderia confirmar, ampliar ou questionar sua interpretação?</li></ol>' +
+                '<p class="atividade-fonte-dica"><strong>Registro final:</strong> escreva uma conclusão sustentada por pelo menos duas evidências do documento ou de fontes complementares. Diferencie o que o documento informa daquilo que você concluiu.</p></div></details>' +
+                '</article>'
+            ).join('') : '<p role="status">Nenhum documento corresponde à busca.</p>';
+        }
+
+        const bancoAtividades = [
+            { id: 'pre-historia', titulo: 'Pré-História', foco: 'Vestígios, modos de vida e diversidade das primeiras sociedades', perguntas: [
+                'Que tipos de vestígios arqueológicos permitem investigar sociedades sem registros escritos?',
+                'Como o domínio do fogo, a produção de ferramentas e outras técnicas alteraram a relação dos grupos humanos com o ambiente?',
+                'Por que não devemos imaginar todos os grupos humanos seguindo uma única trajetória de desenvolvimento?',
+                'O que pinturas rupestres e objetos encontrados em sítios arqueológicos podem revelar — e o que não permitem afirmar sozinhos?',
+                'Como museus, sítios arqueológicos e povos originários podem contribuir para ampliar a compreensão sobre o passado?'
+            ]},
+            { id: 'idade-antiga', titulo: 'Idade Antiga', foco: 'Cidades, poder, trabalho, cultura e conexões entre sociedades', perguntas: [
+                'Como rios, rotas comerciais e condições geográficas influenciaram a formação de diferentes sociedades antigas?',
+                'Quem concentrava o poder político e religioso nas sociedades estudadas e como justificava sua autoridade?',
+                'Quais formas de trabalho sustentavam a produção de riquezas e quais grupos se beneficiavam delas?',
+                'Como as trocas culturais e comerciais conectavam povos que viviam em regiões distantes?',
+                'Que heranças da Antiguidade permanecem presentes, ainda que transformadas, nas sociedades atuais?'
+            ]},
+            { id: 'idade-medieval', titulo: 'Idade Média', foco: 'Relações de poder, religiosidade, trabalho e circulação', perguntas: [
+                'Como se organizavam as relações entre senhores, trabalhadores e autoridades políticas no feudalismo?',
+                'De que maneiras a Igreja influenciava a cultura, a educação e a política medieval?',
+                'Como cidades, feiras e rotas comerciais contribuíram para transformar a sociedade medieval?',
+                'Por que a experiência medieval foi diferente na Europa, na África e na Ásia?',
+                'Quais ideias equivocadas sobre a Idade Média podem ser revistas quando analisamos diferentes fontes e regiões?'
+            ]},
+            { id: 'idade-moderna', titulo: 'Idade Moderna', foco: 'Expansão marítima, colonização, ciência e disputas de poder', perguntas: [
+                'Quais interesses econômicos e políticos impulsionaram a expansão marítima europeia?',
+                'Como a conquista e a colonização transformaram sociedades indígenas, africanas e europeias?',
+                'De que modo o tráfico atlântico de pessoas escravizadas integrou economias e ampliou desigualdades?',
+                'Como o Renascimento, a Reforma e a Revolução Científica questionaram ou modificaram formas de pensar e exercer autoridade?',
+                'Por que é importante analisar a expansão marítima a partir das experiências de diferentes povos envolvidos?'
+            ]},
+            { id: 'idade-contemporanea', titulo: 'Idade Contemporânea', foco: 'Revoluções, industrialização, guerras e transformações sociais', perguntas: [
+                'Como as revoluções políticas dos séculos XVIII e XIX redefiniram ideias de cidadania e direitos?',
+                'Quais mudanças a industrialização provocou no trabalho, nas cidades e nas relações sociais?',
+                'Como nacionalismos, imperialismos e disputas econômicas contribuíram para conflitos mundiais?',
+                'De que maneiras movimentos sociais e processos de descolonização questionaram desigualdades e dominações?',
+                'Que continuidades e rupturas do mundo contemporâneo podem ser identificadas na realidade atual?'
+            ]},
+            { id: 'brasil', titulo: 'História do Brasil', foco: 'Colonização, independência, cidadania e formação do Estado', perguntas: [
+                'Como diferentes povos indígenas, africanos, europeus e seus descendentes participaram da formação histórica do Brasil?',
+                'Quais interesses sustentaram a colonização e como foram contestados por diferentes grupos?',
+                'A Independência de 1822 alterou de imediato as condições de vida e a participação política de toda a população? Justifique.',
+                'Como abolição, República e mudanças constitucionais transformaram — e também mantiveram — desigualdades sociais?',
+                'Que fontes históricas permitem confrontar versões oficiais da história brasileira com experiências de grupos pouco representados?'
+            ]},
+            { id: 'atualidades', titulo: 'Atualidades e mundo contemporâneo', foco: 'Leitura crítica de acontecimentos e informações', perguntas: [
+                'Qual é o fato central da notícia ou acontecimento escolhido e quais informações permitem situá-lo no tempo e no espaço?',
+                'Quais atores sociais estão envolvidos e que interesses ou perspectivas podem ser identificados?',
+                'Que dados, documentos ou fontes independentes ajudam a verificar as informações divulgadas?',
+                'Quais grupos são mais afetados pelo acontecimento e suas vozes aparecem na cobertura?',
+                'Como distinguir fato comprovado, interpretação, opinião e desinformação ao analisar o tema?'
+            ]},
+            { id: 'direitos-humanos', titulo: 'Direitos Humanos e cidadania', foco: 'Direitos, democracia, diversidade e conflitos sociais', perguntas: [
+                'Por que os direitos humanos são considerados universais e como essa ideia foi construída historicamente?',
+                'Quais grupos ou movimentos sociais atuaram para ampliar direitos em diferentes períodos?',
+                'Que tensões podem surgir entre direitos individuais, interesses coletivos e decisões do Estado?',
+                'Como preconceito, discriminação e desigualdade limitam o exercício efetivo da cidadania?',
+                'Que ações concretas podem fortalecer os direitos humanos na escola e na comunidade?'
+            ]}
+        ];
+
+        function mostrarBancoAtividades(botaoElemento) {
+            requisicaoAtual++;
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            if (botaoElemento) botaoElemento.classList.add('ativo');
+            const container = document.getElementById('app-container');
+            container.setAttribute('aria-busy', 'false');
+            container.innerHTML = `
+                <section class="conteudo-wrapper banco-atividades" aria-labelledby="titulo-banco-atividades">
+                    <h2 id="titulo-banco-atividades">Banco de Atividades Históricas</h2>
+                    <p class="fontes-intro">Atividades discursivas organizadas por período e tema. Cada proposta contém cinco questões abertas, pensadas para estimular análise, argumentação e relações entre passado e presente. O professor pode selecionar, adaptar ou combinar questões conforme os objetivos da aula.</p>
+                    <div class="atividades-filtros">
+                        <label for="filtro-atividades">Selecionar período ou tema</label>
+                        <select id="filtro-atividades" onchange="filtrarBancoAtividades()">
+                            <option value="">Todos os períodos e temas</option>
+                            ${bancoAtividades.map(item => '<option value="' + escaparHTML(item.id) + '">' + escaparHTML(item.titulo) + '</option>').join('')}
+                        </select>
+                    </div>
+                    <p id="atividades-contagem" class="fontes-contagem" aria-live="polite"></p>
+                    <div id="lista-banco-atividades" class="atividades-lista"></div>
+                </section>`;
+            filtrarBancoAtividades();
+        }
+
+        function filtrarBancoAtividades() {
+            const filtro = document.getElementById('filtro-atividades')?.value || '';
+            const lista = document.getElementById('lista-banco-atividades');
+            const contagem = document.getElementById('atividades-contagem');
+            if (!lista || !contagem) return;
+            const atividades = bancoAtividades.filter(item => !filtro || item.id === filtro);
+            contagem.textContent = atividades.length + (atividades.length === 1 ? ' atividade disponível' : ' atividades disponíveis');
+            lista.innerHTML = atividades.map(item => `
+                <article class="atividade-banco-card">
+                    <span class="fonte-meta">ATIVIDADE DISCURSIVA · CINCO QUESTÕES</span>
+                    <h3>${escaparHTML(item.titulo)}</h3>
+                    <p><strong>Foco:</strong> ${escaparHTML(item.foco)}</p>
+                    <details>
+                        <summary>Abrir atividade</summary>
+                        <ol>${item.perguntas.map(pergunta => '<li>' + escaparHTML(pergunta) + '</li>').join('')}</ol>
+                    </details>
+                </article>`).join('');
+        }
+
+        function mostrarFontesHistoricas(botaoElemento) {
+            requisicaoAtual++;
+            document.querySelectorAll('.btn-periodo').forEach(btn => btn.classList.remove('ativo'));
+            if (botaoElemento) botaoElemento.classList.add('ativo');
+            const container = document.getElementById('app-container');
+            container.setAttribute('aria-busy', 'false');
+            container.innerHTML = `
+                <section class="conteudo-wrapper fontes-pagina" aria-labelledby="titulo-fontes">
+                    <h2 id="titulo-fontes">Fontes Históricas e Documentos</h2>
+                    <p class="fontes-intro">A História é construída a partir da investigação de vestígios do passado. Consulte acervos institucionais, compare documentos e observe quem produziu cada registro, em qual contexto e com quais interesses. Os links levam aos portais responsáveis pelos acervos; a disponibilidade de documentos digitalizados varia conforme a instituição e a coleção.</p>
+                    <div class="fontes-filtros">
+                        <input type="search" id="buscar-fontes" aria-label="Buscar fontes históricas" placeholder="Buscar por instituição, documento, período ou tema..." oninput="filtrarFontesHistoricas()">
+                        <select id="categoria-fontes" aria-label="Filtrar fontes por categoria" onchange="filtrarFontesHistoricas()">
+                            <option value="">Todas as categorias</option>
+                            <option value="Acervo digital">Acervos digitais</option>
+                            <option value="Guia de acervos">Guias de acervos</option>
+                            <option value="Jornais e revistas">Jornais e revistas</option>
+                            <option value="Documentos políticos">Documentos políticos</option>
+                            <option value="Acervo regional">Acervos regionais</option>
+                        </select>
+                    </div>
+                    <p id="fontes-contagem" class="fontes-contagem" aria-live="polite"></p>
+                    <div id="lista-fontes" class="fontes-lista"></div>
+                    <section class="documentos-secao" aria-labelledby="titulo-documentos-historicos">
+                        <h3 id="titulo-documentos-historicos">Documentos ligados aos acontecimentos históricos</h3>
+                        <p class="fontes-intro">Consulte documentos originais e registros oficiais relacionados a temas estudados nos módulos do HistoryWeb. Observe a linguagem da época, quem produziu o documento e quais grupos ou experiências não aparecem nele.</p>
+                        <div id="lista-documentos-historicos" class="fontes-lista"></div>
+                    </section>
+                    <section class="guia-professor" aria-labelledby="titulo-guia-professor">
+                        <h3 id="titulo-guia-professor">Área do Professor — como trabalhar as fontes</h3>
+                        <p>Este roteiro apoia o planejamento de aulas com os documentos e as atividades de investigação do HistoryWeb. O professor pode selecionar uma fonte de acordo com o conteúdo em estudo e ajustar a complexidade das questões à turma.</p>
+                        <details class="guia-professor-bloco">
+                            <summary>1. Objetivos de aprendizagem</summary>
+                            <ul>
+                                <li>Reconhecer documentos como vestígios produzidos em contextos históricos específicos.</li>
+                                <li>Identificar autoria, data, finalidade, público e condições de produção.</li>
+                                <li>Analisar perspectivas, interesses, limites e silêncios de uma fonte.</li>
+                                <li>Construir interpretações apoiadas em evidências e comparação documental.</li>
+                            </ul>
+                        </details>
+                        <details class="guia-professor-bloco">
+                            <summary>2. Preparação antes da aula</summary>
+                            <ol>
+                                <li>Escolha um documento relacionado ao conteúdo que a turma está estudando.</li>
+                                <li>Leia previamente o documento e a contextualização apresentada no HistoryWeb.</li>
+                                <li>Verifique se o link institucional está acessível e prepare uma alternativa caso a conexão falhe.</li>
+                                <li>Selecione trechos curtos ou imagens legíveis quando o documento for extenso.</li>
+                                <li>Planeje como os estudantes registrarão as evidências: caderno, folha ou produção digital.</li>
+                            </ol>
+                        </details>
+                        <details class="guia-professor-bloco">
+                            <summary>3. Sugestão de aula — 50 minutos</summary>
+                            <ol>
+                                <li><strong>Problematização (5 min):</strong> apresente uma pergunta histórica que desperte curiosidade.</li>
+                                <li><strong>Contextualização (10 min):</strong> situe o documento no tempo, no espaço e nas disputas do período, sem antecipar todas as conclusões.</li>
+                                <li><strong>Investigação (15 min):</strong> organize duplas ou grupos para responder às cinco questões da atividade vinculada à fonte.</li>
+                                <li><strong>Socialização (15 min):</strong> compare interpretações e peça que os grupos indiquem as evidências usadas.</li>
+                                <li><strong>Síntese (5 min):</strong> retome a pergunta inicial e registre o que a fonte permite afirmar e o que permanece em aberto.</li>
+                            </ol>
+                            <p class="guia-professor-nota">O tempo é uma referência flexível: a atividade também pode ser distribuída em mais de uma aula.</p>
+                        </details>
+                        <details class="guia-professor-bloco">
+                            <summary>4. Mediação e inclusão</summary>
+                            <ul>
+                                <li>Antecipe vocabulário histórico e explique termos jurídicos ou políticos pouco familiares.</li>
+                                <li>Ofereça leitura compartilhada, fonte ampliada, áudio ou transcrição quando disponíveis e adequados.</li>
+                                <li>Divida documentos extensos em trechos e forneça perguntas-guia sem entregar a interpretação pronta.</li>
+                                <li>Permita diferentes formas de registro — texto, exposição oral ou esquema — mantendo a exigência de justificar as conclusões com evidências.</li>
+                                <li>Evite tratar o silêncio de uma fonte como prova automática; convide a turma a investigar por que determinados grupos não aparecem no registro.</li>
+                            </ul>
+                        </details>
+                        <details class="guia-professor-bloco">
+                            <summary>5. Critérios para avaliar a atividade</summary>
+                            <div class="criterios-avaliacao">
+                                <div><strong>Identificação e contexto</strong><span>Reconhece autoria, data, finalidade e contexto de produção.</span></div>
+                                <div><strong>Leitura crítica</strong><span>Percebe perspectivas, interesses, limites e ausências sem anacronismos simplificadores.</span></div>
+                                <div><strong>Uso de evidências</strong><span>Aponta elementos concretos do documento e os relaciona à interpretação.</span></div>
+                                <div><strong>Argumentação</strong><span>Apresenta conclusão coerente, distingue informação de inferência e considera outras fontes.</span></div>
+                            </div>
+                            <p class="guia-professor-nota">Sugestão de devolutiva: destaque uma evidência bem utilizada e indique uma pergunta que ajude o estudante a aprofundar sua análise.</p>
+                        </details>
+                        <details class="guia-professor-bloco">
+                            <summary>6. Perguntas para o fechamento da aula</summary>
+                            <ul>
+                                <li>O que conseguimos afirmar com segurança a partir desta fonte?</li>
+                                <li>Que informação ainda precisamos buscar em outros registros?</li>
+                                <li>Como a interpretação muda quando comparamos documentos produzidos por grupos diferentes?</li>
+                            </ul>
+                        </details>
+                    </section>
+                    <section class="fontes-metodo" aria-labelledby="titulo-analise-fonte">
+                        <h3 id="titulo-analise-fonte">Como analisar um documento histórico?</h3>
+                        <ol>
+                            <li><strong>Identificação:</strong> quem produziu o documento, quando e onde?</li>
+                            <li><strong>Contexto:</strong> que acontecimentos e condições históricas ajudam a compreendê-lo?</li>
+                            <li><strong>Finalidade e público:</strong> por que foi produzido e a quem se destinava?</li>
+                            <li><strong>Perspectiva e limites:</strong> que interesses, silêncios ou grupos aparecem — ou não aparecem — no registro?</li>
+                            <li><strong>Comparação:</strong> que outras fontes podem confirmar, complementar ou questionar essa interpretação?</li>
+                        </ol>
+                        <p class="fontes-aviso">Um documento não é um retrato neutro e completo do passado. Seu valor histórico depende das perguntas feitas, da crítica da fonte e da comparação com outros registros.</p>
+                    </section>
+                </section>`;
+            filtrarFontesHistoricas();
+            renderizarDocumentosHistoricos('');
+        }
+
+        function filtrarFontesHistoricas() {
+            const busca = (document.getElementById('buscar-fontes')?.value || '').trim().toLocaleLowerCase('pt-BR');
+            const categoria = document.getElementById('categoria-fontes')?.value || '';
+            const filtradas = fontesHistoricas.filter(fonte => {
+                const texto = [fonte.titulo, fonte.instituicao, fonte.tipo, fonte.periodo, fonte.acesso, fonte.categoria].join(' ').toLocaleLowerCase('pt-BR');
+                return (!busca || texto.includes(busca)) && (!categoria || fonte.categoria === categoria);
+            });
+            const lista = document.getElementById('lista-fontes');
+            const contagem = document.getElementById('fontes-contagem');
+            if (!lista || !contagem) return;
+            contagem.textContent = filtradas.length + (filtradas.length === 1 ? ' acervo encontrado' : ' acervos encontrados');
+            lista.innerHTML = filtradas.length ? filtradas.map(fonte => `
+                <article class="fonte-card">
+                    <span class="fonte-meta">${escaparTextoFonte(fonte.categoria)} · ${escaparTextoFonte(fonte.periodo)}</span>
+                    <h3>${escaparTextoFonte(fonte.titulo)}</h3>
+                    <p><strong>Instituição:</strong> ${escaparTextoFonte(fonte.instituicao)}</p>
+                    <p><strong>Tipos de fontes:</strong> ${escaparTextoFonte(fonte.tipo)}</p>
+                    <p><strong>Forma de acesso:</strong> ${escaparTextoFonte(fonte.acesso)}</p>
+                    <p class="fonte-acesso"><a href="${escaparTextoFonte(fonte.url)}" target="_blank" rel="noopener noreferrer">Acessar acervo institucional</a></p>
+                </article>`).join('') : '<p role="status">Nenhum acervo corresponde à busca. Tente outro termo ou categoria.</p>';
+            renderizarDocumentosHistoricos(busca);
         }
 
         // Inicializa exibindo a Capa Principal
