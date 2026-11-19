@@ -2203,8 +2203,8 @@
                         const item = recursos.data.find(recurso => recurso.id === botao.dataset.baixarRecurso);
                         if (!item) return;
                         const texto = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
-                        const nome = String(item.title || 'material').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'material';
-                        const arquivo = new Blob(['\\uFEFF', texto], { type: 'text/plain;charset=utf-8' });
+                        const nome = String(item.title || 'material').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'material';
+                        const arquivo = new Blob(['\uFEFF', texto], { type: 'text/plain;charset=utf-8' });
                         const url = URL.createObjectURL(arquivo);
                         const link = document.createElement('a');
                         link.href = url;
