@@ -1163,6 +1163,21 @@
         @media(max-width:650px){.planejador-grid,.planejador-etapas{grid-template-columns:1fr}.planejador-aula{padding:14px}}
         @media print { .planejador-aula { break-inside: avoid; border:0; padding:0; } .planejador-acoes,.planejador-salvos { display:none !important; } .planejador-aula input,.planejador-aula textarea,.planejador-aula select { border:0; border-bottom:1px solid #888; border-radius:0; padding:4px 0; } }
         .guia-professor-bloco h4 { margin: 16px 0 8px; color: #173f63; }
+        .professor-biblioteca { margin: 18px 0 24px; padding: 18px; border: 1px solid #d8e1e9; border-radius: 10px; background: #fff; }
+        .professor-biblioteca h3 { margin-top: 0; }
+        .professor-biblioteca-controles { display: grid; grid-template-columns: minmax(0,2fr) minmax(180px,1fr); gap: 12px; align-items: end; }
+        .professor-campo { display: flex; flex-direction: column; gap: 6px; margin: 9px 0; color: #29445f; font-weight: 700; font-size: .92rem; }
+        .professor-campo input,.professor-campo select { width: 100%; min-width: 0; padding: 10px 11px; border: 1px solid #cbd6e0; border-radius: 6px; background: #fff; color: #26394b; font: 400 .95rem Inter,sans-serif; }
+        .professor-biblioteca-info { margin: 7px 0 12px; color: #536174; font-size: .9rem; }
+        .professor-recursos-lista { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,280px),1fr)); gap: 12px; }
+        .professor-recurso { min-width: 0; padding: 12px 14px; border: 1px solid #e1e7ed; border-radius: 8px; background: #f9fbfc; }
+        .professor-recurso summary { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; color: #173f63; font-weight: 700; cursor: pointer; }
+        .professor-recurso-categoria { padding: 3px 8px; border-radius: 999px; background: #e8eef4; color: #29445f; font-size: .75rem; font-weight: 600; }
+        .professor-recurso-descricao { margin: 10px 0 6px; color: #465568; line-height: 1.5; overflow-wrap: anywhere; }
+        .professor-recurso-conteudo { max-width: 100%; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; color: #26394b; font: .86rem/1.5 ui-monospace,monospace; }
+        .professor-recurso-vazio { grid-column: 1/-1; padding: 16px; border: 1px dashed #cbd6e0; border-radius: 8px; color: #536174; }
+        @media(max-width:650px) { .professor-biblioteca { padding: 13px; } .professor-biblioteca-controles { grid-template-columns: 1fr; } }
+
     
         .professor-recuperacao { margin-top: 1rem; padding: 1rem; border: 1px solid var(--borda, #cbd5e1); border-radius: 12px; background: var(--fundo-card, #f8fafc); }
         .professor-recuperacao[hidden] { display: none !important; }
@@ -1933,8 +1948,22 @@
                     <h3>Bem-vindo(a), ${escaparTextoProfessor(usuario.email)}</h3>
                     <p>Seu acesso foi validado pelo Supabase. Os materiais abaixo são carregados somente após a autorização da conta.</p>
                     <div class="ficha-acoes"><button class="ficha-botao-secundario" type="button" id="professor-sair">Sair</button></div>
-                    <h3>Materiais de apoio</h3>
-                    <div id="professor-recursos"></div>
+                    <section class="professor-biblioteca" aria-labelledby="titulo-professor-biblioteca">
+                        <h3 id="titulo-professor-biblioteca">Biblioteca de materiais de apoio</h3>
+                        <p>Pesquise materiais pelo título ou conteúdo e filtre pela categoria. Esta biblioteca é exclusiva da Área do Professor.</p>
+                        <div class="professor-biblioteca-controles">
+                            <label class="professor-campo" for="professor-recurso-busca">Buscar material
+                                <input id="professor-recurso-busca" type="search" maxlength="120" placeholder="Digite um título ou palavra-chave">
+                            </label>
+                            <label class="professor-campo" for="professor-recurso-categoria">Categoria
+                                <select id="professor-recurso-categoria">
+                                    <option value="">Todas as categorias</option>
+                                </select>
+                            </label>
+                        </div>
+                        <p id="professor-recursos-info" class="professor-biblioteca-info" aria-live="polite"></p>
+                        <div id="professor-recursos" class="professor-recursos-lista"></div>
+                    </section>
                     <h3>Gabaritos e orientações de correção</h3>
                     <div id="professor-gabaritos"></div>
                     <section class="planejador-aula" aria-labelledby="titulo-planejador-aula">
@@ -2010,11 +2039,64 @@
             await carregarPlanejamentosProfessor(usuario);
             const recursosEl = document.getElementById('professor-recursos');
             const gabaritosEl = document.getElementById('professor-gabaritos');
-            recursosEl.innerHTML = recursos.data.length ? recursos.data.map(item => `
-                <details class="guia-professor-bloco">
-                    <summary>${escaparTextoProfessor(item.title)}</summary>
-                    <pre class="professor-json">${escaparTextoProfessor(JSON.stringify(item.content, null, 2))}</pre>
-                </details>`).join('') : '<p>Nenhum material reservado foi cadastrado ainda.</p>';
+            const buscaRecurso = document.getElementById('professor-recurso-busca');
+            const filtroCategoriaRecurso = document.getElementById('professor-recurso-categoria');
+            const infoRecursos = document.getElementById('professor-recursos-info');
+            const tipoRecurso = item => String(item.resource_type || 'outros').trim() || 'outros';
+            const nomeCategoriaRecurso = tipo => tipo.replace(/[-_]+/g, ' ').split(' ').filter(Boolean).map(palavra => palavra.charAt(0).toLocaleUpperCase('pt-BR') + palavra.slice(1)).join(' ');
+            const textoBuscaRecurso = item => {
+                const conteudo = item.content;
+                const partes = [item.title, item.resource_type];
+                if (typeof conteudo === 'string') partes.push(conteudo);
+                else if (conteudo && typeof conteudo === 'object') partes.push(JSON.stringify(conteudo));
+                return partes.join(' ').toLocaleLowerCase('pt-BR');
+            };
+            const descricaoRecurso = conteudo => {
+                if (typeof conteudo === 'string') return conteudo.slice(0, 260);
+                if (!conteudo || typeof conteudo !== 'object') return '';
+                const campos = ['descricao','description','resumo','summary','objetivo','orientacao','texto','text'];
+                const campo = campos.find(chave => typeof conteudo[chave] === 'string' && conteudo[chave].trim());
+                return campo ? conteudo[campo].trim().slice(0, 260) : '';
+            };
+            const categoriasRecursos = [...new Set(recursos.data.map(tipoRecurso))].sort((a,b) => nomeCategoriaRecurso(a).localeCompare(nomeCategoriaRecurso(b), 'pt-BR'));
+            filtroCategoriaRecurso.innerHTML = '<option value="">Todas as categorias</option>' + categoriasRecursos.map(tipo =>
+                '<option value="' + escaparTextoProfessor(tipo) + '">' + escaparTextoProfessor(nomeCategoriaRecurso(tipo)) + '</option>'
+            ).join('');
+            const renderizarRecursos = () => {
+                const termo = (buscaRecurso.value || '').trim().toLocaleLowerCase('pt-BR');
+                const categoria = filtroCategoriaRecurso.value;
+                const filtrados = recursos.data.filter(item =>
+                    (!categoria || tipoRecurso(item) === categoria) && (!termo || textoBuscaRecurso(item).includes(termo))
+                ).sort((a,b) => {
+                    const porCategoria = nomeCategoriaRecurso(tipoRecurso(a)).localeCompare(nomeCategoriaRecurso(tipoRecurso(b)), 'pt-BR');
+                    return porCategoria || String(a.title || '').localeCompare(String(b.title || ''), 'pt-BR');
+                });
+                infoRecursos.textContent = filtrados.length + ' de ' + recursos.data.length +
+                    (recursos.data.length === 1 ? ' material disponível' : ' materiais disponíveis');
+                if (!filtrados.length) {
+                    recursosEl.innerHTML = '<p class="professor-recurso-vazio">' +
+                        (recursos.data.length ? 'Nenhum material corresponde à busca e ao filtro selecionados.' : 'Nenhum material reservado foi cadastrado ainda.') +
+                        '</p>';
+                    return;
+                }
+                recursosEl.innerHTML = filtrados.map(item => {
+                    const categoriaNome = nomeCategoriaRecurso(tipoRecurso(item));
+                    const descricao = descricaoRecurso(item.content);
+                    const conteudo = typeof item.content === 'string' ? item.content : JSON.stringify(item.content ?? {}, null, 2);
+                    return `
+                        <details class="professor-recurso">
+                            <summary>
+                                <span>${escaparTextoProfessor(item.title || 'Material sem título')}</span>
+                                <span class="professor-recurso-categoria">${escaparTextoProfessor(categoriaNome)}</span>
+                            </summary>
+                            <p class="professor-recurso-descricao">${escaparTextoProfessor(descricao || 'Abra o material para consultar seu conteúdo.')}</p>
+                            <pre class="professor-recurso-conteudo">${escaparTextoProfessor(conteudo)}</pre>
+                        </details>`;
+                }).join('');
+            };
+            buscaRecurso.oninput = renderizarRecursos;
+            filtroCategoriaRecurso.onchange = renderizarRecursos;
+            renderizarRecursos();
             gabaritosEl.innerHTML = gabaritos.data.length ? gabaritos.data.map(item => {
                 const atividade = bancoAtividades.find(atividadeBanco => atividadeBanco.id === item.module_slug);
                 const respostas = Array.isArray(item.expected_answers) ? item.expected_answers : [];
