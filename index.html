@@ -1163,6 +1163,17 @@
         @media(max-width:650px){.planejador-grid,.planejador-etapas{grid-template-columns:1fr}.planejador-aula{padding:14px}}
         @media print { .planejador-aula { break-inside: avoid; border:0; padding:0; } .planejador-acoes,.planejador-salvos { display:none !important; } .planejador-aula input,.planejador-aula textarea,.planejador-aula select { border:0; border-bottom:1px solid #888; border-radius:0; padding:4px 0; } }
         .guia-professor-bloco h4 { margin: 16px 0 8px; color: #173f63; }
+
+        .professor-navegacao { display:flex; flex-wrap:wrap; gap:9px; margin:18px 0 22px; padding:10px; border:1px solid #d8e1e9; border-radius:10px; background:#f7f9fb; }
+        .professor-navegacao a { display:inline-flex; align-items:center; min-height:42px; padding:9px 15px; border:1px solid #cbd6e0; border-radius:7px; background:#fff; color:#173f63; font-weight:700; text-decoration:none; }
+        .professor-navegacao a:hover { background:#edf3f8; border-color:#8299ae; }
+        .professor-navegacao a:focus-visible { outline:3px solid rgba(37,99,235,.3); outline-offset:2px; }
+        .professor-painel { scroll-margin-top:18px; }
+        .professor-painel:target { outline:2px solid rgba(177,138,74,.45); outline-offset:4px; }
+        .professor-painel-gabaritos { margin:18px 0 24px; padding:18px; border:1px solid #d8e1e9; border-radius:10px; background:#fff; }
+        .professor-painel-gabaritos > h3 { margin:0 0 14px; color:#173f63; }
+        @media(max-width:560px) { .professor-navegacao { display:grid; grid-template-columns:1fr; } .professor-navegacao a { justify-content:center; } }
+        @media print { .professor-navegacao { display:none !important; } }
         .professor-biblioteca { margin: 18px 0 24px; padding: 18px; border: 1px solid #d8e1e9; border-radius: 10px; background: #fff; }
         .professor-biblioteca h3 { margin-top: 0; }
         .professor-biblioteca-controles { display: grid; grid-template-columns: minmax(0,2fr) minmax(180px,1fr); gap: 12px; align-items: end; }
@@ -1964,7 +1975,12 @@
                     <h3>Bem-vindo(a), ${escaparTextoProfessor(usuario.email)}</h3>
                     <p>Seu acesso foi validado pelo Supabase. Os materiais abaixo são carregados somente após a autorização da conta.</p>
                     <div class="ficha-acoes"><button class="ficha-botao-secundario" type="button" id="professor-sair">Sair</button></div>
-                    <section class="professor-biblioteca" aria-labelledby="titulo-professor-biblioteca">
+                    <nav class="professor-navegacao" aria-label="Navegação da Área do Professor">
+                        <a href="#professor-painel-biblioteca">Biblioteca</a>
+                        <a href="#professor-painel-gabaritos">Gabaritos</a>
+                        <a href="#professor-painel-planejador">Planejador de aulas</a>
+                    </nav>
+                    <section id="professor-painel-biblioteca" class="professor-biblioteca professor-painel" aria-labelledby="titulo-professor-biblioteca" tabindex="-1">
                         <h3 id="titulo-professor-biblioteca">Biblioteca de materiais de apoio</h3>
                         <p>Pesquise materiais pelo título ou conteúdo e filtre pela categoria. Esta biblioteca é exclusiva da Área do Professor.</p>
                         <div class="professor-biblioteca-controles">
@@ -2006,9 +2022,11 @@
                         <h4>Materiais cadastrados</h4>
                         <div id="admin-recursos-lista" class="professor-admin-lista"></div>
                     </section>` : ''}
-                    <h3>Gabaritos e orientações de correção</h3>
-                    <div id="professor-gabaritos"></div>
-                    <section class="planejador-aula" aria-labelledby="titulo-planejador-aula">
+                    <section id="professor-painel-gabaritos" class="professor-painel professor-painel-gabaritos" aria-labelledby="titulo-painel-gabaritos" tabindex="-1">
+                        <h3 id="titulo-painel-gabaritos">Gabaritos e orientações de correção</h3>
+                        <div id="professor-gabaritos"></div>
+                    </section>
+                    <section id="professor-painel-planejador" class="planejador-aula professor-painel" aria-labelledby="titulo-planejador-aula" tabindex="-1">
                         <h3 id="titulo-planejador-aula">Planejador de aulas</h3>
                         <p>Monte, salve e consulte seus planejamentos. Os registros ficam vinculados à sua conta e só podem ser acessados por você.</p>
                         <div class="planejador-salvos">
